@@ -153,7 +153,9 @@ extra_css:
 exclude_docs: |
   **/image-prompt*.md
   **/image-prompts*.md
-  **/cover-prompt.md
+  **/cover-prompt*.md
+  **/cover-image-prompt*.md
+  **/character-sheet*.md
   **/TODO.md
   # Remove the next line (and add mascot-test.md to the nav) once the mascot PNGs exist:
   learning-graph/mascot-test.md
