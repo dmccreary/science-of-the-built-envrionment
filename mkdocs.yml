@@ -38,8 +38,27 @@ nav:
 
   - Chapters:
       - List of Chapters: chapters/index.md
-      # Add chapter entries here as content is generated, e.g.:
-      # - 1. Introduction: chapters/01-introduction/index.md
+      - 1. Introduction to the Built Environment and Construction Terminology: chapters/01-intro-terminology/index.md
+      - 2. The Design and Construction Process: chapters/02-design-construction-process/index.md
+      - 3. Forces, Heat, and the Physics of Buildings: chapters/03-forces-heat-physics/index.md
+      - 4. Moisture, Air Movement, and Thermal Comfort: chapters/04-moisture-air-comfort/index.md
+      - 5. Properties of Building Materials: chapters/05-material-properties/index.md
+      - 6. Structural Loads and Load Paths: chapters/06-structural-loads/index.md
+      - 7. Wood and Steel Framing: chapters/07-wood-steel-framing/index.md
+      - 8. Concrete and Masonry: chapters/08-concrete-masonry/index.md
+      - 9. Site Work, Soils, and Groundwater: chapters/09-site-soils/index.md
+      - 10. Foundation Systems: chapters/10-foundation-systems/index.md
+      - 11. Enclosure Control Layers and Insulation: chapters/11-enclosure-insulation/index.md
+      - 12. Cladding, Windows, Doors, and Air Sealing: chapters/12-cladding-windows-air-sealing/index.md
+      - 13. Roof Assemblies: chapters/13-roof-assemblies/index.md
+      - 14. HVAC, Plumbing, and Fire Protection Systems: chapters/14-hvac-plumbing-fire/index.md
+      - 15. Electrical Fundamentals and Building Service: chapters/15-electrical-fundamentals/index.md
+      - 16. Electrical Distribution, Lighting, and Design Team Coordination: chapters/16-electrical-distribution-design/index.md
+      - 17. Building Codes, Permits, and Enforcement: chapters/17-building-codes-permits/index.md
+      - 18. Fire Protection and Life Safety Requirements: chapters/18-fire-life-safety/index.md
+      - 19. Energy Efficiency and High-Performance Buildings: chapters/19-energy-efficiency/index.md
+      - 20. Sustainable Building Materials: chapters/20-sustainable-materials/index.md
+      - 21. Durability, Maintenance, and Building Failure: chapters/21-durability-failure/index.md
 
   - Learning Graph:
       - Introduction: learning-graph/index.md
@@ -124,6 +143,7 @@ markdown_extensions:
 # Custom CSS — file is created by init-textbook
 extra_css:
   - css/extra.css
+  - css/mascot.css
 
 # Custom JavaScript — uncomment once a corresponding file exists
 # extra_javascript:
@@ -135,6 +155,8 @@ exclude_docs: |
   **/image-prompts*.md
   **/cover-prompt.md
   **/TODO.md
+  # Remove the next line (and add mascot-test.md to the nav) once the mascot PNGs exist:
+  learning-graph/mascot-test.md
 
 # Rebuild on changes during `mkdocs serve`
 watch:

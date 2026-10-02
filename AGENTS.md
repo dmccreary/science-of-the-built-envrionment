@@ -129,3 +129,7 @@ book-installer                site features (mascot, graph viewer, analytics)
 
 `docs/course-description.md` is the seed for everything downstream. If it is
 still the scaffold template, fill it in before running the generators.
+
+Before generating content for the chapters, lesson plans, quizzes, FAQ or other student-facing
+text, read the `CONTENT-GENERATION-GUIDE.md` file. Note that the teacher guide, instructor guide,
+or other instructor-facing content does not use the mascot described in CONTENT-GENERATION-GUIDE.md.
