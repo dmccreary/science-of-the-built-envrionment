@@ -1,58 +1,65 @@
-"""MkDocs hook that overrides og:image and twitter:image with a page's
-`image:` frontmatter value.
+"""MkDocs hook that injects and overrides Open Graph and Twitter Card metadata.
 
-Behavior:
-    - If the page has `image:` in its frontmatter, og:image and
-      twitter:image are set to site_url + image (absolute URL).
-    - If the page has no `image:`, the hook is a no-op. All meta tags
-      emitted by mkdocs-material (and by the social plugin, if enabled)
-      pass through unchanged.
-
-The cover image (img/cover.png) is therefore used ONLY for pages that
-declare it explicitly -- typically docs/index.md. There is no site-wide
-default. When the mkdocs-material[imaging] social plugin is enabled, its
-auto-generated /assets/images/social/<page>.png card is what crawlers see
-for every page that does NOT declare `image:`. A page that DOES declare
-`image:` always wins over the generated card.
-
-Loaded via the `hooks:` entry in mkdocs.yml, not as a plugin -- this
-avoids collisions with other projects that also install a package
-called `social_override` or a top-level module called `plugins`.
+Provides Cairo-free social media previews by injecting og:title,
+og:description, og:image, og:type, og:url, and twitter:* tags using each
+page's frontmatter (falling back to site-wide configuration).
 """
 
+import html as html_lib
 import re
 
 
+def _set_meta_tag(html: str, prop: str, content: str, is_property: bool = True) -> str:
+    """Insert or replace a meta tag in the HTML head."""
+    if not content:
+        return html
+    attr_name = "property" if is_property else "name"
+    escaped_content = html_lib.escape(content, quote=True)
+    new_tag = f'<meta {attr_name}="{prop}" content="{escaped_content}">'
+    pattern = re.compile(
+        rf'<meta\s+(?:property|name)="{re.escape(prop)}"\s+content="[^"]*"[^>]*>'
+    )
+    if pattern.search(html):
+        return pattern.sub(new_tag, html, count=1)
+    return html.replace("</head>", f"  {new_tag}\n</head>", 1)
+
+
 def on_post_page(html, page, config, **kwargs):
-    image = (page.meta or {}).get("image")
-    if not image:
-        return html
+    site_url = (config.get("site_url") or "").rstrip("/") + "/"
+    meta = page.meta or {}
 
-    site_url = config.get("site_url") or ""
-    if not site_url:
-        return html
+    # Title
+    title = meta.get("title") or page.title or config.get("site_name") or ""
+    # Ensure title is at least 40 chars for optimal social unfurls if index page
+    if (page.url == "" or page.url == "index.html") and len(title) < 40 and config.get("site_name"):
+        title = f"{title} | Intelligent Textbook"
 
-    if image.startswith(("http://", "https://")):
-        image_url = image
-    else:
-        image_url = site_url.rstrip("/") + "/" + image.lstrip("/")
+    html = _set_meta_tag(html, "og:title", title, is_property=True)
+    html = _set_meta_tag(html, "twitter:title", title, is_property=False)
 
-    og_tag = f'<meta property="og:image" content="{image_url}">'
-    og_pattern = re.compile(
-        r'<meta\s+property="og:image"\s+content="[^"]*"[^>]*>'
-    )
-    if og_pattern.search(html):
-        html = og_pattern.sub(og_tag, html, count=1)
-    else:
-        html = html.replace("</head>", f"  {og_tag}\n</head>", 1)
+    # Description
+    description = meta.get("description") or config.get("site_description") or ""
+    html = _set_meta_tag(html, "og:description", description, is_property=True)
+    html = _set_meta_tag(html, "twitter:description", description, is_property=False)
 
-    tw_tag = f'<meta name="twitter:image" content="{image_url}">'
-    tw_pattern = re.compile(
-        r'<meta\s+(?:property|name)="twitter:image"\s+content="[^"]*"[^>]*>'
-    )
-    if tw_pattern.search(html):
-        html = tw_pattern.sub(tw_tag, html, count=1)
-    else:
-        html = html.replace("</head>", f"  {tw_tag}\n</head>", 1)
+    # Type & URL
+    html = _set_meta_tag(html, "og:type", "website", is_property=True)
+    page_url = site_url + (page.url or "").lstrip("/")
+    html = _set_meta_tag(html, "og:url", page_url, is_property=True)
+    html = _set_meta_tag(html, "twitter:card", "summary_large_image", is_property=False)
+
+    # Image
+    image = meta.get("image")
+    if not image and (page.url == "" or page.url == "index.html"):
+        image = "img/cover.png"
+
+    if image:
+        if image.startswith(("http://", "https://")):
+            image_url = image
+        else:
+            image_url = site_url + image.lstrip("/")
+
+        html = _set_meta_tag(html, "og:image", image_url, is_property=True)
+        html = _set_meta_tag(html, "twitter:image", image_url, is_property=False)
 
     return html
