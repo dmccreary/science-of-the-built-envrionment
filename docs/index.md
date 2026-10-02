@@ -1,0 +1,40 @@
+---
+title: 'The Science of the Built Environment'
+description: 'An interactive intelligent textbook on the science of the built environment: how buildings, materials, energy, air, light, and sound shape human health, comfort, and sustainability.'
+image: img/cover.png
+---
+
+# The Science of the Built Environment
+
+<figure markdown>
+  ![The Science of the Built Environment cover](./img/cover.png){ width="100%" }
+</figure>
+
+An interactive intelligent textbook on the science of the built environment: how buildings, materials, energy, air, light, and sound shape human health, comfort, and sustainability.
+
+## Getting Started
+
+This is an intelligent textbook built with MkDocs Material. Use the navigation
+sidebar on the left to explore chapters, the learning graph, MicroSims, and
+supporting reference content.
+
+## Front Matter
+
+- **About** — audience, prerequisites, and how to read the book
+- **Course Description** — the seed document used to generate the learning graph
+
+## Chapters
+
+The main body of the book lives under [Chapters](chapters/index.md). Each
+chapter has its own folder with a two-digit prefix (e.g. `01-introduction`).
+
+## Learning Graph
+
+The [Learning Graph](learning-graph/index.md) shows how concepts depend on each
+other. Concepts are introduced in dependency order so prerequisites are always
+covered before they are used.
+
+## MicroSims
+
+Interactive simulations live under [MicroSims](sims/index.md). Each MicroSim
+focuses on one concept and is embeddable as an iframe inside chapter content.
