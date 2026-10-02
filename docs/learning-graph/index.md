@@ -1,5 +1,9 @@
 # Learning Graph
 
+[Open Learning Graph Viewer Fullscreen](../sims/graph-viewer/main.html){ .md-button .md-button--primary }
+
+<iframe src="../sims/graph-viewer/main.html" width="100%" height="600px" frameborder="0"></iframe>
+
 The learning graph captures how concepts in The Science of the Built Environment depend on each
 other. It is a Directed Acyclic Graph (DAG) — every concept has a path back to
 one or more foundational concepts that have no prerequisites.
