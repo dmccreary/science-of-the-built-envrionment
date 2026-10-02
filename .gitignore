@@ -22,3 +22,6 @@ Thumbs.db
 .vscode/
 .idea/
 ~$*
+
+# Full-size mascot originals stay out of git; commit only the trimmed ~400px versions
+docs/img/mascot/originals/
