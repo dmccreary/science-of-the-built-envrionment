@@ -1,0 +1,381 @@
+ConceptID,ConceptLabel,Dependencies,TaxonomyID
+1,Built Environment,,FOUND
+2,Building,1,FOUND
+3,Construction Industry,1,FOUND
+4,Building Materials,2,FOUND
+5,Building Systems,2,FOUND
+6,Building Types,2,FOUND
+7,Residential Construction,6,FOUND
+8,Commercial Construction,6,FOUND
+9,Industrial Construction,6,FOUND
+10,Institutional Construction,6,FOUND
+11,Construction Terminology,3,FOUND
+12,Units of Measurement,,FOUND
+13,Scale and Dimensions,12,FOUND
+14,Construction Drawings,11|13,FOUND
+15,Plans,14,FOUND
+16,Elevations,14,FOUND
+17,Sections,14,FOUND
+18,Details,14,FOUND
+19,Specifications,11,FOUND
+20,Schedules,14,FOUND
+21,Symbols and Abbreviations,11,FOUND
+22,Building Science,4|5,FOUND
+23,Design Process,2|3,PROC
+24,Construction Process,3,PROC
+25,Project Phases,23|24,PROC
+26,Programming,25,PROC
+27,Schematic Design,26,PROC
+28,Design Development,27,PROC
+29,Construction Documents,28|14|19,PROC
+30,Bidding and Procurement,29,PROC
+31,Construction Administration,30,PROC
+32,Commissioning,31|5,PROC
+33,Occupancy and Closeout,32,PROC
+34,Project Owner,25,PROC
+35,Architect,23,PROC
+36,Structural Engineer,23|133,PROC
+37,Mechanical Engineer,23|244,PROC
+38,Electrical Designer,23|271,PROC
+39,General Contractor,24,PROC
+40,Subcontractor,39,PROC
+41,Building Official,25|307,PROC
+42,Design-Bid-Build,25|30,PROC
+43,Design-Build,42,PROC
+44,Construction Manager at Risk,42,PROC
+45,Integrated Project Delivery,43|44,PROC
+46,Submittals,31|19,PROC
+47,Requests for Information,31,PROC
+48,Change Orders,31,PROC
+49,Construction Sequencing,24|25,PROC
+50,Critical Path,49,PROC
+51,Building Information Modeling,14|52,PROC
+52,Interdisciplinary Coordination,35|36|37|38,PROC
+53,Inspection and Testing,31|41,PROC
+54,Forces,,PHYS
+55,Stress,54,PHYS
+56,Strain,55,PHYS
+57,Equilibrium,54,PHYS
+58,Heat,,PHYS
+59,Heat Transfer,58,PHYS
+60,Conduction,59,PHYS
+61,Convection,59,PHYS
+62,Radiation,59,PHYS
+63,Thermal Resistance,60,PHYS
+64,R-Value,63,PHYS
+65,U-Value,64,PHYS
+66,Thermal Bridging,60|64,PHYS
+67,Thermal Mass,58,PHYS
+68,Moisture,,PHYS
+69,Humidity,68,PHYS
+70,Relative Humidity,69|58,PHYS
+71,Dew Point,70,PHYS
+72,Condensation,71,PHYS
+73,Vapor Diffusion,69,PHYS
+74,Air Pressure Differences,54,PHYS
+75,Stack Effect,74|61,PHYS
+76,Air Leakage,74,PHYS
+77,Capillary Action,68,PHYS
+78,Sound Transmission,54,PHYS
+79,Daylight,62,PHYS
+80,Thermal Comfort,59|70,PHYS
+81,Psychrometric Chart,70|71,PHYS
+82,Material Properties,4,MATP
+83,Strength,82|55,MATP
+84,Compressive Strength,83,MATP
+85,Tensile Strength,83,MATP
+86,Shear Strength,83,MATP
+87,Stiffness,82|56,MATP
+88,Modulus of Elasticity,87,MATP
+89,Ductility,56|82,MATP
+90,Brittleness,89,MATP
+91,Toughness,83|89,MATP
+92,Density,82,MATP
+93,Thermal Expansion,82|58,MATP
+94,Permeability,82|68,MATP
+95,Porosity,82,MATP
+96,Fire Resistance,82|58,MATP
+97,Combustibility,96,MATP
+98,Weathering,82|68,MATP
+99,Corrosion,82|68,MATP
+100,Creep and Shrinkage,82|56,MATP
+101,Material Testing,82,MATP
+102,ASTM Standards,101,MATP
+103,Material Selection,82|101,MATP
+104,Site Analysis,2|23,SITE
+105,Site Preparation,104|24,SITE
+106,Excavation,105,SITE
+107,Grading,105,SITE
+108,Soil Types,104,SITE
+109,Soil Bearing Capacity,108|83,SITE
+110,Soil Testing,108,SITE
+111,Groundwater,108|68,SITE
+112,Frost Depth,108|59,SITE
+113,Frost Heave,112|111,SITE
+114,Site Drainage,107|111,SITE
+115,Foundation Systems,109|133,SITE
+116,Shallow Foundations,115,SITE
+117,Spread Footings,116,SITE
+118,Continuous Footings,116,SITE
+119,Footing Reinforcement,117|182,SITE
+120,Mat Foundations,116,SITE
+121,Deep Foundations,115,SITE
+122,Piles,121,SITE
+123,Drilled Piers,121,SITE
+124,Foundation Walls,118|106,SITE
+125,Basements,124,SITE
+126,Crawl Spaces,124,SITE
+127,Slab-on-Grade,116|187,SITE
+128,Retaining Walls,108|124,SITE
+129,Foundation Waterproofing,124|199,SITE
+130,Foundation Drainage,124|114,SITE
+131,Radon Mitigation,127|76|125,SITE
+132,Frost-Protected Foundations,112|116|213,SITE
+133,Structural System,54|57,STRC
+134,Load Path,133,STRC
+135,Dead Loads,133,STRC
+136,Live Loads,133,STRC
+137,Snow Loads,136,STRC
+138,Wind Loads,133|74,STRC
+139,Seismic Loads,133,STRC
+140,Load Combinations,135|136|137|138|139,STRC
+141,Tributary Area,134|135,STRC
+142,Gravity Load System,134|135|136,STRC
+143,Lateral Load System,134|138|139,STRC
+144,Beams,142|55,STRC
+145,Columns,142|84,STRC
+146,Girders,144,STRC
+147,Joists,144,STRC
+148,Trusses,144|145,STRC
+149,Bearing Walls,142,STRC
+150,Shear Walls,143,STRC
+151,Bracing,143,STRC
+152,Moment Frames,143|144|145,STRC
+153,Diaphragms,143,STRC
+154,Structural Connections,134,STRC
+155,Deflection,144|87,STRC
+156,Wood Framing,133|157,STRC
+157,Lumber,4,STRC
+158,Engineered Wood Products,157,STRC
+159,Glulam,158,STRC
+160,Cross-Laminated Timber,158,STRC
+161,Plywood and OSB,158,STRC
+162,Wood Moisture Content,157|68,STRC
+163,Platform Framing,156,STRC
+164,Wall Studs,163,STRC
+165,Headers,164|144,STRC
+166,Floor Systems,147|163,STRC
+167,Roof Framing,148|156,STRC
+168,Structural Steel,133|4,STRC
+169,Steel Shapes,168,STRC
+170,Bolted Connections,154|168,STRC
+171,Welded Connections,154|168,STRC
+172,Light-Gauge Steel Framing,168|164,STRC
+173,Steel Decking,169|153,STRC
+174,Concrete,4|84,STRC
+175,Cement,174,STRC
+176,Aggregates,174,STRC
+177,Water-Cement Ratio,175|176,STRC
+178,Concrete Mix Design,177,STRC
+179,Concrete Placement,178|181,STRC
+180,Curing,179,STRC
+181,Formwork,174,STRC
+182,Reinforcing Steel,174|85,STRC
+183,Reinforced Concrete,174|182,STRC
+184,Prestressed Concrete,183,STRC
+185,Precast Concrete,183,STRC
+186,Cast-in-Place Concrete,179|183,STRC
+187,Concrete Slabs,186,STRC
+188,Masonry,4,STRC
+189,Brick,188,STRC
+190,Concrete Masonry Units,188|174,STRC
+191,Mortar,188|175,STRC
+192,Grout,191,STRC
+193,Reinforced Masonry,190|192|182,STRC
+194,Stone Masonry,188,STRC
+195,Control Joints,174|100,STRC
+196,Expansion Joints,93|133,STRC
+197,Building Enclosure,2|59|68,ENCL
+198,Control Layers,197,ENCL
+199,Water Control Layer,198|68,ENCL
+200,Air Control Layer,198|76,ENCL
+201,Vapor Control Layer,198|73,ENCL
+202,Thermal Control Layer,198|63,ENCL
+203,Wall Assemblies,197|198,ENCL
+204,Wall Sheathing,203|161,ENCL
+205,Weather-Resistive Barrier,199|204,ENCL
+206,Air Barrier,200|203,ENCL
+207,Vapor Retarder,201|203,ENCL
+208,Insulation,202|64,ENCL
+209,Fiberglass Insulation,208,ENCL
+210,Mineral Wool Insulation,208,ENCL
+211,Cellulose Insulation,208,ENCL
+212,Spray Foam Insulation,208|206,ENCL
+213,Rigid Foam Insulation,208,ENCL
+214,Continuous Insulation,208|66,ENCL
+215,Cladding,203|205,ENCL
+216,Brick Veneer,215|189,ENCL
+217,Siding,215,ENCL
+218,Stucco,215|175,ENCL
+219,Metal Panels,215,ENCL
+220,Rainscreen,215|77|199,ENCL
+221,Curtain Wall,215|235|154,ENCL
+222,Flashing,199|215,ENCL
+223,Sealants,200|93,ENCL
+224,Roof Assemblies,197|198,ENCL
+225,Low-Slope Roofs,224,ENCL
+226,Steep-Slope Roofs,224|167,ENCL
+227,Roofing Membranes,225,ENCL
+228,Shingles,226,ENCL
+229,Metal Roofing,226,ENCL
+230,Roof Drainage,224|68,ENCL
+231,Attic Ventilation,226|75,ENCL
+232,Ice Dams,231|208|59,ENCL
+233,Green Roofs,225|230,ENCL
+234,Windows,197|235,ENCL
+235,Glazing,197|62,ENCL
+236,Low-E Coatings,235|62,ENCL
+237,Window U-Factor,234|65,ENCL
+238,Solar Heat Gain Coefficient,234|62,ENCL
+239,Doors,197,ENCL
+240,Air Sealing,206|76|223,ENCL
+241,Blower Door Test,240,ENCL
+242,Gypsum Board,4|96,ENCL
+243,Interior Finishes,242,ENCL
+244,HVAC Systems,5|59,MECH
+245,Heating Systems,244,MECH
+246,Furnace,245,MECH
+247,Boiler,245,MECH
+248,Heat Pump,245|249,MECH
+249,Cooling Systems,244,MECH
+250,Air Conditioning,249|81,MECH
+251,Ventilation,244|74,MECH
+252,Ductwork,251,MECH
+253,Air Distribution,252,MECH
+254,Mechanical Ventilation,251,MECH
+255,Heat Recovery Ventilator,254|59,MECH
+256,Indoor Air Quality,251|69,MECH
+257,Radiant Heating,245|62,MECH
+258,Heating and Cooling Loads,244|65|80,MECH
+259,Building Automation,244|271,MECH
+260,Plumbing Systems,5,MECH
+261,Water Supply,260,MECH
+262,Drain-Waste-Vent System,260,MECH
+263,Plumbing Fixtures,261|262,MECH
+264,Water Heating,261|58,MECH
+265,Stormwater Management,230|114|260,MECH
+266,Fire Protection,5|96,MECH
+267,Sprinkler Systems,266|261,MECH
+268,Fire Alarm Systems,266|299,MECH
+269,Smoke Control,266|251,MECH
+270,Elevators,5|271,MECH
+271,Electrical Systems,5,ELEC
+272,Electricity,,ELEC
+273,Voltage,272,ELEC
+274,Current,272,ELEC
+275,Resistance,273|274,ELEC
+276,Electrical Power,273|274,ELEC
+277,Electrical Energy,276,ELEC
+278,Alternating Current,274,ELEC
+279,Direct Current,274,ELEC
+280,Utility Service,271|278,ELEC
+281,Service Entrance,280,ELEC
+282,Switchgear,281,ELEC
+283,Panelboards,281,ELEC
+284,Transformers,278|280,ELEC
+285,Circuit Breakers,283|274,ELEC
+286,Branch Circuits,283|285,ELEC
+287,Feeders,282|283,ELEC
+288,Conductors,275|271,ELEC
+289,Conduit,288,ELEC
+290,Grounding and Bonding,288|281,ELEC
+291,Electrical Loads,276|271,ELEC
+292,Electrical Load Calculations,291|286,ELEC
+293,Lighting Systems,291|79,ELEC
+294,Lighting Controls,293,ELEC
+295,Receptacles,286,ELEC
+296,Emergency Power,291|329,ELEC
+297,Generators,296,ELEC
+298,Uninterruptible Power Supply,296|279,ELEC
+299,Low-Voltage Systems,271|273,ELEC
+300,Data and Communications,299,ELEC
+301,Electrical Plans,271|15,ELEC
+302,One-Line Diagram,301|287,ELEC
+303,Electrical Design Phases,38|25|301,ELEC
+304,National Electrical Code,271|307,ELEC
+305,Photovoltaic Systems,279|62|271,ELEC
+306,Electric Vehicle Charging,291|286,ELEC
+307,Building Codes,2|3,CODE
+308,Model Codes,307,CODE
+309,International Building Code,308,CODE
+310,Minnesota State Building Code,309,CODE
+311,Minnesota Energy Code,310|349,CODE
+312,Residential Code,308|7,CODE
+313,Fire Code,308|266,CODE
+314,Plumbing Code,308|260,CODE
+315,Mechanical Code,308|244,CODE
+316,Accessibility Standards,307,CODE
+317,Zoning,104|6,CODE
+318,Building Permits,307|29,CODE
+319,Plan Review,318|41,CODE
+320,Code Inspections,319|53,CODE
+321,Certificate of Occupancy,320|33,CODE
+322,Occupancy Classification,309|6,CODE
+323,Construction Types,322|324,CODE
+324,Fire-Resistance Ratings,96|307,CODE
+325,Fire Separations,324,CODE
+326,Means of Egress,322|329,CODE
+327,Travel Distance,326,CODE
+328,Allowable Building Area,323|322,CODE
+329,Life Safety,307|266,CODE
+330,Energy Code Compliance,311|65,CODE
+331,Variances and Appeals,41|333,CODE
+332,Referenced Standards,307|102,CODE
+333,Code Enforcement,41|307,CODE
+334,Sustainability,1,SUST
+335,Sustainable Materials,334|4,SUST
+336,Embodied Carbon,335|348,SUST
+337,Operational Carbon,334|349,SUST
+338,Life-Cycle Assessment,335,SUST
+339,Product Declarations (EPD),338,SUST
+340,Recycled Content,335,SUST
+341,Renewable Materials,335,SUST
+342,Mass Timber,160|341|159,SUST
+343,Local Materials,335,SUST
+344,Material Health,335,SUST
+345,Volatile Organic Compounds,344|256,SUST
+346,Construction Waste,334|24,SUST
+347,Reuse and Salvage,346,SUST
+348,Embodied Energy,338,SUST
+349,Energy Efficiency,334|59|208,SUST
+350,High-Performance Buildings,349|240|214,SUST
+351,Passive House,350|241|255,SUST
+352,Net-Zero Energy,350|305,SUST
+353,LEED Certification,354,SUST
+354,Green Building Rating Systems,334|349,SUST
+355,Passive Solar Design,62|67|334,SUST
+356,Daylighting,79|234|355,SUST
+357,Cool Roofs,227|62|349,SUST
+358,Water Efficiency,334|263,SUST
+359,Life-Cycle Cost,338|364,SUST
+360,Carbon Sequestration,336|341,SUST
+361,Cement Substitutes (SCMs),175|336,SUST
+362,Building Resilience,334|363,SUST
+363,Durability,82|98,DURA
+364,Service Life,363,DURA
+365,Building Maintenance,364,DURA
+366,Preventive Maintenance,365,DURA
+367,Building Failure,363,DURA
+368,Water Intrusion,367|199,DURA
+369,Cracking,367|100,DURA
+370,Settlement,367|109,DURA
+371,Rot and Decay,367|162,DURA
+372,Mold,367|70,DURA
+373,Efflorescence,188|368,DURA
+374,Freeze-Thaw Damage,367|95|368,DURA
+375,Fire Damage,367|96,DURA
+376,Building Forensics,367|101,DURA
+377,Building Assessment,376,DURA
+378,Renovation and Retrofit,377,DURA
+379,Adaptive Reuse,378,DURA
+380,Deconstruction,378|347,DURA
