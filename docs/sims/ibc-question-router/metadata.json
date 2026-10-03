@@ -1,0 +1,23 @@
+{
+  "title": "IBC Question Router",
+  "description": "Students will classify (Bloom Level 2, Understand) a design question into the correct group of International Building Code provisions and will apply (Bloom Level 3, Apply) the occupancy-to-exits chain to calculate an occupant load.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "ibc-question-router",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 17,
+  "chapter_title": "Building Codes, Permits, and Enforcement",
+  "chapter_dir": "17-building-codes-permits",
+  "chapter_rel_dir": "chapters/17-building-codes-permits"
+}

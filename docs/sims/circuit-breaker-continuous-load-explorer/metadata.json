@@ -1,0 +1,23 @@
+{
+  "title": "Circuit Breaker and Continuous Load Explorer",
+  "description": "Students will apply (Bloom Level 3, Apply) the 80 percent rule to decide whether a set of loads can run on a given circuit, and will explain (Bloom Level 2, Understand) why a breaker trips on overload and on short circuit.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "circuit-breaker-continuous-load-explorer",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 15,
+  "chapter_title": "Electrical Fundamentals and Building Service",
+  "chapter_dir": "15-electrical-fundamentals",
+  "chapter_rel_dir": "chapters/15-electrical-fundamentals"
+}

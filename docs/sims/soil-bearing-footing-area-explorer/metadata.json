@@ -1,0 +1,23 @@
+{
+  "title": "Bearing Capacity and Footing Size Explorer",
+  "description": "Students will calculate (Bloom Level 3, Apply) the footing area required for a given load and soil, and will compare (Bloom Level 4, Analyze) how soil type and column load change the footing size.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "soil-bearing-footing-area-explorer",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 9,
+  "chapter_title": "Site Work, Soils, and Groundwater",
+  "chapter_dir": "09-site-soils",
+  "chapter_rel_dir": "chapters/09-site-soils"
+}

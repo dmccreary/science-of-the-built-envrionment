@@ -1,0 +1,23 @@
+{
+  "title": "Egress Time Margin Explorer",
+  "description": "Students will calculate (Bloom Level 3, Apply) the margin between available and required safe egress time and will evaluate (Bloom Level 5, Evaluate) which protective measure most improves the margin in a described scenario.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "egress-time-margin-explorer",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 18,
+  "chapter_title": "Fire Protection and Life Safety Requirements",
+  "chapter_dir": "18-fire-life-safety",
+  "chapter_rel_dir": "chapters/18-fire-life-safety"
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Air Sealing and Blower Door Explorer",
+  "description": "Students will calculate (Bloom Level 3, Apply) ACH50 and estimated natural leakage from a blower door reading, and will evaluate (Bloom Level 5, Evaluate) which leak locations to seal first.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "air-sealing-blower-door-explorer",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 12,
+  "chapter_title": "Cladding, Windows, Doors, and Air Sealing",
+  "chapter_dir": "12-cladding-windows-air-sealing",
+  "chapter_rel_dir": "chapters/12-cladding-windows-air-sealing"
+}

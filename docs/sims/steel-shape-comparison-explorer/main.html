@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- microsim-scaffold-stub -->
+    <title>Steel Shape Comparison Explorer</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            color: #212529;
+        }
+        #container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #1a3a6c;
+        }
+        .placeholder {
+            border: 2px dashed #adb5bd;
+            border-radius: 8px;
+            padding: 40px 20px;
+            text-align: center;
+            color: #6c757d;
+            margin: 20px 0;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .placeholder .badge {
+            display: inline-block;
+            background: #ffc107;
+            color: #212529;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .placeholder h2 {
+            font-size: 18px;
+            color: #495057;
+            margin-bottom: 8px;
+        }
+        .placeholder p {
+            font-size: 14px;
+            max-width: 480px;
+        }
+        .meta {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+            padding-top: 12px;
+        }
+        .meta strong { color: #495057; }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Steel Shape Comparison Explorer</h1>
+        <div class="placeholder">
+            <span class="badge">SCAFFOLD</span>
+            <h2>MicroSim Not Yet Implemented</h2>
+            <p>This MicroSim has been scaffolded from its specification but the
+            interactive content has not been built yet. See the chapter source
+            and the <code>index.md</code> in this directory for the full spec.</p>
+        </div>
+        <div class="meta">
+            <p><strong>Sim ID:</strong> steel-shape-comparison-explorer</p>
+            <p><strong>Library:</strong> p5.js</p>
+            <p><strong>Bloom Level:</strong> TBD</p>
+            <p><strong>Learning Objective:</strong> Students will compare (Bloom Level 4, Analyze) the stiffness, weight, and efficiency of rectangular, wide-flange, and tube cross-sections of equal area, and will explain (Bloom Level 2, Understand) why material far from the neutral axis resists bending most effectively.</p>
+        </div>
+    </div>
+
+    <!--
+    SPECIFICATION (from chapter index.md):
+
+    Type: microsim
+    **sim-id:** steel-shape-comparison-explorer<br/>
+    **Library:** p5.js<br/>
+    **Status:** Specified
+    
+    Learning objective: Students will compare (Bloom Level 4, Analyze) the stiffness, weight, and efficiency of rectangular, wide-flange, and tube cross-sections of equal area, and will explain (Bloom Level 2, Understand) why material far from the neutral axis resists bending most effectively.
+    
+    Visual: Side-by-side drawings of a solid rectangle, a wide-flange I, and a hollow rectangular tube, each with a dashed neutral axis, drawn to scale. Beneath each shape, a bar shows the computed moment of inertia, and a small beam diagram shows the deflection under the same load. The canvas follows the container width with a height of 480 px.
+    
+    Controls: A slider labeled "Cross-sectional area (in²)" (4 to 20) holds the area equal across the three shapes. A slider labeled "Depth (in.)" (4 to 24) changes the depth, and a slider labeled "Flange thickness" changes the I and tube proportions. A drop-down labeled "Orientation" lets the student rotate a rectangular beam between flat and on edge.
+    
+    Interactions: Dragging the sliders redraws the shapes and updates \( I \), weight per foot, and deflection. Hovering over a shape shows a stress diagram with tension above and compression below, shaded in color intensity. Clicking a shape opens an infobox with the designation, typical use, and a one-sentence explanation of why it performs as it does. A "Match the shape" quiz mode names a use, such as a column or a long-span beam, and asks the student to select the shape.
+    
+    Colors: Material is steel gray, tension stress is blue, and compression stress is red. All stresses are also labeled with plus and minus symbols.
+    
+    Implementation: p5.js with DOM sliders and a drop-down, and a responsive canvas.
+    -->
+</body>
+</html>

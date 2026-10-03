@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- microsim-scaffold-stub -->
+    <title>Concrete Composition and Strength Gain Explorer</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            color: #212529;
+        }
+        #container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #1a3a6c;
+        }
+        .placeholder {
+            border: 2px dashed #adb5bd;
+            border-radius: 8px;
+            padding: 40px 20px;
+            text-align: center;
+            color: #6c757d;
+            margin: 20px 0;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .placeholder .badge {
+            display: inline-block;
+            background: #ffc107;
+            color: #212529;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .placeholder h2 {
+            font-size: 18px;
+            color: #495057;
+            margin-bottom: 8px;
+        }
+        .placeholder p {
+            font-size: 14px;
+            max-width: 480px;
+        }
+        .meta {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+            padding-top: 12px;
+        }
+        .meta strong { color: #495057; }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Concrete Composition and Strength Gain Explorer</h1>
+        <div class="placeholder">
+            <span class="badge">SCAFFOLD</span>
+            <h2>MicroSim Not Yet Implemented</h2>
+            <p>This MicroSim has been scaffolded from its specification but the
+            interactive content has not been built yet. See the chapter source
+            and the <code>index.md</code> in this directory for the full spec.</p>
+        </div>
+        <div class="meta">
+            <p><strong>Sim ID:</strong> concrete-composition-strength-gain-explorer</p>
+            <p><strong>Library:</strong> Chart.js</p>
+            <p><strong>Bloom Level:</strong> TBD</p>
+            <p><strong>Learning Objective:</strong> Students will describe (Bloom Level 2, Understand) the approximate volume proportions of the ingredients in concrete, and will predict (Bloom Level 3, Apply) the strength of a 4,000 psi mix at a given age under moist curing and under poor curing.</p>
+        </div>
+    </div>
+
+    <!--
+    SPECIFICATION (from chapter index.md):
+
+    Type: chart
+    **sim-id:** concrete-composition-strength-gain-explorer<br/>
+    **Library:** Chart.js<br/>
+    **Status:** Specified
+    
+    Learning objective: Students will describe (Bloom Level 2, Understand) the approximate volume proportions of the ingredients in concrete, and will predict (Bloom Level 3, Apply) the strength of a 4,000 psi mix at a given age under moist curing and under poor curing.
+    
+    Visual: Two linked charts. On the left, a doughnut chart shows the volumes of aggregates, cement paste, water, and air in one cubic yard of concrete. On the right, a line chart of strength (psi) against age (0 to 28 days) shows the strength-gain curve. The charts are responsive to container width, with a height of 400 px.
+    
+    Controls: A slider labeled "Specified strength f'c (psi)" (3,000 to 6,000) scales the strength curve. A slider labeled "Air content (%)" (0 to 8) changes the air slice of the doughnut chart. A toggle labeled "Curing" switches between "Moist-cured," "Cured 3 days only," and "Not cured." A slider labeled "Age (days)" moves a marker along the curve.
+    
+    Interactions: Hovering over a doughnut slice shows the ingredient, its typical volume range, and its role in one sentence. The marker's readout shows the predicted strength in psi and the percentage of the 28-day value. Selecting "Not cured" flattens the curve after a few days and shows a note explaining why the surface dries and hydration stops. An indicator shows when the concrete is strong enough to strip wall forms, assuming a stripping strength of 1,000 psi.
+    
+    Colors: Aggregates are gray, paste is tan, water is blue, and air is white with an outline. Curves for the three curing conditions use different line styles as well as colors.
+    
+    Implementation: Chart.js with two canvas elements and DOM controls.
+    -->
+</body>
+</html>

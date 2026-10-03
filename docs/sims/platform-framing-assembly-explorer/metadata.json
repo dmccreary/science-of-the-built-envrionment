@@ -1,0 +1,23 @@
+{
+  "title": "Platform Framing Assembly Explorer",
+  "description": "Students will identify (Bloom Level 1, Remember) the components of a platform-framed wall and floor, and will explain (Bloom Level 2, Understand) how each component transfers load and how the platform interrupts the paths of fire and carries cumulative shrinkage.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "platform-framing-assembly-explorer",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 7,
+  "chapter_title": "Wood and Steel Framing",
+  "chapter_dir": "07-wood-steel-framing",
+  "chapter_rel_dir": "chapters/07-wood-steel-framing"
+}

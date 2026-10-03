@@ -1,0 +1,15 @@
+{
+  "sim_id": "heating-system-energy-comparison",
+  "diagram_name": "Heating System Energy Comparison",
+  "chapter_number": 14,
+  "chapter_title": "HVAC, Plumbing, and Fire Protection Systems",
+  "chapter_dir": "14-hvac-plumbing-fire",
+  "chapter_rel_dir": "chapters/14-hvac-plumbing-fire",
+  "library": "Chart.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will compare (Bloom Level 4, Analyze) the energy input needed by an 80 percent furnace, a 95 percent furnace, electric resistance, and a heat pump to deliver the same heat, and will explain (Bloom Level 2, Understand) why heat pump COP changes with outdoor temperature.",
+  "completion_status": "specified",
+  "extracted_date": "2026-10-03",
+  "specification": "Type: chart\n**sim-id:** heating-system-energy-comparison<br/>\n**Library:** Chart.js<br/>\n**Status:** Specified\n\nLearning objective: Students will compare (Bloom Level 4, Analyze) the energy input needed by an 80 percent furnace, a 95 percent furnace, electric resistance, and a heat pump to deliver the same heat, and will explain (Bloom Level 2, Understand) why heat pump COP changes with outdoor temperature.\n\nVisual: A horizontal bar chart showing input energy in kW-equivalent for four systems delivering the same heat. A line chart to the right plots heat pump COP against outdoor temperature from -20 to 60 °F, using an illustrative curve labeled as such.\n\nControls: A slider for required heat output (20,000 to 200,000 Btu/h) and a slider for outdoor temperature (-20 to 60 °F). A drop-down selects the heat pump type, either \"standard air-source\" or \"cold-climate air-source,\" each with its own illustrative COP curve.\n\nInteractions: Moving the sliders updates the bars and the COP marker on the curve. Hovering over any bar shows the input energy, the efficiency used, and a one-sentence explanation of how the system makes heat. A status line reports when the heat pump input exceeds the 95 percent furnace input for the selected temperature, with the message \"Heat pump COP has fallen below the break-even point for equal energy.\"\n\nColors: Furnaces in orange, resistance in red, heat pump in blue; bars have pattern fills so the chart reads without color.\n\nResponsive design: The charts follow the container width and redraw on resize. Height is 420 px.\n\nImplementation: Chart.js bar and line charts with custom tooltip callbacks and slider-driven data updates."
+}

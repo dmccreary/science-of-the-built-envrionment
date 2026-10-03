@@ -1,0 +1,15 @@
+{
+  "sim_id": "built-environment-scales",
+  "diagram_name": "Scales of the Built Environment",
+  "chapter_number": 1,
+  "chapter_title": "Introduction to the Built Environment and Construction Terminology",
+  "chapter_dir": "01-intro-terminology",
+  "chapter_rel_dir": "chapters/01-intro-terminology",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will classify (Bloom Level 2, Understand) examples of built-environment elements into the five nested scales and explain (Understand) how a decision at one scale affects another.",
+  "completion_status": "specified",
+  "extracted_date": "2026-10-03",
+  "specification": "Type: infographic\n**sim-id:** built-environment-scales<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nLearning objective: Students will classify (Bloom Level 2, Understand) examples of built-environment elements into the five nested scales and explain (Understand) how a decision at one scale affects another.\n\nVisual: Five concentric rounded rectangles labeled Material, Component, Building, Neighborhood, and Region, with Material at the center. Canvas width follows the container width; height is 420 px. The layout redraws on window resize.\n\nInteractions: Hovering over a ring shows a tooltip with one example and its typical concern, matching the table above. Clicking a ring opens an infobox below the canvas with a two-sentence definition and a \"what changes if this fails\" example. A button labeled \"Trace the classroom\" highlights the four rings in sequence while the infobox narrates the January classroom example.\n\nColors: Rings use the book's green palette, light at the outside and dark at the center. Text is dark on light rings and white on dark rings.\n\nImplementation: p5.js with a responsive canvas, mouse hit-testing on each ring, and a simple infobox div."
+}

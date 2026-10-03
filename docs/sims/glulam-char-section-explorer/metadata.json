@@ -1,0 +1,23 @@
+{
+  "title": "Glulam Char Section Explorer",
+  "description": "Students will calculate (Bloom Level 3, Apply) the remaining section and section modulus of a timber beam after a given fire exposure and will explain (Bloom Level 2, Understand) why larger timber members resist fire better than small ones.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "glulam-char-section-explorer",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 18,
+  "chapter_title": "Fire Protection and Life Safety Requirements",
+  "chapter_dir": "18-fire-life-safety",
+  "chapter_rel_dir": "chapters/18-fire-life-safety"
+}

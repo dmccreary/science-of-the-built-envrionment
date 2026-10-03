@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- microsim-scaffold-stub -->
+    <title>Cladding Rainscreen Water Path Explorer</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            color: #212529;
+        }
+        #container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #1a3a6c;
+        }
+        .placeholder {
+            border: 2px dashed #adb5bd;
+            border-radius: 8px;
+            padding: 40px 20px;
+            text-align: center;
+            color: #6c757d;
+            margin: 20px 0;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .placeholder .badge {
+            display: inline-block;
+            background: #ffc107;
+            color: #212529;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .placeholder h2 {
+            font-size: 18px;
+            color: #495057;
+            margin-bottom: 8px;
+        }
+        .placeholder p {
+            font-size: 14px;
+            max-width: 480px;
+        }
+        .meta {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+            padding-top: 12px;
+        }
+        .meta strong { color: #495057; }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Cladding Rainscreen Water Path Explorer</h1>
+        <div class="placeholder">
+            <span class="badge">SCAFFOLD</span>
+            <h2>MicroSim Not Yet Implemented</h2>
+            <p>This MicroSim has been scaffolded from its specification but the
+            interactive content has not been built yet. See the chapter source
+            and the <code>index.md</code> in this directory for the full spec.</p>
+        </div>
+        <div class="meta">
+            <p><strong>Sim ID:</strong> cladding-rainscreen-water-path-explorer</p>
+            <p><strong>Library:</strong> p5.js</p>
+            <p><strong>Bloom Level:</strong> TBD</p>
+            <p><strong>Learning Objective:</strong> Students will compare (Bloom Level 4, Analyze) how face-sealed, drained, and rainscreen cladding systems manage water that gets past the surface, and will explain (Bloom Level 2, Understand) why a drainage gap lets a wall dry.</p>
+        </div>
+    </div>
+
+    <!--
+    SPECIFICATION (from chapter index.md):
+
+    Type: microsim
+    **sim-id:** cladding-rainscreen-water-path-explorer<br/>
+    **Library:** p5.js<br/>
+    **Status:** Specified
+    
+    Learning objective: Students will compare (Bloom Level 4, Analyze) how face-sealed, drained, and rainscreen cladding systems manage water that gets past the surface, and will explain (Bloom Level 2, Understand) why a drainage gap lets a wall dry.
+    
+    Visual: A cross-section of a wall, with cladding on the left, a gap, a weather-resistive barrier, sheathing, and a stud cavity. Animated blue droplets fall and blow against the cladding. In the selected system, some droplets enter through a joint. A base flashing and weep opening at the bottom are drawn to scale. The canvas is responsive, 480 px tall, and redraws on window resize.
+    
+    Controls: A dropdown to choose the system (face-sealed siding, drained siding, brick veneer with cavity, rainscreen with ventilated gap). A slider for wind-driven rain intensity (light, moderate, heavy). A checkbox to add or remove the flashing and weep openings. A "Run storm" button, and a "Dry out" button that shows the drying time of each system after the storm.
+    
+    Interactions: Hovering over a droplet or layer shows where the water is and what moves it (gravity, wind pressure, or capillary action). A moisture gauge on the sheathing rises when water is trapped and falls when it drains. A message explains why the face-sealed system without drainage soaks the sheathing, and why a ventilated gap dries it fastest.
+    
+    Default state: Drained siding, moderate rain, flashing present.
+    
+    Implementation: p5.js with built-in select, slider, checkbox, and buttons, a simple particle model, and a responsive canvas.
+    -->
+</body>
+</html>

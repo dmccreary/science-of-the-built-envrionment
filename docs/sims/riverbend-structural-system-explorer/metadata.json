@@ -1,0 +1,23 @@
+{
+  "title": "Riverbend Structural System Explorer",
+  "description": "Students will classify (Bloom Level 2, Understand) each element of a simple wood-framed building as part of the gravity load system, the lateral load system, or both, and will identify (Bloom Level 1, Remember) the strength, stiffness, and stability requirement that each element helps satisfy.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "riverbend-structural-system-explorer",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 6,
+  "chapter_title": "Structural Loads and Load Paths",
+  "chapter_dir": "06-structural-loads",
+  "chapter_rel_dir": "chapters/06-structural-loads"
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Foundation Type Selector",
+  "description": "Students will evaluate (Bloom Level 5, Evaluate) which foundation type best fits a given combination of soil, load, water, and frost conditions, and will justify (Bloom Level 5, Evaluate) the choice with the rule that applies.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "foundation-type-selector",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 10,
+  "chapter_title": "Foundation Systems",
+  "chapter_dir": "10-foundation-systems",
+  "chapter_rel_dir": "chapters/10-foundation-systems"
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Window Flashing Sequence Explorer",
+  "description": "Students will sequence (Bloom Level 3, Apply) the flashing steps around a window opening and will evaluate (Bloom Level 5, Evaluate) a flashing detail by tracing where water goes when a lap is reversed.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "window-flashing-sequence-explorer",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 12,
+  "chapter_title": "Cladding, Windows, Doors, and Air Sealing",
+  "chapter_dir": "12-cladding-windows-air-sealing",
+  "chapter_rel_dir": "chapters/12-cladding-windows-air-sealing"
+}

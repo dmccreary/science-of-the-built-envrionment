@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- microsim-scaffold-stub -->
+    <title>Riverbend Structural System Explorer</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            color: #212529;
+        }
+        #container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #1a3a6c;
+        }
+        .placeholder {
+            border: 2px dashed #adb5bd;
+            border-radius: 8px;
+            padding: 40px 20px;
+            text-align: center;
+            color: #6c757d;
+            margin: 20px 0;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .placeholder .badge {
+            display: inline-block;
+            background: #ffc107;
+            color: #212529;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .placeholder h2 {
+            font-size: 18px;
+            color: #495057;
+            margin-bottom: 8px;
+        }
+        .placeholder p {
+            font-size: 14px;
+            max-width: 480px;
+        }
+        .meta {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+            padding-top: 12px;
+        }
+        .meta strong { color: #495057; }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Riverbend Structural System Explorer</h1>
+        <div class="placeholder">
+            <span class="badge">SCAFFOLD</span>
+            <h2>MicroSim Not Yet Implemented</h2>
+            <p>This MicroSim has been scaffolded from its specification but the
+            interactive content has not been built yet. See the chapter source
+            and the <code>index.md</code> in this directory for the full spec.</p>
+        </div>
+        <div class="meta">
+            <p><strong>Sim ID:</strong> riverbend-structural-system-explorer</p>
+            <p><strong>Library:</strong> p5.js</p>
+            <p><strong>Bloom Level:</strong> TBD</p>
+            <p><strong>Learning Objective:</strong> Students will classify (Bloom Level 2, Understand) each element of a simple wood-framed building as part of the gravity load system, the lateral load system, or both, and will identify (Bloom Level 1, Remember) the strength, stiffness, and stability requirement that each element helps satisfy.</p>
+        </div>
+    </div>
+
+    <!--
+    SPECIFICATION (from chapter index.md):
+
+    Type: microsim
+    **sim-id:** riverbend-structural-system-explorer<br/>
+    **Library:** p5.js<br/>
+    **Status:** Specified
+    
+    Learning objective: Students will classify (Bloom Level 2, Understand) each element of a simple wood-framed building as part of the gravity load system, the lateral load system, or both, and will identify (Bloom Level 1, Remember) the strength, stiffness, and stability requirement that each element helps satisfy.
+    
+    Visual: A cutaway three-dimensional-style view of the idealized Riverbend building (120 ft by 75 ft, 14 ft eave) showing the foundation, wall framing, roof deck, joists, glulam girders over the multipurpose room, posts, and the roof diaphragm. The canvas width follows the container and the height is 480 px. Elements are drawn in a flat, labeled style so that every part is visible at once.
+    
+    Controls: Radio buttons labeled "Show gravity system," "Show lateral system," and "Show both" fade elements in and out. Checkboxes for "Dead load," "Snow load," and "Wind load" draw arrows of proportional length on the building. A slider labeled "Wind speed" (70 to 130 mph) rescales the wind arrows according to the square of speed.
+    
+    Interactions: Hovering over an element highlights it and shows its name. Clicking an element opens an infobox with its definition, whether it belongs to the gravity system, the lateral system, or both, and what it hands the load to next. A "Remove this element" button on the infobox grays out the element and displays a one-sentence message about which requirement (strength, stiffness, or stability) would be at risk.
+    
+    Colors: Gravity elements are blue, lateral elements are orange, and elements that serve both are striped blue and orange. Labels are text, not color alone.
+    
+    Implementation: p5.js with a responsive canvas, DOM radio buttons, checkboxes, and slider, and an infobox div.
+    -->
+</body>
+</html>

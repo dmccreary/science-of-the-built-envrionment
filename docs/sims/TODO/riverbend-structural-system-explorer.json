@@ -1,0 +1,15 @@
+{
+  "sim_id": "riverbend-structural-system-explorer",
+  "diagram_name": "Riverbend Structural System Explorer",
+  "chapter_number": 6,
+  "chapter_title": "Structural Loads and Load Paths",
+  "chapter_dir": "06-structural-loads",
+  "chapter_rel_dir": "chapters/06-structural-loads",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will classify (Bloom Level 2, Understand) each element of a simple wood-framed building as part of the gravity load system, the lateral load system, or both, and will identify (Bloom Level 1, Remember) the strength, stiffness, and stability requirement that each element helps satisfy.",
+  "completion_status": "specified",
+  "extracted_date": "2026-10-03",
+  "specification": "Type: microsim\n**sim-id:** riverbend-structural-system-explorer<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nLearning objective: Students will classify (Bloom Level 2, Understand) each element of a simple wood-framed building as part of the gravity load system, the lateral load system, or both, and will identify (Bloom Level 1, Remember) the strength, stiffness, and stability requirement that each element helps satisfy.\n\nVisual: A cutaway three-dimensional-style view of the idealized Riverbend building (120 ft by 75 ft, 14 ft eave) showing the foundation, wall framing, roof deck, joists, glulam girders over the multipurpose room, posts, and the roof diaphragm. The canvas width follows the container and the height is 480 px. Elements are drawn in a flat, labeled style so that every part is visible at once.\n\nControls: Radio buttons labeled \"Show gravity system,\" \"Show lateral system,\" and \"Show both\" fade elements in and out. Checkboxes for \"Dead load,\" \"Snow load,\" and \"Wind load\" draw arrows of proportional length on the building. A slider labeled \"Wind speed\" (70 to 130 mph) rescales the wind arrows according to the square of speed.\n\nInteractions: Hovering over an element highlights it and shows its name. Clicking an element opens an infobox with its definition, whether it belongs to the gravity system, the lateral system, or both, and what it hands the load to next. A \"Remove this element\" button on the infobox grays out the element and displays a one-sentence message about which requirement (strength, stiffness, or stability) would be at risk.\n\nColors: Gravity elements are blue, lateral elements are orange, and elements that serve both are striped blue and orange. Labels are text, not color alone.\n\nImplementation: p5.js with a responsive canvas, DOM radio buttons, checkboxes, and slider, and an infobox div."
+}

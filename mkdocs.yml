@@ -72,6 +72,80 @@ nav:
   - MicroSims:
       - List of MicroSims: sims/index.md
       - Learning Graph Viewer: sims/graph-viewer/index.md
+      - "AC Waveform and Transmission Loss Explorer": sims/ac-waveform-transmission-loss-explorer/index.md
+      - "Air Sealing and Blower Door Explorer": sims/air-sealing-blower-door-explorer/index.md
+      - "Beam Reactions and Equilibrium Explorer": sims/beam-reactions-equilibrium-explorer/index.md
+      - "Building Material Property Comparison Chart": sims/building-material-property-comparison-chart/index.md
+      - "Building Pressure and Air Leakage Explorer": sims/building-pressure-air-leakage-explorer/index.md
+      - "Building Systems Cutaway": sims/building-systems-cutaway/index.md
+      - "Scales of the Built Environment": sims/built-environment-scales/index.md
+      - "Ceiling Coordination Clash Explorer": sims/ceiling-coordination-clash-explorer/index.md
+      - "Circuit Breaker and Continuous Load Explorer": sims/circuit-breaker-continuous-load-explorer/index.md
+      - "Cladding Rainscreen Water Path Explorer": sims/cladding-rainscreen-water-path-explorer/index.md
+      - "Code Adoption and Authority Chain": sims/code-adoption-authority-chain/index.md
+      - "Concrete Composition and Strength Gain Explorer": sims/concrete-composition-strength-gain-explorer/index.md
+      - "Conduction Through a Layer": sims/conduction-layer-heat-flow-explorer/index.md
+      - "Control Layer Wall Section Explorer": sims/control-layer-wall-section-explorer/index.md
+      - "Critical Path Explorer": sims/critical-path-explorer/index.md
+      - "Delivery Method Explorer": sims/delivery-method-explorer/index.md
+      - "Drawing Scale Calculator": sims/drawing-scale-calculator/index.md
+      - "Drawing Types Explorer": sims/drawing-types-explorer/index.md
+      - "Egress Time Margin Explorer": sims/egress-time-margin-explorer/index.md
+      - "Electric Circuit and Water Analogy Explorer": sims/electrical-circuit-water-analogy-explorer/index.md
+      - "Electrical Design Phase Timeline": sims/electrical-design-phase-responsibility-timeline/index.md
+      - "Electrical Service Path Explorer": sims/electrical-service-path-explorer/index.md
+      - "Embodied Carbon Beam Comparison": sims/embodied-carbon-beam-comparison/index.md
+      - "Enclosure Heat Loss Component Explorer": sims/enclosure-heat-loss-component-explorer/index.md
+      - "Failure Chain Explorer": sims/failure-chain-explorer/index.md
+      - "Fire Protection Layers Building Explorer": sims/fire-protection-layers-building-explorer/index.md
+      - "Force Vector Resolver": sims/force-vector-resolver/index.md
+      - "Forensic Leak Investigation Simulator": sims/forensic-leak-investigation-simulator/index.md
+      - "Foundation Cross-Section Explorer": sims/foundation-cross-section-explorer/index.md
+      - "Foundation Type Selector": sims/foundation-type-selector/index.md
+      - "Basement Wall Soil Pressure Explorer": sims/foundation-wall-lateral-pressure-explorer/index.md
+      - "Frost Heave Three-Condition Explorer": sims/frost-heave-three-conditions/index.md
+      - "Glulam Char Section Explorer": sims/glulam-char-section-explorer/index.md
+      - "Heat Transfer Modes in a Winter Wall": sims/heat-transfer-modes-wall-explorer/index.md
+      - "Heating System Energy Comparison": sims/heating-system-energy-comparison/index.md
+      - "Heating Load and Ventilation Explorer": sims/hvac-heating-load-ventilation-explorer/index.md
+      - "IBC Question Router": sims/ibc-question-router/index.md
+      - "Ice Dam Formation Explorer": sims/ice-dam-formation-explorer/index.md
+      - "Insulation Diminishing Returns Explorer": sims/insulation-diminishing-returns-explorer/index.md
+      - "Insulation R-Value and Thickness Comparison": sims/insulation-r-per-inch-thickness-chart/index.md
+      - "Life-Cycle Stage and Boundary Explorer": sims/lca-stage-boundary-explorer/index.md
+      - "Lighting Lumen Method Calculator": sims/lighting-lumen-method-calculator/index.md
+      - "Masonry Wall Assembly Explorer": sims/masonry-wall-assembly-explorer/index.md
+      - "Moisture Pathways in a Wall": sims/moisture-transport-pathways-explorer/index.md
+      - "Net-Zero PV Balance Explorer": sims/net-zero-pv-balance-explorer/index.md
+      - "Voltage, Current, and Resistance Explorer": sims/ohms-law-power-wire-explorer/index.md
+      - "One-Line Diagram Symbol Explorer": sims/one-line-diagram-symbol-explorer/index.md
+      - "Permit-to-Occupancy Flow": sims/permit-to-occupancy-flow/index.md
+      - "Platform Framing Assembly Explorer": sims/platform-framing-assembly-explorer/index.md
+      - "Plumbing Supply and DWV Explorer": sims/plumbing-supply-dwv-explorer/index.md
+      - "Project Phases and the Cost of Change": sims/project-phases-cost-of-change/index.md
+      - "Project Team Contracts and Communication Map": sims/project-team-communication-map/index.md
+      - "Psychrometric Chart Explorer": sims/psychrometric-chart-explorer/index.md
+      - "Reinforced Concrete Beam Behavior Explorer": sims/reinforced-concrete-beam-behavior-explorer/index.md
+      - "Riverbend Load Path Tracer": sims/riverbend-load-path-tracer/index.md
+      - "Riverbend Structural System Explorer": sims/riverbend-structural-system-explorer/index.md
+      - "Roof Assembly Layer Explorer": sims/roof-assembly-layer-explorer/index.md
+      - "Roof Drainage and Ponding Calculator": sims/roof-drainage-ponding-calculator/index.md
+      - "Sealant Joint Movement Calculator": sims/sealant-joint-movement-calculator/index.md
+      - "Service Headroom for Solar and EV Loads": sims/service-headroom-ev-pv-explorer/index.md
+      - "Service Life Factor Calculator": sims/service-life-factor-calculator/index.md
+      - "Site Analysis Layer Explorer": sims/site-analysis-layer-explorer/index.md
+      - "Bearing Capacity and Footing Size Explorer": sims/soil-bearing-footing-area-explorer/index.md
+      - "Steel Shape Comparison Explorer": sims/steel-shape-comparison-explorer/index.md
+      - "Stress, Force, and Area Explorer": sims/stress-area-load-explorer/index.md
+      - "Stress-Strain Curve Explorer": sims/stress-strain-curve-explorer/index.md
+      - "Sustainability Trade-Off Explorer": sims/sustainability-trade-off-explorer/index.md
+      - "Tributary Area and Load Takedown Calculator": sims/tributary-area-roof-takedown-calculator/index.md
+      - "USCS Soil Classifier": sims/uscs-soil-classifier/index.md
+      - "Wall Assembly R-Value and Thermal Bridging Calculator": sims/wall-assembly-r-value-bridging-calculator/index.md
+      - "Water-Cement Ratio Explorer": sims/water-cement-ratio-explorer/index.md
+      - "Window Flashing Sequence Explorer": sims/window-flashing-sequence-explorer/index.md
+      - "Window Performance Explorer": sims/window-glazing-surface-temperature-explorer/index.md
+      - "Wood Moisture and Shrinkage Calculator": sims/wood-moisture-shrinkage-calculator/index.md
 
   - License: license.md
   - Contact: contact.md

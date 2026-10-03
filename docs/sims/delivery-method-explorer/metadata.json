@@ -1,0 +1,23 @@
+{
+  "title": "Delivery Method Explorer",
+  "description": "Students will compare (Bloom Level 4, Analyze) the sequence of activities, contract relationships, and schedule length of design-bid-build, design-build, construction manager at risk, and integrated project delivery, and will select (Bloom Level 5, Evaluate) the method that best fits a described project.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "delivery-method-explorer",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 2,
+  "chapter_title": "The Design and Construction Process",
+  "chapter_dir": "02-design-construction-process",
+  "chapter_rel_dir": "chapters/02-design-construction-process"
+}

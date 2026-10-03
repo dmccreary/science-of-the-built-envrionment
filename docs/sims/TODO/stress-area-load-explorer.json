@@ -1,0 +1,15 @@
+{
+  "sim_id": "stress-area-load-explorer",
+  "diagram_name": "Stress, Force, and Area Explorer",
+  "chapter_number": 3,
+  "chapter_title": "Forces, Heat, and the Physics of Buildings",
+  "chapter_dir": "03-forces-heat-physics",
+  "chapter_rel_dir": "chapters/03-forces-heat-physics",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will apply (Bloom Level 3, Apply) the relationship stress = force divided by area to compute the stress in a member, and will evaluate (Bloom Level 5, Evaluate) whether the result is below an illustrative limit and what factor of safety it implies.",
+  "completion_status": "specified",
+  "extracted_date": "2026-10-03",
+  "specification": "Type: microsim\n**sim-id:** stress-area-load-explorer<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nLearning objective: Students will apply (Bloom Level 3, Apply) the relationship stress = force divided by area to compute the stress in a member, and will evaluate (Bloom Level 5, Evaluate) whether the result is below an illustrative limit and what factor of safety it implies.\n\nVisual: A drawing of a member (a round steel rod, a 3.5 in square wood post, or a square footing on soil) with a downward load arrow and a cross-section view that shades the loaded area. A horizontal gauge shows stress against a limit marker, with the green zone below the limit and the red zone above it. The canvas width follows the container, the height is 440 px, and the sketch redraws on window resize.\n\nControls: A dropdown labeled \"Member\" with three choices. A slider labeled \"Load (lb)\" from 0 to 20,000 with a default of 6,000. A slider labeled \"Size\" (rod diameter in inches, or footing side in feet) with a default that matches the worked example. A dropdown labeled \"Limit\" whose illustrative values are 36,000 psi (structural steel yield) and 1,500 psf (soil bearing).\n\nInteractions: The readout shows the area, the stress in psi and psf, and the factor of safety. When the stress passes the limit, the gauge turns red and a text message states which change (less load or more area) restores the margin. A \"Snowshoe\" button shrinks and enlarges the loaded area while the load stays fixed to show the stress changing.\n\nColors: Green for stresses under the limit, orange for factors of safety below 1.5, and red above the limit. Each state also carries a text label.\n\nImplementation: p5.js with a responsive canvas, built-in slider and select controls, and unit-conversion helpers."
+}

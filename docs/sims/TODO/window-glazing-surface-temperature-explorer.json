@@ -1,0 +1,15 @@
+{
+  "sim_id": "window-glazing-surface-temperature-explorer",
+  "diagram_name": "Window Performance Explorer",
+  "chapter_number": 12,
+  "chapter_title": "Cladding, Windows, Doors, and Air Sealing",
+  "chapter_dir": "12-cladding-windows-air-sealing",
+  "chapter_rel_dir": "chapters/12-cladding-windows-air-sealing",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will analyze (Bloom Level 4, Analyze) how glazing type, coating, and gas fill change U-factor, SHGC, and inside surface temperature, and will judge (Bloom Level 5, Evaluate) which window suits a north wall and a south wall in Minneapolis.",
+  "completion_status": "specified",
+  "extracted_date": "2026-10-03",
+  "specification": "Type: microsim\n**sim-id:** window-glazing-surface-temperature-explorer<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nLearning objective: Students will analyze (Bloom Level 4, Analyze) how glazing type, coating, and gas fill change U-factor, SHGC, and inside surface temperature, and will judge (Bloom Level 5, Evaluate) which window suits a north wall and a south wall in Minneapolis.\n\nVisual: A cross-section of a window showing panes, gaps, coatings, and spacer, with a temperature profile line across the window from the indoor to the outdoor air. Beside it, three gauges show the whole-window U-factor, the SHGC, and the visible transmittance. A thermometer shows the inside glass surface temperature, which turns red when it is below the dew point of the room air. The canvas is responsive, 500 px tall, and redraws on window resize.\n\nControls: A dropdown for glazing (single, double, triple). A dropdown for coating (none, low-E surface 2, low-E surface 3). A dropdown for gas (air, argon). A dropdown for frame (aluminum, aluminum with thermal break, vinyl, fiberglass). A slider for outdoor temperature (-20 to 50°F) and one for indoor relative humidity (20 to 60 percent). A radio button for orientation (north or south).\n\nInteractions: Hovering over a pane, gap, or coating shows its role. Changing any option updates the gauges, the temperature profile, and the surface temperature immediately. When the inside surface falls below the dew point, a condensation message appears. A summary line recommends whether the choice suits the selected orientation, based on U-factor and SHGC.\n\nDefault state: Double pane, no coating, air fill, vinyl frame, -10°F outdoors, 40 percent relative humidity, north orientation.\n\nImplementation: p5.js with built-in selects, sliders, and radio buttons, a lookup table of approximate values, and a responsive canvas."
+}

@@ -1,0 +1,23 @@
+{
+  "title": "Failure Chain Explorer",
+  "description": "Students will analyze (Bloom Level 4, Analyze) the chain of causes that leads from a design or construction error to a visible building failure and will propose (Bloom Level 6, Create) an intervention that would break the chain.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "failure-chain-explorer",
+  "library": "vis-network",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 21,
+  "chapter_title": "Durability, Maintenance, and Building Failure",
+  "chapter_dir": "21-durability-failure",
+  "chapter_rel_dir": "chapters/21-durability-failure"
+}

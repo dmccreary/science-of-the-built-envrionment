@@ -1,0 +1,23 @@
+{
+  "title": "Heating Load and Ventilation Explorer",
+  "description": "Students will calculate (Bloom Level 3, Apply) the heating load of a room from envelope conduction and outdoor-air ventilation, and will compare (Bloom Level 4, Analyze) how enclosure quality and heat recovery change the total.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "hvac-heating-load-ventilation-explorer",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 14,
+  "chapter_title": "HVAC, Plumbing, and Fire Protection Systems",
+  "chapter_dir": "14-hvac-plumbing-fire",
+  "chapter_rel_dir": "chapters/14-hvac-plumbing-fire"
+}

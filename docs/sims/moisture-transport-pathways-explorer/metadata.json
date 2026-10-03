@@ -1,0 +1,23 @@
+{
+  "title": "Moisture Pathways in a Wall",
+  "description": "Students will classify (Bloom Level 2, Understand) each way that moisture enters a wall as bulk water, capillary action, air movement, or vapor diffusion, and will match (Bloom Level 2, Understand) each pathway to its control.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "moisture-transport-pathways-explorer",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 4,
+  "chapter_title": "Moisture, Air Movement, and Thermal Comfort",
+  "chapter_dir": "04-moisture-air-comfort",
+  "chapter_rel_dir": "chapters/04-moisture-air-comfort"
+}

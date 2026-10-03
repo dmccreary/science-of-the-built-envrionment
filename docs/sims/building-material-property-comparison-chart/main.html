@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- microsim-scaffold-stub -->
+    <title>Building Material Property Comparison Chart</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            color: #212529;
+        }
+        #container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #1a3a6c;
+        }
+        .placeholder {
+            border: 2px dashed #adb5bd;
+            border-radius: 8px;
+            padding: 40px 20px;
+            text-align: center;
+            color: #6c757d;
+            margin: 20px 0;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .placeholder .badge {
+            display: inline-block;
+            background: #ffc107;
+            color: #212529;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .placeholder h2 {
+            font-size: 18px;
+            color: #495057;
+            margin-bottom: 8px;
+        }
+        .placeholder p {
+            font-size: 14px;
+            max-width: 480px;
+        }
+        .meta {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+            padding-top: 12px;
+        }
+        .meta strong { color: #495057; }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Building Material Property Comparison Chart</h1>
+        <div class="placeholder">
+            <span class="badge">SCAFFOLD</span>
+            <h2>MicroSim Not Yet Implemented</h2>
+            <p>This MicroSim has been scaffolded from its specification but the
+            interactive content has not been built yet. See the chapter source
+            and the <code>index.md</code> in this directory for the full spec.</p>
+        </div>
+        <div class="meta">
+            <p><strong>Sim ID:</strong> building-material-property-comparison-chart</p>
+            <p><strong>Library:</strong> Chart.js</p>
+            <p><strong>Bloom Level:</strong> TBD</p>
+            <p><strong>Learning Objective:</strong> Students will compare (Bloom Level 4, Analyze) typical values of density, strength, stiffness, thermal expansion, and thermal conductivity across common building materials, and will differentiate (Bloom Level 4, Analyze) why each material suits some applications better than others.</p>
+        </div>
+    </div>
+
+    <!--
+    SPECIFICATION (from chapter index.md):
+
+    Type: chart
+    **sim-id:** building-material-property-comparison-chart<br/>
+    **Library:** Chart.js<br/>
+    **Status:** Specified
+    
+    Learning objective: Students will compare (Bloom Level 4, Analyze) typical values of density, strength, stiffness, thermal expansion, and thermal conductivity across common building materials, and will differentiate (Bloom Level 4, Analyze) why each material suits some applications better than others.
+    
+    Visual: A horizontal bar chart with one bar per material (structural steel, normal-weight concrete, softwood lumber, clay brick masonry, glass, aluminum, and rigid foam insulation). The title and axis label change with the selected property. A footnote states that all values are approximate and typical, and that actual products vary. The chart fills the container width with a height of 440 px and redraws on window resize.
+    
+    Controls: A dropdown labeled "Property" with these choices: density (lb/ft³), compressive strength (psi), tensile strength (psi), modulus of elasticity (psi), thermal expansion coefficient (per °F), and thermal conductivity (BTU·in/h·ft²·°F). A toggle labeled "Logarithmic scale" switches the axis, because the values span several orders of magnitude. A checkbox labeled "Divide by density" shows the property per pound of material.
+    
+    Interactions: Hovering over a bar shows the material, the value with units, and a one-sentence note on what the number means for design. Clicking a bar opens an infobox with the material's typical building uses and its main weakness. Switching on "Divide by density" re-renders the chart and displays a note, such as "Per pound, wood is competitive with steel in compression."
+    
+    Colors: Metals are gray, concrete and masonry are tan, wood is brown, glass is light blue, and insulation is yellow. Each bar is labeled in text.
+    
+    Implementation: Chart.js bar chart with a data table for each property, a logarithmic-axis toggle, custom tooltip callbacks, and a click handler for the infobox.
+    -->
+</body>
+</html>

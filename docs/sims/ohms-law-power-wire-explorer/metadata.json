@@ -1,0 +1,23 @@
+{
+  "title": "Voltage, Current, and Resistance Explorer",
+  "description": "Students will apply (Bloom Level 3, Apply) Ohm's law and the power relationship to calculate current, resistance, and power in a simple circuit, and will predict (Bloom Level 2, Understand) how wire length and gauge change voltage drop.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "ohms-law-power-wire-explorer",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 15,
+  "chapter_title": "Electrical Fundamentals and Building Service",
+  "chapter_dir": "15-electrical-fundamentals",
+  "chapter_rel_dir": "chapters/15-electrical-fundamentals"
+}

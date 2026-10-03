@@ -1,0 +1,23 @@
+{
+  "title": "Project Team Contracts and Communication Map",
+  "description": "Students will trace (Bloom Level 4, Analyze) the route taken by a submittal, a request for information, and a change order through the project team, and will explain (Bloom Level 2, Understand) why subcontractors communicate with the design team only through the general contractor.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "project-team-communication-map",
+  "library": "vis-network",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 2,
+  "chapter_title": "The Design and Construction Process",
+  "chapter_dir": "02-design-construction-process",
+  "chapter_rel_dir": "chapters/02-design-construction-process"
+}

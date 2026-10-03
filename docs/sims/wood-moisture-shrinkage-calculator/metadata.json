@@ -1,0 +1,23 @@
+{
+  "title": "Wood Moisture and Shrinkage Calculator",
+  "description": "Students will calculate (Bloom Level 3, Apply) the moisture content of a wood sample and the across-grain shrinkage of a member as it dries, and will predict (Bloom Level 2, Understand) how a heated Minnesota winter interior changes a framed building's dimensions.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "wood-moisture-shrinkage-calculator",
+  "library": "Chart.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 7,
+  "chapter_title": "Wood and Steel Framing",
+  "chapter_dir": "07-wood-steel-framing",
+  "chapter_rel_dir": "chapters/07-wood-steel-framing"
+}
