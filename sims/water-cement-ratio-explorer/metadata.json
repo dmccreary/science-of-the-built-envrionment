@@ -1,0 +1,23 @@
+{
+  "title": "Water-Cement Ratio Explorer",
+  "description": "Students will predict (Bloom Level 3, Apply) how changing the water-cement ratio changes the strength, permeability, and shrinkage of concrete, and will evaluate (Bloom Level 5, Evaluate) whether adding water at the chute is acceptable for a given specification.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "water-cement-ratio-explorer",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 8,
+  "chapter_title": "Concrete and Masonry",
+  "chapter_dir": "08-concrete-masonry",
+  "chapter_rel_dir": "chapters/08-concrete-masonry"
+}

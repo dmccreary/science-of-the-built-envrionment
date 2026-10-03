@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- microsim-scaffold-stub -->
+    <title>Embodied Carbon Beam Comparison</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            color: #212529;
+        }
+        #container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #1a3a6c;
+        }
+        .placeholder {
+            border: 2px dashed #adb5bd;
+            border-radius: 8px;
+            padding: 40px 20px;
+            text-align: center;
+            color: #6c757d;
+            margin: 20px 0;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .placeholder .badge {
+            display: inline-block;
+            background: #ffc107;
+            color: #212529;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .placeholder h2 {
+            font-size: 18px;
+            color: #495057;
+            margin-bottom: 8px;
+        }
+        .placeholder p {
+            font-size: 14px;
+            max-width: 480px;
+        }
+        .meta {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+            padding-top: 12px;
+        }
+        .meta strong { color: #495057; }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Embodied Carbon Beam Comparison</h1>
+        <div class="placeholder">
+            <span class="badge">SCAFFOLD</span>
+            <h2>MicroSim Not Yet Implemented</h2>
+            <p>This MicroSim has been scaffolded from its specification but the
+            interactive content has not been built yet. See the chapter source
+            and the <code>index.md</code> in this directory for the full spec.</p>
+        </div>
+        <div class="meta">
+            <p><strong>Sim ID:</strong> embodied-carbon-beam-comparison</p>
+            <p><strong>Library:</strong> Chart.js</p>
+            <p><strong>Bloom Level:</strong> TBD</p>
+            <p><strong>Learning Objective:</strong> Students will calculate (Bloom Level 3, Apply) the product-stage embodied carbon of alternative structural members from quantity and emission factor and will evaluate (Bloom Level 5, Evaluate) how uncertainty in the emission factor changes the ranking.</p>
+        </div>
+    </div>
+
+    <!--
+    SPECIFICATION (from chapter index.md):
+
+    Type: microsim
+    **sim-id:** embodied-carbon-beam-comparison<br/>
+    **Library:** Chart.js<br/>
+    **Status:** Specified
+    
+    Learning objective: Students will calculate (Bloom Level 3, Apply) the product-stage embodied carbon of alternative structural members from quantity and emission factor and will evaluate (Bloom Level 5, Evaluate) how uncertainty in the emission factor changes the ranking.
+    
+    Visual: A grouped bar chart comparing steel beams, glued-laminated beams, and reinforced concrete beams for the same span, with bars showing mass in kilograms and embodied carbon in kg CO2e. A table beneath shows the arithmetic: quantity times factor equals emissions. The chart is responsive with a height of 420 px and redraws on window resize.
+    
+    Controls: A slider for the number of beams (2 to 12, default 6). A slider for span (20 to 60 ft, default 40). Sliders for each material's emission factor with a low-to-high range, defaulting to 1.2 kg CO2e per kg for steel, 140 kg CO2e per m3 for glulam, and 300 kg CO2e per m3 for concrete, all labeled illustrative. A checkbox labeled "Count stored biogenic carbon in wood" subtracts about 9,000 kg CO2 of stored carbon for the default glulam beams. A "Reset" button restores the defaults.
+    
+    Interactions: Hovering over a bar shows the quantity, factor, and resulting emissions. A banner states which option has the lowest embodied carbon and notes when the ranking changes within the low-to-high uncertainty range, with the sentence "Rankings can flip when factors are uncertain."
+    
+    Colors: Steel in gray, glulam in tan, concrete in blue, and stored carbon shown as a green negative bar. Each series is also labeled in text.
+    
+    Implementation: Chart.js grouped bar chart with DOM sliders and live recalculation of quantity times factor.
+    -->
+</body>
+</html>

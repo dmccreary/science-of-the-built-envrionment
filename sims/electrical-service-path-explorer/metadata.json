@@ -1,0 +1,23 @@
+{
+  "title": "Electrical Service Path Explorer",
+  "description": "Students will identify (Bloom Level 1, Remember) each stage of the path from utility to outlet and will explain (Bloom Level 2, Understand) what voltage, current, and protection exist at each stage.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "electrical-service-path-explorer",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 15,
+  "chapter_title": "Electrical Fundamentals and Building Service",
+  "chapter_dir": "15-electrical-fundamentals",
+  "chapter_rel_dir": "chapters/15-electrical-fundamentals"
+}

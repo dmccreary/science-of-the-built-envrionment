@@ -1,0 +1,23 @@
+{
+  "title": "Site Analysis Layer Explorer",
+  "description": "Students will analyze (Bloom Level 4, Analyze) how legal, topographic, soil, climate, and utility constraints combine to reduce the buildable area of a parcel, and will examine (Bloom Level 4, Analyze) how moving a building changes its exposure to those constraints.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "site-analysis-layer-explorer",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 9,
+  "chapter_title": "Site Work, Soils, and Groundwater",
+  "chapter_dir": "09-site-soils",
+  "chapter_rel_dir": "chapters/09-site-soils"
+}

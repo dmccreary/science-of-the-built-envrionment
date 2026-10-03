@@ -1,0 +1,23 @@
+{
+  "title": "Beam Reactions and Equilibrium Explorer",
+  "description": "Students will calculate (Bloom Level 3, Apply) the support reactions of a simply supported beam by applying the three equilibrium conditions, and will analyze (Bloom Level 4, Analyze) how moving a load changes the share carried by each support.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "beam-reactions-equilibrium-explorer",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 3,
+  "chapter_title": "Forces, Heat, and the Physics of Buildings",
+  "chapter_dir": "03-forces-heat-physics",
+  "chapter_rel_dir": "chapters/03-forces-heat-physics"
+}

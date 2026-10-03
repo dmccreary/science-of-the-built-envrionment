@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- microsim-scaffold-stub -->
+    <title>Heating System Energy Comparison</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            color: #212529;
+        }
+        #container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #1a3a6c;
+        }
+        .placeholder {
+            border: 2px dashed #adb5bd;
+            border-radius: 8px;
+            padding: 40px 20px;
+            text-align: center;
+            color: #6c757d;
+            margin: 20px 0;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .placeholder .badge {
+            display: inline-block;
+            background: #ffc107;
+            color: #212529;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .placeholder h2 {
+            font-size: 18px;
+            color: #495057;
+            margin-bottom: 8px;
+        }
+        .placeholder p {
+            font-size: 14px;
+            max-width: 480px;
+        }
+        .meta {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+            padding-top: 12px;
+        }
+        .meta strong { color: #495057; }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Heating System Energy Comparison</h1>
+        <div class="placeholder">
+            <span class="badge">SCAFFOLD</span>
+            <h2>MicroSim Not Yet Implemented</h2>
+            <p>This MicroSim has been scaffolded from its specification but the
+            interactive content has not been built yet. See the chapter source
+            and the <code>index.md</code> in this directory for the full spec.</p>
+        </div>
+        <div class="meta">
+            <p><strong>Sim ID:</strong> heating-system-energy-comparison</p>
+            <p><strong>Library:</strong> Chart.js</p>
+            <p><strong>Bloom Level:</strong> TBD</p>
+            <p><strong>Learning Objective:</strong> Students will compare (Bloom Level 4, Analyze) the energy input needed by an 80 percent furnace, a 95 percent furnace, electric resistance, and a heat pump to deliver the same heat, and will explain (Bloom Level 2, Understand) why heat pump COP changes with outdoor temperature.</p>
+        </div>
+    </div>
+
+    <!--
+    SPECIFICATION (from chapter index.md):
+
+    Type: chart
+    **sim-id:** heating-system-energy-comparison<br/>
+    **Library:** Chart.js<br/>
+    **Status:** Specified
+    
+    Learning objective: Students will compare (Bloom Level 4, Analyze) the energy input needed by an 80 percent furnace, a 95 percent furnace, electric resistance, and a heat pump to deliver the same heat, and will explain (Bloom Level 2, Understand) why heat pump COP changes with outdoor temperature.
+    
+    Visual: A horizontal bar chart showing input energy in kW-equivalent for four systems delivering the same heat. A line chart to the right plots heat pump COP against outdoor temperature from -20 to 60 °F, using an illustrative curve labeled as such.
+    
+    Controls: A slider for required heat output (20,000 to 200,000 Btu/h) and a slider for outdoor temperature (-20 to 60 °F). A drop-down selects the heat pump type, either "standard air-source" or "cold-climate air-source," each with its own illustrative COP curve.
+    
+    Interactions: Moving the sliders updates the bars and the COP marker on the curve. Hovering over any bar shows the input energy, the efficiency used, and a one-sentence explanation of how the system makes heat. A status line reports when the heat pump input exceeds the 95 percent furnace input for the selected temperature, with the message "Heat pump COP has fallen below the break-even point for equal energy."
+    
+    Colors: Furnaces in orange, resistance in red, heat pump in blue; bars have pattern fills so the chart reads without color.
+    
+    Responsive design: The charts follow the container width and redraw on resize. Height is 420 px.
+    
+    Implementation: Chart.js bar and line charts with custom tooltip callbacks and slider-driven data updates.
+    -->
+</body>
+</html>

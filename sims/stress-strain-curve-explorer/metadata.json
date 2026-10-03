@@ -1,0 +1,23 @@
+{
+  "title": "Stress-Strain Curve Explorer",
+  "description": "Students will interpret (Bloom Level 2, Understand) stress-strain curves for steel, concrete, and wood to identify yield strength, ultimate strength, stiffness, and the type of failure, and will compare (Bloom Level 4, Analyze) ductile and brittle behavior.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "stress-strain-curve-explorer",
+  "library": "Chart.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 5,
+  "chapter_title": "Properties of Building Materials",
+  "chapter_dir": "05-material-properties",
+  "chapter_rel_dir": "chapters/05-material-properties"
+}

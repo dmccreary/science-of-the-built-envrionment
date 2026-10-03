@@ -1,0 +1,23 @@
+{
+  "title": "Ceiling Coordination Clash Explorer",
+  "description": "Students will analyze (Bloom Level 4, Analyze) a ceiling cross-section to find clashes among structure, ducts, pipes, cable tray, and lights, and will propose (Bloom Level 6, Create) a routing that resolves them according to the priority order of systems.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "ceiling-coordination-clash-explorer",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 16,
+  "chapter_title": "Electrical Distribution, Lighting, and Design Team Coordination",
+  "chapter_dir": "16-electrical-distribution-design",
+  "chapter_rel_dir": "chapters/16-electrical-distribution-design"
+}

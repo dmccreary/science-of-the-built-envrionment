@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- microsim-scaffold-stub -->
+    <title>Voltage, Current, and Resistance Explorer</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            color: #212529;
+        }
+        #container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #1a3a6c;
+        }
+        .placeholder {
+            border: 2px dashed #adb5bd;
+            border-radius: 8px;
+            padding: 40px 20px;
+            text-align: center;
+            color: #6c757d;
+            margin: 20px 0;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .placeholder .badge {
+            display: inline-block;
+            background: #ffc107;
+            color: #212529;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .placeholder h2 {
+            font-size: 18px;
+            color: #495057;
+            margin-bottom: 8px;
+        }
+        .placeholder p {
+            font-size: 14px;
+            max-width: 480px;
+        }
+        .meta {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+            padding-top: 12px;
+        }
+        .meta strong { color: #495057; }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Voltage, Current, and Resistance Explorer</h1>
+        <div class="placeholder">
+            <span class="badge">SCAFFOLD</span>
+            <h2>MicroSim Not Yet Implemented</h2>
+            <p>This MicroSim has been scaffolded from its specification but the
+            interactive content has not been built yet. See the chapter source
+            and the <code>index.md</code> in this directory for the full spec.</p>
+        </div>
+        <div class="meta">
+            <p><strong>Sim ID:</strong> ohms-law-power-wire-explorer</p>
+            <p><strong>Library:</strong> p5.js</p>
+            <p><strong>Bloom Level:</strong> TBD</p>
+            <p><strong>Learning Objective:</strong> Students will apply (Bloom Level 3, Apply) Ohm's law and the power relationship to calculate current, resistance, and power in a simple circuit, and will predict (Bloom Level 2, Understand) how wire length and gauge change voltage drop.</p>
+        </div>
+    </div>
+
+    <!--
+    SPECIFICATION (from chapter index.md):
+
+    Type: microsim
+    **sim-id:** ohms-law-power-wire-explorer<br/>
+    **Library:** p5.js<br/>
+    **Status:** Specified
+    
+    Learning objective: Students will apply (Bloom Level 3, Apply) Ohm's law and the power relationship to calculate current, resistance, and power in a simple circuit, and will predict (Bloom Level 2, Understand) how wire length and gauge change voltage drop.
+    
+    Visual: A circuit with a source, a 100 ft run of wire, and a load. Live readouts show source voltage, voltage at the load, current, load power, and the power lost as heat in the wire. A bar showing the voltage drop is drawn along the wire, with a green zone up to 3 percent and a red zone beyond it.
+    
+    Controls: A slider for source voltage (12 to 480 V), a slider for load power (100 to 5,000 W), a drop-down for wire gauge (14, 12, 10, 8, 6 AWG), a slider for one-way wire length (10 to 300 ft), and a drop-down for material (copper or aluminum). A checkbox labeled "Show ampacity limit" draws a warning marker when the current exceeds the typical ampacity of the chosen wire.
+    
+    Interactions: Changing any control updates all readouts. Hovering over the wire shows its resistance per 1,000 ft and total loop resistance. Hovering over the load shows the formula P = V x I. When the drop exceeds 3 percent, the status line reads "Voltage drop is high. Try a larger wire or a shorter run." When current exceeds ampacity, the wire flashes red with the message "Overload: this wire would overheat."
+    
+    Colors: Wire in copper orange or aluminum gray, safe zone in green, warning zone in red. The warning also uses a text label.
+    
+    Responsive design: The canvas follows the container width and redraws on window resize. Height is 480 px on wide screens.
+    
+    Implementation: p5.js with updateCanvasSize() as the first statement in setup(), using built-in createSlider, createSelect, and createCheckbox controls.
+    -->
+</body>
+</html>

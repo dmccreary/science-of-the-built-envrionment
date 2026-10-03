@@ -1,0 +1,23 @@
+{
+  "title": "USCS Soil Classifier",
+  "description": "Students will apply (Bloom Level 3, Apply) the simplified USCS decision path to a sieve analysis to classify a soil as a gravel, sand, silt, or clay, and will predict (Bloom Level 2, Understand) its drainage, strength, and frost behavior.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "uscs-soil-classifier",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 9,
+  "chapter_title": "Site Work, Soils, and Groundwater",
+  "chapter_dir": "09-site-soils",
+  "chapter_rel_dir": "chapters/09-site-soils"
+}

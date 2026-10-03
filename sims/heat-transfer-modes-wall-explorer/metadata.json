@@ -1,0 +1,23 @@
+{
+  "title": "Heat Transfer Modes in a Winter Wall",
+  "description": "Students will classify (Bloom Level 2, Understand) each step of the heat path through a wall as conduction, convection, or radiation, and will predict (Bloom Level 2, Understand) how the heat flow changes with outdoor temperature and wind.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "heat-transfer-modes-wall-explorer",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 3,
+  "chapter_title": "Forces, Heat, and the Physics of Buildings",
+  "chapter_dir": "03-forces-heat-physics",
+  "chapter_rel_dir": "chapters/03-forces-heat-physics"
+}

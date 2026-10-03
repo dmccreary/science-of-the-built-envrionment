@@ -1,0 +1,23 @@
+{
+  "title": "Electric Circuit and Water Analogy Explorer",
+  "description": "Students will explain (Bloom Level 2, Understand) how a source, conductors, a load, and a switch form a closed circuit, and will predict (Bloom Level 2, Understand) how opening a switch or connecting loads in series or in parallel changes the behavior of the circuit.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "electrical-circuit-water-analogy-explorer",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 15,
+  "chapter_title": "Electrical Fundamentals and Building Service",
+  "chapter_dir": "15-electrical-fundamentals",
+  "chapter_rel_dir": "chapters/15-electrical-fundamentals"
+}

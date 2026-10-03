@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- microsim-scaffold-stub -->
+    <title>Window Flashing Sequence Explorer</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            color: #212529;
+        }
+        #container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #1a3a6c;
+        }
+        .placeholder {
+            border: 2px dashed #adb5bd;
+            border-radius: 8px;
+            padding: 40px 20px;
+            text-align: center;
+            color: #6c757d;
+            margin: 20px 0;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .placeholder .badge {
+            display: inline-block;
+            background: #ffc107;
+            color: #212529;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .placeholder h2 {
+            font-size: 18px;
+            color: #495057;
+            margin-bottom: 8px;
+        }
+        .placeholder p {
+            font-size: 14px;
+            max-width: 480px;
+        }
+        .meta {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+            padding-top: 12px;
+        }
+        .meta strong { color: #495057; }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Window Flashing Sequence Explorer</h1>
+        <div class="placeholder">
+            <span class="badge">SCAFFOLD</span>
+            <h2>MicroSim Not Yet Implemented</h2>
+            <p>This MicroSim has been scaffolded from its specification but the
+            interactive content has not been built yet. See the chapter source
+            and the <code>index.md</code> in this directory for the full spec.</p>
+        </div>
+        <div class="meta">
+            <p><strong>Sim ID:</strong> window-flashing-sequence-explorer</p>
+            <p><strong>Library:</strong> p5.js</p>
+            <p><strong>Bloom Level:</strong> TBD</p>
+            <p><strong>Learning Objective:</strong> Students will sequence (Bloom Level 3, Apply) the flashing steps around a window opening and will evaluate (Bloom Level 5, Evaluate) a flashing detail by tracing where water goes when a lap is reversed.</p>
+        </div>
+    </div>
+
+    <!--
+    SPECIFICATION (from chapter index.md):
+
+    Type: microsim
+    **sim-id:** window-flashing-sequence-explorer<br/>
+    **Library:** p5.js<br/>
+    **Status:** Specified
+    
+    Learning objective: Students will sequence (Bloom Level 3, Apply) the flashing steps around a window opening and will evaluate (Bloom Level 5, Evaluate) a flashing detail by tracing where water goes when a lap is reversed.
+    
+    Visual: An elevation and section of a window opening in the Riverbend wall showing the rough opening, sill pan, jamb tapes, head flashing, weather-resistive barrier, and siding. Each layer is drawn in a different color and lifts away in an exploded view when selected. The canvas is responsive, 480 px tall, and redraws on window resize.
+    
+    Controls: A "Next step" and "Previous step" button that add or remove layers in the correct order. A "Test the sequence" mode in which the learner drags the five layers into order. A "Reverse a lap" toggle that places one layer in the wrong position. A "Pour water" button that sends animated water down the wall.
+    
+    Interactions: Hovering over a layer shows its name and what it laps over. After "Pour water," droplets follow the surfaces and exit to the exterior in the correct sequence. With the reversed lap, droplets enter the opening and a red highlight and message identify the error and the resulting damage.
+    
+    Default state: Correct sequence, all steps shown, water not running.
+    
+    Implementation: p5.js with built-in buttons, drag-and-drop hit testing, a path-following water animation, and a responsive canvas.
+    -->
+</body>
+</html>

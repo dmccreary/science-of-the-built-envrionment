@@ -1,0 +1,23 @@
+{
+  "title": "Enclosure Heat Loss Component Explorer",
+  "description": "Students will analyze (Bloom Level 4, Analyze) how roof, wall, and window area and U-value combine to determine total conductive heat loss, and will evaluate (Bloom Level 5, Evaluate) which single change reduces the loss most.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "enclosure-heat-loss-component-explorer",
+  "library": "Chart.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 11,
+  "chapter_title": "Enclosure Control Layers and Insulation",
+  "chapter_dir": "11-enclosure-insulation",
+  "chapter_rel_dir": "chapters/11-enclosure-insulation"
+}

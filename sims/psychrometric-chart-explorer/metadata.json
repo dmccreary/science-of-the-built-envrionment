@@ -1,0 +1,23 @@
+{
+  "title": "Psychrometric Chart Explorer",
+  "description": "Students will use (Bloom Level 3, Apply) a psychrometric chart to find the dew point and relative humidity of air at a given state, and will predict (Bloom Level 2, Understand) what happens to RH and dew point when the air is warmed or cooled.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "psychrometric-chart-explorer",
+  "library": "Plotly",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 4,
+  "chapter_title": "Moisture, Air Movement, and Thermal Comfort",
+  "chapter_dir": "04-moisture-air-comfort",
+  "chapter_rel_dir": "chapters/04-moisture-air-comfort"
+}

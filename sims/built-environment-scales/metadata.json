@@ -1,0 +1,23 @@
+{
+  "title": "Scales of the Built Environment",
+  "description": "Students will classify (Bloom Level 2, Understand) examples of built-environment elements into the five nested scales and explain (Understand) how a decision at one scale affects another.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "built-environment-scales",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 1,
+  "chapter_title": "Introduction to the Built Environment and Construction Terminology",
+  "chapter_dir": "01-intro-terminology",
+  "chapter_rel_dir": "chapters/01-intro-terminology"
+}

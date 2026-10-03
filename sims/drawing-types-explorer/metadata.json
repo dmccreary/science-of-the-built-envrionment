@@ -1,0 +1,23 @@
+{
+  "title": "Drawing Types Explorer",
+  "description": "Students will differentiate (Bloom Level 4, Analyze) plan, elevation, section, and detail views of the same small building and identify which view answers a given question.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "drawing-types-explorer",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 1,
+  "chapter_title": "Introduction to the Built Environment and Construction Terminology",
+  "chapter_dir": "01-intro-terminology",
+  "chapter_rel_dir": "chapters/01-intro-terminology"
+}

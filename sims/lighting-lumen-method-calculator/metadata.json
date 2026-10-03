@@ -1,0 +1,23 @@
+{
+  "title": "Lighting Lumen Method Calculator",
+  "description": "Students will calculate (Bloom Level 3, Apply) the number of luminaires a room requires using the lumen method, and will evaluate (Bloom Level 5, Evaluate) the resulting lighting power density against a target value.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "lighting-lumen-method-calculator",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 16,
+  "chapter_title": "Electrical Distribution, Lighting, and Design Team Coordination",
+  "chapter_dir": "16-electrical-distribution-design",
+  "chapter_rel_dir": "chapters/16-electrical-distribution-design"
+}

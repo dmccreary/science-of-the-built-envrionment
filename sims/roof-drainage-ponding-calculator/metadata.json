@@ -1,0 +1,23 @@
+{
+  "title": "Roof Drainage and Ponding Calculator",
+  "description": "Students will calculate (Bloom Level 3, Apply) the flow a roof drain must carry from roof area and rainfall intensity, and will predict (Bloom Level 2, Understand) how a clogged drain converts a rainfall into a standing-water load.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "roof-drainage-ponding-calculator",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 13,
+  "chapter_title": "Roof Assemblies",
+  "chapter_dir": "13-roof-assemblies",
+  "chapter_rel_dir": "chapters/13-roof-assemblies"
+}

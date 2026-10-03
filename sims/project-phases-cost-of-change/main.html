@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- microsim-scaffold-stub -->
+    <title>Project Phases and the Cost of Change</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            color: #212529;
+        }
+        #container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #1a3a6c;
+        }
+        .placeholder {
+            border: 2px dashed #adb5bd;
+            border-radius: 8px;
+            padding: 40px 20px;
+            text-align: center;
+            color: #6c757d;
+            margin: 20px 0;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .placeholder .badge {
+            display: inline-block;
+            background: #ffc107;
+            color: #212529;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .placeholder h2 {
+            font-size: 18px;
+            color: #495057;
+            margin-bottom: 8px;
+        }
+        .placeholder p {
+            font-size: 14px;
+            max-width: 480px;
+        }
+        .meta {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+            padding-top: 12px;
+        }
+        .meta strong { color: #495057; }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Project Phases and the Cost of Change</h1>
+        <div class="placeholder">
+            <span class="badge">SCAFFOLD</span>
+            <h2>MicroSim Not Yet Implemented</h2>
+            <p>This MicroSim has been scaffolded from its specification but the
+            interactive content has not been built yet. See the chapter source
+            and the <code>index.md</code> in this directory for the full spec.</p>
+        </div>
+        <div class="meta">
+            <p><strong>Sim ID:</strong> project-phases-cost-of-change</p>
+            <p><strong>Library:</strong> Chart.js</p>
+            <p><strong>Bloom Level:</strong> TBD</p>
+            <p><strong>Learning Objective:</strong> Students will explain (Bloom Level 2, Understand) why decisions are cheaper to change in early phases and will identify (Bloom Level 1, Remember) the deliverable and the electrical designer's contribution for each of the eight phases.</p>
+        </div>
+    </div>
+
+    <!--
+    SPECIFICATION (from chapter index.md):
+
+    Type: chart
+    **sim-id:** project-phases-cost-of-change<br/>
+    **Library:** Chart.js<br/>
+    **Status:** Specified
+    
+    Learning objective: Students will explain (Bloom Level 2, Understand) why decisions are cheaper to change in early phases and will identify (Bloom Level 1, Remember) the deliverable and the electrical designer's contribution for each of the eight phases.
+    
+    Visual: A line chart whose horizontal axis lists the eight project phases in order. Two lines are drawn: "Ability to influence the design" (falling from left to right) and "Cost of making a change" (rising from left to right). The vertical axis is labeled "Relative level" with no numeric scale, since the curves are conceptual. The chart is responsive to the container width, with a height of 420 px, and redraws on window resize.
+    
+    Interactions: Hovering over a phase shows a tooltip with the phase's main question. Clicking a phase opens an infobox below the chart with the principal deliverable, the owner's approval gate, and the electrical designer's contribution, matching the phase table above. A toggle labeled "Early collaboration" shifts the two lines to show how integrated delivery moves key decisions earlier, with a one-sentence explanation in the infobox. A slider labeled "Move the wall" places a marker at any phase and displays the description of what the change would involve at that point, based on the Riverbend wall example.
+    
+    Colors: The influence line is green and the cost line is orange. Both lines are also distinguished by dash style so they remain readable without color.
+    
+    Implementation: Chart.js line chart with custom tooltip callbacks, click handlers on the phase labels, and a small infobox div.
+    -->
+</body>
+</html>

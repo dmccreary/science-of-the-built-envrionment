@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- microsim-scaffold-stub -->
+    <title>Stress, Force, and Area Explorer</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            color: #212529;
+        }
+        #container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #1a3a6c;
+        }
+        .placeholder {
+            border: 2px dashed #adb5bd;
+            border-radius: 8px;
+            padding: 40px 20px;
+            text-align: center;
+            color: #6c757d;
+            margin: 20px 0;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .placeholder .badge {
+            display: inline-block;
+            background: #ffc107;
+            color: #212529;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .placeholder h2 {
+            font-size: 18px;
+            color: #495057;
+            margin-bottom: 8px;
+        }
+        .placeholder p {
+            font-size: 14px;
+            max-width: 480px;
+        }
+        .meta {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+            padding-top: 12px;
+        }
+        .meta strong { color: #495057; }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>Stress, Force, and Area Explorer</h1>
+        <div class="placeholder">
+            <span class="badge">SCAFFOLD</span>
+            <h2>MicroSim Not Yet Implemented</h2>
+            <p>This MicroSim has been scaffolded from its specification but the
+            interactive content has not been built yet. See the chapter source
+            and the <code>index.md</code> in this directory for the full spec.</p>
+        </div>
+        <div class="meta">
+            <p><strong>Sim ID:</strong> stress-area-load-explorer</p>
+            <p><strong>Library:</strong> p5.js</p>
+            <p><strong>Bloom Level:</strong> TBD</p>
+            <p><strong>Learning Objective:</strong> Students will apply (Bloom Level 3, Apply) the relationship stress = force divided by area to compute the stress in a member, and will evaluate (Bloom Level 5, Evaluate) whether the result is below an illustrative limit and what factor of safety it implies.</p>
+        </div>
+    </div>
+
+    <!--
+    SPECIFICATION (from chapter index.md):
+
+    Type: microsim
+    **sim-id:** stress-area-load-explorer<br/>
+    **Library:** p5.js<br/>
+    **Status:** Specified
+    
+    Learning objective: Students will apply (Bloom Level 3, Apply) the relationship stress = force divided by area to compute the stress in a member, and will evaluate (Bloom Level 5, Evaluate) whether the result is below an illustrative limit and what factor of safety it implies.
+    
+    Visual: A drawing of a member (a round steel rod, a 3.5 in square wood post, or a square footing on soil) with a downward load arrow and a cross-section view that shades the loaded area. A horizontal gauge shows stress against a limit marker, with the green zone below the limit and the red zone above it. The canvas width follows the container, the height is 440 px, and the sketch redraws on window resize.
+    
+    Controls: A dropdown labeled "Member" with three choices. A slider labeled "Load (lb)" from 0 to 20,000 with a default of 6,000. A slider labeled "Size" (rod diameter in inches, or footing side in feet) with a default that matches the worked example. A dropdown labeled "Limit" whose illustrative values are 36,000 psi (structural steel yield) and 1,500 psf (soil bearing).
+    
+    Interactions: The readout shows the area, the stress in psi and psf, and the factor of safety. When the stress passes the limit, the gauge turns red and a text message states which change (less load or more area) restores the margin. A "Snowshoe" button shrinks and enlarges the loaded area while the load stays fixed to show the stress changing.
+    
+    Colors: Green for stresses under the limit, orange for factors of safety below 1.5, and red above the limit. Each state also carries a text label.
+    
+    Implementation: p5.js with a responsive canvas, built-in slider and select controls, and unit-conversion helpers.
+    -->
+</body>
+</html>

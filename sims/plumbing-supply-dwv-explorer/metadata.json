@@ -1,0 +1,23 @@
+{
+  "title": "Plumbing Supply and DWV Explorer",
+  "description": "Students will distinguish (Bloom Level 4, Analyze) pressurized supply piping from gravity drain-waste-vent piping and will explain (Bloom Level 2, Understand) the role of the trap and vent in a fixture's drain.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "plumbing-supply-dwv-explorer",
+  "library": "p5.js",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
+  "chapter_number": 14,
+  "chapter_title": "HVAC, Plumbing, and Fire Protection Systems",
+  "chapter_dir": "14-hvac-plumbing-fire",
+  "chapter_rel_dir": "chapters/14-hvac-plumbing-fire"
+}
