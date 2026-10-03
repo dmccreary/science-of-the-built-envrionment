@@ -13,11 +13,49 @@
   "rights": "CC BY-NC-SA 4.0",
   "identifier": "wood-moisture-shrinkage-calculator",
   "library": "Chart.js",
-  "bloomLevel": "TBD",
-  "bloomVerb": "TBD",
-  "completion_status": "scaffold",
+  "bloomLevel": "Understand, Apply",
+  "bloomVerb": "calculate, predict",
+  "completion_status": "built",
   "chapter_number": 7,
   "chapter_title": "Wood and Steel Framing",
   "chapter_dir": "07-wood-steel-framing",
-  "chapter_rel_dir": "chapters/07-wood-steel-framing"
+  "chapter_rel_dir": "chapters/07-wood-steel-framing",
+  "canvasHeight": 712,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Understand",
+      "Apply"
+    ],
+    "concepts": [
+      "Moisture content",
+      "Fiber saturation point",
+      "Across-grain shrinkage",
+      "Equilibrium moisture content",
+      "Decay risk"
+    ],
+    "prerequisites": [
+      "Percent and ratio calculations",
+      "Chapter 4 moisture principles"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Calculate the moisture content of a wood sample and the across-grain shrinkage of a member as it dries, and predict how a heated Minnesota winter interior changes a framed building's dimensions.",
+    "recommendedUsage": [
+      "Drag the Starting MC and Final MC sliders. The two markers move along the line, and the readout shows the shrinkage in percent and in inches. The default (19 percent down to 9 percent, three floor levels) is the Chapter 7 worked example.",
+      "Choose a Member depth from the drop-down to see how a deeper member, or a whole stack of three floors, shrinks more in inches for the same drop in moisture content.",
+      "Press Minnesota winter interior to set the final moisture content to 8 percent, then try starting values above 20 percent and read the decay-risk status in the readout.",
+      "Press Weigh a sample, enter a wet mass and an oven-dry mass, and follow the three calculation steps. The gold star shows the sample on the chart, and a button copies its moisture content into the starting slider."
+    ],
+    "activities": [
+      "Warm-up (5 min): Students weigh the sample in the book (42 g wet, 35 g oven-dry) and confirm 20 percent, then predict whether that sample is safe from decay.",
+      "Explore (10 min): Students hold the member at the three-floor stack and change the starting moisture content from 30 down to 10 percent, recording the shrinkage in inches each time and noting what happens above 28 percent.",
+      "Apply (10 min): Students compare a 2\u00d710 joist stack at 19 percent against kiln-dried lumber at 12 percent, both settling at 8 percent, and write one detailing decision to accommodate the movement."
+    ],
+    "assessment": [
+      "Students compute by hand the shrinkage of a 2\u00d712 dried from 17 to 8 percent MC and check the answer against the simulator.",
+      "Students explain in two sentences why a stud barely changes in length while a stack of joists and plates changes noticeably in height."
+    ]
+  }
 }

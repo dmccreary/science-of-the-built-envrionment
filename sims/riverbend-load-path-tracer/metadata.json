@@ -13,11 +13,49 @@
   "rights": "CC BY-NC-SA 4.0",
   "identifier": "riverbend-load-path-tracer",
   "library": "p5.js",
-  "bloomLevel": "TBD",
-  "bloomVerb": "TBD",
-  "completion_status": "scaffold",
+  "bloomLevel": "Analyze, Evaluate",
+  "bloomVerb": "trace, evaluate",
+  "completion_status": "built",
   "chapter_number": 6,
   "chapter_title": "Structural Loads and Load Paths",
   "chapter_dir": "06-structural-loads",
-  "chapter_rel_dir": "chapters/06-structural-loads"
+  "chapter_rel_dir": "chapters/06-structural-loads",
+  "canvasHeight": 590,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Analyze",
+      "Evaluate"
+    ],
+    "concepts": [
+      "Load path",
+      "Gravity load system",
+      "Lateral load system",
+      "Shear wall and diaphragm",
+      "Strength, stiffness, and stability"
+    ],
+    "prerequisites": [
+      "Force, stress, and equilibrium (Chapter 3)",
+      "Tributary area and load takedown"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Trace gravity and lateral load paths from the point of application to the soil, and evaluate the effect of removing one link.",
+    "recommendedUsage": [
+      "Choose a load: Snow and dead (gravity), Wind (lateral), or Quake (lateral). Six blocks show the links of that path, and arrows between them carry the force handed on.",
+      "Press Step to light one link at a time, or Play to run the whole path. Click any block to read its force, member type, and the connection to the next link.",
+      "Select a block, then check Break the selected link. The block fails, the link above it moves, the arrows below it go dark, and the panel names the requirement that is lost.",
+      "Drag Roof weight from 15 psf (light wood roof) to 30 psf (twice as heavy). The quake force and the gravity loads grow, but the wind force stays fixed. Press Quiz me to hide the labels and click the links in order."
+    ],
+    "activities": [
+      "Warm-up (5 min): Students predict the six links of the gravity path from the roof to the soil, then press Play to check their list against the worked example in Chapter 6.",
+      "Explore (10 min): Students step through the wind and quake paths, record the force at each link, and find where the two lateral paths share the same members.",
+      "Evaluate (10 min): Students break each link in turn, record which requirement is lost, and rank the links by how much of the building each failure would affect."
+    ],
+    "assessment": [
+      "Students use the Quiz me mode and then explain in two sentences why a gravity path alone does not protect a building from wind.",
+      "Students set the roof weight to 30 psf and state which governs at the roof level, wind or quake, and what happens to the soil pressure under the footing."
+    ]
+  }
 }

@@ -3,106 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- microsim-scaffold-stub -->
-    <title>Building Pressure and Air Leakage Explorer</title>
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Building Pressure and Air Leakage Explorer MicroSim using P5.js 2.3.2</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@2.3.2/lib/p5.js"></script>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            color: #212529;
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
         }
-        #container {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-        }
-        h1 {
-            font-size: 22px;
-            margin-bottom: 10px;
-            color: #1a3a6c;
-        }
-        .placeholder {
-            border: 2px dashed #adb5bd;
-            border-radius: 8px;
-            padding: 40px 20px;
-            text-align: center;
-            color: #6c757d;
-            margin: 20px 0;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .placeholder .badge {
-            display: inline-block;
-            background: #ffc107;
-            color: #212529;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .placeholder h2 {
-            font-size: 18px;
-            color: #495057;
-            margin-bottom: 8px;
-        }
-        .placeholder p {
-            font-size: 14px;
-            max-width: 480px;
-        }
-        .meta {
-            margin-top: 20px;
-            font-size: 13px;
-            color: #6c757d;
-            border-top: 1px solid #dee2e6;
-            padding-top: 12px;
-        }
-        .meta strong { color: #495057; }
     </style>
+    <script src="building-pressure-air-leakage-explorer.js"></script>
 </head>
 <body>
-    <div id="container">
-        <h1>Building Pressure and Air Leakage Explorer</h1>
-        <div class="placeholder">
-            <span class="badge">SCAFFOLD</span>
-            <h2>MicroSim Not Yet Implemented</h2>
-            <p>This MicroSim has been scaffolded from its specification but the
-            interactive content has not been built yet. See the chapter source
-            and the <code>index.md</code> in this directory for the full spec.</p>
-        </div>
-        <div class="meta">
-            <p><strong>Sim ID:</strong> building-pressure-air-leakage-explorer</p>
-            <p><strong>Library:</strong> p5.js</p>
-            <p><strong>Bloom Level:</strong> TBD</p>
-            <p><strong>Learning Objective:</strong> Students will analyze (Bloom Level 4, Analyze) how wind, the stack effect, and exhaust fans each change the pressure across a building enclosure, and will predict (Bloom Level 2, Understand) where air enters and where it leaves.</p>
-        </div>
-    </div>
-
-    <!--
-    SPECIFICATION (from chapter index.md):
-
-    Type: microsim
-    **sim-id:** building-pressure-air-leakage-explorer<br/>
-    **Library:** p5.js<br/>
-    **Status:** Specified
-    
-    Learning objective: Students will analyze (Bloom Level 4, Analyze) how wind, the stack effect, and exhaust fans each change the pressure across a building enclosure, and will predict (Bloom Level 2, Understand) where air enters and where it leaves.
-    
-    Visual: A side view of a building outline up to three stories high, with several small gaps drawn at different heights on the walls and at the roof. A vertical pressure graph beside the building shows the indoor-minus-outdoor pressure at each height, with a marker for the neutral pressure plane. Arrows through the gaps show direction and scale with the pressure. The canvas width follows the container, the height is 500 px, and the sketch redraws on window resize.
-    
-    Controls: A slider labeled "Outdoor temperature (°F)" from −20 to 70 with a default of −10. A slider labeled "Wind speed (mph)" from 0 to 30 with a default of 0, and a toggle for wind direction. A slider labeled "Exhaust fan (CFM)" from 0 to 2,000 with a default of 0. A slider labeled "Building height (ft)" from 10 to 60 with a default of 30. A checkbox labeled "Seal the top gaps" closes the upper gaps.
-    
-    Interactions: Hovering over a gap shows the pressure across it and the direction of flow. Raising the exhaust fan slider shifts the pressure curve toward negative pressure. Sealing the top gaps moves the neutral pressure plane upward and increases the infiltration at the bottom, with a one-sentence explanation. A readout lists the total stack pressure for the selected temperature difference and height, and the defaults reproduce about 19 Pa across a 30 ft height at −10°F.
-    
-    Colors: Positive pressure is orange, negative pressure is blue, and the neutral plane is a dashed gray line. All flow arrows carry text labels showing direction.
-    
-    Implementation: p5.js with a responsive canvas, built-in sliders and checkbox, a simplified stack and wind model, and a pressure graph drawn each frame. The model is illustrative and is labeled as such.
-    -->
+    <main></main>
+    <br/>
+    <a href=".">Back to Building Pressure and Air Leakage Explorer Lesson Plan</a>
 </body>
 </html>
