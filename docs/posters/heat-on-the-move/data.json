@@ -1,0 +1,158 @@
+{
+  "title": "Heat on the Move",
+  "image": "heat-on-the-move.png",
+  "layout": "grid",
+  "showLabels": true,
+  "palette": ["#C95343", "#2468A2", "#FF6A13", "#7453A1", "#D39B1C", "#6B8E4E"],
+  "zones": [
+    {
+      "id": "conduction",
+      "label": "Conduction",
+      "color": "#C95343",
+      "x1": 2.0,
+      "y1": 2.0,
+      "x2": 48.5,
+      "y2": 32.5,
+      "summary": "Heat passing through a solid by molecular collisions: up a spoon in hot soup, or from the warm room through a stud to the cold outdoors.",
+      "facts": [
+        "Conduction moves heat through direct contact, and it is the main mechanism in solid building materials such as wood, concrete, steel, and insulation (Chapter 3).",
+        "Insulation works by holding air still in tiny pockets, so heat has to conduct through a material that is mostly air and only a little solid.",
+        "In Chapter 3's worked example, a wood stud passes about three times as much heat as the same thickness of fiberglass batt, and a steel stud passes far more.",
+        "Heat flow rises with conductivity, area, and temperature difference, and falls with thickness (Fourier's law, Chapter 3)."
+      ]
+    },
+    {
+      "id": "convection",
+      "label": "Convection",
+      "color": "#2468A2",
+      "x1": 2.0,
+      "y1": 34.5,
+      "x2": 48.5,
+      "y2": 65.5,
+      "summary": "Heat carried by moving air or water: warm air rising off a radiator and sinking again along a cold window.",
+      "facts": [
+        "In natural convection, warm fluid is lighter and rises while cool fluid sinks. In forced convection, a fan or the wind drives the motion (Chapter 3).",
+        "A thin film of nearly still air clings to every surface. In Chapter 3's example, a 15 mph wind makes heat exchange at the outside surface about four times larger than in still air.",
+        "A draft is not cold flowing in. It is warm air leaving and replacement air arriving that the furnace must now heat (Chapter 3).",
+        "Convection can also bypass insulation: where insulation and the air barrier do not line up, heated air flows around the insulation (PNNL, Building America)."
+      ]
+    },
+    {
+      "id": "radiation",
+      "label": "Radiation",
+      "color": "#FF6A13",
+      "x1": 2.0,
+      "y1": 67.5,
+      "x2": 48.5,
+      "y2": 98.0,
+      "summary": "Heat travelling as electromagnetic waves that need no material, like sun on a floor or the chill you feel facing a cold window.",
+      "facts": [
+        "Every object above absolute zero radiates, and the amount rises steeply with its absolute temperature (Chapter 3).",
+        "Your skin radiates toward every colder surface it can see, which is why you feel cold beside a large window even when the thermostat reads 70 °F (Chapter 3).",
+        "In Chapter 3's worked example, net radiant loss to a cold window pane is roughly double the loss to an interior wall at room temperature.",
+        "Polished metal foil emits and absorbs very little radiation, while most paint, wood, and glass have an emissivity near 0.9 (Chapter 3)."
+      ]
+    },
+    {
+      "id": "thermal-bridges",
+      "label": "Thermal Bridges",
+      "color": "#7453A1",
+      "x1": 51.5,
+      "y1": 2.0,
+      "x2": 98.0,
+      "y2": 62.0,
+      "summary": "Framing and other high-conductivity paths that carry heat around the insulation, shown as warm stripes at the studs and rim joist in a false-color thermal image.",
+      "facts": [
+        "Thermal bridging is heat flowing around or through insulation by way of a higher-conductivity material that spans from the warm side to the cold side (Chapter 3).",
+        "In a conventional 2×4 wall, studs and plates make up roughly 25 percent of the wall area, a common estimate used in Chapter 3.",
+        "In Chapter 3's worked example, a cavity-only R of 15.4 drops to an effective R of about 11.7 once the framing is counted, about 24 percent lower.",
+        "The remedy is a continuous layer of insulation outside the framing, so that no stud runs unbroken from the warm side to the cold side (Chapters 3 and 11).",
+        "In a winter thermal image taken from outdoors, studs glow warm because heat is escaping through them. From indoors, the same studs read colder."
+      ]
+    },
+    {
+      "id": "slab-without-thermal-break",
+      "label": "Slab Without a Thermal Break",
+      "color": "#D39B1C",
+      "x1": 51.5,
+      "y1": 65.0,
+      "x2": 74.0,
+      "y2": 98.0,
+      "summary": "A concrete balcony slab that runs unbroken through the wall and acts like a cooling fin, pulling heat out of the building.",
+      "facts": [
+        "Chapter 3 names concrete slab edges that pass through the wall as a classic thermal bridge.",
+        "Concrete conducts heat readily: Chapter 3 lists it at about 10 BTU·in/h·ft²·°F, against about 0.27 for a fiberglass batt.",
+        "The cold slab also chills the floor and wall near it. Low surface temperatures there are where condensation and mold can start (Chapters 3 and 4).",
+        "Extra insulation elsewhere in the wall cannot make up for it, because heat takes the easiest path."
+      ]
+    },
+    {
+      "id": "slab-with-thermal-break",
+      "label": "Slab With a Thermal Break",
+      "color": "#6B8E4E",
+      "x1": 75.5,
+      "y1": 65.0,
+      "x2": 98.0,
+      "y2": 98.0,
+      "summary": "The same balcony with an insulating layer between slab and wall, crossed by a few load-carrying bars, so far less heat can follow the concrete out.",
+      "facts": [
+        "A structural thermal break is an insulating layer inserted where the slab meets the wall, crossed by a small number of reinforcing bars that carry the load.",
+        "It reduces the bridge but does not erase it, because the bars and the rest of the slab still conduct some heat.",
+        "Passive House practice makes thermal-bridge-free detailing one of its five principles (Chapter 19; Passive House Institute).",
+        "Where a balcony cannot be broken at the connection, a freestanding balcony on its own posts avoids the bridge altogether."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A metal spoon left in a pot of hot soup soon burns your hand. Which region shows this way heat moves?",
+      "correct_zone": "conduction",
+      "explanation": "Heat passes through a solid by molecular collisions, from the hot end to the cool end, with no bulk motion of the material."
+    },
+    {
+      "question": "A wood stud passes about three times as much heat as an equal thickness of fiberglass batt. Which region shows the mechanism at work inside the stud?",
+      "correct_zone": "conduction",
+      "explanation": "Heat travels through solid wood by molecular contact, and wood conducts better than the mostly-air batt."
+    },
+    {
+      "question": "Warm air rises off a radiator, crosses the ceiling, and sinks along the cold window glass. Which region shows this loop?",
+      "correct_zone": "convection",
+      "explanation": "Moving air carries heat. Warm air is lighter and rises, and cooled air is heavier and sinks."
+    },
+    {
+      "question": "Why does the outside surface of a wall lose heat faster on a windy day than on a calm one, and which region shows the mechanism?",
+      "correct_zone": "convection",
+      "explanation": "Wind sweeps away the still air film clinging to the surface, so heat is exchanged with moving air much faster."
+    },
+    {
+      "question": "You sit near a large cold window and feel chilled even though the thermostat reads 70 °F. Which region explains the chill?",
+      "correct_zone": "radiation",
+      "explanation": "Your skin radiates heat toward the colder glass faster than it receives heat back, even though the air is warm."
+    },
+    {
+      "question": "Sunlight warms a dark floor across an empty room with no air or solid touching the floor on the way. Which region shows this way heat moves?",
+      "correct_zone": "radiation",
+      "explanation": "Sunlight is electromagnetic energy that crosses space with no material to carry it, and the floor absorbs it."
+    },
+    {
+      "question": "A thermal camera outside a winter house shows glowing stripes at every stud and along the rim joist. Which region shows this?",
+      "correct_zone": "thermal-bridges",
+      "explanation": "Framing conducts heat around the insulation, so the outside surface at each stud runs warmer than the insulated cavities."
+    },
+    {
+      "question": "Which region shows why a wall labeled R-13 performs worse than R-13 once the framing is counted?",
+      "correct_zone": "thermal-bridges",
+      "explanation": "Studs and plates take a path of lower resistance, so the whole wall's effective R is lower than the insulation's label."
+    },
+    {
+      "question": "A concrete slab runs unbroken from a heated living room out to an exterior balcony, and the floor inside near that wall stays cold. Which region shows this detail?",
+      "correct_zone": "slab-without-thermal-break",
+      "explanation": "Concrete conducts heat readily, so the continuous slab acts like a fin that drains heat from the building and chills the nearby interior surfaces."
+    },
+    {
+      "question": "Which region shows a balcony connection with an insulating layer between the slab and the wall, crossed by only a few load-carrying bars?",
+      "correct_zone": "slab-with-thermal-break",
+      "explanation": "The insulating layer interrupts the conductive path, and only the small bars still carry some heat."
+    }
+  ]
+}

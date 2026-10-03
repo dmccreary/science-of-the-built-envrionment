@@ -1,0 +1,173 @@
+{
+  "title": "The Carbon Footprint of the Built World",
+  "image": "carbon-footprint-of-the-built-world.png",
+  "layout": "grid",
+  "showLabels": true,
+  "palette": ["#FF6A13", "#C95343", "#8B5A2B", "#2468A2", "#7453A1", "#6B8E4E", "#D39B1C"],
+  "zones": [
+    {
+      "id": "a2030-share",
+      "label": "Built Environment Share (Architecture 2030)",
+      "color": "#FF6A13",
+      "x1": 2.0,
+      "y1": 2.0,
+      "x2": 30.0,
+      "y2": 60.0,
+      "summary": "Architecture 2030 attributes about 42% of annual global CO2 emissions to the built environment, shown as a slice pulled out of the whole ring.",
+      "facts": [
+        "Architecture 2030 puts the built environment at about 42% of annual global CO2 emissions (Architecture 2030, Why the Built Environment).",
+        "That 42% is the sum of two parts: about 27% from building operations and about 15% from embodied carbon (Architecture 2030).",
+        "Buildings are one of the largest single levers for cutting emissions, which is why a whole chapter of this book is about materials (Chapter 20).",
+        "This panel uses only the Architecture 2030 accounting. The UNEP numbers sit in their own panel because they draw the boundary differently."
+      ]
+    },
+    {
+      "id": "operational-carbon",
+      "label": "Operational Carbon (Architecture 2030)",
+      "color": "#C95343",
+      "x1": 31.0,
+      "y1": 2.0,
+      "x2": 49.0,
+      "y2": 30.0,
+      "summary": "About 27% of annual global CO2 comes from running buildings: heating, cooling, lighting, hot water, and equipment.",
+      "facts": [
+        "Architecture 2030 attributes approximately 27% of annual global CO2 emissions to building operations (Architecture 2030).",
+        "Operational carbon is the emissions from the energy a building uses every year it is occupied (Chapter 19).",
+        "It is spread over decades and can shrink as the electric grid gets cleaner or the building is retrofitted (Chapter 20).",
+        "Better insulation, air sealing, and efficient equipment cut this slice for the life of the building."
+      ]
+    },
+    {
+      "id": "embodied-carbon",
+      "label": "Embodied Carbon (Architecture 2030)",
+      "color": "#8B5A2B",
+      "x1": 31.0,
+      "y1": 31.0,
+      "x2": 49.0,
+      "y2": 60.0,
+      "summary": "About 15% more comes from the carbon built into materials and construction before anyone moves in.",
+      "facts": [
+        "Architecture 2030 counts an additional 15% of annual global CO2 emissions as embodied carbon, tied to materials such as cement, iron, steel, and aluminum (Architecture 2030).",
+        "Embodied carbon is front-loaded: nearly all of it is emitted before the building opens, so it cannot be fixed later (Chapter 20).",
+        "As buildings become more efficient to operate, materials make up a larger share of a building's life-cycle emissions (Chapter 20).",
+        "Choosing a lower-carbon material or using less of it is the main way a designer cuts this slice."
+      ]
+    },
+    {
+      "id": "unep-accounting",
+      "label": "UNEP GlobalABC Accounting",
+      "color": "#2468A2",
+      "x1": 51.0,
+      "y1": 2.0,
+      "x2": 98.0,
+      "y2": 30.0,
+      "summary": "A separate accounting: the UNEP and GlobalABC 2024/2025 report puts buildings and construction at 32% of global energy and 34% of global CO2.",
+      "facts": [
+        "The UNEP and GlobalABC Global Status Report for Buildings and Construction 2024/2025 reports 32% of global energy use and 34% of global CO2 emissions.",
+        "These figures cover the buildings and construction sector as UNEP and GlobalABC define it, which reaches beyond building operations to include construction and materials.",
+        "34% and Architecture 2030's 42% are not competing answers to one question. They come from different studies with different boundaries.",
+        "Never add, average, or swap these numbers with the Architecture 2030 numbers. Quote each with its source."
+      ]
+    },
+    {
+      "id": "materials-skyline",
+      "label": "Materials Behind Embodied Carbon",
+      "color": "#7453A1",
+      "x1": 51.0,
+      "y1": 31.0,
+      "x2": 98.0,
+      "y2": 60.0,
+      "summary": "A skyline built from cement, steel, aluminum, timber, glass, and insulation: each material carries a different carbon cost.",
+      "facts": [
+        "Architecture 2030 ties embodied carbon to materials such as cement, iron, steel, and aluminum (Architecture 2030).",
+        "Cement releases carbon dioxide from the limestone itself, regardless of the fuel burned in the kiln (Chapter 20).",
+        "Per kilogram, concrete is low in embodied energy, steel is higher, and primary aluminum is far higher, but total impact is intensity times quantity (Chapter 20).",
+        "Timber can store carbon, and cement substitutes and recycled content lower a mix's footprint; confirm claims with a product EPD (Chapter 20)."
+      ]
+    },
+    {
+      "id": "new-floor-area",
+      "label": "New Floor Area, 2020 to 2060",
+      "color": "#6B8E4E",
+      "x1": 2.0,
+      "y1": 62.0,
+      "x2": 66.0,
+      "y2": 98.0,
+      "summary": "The world is expected to add about 2.6 trillion square feet (241 billion square meters) of floor area between 2020 and 2060.",
+      "facts": [
+        "Architecture 2030 projects about 2.6 trillion ft2 (241 billion m2) of new floor area added to the global building stock from 2020 to 2060, using International Energy Agency data.",
+        "Architecture 2030 compares that to adding a New York City's worth of floor area every month for 40 years.",
+        "Architecture 2030, citing United Nations data, says three-quarters of the infrastructure that will exist in 2050 has yet to be built.",
+        "Most of that building is still a decision: the materials chosen in the next few decades set the embodied carbon (Chapter 20)."
+      ]
+    },
+    {
+      "id": "boundary-note",
+      "label": "Different Boundaries, Different Numbers",
+      "color": "#D39B1C",
+      "x1": 67.5,
+      "y1": 62.0,
+      "x2": 98.0,
+      "y2": 98.0,
+      "summary": "Two reputable sources give different shares because they draw the boundary differently, so always ask what a number counts.",
+      "facts": [
+        "Architecture 2030 reports 42% for the built environment; UNEP and GlobalABC report 34% for buildings and construction. Each is correct for its own boundary and method.",
+        "A third example: RICS cites a UNEP estimate that for 2021 about 28% of global CO2 was operational and about 12% embodied, a different year and boundary again.",
+        "Before using any share, check what it counts (operations, materials, construction), the year, and the data source.",
+        "State the source next to the number, and keep numbers from different sources in separate sentences."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which region shows the slice pulled out of the full ring, about 42% of annual global CO2 in Architecture 2030's accounting?",
+      "correct_zone": "a2030-share",
+      "explanation": "Architecture 2030 sums operations (about 27%) and embodied carbon (about 15%) to roughly 42% of annual global CO2 emissions."
+    },
+    {
+      "question": "Which part of the pulled-out slice covers the emissions from the energy used to heat, cool, and light buildings year after year?",
+      "correct_zone": "operational-carbon",
+      "explanation": "That is operating energy, about 27% of annual global CO2 in the Architecture 2030 figures."
+    },
+    {
+      "question": "A designer swaps a high-carbon material for a lower-carbon one before construction. Which part of the Architecture 2030 slice does this reduce?",
+      "correct_zone": "embodied-carbon",
+      "explanation": "Material choice changes the carbon built into the building, about 15% of annual global CO2 in the Architecture 2030 figures."
+    },
+    {
+      "question": "A report states that buildings and construction use 32% of global energy and produce 34% of global CO2. Which region holds that accounting?",
+      "correct_zone": "unep-accounting",
+      "explanation": "These are the UNEP and GlobalABC 2024/2025 figures, kept apart from Architecture 2030's numbers because the boundaries differ."
+    },
+    {
+      "question": "Which region shows the stacked blocks of cement, steel, aluminum, timber, glass, and insulation?",
+      "correct_zone": "materials-skyline",
+      "explanation": "These are the materials whose manufacture creates embodied carbon, each with a different footprint per kilogram and per building."
+    },
+    {
+      "question": "Which region shows the long bar of repeating small city icons, standing for roughly 241 billion square meters of floor area added over 40 years?",
+      "correct_zone": "new-floor-area",
+      "explanation": "Architecture 2030 projects about 2.6 trillion square feet of new floor area from 2020 to 2060."
+    },
+    {
+      "question": "A reader quotes 42% from one source and 34% from another and says one of them must be wrong. Which region explains why they can both be right?",
+      "correct_zone": "boundary-note",
+      "explanation": "Different studies count different things and use different methods, so the shares differ. Each must be quoted with its own source."
+    },
+    {
+      "question": "Which region would you use to explain why most of a building's embodied carbon is already emitted by the day the doors open?",
+      "correct_zone": "embodied-carbon",
+      "explanation": "Embodied carbon is front-loaded: manufacture, transport, and construction all happen before occupancy."
+    },
+    {
+      "question": "Which region warns that three-quarters of the infrastructure that will exist in 2050 has not been built yet?",
+      "correct_zone": "new-floor-area",
+      "explanation": "Architecture 2030, citing United Nations data, uses this to show that today's design choices lock in decades of emissions."
+    },
+    {
+      "question": "Which region would you point to when someone asks whether the 27% and the 34% figures can be added together or compared directly?",
+      "correct_zone": "boundary-note",
+      "explanation": "They come from different sources with different boundaries, so they should never be mixed in a single number."
+    }
+  ]
+}

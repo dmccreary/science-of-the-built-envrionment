@@ -99,3 +99,20 @@
 .md-status--scaffold:hover:after { background-color: #b71c1c; }
 .md-status--built:hover:after    { background-color: #ef6c00; }
 .md-status--approved:hover:after { background-color: #1b5e20; }
+
+/* ==========================================================================
+   Poster gallery (docs/posters/index.md)
+   Cards are Material "grid cards" given the class `poster-grid`; thumbnails
+   fill the card width and keep their landscape aspect ratio. Requires the
+   `md_in_html` + `attr_list` extensions.
+   ========================================================================== */
+.md-typeset .grid.poster-grid,
+.md-typeset .grid.poster-grid > ul {
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+}
+
+.md-typeset .grid.poster-grid img {
+    display: block;
+    width: 100%;
+    height: auto;
+}

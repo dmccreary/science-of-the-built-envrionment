@@ -69,6 +69,30 @@ nav:
       - Graph Quality Analysis: learning-graph/quality-metrics.md
       - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
 
+  - Posters:
+      - Poster Gallery: posters/index.md
+      - Infographic Poster Ideas: posters/infographic-poster-ideas.md
+      - The House as a System: posters/house-as-a-system/index.md
+      - "The Perfect Wall: Four Control Layers": posters/the-perfect-wall/index.md
+      - The Six S's of Shearing Layers: posters/six-s-shearing-layers/index.md
+      - Four Ways Moisture Moves: posters/four-ways-moisture-moves/index.md
+      - Heat on the Move: posters/heat-on-the-move/index.md
+      - The Load Path: posters/the-load-path/index.md
+      - The Whole Building Design Wheel: posters/whole-building-design-wheel/index.md
+      - The Five Principles of Passive House: posters/five-principles-of-passive-house/index.md
+      - The Indoor Species: posters/the-indoor-species/index.md
+      - Thermal Comfort Is Six Variables: posters/thermal-comfort-six-variables/index.md
+      - The Carbon Footprint of the Built World: posters/carbon-footprint-of-the-built-world/index.md
+      - Cradle to Grave to Cradle: posters/cradle-to-grave-to-cradle/index.md
+      - The Building as a Chimney: posters/the-building-as-a-chimney/index.md
+      - The Swiss Cheese Model of Building Failure: posters/swiss-cheese-model-of-building-failure/index.md
+      - The Living Building Petals: posters/living-building-petals/index.md
+      - Nature in the Room: posters/nature-in-the-room/index.md
+      - When the Power Goes Out: posters/when-the-power-goes-out/index.md
+      - Minnesota Asks Hard Questions: posters/minnesota-asks-hard-questions/index.md
+      - Idea to Occupancy: posters/idea-to-occupancy/index.md
+      - The Building Systems Map: posters/the-building-systems-map/index.md
+
   - MicroSims:
       - List of MicroSims: sims/index.md
       - Learning Graph Viewer: sims/graph-viewer/index.md
@@ -153,6 +177,9 @@ nav:
 # Theme configuration
 theme:
   name: material
+  custom_dir: overrides
+  static_templates:
+    - 404.html
   # Once a logo is generated, point this at docs/img/logo.png or a mascot pose:
   # logo: img/logo.png
   # favicon: img/favicon.ico
@@ -219,9 +246,9 @@ extra_css:
   - css/extra.css
   - css/mascot.css
 
-# Custom JavaScript — uncomment once a corresponding file exists
-# extra_javascript:
-#   - js/extra.js
+# Custom JavaScript — iframe auto-height listener for overlay posters
+extra_javascript:
+  - js/extra.js
 
 # Exclude prompt scratch files and TODOs from build/search/sitemap
 exclude_docs: |
