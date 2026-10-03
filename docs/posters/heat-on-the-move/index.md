@@ -1,7 +1,8 @@
 ---
 title: Heat on the Move
 description: Heat moves by conduction, convection, and radiation, and thermal bridges let it bypass insulation, so insulation only works if heat cannot go around it.
-status: scaffold
+image: posters/heat-on-the-move/heat-on-the-move.png
+status: built
 hide:
   - toc
 ---
@@ -20,6 +21,12 @@ The six regions are:
 4. **Thermal Bridges** — Framing and other paths that carry heat around the insulation.
 5. **Slab Without a Thermal Break** — A concrete balcony slab that runs unbroken through the wall.
 6. **Slab With a Thermal Break** — The same balcony with an insulating layer interrupting the slab.
+
+## Static Poster
+
+![Heat on the Move poster](./heat-on-the-move.png){ loading=lazy }
+
+The full-size poster above is a static copy of the interactive version, handy for printing, sharing, or viewing without JavaScript.
 
 ## Why This Matters
 

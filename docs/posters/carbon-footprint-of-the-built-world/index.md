@@ -1,7 +1,8 @@
 ---
 title: The Carbon Footprint of the Built World
 description: Buildings are a leading climate lever, and the carbon in materials matters as much as the energy used to run them, but every share depends on where its source draws the boundary.
-status: scaffold
+image: posters/carbon-footprint-of-the-built-world/carbon-footprint-of-the-built-world.png
+status: built
 hide:
   - toc
 ---
@@ -21,6 +22,12 @@ The poster keeps two accountings in separate regions. The three warm-toned regio
 5. **Materials Behind Embodied Carbon** — Cement, steel, aluminum, timber, glass, and insulation.
 6. **New Floor Area, 2020 to 2060** — About 2.6 trillion square feet (241 billion square meters) still to be built.
 7. **Different Boundaries, Different Numbers** — Why two sources can both be right.
+
+## Static Poster
+
+![The Carbon Footprint of the Built World poster](./carbon-footprint-of-the-built-world.png){ loading=lazy }
+
+The full-size poster above is a static copy of the interactive version, handy for printing, sharing, or viewing without JavaScript.
 
 ## Why This Matters
 

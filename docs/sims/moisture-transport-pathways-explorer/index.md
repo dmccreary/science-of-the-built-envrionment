@@ -1,18 +1,60 @@
 ---
 title: Moisture Pathways in a Wall
-description: Students will classify (Bloom Level 2, Understand) each way that moisture enters a wall as bulk water, capillary action, air movement, or vapor diffusion, and will match (Bloom Level 2, Understand) each pathway to its control.
-status: scaffold
+description: Students explore a section drawing of a Minnesota wall on a concrete foundation and classify each way moisture reaches it as bulk water, capillary action, air movement, or vapor diffusion. Each pathway has a driver, an example, and a matching control, and a quiz mode tests the match.
+image: /sims/moisture-transport-pathways-explorer/moisture-transport-pathways-explorer.png
+og:image: /sims/moisture-transport-pathways-explorer/moisture-transport-pathways-explorer.png
+twitter:image: /sims/moisture-transport-pathways-explorer/moisture-transport-pathways-explorer.png
+social:
+   cards: false
+status: built
 library: p5.js
-bloom_level: TBD
+bloom_level: Understand
 ---
 
 # Moisture Pathways in a Wall
 
+<iframe src="main.html" width="100%" height="582" scrolling="no"></iframe>
 
+[Run the Moisture Pathways in a Wall MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+Place the following line in your website to include this MicroSim in your course.
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+```html
+<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/moisture-transport-pathways-explorer/main.html" width="100%" height="582" scrolling="no"></iframe>
+```
+
+## Description
+
+Students explore a section drawing of a Minnesota wall on a concrete foundation and classify each way moisture reaches it as bulk water, capillary action, air movement, or vapor diffusion. Each pathway has a driver, an example, and a matching control, and a quiz mode tests the match.
+
+## How to Use
+
+1. Click any arrow in the wall drawing, or press one of the four pathway buttons, to open the info panel with the pathway's driver, an example, and its control.
+2. Press a pathway button to switch its arrows on or off. A struck-through label means the pathway is hidden.
+3. Check Show controls to overlay the matching control in the pathway's color: head flashing, a capillary break, an air barrier, and a vapor retarder.
+4. Hover over the drawing to see the name of each layer: siding, sheathing, the insulated stud cavity, gypsum board, the window, the foundation, and the soil.
+5. Press Quiz me to hide the labels and highlight one arrow. Press the pathway button you think matches it, and press Next arrow for another.
+
+## Lesson Plan
+
+**Learning objective:** Classify each way that moisture enters a wall as bulk water, capillary action, air movement, or vapor diffusion, and match each pathway to its control.
+
+**Suggested activities**
+
+- Warm-up (5 min): Students list how they think water gets into a wall, then compare their list with the four pathways.
+- Explore (10 min): Students click each arrow, write the driver and the control in a four-row table, and then check Show controls to confirm the controls.
+- Practice (10 min): Students use Quiz me until they answer five arrows in a row correctly on the first try, then explain which two pathways they confused most.
+
+**Assessment**
+
+- Students explain why a wall that blocks bulk water and diffusion can still be damaged by air movement.
+- Students name the driver of each of the four pathways without looking at the info panel.
+
+## References
+
+- [Chapter 4: Moisture, Air, and Comfort](../../chapters/04-moisture-air-comfort/index.md)
+- [Capillary action (Wikipedia)](https://en.wikipedia.org/wiki/Capillary_action)
+- [Vapor barrier (Wikipedia)](https://en.wikipedia.org/wiki/Vapor_barrier)
 
 ## Specification
 

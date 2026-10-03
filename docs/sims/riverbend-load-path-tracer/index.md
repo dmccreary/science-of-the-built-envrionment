@@ -1,18 +1,59 @@
 ---
 title: Riverbend Load Path Tracer
-description: Students will trace (Bloom Level 4, Analyze) the gravity and lateral load paths of a small wood-framed building from the point of application to the soil, and will evaluate (Bloom Level 5, Evaluate) the effect of removing or weakening one link.
-status: scaffold
+description: Students trace the snow-and-dead (gravity), wind, and quake load paths of the Riverbend multipurpose room link by link from the roof to the soil, read the force each link carries, and break one link to see which requirement (strength, stiffness, or stability) is lost.
+image: /sims/riverbend-load-path-tracer/riverbend-load-path-tracer.png
+og:image: /sims/riverbend-load-path-tracer/riverbend-load-path-tracer.png
+twitter:image: /sims/riverbend-load-path-tracer/riverbend-load-path-tracer.png
+social:
+   cards: false
+status: built
 library: p5.js
-bloom_level: TBD
+bloom_level: Analyze, Evaluate
 ---
 
 # Riverbend Load Path Tracer
 
+<iframe src="main.html" width="100%" height="592" scrolling="no"></iframe>
 
+[Run the Riverbend Load Path Tracer MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+Place the following line in your website to include this MicroSim in your course.
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+```html
+<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/riverbend-load-path-tracer/main.html" width="100%" height="592" scrolling="no"></iframe>
+```
+
+## Description
+
+Students trace the snow-and-dead (gravity), wind, and quake load paths of the Riverbend multipurpose room link by link from the roof to the soil, read the force each link carries, and break one link to see which requirement (strength, stiffness, or stability) is lost.
+
+## How to Use
+
+1. Choose a load: Snow and dead (gravity), Wind (lateral), or Quake (lateral). Six blocks show the links of that path, and arrows between them carry the force handed on.
+2. Press Step to light one link at a time, or Play to run the whole path. Click any block to read its force, member type, and the connection to the next link.
+3. Select a block, then check Break the selected link. The block fails, the link above it moves, the arrows below it go dark, and the panel names the requirement that is lost.
+4. Drag Roof weight from 15 psf (light wood roof) to 30 psf (twice as heavy). The quake force and the gravity loads grow, but the wind force stays fixed. Press Quiz me to hide the labels and click the links in order.
+
+## Lesson Plan
+
+**Learning objective:** Trace gravity and lateral load paths from the point of application to the soil, and evaluate the effect of removing one link.
+
+**Suggested activities**
+
+- Warm-up (5 min): Students predict the six links of the gravity path from the roof to the soil, then press Play to check their list against the worked example in Chapter 6.
+- Explore (10 min): Students step through the wind and quake paths, record the force at each link, and find where the two lateral paths share the same members.
+- Evaluate (10 min): Students break each link in turn, record which requirement is lost, and rank the links by how much of the building each failure would affect.
+
+**Assessment**
+
+- Students use the Quiz me mode and then explain in two sentences why a gravity path alone does not protect a building from wind.
+- Students set the roof weight to 30 psf and state which governs at the roof level, wind or quake, and what happens to the soil pressure under the footing.
+
+## References
+
+- [Chapter 6: Structural Loads and Load Paths](../../chapters/06-structural-loads/index.md)
+- [Structural load (Wikipedia)](https://en.wikipedia.org/wiki/Structural_load)
+- American Society of Civil Engineers, ASCE/SEI 7, Minimum Design Loads and Associated Criteria for Buildings and Other Structures.
 
 ## Specification
 

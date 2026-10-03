@@ -13,11 +13,49 @@
   "rights": "CC BY-NC-SA 4.0",
   "identifier": "delivery-method-explorer",
   "library": "p5.js",
-  "bloomLevel": "TBD",
-  "bloomVerb": "TBD",
-  "completion_status": "scaffold",
+  "bloomLevel": "Analyze, Evaluate",
+  "bloomVerb": "compare, select",
+  "completion_status": "built",
   "chapter_number": 2,
   "chapter_title": "The Design and Construction Process",
   "chapter_dir": "02-design-construction-process",
-  "chapter_rel_dir": "chapters/02-design-construction-process"
+  "chapter_rel_dir": "chapters/02-design-construction-process",
+  "canvasHeight": 550,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Analyze",
+      "Evaluate"
+    ],
+    "concepts": [
+      "Delivery methods",
+      "Design-bid-build",
+      "Design-build",
+      "Construction manager at risk",
+      "Integrated project delivery"
+    ],
+    "prerequisites": [
+      "Project phases (design, bidding, construction)",
+      "Bidding and procurement (Chapter 2)"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Compare the sequence of activities, contract relationships, and schedule length of the four delivery methods, and select the method that best fits a described project.",
+    "recommendedUsage": [
+      "Choose DBB, DB, CMAR, or IPD with the radio buttons. The bars slide to their new overlap and the Contractor box moves to the month it joins. Solid lines are contracts, dashed lines are communication only.",
+      "Move the Months of design and Months of construction sliders (6 to 14) and read the total schedule at the top. The Riverbend defaults are 10 and 10 months.",
+      "Click any bar or box for a two-sentence definition. Click it again to close it.",
+      "Press Pick the method for a short project description. Choose a method with the radio buttons to check your answer. The feedback names the contract relationship that decides it. Press Next scenario for another, or Exit to leave the quiz."
+    ],
+    "activities": [
+      "Warm-up (5 min): Students predict, for each method, who the owner is under contract with and when the builder joins, then check against the diagram.",
+      "Explore (10 min): Students set design to 10 and construction to 10 months and record the total for each method, then change design to 14 months and describe how the gaps change.",
+      "Evaluate (10 min): Students complete the quiz, then write a short project description of their own and exchange it with a partner, who picks and defends a method."
+    ],
+    "assessment": [
+      "Students fill in a four-row table of owner's contracts, when the builder joins, and price basis from memory, then check it against the chapter.",
+      "Students explain in three sentences why design-build can be faster than design-bid-build but gives the owner less independent oversight."
+    ]
+  }
 }

@@ -1,7 +1,8 @@
 ---
 title: The Building Systems Map
 description: Every building system depends on every other, so a change to one must be followed through all the others.
-status: scaffold
+image: posters/the-building-systems-map/the-building-systems-map.png
+status: built
 hide:
   - toc
 ---
@@ -28,6 +29,12 @@ The twelve callouts are:
 12. HVAC to Electrical
 
 The map's seven nodes are Structure, Enclosure, HVAC, Plumbing, Electrical, Fire Protection, and Occupants. Arrow thickness suggests how strongly two systems interact, and the dashed lines from Occupants show that behavior touches every system. The thickness is a teaching sketch, not a measurement. The poster's closing idea: no system is an island.
+
+## Static Poster
+
+![The Building Systems Map poster](./the-building-systems-map.png){ loading=lazy }
+
+The full-size poster above is a static copy of the interactive version, handy for printing, sharing, or viewing without JavaScript.
 
 ## Why This Matters
 

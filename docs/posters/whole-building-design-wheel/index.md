@@ -1,7 +1,8 @@
 ---
 title: The Whole Building Design Wheel
 description: A good building balances eight design objectives, and an integrated approach and team process keep the balance around a high-performance building.
-status: scaffold
+image: posters/whole-building-design-wheel/whole-building-design-wheel.png
+status: built
 hide:
   - toc
 ---
@@ -26,6 +27,12 @@ The twelve callouts are:
 10. Design Team
 11. Historic Preservation
 12. Functional/Operational
+
+## Static Poster
+
+![The Whole Building Design Wheel poster](./whole-building-design-wheel.png){ loading=lazy }
+
+The full-size poster above is a static copy of the interactive version, handy for printing, sharing, or viewing without JavaScript.
 
 ## Why This Matters
 

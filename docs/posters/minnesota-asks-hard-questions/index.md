@@ -1,7 +1,8 @@
 ---
 title: Minnesota Asks Hard Questions
 description: Climate is the first design input, and each hard question a Minnesota winter and summer ask of a building has a matching cold-climate design answer.
-status: scaffold
+image: posters/minnesota-asks-hard-questions/minnesota-asks-hard-questions.png
+status: built
 hide:
   - toc
 ---
@@ -21,6 +22,12 @@ The seven regions are:
 5. **Frost Depth** — Footings below the frozen zone, or frost-protected foundations.
 6. **Freeze-Thaw** — Air-entrained concrete, durable masonry, and drainage.
 7. **Summer Humidity** — Dehumidification, sealed and insulated surfaces, and a drying path.
+
+## Static Poster
+
+![Minnesota Asks Hard Questions poster](./minnesota-asks-hard-questions.png){ loading=lazy }
+
+The full-size poster above is a static copy of the interactive version, handy for printing, sharing, or viewing without JavaScript.
 
 ## Why This Matters
 

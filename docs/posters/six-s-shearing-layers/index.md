@@ -1,7 +1,8 @@
 ---
 title: The Six S's of Shearing Layers
 description: A building is a stack of six layers that change at very different speeds, and good design lets the fast layers slip past the slow ones.
-status: scaffold
+image: posters/six-s-shearing-layers/six-s-shearing-layers.png
+status: built
 hide:
   - toc
 ---
@@ -20,6 +21,12 @@ The six layers, from slowest to fastest:
 4. **Services** — Wiring, plumbing, ducts, and sprinklers, roughly 7 to 15 years.
 5. **Space Plan** — Interior partitions and layout, roughly 3 to 30 years.
 6. **Stuff** — Furniture and belongings, changing daily.
+
+## Static Poster
+
+![The Six S's of Shearing Layers poster](./six-s-shearing-layers.png){ loading=lazy }
+
+The full-size poster above is a static copy of the interactive version, handy for printing, sharing, or viewing without JavaScript.
 
 ## Why This Matters
 

@@ -1,7 +1,8 @@
 ---
 title: Four Ways Moisture Moves
 description: Moisture reaches a building as bulk water, capillary action, air-carried vapor, and vapor diffusion, and air leakage and liquid water do far more damage than diffusion.
-status: scaffold
+image: posters/four-ways-moisture-moves/four-ways-moisture-moves.png
+status: built
 hide:
   - toc
 ---
@@ -19,6 +20,12 @@ The five regions are:
 3. **Air-Transported Moisture** — Vapor carried by air leaking through gaps wherever there is a pressure difference.
 4. **Vapor Diffusion** — Vapor moving through solid materials from the humid side to the dry side.
 5. **Damage Potential Ranking** — A schematic comparison of how much harm each pathway can do.
+
+## Static Poster
+
+![Four Ways Moisture Moves poster](./four-ways-moisture-moves.png){ loading=lazy }
+
+The full-size poster above is a static copy of the interactive version, handy for printing, sharing, or viewing without JavaScript.
 
 ## Why This Matters
 

@@ -1,7 +1,8 @@
 ---
 title: The Building as a Chimney
 description: In winter every tall building is a chimney, and the same stack-effect physics that wastes heat and causes drafts can also carry smoke between floors.
-status: scaffold
+image: posters/the-building-as-a-chimney/the-building-as-a-chimney.png
+status: built
 hide:
   - toc
 ---
@@ -24,6 +25,12 @@ The ten callouts are:
 8. Whistling at the Elevator Lobby
 9. Neutral Pressure Plane
 10. Pressurized Stair Keeps Smoke Out
+
+## Static Poster
+
+![The Building as a Chimney poster](./the-building-as-a-chimney.png){ loading=lazy }
+
+The full-size poster above is a static copy of the interactive version, handy for printing, sharing, or viewing without JavaScript.
 
 ## Why This Matters
 

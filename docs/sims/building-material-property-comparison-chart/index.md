@@ -1,18 +1,59 @@
 ---
 title: Building Material Property Comparison Chart
-description: Students will compare (Bloom Level 4, Analyze) typical values of density, strength, stiffness, thermal expansion, and thermal conductivity across common building materials, and will differentiate (Bloom Level 4, Analyze) why each material suits some applications better than others.
-status: scaffold
+description: Students compare density, strength, stiffness, thermal expansion, and thermal conductivity across seven common building materials on one horizontal bar chart, with a logarithmic scale for values that span many orders of magnitude and a Divide by density option that shows each property per pound of material.
+image: /sims/building-material-property-comparison-chart/building-material-property-comparison-chart.png
+og:image: /sims/building-material-property-comparison-chart/building-material-property-comparison-chart.png
+twitter:image: /sims/building-material-property-comparison-chart/building-material-property-comparison-chart.png
+social:
+   cards: false
+status: built
 library: Chart.js
-bloom_level: TBD
+bloom_level: Analyze
 ---
 
 # Building Material Property Comparison Chart
 
+<iframe src="main.html" width="100%" height="662" scrolling="no"></iframe>
 
+[Run the Building Material Property Comparison Chart MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+Place the following line in your website to include this MicroSim in your course.
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+```html
+<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/building-material-property-comparison-chart/main.html" width="100%" height="662" scrolling="no"></iframe>
+```
+
+## Description
+
+Students compare density, strength, stiffness, thermal expansion, and thermal conductivity across seven common building materials on one horizontal bar chart, with a logarithmic scale for values that span many orders of magnitude and a Divide by density option that shows each property per pound of material.
+
+## How to Use
+
+1. Choose a property from the Property menu. The title, axis label, and bars change, and every bar shows its value in text.
+2. Hover over a bar to read the material, the value with units, and a one-sentence note on what the number means for design. Click a bar to see the material's typical uses and its main weakness.
+3. Switch Logarithmic scale on and off. The values span several orders of magnitude, so on a linear scale the small bars nearly disappear.
+4. Check Divide by density to see the property per pound of material. With compressive strength selected, notice that wood is competitive with steel per pound.
+
+## Lesson Plan
+
+**Learning objective:** Compare typical values of density, strength, stiffness, thermal expansion, and thermal conductivity across common building materials, and differentiate why each material suits some applications better than others.
+
+**Suggested activities**
+
+- Warm-up (5 min): Students rank the seven materials by density, then by compressive strength, from memory, and check their rankings against the chart.
+- Explore (10 min): Students find, for each material, one property where it is the best and one where it is the worst, and click the bar to read its typical uses and weakness.
+- Analyze (10 min): Students turn on Divide by density for compressive strength and for stiffness and explain why light wood framing competes with steel.
+
+**Assessment**
+
+- Students explain in two sentences why a material that is strong in compression may still be a poor choice for a beam.
+- Students choose a material for a window frame and justify the choice with at least two properties from the chart.
+
+## References
+
+- [Chapter 5: Material Properties](../../chapters/05-material-properties/index.md)
+- [Young's modulus (Wikipedia)](https://en.wikipedia.org/wiki/Young%27s_modulus)
+- [Thermal conductivity (Wikipedia)](https://en.wikipedia.org/wiki/Thermal_conductivity)
 
 ## Specification
 

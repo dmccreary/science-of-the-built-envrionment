@@ -1,7 +1,8 @@
 ---
 title: When the Power Goes Out
 description: Passive survivability asks a building to keep its occupants safe when the grid and the furnace fail, and six passive strategies do most of the work.
-status: scaffold
+image: posters/when-the-power-goes-out/when-the-power-goes-out.png
+status: built
 hide:
   - toc
 ---
@@ -23,6 +24,12 @@ The nine regions are:
 7. **Daylighting** — Windows and clerestories light rooms without electricity.
 8. **Natural Ventilation** — Openings low and high move air with no fans.
 9. **Shading** — An overhang blocks summer sun and admits winter sun.
+
+## Static Poster
+
+![When the Power Goes Out poster](./when-the-power-goes-out.png){ loading=lazy }
+
+The full-size poster above is a static copy of the interactive version, handy for printing, sharing, or viewing without JavaScript.
 
 ## Why This Matters
 

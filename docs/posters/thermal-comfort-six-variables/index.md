@@ -1,7 +1,8 @@
 ---
 title: Thermal Comfort Is Six Variables
 description: Thermal comfort depends on four environmental and two personal variables, and the outdoor climate also shifts what people accept.
-status: scaffold
+image: posters/thermal-comfort-six-variables/thermal-comfort-six-variables.png
+status: built
 hide:
   - toc
 ---
@@ -25,6 +26,12 @@ The eleven callouts are:
 9. Hot Gym, Same Thermostat Setting
 10. The Seven-Point Sensation Scale
 11. Open Windows in Summer
+
+## Static Poster
+
+![Thermal Comfort Is Six Variables poster](./thermal-comfort-six-variables.png){ loading=lazy }
+
+The full-size poster above is a static copy of the interactive version, handy for printing, sharing, or viewing without JavaScript.
 
 ## Why This Matters
 

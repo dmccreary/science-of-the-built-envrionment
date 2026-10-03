@@ -1,7 +1,8 @@
 ---
 title: Nature in the Room
 description: Terrapin Bright Green's patterns of biophilic design treat daylight, views, and natural materials as inputs to occupant well-being, not decoration.
-status: scaffold
+image: posters/nature-in-the-room/nature-in-the-room.png
+status: built
 hide:
   - toc
 ---
@@ -24,6 +25,12 @@ The ten callouts are:
 8. Daylight Versus Electric Light
 9. Mystery Path
 10. Refuge Nook
+
+## Static Poster
+
+![Nature in the Room poster](./nature-in-the-room.png){ loading=lazy }
+
+The full-size poster above is a static copy of the interactive version, handy for printing, sharing, or viewing without JavaScript.
 
 ## Why This Matters
 

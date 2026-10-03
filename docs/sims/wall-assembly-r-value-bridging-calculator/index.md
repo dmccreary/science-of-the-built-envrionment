@@ -1,18 +1,60 @@
 ---
 title: Wall Assembly R-Value and Thermal Bridging Calculator
-description: Students will calculate (Bloom Level 3, Apply) the total R-value and U-value of a wall assembly using the series and parallel path methods, and will compare (Bloom Level 4, Analyze) how framing and continuous insulation change the effective R-value.
-status: scaffold
+description: Students build a framed wall from a cavity insulation, a framing type, and optional continuous XPS, then see the cavity path R, the stud path R, and the effective R from the parallel path method. An optional temperature profile shows where the wall falls below freezing.
+image: /sims/wall-assembly-r-value-bridging-calculator/wall-assembly-r-value-bridging-calculator.png
+og:image: /sims/wall-assembly-r-value-bridging-calculator/wall-assembly-r-value-bridging-calculator.png
+twitter:image: /sims/wall-assembly-r-value-bridging-calculator/wall-assembly-r-value-bridging-calculator.png
+social:
+   cards: false
+status: built
 library: p5.js
-bloom_level: TBD
+bloom_level: Apply, Analyze
 ---
 
 # Wall Assembly R-Value and Thermal Bridging Calculator
 
+<iframe src="main.html" width="100%" height="647" scrolling="no"></iframe>
 
+[Run the Wall Assembly R-Value and Thermal Bridging Calculator MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+Place the following line in your website to include this MicroSim in your course.
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+```html
+<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/wall-assembly-r-value-bridging-calculator/main.html" width="100%" height="647" scrolling="no"></iframe>
+```
+
+## Description
+
+Students build a framed wall from a cavity insulation, a framing type, and optional continuous XPS, then see the cavity path R, the stud path R, and the effective R from the parallel path method. An optional temperature profile shows where the wall falls below freezing.
+
+## How to Use
+
+1. Start with the defaults, a 2x4 wood wall with R-13 fiberglass and a 25 percent framing fraction. The bars show a cavity R of 15.4, a stud R of 6.8, and an effective R of 11.7, the values in the Chapter 3 worked example.
+2. Hover over any layer in the wall section to see its R and its temperature drop. The stud strip at the bottom of the framing layer shows the stud path.
+3. Change the cavity insulation, the framing, and the framing fraction, and watch the effective R move. Switch the framing to steel to see a much larger drop.
+4. Raise the continuous insulation slider, which adds XPS outside the sheathing, and watch the effective R recover.
+5. Check Show temperature profile and change the outdoor temperature to see where each path falls below 32 degrees F.
+
+## Lesson Plan
+
+**Learning objective:** Calculate the total R-value and U-value of a wall with the series and parallel path methods, and compare how framing and continuous insulation change the effective R-value.
+
+**Suggested activities**
+
+- Warm-up (5 min): Students reproduce the 15.4, 6.8, and 11.7 values by hand from the layer R-values, then confirm them with the calculator.
+- Explore (10 min): Students change one control at a time (framing, framing fraction, continuous insulation) and record the effective R and the percent below the cavity-only value.
+- Analyze (10 min): Students find how many inches of XPS bring a 2x4 steel-stud wall to the effective R of the default 2x4 wood wall, and explain why.
+
+**Assessment**
+
+- Students explain in two sentences why a wall with R-13 batts does not have an effective R of 13.
+- Students explain why the parallel path method averages U-values rather than R-values.
+
+## References
+
+- [Chapter 3: Forces, Heat, and the Physics of Buildings](../../chapters/03-forces-heat-physics/index.md)
+- [Thermal bridge (Wikipedia)](https://en.wikipedia.org/wiki/Thermal_bridge)
+- [R-value (insulation) (Wikipedia)](https://en.wikipedia.org/wiki/R-value_(insulation))
 
 ## Specification
 

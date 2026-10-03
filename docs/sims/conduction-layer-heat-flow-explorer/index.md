@@ -1,18 +1,59 @@
 ---
 title: Conduction Through a Layer
-description: Students will calculate (Bloom Level 3, Apply) the conductive heat flow through a single layer and will compare (Bloom Level 4, Analyze) how conductivity, thickness, area, and temperature difference each change the result.
-status: scaffold
+description: Students apply Fourier's law to a single flat layer: a slab shaded from hot to cold, with arrows that grow with the computed heat flow. Sliders and a material menu change conductivity, thickness, area, and temperature difference, and a compare mode puts two materials side by side.
+image: /sims/conduction-layer-heat-flow-explorer/conduction-layer-heat-flow-explorer.png
+og:image: /sims/conduction-layer-heat-flow-explorer/conduction-layer-heat-flow-explorer.png
+twitter:image: /sims/conduction-layer-heat-flow-explorer/conduction-layer-heat-flow-explorer.png
+social:
+   cards: false
+status: built
 library: p5.js
-bloom_level: TBD
+bloom_level: Apply, Analyze
 ---
 
 # Conduction Through a Layer
 
+<iframe src="main.html" width="100%" height="557" scrolling="no"></iframe>
 
+[Run the Conduction Through a Layer MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+Place the following line in your website to include this MicroSim in your course.
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+```html
+<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/conduction-layer-heat-flow-explorer/main.html" width="100%" height="557" scrolling="no"></iframe>
+```
+
+## Description
+
+Students apply Fourier's law to a single flat layer: a slab shaded from hot to cold, with arrows that grow with the computed heat flow. Sliders and a material menu change conductivity, thickness, area, and temperature difference, and a compare mode puts two materials side by side.
+
+## How to Use
+
+1. Pick a material, then set the thickness, area, and temperature difference with the sliders. The panel shows Q = k × A × ΔT ÷ L with your numbers substituted.
+2. Hover over the slab to read the temperature at any depth between the hot face and the cold face.
+3. Release a slider after exactly doubling or halving its value (for example thickness from 3.5 to 7 in) to see a message about how the flow responds.
+4. Check Compare two materials to add a second slab. A bar shows how many times more heat one layer passes than the other under the same conditions.
+
+## Lesson Plan
+
+**Learning objective:** Calculate the conductive heat flow through a single layer and compare how conductivity, thickness, area, and temperature difference each change the result.
+
+**Suggested activities**
+
+- Warm-up (5 min): Students predict the heat flow through a 3.5 in fiberglass batt and a 3.5 in softwood stud (1 ft², 70°F), then check against the sim (5.4 and 16 BTU/h).
+- Explore (10 min): Students change one variable at a time, record Q, and state the rule for each: proportional to k, A, and ΔT, inversely proportional to L.
+- Analyze (10 min): In compare mode, students rank the seven materials by heat flow at equal thickness and explain why steel studs create thermal bridges.
+
+**Assessment**
+
+- Students calculate by hand the flow through an 8 in concrete layer (1 ft², 70°F) and verify it against the sim (87.5 BTU/h).
+- Students explain in two sentences why adding thickness to an insulation layer lowers heat loss but does not stop it.
+
+## References
+
+- [Chapter 3: Forces, Heat, and the Physics of Buildings](../../chapters/03-forces-heat-physics/index.md)
+- [Thermal conduction (Wikipedia)](https://en.wikipedia.org/wiki/Thermal_conduction)
+- [Thermal conductivity and resistivity (Wikipedia)](https://en.wikipedia.org/wiki/Thermal_conductivity_and_resistivity)
 
 ## Specification
 

@@ -1,7 +1,8 @@
 ---
 title: The Indoor Species
 description: People spend most of their lives inside buildings, so Harvard's nine foundations of a healthy building treat the building as a habitat.
-status: scaffold
+image: posters/the-indoor-species/the-indoor-species.png
+status: built
 hide:
   - toc
 ---
@@ -24,6 +25,12 @@ The ten regions, the clock ring first and then the nine foundations, are:
 8. **Water Quality** — Safe drinking water, tested at the point of use.
 9. **Noise** — Protection from outdoor sound and control of mechanical noise.
 10. **Lighting & Views** — Daylight, task lighting, and sightlines to the outdoors.
+
+## Static Poster
+
+![The Indoor Species poster](./the-indoor-species.png){ loading=lazy }
+
+The full-size poster above is a static copy of the interactive version, handy for printing, sharing, or viewing without JavaScript.
 
 ## Why This Matters
 

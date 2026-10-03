@@ -1,18 +1,59 @@
 ---
 title: Building Pressure and Air Leakage Explorer
-description: Students will analyze (Bloom Level 4, Analyze) how wind, the stack effect, and exhaust fans each change the pressure across a building enclosure, and will predict (Bloom Level 2, Understand) where air enters and where it leaves.
-status: scaffold
+description: Students vary outdoor temperature, wind, an exhaust fan, and building height and watch the indoor-minus-outdoor pressure change at every height of a building with gaps in its walls and roof. Arrows show where air enters and leaves, and a dashed line marks the neutral pressure plane.
+image: /sims/building-pressure-air-leakage-explorer/building-pressure-air-leakage-explorer.png
+og:image: /sims/building-pressure-air-leakage-explorer/building-pressure-air-leakage-explorer.png
+twitter:image: /sims/building-pressure-air-leakage-explorer/building-pressure-air-leakage-explorer.png
+social:
+   cards: false
+status: built
 library: p5.js
-bloom_level: TBD
+bloom_level: Analyze, Understand
 ---
 
 # Building Pressure and Air Leakage Explorer
 
+<iframe src="main.html" width="100%" height="607" scrolling="no"></iframe>
 
+[Run the Building Pressure and Air Leakage Explorer MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+Place the following line in your website to include this MicroSim in your course.
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+```html
+<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/building-pressure-air-leakage-explorer/main.html" width="100%" height="607" scrolling="no"></iframe>
+```
+
+## Description
+
+Students vary outdoor temperature, wind, an exhaust fan, and building height and watch the indoor-minus-outdoor pressure change at every height of a building with gaps in its walls and roof. Arrows show where air enters and leaves, and a dashed line marks the neutral pressure plane.
+
+## How to Use
+
+1. Start with the defaults: a 30 ft building at -10 degrees F with no wind or fan. The readout shows about 19 Pa of stack pressure across the full height. Blue arrows show air entering low in the building and orange arrows show air leaving high.
+2. Hover over any gap to see the pressure across it and the direction and size of the air flow. The graph beside the building shows the same pressures at each height.
+3. Raise the wind speed and flip the wind direction, then raise the exhaust fan, and watch the pressure curve shift. Predict where air enters before you look at the arrows.
+4. Check Seal the top gaps and compare the neutral plane and the total air flow with the unsealed case.
+
+## Lesson Plan
+
+**Learning objective:** Analyze how wind, the stack effect, and exhaust fans each change the pressure across a building enclosure, and predict where air enters and where it leaves.
+
+**Suggested activities**
+
+- Warm-up (5 min): Students sketch where they expect air to enter and leave a tall building on a cold, calm day, then check the sketch against the default view.
+- Explore (10 min): Students change one source at a time (temperature, wind, fan) and write which gaps change direction and which only change size.
+- Analyze (10 min): Students raise the exhaust fan to 1,000 CFM with no makeup air and explain why a combustion appliance in this building could backdraft.
+
+**Assessment**
+
+- Students predict, in writing, how the neutral plane moves when a tall building gets colder, then test the prediction.
+- Students explain in two sentences why a leak needs both a path and a pressure difference.
+
+## References
+
+- [Chapter 4: Moisture, Air, and Comfort](../../chapters/04-moisture-air-comfort/index.md)
+- [Stack effect (Wikipedia)](https://en.wikipedia.org/wiki/Stack_effect)
+- [Infiltration (HVAC) (Wikipedia)](https://en.wikipedia.org/wiki/Infiltration_(HVAC))
 
 ## Specification
 

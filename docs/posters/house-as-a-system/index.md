@@ -1,6 +1,7 @@
 ---
 title: The House as a System
 description: A house performs as one system in which the envelope, the mechanical systems, and the occupants together steer the flow of heat, air, and moisture.
+image: posters/house-as-a-system/house-as-a-system.png
 status: built
 hide:
   - toc
@@ -25,6 +26,12 @@ The eleven callouts are:
 9. Water Heater
 10. Building Performance
 11. Furnace
+
+## Static Poster
+
+![The House as a System poster](./house-as-a-system.png){ loading=lazy }
+
+The full-size poster above is a static copy of the interactive version, handy for printing, sharing, or viewing without JavaScript.
 
 ## Why This Matters
 

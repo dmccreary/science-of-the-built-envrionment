@@ -1,18 +1,59 @@
 ---
 title: Scales of the Built Environment
-description: Students will classify (Bloom Level 2, Understand) examples of built-environment elements into the five nested scales and explain (Understand) how a decision at one scale affects another.
-status: scaffold
+description: Five nested rounded rectangles show the scales of the built environment from material to region. Students hover for examples, click for definitions and failure consequences, and step through the January classroom example to see one complaint traced across four scales.
+image: /sims/built-environment-scales/built-environment-scales.png
+og:image: /sims/built-environment-scales/built-environment-scales.png
+twitter:image: /sims/built-environment-scales/built-environment-scales.png
+social:
+   cards: false
+status: built
 library: p5.js
-bloom_level: TBD
+bloom_level: Understand
 ---
 
 # Scales of the Built Environment
 
+<iframe src="main.html" width="100%" height="517" scrolling="no"></iframe>
 
+[Run the Scales of the Built Environment MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+Place the following line in your website to include this MicroSim in your course.
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+```html
+<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/built-environment-scales/main.html" width="100%" height="517" scrolling="no"></iframe>
+```
+
+## Description
+
+Five nested rounded rectangles show the scales of the built environment from material to region. Students hover for examples, click for definitions and failure consequences, and step through the January classroom example to see one complaint traced across four scales.
+
+## How to Use
+
+1. Hover over any ring to see an example and its typical concern.
+2. Click a ring to read a two-sentence definition, what changes if that scale fails, and how a decision at that scale ripples to another scale. Click it again to close.
+3. Press Trace the classroom, then Next step, to follow the January classroom example from material to neighborhood. The active ring is outlined in orange.
+4. Press Clear to return to the overview.
+
+## Lesson Plan
+
+**Learning objective:** Classify examples of built-environment elements into the five nested scales and explain how a decision at one scale affects another.
+
+**Suggested activities**
+
+- Warm-up (5 min): Students list five things in their classroom and predict the scale of each before hovering the rings.
+- Explore (10 min): Students click each ring and write one sentence on what changes if that scale fails.
+- Apply (10 min): Students run the January classroom trace, then invent a second complaint, such as a leaking roof, and trace it across the scales.
+
+**Assessment**
+
+- Students sort ten given examples (for example a steel beam, a school, a metropolitan water system) into the five scales.
+- Students explain in two sentences how the insulation chosen for a wall can affect the regional electrical grid.
+
+## References
+
+- [Chapter 1: Introduction to the Built Environment and Construction Terminology](../../chapters/01-intro-terminology/index.md)
+- [Built environment (Wikipedia)](https://en.wikipedia.org/wiki/Built_environment)
+- [Building (Wikipedia)](https://en.wikipedia.org/wiki/Building)
 
 ## Specification
 

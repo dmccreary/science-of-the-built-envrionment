@@ -1,18 +1,59 @@
 ---
 title: Tributary Area and Load Takedown Calculator
-description: Students will calculate (Bloom Level 3, Apply) the line load, reaction, and maximum moment of a joist, girder, and post from a surface load and member spacing, and will predict (Bloom Level 2, Understand) how changing the spacing or span changes the load each member carries.
-status: scaffold
+description: Students set the roof load, joist spacing, girder spacing, and girder span, and watch the shaded tributary area, line load, reaction, and maximum moment of a joist, girder, or post update in the Riverbend roof plan. An equilibrium check confirms that the post reactions equal the load on the bay.
+image: /sims/tributary-area-roof-takedown-calculator/tributary-area-roof-takedown-calculator.png
+og:image: /sims/tributary-area-roof-takedown-calculator/tributary-area-roof-takedown-calculator.png
+twitter:image: /sims/tributary-area-roof-takedown-calculator/tributary-area-roof-takedown-calculator.png
+social:
+   cards: false
+status: built
 library: p5.js
-bloom_level: TBD
+bloom_level: Apply, Understand
 ---
 
 # Tributary Area and Load Takedown Calculator
 
+<iframe src="main.html" width="100%" height="572" scrolling="no"></iframe>
 
+[Run the Tributary Area and Load Takedown Calculator MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+Place the following line in your website to include this MicroSim in your course.
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+```html
+<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/tributary-area-roof-takedown-calculator/main.html" width="100%" height="572" scrolling="no"></iframe>
+```
+
+## Description
+
+Students set the roof load, joist spacing, girder spacing, and girder span, and watch the shaded tributary area, line load, reaction, and maximum moment of a joist, girder, or post update in the Riverbend roof plan. An equilibrium check confirms that the post reactions equal the load on the bay.
+
+## How to Use
+
+1. Pick Joist, Girder, or Post from the Selected member menu. The member turns orange in the roof plan and its tributary area is shaded light blue.
+2. Drag the four sliders. The tributary area, the line load w = q × b, the reaction R = wL/2, and the maximum moment M = wL²/8 update immediately, and the beam diagram below the plan redraws.
+3. Hover over the shaded area to read how the area was found. The default Riverbend values (50 psf, 24 in., 16 ft, 40 ft) give 16,000 lb at each post.
+4. Press Check equilibrium to compare the load on the bay with the joist reactions and the post reactions. A green check means they agree.
+
+## Lesson Plan
+
+**Learning objective:** Calculate the line load, reaction, and maximum moment of a joist, girder, and post from a surface load and member spacing, and predict how changing spacing or span changes each member's load.
+
+**Suggested activities**
+
+- Warm-up (5 min): Students compute w, R, and M for the Riverbend girder by hand (800 plf, 16,000 lb, 160,000 ft-lb) and check the sim.
+- Explore (10 min): Students change one slider at a time and record whether the joist, girder, and post loads rise, fall, or stay the same, then explain each result using tributary area.
+- Apply (10 min): Students find the girder span at which the post load reaches 24,000 lb with the other sliders at their Riverbend values, and verify it with Check equilibrium.
+
+**Assessment**
+
+- Students predict, before moving the slider, what happens to the girder moment when the span doubles, and explain why it grows faster than the load.
+- Students explain in two sentences why moving the girders closer together reduces the load on each post but does not change the roof load.
+
+## References
+
+- [Chapter 6: Structural Loads and Load Paths](../../chapters/06-structural-loads/index.md)
+- [Structural load (Wikipedia)](https://en.wikipedia.org/wiki/Structural_load)
+- [Beam (structure) (Wikipedia)](https://en.wikipedia.org/wiki/Beam_(structure))
 
 ## Specification
 

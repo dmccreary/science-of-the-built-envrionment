@@ -13,11 +13,49 @@
   "rights": "CC BY-NC-SA 4.0",
   "identifier": "steel-shape-comparison-explorer",
   "library": "p5.js",
-  "bloomLevel": "TBD",
-  "bloomVerb": "TBD",
-  "completion_status": "scaffold",
+  "bloomLevel": "Analyze, Understand",
+  "bloomVerb": "compare, explain",
+  "completion_status": "built",
   "chapter_number": 7,
   "chapter_title": "Wood and Steel Framing",
   "chapter_dir": "07-wood-steel-framing",
-  "chapter_rel_dir": "chapters/07-wood-steel-framing"
+  "chapter_rel_dir": "chapters/07-wood-steel-framing",
+  "canvasHeight": 590,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Analyze",
+      "Understand"
+    ],
+    "concepts": [
+      "Moment of inertia",
+      "Neutral axis",
+      "Wide-flange, tube, and rectangle shapes",
+      "Bending stress",
+      "Beam deflection"
+    ],
+    "prerequisites": [
+      "Bending and the neutral axis (Chapter 6)",
+      "Modulus of elasticity (Chapter 5)"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Compare the stiffness, weight, and efficiency of rectangular, wide-flange, and tube cross-sections of equal area, and explain why material far from the neutral axis resists bending most effectively.",
+    "recommendedUsage": [
+      "Drag the Area slider. All three shapes keep the same area, so they weigh the same per foot, yet their moments of inertia (the blue bars) and deflections differ.",
+      "Drag the Depth and Flange thickness sliders to redraw the shapes. Thinner flanges and walls move the steel farther from the neutral axis and raise I. Use the Orientation menu to turn the rectangle on edge or flat.",
+      "Hover over a shape to color it by bending stress: red and a minus sign for compression above the neutral axis, blue and a plus sign for tension below. Click a shape to read its designation, typical use, and why it performs as it does.",
+      "Press Match the shape. A use is named, such as a column or a long-span beam, and you click the shape that suits it. Press Next use for the next question."
+    ],
+    "activities": [
+      "Warm-up (5 min): Students predict which of the three shapes deflects least for the same weight, then check the bars and the deflection diagrams.",
+      "Explore (10 min): Students turn the rectangle from on edge to flat and record the change in I, then double the depth and record the change for all three shapes.",
+      "Analyze (10 min): Students find the combination of area, depth, and flange thickness at which each shape just meets the L/360 limit, and explain how the wide-flange saves weight."
+    ],
+    "assessment": [
+      "Students explain in two sentences why a wide-flange beam is lighter than a solid rectangle that deflects the same amount.",
+      "Students complete the Match the shape quiz and justify one answer with the position of the material relative to the neutral axis."
+    ]
+  }
 }

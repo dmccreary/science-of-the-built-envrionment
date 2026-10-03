@@ -1,7 +1,8 @@
 ---
 title: Cradle to Grave to Cradle
 description: A building's carbon impact starts at the quarry and continues past demolition, and the life-cycle modules show which emissions are embodied and which are operational.
-status: scaffold
+image: posters/cradle-to-grave-to-cradle/cradle-to-grave-to-cradle.png
+status: built
 hide:
   - toc
 ---
@@ -23,6 +24,12 @@ The nine regions, from the building's start to its end and then the carbon brack
 7. **Embodied Carbon: Making, Building, and Upkeep** — The material-related modules through the use stage.
 8. **Operational Carbon: Energy and Water** — Only the energy and water modules.
 9. **Embodied Carbon: End of Life** — The end-of-life modules, which are also embodied.
+
+## Static Poster
+
+![Cradle to Grave to Cradle poster](./cradle-to-grave-to-cradle.png){ loading=lazy }
+
+The full-size poster above is a static copy of the interactive version, handy for printing, sharing, or viewing without JavaScript.
 
 ## Why This Matters
 

@@ -1,18 +1,59 @@
 ---
 title: Heat Transfer Modes in a Winter Wall
-description: Students will classify (Bloom Level 2, Understand) each step of the heat path through a wall as conduction, convection, or radiation, and will predict (Bloom Level 2, Understand) how the heat flow changes with outdoor temperature and wind.
-status: scaffold
+description: A cross-section of a winter wall shows the warm room on the left and the cold outdoors on the right, with arrows labeled conduction, convection, and radiation along the heat path. Students vary outdoor temperature, wind, and a reflective foil in the air gap and see how the heat flow and each mechanism change.
+image: /sims/heat-transfer-modes-wall-explorer/heat-transfer-modes-wall-explorer.png
+og:image: /sims/heat-transfer-modes-wall-explorer/heat-transfer-modes-wall-explorer.png
+twitter:image: /sims/heat-transfer-modes-wall-explorer/heat-transfer-modes-wall-explorer.png
+social:
+   cards: false
+status: built
 library: p5.js
-bloom_level: TBD
+bloom_level: Understand
 ---
 
 # Heat Transfer Modes in a Winter Wall
 
+<iframe src="main.html" width="100%" height="542" scrolling="no"></iframe>
 
+[Run the Heat Transfer Modes in a Winter Wall MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+Place the following line in your website to include this MicroSim in your course.
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+```html
+<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/heat-transfer-modes-wall-explorer/main.html" width="100%" height="542" scrolling="no"></iframe>
+```
+
+## Description
+
+A cross-section of a winter wall shows the warm room on the left and the cold outdoors on the right, with arrows labeled conduction, convection, and radiation along the heat path. Students vary outdoor temperature, wind, and a reflective foil in the air gap and see how the heat flow and each mechanism change.
+
+## How to Use
+
+1. Read the wall from left to right: interior air, interior surface, gypsum board, insulated cavity with an air gap, sheathing, siding, and exterior air. Hover over any zone to see its temperature.
+2. Click any arrow. The panel names its mechanism, gives its flow in BTU/h per square foot, and explains in a sentence why that mechanism dominates there.
+3. Lower the outdoor temperature and watch every arrow thicken, then raise the wind and watch the exterior convection arrow thicken while the exterior radiation arrow narrows.
+4. Check Reflective foil in the air gap and watch the radiation arrow across the gap narrow. Compare the total flow with the design-day flow in the readout.
+
+## Lesson Plan
+
+**Learning objective:** Classify each step of the heat path through a wall as conduction, convection, or radiation, and predict how the heat flow changes with outdoor temperature and wind.
+
+**Suggested activities**
+
+- Warm-up (5 min): Students label a blank wall section with the mechanism at each step, then check against the sim.
+- Explore (10 min): Students predict, then test, the effect of cutting the outdoor temperature from -10°F to 30°F, and of raising the wind from 0 to 30 mph. They record the percent of design-day flow.
+- Discuss (10 min): Students explain why the total flow barely changes with wind but the share carried by convection does, and why foil matters only in the air gap.
+
+**Assessment**
+
+- Students classify the dominant mechanism for four locations along the heat path and give a one-sentence reason for each.
+- Students explain in two sentences why the flow on a 50°F day is about one quarter of the flow on the -10°F design day.
+
+## References
+
+- [Chapter 3: Forces, Heat, and the Physics of Buildings](../../chapters/03-forces-heat-physics/index.md)
+- [Heat transfer (Wikipedia)](https://en.wikipedia.org/wiki/Heat_transfer)
+- ASHRAE, Handbook of Fundamentals (surface film coefficients and air-space resistances; model values here are simplified and illustrative).
 
 ## Specification
 

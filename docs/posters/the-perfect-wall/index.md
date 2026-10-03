@@ -1,7 +1,8 @@
 ---
-title: The Perfect Wall: Four Control Layers
+title: "The Perfect Wall: Four Control Layers"
 description: A wall must control rain, air, vapor, and heat, in that order of importance, and Lstiburek's Perfect Wall puts all four layers outside the structure.
-status: scaffold
+image: posters/the-perfect-wall/the-perfect-wall.png
+status: built
 hide:
   - toc
 ---
@@ -25,6 +26,12 @@ The eleven callouts are:
 9. Layers That Combine
 10. Thermal Control Layer
 11. Interior Finish
+
+## Static Poster
+
+![The Perfect Wall: Four Control Layers poster](./the-perfect-wall.png){ loading=lazy }
+
+The full-size poster above is a static copy of the interactive version, handy for printing, sharing, or viewing without JavaScript.
 
 ## Why This Matters
 

@@ -69,6 +69,10 @@ nav:
       - Graph Quality Analysis: learning-graph/quality-metrics.md
       - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
 
+  - Stories:
+      - Overview: stories/index.md
+      - The Quality Without a Name - Christopher Alexander: stories/timeless-way-of-building/index.md
+
   - Posters:
       - Poster Gallery: posters/index.md
       - Infographic Poster Ideas: posters/infographic-poster-ideas.md
@@ -92,6 +96,7 @@ nav:
       - Minnesota Asks Hard Questions: posters/minnesota-asks-hard-questions/index.md
       - Idea to Occupancy: posters/idea-to-occupancy/index.md
       - The Building Systems Map: posters/the-building-systems-map/index.md
+      - Hours Saved Estimate: posters/hours-saved-estimate.md
 
   - MicroSims:
       - List of MicroSims: sims/index.md
@@ -181,8 +186,8 @@ theme:
   static_templates:
     - 404.html
   # Once a logo is generated, point this at docs/img/logo.png or a mascot pose:
-  # logo: img/logo.png
-  # favicon: img/favicon.ico
+  logo: img/mascot/welcome.png
+  favicon: img/favicon.ico
   palette:
     primary: 'green'
     accent: 'amber'
@@ -238,17 +243,25 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
+  # KaTeX math, currency-safe: inline math is \(...\) only (never single $),
+  # so prices like $20 render as text. Block math is $$...$$ or \[...\].
   - pymdownx.arithmatex:
       generic: true
+      inline_syntax: ['round']
+      block_syntax: ['dollar', 'square']
 
 # Custom CSS — file is created by init-textbook
 extra_css:
   - css/extra.css
   - css/mascot.css
+  - https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css
 
 # Custom JavaScript — iframe auto-height listener for overlay posters
 extra_javascript:
   - js/extra.js
+  - js/katex.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js
+  - https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js
 
 # Exclude prompt scratch files and TODOs from build/search/sitemap
 exclude_docs: |

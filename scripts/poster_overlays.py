@@ -395,6 +395,22 @@ def check_page(d: Path, data: dict, err: list[str], warn: list[str]) -> None:
         err.append("index.md: no YAML frontmatter")
         return
     fm, body = m.group(1), text[m.end():]
+    try:
+        import yaml  # PyYAML ships with the mkdocs env
+
+        meta = yaml.safe_load(fm)
+        if not isinstance(meta, dict):
+            err.append("index.md frontmatter is not a YAML mapping")
+        else:
+            want = f"posters/{d.name}/{d.name}.png"
+            if meta.get("image") != want:
+                err.append(f"index.md frontmatter image must be {want!r} (social previews)")
+    except ImportError:
+        warn.append("PyYAML not installed; frontmatter YAML and image: not checked")
+    except Exception as e:  # noqa: BLE001
+        err.append(f"index.md frontmatter is not valid YAML (quote titles/descriptions containing ': '): {str(e).splitlines()[0]}")
+    if f"]({'./' + d.name}.png)" not in body and f"]({d.name}.png)" not in body:
+        warn.append("index.md does not embed the full-size poster image")
     for k in ("title:", "description:", "status:", "hide:"):
         if k not in fm:
             err.append(f"index.md frontmatter missing {k}")

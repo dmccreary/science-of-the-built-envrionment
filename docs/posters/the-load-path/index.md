@@ -1,7 +1,8 @@
 ---
 title: The Load Path
 description: Every load on a building needs a continuous, unbroken route to the ground, and a broken link anywhere along it lets something move.
-status: scaffold
+image: posters/the-load-path/the-load-path.png
+status: built
 hide:
   - toc
 ---
@@ -26,6 +27,12 @@ The twelve callouts are:
 10. Floor Framing
 11. What If: A Bearing Wall Is Removed
 12. What If: Footing on Soft Soil
+
+## Static Poster
+
+![The Load Path poster](./the-load-path.png){ loading=lazy }
+
+The full-size poster above is a static copy of the interactive version, handy for printing, sharing, or viewing without JavaScript.
 
 ## Why This Matters
 

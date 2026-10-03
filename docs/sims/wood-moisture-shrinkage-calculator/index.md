@@ -1,18 +1,59 @@
 ---
 title: Wood Moisture and Shrinkage Calculator
-description: Students will calculate (Bloom Level 3, Apply) the moisture content of a wood sample and the across-grain shrinkage of a member as it dries, and will predict (Bloom Level 2, Understand) how a heated Minnesota winter interior changes a framed building's dimensions.
-status: scaffold
+description: Students set a starting and a final moisture content on a line chart of across-grain size versus moisture, read the shrinkage in inches for a chosen member depth, and weigh a sample to compute its moisture content step by step. A Minnesota winter preset shows how a heated interior dries framing.
+image: /sims/wood-moisture-shrinkage-calculator/wood-moisture-shrinkage-calculator.png
+og:image: /sims/wood-moisture-shrinkage-calculator/wood-moisture-shrinkage-calculator.png
+twitter:image: /sims/wood-moisture-shrinkage-calculator/wood-moisture-shrinkage-calculator.png
+social:
+   cards: false
+status: built
 library: Chart.js
-bloom_level: TBD
+bloom_level: Understand, Apply
 ---
 
 # Wood Moisture and Shrinkage Calculator
 
+<iframe src="main.html" width="100%" height="714" scrolling="no"></iframe>
 
+[Run the Wood Moisture and Shrinkage Calculator MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+Place the following line in your website to include this MicroSim in your course.
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+```html
+<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/wood-moisture-shrinkage-calculator/main.html" width="100%" height="714" scrolling="no"></iframe>
+```
+
+## Description
+
+Students set a starting and a final moisture content on a line chart of across-grain size versus moisture, read the shrinkage in inches for a chosen member depth, and weigh a sample to compute its moisture content step by step. A Minnesota winter preset shows how a heated interior dries framing.
+
+## How to Use
+
+1. Drag the Starting MC and Final MC sliders. The two markers move along the line, and the readout shows the shrinkage in percent and in inches. The default (19 percent down to 9 percent, three floor levels) is the Chapter 7 worked example.
+2. Choose a Member depth from the drop-down to see how a deeper member, or a whole stack of three floors, shrinks more in inches for the same drop in moisture content.
+3. Press Minnesota winter interior to set the final moisture content to 8 percent, then try starting values above 20 percent and read the decay-risk status in the readout.
+4. Press Weigh a sample, enter a wet mass and an oven-dry mass, and follow the three calculation steps. The gold star shows the sample on the chart, and a button copies its moisture content into the starting slider.
+
+## Lesson Plan
+
+**Learning objective:** Calculate the moisture content of a wood sample and the across-grain shrinkage of a member as it dries, and predict how a heated Minnesota winter interior changes a framed building's dimensions.
+
+**Suggested activities**
+
+- Warm-up (5 min): Students weigh the sample in the book (42 g wet, 35 g oven-dry) and confirm 20 percent, then predict whether that sample is safe from decay.
+- Explore (10 min): Students hold the member at the three-floor stack and change the starting moisture content from 30 down to 10 percent, recording the shrinkage in inches each time and noting what happens above 28 percent.
+- Apply (10 min): Students compare a 2×10 joist stack at 19 percent against kiln-dried lumber at 12 percent, both settling at 8 percent, and write one detailing decision to accommodate the movement.
+
+**Assessment**
+
+- Students compute by hand the shrinkage of a 2×12 dried from 17 to 8 percent MC and check the answer against the simulator.
+- Students explain in two sentences why a stud barely changes in length while a stack of joists and plates changes noticeably in height.
+
+## References
+
+- [Chapter 7: Wood and Steel Framing](../../chapters/07-wood-steel-framing/index.md)
+- [Wood Handbook: Wood as an Engineering Material (U.S. Forest Products Laboratory), chapter on moisture relations and dimensional change](https://www.fpl.fs.usda.gov/documnts/fplgtr/fpl_gtr282.pdf)
+- [Wood drying (Wikipedia)](https://en.wikipedia.org/wiki/Wood_drying)
 
 ## Specification
 

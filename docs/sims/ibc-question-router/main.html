@@ -3,106 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- microsim-scaffold-stub -->
-    <title>IBC Question Router</title>
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>IBC Question Router MicroSim using P5.js 2.3.2</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@2.3.2/lib/p5.js"></script>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            color: #212529;
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
         }
-        #container {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-        }
-        h1 {
-            font-size: 22px;
-            margin-bottom: 10px;
-            color: #1a3a6c;
-        }
-        .placeholder {
-            border: 2px dashed #adb5bd;
-            border-radius: 8px;
-            padding: 40px 20px;
-            text-align: center;
-            color: #6c757d;
-            margin: 20px 0;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .placeholder .badge {
-            display: inline-block;
-            background: #ffc107;
-            color: #212529;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .placeholder h2 {
-            font-size: 18px;
-            color: #495057;
-            margin-bottom: 8px;
-        }
-        .placeholder p {
-            font-size: 14px;
-            max-width: 480px;
-        }
-        .meta {
-            margin-top: 20px;
-            font-size: 13px;
-            color: #6c757d;
-            border-top: 1px solid #dee2e6;
-            padding-top: 12px;
-        }
-        .meta strong { color: #495057; }
     </style>
+    <script src="ibc-question-router.js"></script>
 </head>
 <body>
-    <div id="container">
-        <h1>IBC Question Router</h1>
-        <div class="placeholder">
-            <span class="badge">SCAFFOLD</span>
-            <h2>MicroSim Not Yet Implemented</h2>
-            <p>This MicroSim has been scaffolded from its specification but the
-            interactive content has not been built yet. See the chapter source
-            and the <code>index.md</code> in this directory for the full spec.</p>
-        </div>
-        <div class="meta">
-            <p><strong>Sim ID:</strong> ibc-question-router</p>
-            <p><strong>Library:</strong> p5.js</p>
-            <p><strong>Bloom Level:</strong> TBD</p>
-            <p><strong>Learning Objective:</strong> Students will classify (Bloom Level 2, Understand) a design question into the correct group of International Building Code provisions and will apply (Bloom Level 3, Apply) the occupancy-to-exits chain to calculate an occupant load.</p>
-        </div>
-    </div>
-
-    <!--
-    SPECIFICATION (from chapter index.md):
-
-    Type: microsim
-    **sim-id:** ibc-question-router<br/>
-    **Library:** p5.js<br/>
-    **Status:** Specified
-    
-    Learning objective: Students will classify (Bloom Level 2, Understand) a design question into the correct group of International Building Code provisions and will apply (Bloom Level 3, Apply) the occupancy-to-exits chain to calculate an occupant load.
-    
-    Visual: The left half shows nine labeled blocks arranged as an ordered column, one for each group of provisions listed above. The right half shows a card for a design question. The canvas fills the container width, has a height of 520 px, and redraws on window resize.
-    
-    Controls: A button labeled "Next question" draws a question from a bank of at least 12, including egress, fire-resistance, and snow-load questions for Riverbend. The student clicks the block where the answer starts. A correct choice turns the block green and shows the cross-references that follow. An incorrect choice turns it orange and shows a one-sentence hint. A second mode, "Occupant load," offers a room area slider (500 to 5,000 ft²) and a radio choice between 15 net ft² per person and 7 net ft² per person, labeled illustrative, and displays the computed occupant load and a note about the likely number of exits.
-    
-    Interactions: Hovering over any block shows a definition of its provisions. A score counter shows the number of questions answered correctly.
-    
-    Colors: Correct answers are green, incorrect answers are orange, and neutral blocks are gray. Every state is also written as text.
-    
-    Implementation: p5.js with a responsive canvas, a question bank held in a JavaScript array, and DOM controls.
-    -->
+    <main></main>
+    <br/>
+    <a href=".">Back to IBC Question Router Lesson Plan</a>
 </body>
 </html>

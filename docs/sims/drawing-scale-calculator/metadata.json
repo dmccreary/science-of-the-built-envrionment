@@ -13,11 +13,48 @@
   "rights": "CC BY-NC-SA 4.0",
   "identifier": "drawing-scale-calculator",
   "library": "p5.js",
-  "bloomLevel": "TBD",
-  "bloomVerb": "TBD",
-  "completion_status": "scaffold",
+  "bloomLevel": "Apply, Understand",
+  "bloomVerb": "calculate, explain",
+  "completion_status": "built",
   "chapter_number": 1,
   "chapter_title": "Introduction to the Built Environment and Construction Terminology",
   "chapter_dir": "01-intro-terminology",
-  "chapter_rel_dir": "chapters/01-intro-terminology"
+  "chapter_rel_dir": "chapters/01-intro-terminology",
+  "canvasHeight": 550,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Apply",
+      "Understand"
+    ],
+    "concepts": [
+      "Scale",
+      "Dimensions",
+      "Scale ratio",
+      "Dimensions govern over scaled measurements"
+    ],
+    "prerequisites": [
+      "Division with decimals and fractions",
+      "Feet and inches"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Calculate the real length of a wall from a drawn length and a stated scale, and explain why a changed print size breaks the scale.",
+    "recommendedUsage": [
+      "Choose the scale printed in the title block from the menu. The default is 1/4\" = 1'-0\".",
+      "Drag the two orange handles to measure a wall. The drawn length appears in inches, rounded to the nearest 1/16 inch.",
+      "Type the real length in feet (for example 26 or 26'-6\") and press Check my answer. The readout then shows the real length in feet-inches and in millimeters and updates live as you drag. Press Hide readout to try again.",
+      "Move the Print size slider away from 100% to see the warning. The south wall no longer agrees with its written dimension, so the stated scale cannot be trusted."
+    ],
+    "activities": [
+      "Warm-up (5 min): Students predict the real length of the south wall at 1/4\" = 1'-0\" (6 1/2 in), then check the answer.",
+      "Explore (10 min): Students keep the same drawn line and change the scale to 1/8\", 1/2\", and 3\", recording the real length each time and describing the pattern.",
+      "Apply (10 min): Students set the print size to 150% and 75%, calculate the real length of the south wall from the stated scale, and compare it with the written dimension."
+    ],
+    "assessment": [
+      "Students calculate the real length of a 3 3/4 in line on a 1/8\" = 1'-0\" plan and show the division.",
+      "Students explain in two sentences why a plan printed with fit to page should be read by its written dimensions."
+    ]
+  }
 }

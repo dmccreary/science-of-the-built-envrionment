@@ -1,7 +1,8 @@
 ---
 title: The Five Principles of Passive House
 description: Passive House reaches very low energy use with five linked measures that work as a system, and skipping one weakens the rest.
-status: scaffold
+image: posters/five-principles-of-passive-house/five-principles-of-passive-house.png
+status: built
 hide:
   - toc
 ---
@@ -22,6 +23,12 @@ The eight callouts are:
 6. Balanced Ventilation with Heat Recovery
 7. Thermal-Bridge-Free Design
 8. The Result: Energy Savings
+
+## Static Poster
+
+![The Five Principles of Passive House poster](./five-principles-of-passive-house.png){ loading=lazy }
+
+The full-size poster above is a static copy of the interactive version, handy for printing, sharing, or viewing without JavaScript.
 
 ## Why This Matters
 

@@ -1,7 +1,8 @@
 ---
 title: The Living Building Petals
 description: The Living Building Challenge describes a regenerative building as seven connected performance areas, called petals, and asks it to give back more than it takes.
-status: scaffold
+image: posters/living-building-petals/living-building-petals.png
+status: built
 hide:
   - toc
 ---
@@ -24,6 +25,12 @@ The ten callouts are:
 8. Health and Happiness
 9. Energy
 10. Net Positive Building
+
+## Static Poster
+
+![The Living Building Petals poster](./living-building-petals.png){ loading=lazy }
+
+The full-size poster above is a static copy of the interactive version, handy for printing, sharing, or viewing without JavaScript.
 
 ## Why This Matters
 

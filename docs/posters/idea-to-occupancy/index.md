@@ -1,7 +1,8 @@
 ---
 title: Idea to Occupancy
 description: A building is made by a sequence of phases, and the earlier a decision is made, the cheaper it is to get right.
-status: scaffold
+image: posters/idea-to-occupancy/idea-to-occupancy.png
+status: built
 hide:
   - toc
 ---
@@ -24,6 +25,12 @@ The eight phases, in order:
 8. **Occupancy and Closeout** — The building is inspected, certified, and handed over.
 
 The poster also sketches two conceptual ideas. The colored lanes show which roles are most active in each phase, and two curves show that the ability to influence cost and performance falls while the cost of a change rises. Neither is a data plot.
+
+## Static Poster
+
+![Idea to Occupancy poster](./idea-to-occupancy.png){ loading=lazy }
+
+The full-size poster above is a static copy of the interactive version, handy for printing, sharing, or viewing without JavaScript.
 
 ## Why This Matters
 

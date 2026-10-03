@@ -3,106 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- microsim-scaffold-stub -->
-    <title>Force Vector Resolver</title>
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Force Vector Resolver MicroSim using P5.js 2.3.2</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@2.3.2/lib/p5.js"></script>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            color: #212529;
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
         }
-        #container {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-        }
-        h1 {
-            font-size: 22px;
-            margin-bottom: 10px;
-            color: #1a3a6c;
-        }
-        .placeholder {
-            border: 2px dashed #adb5bd;
-            border-radius: 8px;
-            padding: 40px 20px;
-            text-align: center;
-            color: #6c757d;
-            margin: 20px 0;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .placeholder .badge {
-            display: inline-block;
-            background: #ffc107;
-            color: #212529;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .placeholder h2 {
-            font-size: 18px;
-            color: #495057;
-            margin-bottom: 8px;
-        }
-        .placeholder p {
-            font-size: 14px;
-            max-width: 480px;
-        }
-        .meta {
-            margin-top: 20px;
-            font-size: 13px;
-            color: #6c757d;
-            border-top: 1px solid #dee2e6;
-            padding-top: 12px;
-        }
-        .meta strong { color: #495057; }
     </style>
+    <script src="force-vector-resolver.js"></script>
 </head>
 <body>
-    <div id="container">
-        <h1>Force Vector Resolver</h1>
-        <div class="placeholder">
-            <span class="badge">SCAFFOLD</span>
-            <h2>MicroSim Not Yet Implemented</h2>
-            <p>This MicroSim has been scaffolded from its specification but the
-            interactive content has not been built yet. See the chapter source
-            and the <code>index.md</code> in this directory for the full spec.</p>
-        </div>
-        <div class="meta">
-            <p><strong>Sim ID:</strong> force-vector-resolver</p>
-            <p><strong>Library:</strong> p5.js</p>
-            <p><strong>Bloom Level:</strong> TBD</p>
-            <p><strong>Learning Objective:</strong> Students will calculate (Bloom Level 3, Apply) the horizontal and vertical components of an inclined force and will explain (Bloom Level 2, Understand) why the two components together have the same effect as the original force.</p>
-        </div>
-    </div>
-
-    <!--
-    SPECIFICATION (from chapter index.md):
-
-    Type: microsim
-    **sim-id:** force-vector-resolver<br/>
-    **Library:** p5.js<br/>
-    **Status:** Specified
-    
-    Learning objective: Students will calculate (Bloom Level 3, Apply) the horizontal and vertical components of an inclined force and will explain (Bloom Level 2, Understand) why the two components together have the same effect as the original force.
-    
-    Visual: A canvas showing a labeled node at the center and a bold arrow representing a force. Dashed horizontal and vertical arrows form a right triangle that shows the components. A live readout panel displays the magnitude, the angle, and the two components in both pounds and newtons. The canvas width follows the container, the height is 420 px, and the sketch redraws on window resize.
-    
-    Controls: A slider labeled "Force (lb)" from 0 to 10,000 with a default of 5,000. A slider labeled "Angle (degrees)" from 0 to 90 with a default of 45. The student can also drag the arrow tip directly, and the sliders update to match. A checkbox labeled "Show equations" displays the substituted values for \( F\cos\theta \) and \( F\sin\theta \). A button labeled "Riverbend roof" loads a preset that draws the 168-kip roof load as a downward vector.
-    
-    Interactions: Hovering over any arrow shows a tooltip with its name and value. A "Predict first" mode asks the student to type the horizontal component, and the sketch then shows whether the answer is correct and displays the calculation. A message states when the angle is 0 (all force horizontal) or 90 (all force vertical).
-    
-    Colors: The force is dark orange, the horizontal component is blue, and the vertical component is green. Arrow labels use text as well as color.
-    
-    Implementation: p5.js with a responsive canvas, built-in slider and checkbox controls, and a small infobox div.
-    -->
+    <main></main>
+    <br/>
+    <a href=".">Back to Force Vector Resolver Lesson Plan</a>
 </body>
 </html>

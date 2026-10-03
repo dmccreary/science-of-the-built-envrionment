@@ -1,7 +1,8 @@
 ---
 title: The Swiss Cheese Model of Building Failure
 description: Buildings rarely fail from a single cause; failure happens when holes in several layers of defense line up, and redundancy keeps them from aligning.
-status: scaffold
+image: posters/swiss-cheese-model-of-building-failure/swiss-cheese-model-of-building-failure.png
+status: built
 hide:
   - toc
 ---
@@ -22,6 +23,12 @@ The eight regions, from the first defense to the fix:
 6. **Failure Outcome** — What the arrow does when the holes align.
 7. **Three Generic Failure Chains** — A roof leak, a deck collapse, and a smoke-spread incident.
 8. **Redundancy and Offset Holes** — Independent defenses that do not line up.
+
+## Static Poster
+
+![The Swiss Cheese Model of Building Failure poster](./swiss-cheese-model-of-building-failure.png){ loading=lazy }
+
+The full-size poster above is a static copy of the interactive version, handy for printing, sharing, or viewing without JavaScript.
 
 ## Why This Matters
 
