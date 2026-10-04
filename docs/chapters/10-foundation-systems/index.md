@@ -164,7 +164,8 @@ A **drilled pier**, also called a drilled shaft or caisson, is formed by drillin
 | Typical capacity | Moderate; used in groups under a pile cap | Large; often one per column |
 | Main concern | Noise and vibration | Caving soil and water in the hole |
 | Verification | Blows per foot at the end of driving | Inspection of the open hole before pouring |
- Shafts must be carefully inspected before concrete is placed, because groundwater and caving soil can contaminate the concrete.
+
+Shafts must be carefully inspected before concrete is placed, because groundwater and caving soil can contaminate the concrete.
 
 ## Slab-on-Grade
 
@@ -249,6 +250,6 @@ A **retaining wall** is a wall whose main job is to hold back soil at a change i
 - Footing reinforcement carries tension in the bottom of a footing and needs concrete cover, and mat foundations spread the whole building's load when soil is weak or loads are heavy.
 - Piles and drilled piers carry load by end bearing and skin friction through soft layers.
 - A slab-on-grade needs a compacted granular base, a vapor retarder, and edge insulation in a cold climate.
-- Foundation and retaining walls resist lateral soil pressure that grows with the square of height, and water in the backfill can more than double the demand.
+- Foundation and retaining walls resist lateral soil pressure that grows with the square of height, and water in the backfill adds a load of its own, which in the 8 ft example is 1,997 lb per foot of wall from the water alone against 1,440 lb per foot for the drained soil.
 - Basements and crawl spaces add usable or serviceable space but require drainage, moisture control, and, for crawl spaces, a decision to seal and condition.
 - Foundation drainage lowers water pressure around the foundation and works together with the waterproofing in Chapter 11.

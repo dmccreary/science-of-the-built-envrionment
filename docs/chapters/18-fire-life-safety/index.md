@@ -55,10 +55,10 @@ We again use the invented **Riverbend Youth Center** from Chapter 2, a one-story
 
 **Life safety** is the design objective of protecting people in a building from fire, smoke, and other emergencies long enough for them to escape or be rescued. It differs from *property protection*, which aims to save the building and its contents. A building can be a total loss and still have a successful life-safety outcome, because every occupant got out. The code concentrates on life safety first, which explains why many of its rules concern escape routes and smoke, not the building's survival.
 
-The hazard is not only flame. Burning produces hot gases and smoke that can fill a room long before flames reach the people in it, and smoke is a leading cause of fire deaths. Life safety therefore depends on detecting the fire quickly, limiting its growth and spread, and getting people out before conditions become unsurvivable. No single measure does all of that, so the code uses *layered protection*, listed below.
+The hazard is not only flame. Burning produces hot gases and smoke that can fill a room long before flames reach the people in it, and smoke is a leading cause of fire deaths. Life safety therefore depends on detecting the fire quickly, limiting its growth and spread, and getting people out before conditions become unsurvivable. No single measure does all of that, so the code uses *layered protection*, listed below. The six layers extend the five jobs of fire protection from Chapter 14 (detect, warn, suppress, control smoke, contain) by adding prevention at the start and a protected escape at the end.
 
 1. **Prevent ignition.** Control fuel sources, electrical faults, and ignition hazards, such as the kitchen cooking equipment.
-2. **Detect and alert.** Smoke detectors and alarms warn occupants early; Chapter 14 introduced the fire protection systems.
+2. **Detect and alert.** Smoke detectors and alarms warn occupants early. Chapter 14 introduced the fire protection systems, and Chapter 16 covers the fire alarm panel that ties them together.
 3. **Control and suppress.** Sprinklers, also introduced in Chapter 14, limit the fire's size.
 4. **Compartment.** Fire-resistance-rated walls and floors keep fire and smoke in one area.
 5. **Escape.** Exits that are sufficient, close, and clear let people leave.

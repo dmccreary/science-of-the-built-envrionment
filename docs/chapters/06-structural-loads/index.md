@@ -163,7 +163,7 @@ where \( V \) is wind speed in miles per hour. The code then modifies it for hei
 
 where \( C_s \) is a seismic coefficient that depends on the site's hazard, the soil, the building's use, and how well its structure tolerates repeated deformation.
 
-**Worked example: a quake at Riverbend.** Suppose Riverbend's roof (135 kips, from 15 psf over 9,000 ft²) and the upper half of its walls (about 35 kips) total \( W = 170 \) kips. With an illustrative \( C_s = 0.05 \), \( V = 0.05 \times 170 = 8.5 \) kips. Minnesota is a region of low seismic hazard compared with California, so this value is plausible, and it is smaller than the 10.5 kips that wind delivers to the roof level in the lateral example below. A light wood building in Minnesota is therefore usually governed by wind. Replace the roof with a heavy masonry and concrete roof twice as heavy, however, and \( V \) doubles to 17 kips, which exceeds the wind force.
+**Worked example: a quake at Riverbend.** Suppose Riverbend's roof (135 kips, from 15 psf over 9,000 ft²) and the upper half of its walls (about 35 kips) total \( W = 170 \) kips. With an illustrative \( C_s = 0.05 \), \( V = 0.05 \times 170 = 8.5 \) kips. Minnesota is a region of low seismic hazard compared with California, so this value is plausible, and it is smaller than the 10.5 kips that wind delivers to the roof level in the lateral example below. A light wood building in Minnesota is therefore usually governed by wind. Replace the roof with a heavy masonry and concrete roof twice as heavy (270 kips), however, and \( W \) rises to 305 kips and \( V \) to \( 0.05 \times 305 = 15.25 \) kips, which exceeds the wind force.
 
 !!! mascot-thinking "Wind Scales With Area, Quakes Scale With Weight"
     ![Beau thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
@@ -270,7 +270,7 @@ which is less than the 16-kip load even before any safety margin. A nominal 6×6
     ![Beau warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
     A common trap in remodeling is cutting an opening in a wall, or removing it, because it looks like a partition. If joists, trusses, or a beam end rest on it, it is bearing, and removing it breaks the load path. Look in the attic or basement to see which way the framing runs, and ask a structural engineer to size a header or beam before any cutting.
 
-**Worked example: load takedown at Riverbend.** We now follow the 50 psf design roof load (dead plus snow) through the gravity system, using the tributary relationship \( w = q \times b \). The roof deck spans between joists spaced 2 ft on center, and the joists span 16 ft between glulam girders spaced 16 ft apart. The girders span 40 ft.
+**Worked example: load takedown at Riverbend.** We now follow the 50 psf design roof load (dead plus snow) through the gravity system. Riverbend's 20 psf roof live load is smaller than its 35 psf snow load and the two are not added, so snow governs and the live load does not appear in the takedown. The takedown uses the tributary relationship \( w = q \times b \). The roof deck spans between joists spaced 2 ft on center, and the joists span 16 ft between glulam girders spaced 16 ft apart. The girders span 40 ft.
 
 | Member | Tributary width | Load | Reaction at each end |
 |--------|-----------------|------|-----------------------|

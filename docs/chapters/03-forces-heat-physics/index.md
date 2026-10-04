@@ -358,7 +358,7 @@ The analogy gives a rule that is easy to remember: when heat must pass through s
 | Outside air film | 0.17 | 0.9 | −10.0 |
 | **Total** | **15.4** | **80.0** | |
 
-Nearly all of the 80°F drop, 67.5°F, happens across the insulation. The back of the sheathing sits at about −3°F, far below freezing, and the inside face of the gypsum board stays at about 64°F. A cold layer inside a wall is exactly where moisture problems start, which is a central theme of Chapter 4.
+Nearly all of the 80°F drop, 67.5°F, happens across the insulation. The inner face of the sheathing, which is the cold side of the insulation, sits at about −3°F, far below freezing, and the inside face of the gypsum board stays at about 66°F. A cold layer inside a wall is exactly where moisture problems start, which is a central theme of Chapter 4.
 
 ## R-Value
 
@@ -403,7 +403,7 @@ Its units are BTU/(h·ft²·°F). A low U-value means low heat loss, and it is t
 
 In a conventional 2×4 wall, studs and plates make up roughly 25 percent of the wall's area (a common estimate that includes headers and corners). We can calculate the wall's overall performance with the *parallel path method*: calculate \( U \) separately for the cavity and for the stud path, then average the two by their areas. The two paths sit side by side, so we average U-values, not R-values.
 
-**Worked example: the R-13 wall that is not R-13.** The cavity path has a total R of 15.4, as in the previous sections. In the stud path, the 3.5 in of wood replaces the batt, giving a layer R of \( 3.5/0.8 = 4.4 \) and a total R of 6.8. The two U-values are \( 1/15.4 = 0.0649 \) and \( 1/6.8 = 0.1476 \). With 75 percent of the area as cavity and 25 percent as stud:
+**Worked example: the R-13 batt in a wall that is not R-13.** The cavity path, which adds the R-13 batt to the gypsum, sheathing, siding, and air films, has a total R of 15.4, as in the previous sections. That total is higher than the batt's label only because the other layers add resistance; the framing is what pulls the whole wall back down. In the stud path, the 3.5 in of wood replaces the batt, giving a layer R of \( 3.5/0.8 = 4.4 \) and a total R of 6.8. The two U-values are \( 1/15.4 = 0.0649 \) and \( 1/6.8 = 0.1476 \). With 75 percent of the area as cavity and 25 percent as stud:
 
 \[ U_{\text{avg}} = 0.75 \times 0.0649 + 0.25 \times 0.1476 = 0.0856 \]
 

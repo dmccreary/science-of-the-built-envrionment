@@ -96,7 +96,7 @@ Implementation: p5.js with updateCanvasSize() as the first statement in setup(),
 
 ## Steep-Slope Roofs
 
-A **steep-slope roof** is a roof pitched steeply enough that water runs off by gravity over overlapping layers of covering, with no continuous sealed surface. Slope is stated as *rise over run*, the vertical rise in inches for every 12 inches of horizontal run. A 6:12 roof (read "six in twelve") rises 6 inches over each 12 inches of run, which is an angle of about 27 degrees. Building codes and manufacturers commonly treat roofs steeper than about 3:12 as steep-slope, and each covering has its own minimum slope. Asphalt shingles, for example, are commonly limited to 2:12 or steeper, with special underlayment required at the lower end of that range.
+A **steep-slope roof** is a roof pitched steeply enough that water runs off by gravity over overlapping layers of covering, with no continuous sealed surface. Slope is stated as *rise over run*, the vertical rise in inches for every 12 inches of horizontal run. A 6:12 roof (read "six in twelve") rises 6 inches over each 12 inches of run, which is an angle of about 27 degrees. Building codes and manufacturers commonly treat roofs steeper than about 3:12 as steep-slope, and each covering has its own minimum slope. Asphalt shingles, for example, are commonly allowed down to 2:12, with special underlayment required between 2:12 and 4:12, so the 3:12 line is a rule of thumb for the general case and the manufacturer's minimum governs for each product.
 
 The shape of a steep-slope roof, usually a gable or a hip, also creates the attic space discussed under Attic Ventilation. Steep slopes shed water and snow efficiently, and they are the typical choice for houses and for many small commercial buildings.
 

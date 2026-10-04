@@ -188,7 +188,7 @@ Walls are commonly grouped by where the insulation sits. In a *cavity-insulated*
 | Outside air film | 0.17 |
 | **Total (cavity path)** | **32.4** |
 
-The total of 32.4 applies only where there is cavity insulation. Through a stud the cavity insulation is replaced by 5.5 in of wood at about R-1.25 per inch, giving a layer R of \( 5.5 / 0.8 = 6.9 \) and a total of 19.3. Weighting these paths by area gives the effective R-value of 27.7 derived in the thermal control layer section.
+The total of 32.4 applies only where there is cavity insulation. Through a stud the cavity insulation is replaced by 5.5 in of wood at about R-1.25 per inch, giving a layer R of \( 5.5 / 0.8 = 6.9 \) and a total of 19.3. Weighting these paths by area gives the effective R-value of 27.7 shown in the Continuous Insulation section.
 
 ## Water Control Layer
 

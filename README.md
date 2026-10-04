@@ -40,11 +40,11 @@ To assist students along their learning journey, the book features **Beau the Be
 pedagogical guide wearing a safety-orange hard hat and tool belt. Beavers are nature's premier
 hydraulic and structural engineers, making Beau the ideal mentor for exploring materials, water
 management, and durable building design. Beau provides tips, common pitfall warnings, concept
-check-ins, and encouragement throughout the chapters with his motto: *"Let's build it right!"*
+check-ins, and encouragement throughout the chapters with the motto: *"Let's build it right!"*
 
 ## Course Structure and Chapters
 
-The curriculum spans 21 core chapters organized across 12 domain categories:
+The curriculum spans 21 core chapters covering 380 concepts, which the learning graph sorts into 12 taxonomy categories:
 
 1. **Introduction to the Built Environment and Construction Terminology** — Core industry
    vocabulary, drawings, specifications, and project scales.
@@ -191,7 +191,7 @@ science-of-the-built-envrionment/
 │   │   └── mascot/                      # Beau the Beaver pose library
 │   ├── learning-graph/                  # Concept DAG and taxonomy models
 │   │   ├── concept-list.md              # Enumerated concepts
-│   │   ├── concept-taxonomy.md          # 12 domain categories
+│   │   ├── concept-taxonomy.md          # 12 taxonomy categories
 │   │   ├── learning-graph.csv           # Concept dependency edges
 │   │   └── learning-graph.json          # Graph viewer network payload
 │   ├── sims/                            # Interactive MicroSim applications

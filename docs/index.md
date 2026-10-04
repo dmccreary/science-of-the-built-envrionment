@@ -26,7 +26,7 @@ supporting reference content.
 ## Chapters
 
 The main body of the book lives under [Chapters](chapters/index.md). Each
-chapter has its own folder with a two-digit prefix (e.g. `01-introduction`).
+chapter has its own folder with a two-digit prefix (e.g. `01-intro-terminology`).
 
 ## Learning Graph
 

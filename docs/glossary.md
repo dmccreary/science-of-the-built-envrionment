@@ -959,7 +959,7 @@ The ordered steps of electrical design, from load estimate to layout, calculatio
 
 #### Electrical Designer
 
-A licensed engineer or qualified designer who lays out power distribution, lighting, and low-voltage systems for a building. The work includes sizing wires, panels, and protective devices.
+The engineer or qualified designer who lays out power distribution, lighting, and low-voltage systems for a building, often working under a licensed electrical engineer who takes professional responsibility for the design. The work includes sizing wires, panels, and protective devices.
 
 **See also:** Electrical Systems, National Electrical Code
 
@@ -2095,7 +2095,7 @@ A graph that plots the properties of moist air, including temperature, humidity,
 
 A rating of resistance to conductive thermal flow for a material or assembly, expressed in square-foot degrees Fahrenheit hours per Btu (ft²·°F·h/Btu). Higher numbers indicate better insulating performance.
 
-**Example:** A 3.5 in. fiberglass batt is rated about R-13, while a 2x6 wall with R-21 batts yields a higher rating.
+**Example:** A 3.5 in. fiberglass batt is rated about R-13, but the framing in a wall built with it lowers the wall's effective R-value, so the whole assembly must be calculated rather than read from the label.
 
 **See also:** U-Value, Insulation
 
@@ -2841,7 +2841,7 @@ The movement of water vapor through a material driven by differences in vapor pr
 
 A material that slows the diffusion of water vapor into building assemblies, classified by permeance as Class I, II, or III. The class choice depends on climate.
 
-**Example:** Kraft paper on fiberglass batts is a Class III retarder in many installations.
+**Example:** The kraft paper facing on fiberglass batts is a Class II retarder, which slows vapor but does not stop it.
 
 **See also:** Vapor Control Layer, Permeability
 
