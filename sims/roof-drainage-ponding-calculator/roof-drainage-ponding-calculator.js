@@ -108,6 +108,7 @@ function statusInfo() {
   if (m.rate <= 0) return { col: 'seagreen', t: m.nOpen === m.N ? 'Drains keep up. No standing water.' : 'The open drains still carry the flow. No standing water.' };
   if (m.spilling) return { col: 'darkorange', t: 'Secondary overflow is spilling. Depth holds at ' + nf(SCUPPER_IN, 1, 1) + ' in.' };
   if (m.overflow) return { col: 'darkorange', t: 'Water is ponding. The overflow opens at ' + nf(SCUPPER_IN, 1, 1) + ' in.' };
+  if (m.depth > 0.05 && m.nOpen === m.N) return { col: 'crimson', t: 'The drains are too few for this storm, so water ponds even with every drain open.' };
   if (m.depth > 0.05) return { col: 'crimson', t: 'Progressive ponding: deflection adds water, which adds deflection.' };
   return { col: 'darkorange', t: 'The drains are overloaded, so water starts to pond.' };
 }
@@ -251,9 +252,9 @@ function drawReadouts(x, y, w, h) {
 function drawStatus() {
   const s = statusInfo();
   stroke(s.col); strokeWeight(2); fill('white');
-  rect(10, 292, canvasWidth - 20, 36, 6);
+  rect(10, 290, canvasWidth - 20, 38, 6);
   noStroke(); fill(s.col); textAlign(LEFT, CENTER); textSize(14);
-  text(s.t, 18, 296, canvasWidth - 36, 28);
+  text(s.t, 18, 291, canvasWidth - 36, 36);
 }
 
 function drawControlLabels() {
