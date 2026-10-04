@@ -176,6 +176,7 @@ nav:
       - "Window Performance Explorer": sims/window-glazing-surface-temperature-explorer/index.md
       - "Wood Moisture and Shrinkage Calculator": sims/wood-moisture-shrinkage-calculator/index.md
 
+  - Glossary: glossary.md
   - License: license.md
   - Contact: contact.md
 
