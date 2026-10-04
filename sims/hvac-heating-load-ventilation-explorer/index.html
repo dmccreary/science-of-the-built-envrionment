@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Students will calculate (Bloom Level 3, Apply) the heating load of a room from envelope conduction and outdoor-air ventilation, and will compare (Bloom Level 4, Analyze) how enclosure quality and heat recovery change the total.">
+        <meta name="description" content="Students set the outdoor temperature, U-factors, occupancy, and heat recovery for a 600 ft2 Riverbend classroom and watch conduction and ventilation heat loss add up in a stacked bar, in Btu/h and in tons.">
       
       
         <meta name="author" content="Dan McCreary">
@@ -67,11 +67,13 @@
     
     <meta property="og:title" content="Heating Load and Ventilation Explorer">
   <meta name="twitter:title" content="Heating Load and Ventilation Explorer">
-  <meta property="og:description" content="Students will calculate (Bloom Level 3, Apply) the heating load of a room from envelope conduction and outdoor-air ventilation, and will compare (Bloom Level 4, Analyze) how enclosure quality and heat recovery change the total.">
-  <meta name="twitter:description" content="Students will calculate (Bloom Level 3, Apply) the heating load of a room from envelope conduction and outdoor-air ventilation, and will compare (Bloom Level 4, Analyze) how enclosure quality and heat recovery change the total.">
+  <meta property="og:description" content="Students set the outdoor temperature, U-factors, occupancy, and heat recovery for a 600 ft2 Riverbend classroom and watch conduction and ventilation heat loss add up in a stacked bar, in Btu/h and in tons.">
+  <meta name="twitter:description" content="Students set the outdoor temperature, U-factors, occupancy, and heat recovery for a 600 ft2 Riverbend classroom and watch conduction and ventilation heat loss add up in a stacked bar, in Btu/h and in tons.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://dmccreary.github.io/science-of-the-built-envrionment/sims/hvac-heating-load-ventilation-explorer/">
   <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:image" content="https://dmccreary.github.io/science-of-the-built-envrionment/sims/hvac-heating-load-ventilation-explorer/hvac-heating-load-ventilation-explorer.png">
+  <meta name="twitter:image" content="https://dmccreary.github.io/science-of-the-built-envrionment/sims/hvac-heating-load-ventilation-explorer/hvac-heating-load-ventilation-explorer.png">
 </head>
   
   
@@ -2079,7 +2081,7 @@
     
   
   
-    <span class="md-status md-status--scaffold" title="Scaffold — placeholder, not yet implemented">
+    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
     </span>
   
 
@@ -2117,7 +2119,7 @@
     
   
   
-    <span class="md-status md-status--scaffold" title="Scaffold — placeholder, not yet implemented">
+    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
     </span>
   
 
@@ -2136,7 +2138,7 @@
     
   
   
-    <span class="md-status md-status--scaffold" title="Scaffold — placeholder, not yet implemented">
+    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
     </span>
   
 
@@ -2158,6 +2160,42 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    <span class="md-ellipsis">
+      Description
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Use
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-plan" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lesson Plan
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#specification" class="md-nav__link">
@@ -3402,6 +3440,42 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    <span class="md-ellipsis">
+      Description
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-use" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Use
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lesson-plan" class="md-nav__link">
+    <span class="md-ellipsis">
+      Lesson Plan
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#specification" class="md-nav__link">
     <span class="md-ellipsis">
       Specification
@@ -3443,30 +3517,61 @@
 
 
 <h1 id="heating-load-and-ventilation-explorer">Heating Load and Ventilation Explorer<a class="headerlink" href="#heating-load-and-ventilation-explorer" title="Permanent link">&para;</a></h1>
-<iframe src="main.html" width="100%" height="600"></iframe>
+<iframe src="main.html" width="100%" height="632" scrolling="no"></iframe>
 
-<p><a class="md-button md-button--primary" href="main.html">Run MicroSim in Fullscreen</a></p>
+<p><a class="md-button md-button--primary" href="main.html">Run the Heating Load and Ventilation Explorer MicroSim Fullscreen</a></p>
+<p>Place the following line in your website to include this MicroSim in your course.</p>
+<div class="language-html highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p">&lt;</span><span class="nt">iframe</span> <span class="na">src</span><span class="o">=</span><span class="s">"https://dmccreary.github.io/science-of-the-built-envrionment/sims/hvac-heating-load-ventilation-explorer/main.html"</span> <span class="na">width</span><span class="o">=</span><span class="s">"100%"</span> <span class="na">height</span><span class="o">=</span><span class="s">"632"</span> <span class="na">scrolling</span><span class="o">=</span><span class="s">"no"</span><span class="p">&gt;&lt;/</span><span class="nt">iframe</span><span class="p">&gt;</span>
+</span></code></pre></div>
+<h2 id="description">Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h2>
+<p>Students set the outdoor temperature, U-factors, occupancy, and heat recovery for a 600 ft2 Riverbend classroom and watch conduction and ventilation heat loss add up in a stacked bar, in Btu/h and in tons.</p>
+<h2 id="how-to-use">How to Use<a class="headerlink" href="#how-to-use" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Start at the default design day (0 degrees F outdoors, 25 people, no heat recovery). The cutaway shows an arrow for each conducting surface and a large orange arrow for the heat carried out by ventilation air; arrow thickness grows with the heat flow.</li>
+<li>Read the stacked bar and the total in Btu/h and tons. Hover over any arrow, bar segment, or legend entry to see the calculation behind it, such as U x A x delta T for the walls.</li>
+<li>Move the U-factor sliders and watch the walls, windows, and roof segments change while the ventilation segment stays the same. Then change the number of people or the outdoor temperature.</li>
+<li>Check Add heat recovery ventilator and drag the effectiveness slider to see the ventilation segment shrink. Press Reset to Minneapolis design day to return to the defaults.</li>
+</ol>
+<h2 id="lesson-plan">Lesson Plan<a class="headerlink" href="#lesson-plan" title="Permanent link">&para;</a></h2>
+<p><strong>Learning objective:</strong> Calculate the heating load of a room from envelope conduction and outdoor-air ventilation, and compare how enclosure quality and heat recovery change the total.</p>
+<p><strong>Suggested activities</strong></p>
+<ul>
+<li>Reproduce (10 min): At the defaults students confirm the Chapter 14 values: 322 cfm of outdoor air, about 24,300 Btu/h of ventilation load, and about 8,000 Btu/h of conduction. Then they turn on a 75 percent heat recovery ventilator and confirm the 6,100 Btu/h that remains.</li>
+<li>Compare (10 min): Students improve the enclosure to the best U-factors on the sliders and record how much the total drops, then compare that with adding heat recovery.</li>
+<li>Analyze (10 min): Students sweep the outdoor temperature and the number of occupants and describe which component grows fastest and why.</li>
+</ul>
+<p><strong>Assessment</strong></p>
+<ul>
+<li>Students predict the total load for 40 people at -20 degrees F with and without heat recovery, then check the prediction in the simulation.</li>
+<li>Students explain in two sentences why better insulation barely changes the ventilation load but a heat recovery ventilator does.</li>
+</ul>
+<h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../../chapters/14-hvac-plumbing-fire/">Chapter 14: HVAC, Plumbing, and Fire Protection Systems</a></li>
+<li>ASHRAE Standard 62.1, Ventilation and Acceptable Indoor Air Quality (ventilation rate procedure; check the adopted edition).</li>
+<li><a href="https://en.wikipedia.org/wiki/Heat_recovery_ventilation">Heat recovery ventilation (Wikipedia)</a></li>
+</ul>
 <h2 id="specification">Specification<a class="headerlink" href="#specification" title="Permanent link">&para;</a></h2>
 <p>The full specification below is extracted from
 <a href="../../chapters/14-hvac-plumbing-fire/">Chapter 14: HVAC, Plumbing, and Fire Protection Systems</a>.</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Type: microsim
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>**sim-id:** hvac-heating-load-ventilation-explorer&lt;br/&gt;
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>**Library:** p5.js&lt;br/&gt;
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>**Status:** Specified
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>
-</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>Learning objective: Students will calculate (Bloom Level 3, Apply) the heating load of a room from envelope conduction and outdoor-air ventilation, and will compare (Bloom Level 4, Analyze) how enclosure quality and heat recovery change the total.
-</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>Visual: A cutaway of a 600 ft² classroom with wall, window, and roof areas labeled. Arrows show conduction heat loss through each surface and a separate large arrow shows heat lost with ventilation air. A stacked bar to the right shows the total load divided into walls, windows, roof, and ventilation, with a numeric readout in Btu/h and in tons of equivalent capacity.
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>
-</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>Controls: Sliders for outdoor temperature (-20 to 40 °F), wall U-factor (0.03 to 0.30), window U-factor (0.15 to 0.60), roof U-factor (0.02 to 0.10), number of occupants (5 to 40), and heat recovery effectiveness (0 to 85 percent). A checkbox labeled "Add heat recovery ventilator" enables the last slider. A button labeled "Reset to Minneapolis design day" restores the default values.
-</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>
-</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>Interactions: Changing any slider updates the arrows, the stacked bar, and the readouts immediately. Hovering over any arrow or bar segment shows a tooltip with the calculation (for example, "Walls: U x A x delta T = 0.05 x 400 x 70 = 1,400 Btu/h"). The status line states which component dominates at the current settings.
-</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>
-</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>Colors: Walls in brown, windows in light blue, roof in gray, ventilation in orange. Segments also carry text labels for readability without color.
-</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>
-</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>Responsive design: The canvas follows the container width and redraws on window resize. Height is 480 px on wide screens.
-</span><span id="__span-0-17"><a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>
-</span><span id="__span-0-18"><a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>Implementation: p5.js with updateCanvasSize() as the first statement in setup(), built-in createSlider, createCheckbox, and createButton controls, created before any positioning function runs.
+<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>Type: microsim
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>**sim-id:** hvac-heating-load-ventilation-explorer&lt;br/&gt;
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>**Library:** p5.js&lt;br/&gt;
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>**Status:** Specified
+</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>
+</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>Learning objective: Students will calculate (Bloom Level 3, Apply) the heating load of a room from envelope conduction and outdoor-air ventilation, and will compare (Bloom Level 4, Analyze) how enclosure quality and heat recovery change the total.
+</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>
+</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>Visual: A cutaway of a 600 ft² classroom with wall, window, and roof areas labeled. Arrows show conduction heat loss through each surface and a separate large arrow shows heat lost with ventilation air. A stacked bar to the right shows the total load divided into walls, windows, roof, and ventilation, with a numeric readout in Btu/h and in tons of equivalent capacity.
+</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>
+</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>Controls: Sliders for outdoor temperature (-20 to 40 °F), wall U-factor (0.03 to 0.30), window U-factor (0.15 to 0.60), roof U-factor (0.02 to 0.10), number of occupants (5 to 40), and heat recovery effectiveness (0 to 85 percent). A checkbox labeled "Add heat recovery ventilator" enables the last slider. A button labeled "Reset to Minneapolis design day" restores the default values.
+</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>
+</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>Interactions: Changing any slider updates the arrows, the stacked bar, and the readouts immediately. Hovering over any arrow or bar segment shows a tooltip with the calculation (for example, "Walls: U x A x delta T = 0.05 x 400 x 70 = 1,400 Btu/h"). The status line states which component dominates at the current settings.
+</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a>
+</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a>Colors: Walls in brown, windows in light blue, roof in gray, ventilation in orange. Segments also carry text labels for readability without color.
+</span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a>
+</span><span id="__span-1-16"><a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a>Responsive design: The canvas follows the container width and redraws on window resize. Height is 480 px on wide screens.
+</span><span id="__span-1-17"><a id="__codelineno-1-17" name="__codelineno-1-17" href="#__codelineno-1-17"></a>
+</span><span id="__span-1-18"><a id="__codelineno-1-18" name="__codelineno-1-18" href="#__codelineno-1-18"></a>Implementation: p5.js with updateCanvasSize() as the first statement in setup(), built-in createSlider, createCheckbox, and createButton controls, created before any positioning function runs.
 </span></code></pre></div>
 <h2 id="related-resources">Related Resources<a class="headerlink" href="#related-resources" title="Permanent link">&para;</a></h2>
 <ul>
