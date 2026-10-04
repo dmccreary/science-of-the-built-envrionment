@@ -68,6 +68,8 @@ nav:
       - Concept Taxonomy: learning-graph/concept-taxonomy.md
       - Graph Quality Analysis: learning-graph/quality-metrics.md
       - Taxonomy Distribution: learning-graph/taxonomy-distribution.md
+      - Glossary Quality Report: learning-graph/glossary-quality-report.md
+      - Glossary Fact-Check Report: learning-graph/glossary-fact-check.md
 
   - Stories:
       - Overview: stories/index.md

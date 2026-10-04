@@ -34,6 +34,6 @@ The definitions were generated against the four ISO 11179 criteria: precision, c
 
 ## Recommendations
 
-- **Fact-check numeric values before publishing.** Several figures were written from memory and should be confirmed against the Minnesota codes and chapter text: Minnesota frost depth (42 in. or more), ground snow load range (40–60 psf), the ACH50 air-leakage target, and the R-value per inch figures for insulation types.
+- **Numeric facts were checked on 2026-10-03.** See the [Glossary Fact-Check Report](glossary-fact-check.md) for corrections, sources, and the few illustrative values that remain unsourced.
 - Confirm that definitions match how each chapter uses the term, and update either side if they differ.
 - 41 terms have no example; consider adding examples for the more abstract ones.

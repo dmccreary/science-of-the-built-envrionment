@@ -17,6 +17,8 @@ The rules, such as ADA standards and the accessibility chapter of the building c
 
 **Example:** A ramp may not be steeper than 1:12.
 
+**Reference:** [2010 ADA Standards, Section 405 Ramps (U.S. Access Board)](https://www.access-board.gov/ada/guides/chapter-4-ramps-and-curb-ramps/)
+
 **See also:** Elevators, Means of Egress
 
 #### Adaptive Reuse
@@ -95,7 +97,9 @@ The work of closing gaps, cracks, and penetrations in the enclosure using caulk,
 
 The maximum floor area per story permitted by code for a given occupancy and construction type, with increases for sprinklers and open frontage. It limits fire exposure.
 
-**Example:** A wood-frame store may be limited to 12,500 sq ft per floor unless sprinklered.
+**Example:** A one-story Type VB (wood-frame) store may be limited to 9,000 sq ft per floor unless it is sprinklered.
+
+**Reference:** [IBC 2018 Table 506.2, Minnesota edition (UpCodes)](https://up.codes/viewer/minnesota/ibc-2018/chapter/5/general-building-heights-and-areas)
 
 **See also:** Construction Types, Occupancy Classification
 
@@ -167,6 +171,8 @@ A field test in which a calibrated fan depressurizes a building to measure its a
 
 **Example:** A new house testing at 3 ACH50 meets the Minnesota residential target.
 
+**Reference:** [Minnesota Energy Code, Chapter 4 Residential Energy Efficiency (UpCodes)](https://up.codes/viewer/minnesota/mn-energy-code-2015/chapter/RE_4/re-residential-energy-efficiency)
+
 **See also:** Air Leakage, Air Sealing
 
 #### Boiler
@@ -206,6 +212,8 @@ The wiring between the final overcurrent device and the outlets, lights, or equi
 A rectangular building unit made of fired clay or concrete, typically about 8 in. long, used in walls and paving. Fired clay units are valued for durability and appearance.
 
 **Example:** A modular brick measures about 2-1/4 in. by 3-5/8 in. by 7-5/8 in.
+
+**Reference:** [Brick Industry Association Technical Note 10](https://www.gobrick.com/media/file/10-dimensioning-and-estimating-brick-masonry.pdf)
 
 **See also:** Masonry, Brick Veneer
 
@@ -384,6 +392,8 @@ Concrete poured into forms at its final location on the construction site and cu
 Loose-fill or dense-pack insulation made mostly from recycled paper treated with fire retardant. It provides about R-3.5 per inch and fills irregular spaces well.
 
 **Example:** Blown cellulose fills an attic to a depth of about 14 in. for R-50.
+
+**Reference:** [U.S. DOE Energy Renovations: Insulation guide](https://www.energy.gov/sites/prod/files/2013/11/f5/insulation_guide.pdf)
 
 **See also:** Insulation, Recycled Content
 
@@ -805,6 +815,8 @@ The amount a loaded structural member bends or moves from its original position.
 
 **Example:** A floor joist spanning 12 ft with a limit of L/360 may sag no more than 0.4 in.
 
+**Reference:** [IBC 2018 Chapter 16, Table 1604.3 (ICC)](https://codes.iccsafe.org/content/IBC2018/chapter-16-structural-design)
+
 **See also:** Stiffness
 
 #### Density
@@ -1043,6 +1055,8 @@ The backup electrical supply that powers life-safety loads, such as exit lights 
 
 **Example:** A hospital's generator restores power to critical rooms within 10 seconds.
 
+**Reference:** [NEC Article 700 and NFPA 110 Type 10 summary (Corex Engineers)](https://corexengineers.com/resources/emergency-standby-power-nec-700-701-702-nfpa-110/)
+
 **See also:** Generators, Uninterruptible Power Supply
 
 #### Energy Code Compliance
@@ -1105,7 +1119,9 @@ The conductors that carry power from the service equipment to a subpanel or dist
 
 Insulation made from fine glass fibers, sold as batts, rolls, or loose-fill. It has an R-value of about 2.9 to 3.8 per inch and is not combustible.
 
-**Example:** R-19 batts fit between 2x6 ceiling joists.
+**Example:** R-13 batts fit between 2x4 wall studs, which are 3.5 in. deep.
+
+**Reference:** [U.S. DOE Energy Renovations: Insulation guide](https://www.energy.gov/sites/prod/files/2013/11/f5/insulation_guide.pdf)
 
 **See also:** Insulation
 
@@ -1129,7 +1145,9 @@ The model code that governs the use and maintenance of buildings, including exit
 
 The harm to a structure and its contents caused by flames, heat, and smoke, including charring, weakening, and water damage from suppression. Severity affects reuse.
 
-**Example:** Steel loses much of its strength above about 1,100 °F.
+**Example:** Structural steel keeps only about half of its room-temperature strength at about 1,100 °F.
+
+**Reference:** [AISC Engineering FAQ 11.2, Steel Exposed to Fire](https://www.aisc.org/aisc/solutions-center/engineering-faqs/112-steel-exposed-to-fire/)
 
 **See also:** Fire Resistance, Fire Protection
 
@@ -1243,9 +1261,11 @@ The cracking, flaking, and spalling of porous materials when absorbed water free
 
 #### Frost Depth
 
-The depth to which soil freezes in winter at a given location. Minnesota code sets footings below this depth, commonly 42 in. or more.
+The depth to which soil freezes in winter at a given location. Minnesota rules set the minimum footing depth at 42 in. in most of the state and 60 in. in the northern counties.
 
-**Example:** In northern Minnesota the design depth increases to 60 in. in some areas.
+**Example:** A footing in Duluth must reach 60 in. below grade, while one in Minneapolis may stop at 42 in.
+
+**Reference:** [Minnesota Rules 1303.1600 Footing Depth for Frost Protection (UpCodes)](https://up.codes/s/footing-depth-for-frost-protection)
 
 **See also:** Frost Heave
 
@@ -1317,6 +1337,8 @@ The shaping of the ground surface to desired slopes and elevations, usually to d
 
 **Example:** Soil around a house slopes down at least 6 in. over the first 10 ft to send rain away from the foundation.
 
+**Reference:** [IRC R401.3 Drainage (ICC)](https://codes.iccsafe.org/s/IRC2024P2/chapter-4-foundations/IRC2024P2-Pt03-Ch04-SecR401.3)
+
 **See also:** Site Drainage
 
 #### Gravity Load System
@@ -1330,6 +1352,8 @@ The set of members that carry vertical loads, such as floors, beams, columns, an
 Programs that score buildings on sustainability criteria and award certification levels. They include LEED, Passive House, and Minnesota's B3 guidelines.
 
 **Example:** A project selects a rating system to guide its design goals.
+
+**Reference:** [Minnesota Sustainable Buildings (B3 Guidelines), Minnesota Department of Administration](https://mn.gov/admin/government/construction-projects/sustainable-buildings/)
 
 **See also:** LEED Certification
 
@@ -1370,6 +1394,8 @@ A fluid mixture of cement, sand or fine gravel, and water poured into masonry co
 A panel with a gypsum core between paper faces, used to cover walls and ceilings. Also called drywall, it provides a smooth surface and a measure of fire resistance.
 
 **Example:** 5/8 in. Type X board gives one-hour fire resistance in rated walls.
+
+**Reference:** [Gypsum Association: What Is a Type X Gypsum Panel?](https://gypsum.org/what-is-a-type-x-gypsum-panel/)
 
 **See also:** Interior Finishes, Fire Resistance
 
@@ -1597,9 +1623,11 @@ The fixtures, lamps, and controls that give illumination to a building's spaces 
 
 #### Live Loads
 
-The changing weights from occupants, furniture, and movable items that act on a building. Codes set minimum values by use, such as 40 psf for residential floors.
+The changing weights from occupants, furniture, and movable items that act on a building. Codes set minimum values by use, such as 40 psf for most living areas of homes and 30 psf for sleeping rooms.
 
 **Example:** People gathering in a classroom add live load to the floor.
+
+**Reference:** [IBC 2018 Chapter 16, Minnesota edition (UpCodes)](https://up.codes/viewer/minnesota/ibc-2018/chapter/16/structural-design)
 
 **Contrast with:** Dead Loads
 
@@ -1621,9 +1649,11 @@ The continuous route that a force follows from where it is applied through membe
 
 #### Local Materials
 
-Products extracted and manufactured near the building site, which reduce transport emissions and support regional economies. A common benchmark is within 500 miles.
+Products extracted and manufactured near the building site, which reduce transport emissions and support regional economies. Common benchmarks are 100 miles in LEED v4 and 500 miles in older LEED versions.
 
 **Example:** Minnesota granite and regionally milled lumber qualify.
+
+**Reference:** [GBRI: LEED v4 regional materials criteria, 100 miles vs 500 miles](https://www.gbrionline.org/navigating-regional-materials-criteria-for-leed-v4-projects-is-it-a-500-mile-radius-or-100-miles/)
 
 **See also:** Sustainable Materials
 
@@ -1641,13 +1671,17 @@ Roofs with a slope of 3:12 or less, covered by continuous membranes and drained 
 
 **Example:** A flat-looking store roof covered by a single-ply membrane is low-slope.
 
+**Reference:** [Archtoolbox: Steep-Sloped Roofing Systems (NRCA 3:12 dividing line)](https://www.archtoolbox.com/steep-sloped-roofing-systems/)
+
 **Contrast with:** Steep-Slope Roofs
 
 #### Low-Voltage Systems
 
-Wiring and equipment operating at 50 volts or less, such as alarm, thermostat, security, and communication circuits. They carry signals or small amounts of power.
+Wiring and equipment operating at less than 50 volts, such as alarm, thermostat, security, and communication circuits. They carry signals or small amounts of power.
 
 **Example:** A doorbell and thermostat run on low-voltage wire.
+
+**Reference:** [NEC Article 720, Circuits and Equipment Operating at Less Than 50 Volts (UpCodes)](https://up.codes/s/circuits-and-equipment-operating-at-less-than-50-volts)
 
 **See also:** Data and Communications
 
@@ -1656,6 +1690,8 @@ Wiring and equipment operating at 50 volts or less, such as alarm, thermostat, s
 Wood sawn from logs into boards and dimensional members of standard sizes and grades. Nominal sizes are larger than actual finished sizes.
 
 **Example:** A 2x4 stud measures actually 1.5 in. by 3.5 in.
+
+**Reference:** [NIST Voluntary Product Standard PS 20, American Softwood Lumber Standard](https://www.nist.gov/document/ps20-10pdf)
 
 **See also:** Wood Moisture Content
 
@@ -1761,9 +1797,11 @@ Roofing made of steel, aluminum, or copper panels with raised seams or exposed f
 
 #### Mineral Wool Insulation
 
-Insulation made from spun molten rock or slag, available in batts and boards. It is water-repellent, fire-resistant, and provides about R-3.7 to R-4.2 per inch.
+Insulation made from spun molten rock or slag, available in batts and boards. It is water-repellent, fire-resistant, and provides about R-3.7 to R-4.3 per inch.
 
 **Example:** Mineral wool boards provide exterior insulation behind brick veneer.
+
+**Reference:** [U.S. DOE Energy Renovations: Insulation guide](https://www.energy.gov/sites/prod/files/2013/11/f5/insulation_guide.pdf)
 
 **See also:** Insulation, Fire Resistance
 
@@ -1794,6 +1832,8 @@ The code documents written by standards organizations, such as the International
 The ratio of stress to strain in the elastic range of a material, showing how stiff it is. Steel has a value near 29,000,000 psi.
 
 **Example:** Wood has a much lower modulus, around 1,500,000 psi, so a wood beam bends more than a steel beam of equal size.
+
+**Reference:** [AISC 360-16 Specification for Structural Steel Buildings](https://user.eng.umd.edu/~ccfu/ref/a360-16-spec-and-commentary.pdf); [USDA Wood Handbook, Chapter 5](https://www.fpl.fs.usda.gov/documnts/fplgtr/fplgtr190/chapter_05.pdf)
 
 **See also:** Stress, Strain
 
@@ -1831,9 +1871,11 @@ A paste of cement, lime, sand, and water used to bed and join masonry units. It 
 
 #### National Electrical Code
 
-The model standard, published by the National Fire Protection Association as NFPA 70, for safe installation of electrical wiring and equipment. Minnesota adopts it with amendments.
+The model standard, published by the National Fire Protection Association as NFPA 70, for safe installation of electrical wiring and equipment. Minnesota adopts it by reference in Minnesota Rules chapter 1315.
 
 **Example:** The code sets the minimum number of receptacles in a kitchen.
+
+**Reference:** [Minnesota Rules Chapter 1315, Electrical Code (Revisor of Statutes)](https://www.revisor.mn.gov/rules/1315/full)
 
 **See also:** Grounding and Bonding, Model Codes
 
@@ -1888,6 +1930,8 @@ Wall-mounted cabinets that hold circuit breakers or fuses and divide electrical 
 A rigorous voluntary building standard that achieves very low heating and cooling demand through high insulation, airtightness, quality windows, and heat recovery ventilation. Limits cover energy use and air leakage.
 
 **Example:** A certified home limits air leakage to 0.6 ACH at 50 Pascals.
+
+**Reference:** [Passive House Accelerator: five principles of Passive House design (airtightness 0.6 ACH50)](https://passivehouseaccelerator.com/articles/five-principles-of-passive-house-design-and-construction)
 
 **See also:** High-Performance Buildings
 
@@ -2099,7 +2143,9 @@ Wall outlets that connect plugs of portable devices to a branch circuit. Codes r
 
 The share of a product made from reused materials, such as post-consumer waste or industrial byproducts. It reduces demand for raw resources.
 
-**Example:** Steel rebar often contains more than 90% recycled steel.
+**Example:** Steel rebar often contains about 97% recycled steel.
+
+**Reference:** [CRSI: Durable, Resilient, Sustainable](https://www.crsi.org/wp-content/uploads/Durability_Flyer_CRSI_Safe_and_Sound_2021_FINAL.pdf)
 
 **See also:** Sustainable Materials
 
@@ -2211,6 +2257,8 @@ Insulation boards made of expanded polystyrene, extruded polystyrene, or polyiso
 
 **Example:** Two inches of polyiso on a wall adds roughly R-12.
 
+**Reference:** [Insulation R-value comparison by material (insulationrvalues.com)](https://www.insulationrvalues.com/types-of-insulation)
+
 **See also:** Continuous Insulation, Insulation
 
 #### Roof Assemblies
@@ -2245,9 +2293,11 @@ Continuous sheets of rubber, plastic, or modified bitumen laid over low-slope ro
 
 #### Rot and Decay
 
-The breakdown of wood by fungi that feed on its cellulose, requiring sustained moisture above about 20%. It reduces strength and may go unseen inside walls.
+The breakdown of wood by fungi that feed on its cellulose, requiring wood to stay wet, generally above 25 to 30% moisture content. It reduces strength and may go unseen inside walls.
 
 **Example:** A deck post in constant contact with wet soil rots at its base.
+
+**Reference:** [USDA Wood Handbook, Chapter 14, Biodeterioration of Wood](https://www.fpl.fs.usda.gov/documnts/fplgtr/fplgtr190/chapter_14.pdf)
 
 **See also:** Wood Moisture Content, Mold
 
@@ -2397,9 +2447,11 @@ Systems that limit smoke movement during a fire by pressurizing stairs or exhaus
 
 #### Snow Loads
 
-The weight of accumulated snow and ice on a roof, expressed in pounds per square foot. Minnesota ground snow values range from about 40 to 60 psf, depending on location.
+The weight of accumulated snow and ice on a roof, expressed in pounds per square foot. Minnesota ground snow values are 50 psf in most of the state and 60 psf in the northern counties.
 
-**Example:** A roof designed for 50 psf can carry about 3 ft of fresh snow or less of packed, wet snow.
+**Example:** Minnesota's residential rules multiply ground snow load by 0.7, so a 50 psf ground load gives a 35 psf roof design load.
+
+**Reference:** [Minnesota DLI ground snow load map, Minnesota Rules 1303.1700](https://www.dli.mn.gov/sites/default/files/pdf/bc_map_snowload.pdf)
 
 **See also:** Roof Framing
 
@@ -2407,7 +2459,9 @@ The weight of accumulated snow and ice on a roof, expressed in pounds per square
 
 The maximum pressure that soil can safely carry from a foundation without excessive settlement or failure. It is expressed in pounds per square foot.
 
-**Example:** A common value for firm clay is about 2,000 psf, which controls footing width.
+**Example:** The building code assumes 1,500 psf for clay and silt when no soil test exists, which controls footing width.
+
+**Reference:** [IBC Table 1806.2 Presumptive Load-Bearing Values (UpCodes)](https://up.codes/s/presumptive-load-bearing-values)
 
 **See also:** Spread Footings, Settlement
 
@@ -2451,9 +2505,11 @@ The written descriptions of the materials, quality standards, and workmanship re
 
 #### Spray Foam Insulation
 
-Insulation formed by spraying liquid chemicals that expand into foam on a surface. Closed-cell types give about R-6 to R-7 per inch and also stop air flow.
+Insulation formed by spraying liquid chemicals that expand into foam on a surface. Closed-cell types give about R-6 per inch and also stop air flow.
 
 **Example:** Closed-cell foam sprayed on a rim joist seals leaks and insulates in one step.
+
+**Reference:** [U.S. DOE Building America: Which Spray Foam Is Right For You?](https://www1.eere.energy.gov/buildings/publications/pdfs/building_america/spray_foam_guide.pdf)
 
 **See also:** Insulation, Air Sealing
 
@@ -2461,7 +2517,7 @@ Insulation formed by spraying liquid chemicals that expand into foam on a surfac
 
 Enlarged concrete bases that distribute the load of a column or wall over a wider soil area. Their size depends on the load and the soil bearing capacity.
 
-**Example:** A column carrying 60,000 lb bears on a square footing about 5 ft on a side.
+**Example:** A column carrying 60,000 lb on soil rated at 1,500 psf needs 40 sq ft of bearing area, a square footing about 6.5 ft on a side.
 
 **See also:** Soil Bearing Capacity, Continuous Footings
 
@@ -2470,6 +2526,8 @@ Enlarged concrete bases that distribute the load of a column or wall over a wide
 Piping networks with heat-activated nozzles that discharge water on a fire. Each head opens only when the air near it is hot enough.
 
 **Example:** A sprinkler head with a glass bulb bursts at 155 °F and sprays the room.
+
+**Reference:** [Archtoolbox: Types of Fire Sprinkler Heads](https://www.archtoolbox.com/types-of-fire-sprinkler-heads/)
 
 **See also:** Fire Protection
 
@@ -2502,6 +2560,8 @@ The standard rolled cross-sections of structural steel, such as wide-flange (W),
 Roofs with a slope greater than 3:12 that shed water through overlapping units such as shingles, tiles, or metal panels. They are typical of houses.
 
 **Example:** A gabled house roof at 6:12 with asphalt shingles is steep-slope.
+
+**Reference:** [Archtoolbox: Steep-Sloped Roofing Systems (NRCA 3:12 dividing line)](https://www.archtoolbox.com/steep-sloped-roofing-systems/)
 
 **Contrast with:** Low-Slope Roofs
 
@@ -2711,6 +2771,8 @@ The length along the path of travel from a point in a building to the nearest ex
 
 **Example:** An office with sprinklers may allow a 300 ft limit.
 
+**Reference:** [IBC Table 1017.2 summary (National Fire Sprinkler Association)](https://nfsa.org/2020/06/22/travel-distance-advantages-of-automatic-fire-sprinkler-systems/)
+
 **See also:** Means of Egress
 
 #### Tributary Area
@@ -2853,6 +2915,8 @@ The reduction of water use in and around buildings through low-flow fixtures, ef
 
 **Example:** A toilet using 1.28 gallons per flush saves water compared to older 3.5 gallon models.
 
+**Reference:** [U.S. EPA WaterSense tank-type toilet specification summary](https://www.epa.gov/sites/default/files/2017-02/documents/ws-background-toilets-revised-spec-revisions-summmary.pdf)
+
 **See also:** Plumbing Fixtures
 
 #### Water Heating
@@ -2948,6 +3012,8 @@ The system of building frames with dimensional lumber or engineered wood members
 The weight of water in wood expressed as a percentage of the wood's oven-dry weight. It controls shrinkage, strength, and decay risk.
 
 **Example:** Framing lumber is typically dried to 19% or less before installation.
+
+**Reference:** [NIST Voluntary Product Standard PS 20, S-DRY at 19% maximum](https://www.nist.gov/document/ps20-10pdf)
 
 **See also:** Rot and Decay
 
