@@ -154,7 +154,7 @@ function buildCharts() {
       interaction: { mode: 'nearest', intersect: true },
       scales: {
         x: { type: 'linear', min: 0, max: 28, title: { display: true, text: 'Age (days)', font: { size: 14 } }, ticks: { font: { size: 13 }, stepSize: 7 }, grid: { color: 'rgb(220,220,220)' } },
-        y: { type: 'linear', min: 0, title: { display: true, text: 'Compressive strength (psi)', font: { size: 14 } }, ticks: { font: { size: 13 }, callback: t => fmt(t) }, grid: { color: 'rgb(220,220,220)' } }
+        y: { type: 'linear', min: 0, title: { display: true, text: 'Strength (psi)', font: { size: 14 } }, ticks: { font: { size: 13 }, callback: t => fmt(t) }, grid: { color: 'rgb(220,220,220)' } }
       },
       plugins: {
         title: { display: true, text: 'Strength gain (illustrative)', color: 'black', font: { size: 16, weight: 'bold' }, padding: { top: 2, bottom: 2 } },

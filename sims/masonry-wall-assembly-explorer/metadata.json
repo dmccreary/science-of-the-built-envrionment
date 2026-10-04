@@ -13,11 +13,49 @@
   "rights": "CC BY-NC-SA 4.0",
   "identifier": "masonry-wall-assembly-explorer",
   "library": "p5.js",
-  "bloomLevel": "TBD",
-  "bloomVerb": "TBD",
-  "completion_status": "scaffold",
+  "bloomLevel": "Remember, Analyze",
+  "bloomVerb": "identify, compare",
+  "completion_status": "built",
   "chapter_number": 8,
   "chapter_title": "Concrete and Masonry",
   "chapter_dir": "08-concrete-masonry",
-  "chapter_rel_dir": "chapters/08-concrete-masonry"
+  "chapter_rel_dir": "chapters/08-concrete-masonry",
+  "canvasHeight": 695,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Remember",
+      "Analyze"
+    ],
+    "concepts": [
+      "Masonry units and mortar",
+      "Grout and reinforced masonry",
+      "Bond beams and joint reinforcement",
+      "Control and expansion joints",
+      "Brick and stone veneer"
+    ],
+    "prerequisites": [
+      "Chapter 5 tension and compression",
+      "Chapter 6 lateral loads"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Identify the parts of a masonry wall (units, mortar, grout, reinforcement, and joints) and compare an unreinforced wall with a reinforced one under lateral load.",
+    "recommendedUsage": [
+      "Hover over any part of the wall to highlight it and read its name, then click it to read its function, size, and governing standard. The legend names every color.",
+      "Choose an assembly with the radio buttons: Unreinforced CMU, Reinforced CMU, Brick veneer on CMU, or Stone veneer. Use the Mortar type drop-down to change the joint color and the strength readout, and tick Grout the cells to fill the cores.",
+      "Raise the Wind pressure slider with Unreinforced CMU selected, and watch the side view bend and a crack open along a bed joint. Then choose Reinforced CMU and repeat. Compare the cracking pressure, what happens after the first crack, and how the readout explains the steel's role.",
+      "Press Count the units, set the wall length and height with the two sliders, and read the number of blocks and bricks per square foot and the total."
+    ],
+    "activities": [
+      "Warm-up (5 min): Students find and click each part named in the legend and write one sentence on what it does, using the infobox.",
+      "Explore (10 min): Students raise the wind pressure on the unreinforced wall with Type N mortar, record the cracking pressure, then repeat with Types M and O and with Grout the cells on, and describe what each change does and does not fix.",
+      "Apply (10 min): Students switch to Reinforced CMU, record the cracking and yield pressures, and write a two-sentence explanation of why reinforced masonry is the standard for walls resisting wind and seismic forces. They finish by reproducing the Chapter 8 block count for a 20 ft by 8 ft wall."
+    ],
+    "assessment": [
+      "Students sketch the wall and label the vertical bar, bond beam, joint reinforcement, control joint, and (for veneer) the expansion joint and ties.",
+      "Students explain in three sentences how an unreinforced and a reinforced wall behave differently after the first crack, and why grout alone does not make an unreinforced wall ductile."
+    ]
+  }
 }
