@@ -3,7 +3,7 @@
   "description": "Students will calculate (Bloom Level 3, Apply) the line load, reaction, and maximum moment of a joist, girder, and post from a surface load and member spacing, and will predict (Bloom Level 2, Understand) how changing the spacing or span changes the load each member carries.",
   "creator": "The Science of the Built Environment",
   "author": "Dan McCreary",
-  "date": "2026-10-02",
+  "date": "2026-10-03",
   "subject": [
     "The Science of the Built Environment"
   ],
@@ -13,11 +13,49 @@
   "rights": "CC BY-NC-SA 4.0",
   "identifier": "tributary-area-roof-takedown-calculator",
   "library": "p5.js",
-  "bloomLevel": "TBD",
-  "bloomVerb": "TBD",
-  "completion_status": "scaffold",
+  "bloomLevel": "Apply, Understand",
+  "bloomVerb": "calculate, predict",
+  "completion_status": "built",
   "chapter_number": 6,
   "chapter_title": "Structural Loads and Load Paths",
   "chapter_dir": "06-structural-loads",
-  "chapter_rel_dir": "chapters/06-structural-loads"
+  "chapter_rel_dir": "chapters/06-structural-loads",
+  "canvasHeight": 570,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Apply",
+      "Understand"
+    ],
+    "concepts": [
+      "Tributary area",
+      "Line load",
+      "Reaction",
+      "Maximum moment",
+      "Load takedown"
+    ],
+    "prerequisites": [
+      "Equilibrium and reactions (Chapter 3)",
+      "Pressure in psf and line load in plf"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Calculate the line load, reaction, and maximum moment of a joist, girder, and post from a surface load and member spacing, and predict how changing spacing or span changes each member's load.",
+    "recommendedUsage": [
+      "Pick Joist, Girder, or Post from the Selected member menu. The member turns orange in the roof plan and its tributary area is shaded light blue.",
+      "Drag the four sliders. The tributary area, the line load w = q \u00d7 b, the reaction R = wL/2, and the maximum moment M = wL\u00b2/8 update immediately, and the beam diagram below the plan redraws.",
+      "Hover over the shaded area to read how the area was found. The default Riverbend values (50 psf, 24 in., 16 ft, 40 ft) give 16,000 lb at each post.",
+      "Press Check equilibrium to compare the load on the bay with the joist reactions and the post reactions. A green check means they agree."
+    ],
+    "activities": [
+      "Warm-up (5 min): Students compute w, R, and M for the Riverbend girder by hand (800 plf, 16,000 lb, 160,000 ft-lb) and check the sim.",
+      "Explore (10 min): Students change one slider at a time and record whether the joist, girder, and post loads rise, fall, or stay the same, then explain each result using tributary area.",
+      "Apply (10 min): Students find the girder span at which the post load reaches 24,000 lb with the other sliders at their Riverbend values, and verify it with Check equilibrium."
+    ],
+    "assessment": [
+      "Students predict, before moving the slider, what happens to the girder moment when the span doubles, and explain why it grows faster than the load.",
+      "Students explain in two sentences why moving the girders closer together reduces the load on each post but does not change the roof load."
+    ]
+  }
 }

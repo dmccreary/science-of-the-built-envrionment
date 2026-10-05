@@ -1,0 +1,146 @@
+{
+  "title": "The Load Path",
+  "orientation": "landscape",
+  "image": "the-load-path.png",
+  "layout": "top-bottom",
+  "showNumbers": true,
+  "callouts": [
+    {
+      "id": 1,
+      "label": "Rafters and Trusses",
+      "panel": "top",
+      "x": 20.0,
+      "y": 18.0,
+      "radius": 4,
+      "color": "#8B5A2B",
+      "hint": "Find the row of tan wooden triangles under the roof, with diagonal web boards inside each triangle and metal plates at the joints.",
+      "description": "Trusses and rafters collect the roof's weight and snow from the sheathing and deliver it to the walls below. A truss does this with triangles, so each member carries only tension or compression. Their bearing points need metal straps tied down to the wall, because wind can lift a roof as well as push it (Chapters 6 and 7)."
+    },
+    {
+      "id": 2,
+      "label": "Headers",
+      "panel": "top",
+      "x": 24.0,
+      "y": 31.0,
+      "radius": 4,
+      "color": "#8B5A2B",
+      "hint": "Find the thick beam of stacked boards laid flat above the window opening, with short upright boards on either side of the opening reaching down.",
+      "description": "A header is a short beam over a door or window opening that carries the load from above around the opening. Jack studs at each end carry its load down, so the path bends around the opening instead of passing through it. In a cold climate, an oversized solid header is also a thermal bridge (Chapter 7)."
+    },
+    {
+      "id": 3,
+      "label": "Roof Loads: Snow and Wind",
+      "panel": "top",
+      "x": 30.0,
+      "y": 9.0,
+      "radius": 4,
+      "color": "#5DADE2",
+      "hint": "Find the top of the roof, where a blanket of white snow sits and wavy teal arrows push sideways and lift upward off the far slope.",
+      "description": "The path starts where the load lands. Snow and the roof's own weight push down. Wind pushes sideways on the windward face and pulls up as suction on the leeward slope and roof edges. Wind pressure grows with the square of the speed, so doubling the speed quadruples the push (Chapter 6).",
+      "tip": "Gravity is easy to picture because things fall. Wind needs its own path, and it can pull up as well as push sideways."
+    },
+    {
+      "id": 4,
+      "label": "Studs and Posts",
+      "panel": "top",
+      "x": 42.0,
+      "y": 38.0,
+      "radius": 4,
+      "color": "#8B5A2B",
+      "hint": "Find the row of tall vertical boards inside the wall, with bundles of boards at the window opening and a thicker square column standing to one side.",
+      "description": "Studs carry vertical loads from the roof and floors down to the bottom plate, and they span between floors to resist wind pressure on the wall. A post concentrates a heavier load at one point, so each post needs solid support directly below it, all the way down to a footing (Chapters 6 and 7)."
+    },
+    {
+      "id": 5,
+      "label": "What If: A Missing Roof Tie",
+      "panel": "top",
+      "x": 78.0,
+      "y": 30.0,
+      "radius": 4,
+      "color": "#C95343",
+      "hint": "Find the upper thumbnail on the right where a roof floats slightly above the wall, with teal arrows pulling upward and an empty gap where a metal strap belongs.",
+      "description": "Wind suction on a light roof can exceed the roof's own weight, so the roof tries to lift off. A metal strap or hurricane tie carries that uplift from the rafters or trusses into the wall studs and on down. Leave it out and the load has no path at the top. Ties are fastened to the framing, not to the sheathing.",
+      "tip": "A path for gravity does not automatically serve wind. Check the uplift path separately."
+    },
+    {
+      "id": 6,
+      "label": "Load Types",
+      "panel": "top",
+      "x": 84.0,
+      "y": 10.0,
+      "radius": 4,
+      "color": "#7453A1",
+      "hint": "Find the legend box at the top right with five rows of small arrows in brown, green, light blue, teal, and purple.",
+      "description": "Five loads act on a building. Dead load is its own permanent weight. Live load is people and contents. Snow is the weight of precipitation. Wind pushes sideways and lifts. Seismic load is ground shaking, and it grows with the building's weight. Each load needs its own complete path to the ground (Chapter 6).",
+      "tip": "Gravity loads go down. Wind and seismic loads go sideways, and wind also lifts."
+    },
+    {
+      "id": 7,
+      "label": "Foundation Wall",
+      "panel": "bottom",
+      "x": 20.0,
+      "y": 61.0,
+      "radius": 4,
+      "color": "#7F8C8D",
+      "hint": "Find the thick gray concrete wall below the floor, with bolt heads along its top edge and small rebar ends showing in the cut.",
+      "description": "The foundation wall carries the weight of the framing down to the footing. Concrete and masonry are strong in compression and weak in tension (Chapter 8), so the wall is mostly squeezed. Anchor bolts tie the sill plate to its top so that uplift and sliding forces have a path as well (Chapter 10)."
+    },
+    {
+      "id": 8,
+      "label": "Footing",
+      "panel": "bottom",
+      "x": 22.0,
+      "y": 73.0,
+      "radius": 4,
+      "color": "#95A5A6",
+      "hint": "Find the wide gray concrete strip under the foundation wall, wider than the wall above it, with a few rebar dots in its cross-section.",
+      "description": "A footing is wider than the wall above it, so the load spreads over enough ground that the soil is not overstressed. The width needed is the line load divided by the allowable soil pressure. Its bottom must sit below the local frost depth so freezing ground cannot heave it (Chapter 10).",
+      "tip": "Footing width answers the bearing question. Footing depth answers the frost question. The deeper answer governs."
+    },
+    {
+      "id": 9,
+      "label": "Soil",
+      "panel": "bottom",
+      "x": 34.0,
+      "y": 86.0,
+      "radius": 4,
+      "color": "#A0714F",
+      "hint": "Find the layered brown and tan ground at the bottom of the poster, with a thin wavy blue line near its base.",
+      "description": "The load path ends in the ground, and soil can push back with only a limited pressure per square foot. That allowable bearing capacity sets how wide every footing must be (Chapter 9). Weak, wet, or poorly compacted ground is the one link that framing cannot strengthen."
+    },
+    {
+      "id": 10,
+      "label": "Floor Framing",
+      "panel": "bottom",
+      "x": 44.0,
+      "y": 49.0,
+      "radius": 4,
+      "color": "#8B5A2B",
+      "hint": "Find the row of parallel boards stacked on edge under the floor, with a sheet of plywood on top and a long beam underneath.",
+      "description": "Joists span between supports and carry floor loads to a beam or wall. Together with the subfloor they also act as a horizontal diaphragm that passes wind force to the shear walls. Strength rarely governs a floor. Stiffness and bounce do, because a floor feels wrong long before it breaks (Chapters 6 and 7)."
+    },
+    {
+      "id": 11,
+      "label": "What If: A Bearing Wall Is Removed",
+      "panel": "bottom",
+      "x": 76.0,
+      "y": 52.0,
+      "radius": 4,
+      "color": "#C95343",
+      "hint": "Find the middle thumbnail where a floor dips like a hammock over an empty gap outlined in dashes, with cracks in the wall above.",
+      "description": "A bearing wall carries the floor or roof above it. Remove it and the joists lose their middle support, so the floor deflects and the load looks for another route, often through a partition that was never designed for it. Before any remodel, find out which walls bear load and have an engineer check the new path (Chapter 6).",
+      "tip": "Pick any member and ask what is directly underneath it. Keep asking until you reach the ground."
+    },
+    {
+      "id": 12,
+      "label": "What If: Footing on Soft Soil",
+      "panel": "bottom",
+      "x": 84.0,
+      "y": 78.0,
+      "radius": 4,
+      "color": "#C95343",
+      "hint": "Find the lower thumbnail where a house corner has dropped and tilted into dark, loose ground, with a diagonal crack in the wall.",
+      "description": "If the ground compresses, the footing sinks with it. Even settlement is usually harmless. Differential settlement, where one part sinks more than another, distorts the frame and causes cracks, sticking doors, and sloping floors (Chapter 21). The fix comes first: a soil investigation and a footing sized to the soil (Chapters 9 and 10)."
+    }
+  ]
+}

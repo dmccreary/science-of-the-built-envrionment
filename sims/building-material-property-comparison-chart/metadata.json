@@ -3,7 +3,7 @@
   "description": "Students will compare (Bloom Level 4, Analyze) typical values of density, strength, stiffness, thermal expansion, and thermal conductivity across common building materials, and will differentiate (Bloom Level 4, Analyze) why each material suits some applications better than others.",
   "creator": "The Science of the Built Environment",
   "author": "Dan McCreary",
-  "date": "2026-10-02",
+  "date": "2026-10-03",
   "subject": [
     "The Science of the Built Environment"
   ],
@@ -13,11 +13,48 @@
   "rights": "CC BY-NC-SA 4.0",
   "identifier": "building-material-property-comparison-chart",
   "library": "Chart.js",
-  "bloomLevel": "TBD",
-  "bloomVerb": "TBD",
-  "completion_status": "scaffold",
+  "bloomLevel": "Analyze",
+  "bloomVerb": "compare, differentiate",
+  "completion_status": "built",
   "chapter_number": 5,
   "chapter_title": "Properties of Building Materials",
   "chapter_dir": "05-material-properties",
-  "chapter_rel_dir": "chapters/05-material-properties"
+  "chapter_rel_dir": "chapters/05-material-properties",
+  "canvasHeight": 660,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Analyze"
+    ],
+    "concepts": [
+      "Density",
+      "Compressive and tensile strength",
+      "Modulus of elasticity",
+      "Thermal expansion",
+      "Thermal conductivity"
+    ],
+    "prerequisites": [
+      "Stress and strain (Chapter 3)",
+      "Reading a bar chart"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Compare typical values of density, strength, stiffness, thermal expansion, and thermal conductivity across common building materials, and differentiate why each material suits some applications better than others.",
+    "recommendedUsage": [
+      "Choose a property from the Property menu. The title, axis label, and bars change, and every bar shows its value in text.",
+      "Hover over a bar to read the material, the value with units, and a one-sentence note on what the number means for design. Click a bar to see the material's typical uses and its main weakness.",
+      "Switch Logarithmic scale on and off. The values span several orders of magnitude, so on a linear scale the small bars nearly disappear.",
+      "Check Divide by density to see the property per pound of material. With compressive strength selected, notice that wood is competitive with steel per pound."
+    ],
+    "activities": [
+      "Warm-up (5 min): Students rank the seven materials by density, then by compressive strength, from memory, and check their rankings against the chart.",
+      "Explore (10 min): Students find, for each material, one property where it is the best and one where it is the worst, and click the bar to read its typical uses and weakness.",
+      "Analyze (10 min): Students turn on Divide by density for compressive strength and for stiffness and explain why light wood framing competes with steel."
+    ],
+    "assessment": [
+      "Students explain in two sentences why a material that is strong in compression may still be a poor choice for a beam.",
+      "Students choose a material for a window frame and justify the choice with at least two properties from the chart."
+    ]
+  }
 }

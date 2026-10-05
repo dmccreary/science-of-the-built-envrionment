@@ -3,7 +3,7 @@
   "description": "Students will calculate (Bloom Level 3, Apply) the conductive heat flow through a single layer and will compare (Bloom Level 4, Analyze) how conductivity, thickness, area, and temperature difference each change the result.",
   "creator": "The Science of the Built Environment",
   "author": "Dan McCreary",
-  "date": "2026-10-02",
+  "date": "2026-10-03",
   "subject": [
     "The Science of the Built Environment"
   ],
@@ -13,11 +13,49 @@
   "rights": "CC BY-NC-SA 4.0",
   "identifier": "conduction-layer-heat-flow-explorer",
   "library": "p5.js",
-  "bloomLevel": "TBD",
-  "bloomVerb": "TBD",
-  "completion_status": "scaffold",
+  "bloomLevel": "Apply, Analyze",
+  "bloomVerb": "calculate, compare",
+  "completion_status": "built",
   "chapter_number": 3,
   "chapter_title": "Forces, Heat, and the Physics of Buildings",
   "chapter_dir": "03-forces-heat-physics",
-  "chapter_rel_dir": "chapters/03-forces-heat-physics"
+  "chapter_rel_dir": "chapters/03-forces-heat-physics",
+  "canvasHeight": 555,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Apply",
+      "Analyze"
+    ],
+    "concepts": [
+      "Conduction",
+      "Thermal conductivity",
+      "Fourier's law",
+      "Temperature difference",
+      "Insulation"
+    ],
+    "prerequisites": [
+      "Heat versus temperature",
+      "Direct and inverse proportion"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Calculate the conductive heat flow through a single layer and compare how conductivity, thickness, area, and temperature difference each change the result.",
+    "recommendedUsage": [
+      "Pick a material, then set the thickness, area, and temperature difference with the sliders. The panel shows Q = k \u00d7 A \u00d7 \u0394T \u00f7 L with your numbers substituted.",
+      "Hover over the slab to read the temperature at any depth between the hot face and the cold face.",
+      "Release a slider after exactly doubling or halving its value (for example thickness from 3.5 to 7 in) to see a message about how the flow responds.",
+      "Check Compare two materials to add a second slab. A bar shows how many times more heat one layer passes than the other under the same conditions."
+    ],
+    "activities": [
+      "Warm-up (5 min): Students predict the heat flow through a 3.5 in fiberglass batt and a 3.5 in softwood stud (1 ft\u00b2, 70\u00b0F), then check against the sim (5.4 and 16 BTU/h).",
+      "Explore (10 min): Students change one variable at a time, record Q, and state the rule for each: proportional to k, A, and \u0394T, inversely proportional to L.",
+      "Analyze (10 min): In compare mode, students rank the seven materials by heat flow at equal thickness and explain why steel studs create thermal bridges."
+    ],
+    "assessment": [
+      "Students calculate by hand the flow through an 8 in concrete layer (1 ft\u00b2, 70\u00b0F) and verify it against the sim (87.5 BTU/h).",
+      "Students explain in two sentences why adding thickness to an insulation layer lowers heat loss but does not stop it."
+    ]
+  }
 }

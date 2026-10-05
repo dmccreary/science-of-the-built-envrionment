@@ -1,0 +1,144 @@
+{
+  "title": "The Whole Building Design Wheel",
+  "orientation": "landscape",
+  "image": "whole-building-design-wheel.png",
+  "layout": "top-bottom",
+  "showNumbers": true,
+  "callouts": [
+    {
+      "id": 1,
+      "label": "Sustainable",
+      "panel": "top",
+      "x": 32.0,
+      "y": 35.7,
+      "radius": 4,
+      "color": "#6B8E4E",
+      "hint": "Find the green segment with a leaf icon on the upper left of the outer ring.",
+      "description": "Pertains to energy use, water use, and environmental impact (WBDG). It trades off against the other objectives: a wall of glass may please the eye and daylight a room, yet add heat loss and glare. Chapter 19 shows how to weigh that trade."
+    },
+    {
+      "id": 2,
+      "label": "Accessible",
+      "panel": "top",
+      "x": 42.5,
+      "y": 19.8,
+      "radius": 4,
+      "color": "#2468A2",
+      "hint": "Find the blue segment at the top left of the ring that shows a ramp rising to a wide door.",
+      "description": "Pertains to building elements, heights, and clearances that meet the needs of people with disabilities (WBDG). Ramps, door widths, restroom clearances, and accessible routes are examples. Both the building code and the federal Americans with Disabilities Act apply, as Chapter 17 explains."
+    },
+    {
+      "id": 3,
+      "label": "Integrated Design Approach",
+      "panel": "top",
+      "x": 50.0,
+      "y": 33.6,
+      "radius": 4,
+      "color": "#FF6A13",
+      "hint": "Find the thin orange ring just outside the center disc, drawn as six interlocking puzzle-piece arcs.",
+      "description": "The first of WBDG's two components of whole building design: stakeholders and the technical team examine objectives, materials, systems, and assemblies from many perspectives, instead of specialists working alone, one after another. Chapter 19 calls this an integrated design process.",
+      "tip": "Ask every discipline the same question at the same time, early."
+    },
+    {
+      "id": 4,
+      "label": "High-Performance Building",
+      "panel": "top",
+      "x": 50.0,
+      "y": 45.0,
+      "radius": 4,
+      "color": "#8B5A2B",
+      "hint": "Find the small building icon with a glowing window on the central disc.",
+      "description": "The goal at the hub. The Energy Policy Act of 2005 defines a high-performance building as one that integrates and optimizes all major attributes, including energy efficiency, durability, life-cycle performance, and occupant productivity (as quoted by WBDG).",
+      "tip": "The wheel is not a ranking. Success means setting goals early and holding them in balance."
+    },
+    {
+      "id": 5,
+      "label": "Aesthetics",
+      "panel": "top",
+      "x": 57.5,
+      "y": 19.8,
+      "radius": 4,
+      "color": "#C2185B",
+      "hint": "Find the magenta segment at the top right of the ring that shows a building facade with a symmetrical window pattern.",
+      "description": "Pertains to the physical appearance and image of building elements and spaces, and also to the integrated design process (WBDG). Appearance is a real design objective, not decoration added at the end. Cladding, daylight, proportion, and materials all contribute, and each also touches cost and performance."
+    },
+    {
+      "id": 6,
+      "label": "Cost-Effective",
+      "panel": "top",
+      "x": 68.0,
+      "y": 35.7,
+      "radius": 4,
+      "color": "#D39B1C",
+      "hint": "Find the gold segment on the upper right of the ring that shows a stack of plain coins beside a small balance scale.",
+      "description": "Pertains to choosing building elements on life-cycle cost, not first cost alone, together with cost estimating and budget control (WBDG). A cheaper window that wastes heat for decades can lose to a pricier one over the building's life. Chapter 2 shows why early decisions are the cheapest to change."
+    },
+    {
+      "id": 7,
+      "label": "Secure/Safe",
+      "panel": "bottom",
+      "x": 32.0,
+      "y": 58.1,
+      "radius": 4,
+      "color": "#7453A1",
+      "hint": "Find the violet segment on the lower left of the ring that shows a shield with a small flame and a door.",
+      "description": "Pertains to the physical protection of occupants and assets from man-made and natural hazards (WBDG). Fire protection, structural resilience, egress, and security all belong here. Chapters 17 and 18 cover the codes that set the minimums."
+    },
+    {
+      "id": 8,
+      "label": "Productive",
+      "panel": "bottom",
+      "x": 42.5,
+      "y": 73.9,
+      "radius": 4,
+      "color": "#2A9D8F",
+      "hint": "Find the teal segment at the bottom left of the ring that shows a person at a desk under a window.",
+      "description": "Pertains to occupants' well-being, both physical and psychological comfort, including air distribution, lighting, workspaces, and technology (WBDG). Thermal comfort, daylight, and acoustics shape how well people learn and work (Chapters 4 and 14)."
+    },
+    {
+      "id": 9,
+      "label": "Integrated Team Process",
+      "panel": "bottom",
+      "x": 50.0,
+      "y": 65.9,
+      "radius": 4,
+      "color": "#546E7A",
+      "hint": "Find the slate-gray ring around the orange ring, drawn as a chain of linked circles.",
+      "description": "The second component of whole building design: the design team and all affected stakeholders work together through every project phase, evaluating the design for cost, quality of life, future flexibility, efficiency, and environmental impact (WBDG). Chapter 2's integrated project delivery builds this into the contract."
+    },
+    {
+      "id": 10,
+      "label": "Design Team",
+      "panel": "bottom",
+      "x": 50.0,
+      "y": 93.5,
+      "radius": 4,
+      "color": "#A1887F",
+      "hint": "Find the row of six small faceless figures along the bottom, each in different work gear and all pointing up at the wheel.",
+      "description": "WBDG says all affected stakeholders belong on the team. The six roles drawn here (owner, architect, engineer, contractor, inspector, electrical designer) are this book's examples, not a WBDG list. Chapter 2 describes the roles, and Chapter 17 the building official's.",
+      "tip": "The team that designs together builds better."
+    },
+    {
+      "id": 11,
+      "label": "Historic Preservation",
+      "panel": "bottom",
+      "x": 57.5,
+      "y": 73.9,
+      "radius": 4,
+      "color": "#A0522D",
+      "hint": "Find the sienna segment at the bottom right of the ring that shows a fluted classical column with a carved top.",
+      "description": "Pertains to work in a historic district or on a historic building, where actions fall into four approaches: preservation, rehabilitation, restoration, or reconstruction (WBDG). On most new buildings it is a minor objective, but it is one of the eight and can dominate a project that touches an older structure."
+    },
+    {
+      "id": 12,
+      "label": "Functional/Operational",
+      "panel": "bottom",
+      "x": 68.0,
+      "y": 58.1,
+      "radius": 4,
+      "color": "#C95343",
+      "hint": "Find the brick-red segment on the lower right of the ring that shows a simple floor plan with a wrench beside it.",
+      "description": "Pertains to functional programming (spatial needs and requirements), system performance, and the durability and efficient maintenance of building elements (WBDG). A building that is hard to clean, repair, or adapt fails this objective even if it is handsome. Programming is the first phase in Chapter 2."
+    }
+  ]
+}
