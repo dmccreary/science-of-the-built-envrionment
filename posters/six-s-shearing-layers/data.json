@@ -1,0 +1,147 @@
+{
+  "title": "The Six S's of Shearing Layers",
+  "image": "six-s-shearing-layers.png",
+  "layout": "grid",
+  "showLabels": true,
+  "palette": ["#6B8E4E", "#8B5A2B", "#2468A2", "#7453A1", "#D39B1C", "#C95343"],
+  "zones": [
+    {
+      "id": "site",
+      "label": "Site",
+      "color": "#6B8E4E",
+      "x1": 2.0,
+      "y1": 2.0,
+      "x2": 98.0,
+      "y2": 17.4,
+      "summary": "The land, soil, climate, and legal lot that every building on it must live with.",
+      "facts": [
+        "Brand treats the site as effectively eternal: buildings come and go, but the lot and its setting remain.",
+        "Soil bearing capacity, groundwater, and frost depth are site properties that drive foundation design (Chapters 9 and 10).",
+        "Property lines, setbacks, and zoning outlast any one structure, so the site constrains every later layer.",
+        "On a Minnesota site the frost line and seasonal ground movement are design inputs, not details to fix later."
+      ]
+    },
+    {
+      "id": "structure",
+      "label": "Structure",
+      "color": "#8B5A2B",
+      "x1": 2.0,
+      "y1": 18.2,
+      "x2": 98.0,
+      "y2": 33.6,
+      "summary": "The foundation and load-bearing frame, the slowest-changing part of the building itself.",
+      "facts": [
+        "Brand puts structural life at roughly 30 to 300 years, depending on the building and its care.",
+        "Structure is dangerous and expensive to change, so people rarely do; everything faster has to work around it.",
+        "Foundations, columns, beams, bearing walls, and floor and roof framing make up this layer (Chapters 6 through 8 and 10).",
+        "Good design leaves structure with spare capacity and regular column spacing so the faster layers can change inside it."
+      ]
+    },
+    {
+      "id": "skin",
+      "label": "Skin",
+      "color": "#2468A2",
+      "x1": 2.0,
+      "y1": 34.4,
+      "x2": 98.0,
+      "y2": 49.8,
+      "summary": "The exterior surfaces: cladding, roofing, windows, and doors that meet weather and fashion.",
+      "facts": [
+        "Brand's rule of thumb is that skin changes roughly every 20 years as technology, weather wear, and fashion move on.",
+        "Modern skin carries the enclosure control layers for rain, air, vapor, and heat (Chapters 11 through 13).",
+        "Re-cladding or replacing windows is a common skin-layer change that should not require touching the structure.",
+        "Fastening cladding to the structure so it can be replaced separately is what lets the two layers slip past each other."
+      ]
+    },
+    {
+      "id": "services",
+      "label": "Services",
+      "color": "#7453A1",
+      "x1": 2.0,
+      "y1": 50.6,
+      "x2": 98.0,
+      "y2": 66.0,
+      "summary": "The working guts: wiring, plumbing, ducts, sprinklers, and elevators that keep a building habitable.",
+      "facts": [
+        "Brand's range for services is about 7 to 15 years before they need replacing or upgrading, far shorter than the structure.",
+        "Electrical, HVAC, plumbing, and fire protection all belong here (Chapters 14 through 16).",
+        "Services buried inside walls and floors are costly to replace, which is why accessible chases and ceiling cavities pay off.",
+        "This layer is where the electrical designer's decisions meet the building's long-term adaptability."
+      ]
+    },
+    {
+      "id": "space-plan",
+      "label": "Space Plan",
+      "color": "#D39B1C",
+      "x1": 2.0,
+      "y1": 66.8,
+      "x2": 98.0,
+      "y2": 82.2,
+      "summary": "The interior layout: partitions, ceilings, floors, and doors that divide the space.",
+      "facts": [
+        "Brand gives a wide range: about 3 years in commercial interiors up to roughly 30 years in homes.",
+        "Tenant improvements in offices and retail are space-plan changes, and they happen far more often than structural ones.",
+        "Non-bearing partitions are easy to move; load-bearing walls are not, so know which is which before you plan a remodel.",
+        "Demountable partitions and raised floors are design strategies that make this layer cheap to rearrange."
+      ]
+    },
+    {
+      "id": "stuff",
+      "label": "Stuff",
+      "color": "#C95343",
+      "x1": 2.0,
+      "y1": 83.0,
+      "x2": 98.0,
+      "y2": 98.0,
+      "summary": "Furniture, equipment, and belongings: the layer that changes daily and belongs to the occupants.",
+      "facts": [
+        "Stuff is in constant flux, from moving a book across a desk to replacing a whole fit-out.",
+        "Its weight still matters: furniture, shelving, and equipment are the live loads the structure was sized for (Chapter 6).",
+        "Because occupants control this layer, a building that lets people rearrange freely tends to be loved and kept.",
+        "The point of the whole poster: when fast layers are trapped inside slow ones, the building tears itself apart."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "Which layer is described as effectively eternal, outlasting every building built on it?",
+      "correct_zone": "site",
+      "explanation": "The land and its legal lot persist across many generations of buildings."
+    },
+    {
+      "question": "Which layer includes soil bearing, groundwater, and the frost line that decide how a foundation must be designed?",
+      "correct_zone": "site",
+      "explanation": "These are properties of the land itself, so they belong to the site layer."
+    },
+    {
+      "question": "Which layer is the foundation and load-bearing frame, expensive and risky to change?",
+      "correct_zone": "structure",
+      "explanation": "Structure lasts roughly 30 to 300 years, so everything faster has to adapt around it."
+    },
+    {
+      "question": "Which layer carries the weather-facing surfaces and is roughly replaced every 20 years?",
+      "correct_zone": "skin",
+      "explanation": "Cladding, roofing, and windows wear out and go out of fashion about every 20 years."
+    },
+    {
+      "question": "If you re-clad a building and replace its windows, which layer are you changing?",
+      "correct_zone": "skin",
+      "explanation": "Exterior surfaces are the skin; changing them should not require touching the structure."
+    },
+    {
+      "question": "Which layer holds wiring, ducts, pipes, and sprinklers that need replacing every 7 to 15 years?",
+      "correct_zone": "services",
+      "explanation": "Building services wear out and become obsolete much faster than the frame around them."
+    },
+    {
+      "question": "A tenant moves out and the next one rearranges the office partitions. Which layer changed?",
+      "correct_zone": "space-plan",
+      "explanation": "Interior partitions, ceilings, and layouts are the space plan, which can turn over every few years in commercial buildings."
+    },
+    {
+      "question": "Which layer is made of furniture, equipment, and belongings that change daily?",
+      "correct_zone": "stuff",
+      "explanation": "Occupants control this fastest-moving layer, but its weight still counts as live load."
+    }
+  ]
+}

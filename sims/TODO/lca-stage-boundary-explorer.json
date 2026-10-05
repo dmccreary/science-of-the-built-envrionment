@@ -1,0 +1,15 @@
+{
+  "sim_id": "lca-stage-boundary-explorer",
+  "diagram_name": "Life-Cycle Stage and Boundary Explorer",
+  "chapter_number": 20,
+  "chapter_title": "Sustainable Building Materials",
+  "chapter_dir": "20-sustainable-materials",
+  "chapter_rel_dir": "chapters/20-sustainable-materials",
+  "library": "Chart.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will analyze (Bloom Level 4, Analyze) how the choice of system boundary and operating energy changes the share of life-cycle emissions that comes from materials, and will interpret (Bloom Level 2, Understand) what each life-cycle module represents.",
+  "completion_status": "specified",
+  "extracted_date": "2026-10-03",
+  "specification": "Type: chart\n**sim-id:** lca-stage-boundary-explorer<br/>\n**Library:** Chart.js<br/>\n**Status:** Specified\n\nLearning objective: Students will analyze (Bloom Level 4, Analyze) how the choice of system boundary and operating energy changes the share of life-cycle emissions that comes from materials, and will interpret (Bloom Level 2, Understand) what each life-cycle module represents.\n\nVisual: A stacked horizontal bar chart with segments for modules A1-A3 (product), A4-A5 (construction), B (use), and C (end of life), in tonnes of carbon dioxide equivalent. The defaults are 330, 35, 1,720, and 20 for the Riverbend ledger. A second bar shows the efficient, electrified case. A percentage label on each segment shows its share of the total. The chart is responsive with a height of 400 px and redraws on window resize.\n\nControls: A dropdown labeled \"System boundary\" with the choices \"Cradle to gate (A1-A3),\" \"Through construction (A1-A5),\" and \"Cradle to grave (A1-C).\" A slider labeled \"Operating energy as a share of baseline\" from 10 to 100 percent, with a default of 100. A slider labeled \"Study period (years)\" from 20 to 100, with a default of 60. A button labeled \"Apply efficient and electrified case\" sets the operating slider to 40 percent.\n\nInteractions: Hovering over a segment shows the module name, the plain-language definition, and the tonnes of emissions. Clicking a segment opens an infobox with one example of what the module includes. A readout states the share from materials, for example \"Materials are 31 percent of the cradle-to-grave total.\"\n\nColors: Product stage in brown, construction in orange, use in blue, end of life in gray, each also named in the legend text.\n\nImplementation: Chart.js stacked bar chart with DOM controls and recalculation of the totals on each change."
+}

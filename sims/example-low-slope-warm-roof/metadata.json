@@ -1,0 +1,83 @@
+{
+  "title": "Low-slope warm roof",
+  "description": "Identify the layers of a low-slope warm roof and predict the consequence of removing or puncturing the membrane, vapor retarder, or insulation.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-05",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "example-low-slope-warm-roof",
+  "library": "p5.js",
+  "generator": "layered-assembly-infographic engine 1.4.2",
+  "bloomLevel": "Remember, Understand",
+  "bloomVerb": "identify, predict",
+  "completion_status": "built",
+  "chapter_number": 13,
+  "chapter_title": "Roof Assemblies",
+  "chapter_dir": "13-roof-assemblies",
+  "chapter_rel_dir": "chapters/13-roof-assemblies",
+  "canvasHeight": 736,
+  "csi_sections": [
+    "07 53 00 Elastomeric Membrane Roofing",
+    "07 22 00 Roof and Deck Insulation",
+    "07 26 00 Vapor Retarders",
+    "05 31 00 Steel Decking"
+  ],
+  "currency": {
+    "asOf": "2026-10",
+    "timeless": [
+      "Keeping insulation above the deck keeps the deck warm, so room vapor does not condense on it.",
+      "A roof membrane is only as watertight as its seams and penetrations."
+    ],
+    "ages": [
+      {
+        "item": "Insulation thickness (4 in polyiso)",
+        "basis": "Illustrative",
+        "check": "Required roof R-value in the adopted energy code"
+      },
+      {
+        "item": "Membrane type and ballast",
+        "basis": "Illustrative single-ply system",
+        "check": "Manufacturer's system requirements and wind-uplift rating"
+      }
+    ]
+  },
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Remember",
+      "Understand"
+    ],
+    "concepts": [
+      "Low-slope roof",
+      "Roof membrane",
+      "Vapor retarder",
+      "Roof insulation"
+    ],
+    "prerequisites": [
+      "Heat transfer and R-values",
+      "Moisture and air movement"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Identify the layers of a low-slope warm roof and predict the consequence of removing or puncturing the membrane, vapor retarder, or insulation.",
+    "recommendedUsage": [
+      "Read the roof from the sky (top) to the room (bottom). Each numbered label names a layer.",
+      "Click a layer or its label to see what it is and why it is there.",
+      "Untick a layer's checkbox to remove that layer, or choose Punch a hole first to puncture it, and watch where the colored dots stop or pass.",
+      "Tick Quiz me to test yourself. A question appears under the drawing, the layer names are hidden, and you click the layer that answers it. Your score builds as you go; press Next question to continue."
+    ],
+    "activities": [
+      "Predict and test (10 min): before unticking a box, predict which flows will pass, then check."
+    ],
+    "assessment": [
+      "Name the layer that keeps rain out and the layer that keeps room vapor out of the insulation."
+    ]
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "title": "Brick veneer rainscreen wall",
+  "description": "Identify the four layers of a brick veneer wall with a drained air gap, explain the job each does, and predict what reaches the sheathing when a layer is missing or punctured.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-05",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "brick-veneer-rainscreen-layer-explorer",
+  "library": "p5.js",
+  "generator": "layered-assembly-infographic engine 1.4.2",
+  "bloomLevel": "Understand, Analyze",
+  "bloomVerb": "explain, predict",
+  "completion_status": "built",
+  "chapter_number": 12,
+  "chapter_title": "Cladding, Windows, Doors, and Air Sealing",
+  "chapter_dir": "12-cladding-windows-air-sealing",
+  "chapter_rel_dir": "chapters/12-cladding-windows-air-sealing",
+  "canvasHeight": 696,
+  "csi_sections": [
+    "04 20 00 Unit Masonry",
+    "07 25 00 Weather Barriers",
+    "06 16 00 Sheathing"
+  ],
+  "currency": {
+    "asOf": "2026-10",
+    "timeless": [
+      "Brick absorbs and passes some rain; the water barrier behind it, not the brick, is the water control layer.",
+      "Air moves wherever there is an opening and a pressure difference, so the air control layer must be continuous."
+    ],
+    "ages": [
+      {
+        "item": "Cavity depth (1 in) and brick thickness (3 5/8 in)",
+        "basis": "Chapters 8 and 12",
+        "check": "Check the masonry design guide and code edition in force"
+      },
+      {
+        "item": "The weather barrier counted as water-only",
+        "basis": "Chapter 11 treats taped sheathing as the air control layer",
+        "check": "Some barriers are tested as air barriers; confirm with product data"
+      }
+    ]
+  },
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Understand",
+      "Analyze"
+    ],
+    "concepts": [
+      "Brick veneer",
+      "Rainscreen",
+      "Weather-resistive barrier",
+      "Air barrier",
+      "Flashing"
+    ],
+    "prerequisites": [
+      "Control layers (Chapter 11)",
+      "Weather-resistive barrier (Chapter 11)",
+      "Air control layer (Chapter 11)"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Identify the four layers of a brick veneer wall with a drained air gap, explain the job each does, and predict what reaches the sheathing when a layer is missing or punctured.",
+    "recommendedUsage": [
+      "Read the wall from outside (left) to the framed wall (right). Each numbered label names a layer; the gray line under it says what the layer does.",
+      "Click a layer or its label to read what it is, why it is there, and what happens if it fails.",
+      "Leave Rain and Air ticked and watch the dots. Rain is slowed by the brick, so a few drops reach the gap, and the weather barrier stops all of them. Air passes straight through the brick, the gap, and the barrier until it meets the sheathing.",
+      "Untick a layer's checkbox to remove that layer, or choose Punch a hole first to puncture it instead. Read the status line under the title to see where each flow now ends up.",
+      "Slide Explode to pull the layers apart, and tick Line art for a black-and-white view you can print.",
+      "Tick Quiz me to test yourself. A question appears under the drawing, the layer names are hidden, and you click the layer that answers it. Your score builds as you go; press Next question to continue."
+    ],
+    "activities": [
+      "Predict and test (10 min): for each of the four layers, predict whether removing it lets rain reach the sheathing, lets air reach the sheathing, both, or neither. Then check.",
+      "Compare (10 min): puncture the weather barrier and then the sheathing. Say which hole is a water problem and which is an air problem, and where a real crew would find each one."
+    ],
+    "assessment": [
+      "Explain in two sentences why rain that gets past the brick does not reach the sheathing in this wall.",
+      "Name the layer that stops air in this drawing, and say why the brick and the air gap cannot do that job."
+    ]
+  }
+}

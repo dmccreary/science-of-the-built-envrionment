@@ -1,0 +1,67 @@
+{
+  "title": "Ground-Source ROI Estimator",
+  "description": "The learner will judge (Bloom Level 5, Evaluate) whether a buried earth-tube air intake is a sound investment for a stated Minnesota house by comparing its yearly heating and cooling savings with its installed cost, and will determine the pipe length that gives the shortest simple payback.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-05",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "ground-source-roi-estimator",
+  "library": "Chart.js",
+  "bloomLevel": "Evaluate",
+  "bloomVerb": "judge",
+  "completion_status": "built",
+  "chapter_title": "Appendix E: Geothermal Heating and Earth-Coupled Air",
+  "chapter_dir": "geothermal-ground-source",
+  "chapter_rel_dir": "appendices/geothermal-ground-source",
+  "canvasHeight": 760,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Evaluate"
+    ],
+    "concepts": [
+      "Earth Tube",
+      "Ground Temperature Profile",
+      "Seasonal Temperature Swing",
+      "Simple payback",
+      "Return on investment"
+    ],
+    "prerequisites": [
+      "Appendix E ground temperature model and damping depth",
+      "Appendix A energy prices, therms, kilowatt-hours, and COP",
+      "Chapter 14 ventilation heat load, 1.08 x cfm x temperature difference"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Judge whether a buried earth-tube air intake is a sound investment for a stated Minnesota house, and determine the pipe length that gives the shortest simple payback.",
+    "recommendedUsage": [
+      "Read the chart at the starting settings of 200 ft of pipe, $40 per foot, a $2,000 fixed cost, and a 95 percent gas furnace. The left bar of each month is the home with the standard intake and the right bar is the home with the ground-source intake.",
+      "Hover over a month, or press Show table, to read the outdoor temperature, the soil temperature at 8 ft, the intake air temperature, and the dollars saved.",
+      "Drag the pipe length slider from 50 ft to 400 ft and watch the tiles: the yearly savings level off while the installed cost keeps rising.",
+      "Answer the challenge by typing the pipe length that pays back fastest, then change the fixed cost, the cost per foot, and the heating system and answer again."
+    ],
+    "activities": [
+      "Predict (5 min): Students write down whether doubling the pipe from 200 ft to 400 ft will double the yearly savings, then test the prediction.",
+      "Reproduce (10 min): Students check the January row of the table by hand against the Appendix E worked example.",
+      "Optimize (10 min): Students find the pipe length with the shortest payback at $20, $40, and $80 per foot and explain why the best length gets shorter as the trench gets more expensive.",
+      "Evaluate (10 min): Students compare the three heating systems and write a recommendation for a homeowner, stating the payback, the 30-year return, and two things the model leaves out."
+    ],
+    "assessment": [
+      "Students calculate the installed cost, simple payback, and 30-year ROI for a system that costs $5,600 and saves $82 a year, showing each step.",
+      "Students explain why the ground source saves nothing in April even though the soil is at a steady temperature."
+    ],
+    "misconceptions": [
+      "Doubling the pipe length doubles the savings.",
+      "Heat from the ground is free, so the payback must be short.",
+      "The ground helps in every month.",
+      "The saving depends only on the pipe, not on what the saved heat would have cost."
+    ]
+  }
+}

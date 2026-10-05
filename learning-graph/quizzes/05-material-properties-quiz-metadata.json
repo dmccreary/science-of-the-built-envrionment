@@ -1,0 +1,426 @@
+{
+  "chapter": "Properties of Building Materials",
+  "chapter_file": "docs/chapters/05-material-properties/index.md",
+  "quiz_file": "docs/chapters/05-material-properties/quiz.md",
+  "generated_date": "2026-10-04",
+  "total_questions": 22,
+  "questions": [
+    {
+      "id": "05-q001",
+      "number": 1,
+      "question_text": "Why is the load a particular steel rod can carry a property of the member rather than of the material?",
+      "options": {
+        "A": "It depends on the rod's cross-sectional area, while a material property does not depend on size or shape",
+        "B": "It depends on the temperature of the steel, while a material property is measured at a fixed temperature",
+        "C": "It depends on how the steel was manufactured, while a material property is identical for all steels",
+        "D": "It depends on the standard used to test the steel, while a material property is untested"
+      },
+      "correct_answer": "A",
+      "explanation": "A material property, such as yield stress, belongs to the material and is the same for a rod or a beam. Capacity equals the property multiplied by the size you chose, using the stress, force, and area relationships from Chapter 3. This distinction lets designers compare materials fairly and then convert the property into the capacity of an actual member.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Material Properties",
+      "source_link": "../chapters/05-material-properties/index.md#material-properties",
+      "explanation_word_count": 60
+    },
+    {
+      "id": "05-q002",
+      "number": 2,
+      "question_text": "A steel hanger rod has a yield strength of 36,000 psi and carries a working stress of 18,000 psi. What is its factor of safety against yielding?",
+      "options": {
+        "A": "0.5",
+        "B": "1.5",
+        "C": "4.0",
+        "D": "2.0"
+      },
+      "correct_answer": "D",
+      "explanation": "The factor of safety is the ratio of strength to working stress: 36,000 / 18,000 = 2.0. The value 0.5 inverts the ratio, which would mean the rod had already yielded. Designers never load a member to its strength, and apply a factor of safety to allow for unknown loads, variations in material, and workmanship.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Strength",
+      "source_link": "../chapters/05-material-properties/index.md#strength",
+      "explanation_word_count": 55
+    },
+    {
+      "id": "05-q003",
+      "number": 3,
+      "question_text": "A 10 in by 10 in concrete column carries 80,000 lb. What is the working compressive stress?",
+      "options": {
+        "A": "8,000 psi",
+        "B": "80 psi",
+        "C": "800 psi",
+        "D": "4,000 psi"
+      },
+      "correct_answer": "C",
+      "explanation": "Stress equals force divided by area. The area is 10 \u00d7 10 = 100 in\u00b2, so the stress is 80,000 / 100 = 800 psi, about 20 percent of a typical 4,000 psi concrete strength. The value 8,000 psi divides by 10 in\u00b2, 80 psi divides by 1,000 in\u00b2, and 4,000 psi is the specified compressive strength, not the working stress.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Compressive Strength",
+      "source_link": "../chapters/05-material-properties/index.md#compressive-strength",
+      "explanation_word_count": 61
+    },
+    {
+      "id": "05-q004",
+      "number": 4,
+      "question_text": "A concrete sidewalk without air entrainment is cracked and flaking after several Minnesota winters. What best explains the damage?",
+      "options": {
+        "A": "Ultraviolet light broke down the cement, which reduced the compressive strength of the slab",
+        "B": "Water in the pores froze and expanded about 9 percent, and the ice had no room to expand",
+        "C": "Thermal contraction pulled the slab apart because concrete has a very high coefficient of expansion",
+        "D": "Corrosion of the sidewalk's steel reinforcement pushed the surface off the slab"
+      },
+      "correct_answer": "B",
+      "explanation": "Freeze-thaw cycling is often the most damaging weathering process in Minnesota. When pores are more than about 92 percent full, expanding ice cracks the surface, especially on horizontal surfaces that stay wet. Air entrainment, with 5 to 7 percent microscopic bubbles, gives the freezing water room to expand. UV light mainly harms plastics, paints, and sealants.",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Weathering",
+      "source_link": "../chapters/05-material-properties/index.md#weathering",
+      "explanation_word_count": 56
+    },
+    {
+      "id": "05-q005",
+      "number": 5,
+      "question_text": "Why is fire resistance expressed as a rating in hours for an assembly rather than as a property of a bare material?",
+      "options": {
+        "A": "It is measured by exposing a full-scale element to a standard fire and checking that it keeps performing",
+        "B": "It is calculated from the density of the material and the thickness of the layer being tested in the furnace",
+        "C": "It is the time a material takes to ignite, so it applies to the individual material only",
+        "D": "It is determined by flame spread tests, which compare the surface of one material with another"
+      },
+      "correct_answer": "A",
+      "explanation": "Fire resistance is the ability of a wall, floor, or beam to keep performing its function for a stated period, determined by the ASTM E119 standard fire test. The element must carry load, resist flame passage, and limit heat rise on the unexposed face. Ignition and flame spread describe combustibility, which belongs to the material, not the assembly.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Fire Resistance",
+      "source_link": "../chapters/05-material-properties/index.md#fire-resistance",
+      "explanation_word_count": 58
+    },
+    {
+      "id": "05-q006",
+      "number": 6,
+      "question_text": "Why is rebar placed near the bottom face of a simply supported concrete beam loaded from above?",
+      "options": {
+        "A": "The bottom is squeezed when the beam bends, and concrete is weakest in compression, so rebar is placed there",
+        "B": "The bottom is stretched when the beam bends, and concrete's tensile strength is only about a tenth of its compressive",
+        "C": "The bottom carries the greatest shear force, and rebar prevents the beam from splitting along its grain",
+        "D": "The bottom is exposed to moisture, and rebar protects it from freeze-thaw damage"
+      },
+      "correct_answer": "B",
+      "explanation": "A loaded beam bends: the top is squeezed and the bottom is stretched. Concrete handles the compression but cracks in tension, so steel bars placed where the tension is pick up the stretching force. A single #5 bar carries about 18,600 lb in tension. Concrete is strong in compression, and rebar's role here is carrying tension, not preventing freeze-thaw damage.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Tensile Strength",
+      "source_link": "../chapters/05-material-properties/index.md#tensile-strength",
+      "explanation_word_count": 60
+    },
+    {
+      "id": "05-q007",
+      "number": 7,
+      "question_text": "A 50 ft steel member (coefficient 6.5 \u00d7 10\u207b\u2076 per \u00b0F) experiences a 100\u00b0F temperature swing. By about how much does its length change?",
+      "options": {
+        "A": "0.039 in",
+        "B": "3.9 in",
+        "C": "0.78 in",
+        "D": "0.39 in"
+      },
+      "correct_answer": "D",
+      "explanation": "Using \u0394L = \u03b1 L \u0394T with L = 600 in gives 6.5 \u00d7 10\u207b\u2076 \u00d7 600 \u00d7 100 = 0.39 in. Using 50 instead of 600 in forgets the unit conversion, 0.039 in is a decimal slip, 3.9 in is ten times too large, and 0.78 in doubles the length. Long buildings need expansion joints for this reason.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Thermal Expansion",
+      "source_link": "../chapters/05-material-properties/index.md#thermal-expansion",
+      "explanation_word_count": 59
+    },
+    {
+      "id": "05-q008",
+      "number": 8,
+      "question_text": "Why are concrete test cylinders cast from the same batch and cured under controlled conditions?",
+      "options": {
+        "A": "The cylinders are used to measure the porosity of the concrete in the structure rather than its strength",
+        "B": "The cylinders are cast first so that the building's concrete can be poured at a later date",
+        "C": "The concrete cannot be tested before it is placed, so cylinders represent it at the standard 28-day age",
+        "D": "The cylinders replace the need for any field tests such as slump or air content"
+      },
+      "correct_answer": "C",
+      "explanation": "Because concrete is poured on site and cannot be tested before placement, cylinders from the same batch stand in for it. They are loaded in a press at 28 days to find the compressive strength, for example 113,100 lb on 28.3 in\u00b2 gives 4,000 psi. Field tests such as slump and air content still occur on each delivery.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Material Testing",
+      "source_link": "../chapters/05-material-properties/index.md#material-testing",
+      "explanation_word_count": 58
+    },
+    {
+      "id": "05-q009",
+      "number": 9,
+      "question_text": "Which statement correctly distinguishes stiffness from strength?",
+      "options": {
+        "A": "Stiffness is resistance to deformation under load, while strength is the stress at which a material fails or yields",
+        "B": "Stiffness is the stress at which a material fails, while strength is resistance to deformation under load",
+        "C": "Stiffness and strength are the same property, measured in psi for stiff and strong materials alike",
+        "D": "Stiffness describes how much energy a material absorbs before fracture, while strength describes how it bends"
+      },
+      "correct_answer": "A",
+      "explanation": "A stiff material changes shape little under load, and a strong material resists higher stress before failing. A steel spring is strong and flexible, glass is stiff and brittle, and a floor can be strong enough yet feel bouncy. Energy absorbed before fracture is toughness, so check both stress and deflection in design.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Stiffness",
+      "source_link": "../chapters/05-material-properties/index.md#stiffness",
+      "explanation_word_count": 53
+    },
+    {
+      "id": "05-q010",
+      "number": 10,
+      "question_text": "What does ductility describe?",
+      "options": {
+        "A": "The ability of a material to absorb impact energy at low temperatures without cracking",
+        "B": "The ability of a material to deform plastically by a large amount before it fractures",
+        "C": "The tendency of a material to fracture suddenly with little or no plastic deformation first",
+        "D": "The slow continuing deformation of a material under a sustained load"
+      },
+      "correct_answer": "B",
+      "explanation": "A ductile material such as A36 steel can stretch about 20 percent before breaking, so it sags or bends visibly and gives warning of overload. The tendency to fracture suddenly is brittleness, absorbed energy is toughness, and slow continuing deformation under sustained load is creep.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Ductility",
+      "source_link": "../chapters/05-material-properties/index.md#ductility",
+      "explanation_word_count": 45
+    },
+    {
+      "id": "05-q011",
+      "number": 11,
+      "question_text": "How do creep and shrinkage differ from the instant elastic strain described in Chapter 3?",
+      "options": {
+        "A": "Both are permanent deformations that occur only after a material has exceeded its yield strength",
+        "B": "Both are reversible deformations that disappear as soon as the load or moisture is removed",
+        "C": "Both are caused by thermal expansion, which is why they occur in Minnesota's wide temperature swings",
+        "D": "Both are changes over time, with creep under sustained load and shrinkage as a material loses moisture"
+      },
+      "correct_answer": "D",
+      "explanation": "Elastic strain appears immediately when a load is applied. Creep is slow, continuing deformation under sustained load, and shrinkage is the volume reduction as moisture leaves. Wood floor beams deflect more after a few years, and concrete shrinks by about 500 microstrain, which is why control joints are cut in slabs. Neither requires yielding, and neither is a temperature effect.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Creep and Shrinkage",
+      "source_link": "../chapters/05-material-properties/index.md#creep-and-shrinkage",
+      "explanation_word_count": 60
+    },
+    {
+      "id": "05-q012",
+      "number": 12,
+      "question_text": "Which description best defines porosity?",
+      "options": {
+        "A": "The ease with which a fluid passes through a material, measured in perms or similar units",
+        "B": "The stress at which a material begins to deform permanently under a sustained tensile load",
+        "C": "The fraction of a material's volume that is empty space, expressed as a percentage",
+        "D": "The ratio of a material's weight to its volume, measured in pounds per cubic foot"
+      },
+      "correct_answer": "C",
+      "explanation": "Porosity measures empty volume, such as the voids in brick, concrete, wood, and stone. It underlies capillary wicking and freeze-thaw damage, and high porosity lowers density and strength but improves insulating value. The ease of fluid passage is permeability, the stress threshold is yield strength, and weight per volume is density.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Porosity",
+      "source_link": "../chapters/05-material-properties/index.md#porosity",
+      "explanation_word_count": 51
+    },
+    {
+      "id": "05-q013",
+      "number": 13,
+      "question_text": "A specification cites \"ASTM A36\" for structural members. Using the first-letter convention, what subject does this standard cover?",
+      "options": {
+        "A": "Concrete and masonry products",
+        "B": "Nonferrous metals such as aluminum",
+        "C": "Fire tests and miscellaneous subjects",
+        "D": "Ferrous metals such as structural steel"
+      },
+      "correct_answer": "D",
+      "explanation": "The first letter of an ASTM designation indicates the subject: A is ferrous metals like steel, B is nonferrous metals, C is concrete and masonry, D is miscellaneous materials such as wood and plastics, and E is miscellaneous subjects including fire tests. A36 specifies a grade of structural steel. A standard is voluntary until a code or contract requires it, and then it becomes binding.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "ASTM Standards",
+      "source_link": "../chapters/05-material-properties/index.md#astm-standards",
+      "explanation_word_count": 65
+    },
+    {
+      "id": "05-q014",
+      "number": 14,
+      "question_text": "Which type of element is governed mainly by shear strength?",
+      "options": {
+        "A": "Hanger rods and cables that hang loads from above",
+        "B": "Columns and footings carrying weight to the ground",
+        "C": "Bolts, welds, nails, and beam connections",
+        "D": "Concrete cylinders crushed in a test press"
+      },
+      "correct_answer": "C",
+      "explanation": "Shear strength is the maximum shear stress a material can withstand before one part slides past another. It governs connections, and in wood it also matters at beam ends, where a board can split lengthwise. Hanger rods and cables are governed by tensile strength, and columns, footings, and crushed cylinders are governed by compressive strength.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Shear Strength",
+      "source_link": "../chapters/05-material-properties/index.md#shear-strength",
+      "explanation_word_count": 55
+    },
+    {
+      "id": "05-q015",
+      "number": 15,
+      "question_text": "Steel with a modulus of elasticity of 29,000,000 psi carries an elastic stress of 14,500 psi. What is its strain?",
+      "options": {
+        "A": "0.005",
+        "B": "0.0005",
+        "C": "0.00005",
+        "D": "2,000"
+      },
+      "correct_answer": "B",
+      "explanation": "The modulus equals stress divided by strain, so strain equals stress divided by modulus: 14,500 / 29,000,000 = 0.0005, or 500 microstrain. The values 0.005 and 0.00005 are decimal slips, and 2,000 comes from dividing the modulus by the stress. Strain is dimensionless, so it should be a small number rather than a large one.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Modulus of Elasticity",
+      "source_link": "../chapters/05-material-properties/index.md#modulus-of-elasticity",
+      "explanation_word_count": 55
+    },
+    {
+      "id": "05-q016",
+      "number": 16,
+      "question_text": "Why is it a mistake to treat a brittle material as a weak one?",
+      "options": {
+        "A": "Glass is strong in compression yet breaks without warning, so brittleness describes how failure occurs, not strength",
+        "B": "Brittle materials always have a high yield strength, so they fail only under very large and sustained loads on them",
+        "C": "Brittle materials deform plastically by large amounts, so they are generally stronger than ductile ones in tension",
+        "D": "Brittleness is determined only by temperature, so one material can be brittle in winter and strong in summer"
+      },
+      "correct_answer": "A",
+      "explanation": "Brittleness is the tendency to fracture with little or no plastic deformation, often suddenly. Glass, cast iron, unreinforced concrete, and most masonry are brittle, yet they can be strong in compression. Designers use brittle materials where they are mostly compressed and add reinforcing steel to concrete. A brittle failure gives no warning, so it requires bigger margins.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Brittleness",
+      "source_link": "../chapters/05-material-properties/index.md#brittleness",
+      "explanation_word_count": 57
+    },
+    {
+      "id": "05-q017",
+      "number": 17,
+      "question_text": "Why is steel tough but glass is not, even though both are stiff?",
+      "options": {
+        "A": "Steel has a lower modulus of elasticity than glass, so it absorbs impacts by bending elastically without cracking",
+        "B": "Steel is noncombustible while glass can burn, so steel absorbs more energy in a fire than the glass does",
+        "C": "Steel is less dense than glass, so impacts transfer less energy through it into the surrounding frame",
+        "D": "Steel combines strength with ductility, so it absorbs much energy before fracturing, shown by a large curve area"
+      },
+      "correct_answer": "D",
+      "explanation": "Toughness is the energy absorbed before fracture, represented by the area under the stress-strain curve. Steel's strength and ductility give a large area, while brittle glass fractures with little energy absorbed. Toughness depends on temperature, so some steels become more brittle in extreme cold and cold-climate specifications may require minimum impact toughness.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Toughness",
+      "source_link": "../chapters/05-material-properties/index.md#toughness",
+      "explanation_word_count": 52
+    },
+    {
+      "id": "05-q018",
+      "number": 18,
+      "question_text": "A concrete slab 6 in thick weighs 150 lb/ft\u00b3. What is the weight of the slab per square foot of floor area?",
+      "options": {
+        "A": "900 psf",
+        "B": "25 psf",
+        "C": "75 psf",
+        "D": "150 psf"
+      },
+      "correct_answer": "C",
+      "explanation": "Multiplying density by thickness gives the weight per square foot of a layer: 150 \u00d7 (6/12) = 75 psf. The value 900 psf multiplies by 6 without converting inches to feet, 25 psf divides by 6, and 150 psf is the unit weight of the concrete, not the weight of a 6 in layer. This dead load must be carried before anything else.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Density",
+      "source_link": "../chapters/05-material-properties/index.md#density",
+      "explanation_word_count": 63
+    },
+    {
+      "id": "05-q019",
+      "number": 19,
+      "question_text": "A closed-cell foam is highly porous yet nearly impermeable to water vapor. What explains this?",
+      "options": {
+        "A": "Its voids are too large to hold water, so any vapor that enters flows straight through",
+        "B": "Its voids are sealed off from one another, and permeability requires the pores to be connected",
+        "C": "Its pores are connected but filled with air, so vapor cannot enter without capillary action",
+        "D": "Its permeance is measured in perms, so the foam's high porosity is not counted"
+      },
+      "correct_answer": "B",
+      "explanation": "Permeability is the ease with which a fluid passes through a material. Porosity measures empty volume, but fluid passes through only if the pores are connected to one another. Sealed cells block passage, which is why closed-cell foam can be a very effective vapor-resistant layer, whereas gypsum board is moderate and some house wraps are highly permeable.",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Permeability",
+      "source_link": "../chapters/05-material-properties/index.md#permeability",
+      "explanation_word_count": 57
+    },
+    {
+      "id": "05-q020",
+      "number": 20,
+      "question_text": "Why can an unprotected steel beam be less reliable in a fire than a large timber beam, even though steel is noncombustible?",
+      "options": {
+        "A": "Fire resistance depends on performance, not just burning: steel loses half its strength near 1,100\u00b0F",
+        "B": "Steel is combustible in thick sections, while timber becomes noncombustible once it has dried to equilibrium",
+        "C": "Fire resistance is measured only for combustible materials, so unprotected steel cannot be rated at all",
+        "D": "Timber has a higher flame spread index than steel, so it acts as a better barrier to flames in a fire"
+      },
+      "correct_answer": "A",
+      "explanation": "Combustibility is a material property tested by ASTM E136, while fire resistance is an assembly's ability to keep performing. Steel can reach about 1,100\u00b0F within minutes in the standard fire, and it loses about half its strength, so it is usually covered. A large timber chars at about 1.5 in per hour, and the char insulates the wood beneath it.",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Combustibility",
+      "source_link": "../chapters/05-material-properties/index.md#combustibility",
+      "explanation_word_count": 60
+    },
+    {
+      "id": "05-q021",
+      "number": 21,
+      "question_text": "A contractor fastens aluminum flashing with steel screws on a damp exterior wall. Which concern does this raise?",
+      "options": {
+        "A": "Thermal creep, in which the two metals move at different rates and gradually loosen the screws",
+        "B": "Brittle failure, in which steel screws fracture without warning when they contact aluminum flashing",
+        "C": "Permeability loss, in which the aluminum prevents vapor from leaving the wall assembly",
+        "D": "Galvanic corrosion, in which the more reactive metal corrodes faster when two metals touch in moisture"
+      },
+      "correct_answer": "D",
+      "explanation": "Galvanic corrosion occurs when two different metals are in contact in the presence of moisture, and the more reactive one corrodes faster. Mixing aluminum and steel fasteners can therefore cause problems. Protection works by keeping oxygen and water from the metal, using paint, galvanizing, stainless steel, or compatible fasteners. The other options describe unrelated behaviors.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Corrosion",
+      "source_link": "../chapters/05-material-properties/index.md#corrosion",
+      "explanation_word_count": 55
+    },
+    {
+      "id": "05-q022",
+      "number": 22,
+      "question_text": "What is the usual order of steps in material selection?",
+      "options": {
+        "A": "Compare the costs of all candidates, choose the cheapest, and then identify the properties it must satisfy in use",
+        "B": "Choose the strongest material, list the requirements it fails, and then replace it with a weaker one that passes",
+        "C": "List the requirements, identify the governing properties, compare candidates and eliminate failures, then weigh the rest",
+        "D": "Test every candidate to failure, rank the results by strength, and select the highest-ranked material overall"
+      },
+      "correct_answer": "C",
+      "explanation": "Material selection uses properties as evidence. After eliminating materials that fail a requirement such as load, span, moisture exposure, or fire rating, designers weigh cost, availability, constructability, and environmental impact. The choice is almost always a compromise, as in choosing glued-laminated beams for Riverbend even though steel is stronger for a given size.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Material Selection",
+      "source_link": "../chapters/05-material-properties/index.md#material-selection",
+      "explanation_word_count": 53
+    }
+  ],
+  "answer_distribution": {
+    "A": 5,
+    "B": 5,
+    "C": 6,
+    "D": 6
+  },
+  "bloom_distribution": {
+    "Remember": 6,
+    "Understand": 6,
+    "Apply": 7,
+    "Analyze": 3,
+    "Evaluate": 0,
+    "Create": 0
+  },
+  "concept_coverage": {
+    "total_concepts": 22,
+    "tested_concepts": 22,
+    "coverage_percentage": 100
+  },
+  "content_readiness_score": 90,
+  "overall_quality_score": 95
+}

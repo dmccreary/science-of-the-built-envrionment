@@ -1,0 +1,61 @@
+{
+  "title": "Window Flashing Sequence Explorer",
+  "description": "Students will sequence (Bloom Level 3, Apply) the flashing steps around a window opening and will evaluate (Bloom Level 5, Evaluate) a flashing detail by tracing where water goes when a lap is reversed.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "window-flashing-sequence-explorer",
+  "library": "p5.js",
+  "bloomLevel": "Apply, Evaluate",
+  "bloomVerb": "sequence, evaluate",
+  "completion_status": "built",
+  "chapter_number": 12,
+  "chapter_title": "Cladding, Windows, Doors, and Air Sealing",
+  "chapter_dir": "12-cladding-windows-air-sealing",
+  "chapter_rel_dir": "chapters/12-cladding-windows-air-sealing",
+  "canvasHeight": 480,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Apply",
+      "Evaluate"
+    ],
+    "concepts": [
+      "Flashing",
+      "Sill pan and end dams",
+      "Weather-resistive barrier",
+      "Shingle lapping"
+    ],
+    "prerequisites": [
+      "Chapter 11 control layers",
+      "The shingle principle for shedding water"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Sequence the flashing steps around a window opening, and evaluate a detail by tracing where water goes when a lap is reversed.",
+    "recommendedUsage": [
+      "In Build mode, press Next step and Previous step to add or remove the five layers in the correct order: sill pan, window, jamb tape, head flashing, and a weather-resistive barrier (WRB) lapped over the head flashing. Read the step text under the drawing.",
+      "Hover over any layer, or over a step chip, to see what it laps over. Click a layer to lift it away from the wall in an exploded view; click it again to put it back.",
+      "Press Pour water. Water runs down the wall in the elevation and the section. A green dot means water exits to the outside; a red circle with an X marks a leak. Try it with only some of the steps installed.",
+      "Tick Reverse a lap to tuck the barrier under the head flashing, then pour water and trace where the water goes.",
+      "Switch to Test the sequence, drag the five shuffled layers into slots 1 to 5, and read the hint if a slot is wrong. Correct layers build the wall as you go."
+    ],
+    "activities": [
+      "Warm-up (5 min): Students write down the order they think the five layers go in, then step through Build mode to check it against the chapter's worked example.",
+      "Explore (10 min): Students press Pour water after each step and record which step first keeps water out of the opening at the head, the jambs, and the sill.",
+      "Evaluate (10 min): Students tick Reverse a lap, trace the water path, and explain in two sentences why the barrier must lap over the head flashing, using the shingle principle."
+    ],
+    "assessment": [
+      "Students complete Test the sequence twice without hints and sketch the section from memory, labeling what each layer laps over.",
+      "Students explain why a bead of caulk across the top of a window is not a substitute for a head flashing."
+    ]
+  }
+}

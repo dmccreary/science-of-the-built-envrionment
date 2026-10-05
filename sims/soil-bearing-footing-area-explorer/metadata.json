@@ -1,0 +1,61 @@
+{
+  "title": "Bearing Capacity and Footing Size Explorer",
+  "description": "Students will calculate (Bloom Level 3, Apply) the footing area required for a given load and soil, and will compare (Bloom Level 4, Analyze) how soil type and column load change the footing size.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "soil-bearing-footing-area-explorer",
+  "library": "p5.js",
+  "bloomLevel": "Apply, Analyze",
+  "bloomVerb": "calculate, compare",
+  "completion_status": "built",
+  "chapter_number": 9,
+  "chapter_title": "Site Work, Soils, and Groundwater",
+  "chapter_dir": "09-site-soils",
+  "chapter_rel_dir": "chapters/09-site-soils",
+  "canvasHeight": 575,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Apply",
+      "Analyze"
+    ],
+    "concepts": [
+      "Soil bearing capacity",
+      "Allowable bearing pressure",
+      "Factor of safety",
+      "Footing area",
+      "Pressure bulb"
+    ],
+    "prerequisites": [
+      "Chapter 3 stress and pressure",
+      "Basic area calculations"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Calculate the footing area needed for a given column load and soil, and compare how soil type and load change the footing size.",
+    "recommendedUsage": [
+      "Move the Column load slider from 10 to 100 kips and read the required area in the Calculation panel. It equals the load divided by the allowable bearing capacity.",
+      "Choose a soil from the menu. Compare the selected bar with the other soils in the bar chart, and watch the footing in the side view and the top view change size.",
+      "Check Show factor of safety to see the ultimate capacity, three times the allowable value, and where the applied pressure sits below it.",
+      "Hover over the soil layer in the side view for the presumptive bearing value and a plain-language description. Press Reset to return to 40 kips on firm clay."
+    ],
+    "activities": [
+      "Warm-up (5 min): Students predict whether sand or clay needs the larger footing for 40 kips, then check the bar chart.",
+      "Explore (10 min): Students reproduce the Chapter 9 worked example for clay, sand, and gravel, and record the rounded footing sizes.",
+      "Analyze (10 min): Students find the load at which each soil first needs a footing larger than 8 ft square, and explain what a designer would do next."
+    ],
+    "assessment": [
+      "Students calculate by hand the footing size for 60 kips on sand and verify it with the MicroSim.",
+      "Students explain in two sentences why a weaker soil needs a larger footing for the same load."
+    ]
+  }
+}

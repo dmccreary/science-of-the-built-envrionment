@@ -1,0 +1,2390 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="How falling costs, changing incentives, and better modules are reshaping rooftop solar, with a worked example sizing a Minneapolis array.">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/science-of-the-built-envrionment/appendices/solar-photovoltaics/">
+      
+      
+        <link rel="prev" href="../heat-recovery-ventilation/references/">
+      
+      
+        <link rel="next" href="quiz/">
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>Appendix C: Solar Photovoltaics - The Science of the Built Environment</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../css/mascot.css">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-F7FKDK2SDS"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-F7FKDK2SDS",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-F7FKDK2SDS",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style>  <meta property="og:title" content="Appendix C: Solar Photovoltaics">
+  <meta name="twitter:title" content="Appendix C: Solar Photovoltaics">
+  <meta property="og:description" content="How falling costs, changing incentives, and better modules are reshaping rooftop solar, with a worked example sizing a Minneapolis array.">
+  <meta name="twitter:description" content="How falling costs, changing incentives, and better modules are reshaping rooftop solar, with a worked example sizing a Minneapolis array.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dmccreary.github.io/science-of-the-built-envrionment/appendices/solar-photovoltaics/">
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#appendix-c-solar-photovoltaics" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="The Science of the Built Environment" class="md-header__button md-logo" aria-label="The Science of the Built Environment" data-md-component="logo">
+      
+  <img src="../../img/mascot/welcome.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            The Science of the Built Environment
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Appendix C: Solar Photovoltaics
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"></path></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/science-of-the-built-envrionment" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="The Science of the Built Environment" class="md-nav__button md-logo" aria-label="The Science of the Built Environment" data-md-component="logo">
+      
+  <img src="../../img/mascot/welcome.png" alt="logo">
+
+    </a>
+    The Science of the Built Environment
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/science-of-the-built-envrionment" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Description
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../chapters/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Chapters
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../learning-graph/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Learning Graph
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../stories/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Stories
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../posters/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Posters
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../sims/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    MicroSims
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Appendices
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_9" id="__nav_9_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Appendices
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../heat-pumps-electrification/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    A. Heat Pumps and Building Electrification
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../heat-recovery-ventilation/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    B. Heat Recovery Ventilation and Modern Heat Exchangers
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_4" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="./" class="md-nav__link md-nav__link--active">
+              
+  
+  <span class="md-ellipsis">
+    C. Solar Photovoltaics
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link md-nav__link--active" for="__nav_9_4" id="__nav_9_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_9_4">
+            <span class="md-nav__icon md-icon"></span>
+            C. Solar Photovoltaics
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="quiz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quiz
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="references/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Annotated References
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../battery-storage/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    D. Battery Storage and Grid-Interactive Buildings
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../geothermal-ground-source/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    E. Geothermal Heating and Earth-Coupled Air
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../smart-sensors-building-automation/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    F. Smart Sensors and Building Automation
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../mass-timber-low-carbon-materials/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    G. Mass Timber and Low-Carbon Materials
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../codes-performance-standards/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    H. Energy Codes and Building Performance Standards
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../digital-design-prefabrication-ai/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    I. Digital Design, Prefabrication, Robotics, and AI
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    References
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/instructors-guide/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Instructors Guide
+  </span>
+  
+    
+  
+  
+    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
+    </span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concepts-covered" class="md-nav__link">
+    <span class="md-ellipsis">
+      Concepts Covered
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-physics-that-does-not-change" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Physics That Does Not Change
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Physics That Does Not Change">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-rooftop-pv-monthly-production-explorer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Rooftop PV Monthly Production Explorer
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-changing" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Is Changing
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-to-watch" class="md-nav__link">
+    <span class="md-ellipsis">
+      What to Watch
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connects-to" class="md-nav__link">
+    <span class="md-ellipsis">
+      Connects To
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Takeaways
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/dmccreary/science-of-the-built-envrionment/blob/main/docs/appendices/solar-photovoltaics/index.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg>
+    </a>
+  
+  
+
+
+<h1 id="appendix-c-solar-photovoltaics">Appendix C: Solar Photovoltaics<a class="headerlink" href="#appendix-c-solar-photovoltaics" title="Permanent link">¶</a></h1>
+<h2 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">¶</a></h2>
+<p>How falling costs, changing incentives, and better modules are reshaping rooftop solar, with a worked example sizing a Minneapolis array. After completing this appendix, students will be able to define, explain, and apply the 4 concepts listed below.</p>
+<h2 id="concepts-covered">Concepts Covered<a class="headerlink" href="#concepts-covered" title="Permanent link">¶</a></h2>
+<p>This appendix covers the following 4 concepts from the learning graph:</p>
+<table>
+<thead>
+<tr>
+<th>Concept</th>
+<th>Concept Impact Score</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Inverter</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Peak Sun Hours</td>
+<td>2</td>
+</tr>
+<tr>
+<td>System Derate</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Net Metering</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">¶</a></h2>
+<p>This appendix builds on concepts from these parts of the book:</p>
+<ul>
+<li><a href="../../chapters/03-forces-heat-physics/">Chapter 3: Forces, Heat, and the Physics of Buildings</a>: Radiation</li>
+<li><a href="../../chapters/15-electrical-fundamentals/">Chapter 15: Electrical Fundamentals and Building Service</a>: Alternating Current, Direct Current, Utility Service</li>
+<li><a href="../../chapters/16-electrical-distribution-design/">Chapter 16: Electrical Distribution, Lighting, and Design Team Coordination</a>: Photovoltaic Systems</li>
+</ul>
+<hr>
+<div class="admonition mascot-welcome">
+<p class="admonition-title">A Roof That Pays You Back</p>
+<p><img alt="Beau waving welcome" class="mascot-admonition-img" src="../../img/mascot/welcome.png">
+Few building technologies have changed as fast as solar panels, and both their cost and the rules around them keep moving. This appendix gives you a way to size an array yourself so the numbers never depend on a sales brochure. Let's build it right!</p>
+</div>
+<p>A <strong>photovoltaic (PV)</strong> panel converts sunlight directly into direct-current electricity, and an <strong>inverter</strong> converts that to the alternating current a building uses. Chapter 16 covers renewable systems as part of electrical distribution, and Chapter 19 treats net-zero energy buildings. The technology has moved from a curiosity to a mainstream building component in two decades.</p>
+<h2 id="the-physics-that-does-not-change">The Physics That Does Not Change<a class="headerlink" href="#the-physics-that-does-not-change" title="Permanent link">¶</a></h2>
+<p>A panel's output is set by the sunlight reaching it. Solar power at the ground on a clear day with the sun high is about 1,000 watts per square meter, and a panel turns a fraction of that into electricity. Annual energy follows from a simple chain:</p>
+<p><span class="arithmatex">\( E_{\text{year}} = P_{\text{array}} \times \text{peak sun hours} \times 365 \times \text{derate} \)</span></p>
+<p>Here <em>peak sun hours</em> is the daily solar energy expressed as hours at 1,000 W/m², and the <em>derate</em> collects losses from wiring, the inverter, dirt, snow, and heat.</p>
+<p><strong>Worked example: a 7 kW array in Minneapolis.</strong> Assume an annual average of 4.3 peak sun hours and a derate of 0.80. These values are illustrative; use a tool such as NREL's PVWatts for a real site.</p>
+<ul>
+<li>Annual energy: <span class="arithmatex">\( 7 \times 4.3 \times 365 \times 0.80 \approx 8{,}800 \)</span> kWh.</li>
+<li>Roof area at 21 percent module efficiency: <span class="arithmatex">\( 7 / 0.21 \approx 33 \text{ m}^2 \)</span>, or about 360 ft².</li>
+</ul>
+<p>A typical US home uses roughly 10,000 kWh a year, so this array covers most of an efficient house. Cold helps a little, because panels make more power per sunbeam when they are cool. Snow, short winter days, and a low sun angle hurt in December, so most of the annual energy arrives from spring through fall. The <a href="../../sims/net-zero-pv-balance-explorer/">Net-Zero PV Balance Explorer</a> lets you vary the array and the load.</p>
+<p>Annual energy hides an important fact: the sun is far stronger in June than in December. The monthly peak sun hours below are illustrative values that average about 4.3 across the year. The MicroSim uses them to show when a 7 kW array makes more than a house needs and when it falls short.</p>
+<h4 id="diagram-rooftop-pv-monthly-production-explorer">Diagram: Rooftop PV Monthly Production Explorer<a class="headerlink" href="#diagram-rooftop-pv-monthly-production-explorer" title="Permanent link">¶</a></h4>
+<iframe src="../../sims/pv-monthly-production-explorer/main.html" width="100%" height="628px" scrolling="no"></iframe>
+
+<p><a class="md-button" href="../../sims/pv-monthly-production-explorer/main.html">Run the Rooftop PV Monthly Production Explorer MicroSim fullscreen</a></p>
+<details>
+<summary>Rooftop PV Monthly Production Explorer</summary>
+<p>Type: chart
+<strong>sim-id:</strong> pv-monthly-production-explorer<br>
+<strong>Library:</strong> Chart.js<br>
+<strong>Status:</strong> Specified<br>
+<strong>Bloom Level:</strong> Analyze<br>
+<strong>Bloom Verb:</strong> examine<br>
+<strong>Learning Objective:</strong> The learner will examine monthly solar production against monthly household load for a stated array size and load profile, to identify the months of surplus and the smallest whole-kilowatt array that covers the annual load.</p>
+<p><strong>Prerequisites:</strong> photovoltaic array, peak sun hours, derate, kilowatt-hour (all defined in this appendix above the block).</p>
+<p><strong>Evidence of Mastery:</strong> In three challenges the learner commits an answer before the chart reveals it. In challenges 1 and 2 the learner selects the set of surplus months, which is correct when it matches the answer exactly. In challenge 3 the learner types the smallest whole-kilowatt array that gives annual coverage &gt;= 100 percent. Mastery is 3 of 3 correct, with two attempts on each. Moving the controls afterward is exploration, not evidence.</p>
+<p><strong>Misconceptions:</strong> (1) Annual coverage of 88 percent means the house needs the grid for only 12 percent of every month. (2) Solar produces in proportion to demand. (3) A winter-heavy load, such as electric heating, makes the same array cover the same months.</p>
+<p><strong>Instructional Rationale:</strong> Analyze-level work separates a total from its parts. Asking the learner to predict the surplus months before the chart appears shows that an annual total hides when the energy arrives, which is the reason storage and net-metering rules matter.</p>
+<p><strong>Content:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Month</th>
+<th>Days</th>
+<th>Illustrative peak sun hours per day</th>
+<th>Winter-heavy load weight</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>January</td>
+<td>31</td>
+<td>2.4</td>
+<td>1.4</td>
+</tr>
+<tr>
+<td>February</td>
+<td>28</td>
+<td>3.4</td>
+<td>1.3</td>
+</tr>
+<tr>
+<td>March</td>
+<td>31</td>
+<td>4.5</td>
+<td>1.1</td>
+</tr>
+<tr>
+<td>April</td>
+<td>30</td>
+<td>5.2</td>
+<td>0.9</td>
+</tr>
+<tr>
+<td>May</td>
+<td>31</td>
+<td>5.8</td>
+<td>0.8</td>
+</tr>
+<tr>
+<td>June</td>
+<td>30</td>
+<td>6.2</td>
+<td>0.8</td>
+</tr>
+<tr>
+<td>July</td>
+<td>31</td>
+<td>6.3</td>
+<td>0.9</td>
+</tr>
+<tr>
+<td>August</td>
+<td>31</td>
+<td>5.6</td>
+<td>0.9</td>
+</tr>
+<tr>
+<td>September</td>
+<td>30</td>
+<td>4.6</td>
+<td>0.8</td>
+</tr>
+<tr>
+<td>October</td>
+<td>31</td>
+<td>3.4</td>
+<td>0.9</td>
+</tr>
+<tr>
+<td>November</td>
+<td>30</td>
+<td>2.2</td>
+<td>1.1</td>
+</tr>
+<tr>
+<td>December</td>
+<td>31</td>
+<td>1.9</td>
+<td>1.1</td>
+</tr>
+</tbody>
+</table>
+<p>The weights sum to 12.0. The day-weighted average of peak sun hours is 4.30.</p>
+<table>
+<thead>
+<tr>
+<th>Quantity</th>
+<th>Min</th>
+<th>Max</th>
+<th>Step</th>
+<th>Default</th>
+<th>Unit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Array size</td>
+<td>3</td>
+<td>12</td>
+<td>1</td>
+<td>7</td>
+<td>kW</td>
+</tr>
+<tr>
+<td>Derate</td>
+<td>0.70</td>
+<td>0.90</td>
+<td>0.05</td>
+<td>0.80</td>
+<td>none</td>
+</tr>
+<tr>
+<td>Annual household use</td>
+<td>6,000</td>
+<td>16,000</td>
+<td>1,000</td>
+<td>10,000</td>
+<td>kWh</td>
+</tr>
+</tbody>
+</table>
+<p>Load profile choice: "Flat" (default) or "Winter-heavy".</p>
+<p>Challenges, in this order:</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Setting</th>
+<th>Correct answer</th>
+<th>Why (shown as feedback)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>7 kW, derate 0.80, 10,000 kWh, flat load (833 kWh per month)</td>
+<td>April, May, June, July, August</td>
+<td>Production is 5.6 x peak sun hours x days. It reaches 874, 1,007, 1,042, 1,094 and 972 kWh in those months. March (781) and September (773) fall just short of 833.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Same, winter-heavy load</td>
+<td>April, May, June, July, August, September</td>
+<td>The load drops to 750 kWh in April, July, August and 667 in May, June, September. September's 773 kWh of production now exceeds its load, but October (590) and March (781, against a load of 917) do not.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>10,000 kWh, derate 0.80, flat load</td>
+<td>8 kW</td>
+<td>Annual production is 1,568.1 x 0.80 x kW. At 7 kW that is 8,781 kWh (88 percent). At 8 kW it is 10,035 kWh (100 percent).</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Provenance:</strong> The 7 kW, 4.3 peak sun hours, 0.80 derate and 10,000 kWh come from this appendix. The monthly peak sun hours and the winter-heavy load weights are illustrative, and the sim must label them "illustrative" and tell the learner to use a tool such as NREL's PVWatts for a real site.</p>
+<p><strong>Rules:</strong></p>
+<ul>
+<li>Monthly production (kWh) = array size x derate x peak sun hours x days in the month.</li>
+<li>Annual production = the sum of the twelve months. At the default settings it is 8,781 kWh.</li>
+<li>Flat load per month = annual use / 12. Winter-heavy load per month = annual use x weight / 12.</li>
+<li>A month is a surplus month when production &gt;= load for that month, and a deficit month otherwise.</li>
+<li>Annual coverage (percent) = annual production / annual use x 100, shown to the nearest whole percent.</li>
+</ul>
+<p><strong>Learner Activity:</strong></p>
+<ol>
+<li>The learner reads a challenge and, for challenges 1 and 2, selects the months they expect to have surplus.</li>
+<li>The learner presses Check. The sim draws twelve columns for production beside twelve for load and marks each month as surplus or deficit.</li>
+<li>For challenge 3 the learner types an array size and presses Check, and the sim shows annual coverage for that size.</li>
+<li>After the challenges the controls unlock. The learner changes array size, derate, annual use, and the load profile, and the chart and the annual coverage update at once.</li>
+<li>The learner switches from flat to winter-heavy load with annual coverage unchanged, and should notice that the summer surplus grows relative to the winter shortfall while the annual total stays the same.</li>
+</ol>
+<p><strong>Feedback:</strong> Three challenges, fixed order, two attempts each. Correct: "Correct: <answer>." Incorrect: the Why text for that challenge, without the answer on the first attempt. After a second wrong attempt the answer and the Why text are shown, and the challenge counts as missed. A running count "Challenges correct: n of 3" is shown.</answer></p>
+<p><strong>Starting State:</strong> The chart is hidden. Challenge 1 is shown with twelve month choices and the question "Which months will a 7 kW array produce more than this house uses?"</p>
+<p><strong>Chapter Anchors:</strong> A 7 kW array with 4.3 peak sun hours and a derate of 0.80 produces about 8,800 kWh a year (the MicroSim shows 8,781 kWh) on about 360 ft² of roof. A typical home uses roughly 10,000 kWh a year. Most of the energy arrives from spring through fall, with a weak December.</p>
+</details>
+<h2 id="what-is-changing">What Is Changing<a class="headerlink" href="#what-is-changing" title="Permanent link">¶</a></h2>
+<ul>
+<li><strong>Cost.</strong> IRENA reports that the global average cost of electricity from solar PV fell by roughly 90 percent between 2010 and 2023.<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> Hardware is now a smaller share of a rooftop job than labor, permitting, and financing.</li>
+<li><strong>Policy.</strong> The 30 percent federal residential clean energy credit (Section 25D) ended for expenditures made after December 31, 2025 under the One Big Beautiful Bill Act, years ahead of its earlier schedule.<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> Incentives for businesses, state and utility programs, and the rules for selling surplus power back to the grid all differ and keep changing.</li>
+<li><strong>Net metering.</strong> Many utilities are replacing one-for-one credit for exported power with lower rates, which raises the value of using solar energy on site, including with batteries (<a href="../battery-storage/">Appendix D</a>).</li>
+<li><strong>Modules and mounting.</strong> Higher-efficiency cells, bifacial modules, building-integrated products, and rapid-shutdown electronics are changing what goes on a roof.</li>
+<li><strong>Roof readiness.</strong> Roof condition, structural capacity, and fire-code setbacks now shape the design as much as the array itself. Chapters 6 and 13 supply the tools to check them.</li>
+</ul>
+<div class="admonition mascot-warning">
+<p class="admonition-title">Do Not Install Solar on a Roof Near the End of Its Life</p>
+<p><img alt="Beau warning" class="mascot-admonition-img" src="../../img/mascot/warning.png">
+Panels last decades, so a roof that needs replacement in five years means paying to remove and reinstall the array. Check the roof's remaining service life and its structure before you size the system.</p>
+</div>
+<h2 id="what-to-watch">What to Watch<a class="headerlink" href="#what-to-watch" title="Permanent link">¶</a></h2>
+<ul>
+<li>Federal, state, and utility incentives, and the rules for exported power.</li>
+<li>Module price and efficiency trends, and the supply chains behind them.</li>
+<li>Electrical code changes for rapid shutdown, interconnection, and service capacity.</li>
+<li>Pairing solar with storage, heat pumps, and electric vehicle charging, which turns a building into a managed energy system.</li>
+</ul>
+<h2 id="connects-to">Connects To<a class="headerlink" href="#connects-to" title="Permanent link">¶</a></h2>
+<ul>
+<li><a href="../../chapters/15-electrical-fundamentals/">Chapter 15: Electrical Fundamentals and Building Service</a></li>
+<li><a href="../../chapters/16-electrical-distribution-design/">Chapter 16: Electrical Distribution, Lighting, and Design Team Coordination</a></li>
+<li><a href="../../chapters/19-energy-efficiency/">Chapter 19: Energy Efficiency and High-Performance Buildings</a></li>
+<li><a href="../../sims/net-zero-pv-balance-explorer/">Net-Zero PV Balance Explorer</a> and <a href="../../sims/service-headroom-ev-pv-explorer/">Service Headroom for Solar and EV Loads</a> MicroSims</li>
+</ul>
+<h2 id="key-takeaways">Key Takeaways<a class="headerlink" href="#key-takeaways" title="Permanent link">¶</a></h2>
+<ul>
+<li>Annual solar energy is array size times peak sun hours times 365 times a derate for losses.</li>
+<li>A 7 kW array in Minneapolis produces on the order of 8,800 kWh a year on about 360 ft² of roof.</li>
+<li>Cost, incentives, and net-metering rules change quickly; the sunlight arriving on the roof does not.</li>
+</ul>
+<h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">¶</a></h2>
+<p><a href="references/">See Annotated References</a></p>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>pv magazine. <em>Global average solar LCOE stood at $0.044/kWh in 2023, says IRENA.</em> <a href="https://www.pv-magazine.com/2024/09/27/global-average-solar-lcoe-stood-at-0-044-kwh-in-2023-says-irena/">https://www.pv-magazine.com/2024/09/27/global-average-solar-lcoe-stood-at-0-044-kwh-in-2023-says-irena/</a>&nbsp;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">↩</a></p>
+</li>
+<li id="fn:2">
+<p>GreenLancer. <em>Federal Solar Tax Credit 2026: What Ended, What Remains.</em> <a href="https://www.greenlancer.com/post/solar-energy-tax-credit-2025">https://www.greenlancer.com/post/solar-energy-tax-credit-2025</a> (check the current Internal Revenue Code and IRS guidance before relying on any credit).&nbsp;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">↩</a></p>
+</li>
+</ol>
+</div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer">
+        
+          
+          <a href="../heat-recovery-ventilation/references/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Annotated References">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Annotated References
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="quiz/" class="md-footer__link md-footer__link--next" aria-label="Next: Quiz">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Quiz
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright © 2026 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "content.action.edit", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "search.share"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="../../js/extra.js"></script>
+      
+        <script src="../../js/katex.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>

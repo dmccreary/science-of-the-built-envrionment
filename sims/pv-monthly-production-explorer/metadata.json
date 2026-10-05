@@ -1,0 +1,61 @@
+{
+  "title": "Rooftop PV Monthly Production Explorer",
+  "description": "Examine monthly solar production against monthly household load for a stated array size and load profile, to identify the months of surplus and the smallest whole-kilowatt array that covers the annual load.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-05",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "pv-monthly-production-explorer",
+  "library": "Chart.js",
+  "bloomLevel": "Analyze",
+  "bloomVerb": "examine",
+  "completion_status": "built",
+  "chapter_number": 0,
+  "chapter_title": "Appendix C: Solar Photovoltaics",
+  "chapter_dir": "solar-photovoltaics",
+  "chapter_rel_dir": "appendices/solar-photovoltaics",
+  "canvasHeight": 626,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Analyze"
+    ],
+    "concepts": [
+      "Peak sun hours",
+      "System derate",
+      "Net metering",
+      "Inverter"
+    ],
+    "prerequisites": [
+      "Photovoltaic array",
+      "Peak sun hours",
+      "Derate",
+      "Kilowatt-hour"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Examine monthly solar production against monthly household load for a stated array size and load profile, to identify the months of surplus and the smallest whole-kilowatt array that covers the annual load.",
+    "recommendedUsage": [
+      "In challenge 1, tick the months in which you expect production to exceed the load, then press Check. The chart stays hidden until you answer.",
+      "Work through challenge 2 (a winter-heavy load) and challenge 3 (the smallest whole-kilowatt array for 100 percent annual coverage).",
+      "When the controls unlock, change the array size, derate, annual use, and load profile and watch the chart and annual coverage update.",
+      "Switch from a flat to a winter-heavy load and compare the surplus months and the annual coverage."
+    ],
+    "activities": [
+      "Predict, then see (10 min): Before pressing Check, write down your surplus months and the reason for each.",
+      "Same total, different timing (10 min): Keep the array and annual use fixed and switch the load profile. Describe what changes and what does not.",
+      "Storage question (5 min): Using the winter-heavy profile, explain why an array with 100 percent annual coverage still needs the grid in winter."
+    ],
+    "assessment": [
+      "Students state the annual coverage of a 7 kW array at 10,000 kWh of use and explain why it does not mean 12 percent grid use in every month.",
+      "Students find the smallest array that covers 12,000 kWh at derate 0.80."
+    ]
+  }
+}

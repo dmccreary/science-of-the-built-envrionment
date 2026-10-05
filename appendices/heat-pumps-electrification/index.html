@@ -1,0 +1,2564 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="How cold-climate heat pumps, inverter-driven compressors, and new refrigerants are replacing combustion heating, and the unchanging thermodynamics that explains why they work.">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/science-of-the-built-envrionment/appendices/heat-pumps-electrification/">
+      
+      
+        <link rel="prev" href="../">
+      
+      
+        <link rel="next" href="quiz/">
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>Appendix A: Heat Pumps and Building Electrification - The Science of the Built Environment</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../css/mascot.css">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-F7FKDK2SDS"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-F7FKDK2SDS",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-F7FKDK2SDS",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style>  <meta property="og:title" content="Appendix A: Heat Pumps and Building Electrification">
+  <meta name="twitter:title" content="Appendix A: Heat Pumps and Building Electrification">
+  <meta property="og:description" content="How cold-climate heat pumps, inverter-driven compressors, and new refrigerants are replacing combustion heating, and the unchanging thermodynamics that explains why they work.">
+  <meta name="twitter:description" content="How cold-climate heat pumps, inverter-driven compressors, and new refrigerants are replacing combustion heating, and the unchanging thermodynamics that explains why they work.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dmccreary.github.io/science-of-the-built-envrionment/appendices/heat-pumps-electrification/">
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#appendix-a-heat-pumps-and-building-electrification" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="The Science of the Built Environment" class="md-header__button md-logo" aria-label="The Science of the Built Environment" data-md-component="logo">
+      
+  <img src="../../img/mascot/welcome.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            The Science of the Built Environment
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Appendix A: Heat Pumps and Building Electrification
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"></path></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/science-of-the-built-envrionment" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="The Science of the Built Environment" class="md-nav__button md-logo" aria-label="The Science of the Built Environment" data-md-component="logo">
+      
+  <img src="../../img/mascot/welcome.png" alt="logo">
+
+    </a>
+    The Science of the Built Environment
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/science-of-the-built-envrionment" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Description
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../chapters/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Chapters
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../learning-graph/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Learning Graph
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../stories/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Stories
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../posters/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Posters
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../sims/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    MicroSims
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Appendices
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_9" id="__nav_9_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Appendices
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9_2" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="./" class="md-nav__link md-nav__link--active">
+              
+  
+  <span class="md-ellipsis">
+    A. Heat Pumps and Building Electrification
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link md-nav__link--active" for="__nav_9_2" id="__nav_9_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_9_2">
+            <span class="md-nav__icon md-icon"></span>
+            A. Heat Pumps and Building Electrification
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="quiz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quiz
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="references/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Annotated References
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../heat-recovery-ventilation/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    B. Heat Recovery Ventilation and Modern Heat Exchangers
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../solar-photovoltaics/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    C. Solar Photovoltaics
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../battery-storage/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    D. Battery Storage and Grid-Interactive Buildings
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../geothermal-ground-source/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    E. Geothermal Heating and Earth-Coupled Air
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../smart-sensors-building-automation/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    F. Smart Sensors and Building Automation
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../mass-timber-low-carbon-materials/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    G. Mass Timber and Low-Carbon Materials
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../codes-performance-standards/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    H. Energy Codes and Building Performance Standards
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../digital-design-prefabrication-ai/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    I. Digital Design, Prefabrication, Robotics, and AI
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    References
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/instructors-guide/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Instructors Guide
+  </span>
+  
+    
+  
+  
+    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
+    </span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concepts-covered" class="md-nav__link">
+    <span class="md-ellipsis">
+      Concepts Covered
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#how-a-heat-pump-works" class="md-nav__link">
+    <span class="md-ellipsis">
+      How a Heat Pump Works
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How a Heat Pump Works">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-heat-pump-cycle-explorer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Heat Pump Cycle Explorer
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-physics-that-does-not-change" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Physics That Does Not Change
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-changing" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Is Changing
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#worked-example-heating-cost-per-100000-btu" class="md-nav__link">
+    <span class="md-ellipsis">
+      Worked Example: Heating Cost per 100,000 Btu
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Worked Example: Heating Cost per 100,000 Btu">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-heat-pump-cop-and-lift-explorer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Heat Pump COP and Lift Explorer
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#diagram-heating-system-energy-comparison" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Heating System Energy Comparison
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-to-watch" class="md-nav__link">
+    <span class="md-ellipsis">
+      What to Watch
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connects-to" class="md-nav__link">
+    <span class="md-ellipsis">
+      Connects To
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Takeaways
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      References
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/dmccreary/science-of-the-built-envrionment/blob/main/docs/appendices/heat-pumps-electrification/index.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg>
+    </a>
+  
+  
+
+
+<h1 id="appendix-a-heat-pumps-and-building-electrification">Appendix A: Heat Pumps and Building Electrification<a class="headerlink" href="#appendix-a-heat-pumps-and-building-electrification" title="Permanent link">¶</a></h1>
+<h2 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">¶</a></h2>
+<p>How cold-climate heat pumps, inverter-driven compressors, and new refrigerants are replacing combustion heating, and the unchanging thermodynamics that explains why they work. After completing this appendix, students will be able to define, explain, and apply the 9 concepts listed below.</p>
+<h2 id="concepts-covered">Concepts Covered<a class="headerlink" href="#concepts-covered" title="Permanent link">¶</a></h2>
+<p>This appendix covers the following 9 concepts from the learning graph:</p>
+<table>
+<thead>
+<tr>
+<th>Concept</th>
+<th>Concept Impact Score</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Coefficient of Performance</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Refrigerant</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Temperature Lift</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Refrigeration Cycle</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Carnot Limit</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Cold-Climate Heat Pump</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Variable-Speed Compressor</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Building Electrification</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Refrigerant Global Warming Potential</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">¶</a></h2>
+<p>This appendix builds on concepts from these parts of the book:</p>
+<ul>
+<li><a href="../../chapters/03-forces-heat-physics/">Chapter 3: Forces, Heat, and the Physics of Buildings</a>: Heat</li>
+<li><a href="../../chapters/14-hvac-plumbing-fire/">Chapter 14: HVAC, Plumbing, and Fire Protection Systems</a>: Heat Pump, Heating Systems</li>
+<li><a href="../../chapters/15-electrical-fundamentals/">Chapter 15: Electrical Fundamentals and Building Service</a>: Electrical Power, Electrical Systems</li>
+<li><a href="../../chapters/19-energy-efficiency/">Chapter 19: Energy Efficiency and High-Performance Buildings</a>: Sustainability</li>
+</ul>
+<hr>
+<div class="admonition mascot-welcome">
+<p class="admonition-title">A Furnace That Moves Heat Instead of Making It</p>
+<p><img alt="Beau waving welcome" class="mascot-admonition-img" src="../../img/mascot/welcome.png">
+A heat pump can deliver two or three units of heat for every unit of electricity it uses, and it keeps getting better at doing it in Minnesota winters. This appendix shows why that works and which parts of the story are still changing. Let's build it right!</p>
+</div>
+<p>For most of the twentieth century, heating a Minnesota building meant burning something: gas, oil, propane, or wood. A <strong>heat pump</strong> does something different. It uses electricity to move heat from a cold place to a warmer one, the way a refrigerator moves heat out of its cold box, so the heat delivered can be larger than the electrical energy consumed. Chapter 14 introduces the equipment; this appendix explains why the technology is changing so quickly and how to evaluate a claim about it.</p>
+<h2 id="how-a-heat-pump-works">How a Heat Pump Works<a class="headerlink" href="#how-a-heat-pump-works" title="Permanent link">¶</a></h2>
+<p>A heat pump circulates a <strong>refrigerant</strong>, a fluid that boils at a very low temperature, around a closed loop with four main parts. The <strong>compressor</strong> squeezes the refrigerant vapor, which raises its pressure and temperature. The <strong>condenser</strong> is a coil where the hot vapor gives up heat and turns back into a liquid. The <strong>expansion valve</strong> drops the liquid's pressure, which makes it very cold. The <strong>evaporator</strong> is a coil where the cold liquid absorbs heat and boils back into vapor. In heating mode the indoor coil is the condenser and the outdoor coil is the evaporator, and a <strong>reversing valve</strong> swaps the two roles for cooling.</p>
+<p>Every stage obeys one rule: heat flows only from the warmer thing to the colder thing. The next MicroSim asks you to apply that rule one stage at a time, and to predict each answer before it is revealed.</p>
+<h4 id="diagram-heat-pump-cycle-explorer">Diagram: Heat Pump Cycle Explorer<a class="headerlink" href="#diagram-heat-pump-cycle-explorer" title="Permanent link">¶</a></h4>
+<iframe src="../../sims/heat-pump-cycle-explorer/main.html" width="100%" height="692px" scrolling="no"></iframe>
+
+<p><a class="md-button" href="../../sims/heat-pump-cycle-explorer/main.html">Run the Heat Pump Cycle Explorer MicroSim fullscreen</a></p>
+<details>
+<summary>Heat Pump Cycle Explorer</summary>
+<p>Type: infographic
+<strong>sim-id:</strong> heat-pump-cycle-explorer<br>
+<strong>Library:</strong> html<br>
+<strong>Status:</strong> Specified<br>
+<strong>Bloom Level:</strong> Understand<br>
+<strong>Bloom Verb:</strong> explain<br>
+<strong>Learning Objective:</strong> The learner will explain, for each of the four main parts of a heat pump and for its reversing valve, what happens to the refrigerant and which way heat flows, in heating mode and in cooling mode.</p>
+<p><strong>Prerequisites:</strong> refrigerant, compressor, condenser, expansion valve, evaporator, reversing valve (all defined in the section "How a Heat Pump Works" above this block).</p>
+<p><strong>Evidence of Mastery:</strong> At each of 5 stages the learner commits an answer to a two-option prediction before the explanation is revealed. An answer is correct when it matches the Answer column in Content. Mastery is 4 of 5 correct. Opening part labels on the diagram is exploration, not evidence.</p>
+<p><strong>Misconceptions:</strong> (1) A heat pump makes heat the way a furnace does. (2) Cold outdoor air has no heat to give. (3) Cooling needs a different machine from heating.</p>
+<p><strong>Instructional Rationale:</strong> An Understand-level objective is met by predicting and then reading a concrete explanation, one stage at a time, so the learner sees why heat flows each way and not only the order of the parts.</p>
+<p><strong>Content:</strong></p>
+<p>The loop has five items in this order: compressor, condenser, expansion valve, evaporator, and the reversing valve that sits beside the compressor. Heating mode is shown first. Illustrative refrigerant temperatures for a 5°F day with 100°F supply air: the refrigerant in the evaporator is about -5°F and the refrigerant in the condenser is about 110°F.</p>
+<table>
+<thead>
+<tr>
+<th>Stage</th>
+<th>Part and what happens to the refrigerant</th>
+<th>Prediction question</th>
+<th>Options</th>
+<th>Answer</th>
+<th>Why (shown as feedback)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Compressor: low-pressure cool vapor goes in, high-pressure hot vapor comes out</td>
+<td>After compression the vapor's temperature is</td>
+<td>higher / lower</td>
+<td>higher</td>
+<td>Compression adds energy, so the vapor leaves hotter than the 100°F supply air, which lets heat flow out of it.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Condenser (indoor coil in heating mode): the hot vapor gives up heat and becomes liquid at about 110°F</td>
+<td>At the condenser, heat flows</td>
+<td>into the building / out of the building</td>
+<td>into the building</td>
+<td>The refrigerant at about 110°F is warmer than the 100°F air crossing the coil, so heat flows from the refrigerant to the air.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Expansion valve: the pressure drops and the liquid becomes much colder, about -5°F</td>
+<td>After the pressure drop the refrigerant is</td>
+<td>warmer than the outdoor air / colder than the outdoor air</td>
+<td>colder than the outdoor air</td>
+<td>Lower pressure lowers the boiling temperature, so the liquid falls to about -5°F, below the 5°F outdoor air.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Evaporator (outdoor coil in heating mode): the cold liquid absorbs heat and boils to vapor at about -5°F</td>
+<td>On a 5°F day, heat can flow from the outdoor air into the -5°F refrigerant</td>
+<td>yes / no</td>
+<td>yes</td>
+<td>Heat flows from warmer to colder, and the 5°F air is 10°F warmer than the refrigerant, so the refrigerant absorbs heat and boils.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Reversing valve: swaps which coil is the condenser and which is the evaporator</td>
+<td>In cooling mode the indoor coil acts as the</td>
+<td>condenser / evaporator</td>
+<td>evaporator</td>
+<td>In cooling mode the indoor coil must absorb heat from the room air, which is the evaporator's job.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Provenance:</strong> The parts and their jobs come from the section "How a Heat Pump Works" in this appendix. The refrigerant temperatures are illustrative, and the sim must label them "illustrative".</p>
+<p><strong>Rules:</strong> Heat flows only from higher to lower temperature. The evaporator refrigerant must be colder than its heat source, and the condenser refrigerant must be hotter than its heat sink. The compressor sets the condenser temperature and the expansion valve sets the evaporator temperature. The mode switch exchanges which coil is the condenser and which is the evaporator. The compressor and expansion valve keep the same jobs in both modes.</p>
+<p><strong>Learner Activity:</strong></p>
+<ol>
+<li>The learner sees the loop in heating mode with all five parts named and no stage selected. Opening a part's label shows its job in one sentence.</li>
+<li>The learner starts the walkthrough. Stage 1 is highlighted, and the learner chooses an option for its prediction question.</li>
+<li>The sim reveals whether the choice was correct, shows the Why text, and marks the refrigerant's temperature at that point on the loop. The learner moves to the next stage.</li>
+<li>After stage 5 the learner switches between heating and cooling mode and watches the two coils exchange roles.</li>
+<li>The learner should notice that the same four parts do the same four jobs in both modes, and only the coil that plays the evaporator changes.</li>
+</ol>
+<p><strong>Feedback:</strong> Five questions in fixed order, one attempt each. After every answer the sim shows "Correct:" or "Not quite:" followed by the Why text, so the explanation is always revealed. A running count "n of 5" is shown, and the final score appears after stage 5.</p>
+<p><strong>Starting State:</strong> The heating-mode loop with five labeled parts and no stage selected, under the prompt "Heat flows only from warmer to colder. Where does the refrigerant have to be warmer, and where colder?"</p>
+<p><strong>Chapter Anchors:</strong> Appendix A names four main parts plus a reversing valve. In heating mode the indoor coil is the condenser and the outdoor coil is the evaporator. A heat pump's COP can exceed 1 because it moves heat instead of making it.</p>
+</details>
+<h2 id="the-physics-that-does-not-change">The Physics That Does Not Change<a class="headerlink" href="#the-physics-that-does-not-change" title="Permanent link">¶</a></h2>
+<p>The ratio of heat delivered to electricity used is the <strong>coefficient of performance (COP)</strong>. A COP of 3 means three units of heat for each unit of electricity. The second law of thermodynamics sets an upper limit that depends only on the two temperatures the machine works between, measured in kelvin:</p>
+<p><span class="arithmatex">\( \text{COP}_{\max} = \dfrac{T_{\text{hot}}}{T_{\text{hot}} - T_{\text{cold}}} \)</span></p>
+<p>The gap between the two temperatures is called the <strong>lift</strong>. A smaller lift means a higher possible COP.</p>
+<p><strong>Worked example: why cold weather hurts.</strong> Suppose a heat pump supplies air heated to 100°F (310.9 K).</p>
+<table>
+<thead>
+<tr>
+<th>Outdoor temperature</th>
+<th>Outdoor (K)</th>
+<th>Lift (K)</th>
+<th>Carnot limit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>47°F</td>
+<td>281.5</td>
+<td>29.4</td>
+<td>10.6</td>
+</tr>
+<tr>
+<td>5°F</td>
+<td>258.2</td>
+<td>52.8</td>
+<td>5.9</td>
+</tr>
+</tbody>
+</table>
+<p>The limit nearly halves between a mild day and a cold one. Real equipment reaches only a fraction of it. The NEEP cold-climate specification, for example, asks for a COP of at least 1.75 at 5°F, about 30 percent of the 5.9 limit in the table.<sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup> No engineering breakthrough repeals this arithmetic. Engineering progress shows up as a larger fraction of the limit and a machine that keeps its capacity as the lift grows.</p>
+<h2 id="what-is-changing">What Is Changing<a class="headerlink" href="#what-is-changing" title="Permanent link">¶</a></h2>
+<ul>
+<li><strong>Variable-speed compressors.</strong> Inverter-driven compressors adjust their speed to the load instead of cycling on and off, which improves efficiency and lets a machine hold capacity at low outdoor temperatures.</li>
+<li><strong>Cold-climate performance.</strong> Models listed to cold-climate specifications are designed to keep heating at 5°F and below, which moved heat pumps from "mild climates only" to a serious option in Minneapolis.</li>
+<li><strong>Refrigerants.</strong> Under the AIM Act, EPA's Technology Transitions rule limits new residential air-conditioning and heat pump equipment to refrigerants with a global warming potential below 700. R-410A, with a potential near 2,088, was replaced in equipment manufactured from January 1, 2025 by refrigerants such as R-454B and R-32.<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup> These are classed as mildly flammable, so codes, installer training, and service practices are changing with them. The installation deadline for earlier-built R-410A equipment was relaxed by EPA in 2026, an example of how fast the rules move.</li>
+<li><strong>Electrical service.</strong> Replacing a gas furnace and water heater adds electrical load. Chapter 15 and the <a href="../../sims/service-headroom-ev-pv-explorer/">Service Headroom for Solar and EV Loads</a> MicroSim show how the panel and service size become design questions.</li>
+</ul>
+<h2 id="worked-example-heating-cost-per-100000-btu">Worked Example: Heating Cost per 100,000 Btu<a class="headerlink" href="#worked-example-heating-cost-per-100000-btu" title="Permanent link">¶</a></h2>
+<p>One therm of natural gas holds 100,000 Btu, and one kilowatt-hour equals 3,412 Btu. The table compares three ways to deliver 100,000 Btu of heat to the rooms. Prices are illustrative; look up current local rates before drawing a conclusion.</p>
+<table>
+<thead>
+<tr>
+<th>System</th>
+<th>Efficiency</th>
+<th>Energy input</th>
+<th>Illustrative price</th>
+<th>Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>95% gas furnace</td>
+<td>0.95</td>
+<td>1.05 therms</td>
+<td>$1.20 per therm</td>
+<td>$1.26</td>
+</tr>
+<tr>
+<td>Heat pump, seasonal COP 2.5</td>
+<td>2.5</td>
+<td>11.7 kWh</td>
+<td>$0.14 per kWh</td>
+<td>$1.64</td>
+</tr>
+<tr>
+<td>Electric resistance</td>
+<td>1.0</td>
+<td>29.3 kWh</td>
+<td>$0.14 per kWh</td>
+<td>$4.10</td>
+</tr>
+</tbody>
+</table>
+<p>At these prices the gas furnace is still cheaper to run, and the heat pump beats resistance heat by a wide margin. The heat pump breaks even when gas costs about 11.1 times the electricity price per kilowatt-hour, or when its seasonal COP is high enough. Both prices move from year to year, which is one reason the answer keeps changing.</p>
+<p>The next MicroSim lets you compute the Carnot limit yourself for four cases and then turn it into energy and cost for 100,000 Btu of heat.</p>
+<h4 id="diagram-heat-pump-cop-and-lift-explorer">Diagram: Heat Pump COP and Lift Explorer<a class="headerlink" href="#diagram-heat-pump-cop-and-lift-explorer" title="Permanent link">¶</a></h4>
+<iframe src="../../sims/heat-pump-cop-lift-explorer/main.html" width="100%" height="622px" scrolling="no"></iframe>
+
+<p><a class="md-button" href="../../sims/heat-pump-cop-lift-explorer/main.html">Run the Heat Pump COP and Lift Explorer MicroSim fullscreen</a></p>
+<details>
+<summary>Heat Pump COP and Lift Explorer</summary>
+<p>Type: microsim
+<strong>sim-id:</strong> heat-pump-cop-lift-explorer<br>
+<strong>Library:</strong> p5.js<br>
+<strong>Status:</strong> Specified<br>
+<strong>Bloom Level:</strong> Apply<br>
+<strong>Bloom Verb:</strong> calculate<br>
+<strong>Learning Objective:</strong> The learner will calculate the Carnot limit on heat pump COP from a stated outdoor temperature and supply temperature, to within 0.1, and use it to estimate the electricity and cost needed to deliver 100,000 Btu of heat.</p>
+<p><strong>Prerequisites:</strong> coefficient of performance (COP), lift, Carnot limit, kelvin, therm, kilowatt-hour (all defined in this appendix above the block).</p>
+<p><strong>Evidence of Mastery:</strong> In four challenges the learner types the Carnot limit for a stated outdoor and supply temperature before the sim reveals it. An answer is correct when it is within ±0.1 of the model value. Mastery is 4 of 4 correct, with two attempts allowed on each. Changing the adjustable quantities afterward is exploration, not evidence.</p>
+<p><strong>Misconceptions:</strong> (1) A heat pump has one fixed COP. (2) Heat pumps stop working below freezing. (3) A COP above 1 violates conservation of energy.</p>
+<p><strong>Instructional Rationale:</strong> Apply-level skill needs the learner to carry out the calculation and commit a number before seeing the answer. Free exploration comes afterward, so the learner sees that the lift, not only the machine, sets the limit.</p>
+<p><strong>Content:</strong></p>
+<p>Conversion: temperature in kelvin = (°F - 32) x 5/9 + 273.15. Carnot limit = T_supply / (T_supply - T_outdoor), with both in kelvin.</p>
+<p>Challenges, in this order:</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Outdoor (°F)</th>
+<th>Supply (°F)</th>
+<th>Carnot limit</th>
+<th>Feedback when wrong</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>47</td>
+<td>100</td>
+<td>10.6</td>
+<td>Outdoors is 281.5 K and supply is 310.9 K, so the lift is 29.4 K and the limit is 310.9 / 29.4 = 10.6.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>5</td>
+<td>100</td>
+<td>5.9</td>
+<td>Outdoors is 258.2 K, so the lift is 52.8 K and the limit is 310.9 / 52.8 = 5.9. Colder weather means more lift and a lower limit.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>-10</td>
+<td>100</td>
+<td>5.1</td>
+<td>Outdoors is 249.8 K, so the lift is 61.1 K and the limit is 310.9 / 61.1 = 5.1.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>5</td>
+<td>120</td>
+<td>5.0</td>
+<td>Supply is 322.0 K and outdoors is 258.2 K, so the lift is 63.9 K and the limit is 322.0 / 63.9 = 5.0. A hotter supply raises the lift, so a system delivering 120°F water has a lower limit than one delivering 100°F air.</td>
+</tr>
+</tbody>
+</table>
+<p>Adjustable quantities after the challenges:</p>
+<table>
+<thead>
+<tr>
+<th>Quantity</th>
+<th>Min</th>
+<th>Max</th>
+<th>Step</th>
+<th>Default</th>
+<th>Unit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Outdoor temperature</td>
+<td>-20</td>
+<td>60</td>
+<td>5</td>
+<td>5</td>
+<td>°F</td>
+</tr>
+<tr>
+<td>Supply temperature</td>
+<td>90</td>
+<td>130</td>
+<td>5</td>
+<td>100</td>
+<td>°F</td>
+</tr>
+<tr>
+<td>Fraction of the Carnot limit achieved</td>
+<td>0.30</td>
+<td>0.60</td>
+<td>0.05</td>
+<td>0.40</td>
+<td>none</td>
+</tr>
+<tr>
+<td>Electricity price</td>
+<td>0.08</td>
+<td>0.30</td>
+<td>0.02</td>
+<td>0.14</td>
+<td>$ per kWh</td>
+</tr>
+<tr>
+<td>Natural gas price</td>
+<td>0.80</td>
+<td>2.40</td>
+<td>0.10</td>
+<td>1.20</td>
+<td>$ per therm</td>
+</tr>
+</tbody>
+</table>
+<p>Choice of COP source: "Carnot estimate" (default) or "Seasonal COP 2.5 (the Appendix A example)".</p>
+<p>Outputs shown for each setting: the Carnot limit, the COP used, and the cost of 100,000 Btu of delivered heat for three systems: the heat pump, a 95 percent efficient gas furnace, and electric resistance heat. A reference mark at COP 1.75 shows the NEEP cold-climate minimum at 5°F.</p>
+<p><strong>Provenance:</strong> The formula, the 100°F supply case, the cost comparison and the seasonal COP of 2.5 come from this appendix. The conversions 1 kWh = 3,412 Btu and 1 therm = 100,000 Btu are standard. The fraction-of-Carnot range and all prices are illustrative, and the sim must label them "illustrative". The 1.75 reference is from the NEEP specification cited in this appendix.</p>
+<p><strong>Rules:</strong></p>
+<ul>
+<li>Real COP estimate = fraction x Carnot limit. COP is shown to one decimal place.</li>
+<li>Electricity for 100,000 Btu = 100,000 / (3,412 x COP) kWh. Heat pump cost = that value x electricity price.</li>
+<li>Furnace gas = 100,000 / (100,000 x 0.95) = 1.053 therms. Furnace cost = 1.053 x gas price.</li>
+<li>Electric resistance = 100,000 / 3,412 = 29.3 kWh. Cost = 29.3 x electricity price.</li>
+<li>Break-even gas price = heat pump cost / 1.053. The heat pump is cheaper than the furnace when gas price &gt; break-even.</li>
+<li>Every value in the ranges above gives a Carnot limit above 3.9 and a COP estimate of at least 1.18, so no input produces a division by zero or a COP below 1.</li>
+<li>With COP source set to seasonal 2.5 and the default prices, the sim must reproduce Appendix A: 11.7 kWh and $1.64 for the heat pump, $1.26 for the furnace, 29.3 kWh and $4.10 for resistance, and a break-even gas price of $1.56 per therm.</li>
+</ul>
+<p><strong>Learner Activity:</strong></p>
+<ol>
+<li>The learner reads the stated outdoor and supply temperatures for a challenge and types the Carnot limit.</li>
+<li>The learner presses Check. The sim reveals the model value and shows the correct or incorrect message.</li>
+<li>After the fourth challenge the adjustable quantities unlock. Changing any of them updates all outputs at once.</li>
+<li>The learner raises the supply temperature from 100°F to 120°F and should notice that the limit falls.</li>
+<li>The learner switches the COP source between the Carnot estimate and seasonal 2.5, and should notice that the heat pump is still more expensive to run than the furnace at default prices but beats electric resistance by a wide margin.</li>
+<li>The learner raises the gas price until the heat pump becomes the cheaper system and compares that price with the break-even value shown.</li>
+</ol>
+<p><strong>Feedback:</strong> Four challenges, fixed order, two attempts each. Correct: "Correct: the limit is <value>." Incorrect on the first attempt: the "Feedback when wrong" text for that challenge. After a second wrong attempt the model value and the worked calculation are shown, and the challenge counts as missed. A running count "Challenges correct: n of 4" is shown.</value></p>
+<p><strong>Starting State:</strong> Challenge 1 is shown with an empty answer box under the question "How high could the COP be on a 47°F day when the building needs 100°F supply air?"</p>
+<p><strong>Chapter Anchors:</strong> Carnot limits of 10.6 at 47°F and 5.9 at 5°F for a 100°F supply. NEEP minimum COP of 1.75 at 5°F. Costs of $1.26, $1.64 and $4.10 per 100,000 Btu, with 1.05 therms, 11.7 kWh and 29.3 kWh. Break-even at about 11.1 times the electricity price per kWh.</p>
+</details>
+<h4 id="diagram-heating-system-energy-comparison">Diagram: Heating System Energy Comparison<a class="headerlink" href="#diagram-heating-system-energy-comparison" title="Permanent link">¶</a></h4>
+<iframe src="../../sims/heating-system-energy-comparison/main.html" width="100%" height="742px" scrolling="no"></iframe>
+
+<p><a class="md-button" href="../../sims/heating-system-energy-comparison/main.html">Run the Heating System Energy Comparison MicroSim fullscreen</a></p>
+<details>
+<summary>Heating System Energy Comparison (reused MicroSim)</summary>
+<p>Type: chart
+<strong>sim-id:</strong> heating-system-energy-comparison<br>
+<strong>Library:</strong> Chart.js<br>
+<strong>Status:</strong> Reused<br>
+<strong>Source:</strong> https://dmccreary.github.io/science-of-the-built-envrionment/sims/heating-system-energy-comparison/<br>
+<strong>Source Repo:</strong> https://github.com/dmccreary/science-of-the-built-envrionment<br>
+<strong>Bloom Level:</strong> Analyze<br>
+<strong>Bloom Verb:</strong> compare<br>
+<strong>Learning Objective:</strong> The learner will compare the input energy that four heating systems need to deliver the same heat and explain why heat pump COP falls as the outdoor temperature falls.</p>
+<p>Reused from this book's own MicroSims (Chapter 14), which already teach the same idea with a COP curve across outdoor temperatures.</p>
+</details>
+<div class="admonition mascot-tip">
+<p class="admonition-title">Ask for the Design-Temperature Number</p>
+<p><img alt="Beau giving a tip" class="mascot-admonition-img" src="../../img/mascot/tip.png">
+A catalog COP is usually rated at 47°F. Ask the manufacturer for capacity and COP at the outdoor design temperature for your site, then compare that capacity with the building's heat loss on its coldest hour.</p>
+</div>
+<h2 id="what-to-watch">What to Watch<a class="headerlink" href="#what-to-watch" title="Permanent link">¶</a></h2>
+<ul>
+<li>Cold-climate heat pump listings and test standards, which are revised as products improve.</li>
+<li>Refrigerant rules and the safety standards for mildly flammable refrigerants.</li>
+<li>Federal, state, and utility incentives, which have changed repeatedly and differ by location.</li>
+<li>Utility rate designs, such as winter electric heating rates, that decide the operating-cost comparison.</li>
+<li>Heat pump water heaters and combined space-and-water systems, which extend the same idea.</li>
+</ul>
+<h2 id="connects-to">Connects To<a class="headerlink" href="#connects-to" title="Permanent link">¶</a></h2>
+<ul>
+<li><a href="../../chapters/14-hvac-plumbing-fire/">Chapter 14: HVAC, Plumbing, and Fire Protection Systems</a></li>
+<li><a href="../../chapters/19-energy-efficiency/">Chapter 19: Energy Efficiency and High-Performance Buildings</a></li>
+<li><a href="../../sims/heating-system-energy-comparison/">Heating System Energy Comparison</a> MicroSim</li>
+</ul>
+<h2 id="key-takeaways">Key Takeaways<a class="headerlink" href="#key-takeaways" title="Permanent link">¶</a></h2>
+<ul>
+<li>A heat pump moves heat, so its COP can exceed 1; the limit depends on the lift between source and delivery temperatures.</li>
+<li>Cold weather increases the lift, so performance at the design temperature matters more than the headline rating.</li>
+<li>Compressors, refrigerants, incentives, and prices are all changing; the thermodynamics is not.</li>
+</ul>
+<h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">¶</a></h2>
+<p><a href="references/">See Annotated References</a></p>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:1">
+<p>Northeast Energy Efficiency Partnerships. <em>Cold Climate Air-Source Heat Pump Specification.</em> <a href="https://neep.org/sites/default/files/resources/NEEP%20cold%20climate%20Air-Source%20Heat%20Pump%20Specification.pdf">https://neep.org/sites/default/files/resources/NEEP%20cold%20climate%20Air-Source%20Heat%20Pump%20Specification.pdf</a>&nbsp;<a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">↩</a></p>
+</li>
+<li id="fn:2">
+<p>U.S. Environmental Protection Agency. <em>Frequent Questions on the Phasedown of Hydrofluorocarbons.</em> <a href="https://www.epa.gov/hfcs/frequent-questions-phasedown-hydrofluorocarbons">https://www.epa.gov/hfcs/frequent-questions-phasedown-hydrofluorocarbons</a>&nbsp;<a class="footnote-backref" href="#fnref:2" title="Jump back to footnote 2 in the text">↩</a></p>
+</li>
+</ol>
+</div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer">
+        
+          
+          <a href="../" class="md-footer__link md-footer__link--prev" aria-label="Previous: Topics Changing Fastest">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Topics Changing Fastest
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="quiz/" class="md-footer__link md-footer__link--next" aria-label="Next: Quiz">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Quiz
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright © 2026 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "content.action.edit", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "search.share"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="../../js/extra.js"></script>
+      
+        <script src="../../js/katex.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>

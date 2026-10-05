@@ -1,0 +1,5711 @@
+{
+  "metadata": {
+    "title": "The Science of the Built Environment",
+    "description": "An introduction to the properties and applications of common building materials used for foundations, framing, and building systems, taught at Dunwoody College of Technology in Minneapolis, Minnesota.",
+    "creator": "Dan McCreary",
+    "date": "2026-10-05",
+    "version": "1.1",
+    "format": "Learning Graph JSON v1.0",
+    "schema": "https://raw.githubusercontent.com/dmccreary/learning-graphs/refs/heads/main/src/schema/learning-graph-schema.json",
+    "license": "CC BY-NC-SA 4.0 DEED"
+  },
+  "groups": {
+    "FOUND": {
+      "classifierName": "Foundations and Terminology",
+      "color": "SteelBlue",
+      "font": {
+        "color": "white"
+      }
+    },
+    "PROC": {
+      "classifierName": "Design and Construction Process",
+      "color": "MediumPurple",
+      "font": {
+        "color": "white"
+      }
+    },
+    "PHYS": {
+      "classifierName": "Building Physics",
+      "color": "Gold",
+      "font": {
+        "color": "black"
+      }
+    },
+    "MATP": {
+      "classifierName": "Material Properties",
+      "color": "DarkGoldenrod",
+      "font": {
+        "color": "white"
+      }
+    },
+    "SITE": {
+      "classifierName": "Site and Foundations",
+      "color": "SaddleBrown",
+      "font": {
+        "color": "white"
+      }
+    },
+    "STRC": {
+      "classifierName": "Structural Systems",
+      "color": "DarkGreen",
+      "font": {
+        "color": "white"
+      }
+    },
+    "ENCL": {
+      "classifierName": "Building Enclosure",
+      "color": "Teal",
+      "font": {
+        "color": "white"
+      }
+    },
+    "MECH": {
+      "classifierName": "Mechanical, Plumbing, and Fire Systems",
+      "color": "DodgerBlue",
+      "font": {
+        "color": "white"
+      }
+    },
+    "ELEC": {
+      "classifierName": "Electrical Systems",
+      "color": "Orange",
+      "font": {
+        "color": "black"
+      }
+    },
+    "CODE": {
+      "classifierName": "Codes and Regulations",
+      "color": "Crimson",
+      "font": {
+        "color": "white"
+      }
+    },
+    "SUST": {
+      "classifierName": "Sustainable Materials and Design",
+      "color": "LimeGreen",
+      "font": {
+        "color": "black"
+      }
+    },
+    "DURA": {
+      "classifierName": "Durability and Failure",
+      "color": "DimGray",
+      "font": {
+        "color": "white"
+      }
+    },
+    "EVOL": {
+      "classifierName": "Rapidly Evolving Technologies",
+      "color": "DeepPink",
+      "font": {
+        "color": "white"
+      }
+    }
+  },
+  "nodes": [
+    {
+      "id": 1,
+      "label": "Built Environment",
+      "group": "FOUND",
+      "shape": "box",
+      "cis": 1399
+    },
+    {
+      "id": 2,
+      "label": "Building",
+      "group": "FOUND",
+      "cis": 990
+    },
+    {
+      "id": 3,
+      "label": "Construction Industry",
+      "group": "FOUND",
+      "cis": 348
+    },
+    {
+      "id": 4,
+      "label": "Building Materials",
+      "group": "FOUND",
+      "cis": 351
+    },
+    {
+      "id": 5,
+      "label": "Building Systems",
+      "group": "FOUND",
+      "cis": 203
+    },
+    {
+      "id": 6,
+      "label": "Building Types",
+      "group": "FOUND",
+      "cis": 14
+    },
+    {
+      "id": 7,
+      "label": "Residential Construction",
+      "group": "FOUND",
+      "cis": 2
+    },
+    {
+      "id": 8,
+      "label": "Commercial Construction",
+      "group": "FOUND",
+      "cis": 1
+    },
+    {
+      "id": 9,
+      "label": "Industrial Construction",
+      "group": "FOUND",
+      "cis": 1
+    },
+    {
+      "id": 10,
+      "label": "Institutional Construction",
+      "group": "FOUND",
+      "cis": 1
+    },
+    {
+      "id": 11,
+      "label": "Construction Terminology",
+      "group": "FOUND",
+      "cis": 69
+    },
+    {
+      "id": 12,
+      "label": "Units of Measurement",
+      "group": "FOUND",
+      "shape": "box",
+      "cis": 42
+    },
+    {
+      "id": 13,
+      "label": "Scale and Dimensions",
+      "group": "FOUND",
+      "cis": 41
+    },
+    {
+      "id": 14,
+      "label": "Construction Drawings",
+      "group": "FOUND",
+      "cis": 40
+    },
+    {
+      "id": 15,
+      "label": "Plans",
+      "group": "FOUND",
+      "cis": 4
+    },
+    {
+      "id": 16,
+      "label": "Elevations",
+      "group": "FOUND",
+      "cis": 1
+    },
+    {
+      "id": 17,
+      "label": "Sections",
+      "group": "FOUND",
+      "cis": 1
+    },
+    {
+      "id": 18,
+      "label": "Details",
+      "group": "FOUND",
+      "cis": 1
+    },
+    {
+      "id": 19,
+      "label": "Specifications",
+      "group": "FOUND",
+      "cis": 27
+    },
+    {
+      "id": 20,
+      "label": "Schedules",
+      "group": "FOUND",
+      "cis": 1
+    },
+    {
+      "id": 21,
+      "label": "Symbols and Abbreviations",
+      "group": "FOUND",
+      "cis": 1
+    },
+    {
+      "id": 22,
+      "label": "Building Science",
+      "group": "FOUND",
+      "cis": 1
+    },
+    {
+      "id": 23,
+      "label": "Design Process",
+      "group": "PROC",
+      "cis": 143
+    },
+    {
+      "id": 24,
+      "label": "Construction Process",
+      "group": "PROC",
+      "cis": 75
+    },
+    {
+      "id": 25,
+      "label": "Project Phases",
+      "group": "PROC",
+      "cis": 51
+    },
+    {
+      "id": 26,
+      "label": "Programming",
+      "group": "PROC",
+      "cis": 28
+    },
+    {
+      "id": 27,
+      "label": "Schematic Design",
+      "group": "PROC",
+      "cis": 27
+    },
+    {
+      "id": 28,
+      "label": "Design Development",
+      "group": "PROC",
+      "cis": 26
+    },
+    {
+      "id": 29,
+      "label": "Construction Documents",
+      "group": "PROC",
+      "cis": 25
+    },
+    {
+      "id": 30,
+      "label": "Bidding and Procurement",
+      "group": "PROC",
+      "cis": 18
+    },
+    {
+      "id": 31,
+      "label": "Construction Administration",
+      "group": "PROC",
+      "cis": 12
+    },
+    {
+      "id": 32,
+      "label": "Commissioning",
+      "group": "PROC",
+      "cis": 4
+    },
+    {
+      "id": 33,
+      "label": "Occupancy and Closeout",
+      "group": "PROC",
+      "cis": 2
+    },
+    {
+      "id": 34,
+      "label": "Project Owner",
+      "group": "PROC",
+      "cis": 1
+    },
+    {
+      "id": 35,
+      "label": "Architect",
+      "group": "PROC",
+      "cis": 9
+    },
+    {
+      "id": 36,
+      "label": "Structural Engineer",
+      "group": "PROC",
+      "cis": 9
+    },
+    {
+      "id": 37,
+      "label": "Mechanical Engineer",
+      "group": "PROC",
+      "cis": 9
+    },
+    {
+      "id": 38,
+      "label": "Electrical Designer",
+      "group": "PROC",
+      "cis": 10
+    },
+    {
+      "id": 39,
+      "label": "General Contractor",
+      "group": "PROC",
+      "cis": 2
+    },
+    {
+      "id": 40,
+      "label": "Subcontractor",
+      "group": "PROC",
+      "cis": 1
+    },
+    {
+      "id": 41,
+      "label": "Building Official",
+      "group": "PROC",
+      "cis": 13
+    },
+    {
+      "id": 42,
+      "label": "Design-Bid-Build",
+      "group": "PROC",
+      "cis": 5
+    },
+    {
+      "id": 43,
+      "label": "Design-Build",
+      "group": "PROC",
+      "cis": 2
+    },
+    {
+      "id": 44,
+      "label": "Construction Manager at Risk",
+      "group": "PROC",
+      "cis": 2
+    },
+    {
+      "id": 45,
+      "label": "Integrated Project Delivery",
+      "group": "PROC",
+      "cis": 1
+    },
+    {
+      "id": 46,
+      "label": "Submittals",
+      "group": "PROC",
+      "cis": 1
+    },
+    {
+      "id": 47,
+      "label": "Requests for Information",
+      "group": "PROC",
+      "cis": 1
+    },
+    {
+      "id": 48,
+      "label": "Change Orders",
+      "group": "PROC",
+      "cis": 1
+    },
+    {
+      "id": 49,
+      "label": "Construction Sequencing",
+      "group": "PROC",
+      "cis": 2
+    },
+    {
+      "id": 50,
+      "label": "Critical Path",
+      "group": "PROC",
+      "cis": 1
+    },
+    {
+      "id": 51,
+      "label": "Building Information Modeling",
+      "group": "PROC",
+      "cis": 6
+    },
+    {
+      "id": 52,
+      "label": "Interdisciplinary Coordination",
+      "group": "PROC",
+      "cis": 8
+    },
+    {
+      "id": 53,
+      "label": "Inspection and Testing",
+      "group": "PROC",
+      "cis": 4
+    },
+    {
+      "id": 54,
+      "label": "Forces",
+      "group": "PHYS",
+      "shape": "box",
+      "cis": 498
+    },
+    {
+      "id": 55,
+      "label": "Stress",
+      "group": "PHYS",
+      "cis": 125
+    },
+    {
+      "id": 56,
+      "label": "Strain",
+      "group": "PHYS",
+      "cis": 10
+    },
+    {
+      "id": 57,
+      "label": "Equilibrium",
+      "group": "PHYS",
+      "cis": 160
+    },
+    {
+      "id": 58,
+      "label": "Heat",
+      "group": "PHYS",
+      "shape": "box",
+      "cis": 432
+    },
+    {
+      "id": 59,
+      "label": "Heat Transfer",
+      "group": "PHYS",
+      "cis": 383
+    },
+    {
+      "id": 60,
+      "label": "Conduction",
+      "group": "PHYS",
+      "cis": 73
+    },
+    {
+      "id": 61,
+      "label": "Convection",
+      "group": "PHYS",
+      "cis": 4
+    },
+    {
+      "id": 62,
+      "label": "Radiation",
+      "group": "PHYS",
+      "cis": 28
+    },
+    {
+      "id": 63,
+      "label": "Thermal Resistance",
+      "group": "PHYS",
+      "cis": 67
+    },
+    {
+      "id": 64,
+      "label": "R-Value",
+      "group": "PHYS",
+      "cis": 37
+    },
+    {
+      "id": 65,
+      "label": "U-Value",
+      "group": "PHYS",
+      "cis": 4
+    },
+    {
+      "id": 66,
+      "label": "Thermal Bridging",
+      "group": "PHYS",
+      "cis": 5
+    },
+    {
+      "id": 67,
+      "label": "Thermal Mass",
+      "group": "PHYS",
+      "cis": 3
+    },
+    {
+      "id": 68,
+      "label": "Moisture",
+      "group": "PHYS",
+      "shape": "box",
+      "cis": 243
+    },
+    {
+      "id": 69,
+      "label": "Humidity",
+      "group": "PHYS",
+      "cis": 22
+    },
+    {
+      "id": 70,
+      "label": "Relative Humidity",
+      "group": "PHYS",
+      "cis": 11
+    },
+    {
+      "id": 71,
+      "label": "Dew Point",
+      "group": "PHYS",
+      "cis": 5
+    },
+    {
+      "id": 72,
+      "label": "Condensation",
+      "group": "PHYS",
+      "cis": 2
+    },
+    {
+      "id": 73,
+      "label": "Vapor Diffusion",
+      "group": "PHYS",
+      "cis": 5
+    },
+    {
+      "id": 74,
+      "label": "Air Pressure Differences",
+      "group": "PHYS",
+      "cis": 52
+    },
+    {
+      "id": 75,
+      "label": "Stack Effect",
+      "group": "PHYS",
+      "cis": 3
+    },
+    {
+      "id": 76,
+      "label": "Air Leakage",
+      "group": "PHYS",
+      "cis": 24
+    },
+    {
+      "id": 77,
+      "label": "Capillary Action",
+      "group": "PHYS",
+      "cis": 2
+    },
+    {
+      "id": 78,
+      "label": "Sound Transmission",
+      "group": "PHYS",
+      "cis": 1
+    },
+    {
+      "id": 79,
+      "label": "Daylight",
+      "group": "PHYS",
+      "cis": 5
+    },
+    {
+      "id": 80,
+      "label": "Thermal Comfort",
+      "group": "PHYS",
+      "cis": 2
+    },
+    {
+      "id": 81,
+      "label": "Psychrometric Chart",
+      "group": "PHYS",
+      "cis": 2
+    },
+    {
+      "id": 82,
+      "label": "Material Properties",
+      "group": "MATP",
+      "cis": 204
+    },
+    {
+      "id": 83,
+      "label": "Strength",
+      "group": "MATP",
+      "cis": 100
+    },
+    {
+      "id": 84,
+      "label": "Compressive Strength",
+      "group": "MATP",
+      "cis": 65
+    },
+    {
+      "id": 85,
+      "label": "Tensile Strength",
+      "group": "MATP",
+      "cis": 11
+    },
+    {
+      "id": 86,
+      "label": "Shear Strength",
+      "group": "MATP",
+      "cis": 1
+    },
+    {
+      "id": 87,
+      "label": "Stiffness",
+      "group": "MATP",
+      "cis": 3
+    },
+    {
+      "id": 88,
+      "label": "Modulus of Elasticity",
+      "group": "MATP",
+      "cis": 1
+    },
+    {
+      "id": 89,
+      "label": "Ductility",
+      "group": "MATP",
+      "cis": 3
+    },
+    {
+      "id": 90,
+      "label": "Brittleness",
+      "group": "MATP",
+      "cis": 1
+    },
+    {
+      "id": 91,
+      "label": "Toughness",
+      "group": "MATP",
+      "cis": 1
+    },
+    {
+      "id": 92,
+      "label": "Density",
+      "group": "MATP",
+      "cis": 1
+    },
+    {
+      "id": 93,
+      "label": "Thermal Expansion",
+      "group": "MATP",
+      "cis": 9
+    },
+    {
+      "id": 94,
+      "label": "Permeability",
+      "group": "MATP",
+      "cis": 1
+    },
+    {
+      "id": 95,
+      "label": "Porosity",
+      "group": "MATP",
+      "cis": 2
+    },
+    {
+      "id": 96,
+      "label": "Fire Resistance",
+      "group": "MATP",
+      "cis": 22
+    },
+    {
+      "id": 97,
+      "label": "Combustibility",
+      "group": "MATP",
+      "cis": 1
+    },
+    {
+      "id": 98,
+      "label": "Weathering",
+      "group": "MATP",
+      "cis": 24
+    },
+    {
+      "id": 99,
+      "label": "Corrosion",
+      "group": "MATP",
+      "cis": 1
+    },
+    {
+      "id": 100,
+      "label": "Creep and Shrinkage",
+      "group": "MATP",
+      "cis": 3
+    },
+    {
+      "id": 101,
+      "label": "Material Testing",
+      "group": "MATP",
+      "cis": 10
+    },
+    {
+      "id": 102,
+      "label": "ASTM Standards",
+      "group": "MATP",
+      "cis": 3
+    },
+    {
+      "id": 103,
+      "label": "Material Selection",
+      "group": "MATP",
+      "cis": 1
+    },
+    {
+      "id": 104,
+      "label": "Site Analysis",
+      "group": "SITE",
+      "cis": 54
+    },
+    {
+      "id": 105,
+      "label": "Site Preparation",
+      "group": "SITE",
+      "cis": 13
+    },
+    {
+      "id": 106,
+      "label": "Excavation",
+      "group": "SITE",
+      "cis": 8
+    },
+    {
+      "id": 107,
+      "label": "Grading",
+      "group": "SITE",
+      "cis": 4
+    },
+    {
+      "id": 108,
+      "label": "Soil Types",
+      "group": "SITE",
+      "cis": 39
+    },
+    {
+      "id": 109,
+      "label": "Soil Bearing Capacity",
+      "group": "SITE",
+      "cis": 21
+    },
+    {
+      "id": 110,
+      "label": "Soil Testing",
+      "group": "SITE",
+      "cis": 1
+    },
+    {
+      "id": 111,
+      "label": "Groundwater",
+      "group": "SITE",
+      "cis": 5
+    },
+    {
+      "id": 112,
+      "label": "Frost Depth",
+      "group": "SITE",
+      "cis": 3
+    },
+    {
+      "id": 113,
+      "label": "Frost Heave",
+      "group": "SITE",
+      "cis": 1
+    },
+    {
+      "id": 114,
+      "label": "Site Drainage",
+      "group": "SITE",
+      "cis": 3
+    },
+    {
+      "id": 115,
+      "label": "Foundation Systems",
+      "group": "SITE",
+      "cis": 19
+    },
+    {
+      "id": 116,
+      "label": "Shallow Foundations",
+      "group": "SITE",
+      "cis": 15
+    },
+    {
+      "id": 117,
+      "label": "Spread Footings",
+      "group": "SITE",
+      "cis": 2
+    },
+    {
+      "id": 118,
+      "label": "Continuous Footings",
+      "group": "SITE",
+      "cis": 8
+    },
+    {
+      "id": 119,
+      "label": "Footing Reinforcement",
+      "group": "SITE",
+      "cis": 1
+    },
+    {
+      "id": 120,
+      "label": "Mat Foundations",
+      "group": "SITE",
+      "cis": 1
+    },
+    {
+      "id": 121,
+      "label": "Deep Foundations",
+      "group": "SITE",
+      "cis": 3
+    },
+    {
+      "id": 122,
+      "label": "Piles",
+      "group": "SITE",
+      "cis": 1
+    },
+    {
+      "id": 123,
+      "label": "Drilled Piers",
+      "group": "SITE",
+      "cis": 1
+    },
+    {
+      "id": 124,
+      "label": "Foundation Walls",
+      "group": "SITE",
+      "cis": 7
+    },
+    {
+      "id": 125,
+      "label": "Basements",
+      "group": "SITE",
+      "cis": 2
+    },
+    {
+      "id": 126,
+      "label": "Crawl Spaces",
+      "group": "SITE",
+      "cis": 1
+    },
+    {
+      "id": 127,
+      "label": "Slab-on-Grade",
+      "group": "SITE",
+      "cis": 2
+    },
+    {
+      "id": 128,
+      "label": "Retaining Walls",
+      "group": "SITE",
+      "cis": 1
+    },
+    {
+      "id": 129,
+      "label": "Foundation Waterproofing",
+      "group": "SITE",
+      "cis": 1
+    },
+    {
+      "id": 130,
+      "label": "Foundation Drainage",
+      "group": "SITE",
+      "cis": 1
+    },
+    {
+      "id": 131,
+      "label": "Radon Mitigation",
+      "group": "SITE",
+      "cis": 1
+    },
+    {
+      "id": 132,
+      "label": "Frost-Protected Foundations",
+      "group": "SITE",
+      "cis": 1
+    },
+    {
+      "id": 133,
+      "label": "Structural System",
+      "group": "STRC",
+      "cis": 159
+    },
+    {
+      "id": 134,
+      "label": "Load Path",
+      "group": "STRC",
+      "cis": 37
+    },
+    {
+      "id": 135,
+      "label": "Dead Loads",
+      "group": "STRC",
+      "cis": 28
+    },
+    {
+      "id": 136,
+      "label": "Live Loads",
+      "group": "STRC",
+      "cis": 29
+    },
+    {
+      "id": 137,
+      "label": "Snow Loads",
+      "group": "STRC",
+      "cis": 2
+    },
+    {
+      "id": 138,
+      "label": "Wind Loads",
+      "group": "STRC",
+      "cis": 8
+    },
+    {
+      "id": 139,
+      "label": "Seismic Loads",
+      "group": "STRC",
+      "cis": 8
+    },
+    {
+      "id": 140,
+      "label": "Load Combinations",
+      "group": "STRC",
+      "cis": 1
+    },
+    {
+      "id": 141,
+      "label": "Tributary Area",
+      "group": "STRC",
+      "cis": 1
+    },
+    {
+      "id": 142,
+      "label": "Gravity Load System",
+      "group": "STRC",
+      "cis": 25
+    },
+    {
+      "id": 143,
+      "label": "Lateral Load System",
+      "group": "STRC",
+      "cis": 6
+    },
+    {
+      "id": 144,
+      "label": "Beams",
+      "group": "STRC",
+      "cis": 14
+    },
+    {
+      "id": 145,
+      "label": "Columns",
+      "group": "STRC",
+      "cis": 9
+    },
+    {
+      "id": 146,
+      "label": "Girders",
+      "group": "STRC",
+      "cis": 1
+    },
+    {
+      "id": 147,
+      "label": "Joists",
+      "group": "STRC",
+      "cis": 2
+    },
+    {
+      "id": 148,
+      "label": "Trusses",
+      "group": "STRC",
+      "cis": 7
+    },
+    {
+      "id": 149,
+      "label": "Bearing Walls",
+      "group": "STRC",
+      "cis": 1
+    },
+    {
+      "id": 150,
+      "label": "Shear Walls",
+      "group": "STRC",
+      "cis": 1
+    },
+    {
+      "id": 151,
+      "label": "Bracing",
+      "group": "STRC",
+      "cis": 1
+    },
+    {
+      "id": 152,
+      "label": "Moment Frames",
+      "group": "STRC",
+      "cis": 1
+    },
+    {
+      "id": 153,
+      "label": "Diaphragms",
+      "group": "STRC",
+      "cis": 2
+    },
+    {
+      "id": 154,
+      "label": "Structural Connections",
+      "group": "STRC",
+      "cis": 4
+    },
+    {
+      "id": 155,
+      "label": "Deflection",
+      "group": "STRC",
+      "cis": 1
+    },
+    {
+      "id": 156,
+      "label": "Wood Framing",
+      "group": "STRC",
+      "cis": 12
+    },
+    {
+      "id": 157,
+      "label": "Lumber",
+      "group": "STRC",
+      "cis": 38
+    },
+    {
+      "id": 158,
+      "label": "Engineered Wood Products",
+      "group": "STRC",
+      "cis": 22
+    },
+    {
+      "id": 159,
+      "label": "Glulam",
+      "group": "STRC",
+      "cis": 5
+    },
+    {
+      "id": 160,
+      "label": "Cross-Laminated Timber",
+      "group": "STRC",
+      "cis": 5
+    },
+    {
+      "id": 161,
+      "label": "Plywood and OSB",
+      "group": "STRC",
+      "cis": 11
+    },
+    {
+      "id": 162,
+      "label": "Wood Moisture Content",
+      "group": "STRC",
+      "cis": 3
+    },
+    {
+      "id": 163,
+      "label": "Platform Framing",
+      "group": "STRC",
+      "cis": 5
+    },
+    {
+      "id": 164,
+      "label": "Wall Studs",
+      "group": "STRC",
+      "cis": 3
+    },
+    {
+      "id": 165,
+      "label": "Headers",
+      "group": "STRC",
+      "cis": 1
+    },
+    {
+      "id": 166,
+      "label": "Floor Systems",
+      "group": "STRC",
+      "cis": 1
+    },
+    {
+      "id": 167,
+      "label": "Roof Framing",
+      "group": "STRC",
+      "cis": 6
+    },
+    {
+      "id": 168,
+      "label": "Structural Steel",
+      "group": "STRC",
+      "cis": 7
+    },
+    {
+      "id": 169,
+      "label": "Steel Shapes",
+      "group": "STRC",
+      "cis": 2
+    },
+    {
+      "id": 170,
+      "label": "Bolted Connections",
+      "group": "STRC",
+      "cis": 1
+    },
+    {
+      "id": 171,
+      "label": "Welded Connections",
+      "group": "STRC",
+      "cis": 1
+    },
+    {
+      "id": 172,
+      "label": "Light-Gauge Steel Framing",
+      "group": "STRC",
+      "cis": 1
+    },
+    {
+      "id": 173,
+      "label": "Steel Decking",
+      "group": "STRC",
+      "cis": 1
+    },
+    {
+      "id": 174,
+      "label": "Concrete",
+      "group": "STRC",
+      "cis": 55
+    },
+    {
+      "id": 175,
+      "label": "Cement",
+      "group": "STRC",
+      "cis": 16
+    },
+    {
+      "id": 176,
+      "label": "Aggregates",
+      "group": "STRC",
+      "cis": 9
+    },
+    {
+      "id": 177,
+      "label": "Water-Cement Ratio",
+      "group": "STRC",
+      "cis": 8
+    },
+    {
+      "id": 178,
+      "label": "Concrete Mix Design",
+      "group": "STRC",
+      "cis": 7
+    },
+    {
+      "id": 179,
+      "label": "Concrete Placement",
+      "group": "STRC",
+      "cis": 6
+    },
+    {
+      "id": 180,
+      "label": "Curing",
+      "group": "STRC",
+      "cis": 1
+    },
+    {
+      "id": 181,
+      "label": "Formwork",
+      "group": "STRC",
+      "cis": 7
+    },
+    {
+      "id": 182,
+      "label": "Reinforcing Steel",
+      "group": "STRC",
+      "cis": 10
+    },
+    {
+      "id": 183,
+      "label": "Reinforced Concrete",
+      "group": "STRC",
+      "cis": 7
+    },
+    {
+      "id": 184,
+      "label": "Prestressed Concrete",
+      "group": "STRC",
+      "cis": 1
+    },
+    {
+      "id": 185,
+      "label": "Precast Concrete",
+      "group": "STRC",
+      "cis": 1
+    },
+    {
+      "id": 186,
+      "label": "Cast-in-Place Concrete",
+      "group": "STRC",
+      "cis": 4
+    },
+    {
+      "id": 187,
+      "label": "Concrete Slabs",
+      "group": "STRC",
+      "cis": 3
+    },
+    {
+      "id": 188,
+      "label": "Masonry",
+      "group": "STRC",
+      "cis": 10
+    },
+    {
+      "id": 189,
+      "label": "Brick",
+      "group": "STRC",
+      "cis": 2
+    },
+    {
+      "id": 190,
+      "label": "Concrete Masonry Units",
+      "group": "STRC",
+      "cis": 2
+    },
+    {
+      "id": 191,
+      "label": "Mortar",
+      "group": "STRC",
+      "cis": 3
+    },
+    {
+      "id": 192,
+      "label": "Grout",
+      "group": "STRC",
+      "cis": 2
+    },
+    {
+      "id": 193,
+      "label": "Reinforced Masonry",
+      "group": "STRC",
+      "cis": 1
+    },
+    {
+      "id": 194,
+      "label": "Stone Masonry",
+      "group": "STRC",
+      "cis": 1
+    },
+    {
+      "id": 195,
+      "label": "Control Joints",
+      "group": "STRC",
+      "cis": 1
+    },
+    {
+      "id": 196,
+      "label": "Expansion Joints",
+      "group": "STRC",
+      "cis": 1
+    },
+    {
+      "id": 197,
+      "label": "Building Enclosure",
+      "group": "ENCL",
+      "cis": 164
+    },
+    {
+      "id": 198,
+      "label": "Control Layers",
+      "group": "ENCL",
+      "cis": 109
+    },
+    {
+      "id": 199,
+      "label": "Water Control Layer",
+      "group": "ENCL",
+      "cis": 17
+    },
+    {
+      "id": 200,
+      "label": "Air Control Layer",
+      "group": "ENCL",
+      "cis": 16
+    },
+    {
+      "id": 201,
+      "label": "Vapor Control Layer",
+      "group": "ENCL",
+      "cis": 4
+    },
+    {
+      "id": 202,
+      "label": "Thermal Control Layer",
+      "group": "ENCL",
+      "cis": 29
+    },
+    {
+      "id": 203,
+      "label": "Wall Assemblies",
+      "group": "ENCL",
+      "cis": 28
+    },
+    {
+      "id": 204,
+      "label": "Wall Sheathing",
+      "group": "ENCL",
+      "cis": 10
+    },
+    {
+      "id": 205,
+      "label": "Weather-Resistive Barrier",
+      "group": "ENCL",
+      "cis": 9
+    },
+    {
+      "id": 206,
+      "label": "Air Barrier",
+      "group": "ENCL",
+      "cis": 8
+    },
+    {
+      "id": 207,
+      "label": "Vapor Retarder",
+      "group": "ENCL",
+      "cis": 1
+    },
+    {
+      "id": 208,
+      "label": "Insulation",
+      "group": "ENCL",
+      "cis": 27
+    },
+    {
+      "id": 209,
+      "label": "Fiberglass Insulation",
+      "group": "ENCL",
+      "cis": 1
+    },
+    {
+      "id": 210,
+      "label": "Mineral Wool Insulation",
+      "group": "ENCL",
+      "cis": 1
+    },
+    {
+      "id": 211,
+      "label": "Cellulose Insulation",
+      "group": "ENCL",
+      "cis": 1
+    },
+    {
+      "id": 212,
+      "label": "Spray Foam Insulation",
+      "group": "ENCL",
+      "cis": 1
+    },
+    {
+      "id": 213,
+      "label": "Rigid Foam Insulation",
+      "group": "ENCL",
+      "cis": 2
+    },
+    {
+      "id": 214,
+      "label": "Continuous Insulation",
+      "group": "ENCL",
+      "cis": 4
+    },
+    {
+      "id": 215,
+      "label": "Cladding",
+      "group": "ENCL",
+      "cis": 8
+    },
+    {
+      "id": 216,
+      "label": "Brick Veneer",
+      "group": "ENCL",
+      "cis": 1
+    },
+    {
+      "id": 217,
+      "label": "Siding",
+      "group": "ENCL",
+      "cis": 1
+    },
+    {
+      "id": 218,
+      "label": "Stucco",
+      "group": "ENCL",
+      "cis": 1
+    },
+    {
+      "id": 219,
+      "label": "Metal Panels",
+      "group": "ENCL",
+      "cis": 1
+    },
+    {
+      "id": 220,
+      "label": "Rainscreen",
+      "group": "ENCL",
+      "cis": 1
+    },
+    {
+      "id": 221,
+      "label": "Curtain Wall",
+      "group": "ENCL",
+      "cis": 1
+    },
+    {
+      "id": 222,
+      "label": "Flashing",
+      "group": "ENCL",
+      "cis": 1
+    },
+    {
+      "id": 223,
+      "label": "Sealants",
+      "group": "ENCL",
+      "cis": 7
+    },
+    {
+      "id": 224,
+      "label": "Roof Assemblies",
+      "group": "ENCL",
+      "cis": 14
+    },
+    {
+      "id": 225,
+      "label": "Low-Slope Roofs",
+      "group": "ENCL",
+      "cis": 4
+    },
+    {
+      "id": 226,
+      "label": "Steep-Slope Roofs",
+      "group": "ENCL",
+      "cis": 5
+    },
+    {
+      "id": 227,
+      "label": "Roofing Membranes",
+      "group": "ENCL",
+      "cis": 2
+    },
+    {
+      "id": 228,
+      "label": "Shingles",
+      "group": "ENCL",
+      "cis": 1
+    },
+    {
+      "id": 229,
+      "label": "Metal Roofing",
+      "group": "ENCL",
+      "cis": 1
+    },
+    {
+      "id": 230,
+      "label": "Roof Drainage",
+      "group": "ENCL",
+      "cis": 3
+    },
+    {
+      "id": 231,
+      "label": "Attic Ventilation",
+      "group": "ENCL",
+      "cis": 2
+    },
+    {
+      "id": 232,
+      "label": "Ice Dams",
+      "group": "ENCL",
+      "cis": 1
+    },
+    {
+      "id": 233,
+      "label": "Green Roofs",
+      "group": "ENCL",
+      "cis": 1
+    },
+    {
+      "id": 234,
+      "label": "Windows",
+      "group": "ENCL",
+      "cis": 4
+    },
+    {
+      "id": 235,
+      "label": "Glazing",
+      "group": "ENCL",
+      "cis": 7
+    },
+    {
+      "id": 236,
+      "label": "Low-E Coatings",
+      "group": "ENCL",
+      "cis": 1
+    },
+    {
+      "id": 237,
+      "label": "Window U-Factor",
+      "group": "ENCL",
+      "cis": 1
+    },
+    {
+      "id": 238,
+      "label": "Solar Heat Gain Coefficient",
+      "group": "ENCL",
+      "cis": 1
+    },
+    {
+      "id": 239,
+      "label": "Doors",
+      "group": "ENCL",
+      "cis": 1
+    },
+    {
+      "id": 240,
+      "label": "Air Sealing",
+      "group": "ENCL",
+      "cis": 6
+    },
+    {
+      "id": 241,
+      "label": "Blower Door Test",
+      "group": "ENCL",
+      "cis": 2
+    },
+    {
+      "id": 242,
+      "label": "Gypsum Board",
+      "group": "ENCL",
+      "cis": 2
+    },
+    {
+      "id": 243,
+      "label": "Interior Finishes",
+      "group": "ENCL",
+      "cis": 1
+    },
+    {
+      "id": 244,
+      "label": "HVAC Systems",
+      "group": "MECH",
+      "cis": 80
+    },
+    {
+      "id": 245,
+      "label": "Heating Systems",
+      "group": "MECH",
+      "cis": 20
+    },
+    {
+      "id": 246,
+      "label": "Furnace",
+      "group": "MECH",
+      "cis": 1
+    },
+    {
+      "id": 247,
+      "label": "Boiler",
+      "group": "MECH",
+      "cis": 1
+    },
+    {
+      "id": 248,
+      "label": "Heat Pump",
+      "group": "MECH",
+      "cis": 15
+    },
+    {
+      "id": 249,
+      "label": "Cooling Systems",
+      "group": "MECH",
+      "cis": 17
+    },
+    {
+      "id": 250,
+      "label": "Air Conditioning",
+      "group": "MECH",
+      "cis": 1
+    },
+    {
+      "id": 251,
+      "label": "Ventilation",
+      "group": "MECH",
+      "cis": 16
+    },
+    {
+      "id": 252,
+      "label": "Ductwork",
+      "group": "MECH",
+      "cis": 2
+    },
+    {
+      "id": 253,
+      "label": "Air Distribution",
+      "group": "MECH",
+      "cis": 1
+    },
+    {
+      "id": 254,
+      "label": "Mechanical Ventilation",
+      "group": "MECH",
+      "cis": 6
+    },
+    {
+      "id": 255,
+      "label": "Heat Recovery Ventilator",
+      "group": "MECH",
+      "cis": 5
+    },
+    {
+      "id": 256,
+      "label": "Indoor Air Quality",
+      "group": "MECH",
+      "cis": 4
+    },
+    {
+      "id": 257,
+      "label": "Radiant Heating",
+      "group": "MECH",
+      "cis": 1
+    },
+    {
+      "id": 258,
+      "label": "Heating and Cooling Loads",
+      "group": "MECH",
+      "cis": 1
+    },
+    {
+      "id": 259,
+      "label": "Building Automation",
+      "group": "MECH",
+      "cis": 15
+    },
+    {
+      "id": 260,
+      "label": "Plumbing Systems",
+      "group": "MECH",
+      "cis": 11
+    },
+    {
+      "id": 261,
+      "label": "Water Supply",
+      "group": "MECH",
+      "cis": 5
+    },
+    {
+      "id": 262,
+      "label": "Drain-Waste-Vent System",
+      "group": "MECH",
+      "cis": 3
+    },
+    {
+      "id": 263,
+      "label": "Plumbing Fixtures",
+      "group": "MECH",
+      "cis": 2
+    },
+    {
+      "id": 264,
+      "label": "Water Heating",
+      "group": "MECH",
+      "cis": 1
+    },
+    {
+      "id": 265,
+      "label": "Stormwater Management",
+      "group": "MECH",
+      "cis": 1
+    },
+    {
+      "id": 266,
+      "label": "Fire Protection",
+      "group": "MECH",
+      "cis": 11
+    },
+    {
+      "id": 267,
+      "label": "Sprinkler Systems",
+      "group": "MECH",
+      "cis": 1
+    },
+    {
+      "id": 268,
+      "label": "Fire Alarm Systems",
+      "group": "MECH",
+      "cis": 1
+    },
+    {
+      "id": 269,
+      "label": "Smoke Control",
+      "group": "MECH",
+      "cis": 1
+    },
+    {
+      "id": 270,
+      "label": "Elevators",
+      "group": "MECH",
+      "cis": 1
+    },
+    {
+      "id": 271,
+      "label": "Electrical Systems",
+      "group": "ELEC",
+      "cis": 94
+    },
+    {
+      "id": 272,
+      "label": "Electricity",
+      "group": "ELEC",
+      "shape": "box",
+      "cis": 168
+    },
+    {
+      "id": 273,
+      "label": "Voltage",
+      "group": "ELEC",
+      "cis": 51
+    },
+    {
+      "id": 274,
+      "label": "Current",
+      "group": "ELEC",
+      "cis": 116
+    },
+    {
+      "id": 275,
+      "label": "Resistance",
+      "group": "ELEC",
+      "cis": 4
+    },
+    {
+      "id": 276,
+      "label": "Electrical Power",
+      "group": "ELEC",
+      "cis": 41
+    },
+    {
+      "id": 277,
+      "label": "Electrical Energy",
+      "group": "ELEC",
+      "cis": 13
+    },
+    {
+      "id": 278,
+      "label": "Alternating Current",
+      "group": "ELEC",
+      "cis": 37
+    },
+    {
+      "id": 279,
+      "label": "Direct Current",
+      "group": "ELEC",
+      "cis": 26
+    },
+    {
+      "id": 280,
+      "label": "Utility Service",
+      "group": "ELEC",
+      "cis": 26
+    },
+    {
+      "id": 281,
+      "label": "Service Entrance",
+      "group": "ELEC",
+      "cis": 21
+    },
+    {
+      "id": 282,
+      "label": "Switchgear",
+      "group": "ELEC",
+      "cis": 3
+    },
+    {
+      "id": 283,
+      "label": "Panelboards",
+      "group": "ELEC",
+      "cis": 16
+    },
+    {
+      "id": 284,
+      "label": "Transformers",
+      "group": "ELEC",
+      "cis": 1
+    },
+    {
+      "id": 285,
+      "label": "Circuit Breakers",
+      "group": "ELEC",
+      "cis": 7
+    },
+    {
+      "id": 286,
+      "label": "Branch Circuits",
+      "group": "ELEC",
+      "cis": 6
+    },
+    {
+      "id": 287,
+      "label": "Feeders",
+      "group": "ELEC",
+      "cis": 2
+    },
+    {
+      "id": 288,
+      "label": "Conductors",
+      "group": "ELEC",
+      "cis": 3
+    },
+    {
+      "id": 289,
+      "label": "Conduit",
+      "group": "ELEC",
+      "cis": 1
+    },
+    {
+      "id": 290,
+      "label": "Grounding and Bonding",
+      "group": "ELEC",
+      "cis": 1
+    },
+    {
+      "id": 291,
+      "label": "Electrical Loads",
+      "group": "ELEC",
+      "cis": 20
+    },
+    {
+      "id": 292,
+      "label": "Electrical Load Calculations",
+      "group": "ELEC",
+      "cis": 1
+    },
+    {
+      "id": 293,
+      "label": "Lighting Systems",
+      "group": "ELEC",
+      "cis": 3
+    },
+    {
+      "id": 294,
+      "label": "Lighting Controls",
+      "group": "ELEC",
+      "cis": 2
+    },
+    {
+      "id": 295,
+      "label": "Receptacles",
+      "group": "ELEC",
+      "cis": 1
+    },
+    {
+      "id": 296,
+      "label": "Emergency Power",
+      "group": "ELEC",
+      "cis": 3
+    },
+    {
+      "id": 297,
+      "label": "Generators",
+      "group": "ELEC",
+      "cis": 1
+    },
+    {
+      "id": 298,
+      "label": "Uninterruptible Power Supply",
+      "group": "ELEC",
+      "cis": 1
+    },
+    {
+      "id": 299,
+      "label": "Low-Voltage Systems",
+      "group": "ELEC",
+      "cis": 5
+    },
+    {
+      "id": 300,
+      "label": "Data and Communications",
+      "group": "ELEC",
+      "cis": 3
+    },
+    {
+      "id": 301,
+      "label": "Electrical Plans",
+      "group": "ELEC",
+      "cis": 3
+    },
+    {
+      "id": 302,
+      "label": "One-Line Diagram",
+      "group": "ELEC",
+      "cis": 1
+    },
+    {
+      "id": 303,
+      "label": "Electrical Design Phases",
+      "group": "ELEC",
+      "cis": 1
+    },
+    {
+      "id": 304,
+      "label": "National Electrical Code",
+      "group": "ELEC",
+      "cis": 2
+    },
+    {
+      "id": 305,
+      "label": "Photovoltaic Systems",
+      "group": "ELEC",
+      "cis": 7
+    },
+    {
+      "id": 306,
+      "label": "Electric Vehicle Charging",
+      "group": "ELEC",
+      "cis": 3
+    },
+    {
+      "id": 307,
+      "label": "Building Codes",
+      "group": "CODE",
+      "cis": 60
+    },
+    {
+      "id": 308,
+      "label": "Model Codes",
+      "group": "CODE",
+      "cis": 21
+    },
+    {
+      "id": 309,
+      "label": "International Building Code",
+      "group": "CODE",
+      "cis": 13
+    },
+    {
+      "id": 310,
+      "label": "Minnesota State Building Code",
+      "group": "CODE",
+      "cis": 5
+    },
+    {
+      "id": 311,
+      "label": "Minnesota Energy Code",
+      "group": "CODE",
+      "cis": 4
+    },
+    {
+      "id": 312,
+      "label": "Residential Code",
+      "group": "CODE",
+      "cis": 1
+    },
+    {
+      "id": 313,
+      "label": "Fire Code",
+      "group": "CODE",
+      "cis": 1
+    },
+    {
+      "id": 314,
+      "label": "Plumbing Code",
+      "group": "CODE",
+      "cis": 1
+    },
+    {
+      "id": 315,
+      "label": "Mechanical Code",
+      "group": "CODE",
+      "cis": 1
+    },
+    {
+      "id": 316,
+      "label": "Accessibility Standards",
+      "group": "CODE",
+      "cis": 1
+    },
+    {
+      "id": 317,
+      "label": "Zoning",
+      "group": "CODE",
+      "cis": 1
+    },
+    {
+      "id": 318,
+      "label": "Building Permits",
+      "group": "CODE",
+      "cis": 6
+    },
+    {
+      "id": 319,
+      "label": "Plan Review",
+      "group": "CODE",
+      "cis": 5
+    },
+    {
+      "id": 320,
+      "label": "Code Inspections",
+      "group": "CODE",
+      "cis": 2
+    },
+    {
+      "id": 321,
+      "label": "Certificate of Occupancy",
+      "group": "CODE",
+      "cis": 1
+    },
+    {
+      "id": 322,
+      "label": "Occupancy Classification",
+      "group": "CODE",
+      "cis": 7
+    },
+    {
+      "id": 323,
+      "label": "Construction Types",
+      "group": "CODE",
+      "cis": 3
+    },
+    {
+      "id": 324,
+      "label": "Fire-Resistance Ratings",
+      "group": "CODE",
+      "cis": 5
+    },
+    {
+      "id": 325,
+      "label": "Fire Separations",
+      "group": "CODE",
+      "cis": 1
+    },
+    {
+      "id": 326,
+      "label": "Means of Egress",
+      "group": "CODE",
+      "cis": 2
+    },
+    {
+      "id": 327,
+      "label": "Travel Distance",
+      "group": "CODE",
+      "cis": 1
+    },
+    {
+      "id": 328,
+      "label": "Allowable Building Area",
+      "group": "CODE",
+      "cis": 1
+    },
+    {
+      "id": 329,
+      "label": "Life Safety",
+      "group": "CODE",
+      "cis": 6
+    },
+    {
+      "id": 330,
+      "label": "Energy Code Compliance",
+      "group": "CODE",
+      "cis": 1
+    },
+    {
+      "id": 331,
+      "label": "Variances and Appeals",
+      "group": "CODE",
+      "cis": 1
+    },
+    {
+      "id": 332,
+      "label": "Referenced Standards",
+      "group": "CODE",
+      "cis": 2
+    },
+    {
+      "id": 333,
+      "label": "Code Enforcement",
+      "group": "CODE",
+      "cis": 2
+    },
+    {
+      "id": 334,
+      "label": "Sustainability",
+      "group": "SUST",
+      "cis": 60
+    },
+    {
+      "id": 335,
+      "label": "Sustainable Materials",
+      "group": "SUST",
+      "cis": 33
+    },
+    {
+      "id": 336,
+      "label": "Embodied Carbon",
+      "group": "SUST",
+      "cis": 8
+    },
+    {
+      "id": 337,
+      "label": "Operational Carbon",
+      "group": "SUST",
+      "cis": 1
+    },
+    {
+      "id": 338,
+      "label": "Life-Cycle Assessment",
+      "group": "SUST",
+      "cis": 13
+    },
+    {
+      "id": 339,
+      "label": "Product Declarations (EPD)",
+      "group": "SUST",
+      "cis": 2
+    },
+    {
+      "id": 340,
+      "label": "Recycled Content",
+      "group": "SUST",
+      "cis": 1
+    },
+    {
+      "id": 341,
+      "label": "Renewable Materials",
+      "group": "SUST",
+      "cis": 7
+    },
+    {
+      "id": 342,
+      "label": "Mass Timber",
+      "group": "SUST",
+      "cis": 4
+    },
+    {
+      "id": 343,
+      "label": "Local Materials",
+      "group": "SUST",
+      "cis": 1
+    },
+    {
+      "id": 344,
+      "label": "Material Health",
+      "group": "SUST",
+      "cis": 2
+    },
+    {
+      "id": 345,
+      "label": "Volatile Organic Compounds",
+      "group": "SUST",
+      "cis": 1
+    },
+    {
+      "id": 346,
+      "label": "Construction Waste",
+      "group": "SUST",
+      "cis": 3
+    },
+    {
+      "id": 347,
+      "label": "Reuse and Salvage",
+      "group": "SUST",
+      "cis": 2
+    },
+    {
+      "id": 348,
+      "label": "Embodied Energy",
+      "group": "SUST",
+      "cis": 9
+    },
+    {
+      "id": 349,
+      "label": "Energy Efficiency",
+      "group": "SUST",
+      "cis": 15
+    },
+    {
+      "id": 350,
+      "label": "High-Performance Buildings",
+      "group": "SUST",
+      "cis": 3
+    },
+    {
+      "id": 351,
+      "label": "Passive House",
+      "group": "SUST",
+      "cis": 1
+    },
+    {
+      "id": 352,
+      "label": "Net-Zero Energy",
+      "group": "SUST",
+      "cis": 1
+    },
+    {
+      "id": 353,
+      "label": "LEED Certification",
+      "group": "SUST",
+      "cis": 1
+    },
+    {
+      "id": 354,
+      "label": "Green Building Rating Systems",
+      "group": "SUST",
+      "cis": 2
+    },
+    {
+      "id": 355,
+      "label": "Passive Solar Design",
+      "group": "SUST",
+      "cis": 2
+    },
+    {
+      "id": 356,
+      "label": "Daylighting",
+      "group": "SUST",
+      "cis": 1
+    },
+    {
+      "id": 357,
+      "label": "Cool Roofs",
+      "group": "SUST",
+      "cis": 1
+    },
+    {
+      "id": 358,
+      "label": "Water Efficiency",
+      "group": "SUST",
+      "cis": 1
+    },
+    {
+      "id": 359,
+      "label": "Life-Cycle Cost",
+      "group": "SUST",
+      "cis": 1
+    },
+    {
+      "id": 360,
+      "label": "Carbon Sequestration",
+      "group": "SUST",
+      "cis": 2
+    },
+    {
+      "id": 361,
+      "label": "Cement Substitutes (SCMs)",
+      "group": "SUST",
+      "cis": 3
+    },
+    {
+      "id": 362,
+      "label": "Building Resilience",
+      "group": "SUST",
+      "cis": 1
+    },
+    {
+      "id": 363,
+      "label": "Durability",
+      "group": "DURA",
+      "cis": 23
+    },
+    {
+      "id": 364,
+      "label": "Service Life",
+      "group": "DURA",
+      "cis": 5
+    },
+    {
+      "id": 365,
+      "label": "Building Maintenance",
+      "group": "DURA",
+      "cis": 2
+    },
+    {
+      "id": 366,
+      "label": "Preventive Maintenance",
+      "group": "DURA",
+      "cis": 1
+    },
+    {
+      "id": 367,
+      "label": "Building Failure",
+      "group": "DURA",
+      "cis": 16
+    },
+    {
+      "id": 368,
+      "label": "Water Intrusion",
+      "group": "DURA",
+      "cis": 4
+    },
+    {
+      "id": 369,
+      "label": "Cracking",
+      "group": "DURA",
+      "cis": 1
+    },
+    {
+      "id": 370,
+      "label": "Settlement",
+      "group": "DURA",
+      "cis": 1
+    },
+    {
+      "id": 371,
+      "label": "Rot and Decay",
+      "group": "DURA",
+      "cis": 1
+    },
+    {
+      "id": 372,
+      "label": "Mold",
+      "group": "DURA",
+      "cis": 1
+    },
+    {
+      "id": 373,
+      "label": "Efflorescence",
+      "group": "DURA",
+      "cis": 1
+    },
+    {
+      "id": 374,
+      "label": "Freeze-Thaw Damage",
+      "group": "DURA",
+      "cis": 1
+    },
+    {
+      "id": 375,
+      "label": "Fire Damage",
+      "group": "DURA",
+      "cis": 1
+    },
+    {
+      "id": 376,
+      "label": "Building Forensics",
+      "group": "DURA",
+      "cis": 5
+    },
+    {
+      "id": 377,
+      "label": "Building Assessment",
+      "group": "DURA",
+      "cis": 4
+    },
+    {
+      "id": 378,
+      "label": "Renovation and Retrofit",
+      "group": "DURA",
+      "cis": 3
+    },
+    {
+      "id": 379,
+      "label": "Adaptive Reuse",
+      "group": "DURA",
+      "cis": 1
+    },
+    {
+      "id": 380,
+      "label": "Deconstruction",
+      "group": "DURA",
+      "cis": 1
+    },
+    {
+      "id": 381,
+      "label": "Ground Temperature Profile",
+      "group": "EVOL",
+      "cis": 7
+    },
+    {
+      "id": 382,
+      "label": "Seasonal Temperature Swing",
+      "group": "EVOL",
+      "cis": 2
+    },
+    {
+      "id": 383,
+      "label": "Damping Depth",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 384,
+      "label": "Refrigerant",
+      "group": "EVOL",
+      "cis": 3
+    },
+    {
+      "id": 385,
+      "label": "Refrigeration Cycle",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 386,
+      "label": "Coefficient of Performance",
+      "group": "EVOL",
+      "cis": 5
+    },
+    {
+      "id": 387,
+      "label": "Temperature Lift",
+      "group": "EVOL",
+      "cis": 2
+    },
+    {
+      "id": 388,
+      "label": "Carnot Limit",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 389,
+      "label": "Cold-Climate Heat Pump",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 390,
+      "label": "Variable-Speed Compressor",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 391,
+      "label": "Building Electrification",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 392,
+      "label": "Refrigerant Global Warming Potential",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 393,
+      "label": "Energy Recovery Ventilator",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 394,
+      "label": "Heat Recovery Effectiveness",
+      "group": "EVOL",
+      "cis": 2
+    },
+    {
+      "id": 395,
+      "label": "Heat Exchanger Frost and Defrost",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 396,
+      "label": "Ground-Source Heat Pump",
+      "group": "EVOL",
+      "cis": 3
+    },
+    {
+      "id": 397,
+      "label": "Ground Loop",
+      "group": "EVOL",
+      "cis": 2
+    },
+    {
+      "id": 398,
+      "label": "Networked Geothermal",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 399,
+      "label": "Earth Tube",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 400,
+      "label": "Peak Sun Hours",
+      "group": "EVOL",
+      "cis": 2
+    },
+    {
+      "id": 401,
+      "label": "System Derate",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 402,
+      "label": "Inverter",
+      "group": "EVOL",
+      "cis": 9
+    },
+    {
+      "id": 403,
+      "label": "Net Metering",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 404,
+      "label": "Battery Energy Storage",
+      "group": "EVOL",
+      "cis": 8
+    },
+    {
+      "id": 405,
+      "label": "Lithium Iron Phosphate Batteries",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 406,
+      "label": "Battery Energy and Power Ratings",
+      "group": "EVOL",
+      "cis": 2
+    },
+    {
+      "id": 407,
+      "label": "Battery Run Time",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 408,
+      "label": "Round-Trip Efficiency",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 409,
+      "label": "Battery Safety Standards",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 410,
+      "label": "Time-of-Use Rates",
+      "group": "EVOL",
+      "cis": 2
+    },
+    {
+      "id": 411,
+      "label": "Vehicle-to-Home Power",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 412,
+      "label": "Grid-Interactive Buildings",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 413,
+      "label": "Building Sensors",
+      "group": "EVOL",
+      "cis": 11
+    },
+    {
+      "id": 414,
+      "label": "Sensor Calibration and Placement",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 415,
+      "label": "Carbon Dioxide Monitoring",
+      "group": "EVOL",
+      "cis": 2
+    },
+    {
+      "id": 416,
+      "label": "Demand-Controlled Ventilation",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 417,
+      "label": "Water Leak Detection",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 418,
+      "label": "Occupancy Sensing",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 419,
+      "label": "Energy Submetering",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 420,
+      "label": "Control Loop",
+      "group": "EVOL",
+      "cis": 3
+    },
+    {
+      "id": 421,
+      "label": "Fault Detection and Diagnostics",
+      "group": "EVOL",
+      "cis": 2
+    },
+    {
+      "id": 422,
+      "label": "Building Communication Protocols",
+      "group": "EVOL",
+      "cis": 2
+    },
+    {
+      "id": 423,
+      "label": "Building Cybersecurity and Privacy",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 424,
+      "label": "Digital Twin",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 425,
+      "label": "Continuous Commissioning",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 426,
+      "label": "Type IV Mass Timber Construction",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 427,
+      "label": "Timber Charring",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 428,
+      "label": "Mass Timber Moisture Protection",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 429,
+      "label": "Warm Roof Assembly",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 430,
+      "label": "Low-Carbon Concrete",
+      "group": "EVOL",
+      "cis": 2
+    },
+    {
+      "id": 431,
+      "label": "Carbon Mineralization",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 432,
+      "label": "Biogenic Carbon",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 433,
+      "label": "Buy Clean Procurement",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 434,
+      "label": "Low-Carbon Steel",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 435,
+      "label": "Code Edition Cycle",
+      "group": "EVOL",
+      "cis": 2
+    },
+    {
+      "id": 436,
+      "label": "ASHRAE Standard 90.1",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 437,
+      "label": "International Energy Conservation Code",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 438,
+      "label": "Building Performance Standards",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 439,
+      "label": "Minnesota 2036 Commercial Energy Target",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 440,
+      "label": "Electric-Ready and Solar-Ready Requirements",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 441,
+      "label": "Component Replacement Cycle",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 442,
+      "label": "Prefabrication",
+      "group": "EVOL",
+      "cis": 2
+    },
+    {
+      "id": 443,
+      "label": "Modular Construction",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 444,
+      "label": "Clash Detection",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 445,
+      "label": "Reality Capture",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 446,
+      "label": "Construction Robotics",
+      "group": "EVOL",
+      "cis": 1
+    },
+    {
+      "id": 447,
+      "label": "AI-Assisted Design and Code Review",
+      "group": "EVOL",
+      "cis": 2
+    },
+    {
+      "id": 448,
+      "label": "AI Output Verification",
+      "group": "EVOL",
+      "cis": 1
+    }
+  ],
+  "edges": [
+    {
+      "from": 2,
+      "to": 1
+    },
+    {
+      "from": 3,
+      "to": 1
+    },
+    {
+      "from": 4,
+      "to": 2
+    },
+    {
+      "from": 5,
+      "to": 2
+    },
+    {
+      "from": 6,
+      "to": 2
+    },
+    {
+      "from": 7,
+      "to": 6
+    },
+    {
+      "from": 8,
+      "to": 6
+    },
+    {
+      "from": 9,
+      "to": 6
+    },
+    {
+      "from": 10,
+      "to": 6
+    },
+    {
+      "from": 11,
+      "to": 3
+    },
+    {
+      "from": 13,
+      "to": 12
+    },
+    {
+      "from": 14,
+      "to": 11
+    },
+    {
+      "from": 14,
+      "to": 13
+    },
+    {
+      "from": 15,
+      "to": 14
+    },
+    {
+      "from": 16,
+      "to": 14
+    },
+    {
+      "from": 17,
+      "to": 14
+    },
+    {
+      "from": 18,
+      "to": 14
+    },
+    {
+      "from": 19,
+      "to": 11
+    },
+    {
+      "from": 20,
+      "to": 14
+    },
+    {
+      "from": 21,
+      "to": 11
+    },
+    {
+      "from": 22,
+      "to": 4
+    },
+    {
+      "from": 22,
+      "to": 5
+    },
+    {
+      "from": 23,
+      "to": 2
+    },
+    {
+      "from": 23,
+      "to": 3
+    },
+    {
+      "from": 24,
+      "to": 3
+    },
+    {
+      "from": 25,
+      "to": 23
+    },
+    {
+      "from": 25,
+      "to": 24
+    },
+    {
+      "from": 26,
+      "to": 25
+    },
+    {
+      "from": 27,
+      "to": 26
+    },
+    {
+      "from": 28,
+      "to": 27
+    },
+    {
+      "from": 29,
+      "to": 28
+    },
+    {
+      "from": 29,
+      "to": 14
+    },
+    {
+      "from": 29,
+      "to": 19
+    },
+    {
+      "from": 30,
+      "to": 29
+    },
+    {
+      "from": 31,
+      "to": 30
+    },
+    {
+      "from": 32,
+      "to": 31
+    },
+    {
+      "from": 32,
+      "to": 5
+    },
+    {
+      "from": 33,
+      "to": 32
+    },
+    {
+      "from": 34,
+      "to": 25
+    },
+    {
+      "from": 35,
+      "to": 23
+    },
+    {
+      "from": 36,
+      "to": 23
+    },
+    {
+      "from": 36,
+      "to": 133
+    },
+    {
+      "from": 37,
+      "to": 23
+    },
+    {
+      "from": 37,
+      "to": 244
+    },
+    {
+      "from": 38,
+      "to": 23
+    },
+    {
+      "from": 38,
+      "to": 271
+    },
+    {
+      "from": 39,
+      "to": 24
+    },
+    {
+      "from": 40,
+      "to": 39
+    },
+    {
+      "from": 41,
+      "to": 25
+    },
+    {
+      "from": 41,
+      "to": 307
+    },
+    {
+      "from": 42,
+      "to": 25
+    },
+    {
+      "from": 42,
+      "to": 30
+    },
+    {
+      "from": 43,
+      "to": 42
+    },
+    {
+      "from": 44,
+      "to": 42
+    },
+    {
+      "from": 45,
+      "to": 43
+    },
+    {
+      "from": 45,
+      "to": 44
+    },
+    {
+      "from": 46,
+      "to": 31
+    },
+    {
+      "from": 46,
+      "to": 19
+    },
+    {
+      "from": 47,
+      "to": 31
+    },
+    {
+      "from": 48,
+      "to": 31
+    },
+    {
+      "from": 49,
+      "to": 24
+    },
+    {
+      "from": 49,
+      "to": 25
+    },
+    {
+      "from": 50,
+      "to": 49
+    },
+    {
+      "from": 51,
+      "to": 14
+    },
+    {
+      "from": 51,
+      "to": 52
+    },
+    {
+      "from": 52,
+      "to": 35
+    },
+    {
+      "from": 52,
+      "to": 36
+    },
+    {
+      "from": 52,
+      "to": 37
+    },
+    {
+      "from": 52,
+      "to": 38
+    },
+    {
+      "from": 53,
+      "to": 31
+    },
+    {
+      "from": 53,
+      "to": 41
+    },
+    {
+      "from": 55,
+      "to": 54
+    },
+    {
+      "from": 56,
+      "to": 55
+    },
+    {
+      "from": 57,
+      "to": 54
+    },
+    {
+      "from": 59,
+      "to": 58
+    },
+    {
+      "from": 60,
+      "to": 59
+    },
+    {
+      "from": 61,
+      "to": 59
+    },
+    {
+      "from": 62,
+      "to": 59
+    },
+    {
+      "from": 63,
+      "to": 60
+    },
+    {
+      "from": 64,
+      "to": 63
+    },
+    {
+      "from": 65,
+      "to": 64
+    },
+    {
+      "from": 66,
+      "to": 60
+    },
+    {
+      "from": 66,
+      "to": 64
+    },
+    {
+      "from": 67,
+      "to": 58
+    },
+    {
+      "from": 69,
+      "to": 68
+    },
+    {
+      "from": 70,
+      "to": 69
+    },
+    {
+      "from": 70,
+      "to": 58
+    },
+    {
+      "from": 71,
+      "to": 70
+    },
+    {
+      "from": 72,
+      "to": 71
+    },
+    {
+      "from": 73,
+      "to": 69
+    },
+    {
+      "from": 74,
+      "to": 54
+    },
+    {
+      "from": 75,
+      "to": 74
+    },
+    {
+      "from": 75,
+      "to": 61
+    },
+    {
+      "from": 76,
+      "to": 74
+    },
+    {
+      "from": 77,
+      "to": 68
+    },
+    {
+      "from": 78,
+      "to": 54
+    },
+    {
+      "from": 79,
+      "to": 62
+    },
+    {
+      "from": 80,
+      "to": 59
+    },
+    {
+      "from": 80,
+      "to": 70
+    },
+    {
+      "from": 81,
+      "to": 70
+    },
+    {
+      "from": 81,
+      "to": 71
+    },
+    {
+      "from": 82,
+      "to": 4
+    },
+    {
+      "from": 83,
+      "to": 82
+    },
+    {
+      "from": 83,
+      "to": 55
+    },
+    {
+      "from": 84,
+      "to": 83
+    },
+    {
+      "from": 85,
+      "to": 83
+    },
+    {
+      "from": 86,
+      "to": 83
+    },
+    {
+      "from": 87,
+      "to": 82
+    },
+    {
+      "from": 87,
+      "to": 56
+    },
+    {
+      "from": 88,
+      "to": 87
+    },
+    {
+      "from": 89,
+      "to": 56
+    },
+    {
+      "from": 89,
+      "to": 82
+    },
+    {
+      "from": 90,
+      "to": 89
+    },
+    {
+      "from": 91,
+      "to": 83
+    },
+    {
+      "from": 91,
+      "to": 89
+    },
+    {
+      "from": 92,
+      "to": 82
+    },
+    {
+      "from": 93,
+      "to": 82
+    },
+    {
+      "from": 93,
+      "to": 58
+    },
+    {
+      "from": 94,
+      "to": 82
+    },
+    {
+      "from": 94,
+      "to": 68
+    },
+    {
+      "from": 95,
+      "to": 82
+    },
+    {
+      "from": 96,
+      "to": 82
+    },
+    {
+      "from": 96,
+      "to": 58
+    },
+    {
+      "from": 97,
+      "to": 96
+    },
+    {
+      "from": 98,
+      "to": 82
+    },
+    {
+      "from": 98,
+      "to": 68
+    },
+    {
+      "from": 99,
+      "to": 82
+    },
+    {
+      "from": 99,
+      "to": 68
+    },
+    {
+      "from": 100,
+      "to": 82
+    },
+    {
+      "from": 100,
+      "to": 56
+    },
+    {
+      "from": 101,
+      "to": 82
+    },
+    {
+      "from": 102,
+      "to": 101
+    },
+    {
+      "from": 103,
+      "to": 82
+    },
+    {
+      "from": 103,
+      "to": 101
+    },
+    {
+      "from": 104,
+      "to": 2
+    },
+    {
+      "from": 104,
+      "to": 23
+    },
+    {
+      "from": 105,
+      "to": 104
+    },
+    {
+      "from": 105,
+      "to": 24
+    },
+    {
+      "from": 106,
+      "to": 105
+    },
+    {
+      "from": 107,
+      "to": 105
+    },
+    {
+      "from": 108,
+      "to": 104
+    },
+    {
+      "from": 109,
+      "to": 108
+    },
+    {
+      "from": 109,
+      "to": 83
+    },
+    {
+      "from": 110,
+      "to": 108
+    },
+    {
+      "from": 111,
+      "to": 108
+    },
+    {
+      "from": 111,
+      "to": 68
+    },
+    {
+      "from": 112,
+      "to": 108
+    },
+    {
+      "from": 112,
+      "to": 59
+    },
+    {
+      "from": 113,
+      "to": 112
+    },
+    {
+      "from": 113,
+      "to": 111
+    },
+    {
+      "from": 114,
+      "to": 107
+    },
+    {
+      "from": 114,
+      "to": 111
+    },
+    {
+      "from": 115,
+      "to": 109
+    },
+    {
+      "from": 115,
+      "to": 133
+    },
+    {
+      "from": 116,
+      "to": 115
+    },
+    {
+      "from": 117,
+      "to": 116
+    },
+    {
+      "from": 118,
+      "to": 116
+    },
+    {
+      "from": 119,
+      "to": 117
+    },
+    {
+      "from": 119,
+      "to": 182
+    },
+    {
+      "from": 120,
+      "to": 116
+    },
+    {
+      "from": 121,
+      "to": 115
+    },
+    {
+      "from": 122,
+      "to": 121
+    },
+    {
+      "from": 123,
+      "to": 121
+    },
+    {
+      "from": 124,
+      "to": 118
+    },
+    {
+      "from": 124,
+      "to": 106
+    },
+    {
+      "from": 125,
+      "to": 124
+    },
+    {
+      "from": 126,
+      "to": 124
+    },
+    {
+      "from": 127,
+      "to": 116
+    },
+    {
+      "from": 127,
+      "to": 187
+    },
+    {
+      "from": 128,
+      "to": 108
+    },
+    {
+      "from": 128,
+      "to": 124
+    },
+    {
+      "from": 129,
+      "to": 124
+    },
+    {
+      "from": 129,
+      "to": 199
+    },
+    {
+      "from": 130,
+      "to": 124
+    },
+    {
+      "from": 130,
+      "to": 114
+    },
+    {
+      "from": 131,
+      "to": 127
+    },
+    {
+      "from": 131,
+      "to": 76
+    },
+    {
+      "from": 131,
+      "to": 125
+    },
+    {
+      "from": 132,
+      "to": 112
+    },
+    {
+      "from": 132,
+      "to": 116
+    },
+    {
+      "from": 132,
+      "to": 213
+    },
+    {
+      "from": 133,
+      "to": 54
+    },
+    {
+      "from": 133,
+      "to": 57
+    },
+    {
+      "from": 134,
+      "to": 133
+    },
+    {
+      "from": 135,
+      "to": 133
+    },
+    {
+      "from": 136,
+      "to": 133
+    },
+    {
+      "from": 137,
+      "to": 136
+    },
+    {
+      "from": 138,
+      "to": 133
+    },
+    {
+      "from": 138,
+      "to": 74
+    },
+    {
+      "from": 139,
+      "to": 133
+    },
+    {
+      "from": 140,
+      "to": 135
+    },
+    {
+      "from": 140,
+      "to": 136
+    },
+    {
+      "from": 140,
+      "to": 137
+    },
+    {
+      "from": 140,
+      "to": 138
+    },
+    {
+      "from": 140,
+      "to": 139
+    },
+    {
+      "from": 141,
+      "to": 134
+    },
+    {
+      "from": 141,
+      "to": 135
+    },
+    {
+      "from": 142,
+      "to": 134
+    },
+    {
+      "from": 142,
+      "to": 135
+    },
+    {
+      "from": 142,
+      "to": 136
+    },
+    {
+      "from": 143,
+      "to": 134
+    },
+    {
+      "from": 143,
+      "to": 138
+    },
+    {
+      "from": 143,
+      "to": 139
+    },
+    {
+      "from": 144,
+      "to": 142
+    },
+    {
+      "from": 144,
+      "to": 55
+    },
+    {
+      "from": 145,
+      "to": 142
+    },
+    {
+      "from": 145,
+      "to": 84
+    },
+    {
+      "from": 146,
+      "to": 144
+    },
+    {
+      "from": 147,
+      "to": 144
+    },
+    {
+      "from": 148,
+      "to": 144
+    },
+    {
+      "from": 148,
+      "to": 145
+    },
+    {
+      "from": 149,
+      "to": 142
+    },
+    {
+      "from": 150,
+      "to": 143
+    },
+    {
+      "from": 151,
+      "to": 143
+    },
+    {
+      "from": 152,
+      "to": 143
+    },
+    {
+      "from": 152,
+      "to": 144
+    },
+    {
+      "from": 152,
+      "to": 145
+    },
+    {
+      "from": 153,
+      "to": 143
+    },
+    {
+      "from": 154,
+      "to": 134
+    },
+    {
+      "from": 155,
+      "to": 144
+    },
+    {
+      "from": 155,
+      "to": 87
+    },
+    {
+      "from": 156,
+      "to": 133
+    },
+    {
+      "from": 156,
+      "to": 157
+    },
+    {
+      "from": 157,
+      "to": 4
+    },
+    {
+      "from": 158,
+      "to": 157
+    },
+    {
+      "from": 159,
+      "to": 158
+    },
+    {
+      "from": 160,
+      "to": 158
+    },
+    {
+      "from": 161,
+      "to": 158
+    },
+    {
+      "from": 162,
+      "to": 157
+    },
+    {
+      "from": 162,
+      "to": 68
+    },
+    {
+      "from": 163,
+      "to": 156
+    },
+    {
+      "from": 164,
+      "to": 163
+    },
+    {
+      "from": 165,
+      "to": 164
+    },
+    {
+      "from": 165,
+      "to": 144
+    },
+    {
+      "from": 166,
+      "to": 147
+    },
+    {
+      "from": 166,
+      "to": 163
+    },
+    {
+      "from": 167,
+      "to": 148
+    },
+    {
+      "from": 167,
+      "to": 156
+    },
+    {
+      "from": 168,
+      "to": 133
+    },
+    {
+      "from": 168,
+      "to": 4
+    },
+    {
+      "from": 169,
+      "to": 168
+    },
+    {
+      "from": 170,
+      "to": 154
+    },
+    {
+      "from": 170,
+      "to": 168
+    },
+    {
+      "from": 171,
+      "to": 154
+    },
+    {
+      "from": 171,
+      "to": 168
+    },
+    {
+      "from": 172,
+      "to": 168
+    },
+    {
+      "from": 172,
+      "to": 164
+    },
+    {
+      "from": 173,
+      "to": 169
+    },
+    {
+      "from": 173,
+      "to": 153
+    },
+    {
+      "from": 174,
+      "to": 4
+    },
+    {
+      "from": 174,
+      "to": 84
+    },
+    {
+      "from": 175,
+      "to": 174
+    },
+    {
+      "from": 176,
+      "to": 174
+    },
+    {
+      "from": 177,
+      "to": 175
+    },
+    {
+      "from": 177,
+      "to": 176
+    },
+    {
+      "from": 178,
+      "to": 177
+    },
+    {
+      "from": 179,
+      "to": 178
+    },
+    {
+      "from": 179,
+      "to": 181
+    },
+    {
+      "from": 180,
+      "to": 179
+    },
+    {
+      "from": 181,
+      "to": 174
+    },
+    {
+      "from": 182,
+      "to": 174
+    },
+    {
+      "from": 182,
+      "to": 85
+    },
+    {
+      "from": 183,
+      "to": 174
+    },
+    {
+      "from": 183,
+      "to": 182
+    },
+    {
+      "from": 184,
+      "to": 183
+    },
+    {
+      "from": 185,
+      "to": 183
+    },
+    {
+      "from": 186,
+      "to": 179
+    },
+    {
+      "from": 186,
+      "to": 183
+    },
+    {
+      "from": 187,
+      "to": 186
+    },
+    {
+      "from": 188,
+      "to": 4
+    },
+    {
+      "from": 189,
+      "to": 188
+    },
+    {
+      "from": 190,
+      "to": 188
+    },
+    {
+      "from": 190,
+      "to": 174
+    },
+    {
+      "from": 191,
+      "to": 188
+    },
+    {
+      "from": 191,
+      "to": 175
+    },
+    {
+      "from": 192,
+      "to": 191
+    },
+    {
+      "from": 193,
+      "to": 190
+    },
+    {
+      "from": 193,
+      "to": 192
+    },
+    {
+      "from": 193,
+      "to": 182
+    },
+    {
+      "from": 194,
+      "to": 188
+    },
+    {
+      "from": 195,
+      "to": 174
+    },
+    {
+      "from": 195,
+      "to": 100
+    },
+    {
+      "from": 196,
+      "to": 93
+    },
+    {
+      "from": 196,
+      "to": 133
+    },
+    {
+      "from": 197,
+      "to": 2
+    },
+    {
+      "from": 197,
+      "to": 59
+    },
+    {
+      "from": 197,
+      "to": 68
+    },
+    {
+      "from": 198,
+      "to": 197
+    },
+    {
+      "from": 199,
+      "to": 198
+    },
+    {
+      "from": 199,
+      "to": 68
+    },
+    {
+      "from": 200,
+      "to": 198
+    },
+    {
+      "from": 200,
+      "to": 76
+    },
+    {
+      "from": 201,
+      "to": 198
+    },
+    {
+      "from": 201,
+      "to": 73
+    },
+    {
+      "from": 202,
+      "to": 198
+    },
+    {
+      "from": 202,
+      "to": 63
+    },
+    {
+      "from": 203,
+      "to": 197
+    },
+    {
+      "from": 203,
+      "to": 198
+    },
+    {
+      "from": 204,
+      "to": 203
+    },
+    {
+      "from": 204,
+      "to": 161
+    },
+    {
+      "from": 205,
+      "to": 199
+    },
+    {
+      "from": 205,
+      "to": 204
+    },
+    {
+      "from": 206,
+      "to": 200
+    },
+    {
+      "from": 206,
+      "to": 203
+    },
+    {
+      "from": 207,
+      "to": 201
+    },
+    {
+      "from": 207,
+      "to": 203
+    },
+    {
+      "from": 208,
+      "to": 202
+    },
+    {
+      "from": 208,
+      "to": 64
+    },
+    {
+      "from": 209,
+      "to": 208
+    },
+    {
+      "from": 210,
+      "to": 208
+    },
+    {
+      "from": 211,
+      "to": 208
+    },
+    {
+      "from": 212,
+      "to": 208
+    },
+    {
+      "from": 212,
+      "to": 206
+    },
+    {
+      "from": 213,
+      "to": 208
+    },
+    {
+      "from": 214,
+      "to": 208
+    },
+    {
+      "from": 214,
+      "to": 66
+    },
+    {
+      "from": 215,
+      "to": 203
+    },
+    {
+      "from": 215,
+      "to": 205
+    },
+    {
+      "from": 216,
+      "to": 215
+    },
+    {
+      "from": 216,
+      "to": 189
+    },
+    {
+      "from": 217,
+      "to": 215
+    },
+    {
+      "from": 218,
+      "to": 215
+    },
+    {
+      "from": 218,
+      "to": 175
+    },
+    {
+      "from": 219,
+      "to": 215
+    },
+    {
+      "from": 220,
+      "to": 215
+    },
+    {
+      "from": 220,
+      "to": 77
+    },
+    {
+      "from": 220,
+      "to": 199
+    },
+    {
+      "from": 221,
+      "to": 215
+    },
+    {
+      "from": 221,
+      "to": 235
+    },
+    {
+      "from": 221,
+      "to": 154
+    },
+    {
+      "from": 222,
+      "to": 199
+    },
+    {
+      "from": 222,
+      "to": 215
+    },
+    {
+      "from": 223,
+      "to": 200
+    },
+    {
+      "from": 223,
+      "to": 93
+    },
+    {
+      "from": 224,
+      "to": 197
+    },
+    {
+      "from": 224,
+      "to": 198
+    },
+    {
+      "from": 225,
+      "to": 224
+    },
+    {
+      "from": 226,
+      "to": 224
+    },
+    {
+      "from": 226,
+      "to": 167
+    },
+    {
+      "from": 227,
+      "to": 225
+    },
+    {
+      "from": 228,
+      "to": 226
+    },
+    {
+      "from": 229,
+      "to": 226
+    },
+    {
+      "from": 230,
+      "to": 224
+    },
+    {
+      "from": 230,
+      "to": 68
+    },
+    {
+      "from": 231,
+      "to": 226
+    },
+    {
+      "from": 231,
+      "to": 75
+    },
+    {
+      "from": 232,
+      "to": 231
+    },
+    {
+      "from": 232,
+      "to": 208
+    },
+    {
+      "from": 232,
+      "to": 59
+    },
+    {
+      "from": 233,
+      "to": 225
+    },
+    {
+      "from": 233,
+      "to": 230
+    },
+    {
+      "from": 234,
+      "to": 197
+    },
+    {
+      "from": 234,
+      "to": 235
+    },
+    {
+      "from": 235,
+      "to": 197
+    },
+    {
+      "from": 235,
+      "to": 62
+    },
+    {
+      "from": 236,
+      "to": 235
+    },
+    {
+      "from": 236,
+      "to": 62
+    },
+    {
+      "from": 237,
+      "to": 234
+    },
+    {
+      "from": 237,
+      "to": 65
+    },
+    {
+      "from": 238,
+      "to": 234
+    },
+    {
+      "from": 238,
+      "to": 62
+    },
+    {
+      "from": 239,
+      "to": 197
+    },
+    {
+      "from": 240,
+      "to": 206
+    },
+    {
+      "from": 240,
+      "to": 76
+    },
+    {
+      "from": 240,
+      "to": 223
+    },
+    {
+      "from": 241,
+      "to": 240
+    },
+    {
+      "from": 242,
+      "to": 4
+    },
+    {
+      "from": 242,
+      "to": 96
+    },
+    {
+      "from": 243,
+      "to": 242
+    },
+    {
+      "from": 244,
+      "to": 5
+    },
+    {
+      "from": 244,
+      "to": 59
+    },
+    {
+      "from": 245,
+      "to": 244
+    },
+    {
+      "from": 246,
+      "to": 245
+    },
+    {
+      "from": 247,
+      "to": 245
+    },
+    {
+      "from": 248,
+      "to": 245
+    },
+    {
+      "from": 248,
+      "to": 249
+    },
+    {
+      "from": 249,
+      "to": 244
+    },
+    {
+      "from": 250,
+      "to": 249
+    },
+    {
+      "from": 250,
+      "to": 81
+    },
+    {
+      "from": 251,
+      "to": 244
+    },
+    {
+      "from": 251,
+      "to": 74
+    },
+    {
+      "from": 252,
+      "to": 251
+    },
+    {
+      "from": 253,
+      "to": 252
+    },
+    {
+      "from": 254,
+      "to": 251
+    },
+    {
+      "from": 255,
+      "to": 254
+    },
+    {
+      "from": 255,
+      "to": 59
+    },
+    {
+      "from": 256,
+      "to": 251
+    },
+    {
+      "from": 256,
+      "to": 69
+    },
+    {
+      "from": 257,
+      "to": 245
+    },
+    {
+      "from": 257,
+      "to": 62
+    },
+    {
+      "from": 258,
+      "to": 244
+    },
+    {
+      "from": 258,
+      "to": 65
+    },
+    {
+      "from": 258,
+      "to": 80
+    },
+    {
+      "from": 259,
+      "to": 244
+    },
+    {
+      "from": 259,
+      "to": 271
+    },
+    {
+      "from": 260,
+      "to": 5
+    },
+    {
+      "from": 261,
+      "to": 260
+    },
+    {
+      "from": 262,
+      "to": 260
+    },
+    {
+      "from": 263,
+      "to": 261
+    },
+    {
+      "from": 263,
+      "to": 262
+    },
+    {
+      "from": 264,
+      "to": 261
+    },
+    {
+      "from": 264,
+      "to": 58
+    },
+    {
+      "from": 265,
+      "to": 230
+    },
+    {
+      "from": 265,
+      "to": 114
+    },
+    {
+      "from": 265,
+      "to": 260
+    },
+    {
+      "from": 266,
+      "to": 5
+    },
+    {
+      "from": 266,
+      "to": 96
+    },
+    {
+      "from": 267,
+      "to": 266
+    },
+    {
+      "from": 267,
+      "to": 261
+    },
+    {
+      "from": 268,
+      "to": 266
+    },
+    {
+      "from": 268,
+      "to": 299
+    },
+    {
+      "from": 269,
+      "to": 266
+    },
+    {
+      "from": 269,
+      "to": 251
+    },
+    {
+      "from": 270,
+      "to": 5
+    },
+    {
+      "from": 270,
+      "to": 271
+    },
+    {
+      "from": 271,
+      "to": 5
+    },
+    {
+      "from": 273,
+      "to": 272
+    },
+    {
+      "from": 274,
+      "to": 272
+    },
+    {
+      "from": 275,
+      "to": 273
+    },
+    {
+      "from": 275,
+      "to": 274
+    },
+    {
+      "from": 276,
+      "to": 273
+    },
+    {
+      "from": 276,
+      "to": 274
+    },
+    {
+      "from": 277,
+      "to": 276
+    },
+    {
+      "from": 278,
+      "to": 274
+    },
+    {
+      "from": 279,
+      "to": 274
+    },
+    {
+      "from": 280,
+      "to": 271
+    },
+    {
+      "from": 280,
+      "to": 278
+    },
+    {
+      "from": 281,
+      "to": 280
+    },
+    {
+      "from": 282,
+      "to": 281
+    },
+    {
+      "from": 283,
+      "to": 281
+    },
+    {
+      "from": 284,
+      "to": 278
+    },
+    {
+      "from": 284,
+      "to": 280
+    },
+    {
+      "from": 285,
+      "to": 283
+    },
+    {
+      "from": 285,
+      "to": 274
+    },
+    {
+      "from": 286,
+      "to": 283
+    },
+    {
+      "from": 286,
+      "to": 285
+    },
+    {
+      "from": 287,
+      "to": 282
+    },
+    {
+      "from": 287,
+      "to": 283
+    },
+    {
+      "from": 288,
+      "to": 275
+    },
+    {
+      "from": 288,
+      "to": 271
+    },
+    {
+      "from": 289,
+      "to": 288
+    },
+    {
+      "from": 290,
+      "to": 288
+    },
+    {
+      "from": 290,
+      "to": 281
+    },
+    {
+      "from": 291,
+      "to": 276
+    },
+    {
+      "from": 291,
+      "to": 271
+    },
+    {
+      "from": 292,
+      "to": 291
+    },
+    {
+      "from": 292,
+      "to": 286
+    },
+    {
+      "from": 293,
+      "to": 291
+    },
+    {
+      "from": 293,
+      "to": 79
+    },
+    {
+      "from": 294,
+      "to": 293
+    },
+    {
+      "from": 295,
+      "to": 286
+    },
+    {
+      "from": 296,
+      "to": 291
+    },
+    {
+      "from": 296,
+      "to": 329
+    },
+    {
+      "from": 297,
+      "to": 296
+    },
+    {
+      "from": 298,
+      "to": 296
+    },
+    {
+      "from": 298,
+      "to": 279
+    },
+    {
+      "from": 299,
+      "to": 271
+    },
+    {
+      "from": 299,
+      "to": 273
+    },
+    {
+      "from": 300,
+      "to": 299
+    },
+    {
+      "from": 301,
+      "to": 271
+    },
+    {
+      "from": 301,
+      "to": 15
+    },
+    {
+      "from": 302,
+      "to": 301
+    },
+    {
+      "from": 302,
+      "to": 287
+    },
+    {
+      "from": 303,
+      "to": 38
+    },
+    {
+      "from": 303,
+      "to": 25
+    },
+    {
+      "from": 303,
+      "to": 301
+    },
+    {
+      "from": 304,
+      "to": 271
+    },
+    {
+      "from": 304,
+      "to": 307
+    },
+    {
+      "from": 305,
+      "to": 279
+    },
+    {
+      "from": 305,
+      "to": 62
+    },
+    {
+      "from": 305,
+      "to": 271
+    },
+    {
+      "from": 306,
+      "to": 291
+    },
+    {
+      "from": 306,
+      "to": 286
+    },
+    {
+      "from": 307,
+      "to": 2
+    },
+    {
+      "from": 307,
+      "to": 3
+    },
+    {
+      "from": 308,
+      "to": 307
+    },
+    {
+      "from": 309,
+      "to": 308
+    },
+    {
+      "from": 310,
+      "to": 309
+    },
+    {
+      "from": 311,
+      "to": 310
+    },
+    {
+      "from": 311,
+      "to": 349
+    },
+    {
+      "from": 312,
+      "to": 308
+    },
+    {
+      "from": 312,
+      "to": 7
+    },
+    {
+      "from": 313,
+      "to": 308
+    },
+    {
+      "from": 313,
+      "to": 266
+    },
+    {
+      "from": 314,
+      "to": 308
+    },
+    {
+      "from": 314,
+      "to": 260
+    },
+    {
+      "from": 315,
+      "to": 308
+    },
+    {
+      "from": 315,
+      "to": 244
+    },
+    {
+      "from": 316,
+      "to": 307
+    },
+    {
+      "from": 317,
+      "to": 104
+    },
+    {
+      "from": 317,
+      "to": 6
+    },
+    {
+      "from": 318,
+      "to": 307
+    },
+    {
+      "from": 318,
+      "to": 29
+    },
+    {
+      "from": 319,
+      "to": 318
+    },
+    {
+      "from": 319,
+      "to": 41
+    },
+    {
+      "from": 320,
+      "to": 319
+    },
+    {
+      "from": 320,
+      "to": 53
+    },
+    {
+      "from": 321,
+      "to": 320
+    },
+    {
+      "from": 321,
+      "to": 33
+    },
+    {
+      "from": 322,
+      "to": 309
+    },
+    {
+      "from": 322,
+      "to": 6
+    },
+    {
+      "from": 323,
+      "to": 322
+    },
+    {
+      "from": 323,
+      "to": 324
+    },
+    {
+      "from": 324,
+      "to": 96
+    },
+    {
+      "from": 324,
+      "to": 307
+    },
+    {
+      "from": 325,
+      "to": 324
+    },
+    {
+      "from": 326,
+      "to": 322
+    },
+    {
+      "from": 326,
+      "to": 329
+    },
+    {
+      "from": 327,
+      "to": 326
+    },
+    {
+      "from": 328,
+      "to": 323
+    },
+    {
+      "from": 328,
+      "to": 322
+    },
+    {
+      "from": 329,
+      "to": 307
+    },
+    {
+      "from": 329,
+      "to": 266
+    },
+    {
+      "from": 330,
+      "to": 311
+    },
+    {
+      "from": 330,
+      "to": 65
+    },
+    {
+      "from": 331,
+      "to": 41
+    },
+    {
+      "from": 331,
+      "to": 333
+    },
+    {
+      "from": 332,
+      "to": 307
+    },
+    {
+      "from": 332,
+      "to": 102
+    },
+    {
+      "from": 333,
+      "to": 41
+    },
+    {
+      "from": 333,
+      "to": 307
+    },
+    {
+      "from": 334,
+      "to": 1
+    },
+    {
+      "from": 335,
+      "to": 334
+    },
+    {
+      "from": 335,
+      "to": 4
+    },
+    {
+      "from": 336,
+      "to": 335
+    },
+    {
+      "from": 336,
+      "to": 348
+    },
+    {
+      "from": 337,
+      "to": 334
+    },
+    {
+      "from": 337,
+      "to": 349
+    },
+    {
+      "from": 338,
+      "to": 335
+    },
+    {
+      "from": 339,
+      "to": 338
+    },
+    {
+      "from": 340,
+      "to": 335
+    },
+    {
+      "from": 341,
+      "to": 335
+    },
+    {
+      "from": 342,
+      "to": 160
+    },
+    {
+      "from": 342,
+      "to": 341
+    },
+    {
+      "from": 342,
+      "to": 159
+    },
+    {
+      "from": 343,
+      "to": 335
+    },
+    {
+      "from": 344,
+      "to": 335
+    },
+    {
+      "from": 345,
+      "to": 344
+    },
+    {
+      "from": 345,
+      "to": 256
+    },
+    {
+      "from": 346,
+      "to": 334
+    },
+    {
+      "from": 346,
+      "to": 24
+    },
+    {
+      "from": 347,
+      "to": 346
+    },
+    {
+      "from": 348,
+      "to": 338
+    },
+    {
+      "from": 349,
+      "to": 334
+    },
+    {
+      "from": 349,
+      "to": 59
+    },
+    {
+      "from": 349,
+      "to": 208
+    },
+    {
+      "from": 350,
+      "to": 349
+    },
+    {
+      "from": 350,
+      "to": 240
+    },
+    {
+      "from": 350,
+      "to": 214
+    },
+    {
+      "from": 351,
+      "to": 350
+    },
+    {
+      "from": 351,
+      "to": 241
+    },
+    {
+      "from": 351,
+      "to": 255
+    },
+    {
+      "from": 352,
+      "to": 350
+    },
+    {
+      "from": 352,
+      "to": 305
+    },
+    {
+      "from": 353,
+      "to": 354
+    },
+    {
+      "from": 354,
+      "to": 334
+    },
+    {
+      "from": 354,
+      "to": 349
+    },
+    {
+      "from": 355,
+      "to": 62
+    },
+    {
+      "from": 355,
+      "to": 67
+    },
+    {
+      "from": 355,
+      "to": 334
+    },
+    {
+      "from": 356,
+      "to": 79
+    },
+    {
+      "from": 356,
+      "to": 234
+    },
+    {
+      "from": 356,
+      "to": 355
+    },
+    {
+      "from": 357,
+      "to": 227
+    },
+    {
+      "from": 357,
+      "to": 62
+    },
+    {
+      "from": 357,
+      "to": 349
+    },
+    {
+      "from": 358,
+      "to": 334
+    },
+    {
+      "from": 358,
+      "to": 263
+    },
+    {
+      "from": 359,
+      "to": 338
+    },
+    {
+      "from": 359,
+      "to": 364
+    },
+    {
+      "from": 360,
+      "to": 336
+    },
+    {
+      "from": 360,
+      "to": 341
+    },
+    {
+      "from": 361,
+      "to": 175
+    },
+    {
+      "from": 361,
+      "to": 336
+    },
+    {
+      "from": 362,
+      "to": 334
+    },
+    {
+      "from": 362,
+      "to": 363
+    },
+    {
+      "from": 363,
+      "to": 82
+    },
+    {
+      "from": 363,
+      "to": 98
+    },
+    {
+      "from": 364,
+      "to": 363
+    },
+    {
+      "from": 365,
+      "to": 364
+    },
+    {
+      "from": 366,
+      "to": 365
+    },
+    {
+      "from": 367,
+      "to": 363
+    },
+    {
+      "from": 368,
+      "to": 367
+    },
+    {
+      "from": 368,
+      "to": 199
+    },
+    {
+      "from": 369,
+      "to": 367
+    },
+    {
+      "from": 369,
+      "to": 100
+    },
+    {
+      "from": 370,
+      "to": 367
+    },
+    {
+      "from": 370,
+      "to": 109
+    },
+    {
+      "from": 371,
+      "to": 367
+    },
+    {
+      "from": 371,
+      "to": 162
+    },
+    {
+      "from": 372,
+      "to": 367
+    },
+    {
+      "from": 372,
+      "to": 70
+    },
+    {
+      "from": 373,
+      "to": 188
+    },
+    {
+      "from": 373,
+      "to": 368
+    },
+    {
+      "from": 374,
+      "to": 367
+    },
+    {
+      "from": 374,
+      "to": 95
+    },
+    {
+      "from": 374,
+      "to": 368
+    },
+    {
+      "from": 375,
+      "to": 367
+    },
+    {
+      "from": 375,
+      "to": 96
+    },
+    {
+      "from": 376,
+      "to": 367
+    },
+    {
+      "from": 376,
+      "to": 101
+    },
+    {
+      "from": 377,
+      "to": 376
+    },
+    {
+      "from": 378,
+      "to": 377
+    },
+    {
+      "from": 379,
+      "to": 378
+    },
+    {
+      "from": 380,
+      "to": 378
+    },
+    {
+      "from": 380,
+      "to": 347
+    },
+    {
+      "from": 381,
+      "to": 108
+    },
+    {
+      "from": 381,
+      "to": 59
+    },
+    {
+      "from": 382,
+      "to": 381
+    },
+    {
+      "from": 383,
+      "to": 382
+    },
+    {
+      "from": 384,
+      "to": 248
+    },
+    {
+      "from": 385,
+      "to": 248
+    },
+    {
+      "from": 385,
+      "to": 384
+    },
+    {
+      "from": 386,
+      "to": 248
+    },
+    {
+      "from": 386,
+      "to": 276
+    },
+    {
+      "from": 387,
+      "to": 386
+    },
+    {
+      "from": 387,
+      "to": 58
+    },
+    {
+      "from": 388,
+      "to": 386
+    },
+    {
+      "from": 388,
+      "to": 387
+    },
+    {
+      "from": 389,
+      "to": 248
+    },
+    {
+      "from": 389,
+      "to": 386
+    },
+    {
+      "from": 390,
+      "to": 248
+    },
+    {
+      "from": 391,
+      "to": 245
+    },
+    {
+      "from": 391,
+      "to": 271
+    },
+    {
+      "from": 392,
+      "to": 384
+    },
+    {
+      "from": 392,
+      "to": 334
+    },
+    {
+      "from": 393,
+      "to": 255
+    },
+    {
+      "from": 393,
+      "to": 69
+    },
+    {
+      "from": 394,
+      "to": 255
+    },
+    {
+      "from": 395,
+      "to": 394
+    },
+    {
+      "from": 395,
+      "to": 72
+    },
+    {
+      "from": 396,
+      "to": 248
+    },
+    {
+      "from": 396,
+      "to": 381
+    },
+    {
+      "from": 397,
+      "to": 396
+    },
+    {
+      "from": 398,
+      "to": 397
+    },
+    {
+      "from": 399,
+      "to": 251
+    },
+    {
+      "from": 399,
+      "to": 381
+    },
+    {
+      "from": 400,
+      "to": 305
+    },
+    {
+      "from": 400,
+      "to": 62
+    },
+    {
+      "from": 401,
+      "to": 305
+    },
+    {
+      "from": 401,
+      "to": 400
+    },
+    {
+      "from": 402,
+      "to": 278
+    },
+    {
+      "from": 402,
+      "to": 279
+    },
+    {
+      "from": 403,
+      "to": 305
+    },
+    {
+      "from": 403,
+      "to": 280
+    },
+    {
+      "from": 404,
+      "to": 279
+    },
+    {
+      "from": 404,
+      "to": 277
+    },
+    {
+      "from": 404,
+      "to": 291
+    },
+    {
+      "from": 404,
+      "to": 402
+    },
+    {
+      "from": 405,
+      "to": 404
+    },
+    {
+      "from": 406,
+      "to": 404
+    },
+    {
+      "from": 406,
+      "to": 276
+    },
+    {
+      "from": 407,
+      "to": 406
+    },
+    {
+      "from": 407,
+      "to": 291
+    },
+    {
+      "from": 408,
+      "to": 404
+    },
+    {
+      "from": 408,
+      "to": 277
+    },
+    {
+      "from": 409,
+      "to": 404
+    },
+    {
+      "from": 409,
+      "to": 304
+    },
+    {
+      "from": 410,
+      "to": 280
+    },
+    {
+      "from": 410,
+      "to": 277
+    },
+    {
+      "from": 411,
+      "to": 404
+    },
+    {
+      "from": 411,
+      "to": 306
+    },
+    {
+      "from": 412,
+      "to": 404
+    },
+    {
+      "from": 412,
+      "to": 259
+    },
+    {
+      "from": 412,
+      "to": 410
+    },
+    {
+      "from": 413,
+      "to": 259
+    },
+    {
+      "from": 414,
+      "to": 413
+    },
+    {
+      "from": 415,
+      "to": 413
+    },
+    {
+      "from": 415,
+      "to": 256
+    },
+    {
+      "from": 416,
+      "to": 415
+    },
+    {
+      "from": 416,
+      "to": 251
+    },
+    {
+      "from": 417,
+      "to": 413
+    },
+    {
+      "from": 417,
+      "to": 368
+    },
+    {
+      "from": 418,
+      "to": 413
+    },
+    {
+      "from": 418,
+      "to": 294
+    },
+    {
+      "from": 419,
+      "to": 413
+    },
+    {
+      "from": 419,
+      "to": 277
+    },
+    {
+      "from": 420,
+      "to": 413
+    },
+    {
+      "from": 421,
+      "to": 420
+    },
+    {
+      "from": 422,
+      "to": 259
+    },
+    {
+      "from": 422,
+      "to": 300
+    },
+    {
+      "from": 423,
+      "to": 422
+    },
+    {
+      "from": 424,
+      "to": 51
+    },
+    {
+      "from": 424,
+      "to": 413
+    },
+    {
+      "from": 425,
+      "to": 32
+    },
+    {
+      "from": 425,
+      "to": 421
+    },
+    {
+      "from": 426,
+      "to": 342
+    },
+    {
+      "from": 426,
+      "to": 323
+    },
+    {
+      "from": 427,
+      "to": 342
+    },
+    {
+      "from": 427,
+      "to": 96
+    },
+    {
+      "from": 428,
+      "to": 342
+    },
+    {
+      "from": 428,
+      "to": 162
+    },
+    {
+      "from": 428,
+      "to": 201
+    },
+    {
+      "from": 429,
+      "to": 224
+    },
+    {
+      "from": 429,
+      "to": 202
+    },
+    {
+      "from": 429,
+      "to": 201
+    },
+    {
+      "from": 430,
+      "to": 361
+    },
+    {
+      "from": 430,
+      "to": 174
+    },
+    {
+      "from": 431,
+      "to": 430
+    },
+    {
+      "from": 432,
+      "to": 360
+    },
+    {
+      "from": 433,
+      "to": 336
+    },
+    {
+      "from": 433,
+      "to": 339
+    },
+    {
+      "from": 434,
+      "to": 168
+    },
+    {
+      "from": 434,
+      "to": 336
+    },
+    {
+      "from": 435,
+      "to": 308
+    },
+    {
+      "from": 436,
+      "to": 332
+    },
+    {
+      "from": 436,
+      "to": 349
+    },
+    {
+      "from": 437,
+      "to": 308
+    },
+    {
+      "from": 437,
+      "to": 349
+    },
+    {
+      "from": 438,
+      "to": 307
+    },
+    {
+      "from": 438,
+      "to": 349
+    },
+    {
+      "from": 439,
+      "to": 311
+    },
+    {
+      "from": 439,
+      "to": 435
+    },
+    {
+      "from": 440,
+      "to": 311
+    },
+    {
+      "from": 440,
+      "to": 305
+    },
+    {
+      "from": 440,
+      "to": 306
+    },
+    {
+      "from": 441,
+      "to": 364
+    },
+    {
+      "from": 442,
+      "to": 24
+    },
+    {
+      "from": 443,
+      "to": 442
+    },
+    {
+      "from": 444,
+      "to": 51
+    },
+    {
+      "from": 444,
+      "to": 52
+    },
+    {
+      "from": 445,
+      "to": 51
+    },
+    {
+      "from": 446,
+      "to": 24
+    },
+    {
+      "from": 447,
+      "to": 51
+    },
+    {
+      "from": 447,
+      "to": 319
+    },
+    {
+      "from": 448,
+      "to": 447
+    },
+    {
+      "from": 448,
+      "to": 53
+    }
+  ]
+}

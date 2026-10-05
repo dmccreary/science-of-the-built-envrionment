@@ -1,0 +1,61 @@
+{
+  "title": "Code Adoption and Authority Chain",
+  "description": "Students will explain (Bloom Level 2, Understand) how a model code becomes enforceable law and will trace (Bloom Level 4, Analyze) which layers of rules apply to a given Minnesota project.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "code-adoption-authority-chain",
+  "library": "p5.js",
+  "bloomLevel": "Understand, Analyze",
+  "bloomVerb": "explain, trace",
+  "completion_status": "built",
+  "chapter_number": 17,
+  "chapter_title": "Building Codes, Permits, and Enforcement",
+  "chapter_dir": "17-building-codes-permits",
+  "chapter_rel_dir": "chapters/17-building-codes-permits",
+  "canvasHeight": 535,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Understand",
+      "Analyze"
+    ],
+    "concepts": [
+      "Model code",
+      "Code adoption and amendment",
+      "Authority having jurisdiction",
+      "Referenced standards",
+      "Zoning versus building code"
+    ],
+    "prerequisites": [
+      "Chapter 2 project phases and permits",
+      "Basic idea of a building code"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Explain how a model code becomes enforceable law and trace which layers of rules apply to a Minnesota project.",
+    "recommendedUsage": [
+      "Read the stack from top to bottom. Each layer is a box with its own border style, and the strip on the right gives the question that layer answers.",
+      "Hover over a layer for a one-sentence definition. Click a layer to see who writes it, who enforces it, and a Riverbend example. Click it again to close the infobox.",
+      "Check Amendment on to highlight the Minnesota amendment in the state layer and see how the footing requirement at the project layer changes.",
+      "Press Which rule wins? and click the layer you think controls the conflict. The answer is checked at once with a plain-language explanation; press the button again for the next conflict."
+    ],
+    "activities": [
+      "Predict (5 min): Before clicking, students write one sentence on why a model code has no legal force by itself, then check it against the infobox for the model code layer.",
+      "Trace (10 min): Students click all five layers and fill in a table of who writes and who enforces each layer, then repeat with the amendment on and note what changes at the project layer.",
+      "Analyze (10 min): Students work through every Which rule wins? conflict, record the controlling layer, and write the reason in their own words before reading the explanation."
+    ],
+    "assessment": [
+      "Students explain in two sentences why a permit applied for in 2025 may be reviewed against an older edition of the model code than the newest one published.",
+      "Students write one new conflict between two layers and name the controlling layer with a reason."
+    ]
+  }
+}

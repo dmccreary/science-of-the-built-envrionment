@@ -1,0 +1,189 @@
+{
+  "title": "The Swiss Cheese Model of Building Failure",
+  "image": "swiss-cheese-model-of-building-failure.png",
+  "layout": "grid",
+  "showLabels": true,
+  "palette": ["#2468A2", "#8B5A2B", "#FF6A13", "#7453A1", "#6B8E4E", "#C95343", "#D39B1C", "#1B998B"],
+  "zones": [
+    {
+      "id": "design-slice",
+      "label": "Design Slice",
+      "color": "#2468A2",
+      "x1": 2.0,
+      "y1": 3.0,
+      "x2": 14.0,
+      "y2": 50.0,
+      "summary": "The first defense: drawings and details that are meant to be both code-compliant and buildable.",
+      "facts": [
+        "Chapter 21 lists design as a cause category; its Riverbend example is a window head drawn with no flashing detail.",
+        "A detail can meet the code and still be a hole, for example one that is too tight to install or that never says how two parts connect.",
+        "Design holes are often dormant: they sit on the drawings for months until the weather or a load finds them. Reason called such conditions latent.",
+        "A clear, buildable detail and a design review plug these holes before any product is ordered."
+      ]
+    },
+    {
+      "id": "materials-slice",
+      "label": "Materials Slice",
+      "color": "#8B5A2B",
+      "x1": 15.0,
+      "y1": 3.0,
+      "x2": 27.0,
+      "y2": 50.0,
+      "summary": "The second defense: the products delivered to the site must be the ones the designer assumed.",
+      "facts": [
+        "Chapter 21's example is framing delivered wet, which starts a wall's life already carrying moisture.",
+        "A substituted product can look equivalent while differing in strength, fire rating, or how it handles moisture, so substitutions need review.",
+        "A hole here comes from the wrong product or one damaged in storage, and it passes unnoticed unless someone checks.",
+        "Tests that show whether products and systems perform are part of the inspection and testing checks in Chapter 17."
+      ]
+    },
+    {
+      "id": "construction-slice",
+      "label": "Construction Slice",
+      "color": "#FF6A13",
+      "x1": 28.0,
+      "y1": 3.0,
+      "x2": 40.0,
+      "y2": 50.0,
+      "summary": "The third defense: the work must be built the way it was drawn, in the right order.",
+      "facts": [
+        "Chapter 21 lists work not built as designed as a cause category; its example is flashing installed backward.",
+        "Many construction holes are small and later hidden: a missed lap, a skipped fastener, a gap that gets covered by the next trade.",
+        "Mockups, installer training, and the contractor's own checks plug these holes while the work is still visible.",
+        "Inspectors rely on this slice doing its job, because they see only a sample of the work (Chapter 17)."
+      ]
+    },
+    {
+      "id": "inspection-slice",
+      "label": "Inspection Slice",
+      "color": "#7453A1",
+      "x1": 41.0,
+      "y1": 3.0,
+      "x2": 53.0,
+      "y2": 50.0,
+      "summary": "The fourth defense: checks that are meant to catch what the earlier slices missed.",
+      "facts": [
+        "The inspector sees only a sample of the work on a given day, and inspection does not replace the contractor's own quality control (Chapter 17).",
+        "Work that is covered before it is checked, such as flashing behind siding, cannot be inspected afterward without opening the wall.",
+        "A rushed or skipped inspection leaves a hole in the one slice whose job is to find holes in the others.",
+        "Inspection is also a slice that can be strengthened: special inspections and tests are covered in Chapter 17."
+      ]
+    },
+    {
+      "id": "maintenance-slice",
+      "label": "Maintenance Slice",
+      "color": "#6B8E4E",
+      "x1": 54.0,
+      "y1": 3.0,
+      "x2": 66.0,
+      "y2": 50.0,
+      "summary": "The last defense: upkeep that finds and fixes small problems for the whole life of the building.",
+      "facts": [
+        "Chapter 21 calls neglect a leading reason that buildings fail early; its example is clogged roof drains.",
+        "A maintenance hole can stay open the longest, because it lasts for as long as the building does.",
+        "Preventive maintenance, scheduled servicing and inspection at set intervals, finds small problems before they become failures (Chapter 21).",
+        "An ignored leak or stain is the building telling you a hole in an earlier slice is already open."
+      ]
+    },
+    {
+      "id": "failure-outcome",
+      "label": "Failure Outcome",
+      "color": "#C95343",
+      "x1": 67.5,
+      "y1": 3.0,
+      "x2": 98.0,
+      "y2": 50.0,
+      "summary": "Where the arrow lands when the holes line up: mold, collapse, or fire spread, and in most cases something far milder.",
+      "facts": [
+        "Chapter 21 describes building failure as a condition where a building no longer meets its required performance, from rare collapse to common leaks, cracks, and mold.",
+        "Failures are better understood by their causes than their symptoms; a stain on a ceiling can trace back to a drawing (Chapter 21).",
+        "The same pattern applies to fire: sprinklers, rated walls, alarms, and exits are layers whose holes seldom line up (Chapter 18).",
+        "Damage grows the longer the path stays open: in Chapter 21's example, rot takes hold within a few years."
+      ]
+    },
+    {
+      "id": "failure-chains",
+      "label": "Three Generic Failure Chains",
+      "color": "#D39B1C",
+      "x1": 2.0,
+      "y1": 52.0,
+      "x2": 98.0,
+      "y2": 75.0,
+      "summary": "Three composite examples show the same pattern: a roof leak, a deck collapse, and a smoke-spread incident.",
+      "facts": [
+        "Roof leak: a missed flashing in construction, a clogged drain in maintenance, and a skipped check in between let water reach the framing.",
+        "Deck collapse: a weak connection detail, the wrong fasteners substituted, and years of unseen rot let one load find an aligned path.",
+        "Smoke spread: an unsealed penetration through a rated wall and a propped door, with no one checking either, undo the compartment (Chapter 18).",
+        "These are composite teaching scenarios built from common failure types, not accounts of specific events."
+      ]
+    },
+    {
+      "id": "redundancy-offset",
+      "label": "Redundancy and Offset Holes",
+      "color": "#1B998B",
+      "x1": 2.0,
+      "y1": 77.0,
+      "x2": 98.0,
+      "y2": 98.0,
+      "summary": "The fix: independent defenses with holes that do not line up, so one mistake is caught by the next layer.",
+      "facts": [
+        "Redundancy means more than one independent defense against the same hazard, such as a drainage gap behind the cladding plus flashing plus a water control layer.",
+        "Independence matters: two checks by the same person with the same assumption share a hole, so they do not add protection.",
+        "Chapter 21 says breaking a failure chain at any single link, in design, inspection, or early maintenance, would have prevented the loss.",
+        "Five slices is a teaching choice. A real project has other defenses too, such as testing, commissioning, and occupants reporting problems."
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "A window head is drawn with no flashing detail at all, and the crew builds exactly what the drawings show. Which slice holds the hole?",
+      "correct_zone": "design-slice",
+      "explanation": "The omission is on the drawings, so the hole is in the first defense, before any work starts."
+    },
+    {
+      "question": "A truckload of framing lumber arrives soaked, and a cheaper sealant is swapped in without review. Which slice does this belong to?",
+      "correct_zone": "materials-slice",
+      "explanation": "Defective, damaged, or substituted products are holes in the defense that supplies the right components."
+    },
+    {
+      "question": "The drawings call for flashing lapped over the sheathing, but the crew installs it backward. Which slice is that hole in?",
+      "correct_zone": "construction-slice",
+      "explanation": "The work was not built as designed, which is a hole in the building stage."
+    },
+    {
+      "question": "An inspector visits for an hour and checks a sample of the work, and the flashing is already covered by siding. Which slice has a hole?",
+      "correct_zone": "inspection-slice",
+      "explanation": "Inspection sees only a sample of the work, and covered work cannot be checked, so a hole can pass through."
+    },
+    {
+      "question": "Roof drains are clogged for years and a ceiling stain is ignored. Which slice is failing?",
+      "correct_zone": "maintenance-slice",
+      "explanation": "Skipped upkeep is the last defense failing, and it can stay open for the entire life of the building."
+    },
+    {
+      "question": "The arrow passes through all five aligned holes and reaches the building. What does this region show?",
+      "correct_zone": "failure-outcome",
+      "explanation": "When holes in every defense line up, a hazard reaches the building and produces mold, collapse, or fire spread."
+    },
+    {
+      "question": "A teacher wants three composite scenarios to show that different failure types share the same pattern. Which region has them?",
+      "correct_zone": "failure-chains",
+      "explanation": "A roof leak, a deck collapse, and a smoke-spread incident each show several aligned holes, and none is a specific real event."
+    },
+    {
+      "question": "A project adds an independent drainage gap, flashing, and a second reviewer, so the holes no longer line up. Which region shows this fix?",
+      "correct_zone": "redundancy-offset",
+      "explanation": "Independent defenses with offset holes make it much less likely that a single mistake reaches the building."
+    },
+    {
+      "question": "Which slice is meant to catch the holes in the earlier ones but still has holes of its own, because it checks only a sample?",
+      "correct_zone": "inspection-slice",
+      "explanation": "It is the defense whose job is to find other defenses' holes, and it relies on the earlier slices doing their own quality control."
+    },
+    {
+      "question": "A team lets one person both do the work and check it, using the same assumption. Which region explains why this adds little protection?",
+      "correct_zone": "redundancy-offset",
+      "explanation": "Two checks that share the same assumption share the same hole, so independence matters more than the number of checks."
+    }
+  ]
+}

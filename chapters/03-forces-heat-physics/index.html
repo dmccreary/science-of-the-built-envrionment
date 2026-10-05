@@ -1,0 +1,3520 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="The forces, stress, strain, heat transfer, and thermal resistance principles that explain how buildings carry loads and resist heat flow in a cold climate.">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/science-of-the-built-envrionment/chapters/03-forces-heat-physics/">
+      
+      
+        <link rel="prev" href="../02-design-construction-process/references/">
+      
+      
+        <link rel="next" href="quiz/">
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>Forces, Heat, and the Physics of Buildings - The Science of the Built Environment</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../css/mascot.css">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-F7FKDK2SDS"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-F7FKDK2SDS",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-F7FKDK2SDS",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style>  <meta property="og:title" content="Forces, Heat, and the Physics of Buildings">
+  <meta name="twitter:title" content="Forces, Heat, and the Physics of Buildings">
+  <meta property="og:description" content="The forces, stress, strain, heat transfer, and thermal resistance principles that explain how buildings carry loads and resist heat flow in a cold climate.">
+  <meta name="twitter:description" content="The forces, stress, strain, heat transfer, and thermal resistance principles that explain how buildings carry loads and resist heat flow in a cold climate.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dmccreary.github.io/science-of-the-built-envrionment/chapters/03-forces-heat-physics/">
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#forces-heat-and-the-physics-of-buildings" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="The Science of the Built Environment" class="md-header__button md-logo" aria-label="The Science of the Built Environment" data-md-component="logo">
+      
+  <img src="../../img/mascot/welcome.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            The Science of the Built Environment
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Forces, Heat, and the Physics of Buildings
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"></path></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/science-of-the-built-envrionment" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="The Science of the Built Environment" class="md-nav__button md-logo" aria-label="The Science of the Built Environment" data-md-component="logo">
+      
+  <img src="../../img/mascot/welcome.png" alt="logo">
+
+    </a>
+    The Science of the Built Environment
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/science-of-the-built-envrionment" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Description
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Chapters
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            Chapters
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../01-intro-terminology/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    1. Introduction to the Built Environment and Construction Terminology
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../02-design-construction-process/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    2. The Design and Construction Process
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_4" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="./" class="md-nav__link md-nav__link--active">
+              
+  
+  <span class="md-ellipsis">
+    3. Forces, Heat, and the Physics of Buildings
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link md-nav__link--active" for="__nav_4_4" id="__nav_4_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            3. Forces, Heat, and the Physics of Buildings
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="quiz/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Quiz
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="references/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Annotated References
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../04-moisture-air-comfort/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    4. Moisture, Air Movement, and Thermal Comfort
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../05-material-properties/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    5. Properties of Building Materials
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../06-structural-loads/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    6. Structural Loads and Load Paths
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../07-wood-steel-framing/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    7. Wood and Steel Framing
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../08-concrete-masonry/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    8. Concrete and Masonry
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../09-site-soils/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    9. Site Work, Soils, and Groundwater
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../10-foundation-systems/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    10. Foundation Systems
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../11-enclosure-insulation/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    11. Enclosure Control Layers and Insulation
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../12-cladding-windows-air-sealing/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    12. Cladding, Windows, Doors, and Air Sealing
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../13-roof-assemblies/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    13. Roof Assemblies
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../14-hvac-plumbing-fire/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    14. HVAC, Plumbing, and Fire Protection Systems
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../15-electrical-fundamentals/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    15. Electrical Fundamentals and Building Service
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../16-electrical-distribution-design/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    16. Electrical Distribution, Lighting, and Design Team Coordination
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../17-building-codes-permits/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    17. Building Codes, Permits, and Enforcement
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../18-fire-life-safety/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    18. Fire Protection and Life Safety Requirements
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../19-energy-efficiency/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    19. Energy Efficiency and High-Performance Buildings
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../20-sustainable-materials/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    20. Sustainable Building Materials
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../21-durability-failure/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    21. Durability, Maintenance, and Building Failure
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../learning-graph/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Learning Graph
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../stories/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Stories
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../posters/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Posters
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../sims/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    MicroSims
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../appendices/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Appendices
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    References
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/instructors-guide/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Instructors Guide
+  </span>
+  
+    
+  
+  
+    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
+    </span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#summary" class="md-nav__link">
+    <span class="md-ellipsis">
+      Summary
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#concepts-covered" class="md-nav__link">
+    <span class="md-ellipsis">
+      Concepts Covered
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#forces" class="md-nav__link">
+    <span class="md-ellipsis">
+      Forces
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Forces">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-force-vector-resolver" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Force Vector Resolver
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#equilibrium" class="md-nav__link">
+    <span class="md-ellipsis">
+      Equilibrium
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Equilibrium">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-beam-reactions-and-equilibrium-explorer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Beam Reactions and Equilibrium Explorer
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#stress" class="md-nav__link">
+    <span class="md-ellipsis">
+      Stress
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Stress">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-stress-force-and-area-explorer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Stress, Force, and Area Explorer
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#strain" class="md-nav__link">
+    <span class="md-ellipsis">
+      Strain
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#heat" class="md-nav__link">
+    <span class="md-ellipsis">
+      Heat
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#heat-transfer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Heat Transfer
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Heat Transfer">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-heat-transfer-modes-in-a-winter-wall" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Heat Transfer Modes in a Winter Wall
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#conduction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Conduction
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Conduction">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-conduction-through-a-layer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Conduction Through a Layer
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#convection" class="md-nav__link">
+    <span class="md-ellipsis">
+      Convection
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#radiation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Radiation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#thermal-resistance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Thermal Resistance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#r-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      R-Value
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#u-value" class="md-nav__link">
+    <span class="md-ellipsis">
+      U-Value
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#thermal-bridging" class="md-nav__link">
+    <span class="md-ellipsis">
+      Thermal Bridging
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Thermal Bridging">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-wall-assembly-r-value-and-thermal-bridging-calculator" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Wall Assembly R-Value and Thermal Bridging Calculator
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#thermal-mass" class="md-nav__link">
+    <span class="md-ellipsis">
+      Thermal Mass
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#beyond-heat-light-and-sound" class="md-nav__link">
+    <span class="md-ellipsis">
+      Beyond Heat: Light and Sound
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Beyond Heat: Light and Sound">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#daylight" class="md-nav__link">
+    <span class="md-ellipsis">
+      Daylight
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sound-transmission" class="md-nav__link">
+    <span class="md-ellipsis">
+      Sound Transmission
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Takeaways
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/dmccreary/science-of-the-built-envrionment/blob/main/docs/chapters/03-forces-heat-physics/index.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg>
+    </a>
+  
+  
+
+
+<h1 id="forces-heat-and-the-physics-of-buildings">Forces, Heat, and the Physics of Buildings<a class="headerlink" href="#forces-heat-and-the-physics-of-buildings" title="Permanent link">¶</a></h1>
+<h2 id="summary">Summary<a class="headerlink" href="#summary" title="Permanent link">¶</a></h2>
+<p>The forces, stress, strain, heat transfer, and thermal resistance principles that explain how buildings carry loads and resist heat flow. It has no prerequisites within the book and starts the learning progression. After completing this chapter, students will be able to define, explain, and apply the 16 concepts listed below.</p>
+<h2 id="concepts-covered">Concepts Covered<a class="headerlink" href="#concepts-covered" title="Permanent link">¶</a></h2>
+<p>This chapter covers the following 16 concepts from the learning graph:</p>
+<table>
+<thead>
+<tr>
+<th>Concept</th>
+<th>Concept Impact Score</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Forces</td>
+<td>473</td>
+</tr>
+<tr>
+<td>Heat</td>
+<td>326</td>
+</tr>
+<tr>
+<td>Heat Transfer</td>
+<td>282</td>
+</tr>
+<tr>
+<td>Equilibrium</td>
+<td>153</td>
+</tr>
+<tr>
+<td>Stress</td>
+<td>121</td>
+</tr>
+<tr>
+<td>Conduction</td>
+<td>62</td>
+</tr>
+<tr>
+<td>Thermal Resistance</td>
+<td>56</td>
+</tr>
+<tr>
+<td>R-Value</td>
+<td>32</td>
+</tr>
+<tr>
+<td>Radiation</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Strain</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Thermal Bridging</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Convection</td>
+<td>4</td>
+</tr>
+<tr>
+<td>U-Value</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Daylight</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Thermal Mass</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Sound Transmission</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h2 id="prerequisites">Prerequisites<a class="headerlink" href="#prerequisites" title="Permanent link">¶</a></h2>
+<p>This chapter assumes only the prerequisites listed in the <a href="../../course-description/">course description</a>.</p>
+<hr>
+<div class="admonition mascot-welcome">
+<p class="admonition-title">Two Kinds of Physics, One Building</p>
+<p><img alt="Beau waving welcome" class="mascot-admonition-img" src="../../img/mascot/welcome.png">
+Every roof that stays up and every winter morning that stays warm comes down to two pieces of physics: forces that balance, and heat that flows slowly. Once you can run the numbers on both, you can look at a wall or a beam and say whether it will do its job. Let's build it right!</p>
+</div>
+<p>Chapter 1 described what a building is and the four jobs it performs: it supports, separates, serves, and protects. Those jobs sound like architecture, but each one is governed by ordinary physics. A building <em>supports</em> because forces are balanced, so that every pound of load finds a path to the ground. A building <em>separates</em> because the enclosure slows the flow of heat from a warm interior to a cold exterior. This chapter builds the working vocabulary for both ideas.</p>
+<p>The chapter has two halves. The first half covers forces, equilibrium, stress, and strain, which explain how structures carry load. The second half covers heat, the three ways heat travels, and the measures of how well a wall resists it, and then closes with two other forms of energy that every designer must manage: light and sound. To keep the numbers concrete, we occasionally return to the invented <strong>Riverbend Youth Center</strong> from Chapter 2: a one-story Minneapolis building with a 40 ft multipurpose room spanned by glued-laminated wood beams. All Riverbend loads and dimensions here are illustrative.</p>
+<h2 id="forces">Forces<a class="headerlink" href="#forces" title="Permanent link">¶</a></h2>
+<p>A <strong>force</strong> is a push or a pull that can change an object's motion or change its shape. A force has two properties that matter: a <em>magnitude</em>, which says how strong it is, and a <em>direction</em>, which says which way it acts. A quantity with both properties is called a <strong>vector</strong>, and it is drawn as an arrow whose length represents the magnitude and whose orientation shows the direction. Two people pushing a stalled truck in the same direction add their efforts. Two people pushing in opposite directions cancel each other, and the sum of the arrows tells you the result.</p>
+<p>In US customary units, force is measured in pounds-force (lbf, usually written lb), and a <em>kip</em> is 1,000 lbf. In the International System of Units (SI), force is measured in newtons (N), where 1 lbf is about 4.45 N. The most important force in building design is <strong>weight</strong>, the force of gravity acting on a mass. Near the Earth's surface, a mass of 1 lb weighs 1 lbf, which is why designers can speak of "pounds" without separating mass from force. Builders also rarely deal with a single force at a point. They deal with force spread over an area, called a <em>load</em>, and measure it in pounds per square foot (psf). Chapter 6 classifies loads in detail, but the four sources you will meet first are gravity (the weight of the structure and its contents), snow, wind, and the pressure of soil against buried walls.</p>
+<p>A single inclined force can be replaced by two <em>components</em>, one horizontal and one vertical, that together have the same effect. Using the angle <span class="arithmatex">\( \theta \)</span> measured from the horizontal, the components are:</p>
+<div class="arithmatex">\[ F_x = F \cos\theta \qquad F_y = F \sin\theta \]</div>
+<p>The horizontal component <span class="arithmatex">\( F_x \)</span> tries to slide the connection sideways, and the vertical component <span class="arithmatex">\( F_y \)</span> tries to lift or press it. Splitting forces this way lets us check each direction separately, which is the foundation of every structural calculation in later chapters.</p>
+<p><strong>Worked example: forces on the Riverbend roof.</strong> The roof over the multipurpose room covers 2,400 ft². Suppose the roof assembly weighs 30 psf (its <em>dead load</em>) and the design snow load is 40 psf (a <em>live load</em>; both values are illustrative). The total vertical force is <span class="arithmatex">\( (30 + 40) \times 2{,}400 = 168{,}000 \)</span> lb, or 168 kips, which is about the weight of 40 midsize cars sitting on the roof. Now consider a diagonal steel brace in the wall that carries 5,000 lb at an angle of 45 degrees from the horizontal. Its horizontal component is <span class="arithmatex">\( 5{,}000 \cos 45^\circ = 3{,}536 \)</span> lb, and its vertical component is <span class="arithmatex">\( 5{,}000 \sin 45^\circ = 3{,}536 \)</span> lb. At 45 degrees, the brace splits its force equally between sliding and lifting.</p>
+<p>The table below collects the units we have just defined, so you can return to it when a later chapter mixes systems.</p>
+<table>
+<thead>
+<tr>
+<th>Quantity</th>
+<th>US customary unit</th>
+<th>SI unit</th>
+<th>Conversion</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Force</td>
+<td>pound-force (lb), kip</td>
+<td>newton (N), kilonewton (kN)</td>
+<td>1 lb is about 4.45 N</td>
+</tr>
+<tr>
+<td>Distributed load</td>
+<td>pounds per square foot (psf)</td>
+<td>pascals (Pa)</td>
+<td>1 psf is about 47.9 Pa</td>
+</tr>
+<tr>
+<td>Line load</td>
+<td>pounds per linear foot (plf)</td>
+<td>newtons per meter (N/m)</td>
+<td>1 plf is about 14.6 N/m</td>
+</tr>
+</tbody>
+</table>
+<p>Before you open the simulation below, note that the arrow's angle is measured from the horizontal and that the components always sum back to the original arrow.</p>
+<h4 id="diagram-force-vector-resolver">Diagram: Force Vector Resolver<a class="headerlink" href="#diagram-force-vector-resolver" title="Permanent link">¶</a></h4>
+<iframe src="../../sims/force-vector-resolver/main.html" width="100%" height="557px" scrolling="no"></iframe>
+<p><a href="../../sims/force-vector-resolver/main.html">Run Force Vector Resolver Fullscreen</a></p>
+<details>
+<summary>Force Vector Resolver</summary>
+<p>Type: microsim
+<strong>sim-id:</strong> force-vector-resolver<br>
+<strong>Library:</strong> p5.js<br>
+<strong>Status:</strong> Specified</p>
+<p>Learning objective: Students will calculate (Bloom Level 3, Apply) the horizontal and vertical components of an inclined force and will explain (Bloom Level 2, Understand) why the two components together have the same effect as the original force.</p>
+<p>Visual: A canvas showing a labeled node at the center and a bold arrow representing a force. Dashed horizontal and vertical arrows form a right triangle that shows the components. A live readout panel displays the magnitude, the angle, and the two components in both pounds and newtons. The canvas width follows the container, the height is 420 px, and the sketch redraws on window resize.</p>
+<p>Controls: A slider labeled "Force (lb)" from 0 to 10,000 with a default of 5,000. A slider labeled "Angle (degrees)" from 0 to 90 with a default of 45. The student can also drag the arrow tip directly, and the sliders update to match. A checkbox labeled "Show equations" displays the substituted values for <span class="arithmatex">\( F\cos\theta \)</span> and <span class="arithmatex">\( F\sin\theta \)</span>. A button labeled "Riverbend roof" loads a preset that draws the 168-kip roof load as a downward vector.</p>
+<p>Interactions: Hovering over any arrow shows a tooltip with its name and value. A "Predict first" mode asks the student to type the horizontal component, and the sketch then shows whether the answer is correct and displays the calculation. A message states when the angle is 0 (all force horizontal) or 90 (all force vertical).</p>
+<p>Colors: The force is dark orange, the horizontal component is blue, and the vertical component is green. Arrow labels use text as well as color.</p>
+<p>Implementation: p5.js with a responsive canvas, built-in slider and checkbox controls, and a small infobox div.</p>
+</details>
+<h2 id="equilibrium">Equilibrium<a class="headerlink" href="#equilibrium" title="Permanent link">¶</a></h2>
+<p>A body is in <strong>equilibrium</strong> when all of the forces and turning effects acting on it balance, so that it does not accelerate. Buildings are designed to remain in <em>static</em> equilibrium, meaning they stay at rest. The wording matters: equilibrium does not mean that nothing pushes on the building. It means that for every push there is an equal and opposite resistance somewhere else, and the building stays put. This is Newton's third law at work. A beam pressing down on a wall is pushed up by the wall with exactly the same force.</p>
+<div class="admonition mascot-thinking">
+<p class="admonition-title">The Ground Pushes Back</p>
+<p><img alt="Beau thinking" class="mascot-admonition-img" src="../../img/mascot/thinking.png">
+Notice that a standing building is not a thing at rest but a stalemate of forces. Every load pushing down is met by a support pushing up, all the way to the soil, and the building fails the moment any link in that chain can no longer push back.</p>
+</div>
+<p>Three conditions guarantee equilibrium in a plane. The sum of the horizontal forces must be zero, the sum of the vertical forces must be zero, and the sum of the moments must be zero. A <strong>moment</strong> is the turning effect of a force about a point. It equals the force times the <em>perpendicular distance</em> from the point to the line along which the force acts, and it is measured in foot-pounds (ft-lb). A door handle placed far from the hinges lets a gentle push produce a large moment, which is why the handle is not placed next to the hinge. In symbols, the three conditions are:</p>
+<div class="arithmatex">\[ \sum F_x = 0 \qquad \sum F_y = 0 \qquad \sum M = 0 \]</div>
+<p>The forces that a support supplies to keep a structure in equilibrium are called <em>reactions</em>. Because each equation can be solved for one unknown, a beam resting on two supports with two unknown reactions can be solved completely using only these three conditions.</p>
+<div class="admonition mascot-encourage">
+<p class="admonition-title">Moments Take Practice</p>
+<p><img alt="Beau encouraging" class="mascot-admonition-img" src="../../img/mascot/encouraging.png">
+Moments are where many students first stumble in statics, and that is normal. You already know how to balance a seesaw, so try the example below as a seesaw problem and pick the pivot point yourself.</p>
+</div>
+<p><strong>Worked example: reactions on a Riverbend beam.</strong> A 40 ft glued-laminated beam spans the multipurpose room, resting on a support at each end, labeled A (left) and B (right). A mechanical unit hung from the beam applies a downward point load of 6,000 lb located 10 ft from A. We want the reactions <span class="arithmatex">\( R_A \)</span> and <span class="arithmatex">\( R_B \)</span>. Choose A as the pivot point, so that <span class="arithmatex">\( R_A \)</span> has no moment about it. The unit's moment is <span class="arithmatex">\( 6{,}000 \times 10 = 60{,}000 \)</span> ft-lb in one direction, and <span class="arithmatex">\( R_B \)</span> must balance it at a distance of 40 ft:</p>
+<div class="arithmatex">\[ R_B \times 40 = 6{,}000 \times 10 \quad\Rightarrow\quad R_B = 1{,}500 \text{ lb} \]</div>
+<p>The vertical forces must also sum to zero, so <span class="arithmatex">\( R_A + R_B = 6{,}000 \)</span> and <span class="arithmatex">\( R_A = 4{,}500 \)</span> lb. As a check, take moments about B instead: <span class="arithmatex">\( R_A \times 40 = 6{,}000 \times 30 = 180{,}000 \)</span>, which again gives 4,500 lb. The support nearer the load carries more of it, in proportion to how close the load sits. If the beam instead carried an evenly spread line load of 800 plf (illustrative) over its whole length, the total would be <span class="arithmatex">\( 800 \times 40 = 32{,}000 \)</span> lb, and by symmetry each support would receive 16,000 lb. Those reactions then become loads on the walls, footings, and soil beneath, which is the <em>load path</em> described in Chapter 6.</p>
+<h4 id="diagram-beam-reactions-and-equilibrium-explorer">Diagram: Beam Reactions and Equilibrium Explorer<a class="headerlink" href="#diagram-beam-reactions-and-equilibrium-explorer" title="Permanent link">¶</a></h4>
+<iframe src="../../sims/beam-reactions-equilibrium-explorer/main.html" width="100%" height="557px" scrolling="no"></iframe>
+<p><a href="../../sims/beam-reactions-equilibrium-explorer/main.html">Run Beam Reactions and Equilibrium Explorer Fullscreen</a></p>
+<details>
+<summary>Beam Reactions and Equilibrium Explorer</summary>
+<p>Type: microsim
+<strong>sim-id:</strong> beam-reactions-equilibrium-explorer<br>
+<strong>Library:</strong> p5.js<br>
+<strong>Status:</strong> Specified</p>
+<p>Learning objective: Students will calculate (Bloom Level 3, Apply) the support reactions of a simply supported beam by applying the three equilibrium conditions, and will analyze (Bloom Level 4, Analyze) how moving a load changes the share carried by each support.</p>
+<p>Visual: A horizontal beam drawn between a pin support at A (left) and a roller support at B (right), with a downward load arrow. Upward reaction arrows at A and B scale in length with their values. A panel beside the beam lists the three equilibrium sums with the current numbers substituted. The canvas width follows the container, the height is 400 px, and the sketch redraws on window resize.</p>
+<p>Controls: A slider labeled "Beam span (ft)" from 10 to 60 with a default of 40. A slider labeled "Load (lb)" from 0 to 12,000 with a default of 6,000. The student drags the load along the beam, or uses a slider labeled "Distance from A (ft)". A radio control switches between "Point load" and "Uniform line load (plf)". A button labeled "Step through" reveals the three equations one at a time.</p>
+<p>Interactions: As the load moves, the reaction arrows resize in real time. A readout shows each sum of forces and moments, and an "Equilibrium check" indicator turns green when all three sums equal zero. A toggle labeled "Remove support B" shows the beam rotating about A, with a caption that the moment equation can no longer be satisfied. Hovering any arrow shows its name and value.</p>
+<p>Colors: The beam is brown, applied loads are orange, and reactions are green. Failed equilibrium is shown in red with a text label.</p>
+<p>Implementation: p5.js with a responsive canvas, built-in slider and radio controls, and an equation panel updated every frame.</p>
+</details>
+<h2 id="stress">Stress<a class="headerlink" href="#stress" title="Permanent link">¶</a></h2>
+<p><strong>Stress</strong> is the internal force per unit area that a material carries in response to the loads applied to it. It is calculated by dividing the force by the area over which it acts:</p>
+<div class="arithmatex">\[ \sigma = \frac{F}{A} \]</div>
+<p>where <span class="arithmatex">\( \sigma \)</span> (the Greek letter sigma) is stress, <span class="arithmatex">\( F \)</span> is the force, and <span class="arithmatex">\( A \)</span> is the cross-sectional area. Stress has units of pounds per square inch (psi) or pounds per square foot (psf) in US practice, and pascals (Pa) in SI, where 1 psi is about 6,895 Pa. The reason to divide by area is that materials do not fail because of the total force. They fail when the stress at some location reaches the limit that the material can sustain. A 1,000 lb pull is trivial for a thick steel bar and fatal for a thin thread.</p>
+<div class="admonition mascot-thinking">
+<p class="admonition-title">Stress, Not Force, Breaks Things</p>
+<p><img alt="Beau thinking" class="mascot-admonition-img" src="../../img/mascot/thinking.png">
+Think of a person standing on a snowfield: in boots they sink, and on wide snowshoes they float, though the weight is identical. The load stays the same, but the area changes, and that changes the stress.</p>
+</div>
+<p>The direction of the force relative to the area gives stress its type. <em>Tensile</em> stress pulls the material apart, <em>compressive</em> stress squeezes it together, and <em>shear</em> stress slides one part of the material past the adjacent part. A real member often experiences a mix, as when a beam bends and the top squeezes while the bottom stretches. Chapter 5 examines how much of each type different materials can tolerate.</p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Action</th>
+<th>Everyday example</th>
+<th>Building example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tension</td>
+<td>Pulls apart</td>
+<td>Stretching a rope</td>
+<td>Steel hanger rod holding a ceiling</td>
+</tr>
+<tr>
+<td>Compression</td>
+<td>Squeezes together</td>
+<td>Standing on a block</td>
+<td>Concrete column, wall stud</td>
+</tr>
+<tr>
+<td>Shear</td>
+<td>Slides layers past each other</td>
+<td>Cutting paper with scissors</td>
+<td>A bolt joining two timbers</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Worked example: a steel rod and a footing.</strong> First consider a 3/4 in diameter steel rod that hangs a load of 8,000 lb. Its cross-sectional area is <span class="arithmatex">\( A = \pi r^2 = \pi (0.375)^2 = 0.442 \text{ in}^2 \)</span>, so the tensile stress is <span class="arithmatex">\( \sigma = 8{,}000 / 0.442 = 18{,}100 \)</span> psi. Common structural steel begins to deform permanently at about 36,000 psi, so this rod works at roughly half of that limit. The ratio of the limit to the working stress, about 2.0, is a <em>factor of safety</em>, a margin that designers include because loads and material properties are never known exactly.</p>
+<p>Now consider a wood post, 3.5 in by 3.5 in, that carries 6,000 lb. Its area is 12.25 in², so the compressive stress is <span class="arithmatex">\( 6{,}000 / 12.25 = 490 \)</span> psi. The post sits on a square concrete footing 2 ft by 2 ft, an area of 4 ft², so the load pressing on the soil is <span class="arithmatex">\( 6{,}000 / 4 = 1{,}500 \)</span> psf, which is only 10.4 psi. The footing exists to spread the same force over a bigger area so that the weak soil beneath is stressed no more than it can bear. Allowable soil pressures commonly fall in the range of about 1,500 to 3,000 psf for competent soils, and Chapter 9 explains how they are determined.</p>
+<h4 id="diagram-stress-force-and-area-explorer">Diagram: Stress, Force, and Area Explorer<a class="headerlink" href="#diagram-stress-force-and-area-explorer" title="Permanent link">¶</a></h4>
+<iframe src="../../sims/stress-area-load-explorer/main.html" width="100%" height="562px" scrolling="no"></iframe>
+<p><a href="../../sims/stress-area-load-explorer/main.html">Run Stress, Force, and Area Explorer Fullscreen</a></p>
+<details>
+<summary>Stress, Force, and Area Explorer</summary>
+<p>Type: microsim
+<strong>sim-id:</strong> stress-area-load-explorer<br>
+<strong>Library:</strong> p5.js<br>
+<strong>Status:</strong> Specified</p>
+<p>Learning objective: Students will apply (Bloom Level 3, Apply) the relationship stress = force divided by area to compute the stress in a member, and will evaluate (Bloom Level 5, Evaluate) whether the result is below an illustrative limit and what factor of safety it implies.</p>
+<p>Visual: A drawing of a member (a round steel rod, a 3.5 in square wood post, or a square footing on soil) with a downward load arrow and a cross-section view that shades the loaded area. A horizontal gauge shows stress against a limit marker, with the green zone below the limit and the red zone above it. The canvas width follows the container, the height is 440 px, and the sketch redraws on window resize.</p>
+<p>Controls: A dropdown labeled "Member" with three choices. A slider labeled "Load (lb)" from 0 to 20,000 with a default of 6,000. A slider labeled "Size" (rod diameter in inches, or footing side in feet) with a default that matches the worked example. A dropdown labeled "Limit" whose illustrative values are 36,000 psi (structural steel yield) and 1,500 psf (soil bearing).</p>
+<p>Interactions: The readout shows the area, the stress in psi and psf, and the factor of safety. When the stress passes the limit, the gauge turns red and a text message states which change (less load or more area) restores the margin. A "Snowshoe" button shrinks and enlarges the loaded area while the load stays fixed to show the stress changing.</p>
+<p>Colors: Green for stresses under the limit, orange for factors of safety below 1.5, and red above the limit. Each state also carries a text label.</p>
+<p>Implementation: p5.js with a responsive canvas, built-in slider and select controls, and unit-conversion helpers.</p>
+</details>
+<h2 id="strain">Strain<a class="headerlink" href="#strain" title="Permanent link">¶</a></h2>
+<p><strong>Strain</strong> is the measure of how much a material deforms under stress, expressed as the change in length divided by the original length:</p>
+<div class="arithmatex">\[ \varepsilon = \frac{\Delta L}{L} \]</div>
+<p>where <span class="arithmatex">\( \varepsilon \)</span> (epsilon) is strain, <span class="arithmatex">\( \Delta L \)</span> is the change in length, and <span class="arithmatex">\( L \)</span> is the original length. Strain is <em>dimensionless</em> because the two lengths cancel, so a strain of 0.001 means that the material stretched by one thousandth of its length, whatever units were used. Engineers also report strain in <em>microstrain</em>, where 1,000 microstrain equals 0.001.</p>
+<p>Stress and strain are cause and effect. Applying a stress produces a strain. Over the working range of most structural materials, the two are proportional, a relationship called <em>elastic</em> behavior: when the load is removed, the material returns to its original length. If the stress exceeds the material's elastic limit, part of the strain remains after the load is removed, which is <em>plastic</em> deformation. A bent steel bar that does not spring back has been strained plastically.</p>
+<p><strong>Worked example: stretching the steel rod.</strong> Suppose the 3/4 in rod from the Stress section is 10 ft (120 in) long, and a measurement under its 8,000 lb load shows that it has stretched by 0.075 in. The strain is <span class="arithmatex">\( \varepsilon = 0.075 / 120 = 0.000625 \)</span>, or 625 microstrain. We can now divide the stress by the strain: <span class="arithmatex">\( 18{,}100 / 0.000625 \approx 29{,}000{,}000 \)</span> psi. This ratio, which describes how stiff the material is, comes out near 29 million psi for steel regardless of the rod's size, and Chapter 5 gives it the name <em>modulus of elasticity</em>. Strain is small, but it matters. It governs how much a floor deflects under a crowd and how much a long wall expands on a hot day, and a floor that is strong enough but too bouncy still fails the occupants.</p>
+<h2 id="heat">Heat<a class="headerlink" href="#heat" title="Permanent link">¶</a></h2>
+<p><strong>Heat</strong> is the energy that transfers between objects because of a difference in temperature. It is not the same as <strong>temperature</strong>, which measures the average motion of the molecules in a material. A bathtub of lukewarm water contains much more heat than a spark from a sparkler, although the spark is far hotter. The distinction explains why a large mass at a modest temperature can warm a room while a tiny hot object cannot.</p>
+<p>Heat is measured in the British thermal unit (BTU) in US practice, which is the heat needed to raise one pound of water by 1 degree Fahrenheit. In SI, the unit is the joule (J). The rate at which heat flows is measured in BTU per hour (BTU/h) or in watts (W). Heating and cooling equipment is rated in these rate units, and a "ton" of cooling is 12,000 BTU/h. The table below relates the units that appear most often.</p>
+<table>
+<thead>
+<tr>
+<th>Unit</th>
+<th>Quantity measured</th>
+<th>Equivalent</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>BTU</td>
+<td>Energy (heat)</td>
+<td>1 BTU is about 1,055 J</td>
+</tr>
+<tr>
+<td>kilowatt-hour (kWh)</td>
+<td>Energy (electricity, heat)</td>
+<td>1 kWh is 3,412 BTU</td>
+</tr>
+<tr>
+<td>BTU/h</td>
+<td>Rate of heat flow</td>
+<td>3.412 BTU/h is 1 W</td>
+</tr>
+<tr>
+<td>ton of cooling</td>
+<td>Rate of heat flow</td>
+<td>12,000 BTU/h</td>
+</tr>
+</tbody>
+</table>
+<p>When heat changes a material's temperature without changing its phase, it is called <em>sensible heat</em>, and the amount is found from the mass, the temperature change, and a property called <strong>specific heat</strong> (<span class="arithmatex">\( c \)</span>), which is the heat needed to raise one pound of a material by 1°F:</p>
+<div class="arithmatex">\[ Q = m \, c \, \Delta T \]</div>
+<p>Water has a specific heat of 1.0 BTU/lb·°F, and air has about 0.24. When heat changes a material's <em>phase</em>, such as turning water to vapor, it is called <em>latent heat</em>. Evaporating a pound of water absorbs roughly 1,000 BTU without changing its temperature, and condensing it releases that heat again. Chapter 4 uses this idea to explain why condensation matters.</p>
+<p><strong>Worked example: warming a classroom's air.</strong> One Riverbend classroom has 600 ft² of floor and a 9 ft ceiling, so its volume is 5,400 ft³. Air weighs about 0.075 lb/ft³, so the room holds <span class="arithmatex">\( 5{,}400 \times 0.075 = 405 \)</span> lb of air. Raising it from 50°F to 70°F takes <span class="arithmatex">\( Q = 405 \times 0.24 \times 20 = 1{,}944 \)</span> BTU, which is only 0.57 kWh. That is surprisingly little, because air holds very little heat. Per cubic foot, water holds about 3,500 times more heat than air (62.4 lb/ft³ at 1.0 versus 0.075 lb/ft³ at 0.24). The real work of a heating system is therefore not warming the air once, but replacing the heat that keeps escaping through the enclosure, which is the subject of the next section.</p>
+<h2 id="heat-transfer">Heat Transfer<a class="headerlink" href="#heat-transfer" title="Permanent link">¶</a></h2>
+<p><strong>Heat transfer</strong> is the movement of heat from a region of higher temperature to a region of lower temperature. It always goes in that direction, from hot to cold, until the two reach the same temperature. In a heated Minnesota building in January, the interior is the hot region and the outdoors is the cold one, so the heat flows outward through the walls, roof, windows, and floor. A building does not let in cold. It loses heat, and the colder it is outside, the faster the heat leaves.</p>
+<div class="admonition mascot-thinking">
+<p class="admonition-title">Cold Is Not a Thing That Comes In</p>
+<p><img alt="Beau thinking" class="mascot-admonition-img" src="../../img/mascot/thinking.png">
+Think of heat as water running downhill, with temperature as the height of the hill. A draft on a winter day is not cold flowing in. It is warm air leaving, and replacement air arriving that your furnace must now heat.</p>
+</div>
+<p>Heat moves by three mechanisms, each treated in its own section below. <strong>Conduction</strong> is transfer through direct contact between molecules in a solid, such as heat moving along a metal spoon. <strong>Convection</strong> is transfer by the motion of a fluid, such as warm air rising from a radiator. <strong>Radiation</strong> is transfer by electromagnetic waves, such as the warmth from the sun or a campfire, which needs no material at all. In a real wall, all three mechanisms act in sequence, as the table below shows for a wall on a winter night.</p>
+<table>
+<thead>
+<tr>
+<th>Location along the heat path</th>
+<th>Dominant mechanism</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Warm room air to the inside wall surface</td>
+<td>Convection, with some radiation</td>
+</tr>
+<tr>
+<td>Through the solid wall layers</td>
+<td>Conduction</td>
+</tr>
+<tr>
+<td>Through an air gap or a cavity</td>
+<td>Convection and radiation</td>
+</tr>
+<tr>
+<td>Outside wall surface to cold air and sky</td>
+<td>Convection and radiation</td>
+</tr>
+</tbody>
+</table>
+<p>The rate of heat flow depends on the temperature difference <span class="arithmatex">\( \Delta T \)</span> driving it, so the same wall loses heat faster on a colder day. This proportionality is one of the most useful ideas in building science, because it lets you scale from one condition to another without redoing the calculation.</p>
+<p><strong>Worked example: a design day and a fall day.</strong> Suppose the room is kept at 70°F. On a Minneapolis design day with an outdoor temperature of about −10°F (an illustrative value), <span class="arithmatex">\( \Delta T = 70 - (-10) = 80 \)</span>°F. On a mild fall day at 50°F outside, <span class="arithmatex">\( \Delta T = 20 \)</span>°F. The ratio is <span class="arithmatex">\( 80/20 = 4 \)</span>, so the same wall loses four times as much heat per hour on the design day as on the fall day. A heating system sized for the design day therefore runs at a quarter of that load on a fall day, which is why heating equipment spends most of the year at partial output.</p>
+<h4 id="diagram-heat-transfer-modes-in-a-winter-wall">Diagram: Heat Transfer Modes in a Winter Wall<a class="headerlink" href="#diagram-heat-transfer-modes-in-a-winter-wall" title="Permanent link">¶</a></h4>
+<iframe src="../../sims/heat-transfer-modes-wall-explorer/main.html" width="100%" height="542px" scrolling="no"></iframe>
+<p><a href="../../sims/heat-transfer-modes-wall-explorer/main.html">Run Heat Transfer Modes in a Winter Wall Fullscreen</a></p>
+<details>
+<summary>Heat Transfer Modes in a Winter Wall</summary>
+<p>Type: infographic
+<strong>sim-id:</strong> heat-transfer-modes-wall-explorer<br>
+<strong>Library:</strong> p5.js<br>
+<strong>Status:</strong> Specified</p>
+<p>Learning objective: Students will classify (Bloom Level 2, Understand) each step of the heat path through a wall as conduction, convection, or radiation, and will predict (Bloom Level 2, Understand) how the heat flow changes with outdoor temperature and wind.</p>
+<p>Visual: A horizontal cross-section of a wall with the warm room on the left and the cold outdoors on the right. Labeled zones show interior air, interior surface, gypsum board, insulated cavity, sheathing, siding, and exterior air. Arrows between zones are colored by mechanism, and their thickness scales with the heat flow. The canvas width follows the container, the height is 440 px, and the sketch redraws on window resize.</p>
+<p>Controls: A slider labeled "Outdoor temperature (°F)" from −20 to 60 with a default of −10. A slider labeled "Wind speed (mph)" from 0 to 30 with a default of 15. A checkbox labeled "Reflective foil in the air gap" toggles a radiation barrier. The indoor temperature is fixed at 70°F.</p>
+<p>Interactions: Clicking any arrow opens an infobox that names the mechanism and gives a one-sentence explanation of why it dominates there. Hovering over a zone shows its temperature. A readout shows total heat flow in BTU/h per square foot and a comparison to the default design day, such as "this is 25 percent of the design-day flow." Raising the wind thickens the exterior convection arrow, and the foil toggle visibly narrows the radiation arrow across the gap.</p>
+<p>Colors: Conduction is red, convection is blue, and radiation is orange, with a text label on every arrow.</p>
+<p>Implementation: p5.js with a responsive canvas, built-in slider and checkbox controls, a simplified steady-state model, and an infobox div. The model is illustrative and labeled as such.</p>
+</details>
+<h2 id="conduction">Conduction<a class="headerlink" href="#conduction" title="Permanent link">¶</a></h2>
+<p><strong>Conduction</strong> is the transfer of heat through a material by the collisions of neighboring molecules, without any bulk motion of the material. A fast-vibrating, hot molecule bumps its slower neighbors and passes along some of its energy, and the energy migrates step by step to the cold side. Conduction is the main mechanism in solid building materials such as wood, concrete, steel, and insulation.</p>
+<p>How easily a material conducts heat is measured by its <em>thermal conductivity</em>, denoted <span class="arithmatex">\( k \)</span>. A high <span class="arithmatex">\( k \)</span> means the material passes heat readily, and a low <span class="arithmatex">\( k \)</span> means it resists. In US practice, <span class="arithmatex">\( k \)</span> is given in BTU·in/(h·ft²·°F), which is the heat per hour that passes through a 1 in thick, 1 ft² slab for each degree of temperature difference across it. For steady conditions, the heat flow rate through a flat layer follows from Fourier's law:</p>
+<div class="arithmatex">\[ \dot{Q} = \frac{k \, A \, \Delta T}{L} \]</div>
+<p>where <span class="arithmatex">\( \dot{Q} \)</span> is the heat flow rate in BTU/h, <span class="arithmatex">\( A \)</span> is the area in ft², <span class="arithmatex">\( \Delta T \)</span> is the temperature difference across the layer in °F, and <span class="arithmatex">\( L \)</span> is the thickness in inches. Heat flow rises with conductivity, area, and temperature difference, and falls with thickness. The approximate conductivities in the table are typical, and actual products vary.</p>
+<table>
+<thead>
+<tr>
+<th>Material</th>
+<th>Approximate <span class="arithmatex">\( k \)</span> (BTU·in/h·ft²·°F)</th>
+<th>Comment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Still air</td>
+<td>0.17</td>
+<td>Excellent insulator if it cannot circulate</td>
+</tr>
+<tr>
+<td>Polyisocyanurate foam board</td>
+<td>0.17</td>
+<td>Rigid foam insulation</td>
+</tr>
+<tr>
+<td>Fiberglass batt</td>
+<td>0.27</td>
+<td>Traps still air among fibers</td>
+</tr>
+<tr>
+<td>Softwood lumber</td>
+<td>0.8</td>
+<td>A moderate insulator</td>
+</tr>
+<tr>
+<td>Gypsum board</td>
+<td>1.1</td>
+<td>Interior wall finish</td>
+</tr>
+<tr>
+<td>Normal-weight concrete</td>
+<td>10</td>
+<td>Conducts heat readily</td>
+</tr>
+<tr>
+<td>Structural steel</td>
+<td>310</td>
+<td>Conducts heat extremely well</td>
+</tr>
+</tbody>
+</table>
+<p>Insulation works because it holds air still in thousands of tiny pockets, so the heat has to conduct through a material that is mostly air and only a little solid.</p>
+<p><strong>Worked example: stud versus insulation.</strong> Take a 3.5 in thick layer, 1 ft² in area, and a 70°F temperature difference across it. Through a softwood stud, <span class="arithmatex">\( \dot{Q} = 0.8 \times 1 \times 70 / 3.5 = 16 \)</span> BTU/h. Through a fiberglass batt of the same size, <span class="arithmatex">\( \dot{Q} = 0.27 \times 1 \times 70 / 3.5 = 5.4 \)</span> BTU/h. The wood passes about three times as much heat as the insulation. For the same thickness, an 8 in concrete layer would pass <span class="arithmatex">\( 10 \times 70 / 8 = 87.5 \)</span> BTU/h, more than 16 times the batt. A steel stud conducts so well that it can carry roughly 1,000 times the heat of insulation at an equal thickness, a fact that returns when we discuss thermal bridging.</p>
+<h4 id="diagram-conduction-through-a-layer">Diagram: Conduction Through a Layer<a class="headerlink" href="#diagram-conduction-through-a-layer" title="Permanent link">¶</a></h4>
+<iframe src="../../sims/conduction-layer-heat-flow-explorer/main.html" width="100%" height="557px" scrolling="no"></iframe>
+<p><a href="../../sims/conduction-layer-heat-flow-explorer/main.html">Run Conduction Through a Layer Fullscreen</a></p>
+<details>
+<summary>Conduction Through a Layer</summary>
+<p>Type: microsim
+<strong>sim-id:</strong> conduction-layer-heat-flow-explorer<br>
+<strong>Library:</strong> p5.js<br>
+<strong>Status:</strong> Specified</p>
+<p>Learning objective: Students will calculate (Bloom Level 3, Apply) the conductive heat flow through a single layer and will compare (Bloom Level 4, Analyze) how conductivity, thickness, area, and temperature difference each change the result.</p>
+<p>Visual: A rectangular slab with a hot face on the left and a cold face on the right, drawn with a color gradient that shows the temperature dropping from one side to the other. Heat-flow arrows on the slab scale with the computed rate. A side-by-side "Compare" panel can show two layers at once. The canvas width follows the container, the height is 420 px, and the sketch redraws on window resize.</p>
+<p>Controls: A dropdown labeled "Material" listing the seven materials in the table above. A slider labeled "Thickness (in)" from 0.5 to 12 with a default of 3.5. A slider labeled "Area (ft²)" from 1 to 100 with a default of 1. A slider labeled "Temperature difference (°F)" from 5 to 100 with a default of 70. A checkbox labeled "Compare two materials" adds a second slab with its own material dropdown.</p>
+<p>Interactions: A readout shows <span class="arithmatex">\( \dot{Q} \)</span> in BTU/h with the substituted equation. Hovering over the slab shows the local temperature at that depth. Doubling a slider value triggers a message such as "Doubling thickness halves the flow." In compare mode, a bar shows the ratio of the two heat flows.</p>
+<p>Colors: A red-to-blue gradient for temperature, and gray arrows for heat flow. Values appear in text as well as color.</p>
+<p>Implementation: p5.js with a responsive canvas, built-in controls, and a lookup table of conductivities.</p>
+</details>
+<h2 id="convection">Convection<a class="headerlink" href="#convection" title="Permanent link">¶</a></h2>
+<p><strong>Convection</strong> is the transfer of heat by the movement of a fluid, either a liquid or a gas, that carries thermal energy from one place to another. A moving fluid brings fresh warm or cold material against a surface, so the exchange is faster than conduction alone. There are two kinds. In <em>natural convection</em>, differences in temperature make the fluid's density differ, and the lighter warm fluid rises while the heavier cool fluid sinks. In <em>forced convection</em>, a fan, a pump, or the wind drives the motion.</p>
+<p>At the surface of a wall, a thin layer of nearly still air clings to the material, and heat must cross it. This layer is called a <em>surface film</em> or <em>air film</em>, and its effect can be described by a film coefficient <span class="arithmatex">\( h \)</span> in BTU/(h·ft²·°F), so the heat exchanged with the air is:</p>
+<div class="arithmatex">\[ \dot{Q} = h \, A \, \Delta T \]</div>
+<p>A standard value for the inside surface of a vertical wall in still indoor air is about <span class="arithmatex">\( h = 1.47 \)</span>. The outside surface of a wall in a 15 mph winter wind has a much larger coefficient, about <span class="arithmatex">\( h = 5.9 \)</span>, because the wind sweeps away the still layer.</p>
+<p><strong>Worked example: wind on the outside film.</strong> Consider 100 ft² of wall surface with a 10°F temperature difference between the air and the surface. On the inside, in still air, <span class="arithmatex">\( \dot{Q} = 1.47 \times 100 \times 10 = 1{,}470 \)</span> BTU/h. On the outside in a 15 mph wind, <span class="arithmatex">\( \dot{Q} = 5.9 \times 100 \times 10 = 5{,}900 \)</span> BTU/h, which is about four times larger. This is why a windy day feels colder than a calm one at the same air temperature, and why the outside surface of a wall in the wind sits very close to the outdoor air temperature. The same physics creates the air movement inside buildings that Chapter 4 calls the stack effect.</p>
+<h2 id="radiation">Radiation<a class="headerlink" href="#radiation" title="Permanent link">¶</a></h2>
+<p><strong>Radiation</strong> is the transfer of energy by electromagnetic waves, which travel through empty space and need no material to carry them. Every object above absolute zero emits thermal radiation, and the amount rises steeply with its absolute temperature, in proportion to the fourth power. Surfaces also <em>absorb</em> the radiation that arrives. A property called <em>emissivity</em>, from 0 to 1, describes how well a surface emits and absorbs radiation. Most building materials, such as paint, wood, and glass, have emissivities near 0.9. Polished metal foil is as low as 0.05, so it emits very little and reflects most of the radiation that arrives.</p>
+<p>Radiation is the reason you feel cold standing next to a large window on a winter day even when the thermostat reads 70°F. Your skin radiates heat toward every colder surface it can "see." Windows also admit <em>solar radiation</em>, which is the sun's energy, and this heats the room's interior surfaces. In Minnesota, that is welcome in winter and a burden in summer.</p>
+<p><strong>Worked example: the cold window.</strong> Treat your skin as a surface at 91°F with an emissivity of 0.95, facing a surface of the same emissivity. Using the Stefan-Boltzmann law with absolute temperatures, the net radiant exchange is about 23 BTU/h for each ft² of skin when the other surface is a 68°F interior wall. It is about 48 BTU/h per ft² when the other surface is a 40°F window pane, which is roughly double. The air in the room is the same temperature in both cases. The loss of radiant heat to the cold glass is what you perceive as a chill. This is an approximation that assumes the skin sees only that one surface. A window with a low-emissivity coating, covered in Chapter 12, reduces the radiant loss, and a pane that stays warmer on the inside surface makes the room feel more comfortable at a lower thermostat setting.</p>
+<h2 id="thermal-resistance">Thermal Resistance<a class="headerlink" href="#thermal-resistance" title="Permanent link">¶</a></h2>
+<p><strong>Thermal resistance</strong> is a measure of how strongly a material or assembly opposes the flow of heat. Rearranging Fourier's law shows that the resistance of a flat layer is its thickness divided by its conductivity, and that the heat flow follows from the temperature difference and the resistance:</p>
+<div class="arithmatex">\[ R = \frac{L}{k} \qquad \dot{Q} = \frac{A \, \Delta T}{R} \]</div>
+<p>Where electrical resistance is measured in ohms, <span class="arithmatex">\( R \)</span> in this chapter is expressed per unit area, in the units h·ft²·°F/BTU. A thick layer or a low-conductivity material has high resistance, and heat flows slowly through it. Electrical designers will recognize this structure because it is Ohm's law in a thermal costume. Chapter 15 introduces the electrical version, and the analogy is useful in both directions.</p>
+<table>
+<thead>
+<tr>
+<th>Thermal quantity</th>
+<th>Electrical analogue</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Temperature difference <span class="arithmatex">\( \Delta T \)</span></td>
+<td>Voltage <span class="arithmatex">\( V \)</span></td>
+</tr>
+<tr>
+<td>Heat flow <span class="arithmatex">\( \dot{Q} \)</span></td>
+<td>Current <span class="arithmatex">\( I \)</span></td>
+</tr>
+<tr>
+<td>Thermal resistance <span class="arithmatex">\( R \)</span></td>
+<td>Resistance <span class="arithmatex">\( R \)</span></td>
+</tr>
+<tr>
+<td>Layers in series</td>
+<td>Resistors in series (resistances add)</td>
+</tr>
+</tbody>
+</table>
+<p>The analogy gives a rule that is easy to remember: when heat must pass through several layers one after another, their resistances <em>add</em>. The total resistance is the sum of each layer's <span class="arithmatex">\( R \)</span>, and the temperature difference splits across the layers in proportion to their resistances. A layer with high resistance takes the largest share of the temperature drop.</p>
+<p><strong>Worked example: following the temperature through a wall.</strong> Consider a 2×4 wood-framed wall at a cavity location (between studs), with the layers listed in the table, and take the inside air as 70°F and the outside as −10°F, a difference of 80°F. The layers include the inside and outside air films from the Convection section, whose resistances are the reciprocals of their coefficients (1/1.47 = 0.68 and 1/5.9 = 0.17). The total is 15.4 h·ft²·°F/BTU, so the heat flow per ft² is <span class="arithmatex">\( 80 / 15.4 = 5.2 \)</span> BTU/h. The temperature drop across each layer is this flow times the layer's resistance.</p>
+<table>
+<thead>
+<tr>
+<th>Layer</th>
+<th>R</th>
+<th>Drop across layer (°F)</th>
+<th>Temperature at the cold side of the layer (°F)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Inside air film</td>
+<td>0.68</td>
+<td>3.5</td>
+<td>66.5</td>
+</tr>
+<tr>
+<td>1/2 in gypsum board</td>
+<td>0.45</td>
+<td>2.3</td>
+<td>64.1</td>
+</tr>
+<tr>
+<td>3.5 in fiberglass batt</td>
+<td>13.0</td>
+<td>67.5</td>
+<td>−3.4</td>
+</tr>
+<tr>
+<td>7/16 in sheathing</td>
+<td>0.5</td>
+<td>2.6</td>
+<td>−6.0</td>
+</tr>
+<tr>
+<td>Vinyl siding</td>
+<td>0.6</td>
+<td>3.1</td>
+<td>−9.1</td>
+</tr>
+<tr>
+<td>Outside air film</td>
+<td>0.17</td>
+<td>0.9</td>
+<td>−10.0</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>15.4</strong></td>
+<td><strong>80.0</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Nearly all of the 80°F drop, 67.5°F, happens across the insulation. The inner face of the sheathing, which is the cold side of the insulation, sits at about −3°F, far below freezing, and the inside face of the gypsum board stays at about 66°F. A cold layer inside a wall is exactly where moisture problems start, which is a central theme of Chapter 4.</p>
+<h2 id="r-value">R-Value<a class="headerlink" href="#r-value" title="Permanent link">¶</a></h2>
+<p>The <strong>R-value</strong> is the thermal resistance of a material or assembly, expressed in the units h·ft²·°F/BTU, and it is the number printed on insulation packages and listed in energy codes. A higher R-value means better resistance to heat flow. Manufacturers and codes usually quote the R-value of a product <em>per inch of thickness</em> or for a specific thickness, and the R-value of a layer is the per-inch value times the thickness. SI practice uses RSI, in m²·K/W, where an R-value of 1 equals an RSI of about 0.176.</p>
+<p>The R-values below are approximate and vary by product and temperature, but they are close enough to estimate with.</p>
+<table>
+<thead>
+<tr>
+<th>Material</th>
+<th>Approximate R per inch</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Softwood lumber</td>
+<td>1.25</td>
+</tr>
+<tr>
+<td>Fiberglass or mineral-wool batt</td>
+<td>3.7</td>
+</tr>
+<tr>
+<td>Dense-pack cellulose</td>
+<td>3.7</td>
+</tr>
+<tr>
+<td>Extruded polystyrene (XPS) board</td>
+<td>5.0</td>
+</tr>
+<tr>
+<td>Polyisocyanurate board</td>
+<td>6.0</td>
+</tr>
+<tr>
+<td>Normal-weight concrete</td>
+<td>0.1</td>
+</tr>
+</tbody>
+</table>
+<p>Minnesota lies in climate zones 6 (the southern and central parts of the state, including Minneapolis) and 7 (the north) of the model energy codes, which are the cold and very cold zones. The Minnesota Energy Code therefore requires higher R-values for roofs, walls, and floors than milder states do. Chapter 11 covers the specific insulation strategies, and Chapter 19 covers the code requirements.</p>
+<p><strong>Worked example: reaching R-30 in a roof.</strong> Suppose the design team wants a roof insulation layer of R-30 (an illustrative target) at Riverbend. The thickness needed equals the target R divided by the R per inch. Using polyisocyanurate board at R-6 per inch, <span class="arithmatex">\( 30 / 6 = 5 \)</span> in. Using fiberglass at R-3.7 per inch, <span class="arithmatex">\( 30 / 3.7 = 8.1 \)</span> in. Using XPS at R-5 per inch, <span class="arithmatex">\( 30 / 5 = 6 \)</span> in. The foam board reaches the target in a thinner layer, which matters when the roof is shallow, but it usually costs more per R. The designer therefore compares thickness, cost, and fire behavior together, a theme of Chapter 5's discussion of material selection.</p>
+<p>Adding R-value brings diminishing returns, because heat loss depends on the <em>reciprocal</em> of the total. Suppose we add a 1 in layer of XPS (R-5) outside the cavity wall, which has a total R of 15.4. The total becomes 20.4, and the U-value falls from 0.0649 to 0.0490, a 24 percent cut in heat loss. A second inch brings the total to 25.4 and the U-value to 0.0394, which is only a further 20 percent cut from the 0.0490 value. Each added inch of insulation saves less than the one before it, so designers look for the thickness at which the extra cost no longer repays itself in saved energy.</p>
+<p>Two cautions apply to every R-value you read. First, a labeled R-value describes the <em>insulation alone</em>, not the wall that contains it. Second, the number can fall if insulation is compressed, wet, or installed with gaps, because it depends on trapped still air. Both matter more than most beginners expect.</p>
+<h2 id="u-value">U-Value<a class="headerlink" href="#u-value" title="Permanent link">¶</a></h2>
+<p>The <strong>U-value</strong>, also called the <em>U-factor</em>, is the rate at which heat flows through an assembly per square foot per degree of temperature difference, and it equals the reciprocal of the assembly's total R-value:</p>
+<div class="arithmatex">\[ U = \frac{1}{R_{\text{total}}} \qquad \dot{Q} = U \, A \, \Delta T \]</div>
+<p>Its units are BTU/(h·ft²·°F). A low U-value means low heat loss, and it is the number that energy codes commonly use for windows and for whole assemblies. The <em>total</em> R-value includes every layer plus the air films. Because the total form multiplies by area and temperature difference, the U-value gives the whole heat loss in a single step.</p>
+<p><strong>Worked example: a wall and a window.</strong> The cavity wall from the previous section has a total <span class="arithmatex">\( R = 15.4 \)</span>, so <span class="arithmatex">\( U = 1/15.4 = 0.065 \)</span>. A window with an illustrative U-value of 0.30 has a total resistance of only <span class="arithmatex">\( 1/0.30 = 3.3 \)</span>. On the 80°F design day, 1,000 ft² of this wall loses <span class="arithmatex">\( 0.065 \times 1{,}000 \times 80 = 5{,}200 \)</span> BTU/h. Only 100 ft² of the window loses <span class="arithmatex">\( 0.30 \times 100 \times 80 = 2{,}400 \)</span> BTU/h. Per square foot, the window loses <span class="arithmatex">\( 0.30/0.065 \approx 4.6 \)</span> times as much heat as the wall, and a tenth of the area produces nearly half as much loss. That is why window area is one of the biggest decisions in cold-climate design.</p>
+<div class="admonition mascot-tip">
+<p class="admonition-title">Beau's Tip: R Adds in Layers, U Adds in Areas</p>
+<p><img alt="Beau giving a tip" class="mascot-admonition-img" src="../../img/mascot/tip.png">
+Add R-values when heat passes through layers one after another, and add U-times-area when heat flows through different parts of a wall side by side. When you need to combine the two situations, convert to R for the layers, then to U for the areas.</p>
+</div>
+<h2 id="thermal-bridging">Thermal Bridging<a class="headerlink" href="#thermal-bridging" title="Permanent link">¶</a></h2>
+<p><strong>Thermal bridging</strong> is the flow of heat around or through insulation by way of a higher-conductivity material that spans from the warm side to the cold side. Examples include wood or steel studs that interrupt insulation, concrete slab edges that pass through the wall, steel beams that penetrate the enclosure, and window frames. Heat chooses the easiest path, and in a wall the studs are an easier path than the insulation between them.</p>
+<p>In a conventional 2×4 wall, studs and plates make up roughly 25 percent of the wall's area (a common estimate that includes headers and corners). We can calculate the wall's overall performance with the <em>parallel path method</em>: calculate <span class="arithmatex">\( U \)</span> separately for the cavity and for the stud path, then average the two by their areas. The two paths sit side by side, so we average U-values, not R-values.</p>
+<p><strong>Worked example: the R-13 batt in a wall that is not R-13.</strong> The cavity path, which adds the R-13 batt to the gypsum, sheathing, siding, and air films, has a total R of 15.4, as in the previous sections. That total is higher than the batt's label only because the other layers add resistance; the framing is what pulls the whole wall back down. In the stud path, the 3.5 in of wood replaces the batt, giving a layer R of <span class="arithmatex">\( 3.5/0.8 = 4.4 \)</span> and a total R of 6.8. The two U-values are <span class="arithmatex">\( 1/15.4 = 0.0649 \)</span> and <span class="arithmatex">\( 1/6.8 = 0.1476 \)</span>. With 75 percent of the area as cavity and 25 percent as stud:</p>
+<div class="arithmatex">\[ U_{\text{avg}} = 0.75 \times 0.0649 + 0.25 \times 0.1476 = 0.0856 \]</div>
+<p>The effective total resistance is <span class="arithmatex">\( 1/0.0856 = 11.7 \)</span>, about 24 percent lower than the 15.4 that a quick calculation suggests. The 1,000 ft² wall from the previous section then loses <span class="arithmatex">\( 0.0856 \times 1{,}000 \times 80 = 6{,}850 \)</span> BTU/h, which is 1,650 BTU/h more than the 5,200 BTU/h predicted for the cavity alone. The remedy, covered in Chapter 11, is to add a continuous layer of insulation outside the framing, so that no stud touches both sides without interruption.</p>
+<div class="admonition mascot-warning">
+<p class="admonition-title">Watch Out: The Label Is Not the Wall</p>
+<p><img alt="Beau warning" class="mascot-admonition-img" src="../../img/mascot/warning.png">
+A common trap is to read "R-13" on a batt and assume the wall is R-13. Studs, headers, and gaps bypass the batt, so the whole wall performs lower. Calculate the effective R of the full assembly, or ask for it, before you compare options.</p>
+</div>
+<p>The next simulation lets you build the wall layer by layer, so you can see the framing penalty directly.</p>
+<h4 id="diagram-wall-assembly-r-value-and-thermal-bridging-calculator">Diagram: Wall Assembly R-Value and Thermal Bridging Calculator<a class="headerlink" href="#diagram-wall-assembly-r-value-and-thermal-bridging-calculator" title="Permanent link">¶</a></h4>
+<iframe src="../../sims/wall-assembly-r-value-bridging-calculator/main.html" width="100%" height="647px" scrolling="no"></iframe>
+<p><a href="../../sims/wall-assembly-r-value-bridging-calculator/main.html">Run Wall Assembly R-Value and Thermal Bridging Calculator Fullscreen</a></p>
+<details>
+<summary>Wall Assembly R-Value and Thermal Bridging Calculator</summary>
+<p>Type: microsim
+<strong>sim-id:</strong> wall-assembly-r-value-bridging-calculator<br>
+<strong>Library:</strong> p5.js<br>
+<strong>Status:</strong> Specified</p>
+<p>Learning objective: Students will calculate (Bloom Level 3, Apply) the total R-value and U-value of a wall assembly using the series and parallel path methods, and will compare (Bloom Level 4, Analyze) how framing and continuous insulation change the effective R-value.</p>
+<p>Visual: A wall cross-section drawn with layers (inside air film, gypsum board, framing and cavity, sheathing, optional continuous insulation, siding, outside air film) and a plan-view strip beneath it showing the stud and cavity paths side by side at the framing fraction. A horizontal bar chart compares the cavity R, the stud R, and the effective R. A temperature-profile line can be toggled across the layers. The canvas width follows the container, the height is 520 px, and the sketch redraws on window resize.</p>
+<p>Controls: A dropdown labeled "Cavity insulation" (none, fiberglass R-13, fiberglass R-20, cellulose, closed-cell foam). A dropdown labeled "Framing" (2×4 wood, 2×6 wood, 3-5/8 in steel stud). A slider labeled "Continuous insulation (in of XPS)" from 0 to 4 with a default of 0. A slider labeled "Framing fraction (%)" from 10 to 40 with a default of 25. A slider labeled "Outdoor temperature (°F)" from −20 to 40 with a default of −10.</p>
+<p>Interactions: The panel shows the cavity R, the stud R, the area-weighted U, the effective R, and the percent reduction from the cavity-only value. Hovering over a layer shows its R and its temperature drop. A "Show temperature profile" toggle plots the temperature through the layers and highlights the point where the temperature falls below freezing. Switching the framing to steel produces a visibly larger drop in effective R, with a one-sentence explanation based on the steel conductivity in this chapter. The defaults reproduce the 15.4, 6.8, and 11.7 values from the text.</p>
+<p>Colors: Insulation is yellow, wood is brown, steel is gray, and the temperature line is blue below freezing and red above. Every layer carries a text label.</p>
+<p>Implementation: p5.js with a responsive canvas, built-in dropdown and slider controls, a layer lookup table, and a parallel-path calculation function.</p>
+</details>
+<h2 id="thermal-mass">Thermal Mass<a class="headerlink" href="#thermal-mass" title="Permanent link">¶</a></h2>
+<p><strong>Thermal mass</strong> is a material's capacity to store heat and release it slowly, which is determined by its mass and its specific heat. A heavy material with a high specific heat, such as water, concrete, or masonry, soaks up a great deal of heat for each degree of temperature rise, so it warms and cools slowly. A lightweight material, such as a wood-framed wall, responds quickly. The stored heat is found with the same equation used earlier, <span class="arithmatex">\( Q = m\,c\,\Delta T \)</span>.</p>
+<p><strong>Worked example: a Riverbend floor slab.</strong> A 4 in thick concrete slab over 1,000 ft² has a volume of <span class="arithmatex">\( 1{,}000 \times 4/12 = 333 \)</span> ft³. At about 150 lb/ft³, the slab weighs 50,000 lb. With a specific heat near 0.2, it stores about <span class="arithmatex">\( 50{,}000 \times 0.2 = 10{,}000 \)</span> BTU for each degree of temperature change, so a 5°F swing exchanges 50,000 BTU, about 14.7 kWh. Thermal mass helps when daily temperature swings are large and the heat gets out of the mass at a useful time, as with sunlight on a floor in winter. It does not substitute for insulation, since mass delays heat flow but does not stop it.</p>
+<h2 id="beyond-heat-light-and-sound">Beyond Heat: Light and Sound<a class="headerlink" href="#beyond-heat-light-and-sound" title="Permanent link">¶</a></h2>
+<p>Heat is one form of energy that a building must manage. Light and sound are two others, and both are tied to the physics already in this chapter. Visible light is simply a band of the radiation described above, and sound travels as vibration through air and through solid materials in the same way that conduction passes energy along a solid.</p>
+<h3 id="daylight">Daylight<a class="headerlink" href="#daylight" title="Permanent link">¶</a></h3>
+<p><strong>Daylight</strong> is the visible portion of sunlight that reaches the interior of a building through windows, skylights, and openings, and it is measured by <em>illuminance</em>, the amount of light falling on a surface, in foot-candles (fc) or lux (1 fc is about 10.76 lux). Daylight reduces the electric energy used for lighting and improves the occupants' sense of well-being, but it also admits solar heat, which can cause glare and overheating. A common way to judge a space is the <em>daylight factor</em>, the ratio of the indoor illuminance at a point to the simultaneous outdoor illuminance under an overcast sky. A factor of 2 percent, for example, means the point receives 2 percent of the outdoor level.</p>
+<p>The sun's height in the sky controls how daylight and solar heat enter. Minneapolis sits at a latitude of about 45 degrees north, so the noon sun altitude (its angle above the horizon) is roughly <span class="arithmatex">\( 90^\circ - 45^\circ + \delta \)</span>, where <span class="arithmatex">\( \delta \)</span> is the sun's <em>declination</em>, which varies from −23.4 degrees at the winter solstice to +23.4 degrees at the summer solstice. The table shows the results.</p>
+<table>
+<thead>
+<tr>
+<th>Date</th>
+<th>Declination</th>
+<th>Noon sun altitude</th>
+<th>Daylight hours (approx.)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Winter solstice (about Dec 21)</td>
+<td>−23.4°</td>
+<td>about 22°</td>
+<td>about 8.8</td>
+</tr>
+<tr>
+<td>Equinoxes (about Mar 20, Sep 22)</td>
+<td>0°</td>
+<td>about 45°</td>
+<td>about 12</td>
+</tr>
+<tr>
+<td>Summer solstice (about Jun 21)</td>
+<td>+23.4°</td>
+<td>about 68°</td>
+<td>about 15.5</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Worked example: sizing an overhang.</strong> A south-facing window at Riverbend is 5 ft tall, with a roof overhang that projects 2 ft and is attached to the wall 1 ft above the top of the window. The shadow cast on the wall extends below the attachment point by <span class="arithmatex">\( 2 \times \tan(\text{altitude}) \)</span>. At the summer solstice, <span class="arithmatex">\( 2 \times \tan 68.5^\circ = 5.1 \)</span> ft, so the shadow reaches 4.1 ft down the window, covering 81 percent of it. At the equinox, <span class="arithmatex">\( 2 \times \tan 45^\circ = 2.0 \)</span> ft, so 1.0 ft of the window is shaded, which is 20 percent. At the winter solstice, <span class="arithmatex">\( 2 \times \tan 21.6^\circ = 0.8 \)</span> ft, which stops above the window, so the window is entirely in sun. A fixed overhang therefore blocks summer heat and admits winter sun without any moving parts.</p>
+<h3 id="sound-transmission">Sound Transmission<a class="headerlink" href="#sound-transmission" title="Permanent link">¶</a></h3>
+<p><strong>Sound transmission</strong> is the passage of sound energy from one space to another through the walls, floors, and ceilings that separate them. Sound is a vibration that travels as pressure waves in air and as vibration in solids. <em>Airborne sound</em>, such as speech, strikes a wall and makes it vibrate, and the wall re-radiates it on the far side. <em>Impact sound</em>, such as footsteps, enters the structure directly and travels through it.</p>
+<p>Resistance to airborne sound is rated by the <em>Sound Transmission Class</em> (STC), and resistance to impact sound by the <em>Impact Insulation Class</em> (IIC). Both are single numbers from standard laboratory tests, and a higher number is better. Building codes commonly set a minimum of about STC 50 for walls and floors between dwelling units. Three principles guide design: more mass blocks more sound, separating the two faces of a wall so they cannot vibrate together helps, and any gap or open penetration lets sound leak around the wall. Sound control returns in the discussion of walls in Chapters 11 and 14.</p>
+<div class="admonition mascot-celebration">
+<p class="admonition-title">You Can Read the Physics of a Building</p>
+<p><img alt="Beau celebrating" class="mascot-admonition-img" src="../../img/mascot/celebration.png">
+You can now balance forces on a beam and find its reactions, compute stress and strain, trace heat through a wall layer by layer, and explain why an R-13 batt does not make an R-13 wall. That is the working physics of a building, and every later chapter puts it to use.</p>
+</div>
+<h2 id="key-takeaways">Key Takeaways<a class="headerlink" href="#key-takeaways" title="Permanent link">¶</a></h2>
+<ul>
+<li>A force is a vector with magnitude and direction. Inclined forces split into horizontal and vertical components using sine and cosine.</li>
+<li>A structure stays at rest only when the sums of horizontal forces, vertical forces, and moments are all zero. Supports supply the reactions that make this happen.</li>
+<li>Stress is force divided by area, and materials fail when stress reaches their limit. Spreading a load over a larger area, as a footing does, lowers the stress.</li>
+<li>Strain is the change in length divided by the original length. The ratio of stress to strain describes a material's stiffness, which Chapter 5 develops.</li>
+<li>Heat is energy that flows from hot to cold, and its rate scales with the temperature difference. Buildings lose heat, rather than gaining cold.</li>
+<li>Heat travels by conduction through solids, by convection in moving fluids, and by radiation across space, and a wall uses all three in sequence.</li>
+<li>Thermal resistance is the layer thickness divided by conductivity, and layers in series add their R-values. The U-value is the reciprocal of the total R-value, and heat loss equals U times area times temperature difference.</li>
+<li>Thermal bridges, such as studs, let heat bypass insulation, so the effective R-value of a wall is lower than the R-value on the insulation label.</li>
+<li>Thermal mass stores heat, daylight depends on the sun's angle, and sound transmission is controlled by mass, separation, and sealing.</li>
+</ul>
+<p><a href="references/">See Annotated References</a></p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer">
+        
+          
+          <a href="../02-design-construction-process/references/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Annotated References">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                Annotated References
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="quiz/" class="md-footer__link md-footer__link--next" aria-label="Next: Quiz">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                Quiz
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright © 2026 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "content.action.edit", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "search.share"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="../../js/extra.js"></script>
+      
+        <script src="../../js/katex.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>

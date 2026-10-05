@@ -1,0 +1,61 @@
+{
+  "title": "Forensic Leak Investigation Simulator",
+  "description": "Students will evaluate (Bloom Level 5, Evaluate) competing hypotheses for a building leak by selecting investigation tools and judging which evidence supports or eliminates each hypothesis.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "forensic-leak-investigation-simulator",
+  "library": "p5.js",
+  "bloomLevel": "Evaluate",
+  "bloomVerb": "evaluate, justify",
+  "completion_status": "built",
+  "chapter_number": 21,
+  "chapter_title": "Durability, Maintenance, and Building Failure",
+  "chapter_dir": "21-durability-failure",
+  "chapter_rel_dir": "chapters/21-durability-failure",
+  "canvasHeight": 680,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Evaluate"
+    ],
+    "concepts": [
+      "Building forensics",
+      "Competing hypotheses",
+      "Non-destructive testing",
+      "Water intrusion",
+      "Evidence-based diagnosis"
+    ],
+    "prerequisites": [
+      "Chapter 21 water intrusion and decay",
+      "Chapter 13 roofs and ice dams"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Students evaluate competing hypotheses for a building leak by selecting investigation tools and judging which evidence supports or eliminates each hypothesis.",
+    "recommendedUsage": [
+      "Read the case card and the five hypotheses: missing window flashing, roof leak, condensation, plumbing leak, and ice dam. Each starts at 20 percent confidence.",
+      "Click an investigation tool. Each can be used once and costs hours. The finding appears on the cutaway, the card explains why the evidence matters, and every confidence meter moves.",
+      "Watch the status of each hypothesis, which is also written as text: supported, undecided, or eliminated. Hover a hypothesis to see what evidence would confirm it.",
+      "When you are confident, click Submit conclusion and choose the most likely cause. The simulator reveals the hidden cause, your hours, and an efficient investigation sequence.",
+      "Click Reset to start a new case with a different hidden cause."
+    ],
+    "activities": [
+      "Run the first case (the Riverbend window flashing) and compare the tool sequence with the Chapter 21 worked example: drawings, moisture meter, water test, then opening the wall.",
+      "Run two more cases and write, for each, the cheapest set of tools that made the right cause at least 85 percent likely.",
+      "Find a case where two hypotheses stayed undecided after the infrared scan and explain which other tool separated them."
+    ],
+    "assessment": [
+      "Explain why a destructive tool such as opening the wall is usually used last, and give one case where it was wasted effort.",
+      "Explain in two sentences why a single finding rarely proves a hypothesis, using one finding from the simulator as an example."
+    ]
+  }
+}

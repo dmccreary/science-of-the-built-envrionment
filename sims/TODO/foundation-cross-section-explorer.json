@@ -1,0 +1,15 @@
+{
+  "sim_id": "foundation-cross-section-explorer",
+  "diagram_name": "Foundation Cross-Section Explorer",
+  "chapter_number": 10,
+  "chapter_title": "Foundation Systems",
+  "chapter_dir": "10-foundation-systems",
+  "chapter_rel_dir": "chapters/10-foundation-systems",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will identify (Bloom Level 1, Remember) the parts of a typical cold-climate foundation and explain (Bloom Level 2, Understand) the job of each part.",
+  "completion_status": "specified",
+  "extracted_date": "2026-10-03",
+  "specification": "Type: infographic\n**sim-id:** foundation-cross-section-explorer<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nLearning objective: Students will identify (Bloom Level 1, Remember) the parts of a typical cold-climate foundation and explain (Bloom Level 2, Understand) the job of each part.\n\nVisual: A cross-section of a Riverbend exterior wall with the following parts drawn to scale and labeled by number: continuous footing, footing reinforcement, foundation wall, anchor bolt and sill plate, slab-on-grade, gravel base, vapor retarder, perimeter drain pipe in gravel, backfill, finished grade sloped away, frost depth line at 42 in. The canvas is responsive, 480 px tall, and redraws on window resize.\n\nControls: A dropdown to switch the cross-section between slab-on-grade, crawl space, and basement. A checkbox \"Show frost line.\" A \"Show loads\" toggle that draws arrows for the load path from the wall to the soil.\n\nInteractions: Hovering over a part highlights it and shows its name. Clicking a part opens an infobox with its function, a typical dimension (marked \"typical\" and not required), and the section of this chapter where it is explained. Changing the dropdown rebuilds the cross-section and highlights the parts that are new.\n\nDefault state: Slab-on-grade, frost line shown, no loads.\n\nImplementation: p5.js with a built-in select and checkboxes, region hit-testing for clicks, and a responsive canvas."
+}

@@ -1,0 +1,61 @@
+{
+  "title": "Project Team Contracts and Communication Map",
+  "description": "Students will trace (Bloom Level 4, Analyze) the route taken by a submittal, a request for information, and a change order through the project team, and will explain (Bloom Level 2, Understand) why subcontractors communicate with the design team only through the general contractor.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "project-team-communication-map",
+  "library": "vis-network",
+  "bloomLevel": "Analyze, Understand",
+  "bloomVerb": "trace, explain",
+  "completion_status": "built",
+  "chapter_number": 2,
+  "chapter_title": "The Design and Construction Process",
+  "chapter_dir": "02-design-construction-process",
+  "chapter_rel_dir": "chapters/02-design-construction-process",
+  "canvasHeight": 700,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Analyze",
+      "Understand"
+    ],
+    "concepts": [
+      "Delivery methods",
+      "Contract relationships",
+      "Submittals",
+      "Requests for information",
+      "Change orders"
+    ],
+    "prerequisites": [
+      "Chapter 1 project participants",
+      "Project phases (Chapter 2)"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Trace the route of a submittal, an RFI, and a change order through the project team and explain why subcontractors communicate with the design team only through the general contractor.",
+    "recommendedUsage": [
+      "Start with Design-bid-build. Solid dark-blue lines are contracts; dashed gray lines are communication paths with no contract. Hover over any line to see which kind it is.",
+      "Click a participant to read its role and responsibilities, and the contracts it holds.",
+      "Press Submittal, RFI, or Change order. A token travels the route and the numbered steps in the infobox highlight in turn. Press a button again to replay.",
+      "Change the Delivery method to Design-build or Construction manager at risk and notice which contract lines move. In design-build, the Architect appears under the General Contractor."
+    ],
+    "activities": [
+      "Predict (5 min): Before pressing a button, students sketch the route they expect for a submittal and compare it with the token path.",
+      "Compare (10 min): Students run all three documents under each delivery method and record which routes change and why.",
+      "Explain (5 min): Students use the contract lines to explain why the architect cannot direct a subcontractor in design-bid-build."
+    ],
+    "assessment": [
+      "Students list, in order, every participant who handles a submittal and say what each does with it.",
+      "Students explain in two sentences why a subcontractor sends an RFI to the general contractor rather than to the architect."
+    ]
+  }
+}

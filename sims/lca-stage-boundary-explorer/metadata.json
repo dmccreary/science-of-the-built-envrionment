@@ -1,0 +1,61 @@
+{
+  "title": "Life-Cycle Stage and Boundary Explorer",
+  "description": "Students will analyze (Bloom Level 4, Analyze) how the choice of system boundary and operating energy changes the share of life-cycle emissions that comes from materials, and will interpret (Bloom Level 2, Understand) what each life-cycle module represents.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "lca-stage-boundary-explorer",
+  "library": "Chart.js",
+  "bloomLevel": "Understand, Analyze",
+  "bloomVerb": "interpret, analyze",
+  "completion_status": "built",
+  "chapter_number": 20,
+  "chapter_title": "Sustainable Building Materials",
+  "chapter_dir": "20-sustainable-materials",
+  "chapter_rel_dir": "chapters/20-sustainable-materials",
+  "canvasHeight": 700,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Understand",
+      "Analyze"
+    ],
+    "concepts": [
+      "Life-cycle assessment",
+      "System boundary",
+      "Life-cycle modules A1-C",
+      "Operational versus embodied carbon"
+    ],
+    "prerequisites": [
+      "Chapter 19 operating energy and EUI",
+      "Percent of a total"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Students interpret what each life-cycle module represents and analyze how the system boundary and operating energy change the share of life-cycle emissions that comes from materials.",
+    "recommendedUsage": [
+      "Start with Cradle to grave and the default 60-year ledger of 330, 35, 1,720, and 20 tonnes CO\u2082e. The top bar is the current design and the bottom bar is the efficient, electrified case at 40 percent operating energy.",
+      "Hover over any segment for the module name, its plain-language definition, and the tonnes of emissions. Click a segment for an example of what the module includes.",
+      "Change the System boundary to Cradle to gate or Through construction and watch the use and end-of-life segments leave the bar and the materials share change.",
+      "Drag Operating energy and Study period, or click Apply efficient and electrified case, to see the materials share rise as the building uses less energy.",
+      "Read the readout lines for the materials share under the current boundary and under all three boundaries."
+    ],
+    "activities": [
+      "Reproduce the Chapter 20 ledger: confirm the 2,105 t total and the 16 percent materials share, then apply the efficient case and confirm 1,073 t and 31 percent.",
+      "Predict the materials share at a 20-year study period and a 100-year study period before moving the slider, then compare with the readout.",
+      "Choose a boundary for a product comparison and explain in two sentences what that boundary leaves out."
+    ],
+    "assessment": [
+      "Explain why a product that looks cleaner at the factory gate can look worse once the boundary extends to the grave.",
+      "Explain why the materials share doubles in the efficient case even though the materials did not change."
+    ]
+  }
+}

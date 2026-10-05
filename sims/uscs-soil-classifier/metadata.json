@@ -1,0 +1,61 @@
+{
+  "title": "USCS Soil Classifier",
+  "description": "Students will apply (Bloom Level 3, Apply) the simplified USCS decision path to a sieve analysis to classify a soil as a gravel, sand, silt, or clay, and will predict (Bloom Level 2, Understand) its drainage, strength, and frost behavior.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "uscs-soil-classifier",
+  "library": "p5.js",
+  "bloomLevel": "Apply, Understand",
+  "bloomVerb": "classify, predict",
+  "completion_status": "built",
+  "chapter_number": 9,
+  "chapter_title": "Site Work, Soils, and Groundwater",
+  "chapter_dir": "09-site-soils",
+  "chapter_rel_dir": "chapters/09-site-soils",
+  "canvasHeight": 585,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Apply",
+      "Understand"
+    ],
+    "concepts": [
+      "Soil types",
+      "Sieve analysis",
+      "Unified Soil Classification System",
+      "Plasticity",
+      "Frost susceptibility"
+    ],
+    "prerequisites": [
+      "Chapter 5 material properties",
+      "Percent and ratio calculations"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Apply the simplified USCS decision path to a sieve analysis to classify a soil as gravel, sand, silt, or clay, and predict its drainage, strength, and frost behavior.",
+    "recommendedUsage": [
+      "Press Load Riverbend boring B-2 to start from the Chapter 9 example of 8 percent gravel, 62 percent sand, and 30 percent fines with low plasticity. The result is SM, silty sand.",
+      "Move any of the three sliders. The other two rescale so the total stays 100 percent. Choose low or high plasticity for the fines.",
+      "Watch the stacked bar and the sieves, then read the highlighted path through the four decision boxes. Click any box for a one-sentence reason for the test.",
+      "Read the result card for the symbol, name, and drainage, strength, and frost ratings. Press Random sample to classify a new soil, and hover over a sieve for its opening size."
+    ],
+    "activities": [
+      "Warm-up (5 min): Students reproduce the Chapter 9 worked example for boring B-2 by hand, then confirm SM in the MicroSim.",
+      "Explore (10 min): Students press Random sample six times, predict the symbol before checking the path, and keep a tally of correct predictions.",
+      "Predict (10 min): Students find the smallest percent of fines that turns a clean sand into a silty sand and describe how the frost rating changes."
+    ],
+    "assessment": [
+      "Students classify three sieve results given on paper and state the drainage and frost behavior of each.",
+      "Students explain in two sentences why a soil with 30 percent low-plasticity fines is not a clean sand."
+    ]
+  }
+}

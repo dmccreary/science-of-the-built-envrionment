@@ -1,0 +1,15 @@
+{
+  "sim_id": "moisture-transport-pathways-explorer",
+  "diagram_name": "Moisture Pathways in a Wall",
+  "chapter_number": 4,
+  "chapter_title": "Moisture, Air Movement, and Thermal Comfort",
+  "chapter_dir": "04-moisture-air-comfort",
+  "chapter_rel_dir": "chapters/04-moisture-air-comfort",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will classify (Bloom Level 2, Understand) each way that moisture enters a wall as bulk water, capillary action, air movement, or vapor diffusion, and will match (Bloom Level 2, Understand) each pathway to its control.",
+  "completion_status": "specified",
+  "extracted_date": "2026-10-03",
+  "specification": "Type: infographic\n**sim-id:** moisture-transport-pathways-explorer<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nLearning objective: Students will classify (Bloom Level 2, Understand) each way that moisture enters a wall as bulk water, capillary action, air movement, or vapor diffusion, and will match (Bloom Level 2, Understand) each pathway to its control.\n\nVisual: A section drawing of a Minnesota wall on a concrete foundation, with the roof edge at the top. Four colored arrow sets mark the pathways: rain at a window head (bulk water), groundwater rising in the footing (capillary action), warm air leaking at an outlet box (air movement), and vapor passing through the interior finish (diffusion). The canvas width follows the container, the height is 500 px, and the sketch redraws on window resize.\n\nControls: Four toggle buttons labeled \"Bulk water,\" \"Capillary,\" \"Air movement,\" and \"Diffusion\" switch each pathway on or off. A checkbox labeled \"Show controls\" overlays the matching control (flashing, capillary break, air barrier, vapor retarder) as a colored layer. A button labeled \"Quiz me\" hides the labels and asks the student to click the pathway for a highlighted arrow.\n\nInteractions: Clicking any arrow opens an infobox with the mechanism's driver, a one-sentence example, and the matching control. Hovering over a layer shows its name. In quiz mode, a correct answer turns the arrow green with a short explanation, and a wrong answer shows which driver the student should look for.\n\nColors: Bulk water is blue, capillary action is teal, air movement is orange, and diffusion is purple. All arrows carry text labels.\n\nImplementation: p5.js with a responsive canvas, built-in button and checkbox controls, mouse hit-testing on the arrows, and an infobox div."
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Insulation R-Value and Thickness Comparison</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <style>
+        * { box-sizing: border-box; }
+        body { margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: black; background: white; }
+        main { width: 100%; border: 1px solid silver; background: white; }
+        #chartWrap { position: relative; height: 360px; background: aliceblue; border-bottom: 1px solid silver; padding: 4px 6px 2px 6px; }
+        #controls { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 18px; padding: 8px 10px 4px 10px; font-size: 15px; }
+        #controls label { display: flex; align-items: center; gap: 6px; }
+        #controls select { font-size: 15px; }
+        #controls input[type=range] { width: 170px; margin: 0; }
+        #targetWrap span { display: inline-block; min-width: 140px; }
+        #readout { padding: 2px 10px 4px 10px; font-size: 15px; line-height: 1.35; min-height: 52px; }
+        #readout .note { margin-top: 3px; padding: 3px 8px; border-left: 4px solid goldenrod; background: floralwhite; font-size: 14px; }
+        #infobox { margin: 4px 10px 8px 10px; padding: 6px 10px; border: 1px solid silver; border-radius: 8px; font-size: 14px; line-height: 1.35; min-height: 84px; }
+        #infobox h3 { margin: 0 0 3px 0; font-size: 16px; color: navy; }
+        @media (min-width: 640px) { #chartWrap { height: 470px; } #infobox { min-height: 110px; } }
+        @media (max-width: 520px) {
+            #controls input[type=range] { width: 120px; }
+            #targetWrap span { min-width: 128px; font-size: 14px; }
+            #controls { font-size: 14px; }
+        }
+    </style>
+    <script src="insulation-r-per-inch-thickness-chart.js"></script>
+</head>
+<body>
+    <main>
+        <div id="chartWrap"><canvas id="insChart" role="img" aria-label="Horizontal bar chart of the thickness in inches that eight insulation materials need to reach a target R-value, with a line for the cavity depth"></canvas></div>
+        <div id="controls">
+            <label id="targetWrap"><span id="lblTarget"></span><input type="range" id="target" min="10" max="60" step="1" value="20" aria-label="Target R-value"></label>
+            <label>Cavity depth:
+                <select id="cavity" aria-label="Cavity depth">
+                    <option value="3.5">3.5 in (2×4)</option>
+                    <option value="5.5" selected>5.5 in (2×6)</option>
+                    <option value="7.25">7.25 in (2×8)</option>
+                    <option value="9.25">9.25 in (2×10)</option>
+                    <option value="none">None</option>
+                </select>
+            </label>
+            <label><input type="checkbox" id="costBox"> Show typical relative cost</label>
+            <label><input type="checkbox" id="coldBox"> Show cold-weather derating</label>
+        </div>
+        <div id="readout" aria-live="polite"></div>
+        <div id="infobox" aria-live="polite"></div>
+    </main>
+</body>
+</html>

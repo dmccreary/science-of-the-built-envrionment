@@ -1,0 +1,15 @@
+{
+  "sim_id": "delivery-method-explorer",
+  "diagram_name": "Delivery Method Explorer",
+  "chapter_number": 2,
+  "chapter_title": "The Design and Construction Process",
+  "chapter_dir": "02-design-construction-process",
+  "chapter_rel_dir": "chapters/02-design-construction-process",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will compare (Bloom Level 4, Analyze) the sequence of activities, contract relationships, and schedule length of design-bid-build, design-build, construction manager at risk, and integrated project delivery, and will select (Bloom Level 5, Evaluate) the method that best fits a described project.",
+  "completion_status": "specified",
+  "extracted_date": "2026-10-03",
+  "specification": "Type: microsim\n**sim-id:** delivery-method-explorer<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nLearning objective: Students will compare (Bloom Level 4, Analyze) the sequence of activities, contract relationships, and schedule length of design-bid-build, design-build, construction manager at risk, and integrated project delivery, and will select (Bloom Level 5, Evaluate) the method that best fits a described project.\n\nVisual: The upper half of the canvas shows a horizontal Gantt-style timeline with bars for Design, Bidding, and Construction. The lower half shows boxes for Owner, Architect, Contractor, and Key Subcontractors, joined by lines that represent contracts. The canvas width follows the container, the height is 520 px, and the layout redraws on window resize.\n\nControls: Four radio buttons select the delivery method. Selecting a method animates the bars to their new overlap, moves the Contractor box to its starting phase, and redraws the contract lines. A slider labeled \"Months of design\" (6 to 14) and a slider labeled \"Months of construction\" (6 to 14) change the bar lengths, and a readout shows the total schedule for the selected method, with the Riverbend defaults of 10 and 10 months. Clicking any box or bar opens an infobox with a two-sentence definition.\n\nQuiz mode: A button labeled \"Pick the method\" presents a short scenario, such as \"A hospital owner needs the building open before the winter and wants one firm responsible for everything,\" and asks the student to select a method. The response is checked immediately, and an explanation names the contract relationship that decides the answer.\n\nColors: Design bars are blue, bidding bars are gray, and construction bars are orange. Contract lines are solid and communication lines are dashed.\n\nImplementation: p5.js with a responsive canvas, DOM radio buttons and sliders, and a small infobox div."
+}

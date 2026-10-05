@@ -1,0 +1,210 @@
+{
+  "chapter": "Roof Assemblies",
+  "chapter_file": "docs/chapters/13-roof-assemblies/index.md",
+  "quiz_file": "docs/chapters/13-roof-assemblies/quiz.md",
+  "generated_date": "2026-10-04",
+  "total_questions": 10,
+  "questions": [
+    {
+      "id": "13-q001",
+      "number": 1,
+      "question_text": "Why does a ventilated-attic roof place the air barrier at the ceiling plane and not at the roof covering?",
+      "options": {
+        "A": "Air leaking upward through ceiling penetrations carries moisture into the attic, so air must be stopped there",
+        "B": "The covering must be left open so that the roof deck can absorb moisture from the shingles above it",
+        "C": "The ceiling is the coldest layer in the roof, so the barrier belongs there to prevent condensation on drywall",
+        "D": "The shingles act as the vapor retarder, so the barrier is placed at the ceiling to avoid any duplication"
+      },
+      "correct_answer": "A",
+      "explanation": "A roof assembly is the full stack of materials from deck to weathering surface, and leaks almost always trace to joints between layers. In the example, the insulation controls heat and the covering controls only water. Moisture in leaking air is the reason the ceiling air barrier is critical, and the attic stays near outdoor temperature because it is ventilated.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Roof Assemblies",
+      "source_link": "../chapters/13-roof-assemblies/index.md#roof-assemblies",
+      "explanation_word_count": 60
+    },
+    {
+      "id": "13-q002",
+      "number": 2,
+      "question_text": "A 6:12 roof covers a building footprint of 1,000 ft\u00b2. Using the slope factor of about 1.12, what is the sloped roof area before waste?",
+      "options": {
+        "A": "About 1,000 ft\u00b2",
+        "B": "About 1,030 ft\u00b2",
+        "C": "About 1,410 ft\u00b2",
+        "D": "About 1,120 ft\u00b2"
+      },
+      "correct_answer": "D",
+      "explanation": "A steep-slope roof is pitched so water runs off by gravity over overlapping layers, and slope is stated as rise per 12 in. of run. For 6:12 the slope factor is \u221a(12\u00b2 + 6\u00b2)/12 \u2248 1.12, so the area is 1,120 ft\u00b2. Using the footprint alone undercounts material, 1.03 is the factor for 3:12, and 1.41 is the factor for 12:12. Roofers then add about 10 percent for waste.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Steep-Slope Roofs",
+      "source_link": "../chapters/13-roof-assemblies/index.md#steep-slope-roofs",
+      "explanation_word_count": 69
+    },
+    {
+      "id": "13-q003",
+      "number": 3,
+      "question_text": "A low-slope roof is not flat. Why do designers slope it, often with tapered insulation?",
+      "options": {
+        "A": "A slope lets water run off over overlapping units, as it does on a conventional shingled roof surface",
+        "B": "A slope allows the membrane to be omitted, because gravity removes the water before it can enter",
+        "C": "A slope of at least one-quarter inch per foot moves water to drains so it does not stand on the membrane",
+        "D": "A slope reduces the thickness of insulation needed over the whole roof, so the roof costs less"
+      },
+      "correct_answer": "C",
+      "explanation": "Low-slope roofs rely on a continuous waterproof membrane and are common on commercial, institutional, and industrial buildings. The slope often comes from tapered insulation, boards cut with a slope, so a structurally level deck can still drain. Over a 30 ft run to a drain, a quarter-inch-per-foot slope changes thickness by 7.5 in., a quantity that must be carried into parapet details.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Low-Slope Roofs",
+      "source_link": "../chapters/13-roof-assemblies/index.md#low-slope-roofs",
+      "explanation_word_count": 62
+    },
+    {
+      "id": "13-q004",
+      "number": 4,
+      "question_text": "Why do codes commonly require a secondary overflow drain on a low-slope roof with a parapet?",
+      "options": {
+        "A": "The primary drains are too small for any rainfall, so the secondary drain handles all normal storms alone",
+        "B": "If primary drains clog, ponding adds load, the deck deflects, and the dip holds more water, risking collapse",
+        "C": "Standing water on the roof improves insulation, so the overflow limits how much benefit it provides in winter",
+        "D": "Parapets prevent water from leaving the roof, so the overflow replaces the primary drains during the winter"
+      },
+      "correct_answer": "B",
+      "explanation": "Water weighs about 5.2 psf per inch of depth, so 2 in. of ponding adds about 10.4 psf, roughly 94,000 lb over a 9,000 ft\u00b2 roof. A secondary drain or scupper set slightly higher acts as the safety valve. Structural engineers also check roofs for rain load. The overflow is a backup, not the normal path, and standing water offers no useful insulation.",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Roof Drainage",
+      "source_link": "../chapters/13-roof-assemblies/index.md#roof-drainage",
+      "explanation_word_count": 63
+    },
+    {
+      "id": "13-q005",
+      "number": 5,
+      "question_text": "A roof sits over a restaurant kitchen and is exposed to grease and chemicals. Which membrane family fits best, and why?",
+      "options": {
+        "A": "EPDM, which is a rubber sheet that dissolves in contact with grease",
+        "B": "Built-up roofing, which is held down by stone ballast that absorbs grease",
+        "C": "PVC, which is heat-welded and offers good chemical resistance",
+        "D": "Modified bitumen, which is applied only by mechanical fasteners and cannot resist chemicals"
+      },
+      "correct_answer": "C",
+      "explanation": "A roofing membrane is a continuous, flexible, waterproof sheet or built-up layer that forms the weathering surface of a low-slope roof. EPDM is synthetic rubber with taped seams, TPO is a heat-welded single ply, PVC is heat-welded with chemical resistance, modified bitumen is polymer-reinforced asphalt, and BUR alternates felts and hot bitumen. Most failures occur at seams, penetrations, and edges.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Roofing Membranes",
+      "source_link": "../chapters/13-roof-assemblies/index.md#roofing-membranes",
+      "explanation_word_count": 60
+    },
+    {
+      "id": "13-q006",
+      "number": 6,
+      "question_text": "An attic has 1,500 ft\u00b2 of floor area, a ceiling vapor retarder, and vents split between high and low. At the 1:300 ratio, what total net free vent area is required?",
+      "options": {
+        "A": "720 in\u00b2",
+        "B": "360 in\u00b2",
+        "C": "5 in\u00b2",
+        "D": "1,440 in\u00b2"
+      },
+      "correct_answer": "A",
+      "explanation": "At 1:300, the net free area is 1,500 / 300 = 5 ft\u00b2, which is 5 \u00d7 144 = 720 in\u00b2, split about half at the soffit and half at the ridge. The value 360 in\u00b2 is only the soffit half, 5 forgets the unit conversion, and 1,440 uses the 1:150 ratio, which applies when the conditions for the lower ratio are not met. Baffles keep an air path open above the insulation.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Attic Ventilation",
+      "source_link": "../chapters/13-roof-assemblies/index.md#attic-ventilation",
+      "explanation_word_count": 73
+    },
+    {
+      "id": "13-q007",
+      "number": 7,
+      "question_text": "Which statement about shingles is correct?",
+      "options": {
+        "A": "They form a continuous waterproof surface, so the underlayment beneath them is optional on any roof slope",
+        "B": "They are laid from the ridge downward so each course sheds water over the joint above it on the roof",
+        "C": "They are made of metal panels that run from ridge to eave and are held by concealed clips on the deck",
+        "D": "They shed water over overlapping courses and rely on underlayment and flashing, and most leaks start at flashing"
+      },
+      "correct_answer": "D",
+      "explanation": "Shingles are small overlapping units laid in courses from the eave upward. Asphalt shingles are a fiberglass mat saturated with asphalt and topped with mineral granules, and they commonly last about 20 to 30 years. A cold-climate system includes a drip edge, self-adhering underlayment at the eaves, underlayment over the deck, and flashing at valleys, chimneys, walls, and penetrations.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Shingles",
+      "source_link": "../chapters/13-roof-assemblies/index.md#shingles",
+      "explanation_word_count": 59
+    },
+    {
+      "id": "13-q008",
+      "number": 8,
+      "question_text": "Why must metal roof panels be free to slide on their clips, and why do designers add snow guards?",
+      "options": {
+        "A": "Metal absorbs moisture and swells, and snow guards keep the panels from corroding when snow melts",
+        "B": "Metal expands and contracts with temperature, and snow can slide off a smooth roof suddenly above walkways",
+        "C": "Metal conducts lightning strikes, and snow guards ground the roof to protect the occupants below",
+        "D": "Metal is soft and bends under load, and snow guards support the panels against the weight of snow"
+      },
+      "correct_answer": "B",
+      "explanation": "A 20 ft steel panel with a 100\u00b0F swing changes length by about 0.16 in., and aluminum by about twice as much. Standing seam systems use concealed clips that let panels move and avoid fasteners that loosen and leak, while exposed-fastener panels use screws with sealing washers. Metal roofs commonly last 40 years or more and shed snow readily, which is why snow guards are used.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Metal Roofing",
+      "source_link": "../chapters/13-roof-assemblies/index.md#metal-roofing",
+      "explanation_word_count": 66
+    },
+    {
+      "id": "13-q009",
+      "number": 9,
+      "question_text": "Why do air sealing and insulation come before ventilation and heating cables when preventing ice dams?",
+      "options": {
+        "A": "Ice dams are caused by cold air entering the attic, so ventilation addresses the cause only last",
+        "B": "Ice dams are caused by shingles that are too thin, so extra insulation thickens the roof covering",
+        "C": "Ice dams are caused by heat escaping from the house, so remedies must first stop the heat source",
+        "D": "Ice dams are caused by rain falling on the eave, so the ice barrier should be installed first"
+      },
+      "correct_answer": "C",
+      "explanation": "Heat warms the deck above freezing, snow melts from beneath, and the meltwater refreezes at the cold overhanging eave and builds a dam that backs water up under the shingles. Ventilation only dilutes heat that has already escaped. A self-adhering ice-and-water barrier is a backup that protects the interior but does not stop the dam, and heating cables do nothing about the heat loss.",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Ice Dams",
+      "source_link": "../chapters/13-roof-assemblies/index.md#ice-dams",
+      "explanation_word_count": 64
+    },
+    {
+      "id": "13-q010",
+      "number": 10,
+      "question_text": "What distinguishes an extensive green roof from an intensive one?",
+      "options": {
+        "A": "An extensive roof replaces the waterproofing membrane, while an intensive roof sits above the membrane",
+        "B": "An extensive roof uses a thin growing medium of 3 to 6 in. with hardy plants, while an intensive roof uses deeper soil",
+        "C": "An extensive roof supports small trees and walkable gardens, while an intensive roof supports only hardy sedums",
+        "D": "An extensive roof needs constant irrigation and weighs more, while an intensive roof needs none and is lighter"
+      },
+      "correct_answer": "B",
+      "explanation": "A green roof is a roof assembly topped with vegetation in a lightweight growing medium, with filter fabric, a drainage layer, a root barrier, the waterproofing membrane, insulation, and the deck beneath. The green layer sits above the membrane and protects it. A 4 in. medium at 90 pcf adds about 30 psf, so the structure must be designed for it from the start.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Green Roofs",
+      "source_link": "../chapters/13-roof-assemblies/index.md#green-roofs",
+      "explanation_word_count": 64
+    }
+  ],
+  "answer_distribution": {
+    "A": 2,
+    "B": 3,
+    "C": 3,
+    "D": 2
+  },
+  "bloom_distribution": {
+    "Remember": 2,
+    "Understand": 3,
+    "Apply": 3,
+    "Analyze": 2,
+    "Evaluate": 0,
+    "Create": 0
+  },
+  "concept_coverage": {
+    "total_concepts": 10,
+    "tested_concepts": 10,
+    "coverage_percentage": 100
+  },
+  "content_readiness_score": 90,
+  "overall_quality_score": 92
+}

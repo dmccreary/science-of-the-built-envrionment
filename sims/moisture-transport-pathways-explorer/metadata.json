@@ -1,0 +1,61 @@
+{
+  "title": "Moisture Pathways in a Wall",
+  "description": "Students will classify (Bloom Level 2, Understand) each way that moisture enters a wall as bulk water, capillary action, air movement, or vapor diffusion, and will match (Bloom Level 2, Understand) each pathway to its control.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "moisture-transport-pathways-explorer",
+  "library": "p5.js",
+  "bloomLevel": "Understand",
+  "bloomVerb": "classify, match",
+  "completion_status": "built",
+  "chapter_number": 4,
+  "chapter_title": "Moisture, Air Movement, and Thermal Comfort",
+  "chapter_dir": "04-moisture-air-comfort",
+  "chapter_rel_dir": "chapters/04-moisture-air-comfort",
+  "canvasHeight": 580,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Understand"
+    ],
+    "concepts": [
+      "Bulk water flow",
+      "Capillary action",
+      "Air movement",
+      "Vapor diffusion",
+      "Air barrier and vapor retarder"
+    ],
+    "prerequisites": [
+      "Parts of a wall assembly",
+      "States of water"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Classify each way that moisture enters a wall as bulk water, capillary action, air movement, or vapor diffusion, and match each pathway to its control.",
+    "recommendedUsage": [
+      "Click any arrow in the wall drawing, or press one of the four pathway buttons, to open the info panel with the pathway's driver, an example, and its control.",
+      "Press a pathway button to switch its arrows on or off. A struck-through label means the pathway is hidden.",
+      "Check Show controls to overlay the matching control in the pathway's color: head flashing, a capillary break, an air barrier, and a vapor retarder.",
+      "Hover over the drawing to see the name of each layer: siding, sheathing, the insulated stud cavity, gypsum board, the window, the foundation, and the soil.",
+      "Press Quiz me to hide the labels and highlight one arrow. Press the pathway button you think matches it, and press Next arrow for another."
+    ],
+    "activities": [
+      "Warm-up (5 min): Students list how they think water gets into a wall, then compare their list with the four pathways.",
+      "Explore (10 min): Students click each arrow, write the driver and the control in a four-row table, and then check Show controls to confirm the controls.",
+      "Practice (10 min): Students use Quiz me until they answer five arrows in a row correctly on the first try, then explain which two pathways they confused most."
+    ],
+    "assessment": [
+      "Students explain why a wall that blocks bulk water and diffusion can still be damaged by air movement.",
+      "Students name the driver of each of the four pathways without looking at the info panel."
+    ]
+  }
+}

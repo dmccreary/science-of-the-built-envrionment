@@ -1,0 +1,135 @@
+{
+  "title": "The Perfect Wall: Four Control Layers",
+  "orientation": "landscape",
+  "image": "the-perfect-wall.png",
+  "layout": "top-bottom",
+  "showNumbers": true,
+  "callouts": [
+    {
+      "id": 1,
+      "label": "Outdoors: Rain, Wind, and Sun",
+      "panel": "top",
+      "x": 7.0,
+      "y": 24.0,
+      "radius": 4,
+      "color": "#E67E22",
+      "hint": "Find the weather scene on the far left with slanting raindrops, a snowflake, and a low sun.",
+      "description": "Most of what threatens a wall arrives from the outside: wind-driven rain, snow, heat, and moving air. Lstiburek's advice is to keep the outside out, which is why the best place for the control layers is on the outside of the structure, before the weather reaches it."
+    },
+    {
+      "id": 2,
+      "label": "Cladding",
+      "panel": "top",
+      "x": 17.0,
+      "y": 30.0,
+      "radius": 4,
+      "color": "#8E5A3C",
+      "hint": "Find the outermost slab, made of overlapping horizontal boards.",
+      "description": "Siding, brick, or panels are the first line of defense and shed most of the rain. Cladding is not watertight by itself: wind-driven rain gets behind it, so the layers behind must finish the job.",
+      "tip": "Think of cladding as an umbrella, not a raincoat."
+    },
+    {
+      "id": 3,
+      "label": "Water Control Layer",
+      "panel": "top",
+      "x": 33.0,
+      "y": 28.0,
+      "radius": 4,
+      "color": "#2E86DE",
+      "hint": "Find the thin blue sheet whose edges overlap like roof shingles, with a small flashing at the window opening.",
+      "description": "This layer stops liquid water that gets past the cladding and drains it back out. It is lapped shingle-fashion so water always runs outward, and it is flashed at windows and doors. In Lstiburek's ranking, rain control is the most important of the four layers.",
+      "tip": "If the rain is not controlled, nothing else you do to the wall will matter."
+    },
+    {
+      "id": 4,
+      "label": "Vapor Control Layer",
+      "panel": "top",
+      "x": 49.0,
+      "y": 30.0,
+      "radius": 4,
+      "color": "#F1C40F",
+      "hint": "Find the thin yellow sheet with tiny dots passing slowly through a small part of it.",
+      "description": "This layer slows water vapor from diffusing through the wall. How much vapor control you want depends on climate and on how the rest of the assembly dries. In a cold climate like Minnesota's, indoor vapor is driven outward in winter, so the vapor control layer matters.",
+      "tip": "Vapor diffusion moves far less moisture than air leakage does. Fix the air layer first."
+    },
+    {
+      "id": 5,
+      "label": "Structure",
+      "panel": "top",
+      "x": 68.0,
+      "y": 28.0,
+      "radius": 4,
+      "color": "#8B5A2B",
+      "hint": "Find the slab of upright wooden studs with sheathing on the outer face.",
+      "description": "Studs, sheathing, and framing carry the loads. Putting the control layers outside the structure keeps it warm and dry, which protects it from rot, corrosion, and condensation. A protected structure is what lasts."
+    },
+    {
+      "id": 6,
+      "label": "Priority Ladder",
+      "panel": "top",
+      "x": 91.0,
+      "y": 30.0,
+      "radius": 4,
+      "color": "#27AE60",
+      "hint": "Find the four-rung ladder on the right with a blue, green, yellow, and red rung from bottom to top.",
+      "description": "Lstiburek ranks the layers by importance: rain control first, then air control, then vapor control, then thermal control. The ranking cascades: if you cannot keep the rain out, do not waste time on the air layer, and if you cannot keep air out, do not waste time on vapor.",
+      "tip": "Rain, air, vapor, heat. Say it in that order and you will rarely get priorities wrong."
+    },
+    {
+      "id": 7,
+      "label": "Drainage Space",
+      "panel": "bottom",
+      "x": 25.0,
+      "y": 62.0,
+      "radius": 4,
+      "color": "#5DADE2",
+      "hint": "Find the narrow empty gap between the cladding and the first blue sheet, with a droplet running down it.",
+      "description": "A gap behind the cladding lets water that gets in drain down and out, and lets the cladding dry. Open vents at the top and bottom let air move through the gap. It also breaks the path that liquid water would otherwise use to wick inward."
+    },
+    {
+      "id": 8,
+      "label": "Air Control Layer",
+      "panel": "bottom",
+      "x": 41.0,
+      "y": 64.0,
+      "radius": 4,
+      "color": "#1ABC9C",
+      "hint": "Find the thin green sheet with taped seams and a sealed pipe passing through it.",
+      "description": "This layer stops air from leaking through the wall. Moving air carries both heat and large amounts of moisture, so a continuous, sealed air layer protects the wall and cuts energy loss. Joints, corners, and penetrations are where it usually fails, and a blower-door test checks it (Chapter 12).",
+      "tip": "Air leaks at the details, not in the middle of the sheet."
+    },
+    {
+      "id": 9,
+      "label": "Layers That Combine",
+      "panel": "bottom",
+      "x": 50.0,
+      "y": 86.0,
+      "radius": 4,
+      "color": "#8E44AD",
+      "hint": "Find the small inset at the bottom where one purple coating is shown doing the jobs of several colored sheets.",
+      "description": "One material can do more than one job. A liquid-applied membrane over sheathing can be the water, air, and vapor control layer at once, and closed-cell spray foam can serve all four layers. Combining layers is fine as long as each job is still done and the details are continuous."
+    },
+    {
+      "id": 10,
+      "label": "Thermal Control Layer",
+      "panel": "bottom",
+      "x": 58.0,
+      "y": 63.0,
+      "radius": 4,
+      "color": "#E74C3C",
+      "hint": "Find the thick rose-colored slab of insulation that runs unbroken in front of the studs.",
+      "description": "Insulation slows heat flow. Continuous insulation outside the structure also covers the studs, which reduces thermal bridging, and it keeps the structure warm so condensation is less likely in a cold climate. Thermal control is the last of the four layers in priority, but it is the one most people think of first."
+    },
+    {
+      "id": 11,
+      "label": "Interior Finish",
+      "panel": "bottom",
+      "x": 80.0,
+      "y": 60.0,
+      "radius": 4,
+      "color": "#95A5A6",
+      "hint": "Find the smooth painted board on the right, with a warm living room visible beyond it.",
+      "description": "Drywall and paint finish the inside. With the control layers all outside the structure, interior wiring, outlets, and renovations do not puncture them. The inside stays inside, and the occupants keep their warmth and moisture within a protected building."
+    }
+  ]
+}

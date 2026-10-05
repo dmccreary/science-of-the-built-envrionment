@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Project Team Contracts and Communication Map</title>
+    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <style>
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            color: black;
+            background: white;
+        }
+        #app {
+            width: 100%;
+            height: 100vh;
+            border: 1px solid silver;
+            display: flex;
+            flex-direction: column;
+            background: white;
+        }
+        #titleBar {
+            flex: 0 0 auto;
+            text-align: center;
+            font-size: 22px;
+            padding: 4px 6px 2px 6px;
+            background: aliceblue;
+        }
+        #network {
+            flex: 0 0 370px;
+            height: 370px;
+            min-height: 0;
+            overflow: hidden;
+            background: aliceblue;
+            border-bottom: 1px solid silver;
+        }
+        #controls {
+            flex: 0 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 6px 10px;
+            padding: 6px 8px;
+            font-size: 15px;
+            border-bottom: 1px solid silver;
+        }
+        #controls select { font-size: 15px; padding: 2px 4px; }
+        #controls button { font-size: 15px; padding: 3px 10px; cursor: pointer; }
+        #controls button.active { background: darkorange; border: 1px solid black; font-weight: bold; }
+        #legend {
+            flex: 0 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px 18px;
+            padding: 4px 10px;
+            font-size: 14px;
+            border-bottom: 1px solid silver;
+        }
+        div.vis-tooltip { white-space: normal !important; max-width: 280px; font-size: 14px !important; padding: 6px 8px !important; }
+        .swatch { display: inline-block; width: 34px; vertical-align: middle; margin-right: 6px; }
+        .contract { border-top: 4px solid navy; }
+        .comm { border-top: 3px dashed gray; }
+        #info {
+            flex: 1 1 auto;
+            padding: 6px 12px;
+            line-height: 1.35;
+            overflow: auto;
+        }
+        #info h3 { margin: 0 0 3px 0; font-size: 16px; color: navy; }
+        #info p { margin: 2px 0; }
+        #info ol { margin: 3px 0 3px 0; padding-left: 22px; }
+        #info li { margin: 1px 0; }
+        #info li.now { background: moccasin; font-weight: bold; }
+        #info .note { margin-top: 4px; padding: 3px 8px; border-left: 4px solid navy; background: aliceblue; }
+        @media (max-width: 520px) {
+            #titleBar { font-size: 17px; }
+            #network { flex-basis: 300px; height: 300px; }
+            #controls { font-size: 14px; gap: 5px 6px; }
+            #controls select, #controls button { font-size: 14px; }
+            #controls button { padding: 3px 7px; }
+            #legend { font-size: 13px; gap: 2px 12px; }
+            #info { font-size: 13px; padding: 4px 8px; line-height: 1.3; }
+            #info h3 { font-size: 15px; }
+        }
+    </style>
+    <script src="project-team-communication-map.js"></script>
+</head>
+<body>
+    <div id="app">
+        <div id="titleBar">Project Team Contracts and Communication Map</div>
+        <div id="network" role="img" aria-label="Network of project participants: Owner, Architect, Engineers, General Contractor, Subcontractors, and Building Official, joined by contract lines and communication lines"></div>
+        <div id="controls">
+            <label for="method">Delivery method:</label>
+            <select id="method">
+                <option value="dbb">Design-bid-build</option>
+                <option value="db">Design-build</option>
+                <option value="cmar">Construction manager at risk</option>
+            </select>
+            <button id="btnSubmittal">Submittal</button>
+            <button id="btnRfi">RFI</button>
+            <button id="btnChange">Change order</button>
+        </div>
+        <div id="legend">
+            <span><span class="swatch contract"></span>Contract (solid, dark blue)</span>
+            <span><span class="swatch comm"></span>Communication, no contract (dashed, gray)</span>
+        </div>
+        <div id="info" aria-live="polite"></div>
+    </div>
+</body>
+</html>

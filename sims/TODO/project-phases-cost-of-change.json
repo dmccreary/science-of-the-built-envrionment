@@ -1,0 +1,15 @@
+{
+  "sim_id": "project-phases-cost-of-change",
+  "diagram_name": "Project Phases and the Cost of Change",
+  "chapter_number": 2,
+  "chapter_title": "The Design and Construction Process",
+  "chapter_dir": "02-design-construction-process",
+  "chapter_rel_dir": "chapters/02-design-construction-process",
+  "library": "Chart.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will explain (Bloom Level 2, Understand) why decisions are cheaper to change in early phases and will identify (Bloom Level 1, Remember) the deliverable and the electrical designer's contribution for each of the eight phases.",
+  "completion_status": "specified",
+  "extracted_date": "2026-10-03",
+  "specification": "Type: chart\n**sim-id:** project-phases-cost-of-change<br/>\n**Library:** Chart.js<br/>\n**Status:** Specified\n\nLearning objective: Students will explain (Bloom Level 2, Understand) why decisions are cheaper to change in early phases and will identify (Bloom Level 1, Remember) the deliverable and the electrical designer's contribution for each of the eight phases.\n\nVisual: A line chart whose horizontal axis lists the eight project phases in order. Two lines are drawn: \"Ability to influence the design\" (falling from left to right) and \"Cost of making a change\" (rising from left to right). The vertical axis is labeled \"Relative level\" with no numeric scale, since the curves are conceptual. The chart is responsive to the container width, with a height of 420 px, and redraws on window resize.\n\nInteractions: Hovering over a phase shows a tooltip with the phase's main question. Clicking a phase opens an infobox below the chart with the principal deliverable, the owner's approval gate, and the electrical designer's contribution, matching the phase table above. A toggle labeled \"Early collaboration\" shifts the two lines to show how integrated delivery moves key decisions earlier, with a one-sentence explanation in the infobox. A slider labeled \"Move the wall\" places a marker at any phase and displays the description of what the change would involve at that point, based on the Riverbend wall example.\n\nColors: The influence line is green and the cost line is orange. Both lines are also distinguished by dash style so they remain readable without color.\n\nImplementation: Chart.js line chart with custom tooltip callbacks, click handlers on the phase labels, and a small infobox div."
+}

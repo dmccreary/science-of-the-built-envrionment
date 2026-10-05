@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Psychrometric Chart Explorer</title>
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js"></script>
+    <style>
+        body { margin: 0; padding: 0; background: aliceblue; font-family: Arial, Helvetica, sans-serif; color: black; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 5px; box-sizing: border-box; }
+        h1 { margin: 4px 0 4px 0; font-size: 24px; text-align: center; font-weight: normal; }
+        #plot { width: 100%; height: 400px; background: white; border: 1px solid silver; border-radius: 6px; box-sizing: border-box; touch-action: pan-y; }
+        #readout { margin-top: 6px; padding: 6px 10px; background: white; border: 1px solid silver; border-radius: 6px; font-size: 16px; line-height: 1.35; box-sizing: border-box; }
+        #readout .state { font-weight: bold; }
+        #readout .surface { margin-top: 2px; }
+        #readout .note { margin-top: 2px; color: navy; font-size: 15px; }
+        .cond-yes { color: crimson; font-weight: bold; }
+        .cond-no { color: steelblue; font-weight: bold; }
+        .controls { margin-top: 6px; padding: 6px 10px; background: white; border: 1px solid silver; border-radius: 6px; display: grid; grid-template-columns: 1fr 1fr; gap: 6px 20px; font-size: 16px; box-sizing: border-box; }
+        .controls label { display: block; }
+        .controls input[type=range] { width: 100%; margin: 2px 0 0 0; }
+        .controls b { color: navy; }
+        .btnrow { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+        .btnrow button { font-size: 16px; padding: 3px 10px; }
+        .btnrow label { display: inline; }
+        @media (max-width: 600px) {
+            .controls { grid-template-columns: 1fr; }
+            #plot { height: 300px; }
+            h1 { font-size: 20px; }
+            #readout { font-size: 15px; }
+            #readout .note { font-size: 14px; }
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <h1>Psychrometric Chart Explorer</h1>
+        <div id="plot" role="img" aria-label="Psychrometric chart: humidity ratio against dry-bulb temperature, with curves of constant relative humidity and a draggable orange state point."></div>
+        <div id="readout" aria-live="polite"></div>
+        <div class="controls">
+            <label for="temp">Air temperature: <b id="tempVal">70</b> °F
+                <input type="range" id="temp" min="-20" max="100" step="1" value="70"></label>
+            <label for="rh">Relative humidity: <b id="rhVal">30</b> %
+                <input type="range" id="rh" min="1" max="100" step="1" value="30"></label>
+            <div class="btnrow">
+                <button id="warm">Warm 20°F</button>
+                <button id="cool">Cool 20°F</button>
+                <label><input type="checkbox" id="surfOn"> Wall surface test</label>
+            </div>
+            <label for="surf">Surface temperature: <b id="surfVal">30</b> °F
+                <input type="range" id="surf" min="-20" max="70" step="1" value="30" disabled></label>
+        </div>
+    </main>
+    <script src="psychrometric-chart-explorer.js"></script>
+</body>
+</html>

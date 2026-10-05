@@ -1,0 +1,61 @@
+{
+  "title": "Glulam Char Section Explorer",
+  "description": "Students will calculate (Bloom Level 3, Apply) the remaining section and section modulus of a timber beam after a given fire exposure and will explain (Bloom Level 2, Understand) why larger timber members resist fire better than small ones.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "glulam-char-section-explorer",
+  "library": "p5.js",
+  "bloomLevel": "Apply, Understand",
+  "bloomVerb": "calculate, explain",
+  "completion_status": "built",
+  "chapter_number": 18,
+  "chapter_title": "Fire Protection and Life Safety Requirements",
+  "chapter_dir": "18-fire-life-safety",
+  "chapter_rel_dir": "chapters/18-fire-life-safety",
+  "canvasHeight": 540,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Apply",
+      "Understand"
+    ],
+    "concepts": [
+      "Charring rate",
+      "Fire-resistance rating of timber",
+      "Section modulus S = bd\u00b2/6",
+      "Effective remaining section",
+      "Size effect in fire"
+    ],
+    "prerequisites": [
+      "Chapter 5 material behavior in fire",
+      "Chapter 7 wood framing and glulam"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Calculate the remaining section and section modulus of a timber beam after a given fire exposure, and explain why larger timber members resist fire better than small ones.",
+    "recommendedUsage": [
+      "Start with the Riverbend beam (8.75 in by 24 in), 60 minutes of fire, and a charring rate of 1.5 in per hour. The dashed gray outline is the original section, the dark layer is char, and the tan rectangle is the wood that still carries load.",
+      "Read the readout: char depth is the rate times the hours, the remaining width loses the char on both sides, and the remaining depth loses it on the bottom. For the Riverbend beam this gives 5.75 in by 22.5 in, a section modulus of about 485 in\u00b3, and about 58 percent of the original capacity.",
+      "Move the sliders for exposure time, width, depth, and charring rate. Switch the exposed faces from three sides (beam, top protected by the floor deck) to four sides (column). Hover over the dark layer to read its thickness.",
+      "Press Compare with a 3.125 in by 12 in member to draw a small member at the same scale. Increase the exposure time and watch how quickly it is consumed, and note the warning that appears when the remaining width falls below 2 in."
+    ],
+    "activities": [
+      "Verify (5 min): Students reproduce the Chapter 18 example by hand (S = 840 in\u00b3 before, about 485 in\u00b3 after one hour) and compare with the readout.",
+      "Explore (10 min): Students find how many minutes of exposure a 8.75 in by 24 in beam survives before the remaining width drops below 2 in, at charring rates of 1.0, 1.5, and 2.0 in per hour.",
+      "Explain (10 min): Students turn on the comparison with the small member and write a short explanation of why the same char depth removes a much larger share of the small member's capacity."
+    ],
+    "assessment": [
+      "Students calculate the remaining section modulus of a 6.75 in by 18 in beam after 45 minutes at 1.5 in per hour on three sides, showing each step.",
+      "Students explain in two sentences why a deeper and wider beam keeps a larger fraction of its capacity than a small beam after the same fire."
+    ]
+  }
+}

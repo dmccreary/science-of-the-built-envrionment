@@ -1,0 +1,15 @@
+{
+  "sim_id": "force-vector-resolver",
+  "diagram_name": "Force Vector Resolver",
+  "chapter_number": 3,
+  "chapter_title": "Forces, Heat, and the Physics of Buildings",
+  "chapter_dir": "03-forces-heat-physics",
+  "chapter_rel_dir": "chapters/03-forces-heat-physics",
+  "library": "p5.js",
+  "bloom_level": null,
+  "bloom_verb": null,
+  "learning_objective": "Students will calculate (Bloom Level 3, Apply) the horizontal and vertical components of an inclined force and will explain (Bloom Level 2, Understand) why the two components together have the same effect as the original force.",
+  "completion_status": "specified",
+  "extracted_date": "2026-10-03",
+  "specification": "Type: microsim\n**sim-id:** force-vector-resolver<br/>\n**Library:** p5.js<br/>\n**Status:** Specified\n\nLearning objective: Students will calculate (Bloom Level 3, Apply) the horizontal and vertical components of an inclined force and will explain (Bloom Level 2, Understand) why the two components together have the same effect as the original force.\n\nVisual: A canvas showing a labeled node at the center and a bold arrow representing a force. Dashed horizontal and vertical arrows form a right triangle that shows the components. A live readout panel displays the magnitude, the angle, and the two components in both pounds and newtons. The canvas width follows the container, the height is 420 px, and the sketch redraws on window resize.\n\nControls: A slider labeled \"Force (lb)\" from 0 to 10,000 with a default of 5,000. A slider labeled \"Angle (degrees)\" from 0 to 90 with a default of 45. The student can also drag the arrow tip directly, and the sliders update to match. A checkbox labeled \"Show equations\" displays the substituted values for \\( F\\cos\\theta \\) and \\( F\\sin\\theta \\). A button labeled \"Riverbend roof\" loads a preset that draws the 168-kip roof load as a downward vector.\n\nInteractions: Hovering over any arrow shows a tooltip with its name and value. A \"Predict first\" mode asks the student to type the horizontal component, and the sketch then shows whether the answer is correct and displays the calculation. A message states when the angle is 0 (all force horizontal) or 90 (all force vertical).\n\nColors: The force is dark orange, the horizontal component is blue, and the vertical component is green. Arrow labels use text as well as color.\n\nImplementation: p5.js with a responsive canvas, built-in slider and checkbox controls, and a small infobox div."
+}

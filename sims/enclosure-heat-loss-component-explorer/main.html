@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Enclosure Heat Loss Component Explorer</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <style>
+        * { box-sizing: border-box; }
+        body { margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: black; background: white; }
+        main { width: 100%; border: 1px solid silver; background: white; }
+        #chartWrap { position: relative; height: 300px; background: aliceblue; border-bottom: 1px solid silver; padding: 4px 6px 2px 6px; }
+        #readout { padding: 6px 10px; border-bottom: 1px solid silver; font-size: 15px; line-height: 1.4; }
+        #readout .big { font-size: 20px; font-weight: bold; color: navy; }
+        #readout .note { color: dimgray; font-size: 14px; }
+        #controls { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 4px 20px; padding: 8px 10px 4px 10px; }
+        .ctl { display: flex; align-items: center; gap: 8px; }
+        .ctl span { flex: 0 0 168px; font-size: 15px; }
+        .ctl input[type=range] { flex: 1 1 auto; min-width: 90px; margin: 0; }
+        #buttons { display: flex; flex-wrap: wrap; gap: 8px; padding: 4px 10px 8px 10px; }
+        #buttons button { font-size: 15px; padding: 4px 10px; }
+        #rank { margin: 0 10px 8px 10px; padding: 6px 10px; border: 1px solid silver; border-radius: 8px; background: white; min-height: 120px; font-size: 14px; line-height: 1.35; }
+        #rank h3 { margin: 0 0 4px 0; font-size: 16px; color: navy; }
+        .rrow { display: flex; align-items: center; gap: 8px; margin: 2px 0; }
+        .rrow .nm { flex: 0 0 150px; }
+        .rrow .bar { height: 14px; background: seagreen; border-radius: 3px; min-width: 2px; }
+        .rrow .val { white-space: nowrap; }
+        #rank .why { margin-top: 4px; padding: 3px 8px; border-left: 4px solid goldenrod; background: floralwhite; }
+        @media (min-width: 640px) { #chartWrap { height: 400px; } }
+        @media (max-width: 520px) {
+            .ctl span { flex-basis: 158px; font-size: 14px; }
+            .rrow .nm { flex-basis: 138px; }
+            #readout .big { font-size: 18px; }
+        }
+    </style>
+    <script src="enclosure-heat-loss-component-explorer.js"></script>
+</head>
+<body>
+    <main>
+        <div id="chartWrap"><canvas id="lossChart" role="img" aria-label="Two stacked horizontal bars: the share of enclosure area and the heat loss in BTU per hour for the roof, the walls, and the windows"></canvas></div>
+        <div id="readout" aria-live="polite"></div>
+        <div id="controls">
+            <label class="ctl"><span id="lblWin"></span><input type="range" id="winArea" min="0" max="1400" step="2" value="702" aria-label="Window area in square feet"></label>
+            <label class="ctl"><span id="lblRoof"></span><input type="range" id="roofR" min="20" max="60" step="1" value="40" aria-label="Roof R-value"></label>
+            <label class="ctl"><span id="lblWall"></span><input type="range" id="wallR" min="10" max="40" step="0.1" value="27.7" aria-label="Wall effective R-value"></label>
+            <label class="ctl"><span id="lblWinU"></span><input type="range" id="winU" min="0.15" max="0.60" step="0.01" value="0.30" aria-label="Window U-value"></label>
+            <label class="ctl"><span id="lblTemp"></span><input type="range" id="outT" min="-20" max="40" step="1" value="-10" aria-label="Outdoor temperature in degrees Fahrenheit"></label>
+        </div>
+        <div id="buttons">
+            <button id="btnReset" type="button">Riverbend defaults</button>
+            <button id="btnRank" type="button">Which change helps most?</button>
+        </div>
+        <div id="rank" aria-live="polite"></div>
+    </main>
+</body>
+</html>

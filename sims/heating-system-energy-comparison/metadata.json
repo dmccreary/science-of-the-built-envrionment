@@ -1,0 +1,61 @@
+{
+  "title": "Heating System Energy Comparison",
+  "description": "Students will compare (Bloom Level 4, Analyze) the energy input needed by an 80 percent furnace, a 95 percent furnace, electric resistance, and a heat pump to deliver the same heat, and will explain (Bloom Level 2, Understand) why heat pump COP changes with outdoor temperature.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "heating-system-energy-comparison",
+  "library": "Chart.js",
+  "bloomLevel": "Analyze, Understand",
+  "bloomVerb": "compare, explain",
+  "completion_status": "built",
+  "chapter_number": 14,
+  "chapter_title": "HVAC, Plumbing, and Fire Protection Systems",
+  "chapter_dir": "14-hvac-plumbing-fire",
+  "chapter_rel_dir": "chapters/14-hvac-plumbing-fire",
+  "canvasHeight": 740,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Analyze",
+      "Understand"
+    ],
+    "concepts": [
+      "AFUE",
+      "Coefficient of performance",
+      "Furnace efficiency",
+      "Heat pump",
+      "Electric resistance heating"
+    ],
+    "prerequisites": [
+      "Chapter 3 heat transfer basics",
+      "Unit conversion between Btu/h and kW"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Compare the input energy of four heating systems that deliver the same heat, and explain why heat pump COP falls as the outdoor temperature falls.",
+    "recommendedUsage": [
+      "Set the heat output slider to 80,000 Btu/h and the outdoor temperature to 17 degrees F with the cold-climate heat pump, which reproduces the Chapter 14 worked example of 23.4 kW of heat. The dashed line on the bar chart marks the heat delivered.",
+      "Compare the four bars. Furnace bars extend past the dashed line because some fuel energy is lost; the resistance bar ends on it; the heat pump bar ends well short of it.",
+      "Drag the outdoor temperature slider and watch the diamond marker move along the COP curve and the heat pump bar grow as the COP falls. Switch between the standard and cold-climate heat pump types.",
+      "Hover over a bar for its input in kW and Btu/h, the efficiency used, and a one-sentence explanation of how that system makes heat. Read the status line for the comparison with the 95 percent furnace."
+    ],
+    "activities": [
+      "Predict (5 min): Before moving any slider, students rank the four bars from least to most input energy at 80,000 Btu/h, then check against the chart.",
+      "Reproduce (10 min): Students match the Chapter 14 values of 100,000 Btu/h (80 percent furnace), about 84,200 Btu/h (95 percent furnace), 23.4 kW (resistance), and 7.8 kW (heat pump at COP 3).",
+      "Analyze (10 min): Students find the outdoor temperature at which each heat pump type reaches COP 2, and explain why the standard and cold-climate curves differ."
+    ],
+    "assessment": [
+      "Students calculate the heat pump input for 120,000 Btu/h at COP 2.5 by hand and check it against the simulation.",
+      "Students explain in two sentences why a heat pump can deliver more heat than the electricity it uses without breaking conservation of energy."
+    ]
+  }
+}

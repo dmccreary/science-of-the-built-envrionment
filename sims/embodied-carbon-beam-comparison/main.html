@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Embodied Carbon Beam Comparison</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <style>
+        * { box-sizing: border-box; }
+        html, body { height: 100%; }
+        body { margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: black; background: white; }
+        main { height: 100%; display: flex; flex-direction: column; border: 1px solid silver; background: white; }
+        h2 { margin: 0; padding: 4px 8px 2px 8px; font-size: 20px; text-align: center; background: aliceblue; }
+        #chartWrap { flex: 1 1 auto; min-height: 0; position: relative; background: aliceblue; padding: 2px 6px; }
+        #key { background: aliceblue; padding: 0 10px 3px; font-size: 13px; color: #333; border-bottom: 1px solid silver; }
+        #banner { padding: 5px 10px; font-size: 15px; line-height: 1.35; border-bottom: 1px solid silver; }
+        #banner b { color: navy; font-size: 16px; }
+        #controls { padding: 5px 10px 0; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2px 20px; }
+        .ctl { display: flex; align-items: center; gap: 8px; }
+        .ctl span { flex: 0 0 190px; font-size: 14px; white-space: nowrap; }
+        .ctl input[type=range] { flex: 1 1 auto; min-width: 70px; margin: 0; }
+        .note { font-size: 13px; color: dimgray; margin: 2px 0; line-height: 1.3; }
+        .btns { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; margin: 4px 0; }
+        .btns button { font-size: 14px; padding: 2px 10px; cursor: pointer; }
+        .btns label { display: flex; align-items: center; gap: 4px; font-size: 14px; }
+        table { border-collapse: collapse; width: 100%; font-size: 14px; margin: 2px 0 4px; }
+        th, td { border: 1px solid silver; padding: 1px 5px; text-align: right; }
+        th { background: aliceblue; }
+        td:first-child, th:first-child { text-align: left; }
+        tr.low td { background: lightyellow; font-weight: bold; }
+        @media (max-width: 560px) {
+            #banner { font-size: 14px; }
+            #banner b { font-size: 15px; }
+            .ctl span { flex: 0 0 150px; font-size: 13px; }
+            table, .btns button, .btns label { font-size: 13px; }
+            th, td { padding: 1px 3px; }
+        }
+    </style>
+    <script src="embodied-carbon-beam-comparison.js" defer></script>
+</head>
+<body>
+    <main>
+        <h2>Embodied Carbon Beam Comparison</h2>
+        <div id="chartWrap"><canvas id="beamChart" role="img" aria-label="Grouped bar chart comparing steel, glued-laminated, and reinforced concrete beams for the same span. Pale bars show mass in kilograms and solid bars show embodied carbon in kilograms of carbon dioxide equivalent. A green negative bar shows stored biogenic carbon in the wood when that option is checked."></canvas></div>
+        <div id="key"></div>
+        <div id="banner" aria-live="polite"></div>
+        <div id="controls">
+            <div class="grid">
+                <label class="ctl"><span id="lblN"></span><input type="range" id="nBeams" min="2" max="12" step="1" value="6" aria-label="Number of beams"></label>
+                <label class="ctl"><span id="lblS"></span><input type="range" id="span" min="20" max="60" step="1" value="40" aria-label="Span in feet"></label>
+                <label class="ctl"><span id="lblF0"></span><input type="range" id="f0" aria-label="Steel emission factor, illustrative"></label>
+                <label class="ctl"><span id="lblF1"></span><input type="range" id="f1" aria-label="Glulam emission factor, illustrative"></label>
+                <label class="ctl"><span id="lblF2"></span><input type="range" id="f2" aria-label="Reinforced concrete emission factor, illustrative"></label>
+            </div>
+            <div class="btns">
+                <label><input type="checkbox" id="bioBox"> Count stored biogenic carbon in wood</label>
+                <button type="button" id="resetBtn">Reset</button>
+            </div>
+            <div class="note" id="note"></div>
+            <table id="calc" aria-label="Quantity times factor equals emissions"></table>
+        </div>
+    </main>
+</body>
+</html>

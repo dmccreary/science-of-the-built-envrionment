@@ -1,0 +1,60 @@
+{
+  "title": "Heat Transfer Modes in a Winter Wall",
+  "description": "Students will classify (Bloom Level 2, Understand) each step of the heat path through a wall as conduction, convection, or radiation, and will predict (Bloom Level 2, Understand) how the heat flow changes with outdoor temperature and wind.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "heat-transfer-modes-wall-explorer",
+  "library": "p5.js",
+  "bloomLevel": "Understand",
+  "bloomVerb": "classify, predict",
+  "completion_status": "built",
+  "chapter_number": 3,
+  "chapter_title": "Forces, Heat, and the Physics of Buildings",
+  "chapter_dir": "03-forces-heat-physics",
+  "chapter_rel_dir": "chapters/03-forces-heat-physics",
+  "canvasHeight": 540,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Understand"
+    ],
+    "concepts": [
+      "Conduction",
+      "Convection",
+      "Radiation",
+      "Surface films",
+      "Design-day heat flow"
+    ],
+    "prerequisites": [
+      "Heat versus temperature",
+      "Temperature difference as the driver of heat flow"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Classify each step of the heat path through a wall as conduction, convection, or radiation, and predict how the heat flow changes with outdoor temperature and wind.",
+    "recommendedUsage": [
+      "Read the wall from left to right: interior air, interior surface, gypsum board, insulated cavity with an air gap, sheathing, siding, and exterior air. Hover over any zone to see its temperature.",
+      "Click any arrow. The panel names its mechanism, gives its flow in BTU/h per square foot, and explains in a sentence why that mechanism dominates there.",
+      "Lower the outdoor temperature and watch every arrow thicken, then raise the wind and watch the exterior convection arrow thicken while the exterior radiation arrow narrows.",
+      "Check Reflective foil in the air gap and watch the radiation arrow across the gap narrow. Compare the total flow with the design-day flow in the readout."
+    ],
+    "activities": [
+      "Warm-up (5 min): Students label a blank wall section with the mechanism at each step, then check against the sim.",
+      "Explore (10 min): Students predict, then test, the effect of cutting the outdoor temperature from -10\u00b0F to 30\u00b0F, and of raising the wind from 0 to 30 mph. They record the percent of design-day flow.",
+      "Discuss (10 min): Students explain why the total flow barely changes with wind but the share carried by convection does, and why foil matters only in the air gap."
+    ],
+    "assessment": [
+      "Students classify the dominant mechanism for four locations along the heat path and give a one-sentence reason for each.",
+      "Students explain in two sentences why the flow on a 50\u00b0F day is about one quarter of the flow on the -10\u00b0F design day."
+    ]
+  }
+}

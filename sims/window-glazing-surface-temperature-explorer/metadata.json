@@ -1,0 +1,61 @@
+{
+  "title": "Window Performance Explorer",
+  "description": "Students will analyze (Bloom Level 4, Analyze) how glazing type, coating, and gas fill change U-factor, SHGC, and inside surface temperature, and will judge (Bloom Level 5, Evaluate) which window suits a north wall and a south wall in Minneapolis.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "window-glazing-surface-temperature-explorer",
+  "library": "p5.js",
+  "bloomLevel": "Analyze, Evaluate",
+  "bloomVerb": "analyze, judge",
+  "completion_status": "built",
+  "chapter_number": 12,
+  "chapter_title": "Cladding, Windows, Doors, and Air Sealing",
+  "chapter_dir": "12-cladding-windows-air-sealing",
+  "chapter_rel_dir": "chapters/12-cladding-windows-air-sealing",
+  "canvasHeight": 530,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Analyze",
+      "Evaluate"
+    ],
+    "concepts": [
+      "Window U-factor",
+      "Solar heat gain coefficient",
+      "Low-E coatings",
+      "Dew point and condensation",
+      "Glazing and gas fill"
+    ],
+    "prerequisites": [
+      "Chapter 3 U-values and film resistance",
+      "Relative humidity and dew point"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Analyze how glazing, coating, gas fill, and frame change U-factor, SHGC, and inside surface temperature, and judge which window suits a north and a south wall in Minneapolis.",
+    "recommendedUsage": [
+      "Start with the default window: double pane, no coating, air fill, vinyl frame, -10 \u00b0F outdoors, 40 percent indoor relative humidity, north wall. The room is held at 70 \u00b0F, as in the chapter's worked example.",
+      "Change one option at a time (glazing, coating, gas, or frame) and watch the three gauges, the temperature profile, and the thermometer update. Hover over a pane, gap, coating, spacer, frame, gauge, or the thermometer to read its role.",
+      "Slide the outdoor temperature and the indoor relative humidity. The thermometer turns red and a condensation message appears when the inside glass is colder than the dew point of the room air.",
+      "Switch between North and South and read the recommendation line. Try to find the lowest-cost option that suits each wall."
+    ],
+    "activities": [
+      "Warm-up (5 min): Students reproduce the chapter's worked example by setting Window A (double clear, vinyl) and Window B (double low-E surface 3, argon, fiberglass) at -10 \u00b0F and 40 percent humidity, and compare the glass temperatures.",
+      "Explore (10 min): Students raise the humidity until each window starts to condense and record the humidity at which the change happens for three different windows.",
+      "Judge (10 min): Students pick one window for a north wall and one for a south wall, justify each using U-factor and SHGC, and compare their picks with a partner."
+    ],
+    "assessment": [
+      "Students explain in two sentences why a low-E coating on surface 3 is a better choice than surface 2 for a south wall in a heating climate.",
+      "Students explain why the real condensation risk is greater than the thermometer shows, using the cold glass edge."
+    ]
+  }
+}

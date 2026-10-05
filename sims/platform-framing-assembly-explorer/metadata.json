@@ -1,0 +1,61 @@
+{
+  "title": "Platform Framing Assembly Explorer",
+  "description": "Students will identify (Bloom Level 1, Remember) the components of a platform-framed wall and floor, and will explain (Bloom Level 2, Understand) how each component transfers load and how the platform interrupts the paths of fire and carries cumulative shrinkage.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "platform-framing-assembly-explorer",
+  "library": "p5.js",
+  "bloomLevel": "Remember, Understand",
+  "bloomVerb": "identify, explain",
+  "completion_status": "built",
+  "chapter_number": 7,
+  "chapter_title": "Wood and Steel Framing",
+  "chapter_dir": "07-wood-steel-framing",
+  "chapter_rel_dir": "chapters/07-wood-steel-framing",
+  "canvasHeight": 590,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Remember",
+      "Understand"
+    ],
+    "concepts": [
+      "Platform framing",
+      "Balloon framing",
+      "Header, king, and jack studs",
+      "Fire blocking by the platform",
+      "Cumulative shrinkage"
+    ],
+    "prerequisites": [
+      "Wood moisture and shrinkage",
+      "Gravity and lateral load paths (Chapter 6)"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Identify the components of a platform-framed wall and floor, and explain how each transfers load and how the platform interrupts fire and carries cumulative shrinkage.",
+    "recommendedUsage": [
+      "Drag the Assemble slider from 0 percent (exploded) to 100 percent (assembled). Hover over a part to highlight it and see its name, then click it to read its function, typical size, and the load it carries.",
+      "Choose Gravity load path to follow the blue arrow from the roof to the foundation. Move the mouse over the drawing to start the moving dots. Choose Wind load path to see how studs span from floor to floor.",
+      "Choose Fire spread. In platform framing each floor platform stops the open wall cavity. Check Balloon framing to replace the platform with continuous studs and see the open cavity run to the attic.",
+      "Drag the Shrinkage slider from 0 to 3 percent. The red dashed line marks the original top of the wall, and the readout gives the drop in inches for platform and balloon framing. The drop is drawn 10 times larger than real."
+    ],
+    "activities": [
+      "Warm-up (5 min): Students label a blank sketch of a platform-framed wall from memory, then check it against the exploded drawing.",
+      "Explore (10 min): Students click every part, write one sentence on the load each carries, and trace the gravity path from the double top plate down to the foundation wall.",
+      "Compare (10 min): Students switch between platform and balloon framing in the Fire spread overlay and with the shrinkage slider set to 2 percent, and record two advantages and one disadvantage of each."
+    ],
+    "assessment": [
+      "Students explain in two sentences why the floor platform stops fire in the wall cavity.",
+      "Students use the shrinkage slider to find the drop for a platform wall at 2 percent and compare it with the 0.275 in. per floor in Chapter 7."
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "title": "IBC Question Router",
+  "description": "Students will classify (Bloom Level 2, Understand) a design question into the correct group of International Building Code provisions and will apply (Bloom Level 3, Apply) the occupancy-to-exits chain to calculate an occupant load.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "ibc-question-router",
+  "library": "p5.js",
+  "bloomLevel": "Understand, Apply",
+  "bloomVerb": "classify, calculate",
+  "completion_status": "built",
+  "chapter_number": 17,
+  "chapter_title": "Building Codes, Permits, and Enforcement",
+  "chapter_dir": "17-building-codes-permits",
+  "chapter_rel_dir": "chapters/17-building-codes-permits",
+  "canvasHeight": 520,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Understand",
+      "Apply"
+    ],
+    "concepts": [
+      "IBC organization",
+      "Occupancy classification",
+      "Occupant load",
+      "Means of egress"
+    ],
+    "prerequisites": [
+      "Chapter 2 project phases",
+      "Basic division and ratios"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Classify a design question into the correct group of IBC provisions, and apply the occupancy-to-exits chain to calculate an occupant load.",
+    "recommendedUsage": [
+      "In Classify mode, read the design question on the card and click the block where you think the answer starts. Hover over any block to read what it covers.",
+      "A correct block turns green and shows the cross-references that follow. An incorrect block turns orange and shows a hint, and you may try again. The score counts first-try answers only.",
+      "Press Next question to draw another question from the bank of 14.",
+      "Switch to Occupant load mode, set the room area with the slider, and choose 15 or 7 net square feet per person. Watch the occupant load and the likely number of exits change."
+    ],
+    "activities": [
+      "Warm-up (5 min): Students predict, before clicking, which group answers the first five questions, then check their predictions.",
+      "Explore (10 min): Students work through the full question bank and note which groups they confuse, such as fire protection versus egress.",
+      "Apply (10 min): In Occupant load mode, students reproduce the Riverbend multipurpose room example (2,400 ft2 at 15 and at 7 net ft2 per person) and explain why the exit count changes."
+    ],
+    "assessment": [
+      "Students write one new design question for each of three groups and exchange them with a partner.",
+      "Students explain in two sentences why the same room can have two different occupant loads."
+    ]
+  }
+}

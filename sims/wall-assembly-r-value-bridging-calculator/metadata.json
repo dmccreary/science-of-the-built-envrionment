@@ -1,0 +1,62 @@
+{
+  "title": "Wall Assembly R-Value and Thermal Bridging Calculator",
+  "description": "Students will calculate (Bloom Level 3, Apply) the total R-value and U-value of a wall assembly using the series and parallel path methods, and will compare (Bloom Level 4, Analyze) how framing and continuous insulation change the effective R-value.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "wall-assembly-r-value-bridging-calculator",
+  "library": "p5.js",
+  "bloomLevel": "Apply, Analyze",
+  "bloomVerb": "calculate, compare",
+  "completion_status": "built",
+  "chapter_number": 3,
+  "chapter_title": "Forces, Heat, and the Physics of Buildings",
+  "chapter_dir": "03-forces-heat-physics",
+  "chapter_rel_dir": "chapters/03-forces-heat-physics",
+  "canvasHeight": 645,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Apply",
+      "Analyze"
+    ],
+    "concepts": [
+      "Thermal resistance",
+      "R-value and U-value",
+      "Series and parallel paths",
+      "Thermal bridging",
+      "Continuous insulation"
+    ],
+    "prerequisites": [
+      "Conduction and thermal conductivity",
+      "Adding resistances in series"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Calculate the total R-value and U-value of a wall with the series and parallel path methods, and compare how framing and continuous insulation change the effective R-value.",
+    "recommendedUsage": [
+      "Start with the defaults, a 2x4 wood wall with R-13 fiberglass and a 25 percent framing fraction. The bars show a cavity R of 15.4, a stud R of 6.8, and an effective R of 11.7, the values in the Chapter 3 worked example.",
+      "Hover over any layer in the wall section to see its R and its temperature drop. The stud strip at the bottom of the framing layer shows the stud path.",
+      "Change the cavity insulation, the framing, and the framing fraction, and watch the effective R move. Switch the framing to steel to see a much larger drop.",
+      "Raise the continuous insulation slider, which adds XPS outside the sheathing, and watch the effective R recover.",
+      "Check Show temperature profile and change the outdoor temperature to see where each path falls below 32 degrees F."
+    ],
+    "activities": [
+      "Warm-up (5 min): Students reproduce the 15.4, 6.8, and 11.7 values by hand from the layer R-values, then confirm them with the calculator.",
+      "Explore (10 min): Students change one control at a time (framing, framing fraction, continuous insulation) and record the effective R and the percent below the cavity-only value.",
+      "Analyze (10 min): Students find how many inches of XPS bring a 2x4 steel-stud wall to the effective R of the default 2x4 wood wall, and explain why."
+    ],
+    "assessment": [
+      "Students explain in two sentences why a wall with R-13 batts does not have an effective R of 13.",
+      "Students explain why the parallel path method averages U-values rather than R-values."
+    ]
+  }
+}

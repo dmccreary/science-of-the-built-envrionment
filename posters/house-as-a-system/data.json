@@ -1,0 +1,136 @@
+{
+  "title": "The House as a System",
+  "orientation": "landscape",
+  "image": "house-as-a-system.png",
+  "layout": "top-bottom",
+  "showNumbers": true,
+  "callouts": [
+    {
+      "id": 1,
+      "label": "Windows",
+      "panel": "top",
+      "x": 25.0,
+      "y": 38.0,
+      "radius": 4,
+      "color": "#8B5A2B",
+      "hint": "Find the tall double-glazed rectangle in the upper-left wall of the house, with a warm red glow leaking out through the glass.",
+      "description": "Windows are the weakest spot in the envelope for heat flow. In Chapter 3's worked example, a window loses several times as much heat per square foot as the wall around it. Glass also trades radiant heat with the cold outdoors, which changes comfort. Better glass and tight installation cut both heat loss and drafts.",
+      "tip": "A cold window can make a 70 °F room feel chilly, because your body radiates heat toward the cold glass."
+    },
+    {
+      "id": 2,
+      "label": "Insulation",
+      "panel": "top",
+      "x": 38.0,
+      "y": 27.0,
+      "radius": 4,
+      "color": "#8B5A2B",
+      "hint": "Find the thick, fluffy pink blanket lying across the attic floor and filling the gaps between the wall studs.",
+      "description": "Insulation slows conductive heat flow by holding air still in tiny pockets. It only works if it is continuous, dry, and not bypassed by moving air or by framing. The R-value on a package describes the insulation alone, not the whole wall, because studs and gaps let heat flow around it (Chapter 3)."
+    },
+    {
+      "id": 3,
+      "label": "Thermostat Setting",
+      "panel": "top",
+      "x": 48.0,
+      "y": 40.0,
+      "radius": 4,
+      "color": "#FF6A13",
+      "hint": "Find the small round dial on the upstairs hallway wall, with a hand turning it.",
+      "description": "The occupants choose the indoor temperature, and that choice sets how hard the whole house works. Heat flows in proportion to the temperature difference, so in Chapter 3's example the same wall loses four times as much heat on an 80 °F difference as on a 20 °F difference. A lower setting shrinks the driving force on every wall, window, and leak.",
+      "tip": "Heat moves in proportion to the temperature difference, so every degree you do not heat is a smaller push on the whole envelope."
+    },
+    {
+      "id": 4,
+      "label": "Ventilation",
+      "panel": "top",
+      "x": 58.0,
+      "y": 23.0,
+      "radius": 4,
+      "color": "#2468A2",
+      "hint": "Find the gray box in the attic where one pale blue stream and one orange stream cross, with round ducts running down into the rooms.",
+      "description": "Mechanical ventilation brings in fresh air and removes stale air and moisture. A heat-recovery ventilator lets the two airstreams swap heat without mixing. Fans also create pressure differences: Building America reports that mechanical pressures are often about 10 times larger than the natural wind and temperature pressures, so the fans and the envelope must be designed together."
+    },
+    {
+      "id": 5,
+      "label": "Showers and Cooking",
+      "panel": "top",
+      "x": 66.0,
+      "y": 37.0,
+      "radius": 4,
+      "color": "#FF6A13",
+      "hint": "Find the glass stall in the upstairs bathroom with a cloud of steam and teal droplets rising from it, plus a steaming pot on the stove below.",
+      "description": "Occupants are a moisture source. Breathing, bathing, and cooking put water vapor into the air, and that humid air can leak into cold wall and attic cavities, where it may condense (Chapter 4). A bath fan and a range hood vented outdoors take the moisture out at its source, before it reaches the envelope.",
+      "tip": "Run the bath fan during the shower and for a while after it."
+    },
+    {
+      "id": 6,
+      "label": "Windows Opened",
+      "panel": "top",
+      "x": 77.0,
+      "y": 34.0,
+      "radius": 4,
+      "color": "#FF6A13",
+      "hint": "Find the upper-right window that is cracked open, with a curtain blowing inward and a swirl of cold blue air entering.",
+      "description": "An open window overrides both the envelope and the mechanical system. In winter it dumps heated air and lets cold, dry air in. It also changes the house's pressure, which can change how exhaust fans and combustion appliances behave. Occupant habits are part of the system, not noise around it."
+    },
+    {
+      "id": 7,
+      "label": "Heat, Air, and Moisture Flows",
+      "panel": "bottom",
+      "x": 14.0,
+      "y": 58.0,
+      "radius": 4,
+      "color": "#C95343",
+      "hint": "Find the bundle of red, blue, and teal arrows beside the left wall: red leaving through the wall, blue entering low, and teal droplets drifting upward.",
+      "description": "Three flows decide how a house performs. Heat moves from warm to cold, out through walls, roof, and windows. In winter, air enters low and leaves high because of the stack effect. Moisture rides on that air and also diffuses through materials. Building America's point is that the envelope, the mechanical systems, and the occupants all steer these three flows.",
+      "tip": "Heat. Air. Moisture. Three flows, one system."
+    },
+    {
+      "id": 8,
+      "label": "Air Sealing",
+      "panel": "bottom",
+      "x": 26.0,
+      "y": 73.0,
+      "radius": 4,
+      "color": "#8B5A2B",
+      "hint": "Find the corner where the wooden sill plate rests on the concrete foundation, with a small blue arrow slipping through a gap beside a bead of green sealant.",
+      "description": "Air sealing closes the cracks where the frame meets the foundation, around outlets, and at the attic floor. In winter, replacement air enters low and warm air escapes high, so a leak at the sill and a leak at the attic work as a pair. Sealing them cuts drafts, saves heat, and keeps moist indoor air out of wall cavities (Chapter 4).",
+      "tip": "Air leaks at the details, not in the middle of the wall."
+    },
+    {
+      "id": 9,
+      "label": "Water Heater",
+      "panel": "bottom",
+      "x": 40.0,
+      "y": 80.0,
+      "radius": 4,
+      "color": "#2468A2",
+      "hint": "Find the tall gray tank in the basement with a short flue pipe rising from its top and a pipe stub running up toward a faucet.",
+      "description": "A gas-fired tank is a mechanical system that vents combustion gases through a flue. If an exhaust fan or clothes dryer pulls the house below outdoor pressure with no makeup air, air can be drawn down the flue and carry combustion gases back inside (Chapter 4). A tighter envelope and vented appliances must be designed together."
+    },
+    {
+      "id": 10,
+      "label": "Building Performance",
+      "panel": "bottom",
+      "x": 50.0,
+      "y": 54.0,
+      "radius": 4,
+      "color": "#6B8E4E",
+      "hint": "Find the center of the poster, where three large circles, brown, blue, and orange, all overlap behind the house.",
+      "description": "Where the envelope, the mechanical systems, and the occupants overlap, performance is decided. Change one and the others respond. Every unit of heat load removed from the envelope shrinks every system downstream, from the furnace to the wiring (Chapter 19). Treating the parts as separate products is how a building ends up with surprises.",
+      "tip": "A building is not a collection of products. Change one part and the whole system responds."
+    },
+    {
+      "id": 11,
+      "label": "Furnace",
+      "panel": "bottom",
+      "x": 62.0,
+      "y": 80.0,
+      "radius": 4,
+      "color": "#2468A2",
+      "hint": "Find the boxy basement appliance with a small flame icon, a flue pipe, and large round ducts branching upward through the floor.",
+      "description": "The furnace (or a heat pump) replaces the heat the enclosure loses, so its job is set by the envelope's heat loss and by the temperature the occupants choose. Chapter 19 puts load reduction first: improve the enclosure, then size the equipment to the smaller load that remains."
+    }
+  ]
+}

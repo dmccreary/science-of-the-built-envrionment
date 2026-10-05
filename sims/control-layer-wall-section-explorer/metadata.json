@@ -1,0 +1,62 @@
+{
+  "title": "Control Layer Wall Section Explorer",
+  "description": "Students will identify (Bloom Level 1, Remember) the layers of a cold-climate wall and the control layer each belongs to, and will predict (Bloom Level 2, Understand) the consequence of removing or breaking each layer.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "control-layer-wall-section-explorer",
+  "library": "p5.js",
+  "bloomLevel": "Remember, Understand",
+  "bloomVerb": "identify, predict",
+  "completion_status": "built",
+  "chapter_number": 11,
+  "chapter_title": "Enclosure Control Layers and Insulation",
+  "chapter_dir": "11-enclosure-insulation",
+  "chapter_rel_dir": "chapters/11-enclosure-insulation",
+  "canvasHeight": 686,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Remember",
+      "Understand"
+    ],
+    "concepts": [
+      "Control layers",
+      "Weather-resistive barrier",
+      "Air barrier",
+      "Vapor retarder",
+      "Thermal control layer"
+    ],
+    "prerequisites": [
+      "Chapter 3 heat transfer and R-values",
+      "Chapter 4 moisture and air movement"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Identify the layers of a cold-climate wall and the control layer each belongs to, and predict the consequence of removing or breaking each layer.",
+    "recommendedUsage": [
+      "Read the wall from outside (left) to inside (right). The numbered tags match the checkboxes, and the colored band under the strips shows which layers do the water (W), air (A), vapor (V), and thermal (T) jobs.",
+      "Click a layer, or its number, to read its job, materials, and the risk if it is missing. Hover over a layer for its R-value and function.",
+      "Tick a layer's checkbox to break it. Choose the failure type (missing, hole, or unsealed seam) first; it applies to every ticked layer. Read the one-sentence result under What happens, and watch where the rain, air, vapor, and heat lines now stop or pass.",
+      "Move the outdoor temperature slider and tick Temp. profile to draw the temperature through the wall. The sheathing turns red when it falls below the 37 degree F dew point of the room air.",
+      "Press Reset to return to the complete wall at -10 degrees F. Move the pointer over the drawing to animate the flow dots."
+    ],
+    "activities": [
+      "Warm-up (5 min): Students sketch a wall section from memory and color each layer by its job, then compare with the colored band.",
+      "Predict and test (10 min): Before ticking a box, students predict which of the four lines will pass through the wall, then check, for the water, air, vapor, and thermal layers in turn.",
+      "Analyze (10 min): Students break the foam and then the batts and compare the heat flow and sheathing temperature, linking the result to the Chapter 11 continuous-insulation example."
+    ],
+    "assessment": [
+      "Students name the control layer served by each of the eight layers and say which layers serve more than one.",
+      "Students explain in two sentences why a hole in the weather-resistive barrier and a gap in the taped sheathing wet the same sheathing by different routes."
+    ]
+  }
+}

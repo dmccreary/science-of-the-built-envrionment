@@ -1,0 +1,61 @@
+{
+  "title": "Foundation Cross-Section Explorer",
+  "description": "Students will identify (Bloom Level 1, Remember) the parts of a typical cold-climate foundation and explain (Bloom Level 2, Understand) the job of each part.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "foundation-cross-section-explorer",
+  "library": "p5.js",
+  "bloomLevel": "Remember, Understand",
+  "bloomVerb": "identify, explain",
+  "completion_status": "built",
+  "chapter_number": 10,
+  "chapter_title": "Foundation Systems",
+  "chapter_dir": "10-foundation-systems",
+  "chapter_rel_dir": "chapters/10-foundation-systems",
+  "canvasHeight": 550,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Remember",
+      "Understand"
+    ],
+    "concepts": [
+      "Continuous footings",
+      "Foundation walls",
+      "Slab-on-grade",
+      "Frost depth",
+      "Foundation drainage"
+    ],
+    "prerequisites": [
+      "Chapter 6 load paths",
+      "Chapter 9 frost depth"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Identify the parts of a typical cold-climate foundation and explain the job of each part.",
+    "recommendedUsage": [
+      "Hover over a part, a numbered tag, or a row in the parts list to highlight it and see its name. Click one to open an infobox with its function, a typical dimension, and the chapter section.",
+      "Use the Foundation type menu to switch between slab-on-grade, crawl space, and basement. Parts that are new compared with the previous section get an orange outline and an orange number.",
+      "Check Show frost line to see the 42 in frost depth and notice that every footing bears below it. Check Show loads to see the wall load flowing down into the footing and the soil pushing back.",
+      "Typical dimensions are examples from the chapter and are not required values; the building code and the engineer set the real ones."
+    ],
+    "activities": [
+      "Warm-up (5 min): Students try to name the eleven parts of the slab-on-grade section from memory, then check each against the infobox.",
+      "Explore (10 min): Students switch among the three sections and list which parts are new in each, then explain why a basement footing is deeper than the frost line.",
+      "Trace (10 min): With Show loads on, students trace the path of a roof load from the wall to the soil and name each part it passes through."
+    ],
+    "assessment": [
+      "Students label a blank copy of the basement section with the numbers and names of all parts.",
+      "Students explain in two sentences what the perimeter drain and the sloped grade each do for the foundation."
+    ]
+  }
+}

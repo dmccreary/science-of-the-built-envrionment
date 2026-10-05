@@ -1,0 +1,61 @@
+{
+  "title": "Ceiling Coordination Clash Explorer",
+  "description": "Students will analyze (Bloom Level 4, Analyze) a ceiling cross-section to find clashes among structure, ducts, pipes, cable tray, and lights, and will propose (Bloom Level 6, Create) a routing that resolves them according to the priority order of systems.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "ceiling-coordination-clash-explorer",
+  "library": "p5.js",
+  "bloomLevel": "Analyze, Create",
+  "bloomVerb": "analyze, propose",
+  "completion_status": "built",
+  "chapter_number": 16,
+  "chapter_title": "Electrical Distribution, Lighting, and Design Team Coordination",
+  "chapter_dir": "16-electrical-distribution-design",
+  "chapter_rel_dir": "chapters/16-electrical-distribution-design",
+  "canvasHeight": 500,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Analyze",
+      "Create"
+    ],
+    "concepts": [
+      "Interdisciplinary coordination",
+      "Clash detection",
+      "Priority of systems",
+      "Reflected ceiling plan",
+      "Building information modeling"
+    ],
+    "prerequisites": [
+      "Chapter 14 HVAC and plumbing systems",
+      "Chapter 16 interdisciplinary coordination"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Find the clashes in a ceiling cross-section and propose a routing that resolves them in the priority order of systems.",
+    "recommendedUsage": [
+      "Look at the red outlines. Each marks two elements that overlap or sit closer than 1 inch, and the Clashes counter shows how many there are. Hover over a red region to read why it is a clash.",
+      "Drag the duct, drain pipe, or cable tray to a new position. The light fixtures slide sideways along the ceiling, and the glulam beams are fixed because the structural engineer owns them.",
+      "Change the Duct depth (8 to 24 in) and Ceiling height (8 to 12 ft) sliders to see how the available space under the beams grows and shrinks. Use the Show system checkboxes to hide a system and study the others.",
+      "Press Run clash check for a list of the clashes and the order in which to resolve them: gravity pipe, large duct, pressure pipe, cable tray, then conduit. When the count reaches zero the status reads Coordinated."
+    ],
+    "activities": [
+      "Warm-up (5 min): Students predict which elements will clash before pressing Run clash check, then compare their list with the sim's list.",
+      "Explore (10 min): Students resolve all clashes at the default 10 ft ceiling, moving the lowest-priority element first, and record the final positions.",
+      "Apply (10 min): Students raise the ceiling to 12 ft and find a new routing, then explain why the duct must move between the beams and which system yielded."
+    ],
+    "assessment": [
+      "Students write a short routing memo listing, in priority order, which element moved and why.",
+      "Students explain in two sentences why a gravity drain pipe keeps its position while the cable tray moves."
+    ]
+  }
+}

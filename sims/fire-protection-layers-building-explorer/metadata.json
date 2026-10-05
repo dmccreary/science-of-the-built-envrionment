@@ -1,0 +1,60 @@
+{
+  "title": "Fire Protection Layers Building Explorer",
+  "description": "Students will classify (Bloom Level 2, Understand) fire protection features as passive or active and will explain (Bloom Level 2, Understand) which of the five jobs (detect, warn, suppress, control smoke, contain) each one performs.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-03",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "fire-protection-layers-building-explorer",
+  "library": "p5.js",
+  "bloomLevel": "Understand",
+  "bloomVerb": "classify, explain",
+  "completion_status": "built",
+  "chapter_number": 14,
+  "chapter_title": "HVAC, Plumbing, and Fire Protection Systems",
+  "chapter_dir": "14-hvac-plumbing-fire",
+  "chapter_rel_dir": "chapters/14-hvac-plumbing-fire",
+  "canvasHeight": 500,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Understand"
+    ],
+    "concepts": [
+      "Passive fire protection",
+      "Active fire protection",
+      "Sprinkler systems",
+      "Smoke control",
+      "The five jobs of fire protection"
+    ],
+    "prerequisites": [
+      "Chapter 3 heat flow and fire basics",
+      "Chapter 2 project team roles"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Classify fire protection features as passive or active and explain which of the five jobs each one performs.",
+    "recommendedUsage": [
+      "Click any numbered marker to open its infobox. It names the feature, says whether it is passive (blue square) or active (orange circle), gives the job it performs among detect, warn, suppress, control smoke, and contain, and names the project team member responsible. The matching job chip at the top is outlined.",
+      "Press Start fire in room B. With all four layers on, watch the detector trigger, the alarm sound, the damper close, the sprinkler open, and the fire shrink. Drag the time slider from 0 to 10 minutes to step through the same events.",
+      "Untick Sprinklers, Alarm, Smoke control, or Rated walls and start the fire again. The status panel names the consequence, such as the fire reaching room A in 4 minutes when there are no rated walls and no sprinklers.",
+      "Try two layers off at once to see how one layer's failure is covered or exposed by the others."
+    ],
+    "activities": [
+      "Warm-up (5 min): Students click all ten markers and complete a table with the columns feature, passive or active, job, and responsible team member.",
+      "Explore (10 min): Students run the fire with one layer off at a time and record the consequence and the minute at which it appears.",
+      "Discuss (10 min): Students explain why no single layer is enough, using the runs with two layers off, and note which layers depend on the alarm signal."
+    ],
+    "assessment": [
+      "Students sort the ten features into passive and active and justify the smoke damper, which Chapter 14 lists with the passive measures even though it moves.",
+      "Students explain in two sentences why a building with sprinklers still needs rated walls and an alarm."
+    ]
+  }
+}
