@@ -2,42 +2,44 @@
 
 ## Overview
 
-- **Total Concepts**: 380
-- **Number of Taxonomies**: 12
-- **Average Concepts per Taxonomy**: 31.7
+- **Total Concepts**: 448
+- **Number of Taxonomies**: 13
+- **Average Concepts per Taxonomy**: 34.5
 
 ## Distribution Summary
 
 | Category | TaxonomyID | Count | Percentage | Status |
 |----------|-----------|-------|------------|--------|
-| Structural Systems | STRC | 64 | 16.8% | ✅ |
-| Building Enclosure | ENCL | 47 | 12.4% | ✅ |
-| Electrical Systems | ELEC | 36 | 9.5% | ✅ |
-| Design and Construction Process | PROC | 31 | 8.2% | ✅ |
-| Site and Foundations | SITE | 29 | 7.6% | ✅ |
-| Sustainable Materials and Design | SUST | 29 | 7.6% | ✅ |
-| Building Physics | PHYS | 28 | 7.4% | ✅ |
-| Mechanical, Plumbing, and Fire Systems | MECH | 27 | 7.1% | ✅ |
-| Codes and Regulations | CODE | 27 | 7.1% | ✅ |
-| Foundations and Terminology | FOUND | 22 | 5.8% | ✅ |
-| Material Properties | MATP | 22 | 5.8% | ✅ |
-| Durability and Failure | DURA | 18 | 4.7% | ✅ |
+| Rapidly Evolving Technologies | EVOL | 68 | 15.2% | ✅ |
+| Structural Systems | STRC | 64 | 14.3% | ✅ |
+| Building Enclosure | ENCL | 47 | 10.5% | ✅ |
+| Electrical Systems | ELEC | 36 | 8.0% | ✅ |
+| Design and Construction Process | PROC | 31 | 6.9% | ✅ |
+| Site and Foundations | SITE | 29 | 6.5% | ✅ |
+| Sustainable Materials and Design | SUST | 29 | 6.5% | ✅ |
+| Building Physics | PHYS | 28 | 6.2% | ✅ |
+| Mechanical, Plumbing, and Fire Systems | MECH | 27 | 6.0% | ✅ |
+| Codes and Regulations | CODE | 27 | 6.0% | ✅ |
+| Foundations and Terminology | FOUND | 22 | 4.9% | ✅ |
+| Material Properties | MATP | 22 | 4.9% | ✅ |
+| Durability and Failure | DURA | 18 | 4.0% | ✅ |
 
 ## Visual Distribution
 
 ```
-Structural Systems        ████████  64 ( 16.8%)
-Building Enclosure        ██████  47 ( 12.4%)
-Electrical Systems        ████  36 (  9.5%)
-Design and Construction P ████  31 (  8.2%)
-Site and Foundations      ███  29 (  7.6%)
-Sustainable Materials and ███  29 (  7.6%)
-Building Physics          ███  28 (  7.4%)
-Mechanical, Plumbing, and ███  27 (  7.1%)
-Codes and Regulations     ███  27 (  7.1%)
-Foundations and Terminolo ██  22 (  5.8%)
-Material Properties       ██  22 (  5.8%)
-Durability and Failure    ██  18 (  4.7%)
+Rapidly Evolving Technolo ███████  68 ( 15.2%)
+Structural Systems        ███████  64 ( 14.3%)
+Building Enclosure        █████  47 ( 10.5%)
+Electrical Systems        ████  36 (  8.0%)
+Design and Construction P ███  31 (  6.9%)
+Site and Foundations      ███  29 (  6.5%)
+Sustainable Materials and ███  29 (  6.5%)
+Building Physics          ███  28 (  6.2%)
+Mechanical, Plumbing, and ███  27 (  6.0%)
+Codes and Regulations     ███  27 (  6.0%)
+Foundations and Terminolo ██  22 (  4.9%)
+Material Properties       ██  22 (  4.9%)
+Durability and Failure    ██  18 (  4.0%)
 ```
 
 ## Balance Analysis
@@ -48,9 +50,32 @@ All categories are under the 30% threshold. Good balance!
 
 ## Category Details
 
+### Rapidly Evolving Technologies (EVOL)
+
+**Count**: 68 concepts (15.2%)
+
+**Concepts**:
+
+- 381. Ground Temperature Profile
+- 382. Seasonal Temperature Swing
+- 383. Damping Depth
+- 384. Refrigerant
+- 385. Refrigeration Cycle
+- 386. Coefficient of Performance
+- 387. Temperature Lift
+- 388. Carnot Limit
+- 389. Cold-Climate Heat Pump
+- 390. Variable-Speed Compressor
+- 391. Building Electrification
+- 392. Refrigerant Global Warming Potential
+- 393. Energy Recovery Ventilator
+- 394. Heat Recovery Effectiveness
+- 395. Heat Exchanger Frost and Defrost
+- *...and 53 more*
+
 ### Structural Systems (STRC)
 
-**Count**: 64 concepts (16.8%)
+**Count**: 64 concepts (14.3%)
 
 **Concepts**:
 
@@ -73,7 +98,7 @@ All categories are under the 30% threshold. Good balance!
 
 ### Building Enclosure (ENCL)
 
-**Count**: 47 concepts (12.4%)
+**Count**: 47 concepts (10.5%)
 
 **Concepts**:
 
@@ -96,7 +121,7 @@ All categories are under the 30% threshold. Good balance!
 
 ### Electrical Systems (ELEC)
 
-**Count**: 36 concepts (9.5%)
+**Count**: 36 concepts (8.0%)
 
 **Concepts**:
 
@@ -119,7 +144,7 @@ All categories are under the 30% threshold. Good balance!
 
 ### Design and Construction Process (PROC)
 
-**Count**: 31 concepts (8.2%)
+**Count**: 31 concepts (6.9%)
 
 **Concepts**:
 
@@ -142,7 +167,7 @@ All categories are under the 30% threshold. Good balance!
 
 ### Site and Foundations (SITE)
 
-**Count**: 29 concepts (7.6%)
+**Count**: 29 concepts (6.5%)
 
 **Concepts**:
 
@@ -165,7 +190,7 @@ All categories are under the 30% threshold. Good balance!
 
 ### Sustainable Materials and Design (SUST)
 
-**Count**: 29 concepts (7.6%)
+**Count**: 29 concepts (6.5%)
 
 **Concepts**:
 
@@ -188,7 +213,7 @@ All categories are under the 30% threshold. Good balance!
 
 ### Building Physics (PHYS)
 
-**Count**: 28 concepts (7.4%)
+**Count**: 28 concepts (6.2%)
 
 **Concepts**:
 
@@ -211,7 +236,7 @@ All categories are under the 30% threshold. Good balance!
 
 ### Mechanical, Plumbing, and Fire Systems (MECH)
 
-**Count**: 27 concepts (7.1%)
+**Count**: 27 concepts (6.0%)
 
 **Concepts**:
 
@@ -234,7 +259,7 @@ All categories are under the 30% threshold. Good balance!
 
 ### Codes and Regulations (CODE)
 
-**Count**: 27 concepts (7.1%)
+**Count**: 27 concepts (6.0%)
 
 **Concepts**:
 
@@ -257,7 +282,7 @@ All categories are under the 30% threshold. Good balance!
 
 ### Foundations and Terminology (FOUND)
 
-**Count**: 22 concepts (5.8%)
+**Count**: 22 concepts (4.9%)
 
 **Concepts**:
 
@@ -280,7 +305,7 @@ All categories are under the 30% threshold. Good balance!
 
 ### Material Properties (MATP)
 
-**Count**: 22 concepts (5.8%)
+**Count**: 22 concepts (4.9%)
 
 **Concepts**:
 
@@ -303,7 +328,7 @@ All categories are under the 30% threshold. Good balance!
 
 ### Durability and Failure (DURA)
 
-**Count**: 18 concepts (4.7%)
+**Count**: 18 concepts (4.0%)
 
 **Concepts**:
 
@@ -326,7 +351,7 @@ All categories are under the 30% threshold. Good balance!
 
 ## Recommendations
 
-- ✅ **Excellent balance**: Categories are evenly distributed (spread: 12.1%)
+- ✅ **Excellent balance**: Categories are evenly distributed (spread: 11.2%)
 - ✅ **MISC category minimal**: Good categorization specificity
 
 ### Educational Use Recommendations

@@ -1,0 +1,61 @@
+{
+  "title": "Sensor-to-Action Map",
+  "description": "Classify each of six building inputs by the control action it should drive, matching each input to one of six actions.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-05",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "sensor-to-action-map",
+  "library": "vis-network",
+  "bloomLevel": "Understand",
+  "bloomVerb": "classify",
+  "completion_status": "built",
+  "chapter_number": 0,
+  "chapter_title": "Appendix F: Smart Sensors and Building Automation",
+  "chapter_dir": "smart-sensors-building-automation",
+  "chapter_rel_dir": "appendices/smart-sensors-building-automation",
+  "canvasHeight": 645,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Understand"
+    ],
+    "concepts": [
+      "Building sensors",
+      "Control loop",
+      "Demand-controlled ventilation",
+      "Time-of-use rates"
+    ],
+    "prerequisites": [
+      "Sensor",
+      "Controller",
+      "Setpoint",
+      "Actuator"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Classify each of six building inputs by the control action it should drive, matching each input to one of six actions.",
+    "recommendedUsage": [
+      "Read the highlighted input. Click one of the six actions on the right (or use the menu), then press Confirm choice.",
+      "Read whether the link is correct and why. If it is incorrect, the correct action is named. Press Next input.",
+      "After the sixth input all six correct links are drawn and the final score appears.",
+      "Click any node to read what the input measures or signals and what the action does."
+    ],
+    "activities": [
+      "Match (10 min): Complete the six matches without opening any node information.",
+      "Explain each link (10 min): For every link, write one sentence that starts with \"The controller needs to know...\" and ends with the action.",
+      "Extend the map (10 min): Propose a seventh input and the action it should drive, and give the reason."
+    ],
+    "assessment": [
+      "Students name the action driven by the outdoor temperature sensor and say which appendix explains it.",
+      "Students explain why the utility price signal is not a sensor but still drives a control action."
+    ]
+  }
+}

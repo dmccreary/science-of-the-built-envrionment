@@ -31,6 +31,8 @@ The course description uses the 2001 Bloom taxonomy to order learning objectives
 We use generative AI to convert the course description into a [Concept List](./concept-list.md).
 Each concept is in the form of a short Title Case label with most labels under 32 characters long.
 
+Concepts 381 through 448 were added later from the [appendices](../appendices/index.md) on rapidly evolving technologies. They form their own category and depend on concepts from the chapters.
+
 ## Concept Dependency List
 
 We next use generative AI to create a Directed Acyclic Graph (DAG).  DAGs do not have cycles where

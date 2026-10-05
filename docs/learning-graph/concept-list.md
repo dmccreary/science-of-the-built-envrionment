@@ -382,3 +382,76 @@ The numbered concepts below are the proposed concepts for *The Science of the Bu
 378. Renovation and Retrofit
 379. Adaptive Reuse
 380. Deconstruction
+
+## Concepts Added from the Appendices
+
+Concepts 381 through 448 were added after the appendices on rapidly evolving building technologies were written. They are grouped in the Rapidly Evolving Technologies category and depend on concepts from the chapters.
+
+381. Ground Temperature Profile
+382. Seasonal Temperature Swing
+383. Damping Depth
+384. Refrigerant
+385. Refrigeration Cycle
+386. Coefficient of Performance
+387. Temperature Lift
+388. Carnot Limit
+389. Cold-Climate Heat Pump
+390. Variable-Speed Compressor
+391. Building Electrification
+392. Refrigerant Global Warming Potential
+393. Energy Recovery Ventilator
+394. Heat Recovery Effectiveness
+395. Heat Exchanger Frost and Defrost
+396. Ground-Source Heat Pump
+397. Ground Loop
+398. Networked Geothermal
+399. Earth Tube
+400. Peak Sun Hours
+401. System Derate
+402. Inverter
+403. Net Metering
+404. Battery Energy Storage
+405. Lithium Iron Phosphate Batteries
+406. Battery Energy and Power Ratings
+407. Battery Run Time
+408. Round-Trip Efficiency
+409. Battery Safety Standards
+410. Time-of-Use Rates
+411. Vehicle-to-Home Power
+412. Grid-Interactive Buildings
+413. Building Sensors
+414. Sensor Calibration and Placement
+415. Carbon Dioxide Monitoring
+416. Demand-Controlled Ventilation
+417. Water Leak Detection
+418. Occupancy Sensing
+419. Energy Submetering
+420. Control Loop
+421. Fault Detection and Diagnostics
+422. Building Communication Protocols
+423. Building Cybersecurity and Privacy
+424. Digital Twin
+425. Continuous Commissioning
+426. Type IV Mass Timber Construction
+427. Timber Charring
+428. Mass Timber Moisture Protection
+429. Warm Roof Assembly
+430. Low-Carbon Concrete
+431. Carbon Mineralization
+432. Biogenic Carbon
+433. Buy Clean Procurement
+434. Low-Carbon Steel
+435. Code Edition Cycle
+436. ASHRAE Standard 90.1
+437. International Energy Conservation Code
+438. Building Performance Standards
+439. Minnesota 2036 Commercial Energy Target
+440. Electric-Ready and Solar-Ready Requirements
+441. Component Replacement Cycle
+442. Prefabrication
+443. Modular Construction
+444. Clash Detection
+445. Reality Capture
+446. Construction Robotics
+447. AI-Assisted Design and Code Review
+448. AI Output Verification

@@ -13,7 +13,7 @@ MicroSims are small interactive simulations, each focused on a single concept. E
 
 The colored dot beside a MicroSim in the left navigation shows how finished it is: **red** means a specification with no implementation yet, **orange** means built and awaiting author review, and **green** means the author tested it and approved it for learners.
 
-The [Learning Graph Viewer](graph-viewer/index.md) is a separate tool for exploring how the book's 380 concepts depend on each other.
+The [Learning Graph Viewer](graph-viewer/index.md) is a separate tool for exploring how the book's 448 concepts depend on each other.
 
 <div class="grid cards" markdown>
 

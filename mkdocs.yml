@@ -269,6 +269,45 @@ nav:
       - "Window Performance Explorer": sims/window-glazing-surface-temperature-explorer/index.md
       - "Wood Moisture and Shrinkage Calculator": sims/wood-moisture-shrinkage-calculator/index.md
 
+  - Appendices:
+      - Topics Changing Fastest: appendices/index.md
+      - "A. Heat Pumps and Building Electrification":
+        - Content: appendices/heat-pumps-electrification/index.md
+        - Quiz: appendices/heat-pumps-electrification/quiz.md
+        - Annotated References: appendices/heat-pumps-electrification/references.md
+      - "B. Heat Recovery Ventilation and Modern Heat Exchangers":
+        - Content: appendices/heat-recovery-ventilation/index.md
+        - Quiz: appendices/heat-recovery-ventilation/quiz.md
+        - Annotated References: appendices/heat-recovery-ventilation/references.md
+      - "C. Solar Photovoltaics":
+        - Content: appendices/solar-photovoltaics/index.md
+        - Quiz: appendices/solar-photovoltaics/quiz.md
+        - Annotated References: appendices/solar-photovoltaics/references.md
+      - "D. Battery Storage and Grid-Interactive Buildings":
+        - Content: appendices/battery-storage/index.md
+        - Quiz: appendices/battery-storage/quiz.md
+        - Annotated References: appendices/battery-storage/references.md
+      - "E. Geothermal Heating and Earth-Coupled Air":
+        - Content: appendices/geothermal-ground-source/index.md
+        - Quiz: appendices/geothermal-ground-source/quiz.md
+        - Annotated References: appendices/geothermal-ground-source/references.md
+      - "F. Smart Sensors and Building Automation":
+        - Content: appendices/smart-sensors-building-automation/index.md
+        - Quiz: appendices/smart-sensors-building-automation/quiz.md
+        - Annotated References: appendices/smart-sensors-building-automation/references.md
+      - "G. Mass Timber and Low-Carbon Materials":
+        - Content: appendices/mass-timber-low-carbon-materials/index.md
+        - Quiz: appendices/mass-timber-low-carbon-materials/quiz.md
+        - Annotated References: appendices/mass-timber-low-carbon-materials/references.md
+      - "H. Energy Codes and Building Performance Standards":
+        - Content: appendices/codes-performance-standards/index.md
+        - Quiz: appendices/codes-performance-standards/quiz.md
+        - Annotated References: appendices/codes-performance-standards/references.md
+      - "I. Digital Design, Prefabrication, Robotics, and AI":
+        - Content: appendices/digital-design-prefabrication-ai/index.md
+        - Quiz: appendices/digital-design-prefabrication-ai/quiz.md
+        - Annotated References: appendices/digital-design-prefabrication-ai/references.md
+
   - FAQ: faq.md
   - Glossary: glossary.md
   - References: references.md
