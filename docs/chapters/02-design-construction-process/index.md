@@ -434,3 +434,5 @@ The contractor also delivers the records the owner needs to operate the building
 - Submittals, requests for information, and change orders are the written channels that carry information and changes during construction. Work should not begin on a change until it is authorized in writing.
 - The critical path is the longest chain of dependent activities, and any delay on it delays the project. Activities off the path have float until a delay uses it up.
 - Commissioning tests that the systems work as intended, and closeout transfers the building, its records, and its warranties to the owner.
+
+[See Annotated References](./references.md)

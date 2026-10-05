@@ -333,3 +333,5 @@ Zoning variances follow a different path, since they go to a local board that de
 - Zoning decides whether a use is allowed on a site, while the building code decides whether the building is safe.
 - The building official administers the code but does not design the building or waive requirements; permits, plan review, inspections, and testing are the checks, and the certificate of occupancy is the final approval.
 - Enforcement tools include correction notices and stop-work orders, and variances and appeals provide a formal way to propose alternatives that meet the code's intent.
+
+[See Annotated References](./references.md)

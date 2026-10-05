@@ -388,3 +388,5 @@ Implementation: Chart.js stacked bar chart with annotation lines and custom tool
 - Lighting design uses lumens, footcandles, and efficacy, and the lumen method estimates the number of luminaires. Controls reduce energy use and are often required by the energy code.
 - Low-voltage systems, including data, fire alarm, and building automation, are kept separate from power wiring. Fire alarm systems detect, notify, and command other systems such as fans and elevators.
 - Photovoltaic systems and electric vehicle chargers are added loads and sources that affect the structure, the roof, and the service size, and they need early coordination with the utility and the other disciplines.
+
+[See Annotated References](./references.md)

@@ -423,3 +423,5 @@ A **frost-protected foundation** is a shallow foundation that uses insulation to
 - Framing reduces a wall's effective R-value, and continuous insulation over the studs restores the loss and keeps the sheathing warmer.
 - Fiberglass, mineral wool, cellulose, spray foam, and rigid foam differ in R per inch, air and vapor behavior, fire performance, and cost.
 - Foundation waterproofing keeps soil water out of below-grade walls, and frost-protected foundations use insulation to allow shallower footings in heated buildings.
+
+[See Annotated References](./references.md)

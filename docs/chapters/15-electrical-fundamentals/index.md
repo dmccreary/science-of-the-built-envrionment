@@ -384,3 +384,5 @@ A **branch circuit** is the portion of the wiring system between the final overc
 - Power travels from the utility through the service entrance, switchgear or switchboards, feeders, panelboards, and branch circuits. Each stage divides the current among more paths and has its own protective device.
 - A circuit breaker protects the wire, and its rating is matched to the wire size. Continuous loads should be held to 80 percent of the rating, and a breaker should never be replaced with a larger one to prevent tripping.
 - Electrical work involves shock and fire hazards, so only licensed professionals install it, and designers specify protection (insulation, grounding, GFCI, AFCI) to keep occupants safe.
+
+[See Annotated References](./references.md)

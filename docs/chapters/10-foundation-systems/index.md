@@ -253,3 +253,5 @@ A **retaining wall** is a wall whose main job is to hold back soil at a change i
 - Foundation and retaining walls resist lateral soil pressure that grows with the square of height, and water in the backfill adds a load of its own, which in the 8 ft example is 1,997 lb per foot of wall from the water alone against 1,440 lb per foot for the drained soil.
 - Basements and crawl spaces add usable or serviceable space but require drainage, moisture control, and, for crawl spaces, a decision to seal and condition.
 - Foundation drainage lowers water pressure around the foundation and works together with the waterproofing in Chapter 11.
+
+[See Annotated References](./references.md)

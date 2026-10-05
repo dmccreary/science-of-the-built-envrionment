@@ -269,3 +269,5 @@ The remedies are to pick low-emitting products, to ventilate during and after in
 - Renewable materials, mass timber, recycled content, reuse and salvage, and local sourcing each reduce impact in different ways, and none is automatically best.
 - Cement substitutes such as slag and fly ash cut the carbon of concrete, and wood stores carbon only if the forest regrows and the building lasts.
 - Construction waste is tracked by diversion rate, and material health and VOCs focus on the chemicals that people breathe and touch.
+
+[See Annotated References](./references.md)

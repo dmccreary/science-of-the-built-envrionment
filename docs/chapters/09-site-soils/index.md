@@ -297,3 +297,5 @@ Grading serves two other purposes. It directs surface water away from the buildi
 - Frost depth sets how deep footings must go. Frost heave needs frost-susceptible soil, water, and freezing temperatures together, and removing any one stops it.
 - Site preparation puts erosion controls in place before stripping, and excavation volumes must be tracked as bank, loose, and compacted quantities.
 - Grading balances cut and fill and slopes the ground away from the building, and site drainage carries stormwater and groundwater away safely.
+
+[See Annotated References](./references.md)

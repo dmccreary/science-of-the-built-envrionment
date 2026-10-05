@@ -267,3 +267,5 @@ Radiation, which Chapter 3 treated, explains why surface temperatures matter. A 
 - Air leakage wastes energy and carries far more moisture into cavities than diffusion does, so a continuous air barrier is a primary control.
 - Vapor diffusion is slower than air leakage but is controlled in cold climates with vapor retarders and by allowing walls to dry. Capillary action is stopped with capillary breaks.
 - Thermal comfort depends on air temperature, radiant temperature, air speed, humidity, activity, and clothing, so warm interior surfaces can allow comfort at lower air temperatures.
+
+[See Annotated References](./references.md)

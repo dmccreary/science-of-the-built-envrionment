@@ -371,3 +371,5 @@ Implementation: p5.js with built-in buttons, select, and slider, and a responsiv
 - Doors need sills, weatherstripping, and thermal breaks, and curtain wall and storefront systems must supply their own control layers.
 - Air sealing closes the leaks at joints and penetrations before the drywall goes up, and the blower door test measures the result as CFM50 and ACH50.
 - Gypsum board and other interior finishes complete the inside and are installed last, after the enclosure is closed and dry.
+
+[See Annotated References](./references.md)

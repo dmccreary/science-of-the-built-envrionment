@@ -299,3 +299,5 @@ In practice, the choice is almost always a compromise. For the Riverbend multipu
 - Porosity and permeability control how moisture enters and moves through a material, and freeze-thaw weathering cracks wet porous materials. Corrosion attacks metals in the presence of water and oxygen.
 - Combustibility describes whether a material burns, and fire resistance describes how long an assembly performs in a standard fire. The two are not the same.
 - Standard tests, defined by ASTM standards, produce the numbers that designers use, and material selection weighs those numbers against cost, constructability, and environmental impact.
+
+[See Annotated References](./references.md)

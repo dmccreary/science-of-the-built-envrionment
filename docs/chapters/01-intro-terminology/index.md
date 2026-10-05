@@ -384,3 +384,5 @@ In the United States, specifications are commonly organized using a standard num
 - Six interdependent systems make up a building: structure, enclosure, mechanical, plumbing, electrical, and fire protection.
 - Drawings (plans, elevations, sections, details, and schedules) show *where and how big*, while specifications state *what quality*.
 - Dimensions govern over scaled measurements, and every number needs a unit.
+
+[See Annotated References](./references.md)

@@ -455,3 +455,5 @@ Implementation: p5.js with a responsive canvas, DOM controls, and an infobox div
 - The lateral system works through diaphragms that collect force and shear walls, bracing, or moment frames that carry it to the foundation.
 - Connections transfer force between members, and any link in a load path, including uplift ties and hold-downs, must be as strong as the members it joins.
 - A load path is the complete route from application point to soil. Walk it backward from any member and ask what is underneath until you reach the ground.
+
+[See Annotated References](./references.md)

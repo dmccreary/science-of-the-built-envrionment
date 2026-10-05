@@ -237,3 +237,5 @@ As an illustration, a 4 in layer of growing medium at a saturated density of 90 
 - Attic ventilation keeps the deck cold in winter and relieves heat in summer. Balanced intake and exhaust at about 1:300 of attic floor area is a common code ratio.
 - Ice dams result from heat loss through the ceiling. Air seal and insulate first, ventilate second, and add an ice-and-water barrier as a backup.
 - Green roofs add vegetation above the membrane and add significant weight, so the structure must be designed for them from the start.
+
+[See Annotated References](./references.md)

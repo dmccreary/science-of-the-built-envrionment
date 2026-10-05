@@ -379,3 +379,5 @@ Resilient design adds margin and recovery paths. Examples include placing equipm
 - Assessment describes the condition of a building, and forensics finds the cause of a failure by testing competing hypotheses against evidence.
 - Renovation, retrofit, adaptive reuse, and deconstruction extend a building's value and keep embodied carbon and materials in use.
 - Resilient buildings combine durability, efficiency, and life-safety systems so that they can withstand and recover from disruption, which is the sum of what this book has taught: loads, heat, moisture, materials, systems, codes, and sustainability working together in one well-built building.
+
+[See Annotated References](./references.md)

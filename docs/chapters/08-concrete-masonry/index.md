@@ -447,3 +447,5 @@ This is the change if the concrete is free to move. A clay brick wall of the sam
 - Precast concrete is made in a plant and erected by crane, and slabs on grade combine a compacted base, a vapor retarder, and insulation in cold climates.
 - Masonry builds walls from brick, concrete block, or stone bound by mortar, with grout and steel in reinforced masonry to resist tension and sideways forces.
 - Control joints direct shrinkage cracks to chosen lines, and expansion joints let parts move freely. Clay expands, and concrete shrinks.
+
+[See Annotated References](./references.md)

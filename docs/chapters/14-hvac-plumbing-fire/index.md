@@ -362,3 +362,5 @@ Types differ in what fills the pipes. *Wet-pipe* systems hold water at all times
 - Plumbing combines pressurized supply piping, gravity drain-waste-vent piping with traps and vents, and stormwater systems. Pipes in exterior walls risk freezing in Minnesota.
 - Fire protection combines passive containment with active detection, alarm, sprinklers, and smoke control. Sprinkler design depends on a density applied over a remote area, and the water supply must be verified by a flow test.
 - Every system in this chapter occupies space in ceilings, walls, and mechanical rooms, so it must be coordinated with the structure and with the electrical system.
+
+[See Annotated References](./references.md)

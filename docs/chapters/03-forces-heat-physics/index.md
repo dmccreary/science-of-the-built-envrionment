@@ -482,3 +482,5 @@ Resistance to airborne sound is rated by the *Sound Transmission Class* (STC), a
 - Thermal resistance is the layer thickness divided by conductivity, and layers in series add their R-values. The U-value is the reciprocal of the total R-value, and heat loss equals U times area times temperature difference.
 - Thermal bridges, such as studs, let heat bypass insulation, so the effective R-value of a wall is lower than the R-value on the insulation label.
 - Thermal mass stores heat, daylight depends on the sun's angle, and sound transmission is controlled by mass, separation, and sealing.
+
+[See Annotated References](./references.md)

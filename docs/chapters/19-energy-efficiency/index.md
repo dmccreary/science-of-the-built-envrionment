@@ -263,3 +263,5 @@ A third-party review confirms the documentation. Certification involves fees and
 - Passive solar design, daylighting, and cool roofs use form, orientation, and surfaces to manage sun, and each has trade-offs in a cold climate.
 - Passive House and net-zero energy are demanding targets, and both depend on an airtight, highly insulated enclosure with ventilation; for a one-story building, efficiency decides whether net zero fits on the roof.
 - Water efficiency reduces water and the energy that heats it, and rating systems such as LEED recognize results beyond the code but do not replace measured performance.
+
+[See Annotated References](./references.md)

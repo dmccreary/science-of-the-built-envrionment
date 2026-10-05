@@ -325,3 +325,5 @@ Implementation: p5.js with DOM sliders and a drop-down, and a responsive canvas.
 - Structural steel is strong, stiff, and ductile, but it needs fire protection and corrosion protection, and it conducts heat.
 - Steel shapes such as the W shape place material far from the neutral axis, and steel members are joined by bolts, mostly in the field, or by welds, mostly in the shop.
 - Steel decking forms roof and composite floor surfaces and acts as a diaphragm, and light-gauge steel framing is a non-combustible alternative to wood framing that needs continuous insulation in cold climates.
+
+[See Annotated References](./references.md)

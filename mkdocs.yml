@@ -41,66 +41,87 @@ nav:
       - 1. Introduction to the Built Environment and Construction Terminology:
         - Content: chapters/01-intro-terminology/index.md
         - Quiz: chapters/01-intro-terminology/quiz.md
+        - Annotated References: chapters/01-intro-terminology/references.md
       - 2. The Design and Construction Process:
         - Content: chapters/02-design-construction-process/index.md
         - Quiz: chapters/02-design-construction-process/quiz.md
+        - Annotated References: chapters/02-design-construction-process/references.md
       - 3. Forces, Heat, and the Physics of Buildings:
         - Content: chapters/03-forces-heat-physics/index.md
         - Quiz: chapters/03-forces-heat-physics/quiz.md
+        - Annotated References: chapters/03-forces-heat-physics/references.md
       - 4. Moisture, Air Movement, and Thermal Comfort:
         - Content: chapters/04-moisture-air-comfort/index.md
         - Quiz: chapters/04-moisture-air-comfort/quiz.md
+        - Annotated References: chapters/04-moisture-air-comfort/references.md
       - 5. Properties of Building Materials:
         - Content: chapters/05-material-properties/index.md
         - Quiz: chapters/05-material-properties/quiz.md
+        - Annotated References: chapters/05-material-properties/references.md
       - 6. Structural Loads and Load Paths:
         - Content: chapters/06-structural-loads/index.md
         - Quiz: chapters/06-structural-loads/quiz.md
+        - Annotated References: chapters/06-structural-loads/references.md
       - 7. Wood and Steel Framing:
         - Content: chapters/07-wood-steel-framing/index.md
         - Quiz: chapters/07-wood-steel-framing/quiz.md
+        - Annotated References: chapters/07-wood-steel-framing/references.md
       - 8. Concrete and Masonry:
         - Content: chapters/08-concrete-masonry/index.md
         - Quiz: chapters/08-concrete-masonry/quiz.md
+        - Annotated References: chapters/08-concrete-masonry/references.md
       - 9. Site Work, Soils, and Groundwater:
         - Content: chapters/09-site-soils/index.md
         - Quiz: chapters/09-site-soils/quiz.md
+        - Annotated References: chapters/09-site-soils/references.md
       - 10. Foundation Systems:
         - Content: chapters/10-foundation-systems/index.md
         - Quiz: chapters/10-foundation-systems/quiz.md
+        - Annotated References: chapters/10-foundation-systems/references.md
       - 11. Enclosure Control Layers and Insulation:
         - Content: chapters/11-enclosure-insulation/index.md
         - Quiz: chapters/11-enclosure-insulation/quiz.md
+        - Annotated References: chapters/11-enclosure-insulation/references.md
       - 12. Cladding, Windows, Doors, and Air Sealing:
         - Content: chapters/12-cladding-windows-air-sealing/index.md
         - Quiz: chapters/12-cladding-windows-air-sealing/quiz.md
+        - Annotated References: chapters/12-cladding-windows-air-sealing/references.md
       - 13. Roof Assemblies:
         - Content: chapters/13-roof-assemblies/index.md
         - Quiz: chapters/13-roof-assemblies/quiz.md
+        - Annotated References: chapters/13-roof-assemblies/references.md
       - 14. HVAC, Plumbing, and Fire Protection Systems:
         - Content: chapters/14-hvac-plumbing-fire/index.md
         - Quiz: chapters/14-hvac-plumbing-fire/quiz.md
+        - Annotated References: chapters/14-hvac-plumbing-fire/references.md
       - 15. Electrical Fundamentals and Building Service:
         - Content: chapters/15-electrical-fundamentals/index.md
         - Quiz: chapters/15-electrical-fundamentals/quiz.md
+        - Annotated References: chapters/15-electrical-fundamentals/references.md
       - 16. Electrical Distribution, Lighting, and Design Team Coordination:
         - Content: chapters/16-electrical-distribution-design/index.md
         - Quiz: chapters/16-electrical-distribution-design/quiz.md
+        - Annotated References: chapters/16-electrical-distribution-design/references.md
       - 17. Building Codes, Permits, and Enforcement:
         - Content: chapters/17-building-codes-permits/index.md
         - Quiz: chapters/17-building-codes-permits/quiz.md
+        - Annotated References: chapters/17-building-codes-permits/references.md
       - 18. Fire Protection and Life Safety Requirements:
         - Content: chapters/18-fire-life-safety/index.md
         - Quiz: chapters/18-fire-life-safety/quiz.md
+        - Annotated References: chapters/18-fire-life-safety/references.md
       - 19. Energy Efficiency and High-Performance Buildings:
         - Content: chapters/19-energy-efficiency/index.md
         - Quiz: chapters/19-energy-efficiency/quiz.md
+        - Annotated References: chapters/19-energy-efficiency/references.md
       - 20. Sustainable Building Materials:
         - Content: chapters/20-sustainable-materials/index.md
         - Quiz: chapters/20-sustainable-materials/quiz.md
+        - Annotated References: chapters/20-sustainable-materials/references.md
       - 21. Durability, Maintenance, and Building Failure:
         - Content: chapters/21-durability-failure/index.md
         - Quiz: chapters/21-durability-failure/quiz.md
+        - Annotated References: chapters/21-durability-failure/references.md
 
   - Learning Graph:
       - Introduction: learning-graph/index.md
@@ -227,6 +248,7 @@ nav:
 
   - FAQ: faq.md
   - Glossary: glossary.md
+  - Instructors Guide: learning-graph/instructors-guide/index.md
   - License: license.md
   - Contact: contact.md
 

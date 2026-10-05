@@ -273,3 +273,5 @@ A UPS and a generator do different jobs and are often used together: the generat
 - Fire separations divide a building into compartments only if every door, duct, and penetration through them is protected.
 - A means of egress has exit access, exit, and exit discharge, and the occupant load drives the number of exits and their width. Travel distance limits how far a person must walk.
 - Emergency power keeps exit signs, lighting, and alarms working when the utility fails. Unit equipment suits small buildings, a generator serves larger loads, and a UPS bridges the starting gap.
+
+[See Annotated References](./references.md)
