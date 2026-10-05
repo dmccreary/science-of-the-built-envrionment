@@ -1,0 +1,462 @@
+{
+  "chapter": "The Design and Construction Process",
+  "chapter_file": "docs/chapters/02-design-construction-process/index.md",
+  "quiz_file": "docs/chapters/02-design-construction-process/quiz.md",
+  "generated_date": "2026-10-04",
+  "total_questions": 24,
+  "questions": [
+    {
+      "id": "02-q001",
+      "number": 1,
+      "question_text": "Why is the design process described as both iterative and convergent?",
+      "options": {
+        "A": "The team repeats the same drawings until the owner approves, and each decision adds new alternatives",
+        "B": "The team repeats a define, generate, evaluate, and select cycle at finer detail, and each decision removes options",
+        "C": "The team designs each system once in sequence, and every system converges on the same material",
+        "D": "The team revises drawings only after construction starts, and each revision lowers the cost of the finished work"
+      },
+      "correct_answer": "B",
+      "explanation": "No one can pick the best answer on the first pass, so the team cycles through define, generate, evaluate, and select at progressively finer levels, from site placement down to a single breaker. It is convergent because each choice, such as a wood-framed roof, narrows the options for ceilings, ducts, and lighting. Repetition alone would not make it convergent.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Design Process",
+      "source_link": "../chapters/02-design-construction-process/index.md#the-design-process",
+      "explanation_word_count": 59
+    },
+    {
+      "id": "02-q002",
+      "number": 2,
+      "question_text": "Which three flows must the contractor manage simultaneously during the construction process?",
+      "options": {
+        "A": "Materials, labor, and information",
+        "B": "Drawings, permits, and inspections",
+        "C": "Design, bidding, and payment",
+        "D": "Owners, architects, and engineers"
+      },
+      "correct_answer": "A",
+      "explanation": "The construction process turns documents into a building, and the contractor must coordinate materials (ordered and delivered on time), labor (the right trades in the right order), and information (current drawings and answers). Drawings, permits, inspections, bidding, and payment all matter, but they are not the three flows, and owners and designers are participants, not flows.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Construction Process",
+      "source_link": "../chapters/02-design-construction-process/index.md#the-construction-process",
+      "explanation_word_count": 56
+    },
+    {
+      "id": "02-q003",
+      "number": 3,
+      "question_text": "What do project phases accomplish for the owner and the team?",
+      "options": {
+        "A": "Each phase is completed by a different contractor who is chosen through competitive bidding for that phase",
+        "B": "Each phase allows earlier decisions to be reversed at no cost to the owner",
+        "C": "Each phase produces defined deliverables and ends with an owner approval, called a phase gate",
+        "D": "Each phase combines design and construction so that work overlaps without approvals"
+      },
+      "correct_answer": "C",
+      "explanation": "The standard phases answer different questions, produce defined deliverables, and end with an owner approval before the next phase begins, which protects everyone from building on unconfirmed decisions. Phases are not tied to separate contractors, and reversing early decisions gets more expensive as the project proceeds, so approvals matter most before physical work begins.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Project Phases",
+      "source_link": "../chapters/02-design-construction-process/index.md#project-phases",
+      "explanation_word_count": 54
+    },
+    {
+      "id": "02-q004",
+      "number": 4,
+      "question_text": "A program lists 4,200 ft\u00b2 of net area and the owner expects a building efficiency of 0.70. What gross area should the team plan for?",
+      "options": {
+        "A": "2,940 ft\u00b2",
+        "B": "4,200 ft\u00b2",
+        "C": "5,460 ft\u00b2",
+        "D": "6,000 ft\u00b2"
+      },
+      "correct_answer": "D",
+      "explanation": "Gross area equals net area divided by efficiency: 4,200 / 0.70 = 6,000 ft\u00b2. Multiplying (2,940) inverts the relationship, using the net area alone (4,200) forgets that corridors, walls, and shafts are not part of any room, and simply adding 30 percent (5,460) is not the same as dividing by the efficiency ratio.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Programming",
+      "source_link": "../chapters/02-design-construction-process/index.md#programming",
+      "explanation_word_count": 53
+    },
+    {
+      "id": "02-q005",
+      "number": 5,
+      "question_text": "What does the architect explore during schematic design?",
+      "options": {
+        "A": "The final dimensions, product models, and installation details for every system",
+        "B": "The competitive prices that contractors offer for the work described in the finished drawings and specifications",
+        "C": "The written approval that allows the owner to occupy the finished building",
+        "D": "The overall form of the building: site placement, shape, height, and room arrangement"
+      },
+      "correct_answer": "D",
+      "explanation": "Schematic design compares a few genuinely different options for where the building sits, its shape and height, and how rooms are arranged. Deliverables are a site plan, preliminary floor plans, rough elevations, and a preliminary estimate. Fixing dimensions and products belongs to later phases, pricing belongs to bidding, and occupancy approval belongs to closeout.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Schematic Design",
+      "source_link": "../chapters/02-design-construction-process/index.md#schematic-design",
+      "explanation_word_count": 54
+    },
+    {
+      "id": "02-q006",
+      "number": 6,
+      "question_text": "Why is the end of design development sometimes called a design freeze?",
+      "options": {
+        "A": "After owner approval, the building official stops reviewing any change to the design for the building permit",
+        "B": "After owner approval, changes become costly because the next phase turns each decision into detailed drawings",
+        "C": "After owner approval, the contractor takes over responsibility for all design decisions",
+        "D": "After owner approval, the design team may no longer coordinate with other disciplines"
+      },
+      "correct_answer": "B",
+      "explanation": "Design development settles how the building will be built: systems are chosen and sized, materials selected, and dimensions fixed. Because construction documents will build on every decision, later changes ripple across many sheets and cost much more. The term describes cost and effort, not a legal ban on review, a transfer of design responsibility, or an end to coordination.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Design Development",
+      "source_link": "../chapters/02-design-construction-process/index.md#design-development",
+      "explanation_word_count": 59
+    },
+    {
+      "id": "02-q007",
+      "number": 7,
+      "question_text": "Why does the team run a coordination review before releasing the construction documents?",
+      "options": {
+        "A": "Bidders are barred from asking questions after the documents have been released",
+        "B": "The building official requires an overlay of drawings before issuing any permit",
+        "C": "Conflicts between disciplines are cheaper to fix on paper than to discover on site",
+        "D": "Specifications can be replaced by drawings once all sheets have been compared"
+      },
+      "correct_answer": "C",
+      "explanation": "Gaps and conflicts do not disappear; they turn up during construction as questions, delays, or change orders. In the duct and beam example, a clash cost a revised sheet on paper but would have stopped the framers on site. The review is a professional practice, not a permit rule, and specifications remain part of the project manual.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Construction Documents",
+      "source_link": "../chapters/02-design-construction-process/index.md#construction-documents",
+      "explanation_word_count": 57
+    },
+    {
+      "id": "02-q008",
+      "number": 8,
+      "question_text": "Which term describes products such as switchgear, elevators, or custom windows that take months to manufacture and can control the schedule?",
+      "options": {
+        "A": "Long-lead items",
+        "B": "Alternates",
+        "C": "Addenda",
+        "D": "Punch-list items"
+      },
+      "correct_answer": "A",
+      "explanation": "Procurement includes ordering long-lead items early so their delivery does not delay construction. Alternates are priced options the owner may add or subtract from the base bid, addenda are written changes to the documents during bidding, and punch-list items are minor corrections at closeout. Only long-lead items are defined by their long manufacturing time.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Bidding and Procurement",
+      "source_link": "../chapters/02-design-construction-process/index.md#bidding-and-procurement",
+      "explanation_word_count": 54
+    },
+    {
+      "id": "02-q009",
+      "number": 9,
+      "question_text": "A contract is for $2,000,000 with 10 percent retainage. The architect certifies that 25 percent of the work is complete, and $300,000 has been paid previously. What is the payment due this month?",
+      "options": {
+        "A": "$450,000",
+        "B": "$150,000",
+        "C": "$200,000",
+        "D": "$50,000"
+      },
+      "correct_answer": "B",
+      "explanation": "Earned to date is 0.25 \u00d7 $2,000,000 = $500,000. Retainage is 10 percent of that, or $50,000, so payment due is $500,000 \u2212 $50,000 \u2212 $300,000 = $150,000. The value of $450,000 forgets to subtract earlier payments, $200,000 forgets retainage, and $50,000 is only the retainage itself.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Construction Administration",
+      "source_link": "../chapters/02-design-construction-process/index.md#construction-administration",
+      "explanation_word_count": 47
+    },
+    {
+      "id": "02-q010",
+      "number": 10,
+      "question_text": "In design-bid-build, when does the builder join the project?",
+      "options": {
+        "A": "At the start of design, as an adviser to the architect",
+        "B": "During schematic design, under a single contract with the architect",
+        "C": "At the start, as a signer of a multi-party agreement",
+        "D": "After the design is complete and the documents have been bid"
+      },
+      "correct_answer": "D",
+      "explanation": "Design-bid-build is strictly sequential: the architect completes the design, the finished documents are bid, and the contract goes to the low bidder. The owner holds separate contracts with the architect and contractor. Joining at the start as an adviser describes construction manager at risk, and the multi-party agreement describes integrated project delivery.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Design-Bid-Build",
+      "source_link": "../chapters/02-design-construction-process/index.md#design-bid-build",
+      "explanation_word_count": 52
+    },
+    {
+      "id": "02-q011",
+      "number": 11,
+      "question_text": "What is the purpose of commissioning?",
+      "options": {
+        "A": "To certify that the contractor's pay application is accurate before the monthly payment is released",
+        "B": "To compare the bids received and award the contract to the lowest responsible bidder",
+        "C": "To verify that installed systems perform to the owner's requirements and the design intent",
+        "D": "To record the building as actually built, including changes made during construction"
+      },
+      "correct_answer": "C",
+      "explanation": "Commissioning uses functional tests, in which each system is operated through its modes, to show that heating, emergency lighting, and controls work as intended. Certifying payment is a construction administration task, awarding a contract is part of bidding, and recording as-built conditions is the job of record drawings at closeout.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Commissioning",
+      "source_link": "../chapters/02-design-construction-process/index.md#commissioning",
+      "explanation_word_count": 50
+    },
+    {
+      "id": "02-q012",
+      "number": 12,
+      "question_text": "Which statement best describes the role of the architect?",
+      "options": {
+        "A": "A licensed design professional who leads the design team and is primarily responsible for the design",
+        "B": "A contractor who manages the site, schedules the trades, and decides means and methods",
+        "C": "A building official who reviews drawings and inspects the finished work for compliance with the adopted code",
+        "D": "A specialty firm hired by the general contractor to perform part of the physical work"
+      },
+      "correct_answer": "A",
+      "explanation": "Licensing exists because design errors endanger the public, so a state board verifies the architect's education, experience, and examination record. The architect coordinates the engineers' work and usually holds the design contract with the owner. Managing the site belongs to the general contractor, code review to the building official, and trade work to subcontractors.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Architect",
+      "source_link": "../chapters/02-design-construction-process/index.md#the-architect",
+      "explanation_word_count": 54
+    },
+    {
+      "id": "02-q013",
+      "number": 13,
+      "question_text": "Which document gives legal permission to use a building after the building official's final inspections?",
+      "options": {
+        "A": "A certificate of substantial completion",
+        "B": "A punch list",
+        "C": "A certificate of occupancy",
+        "D": "A set of record drawings"
+      },
+      "correct_answer": "C",
+      "explanation": "The building official issues the certificate of occupancy if the building complies with the code. Substantial completion is certified by the architect when the owner can use the work, the punch list is a list of minor items still to be corrected, and record drawings show the building as actually built. None of those three grants legal permission to occupy.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Occupancy and Closeout",
+      "source_link": "../chapters/02-design-construction-process/index.md#occupancy-and-closeout",
+      "explanation_word_count": 60
+    },
+    {
+      "id": "02-q014",
+      "number": 14,
+      "question_text": "Why does the architect observe the construction work but not supervise it?",
+      "options": {
+        "A": "The general contractor controls means and methods and answers for all of the work, including others' work",
+        "B": "The architect lacks a license that permits regular observation visits to the site during construction work",
+        "C": "The owner holds the contract for means and methods and delegates them to subcontractors",
+        "D": "The building official supervises construction, so the architect's visits are only advisory"
+      },
+      "correct_answer": "A",
+      "explanation": "The documents describe the finished result, not the process of reaching it. The general contractor holds the prime contract and decides how the work is carried out and in what order, plus schedule and site safety. The architect's periodic visits protect the owner by checking consistency with the design, not by directing the work.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "General Contractor",
+      "source_link": "../chapters/02-design-construction-process/index.md#the-general-contractor",
+      "explanation_word_count": 54
+    },
+    {
+      "id": "02-q015",
+      "number": 15,
+      "question_text": "Why can design-build shorten the schedule compared with design-bid-build?",
+      "options": {
+        "A": "The owner skips the design phase and instead uses documents from a similar project built elsewhere",
+        "B": "The contractor submits a sealed bid, so the bidding period is eliminated from the project schedule entirely",
+        "C": "The architect works for the owner independently, so approvals happen in a single step",
+        "D": "One entity holds the contract for design and construction, so early work like foundations can start during design"
+      },
+      "correct_answer": "D",
+      "explanation": "Under design-build the owner signs a single contract with one entity responsible for both design and construction, so phases overlap. The trade-offs are less independent oversight of the design and a price set earlier, when less is known. Design is still performed, bids are not the mechanism, and the architect is part of the design-build team, not an independent party.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Design-Build",
+      "source_link": "../chapters/02-design-construction-process/index.md#design-build",
+      "explanation_word_count": 60
+    },
+    {
+      "id": "02-q016",
+      "number": 16,
+      "question_text": "What does the construction manager at risk agree to deliver?",
+      "options": {
+        "A": "The project for the lowest bid submitted by any qualified general contractor",
+        "B": "The project for a guaranteed maximum price, bearing the risk of overruns above it",
+        "C": "The design and the construction under a single multi-party agreement with shared rewards",
+        "D": "The construction administration services that the architect would normally perform"
+      },
+      "correct_answer": "B",
+      "explanation": "In CMAR the owner hires a construction manager during design as an adviser, and the same firm then agrees to build for a guaranteed maximum price. The owner keeps separate contracts with the architect and the construction manager. Selection is based on qualifications and fee, not lowest price alone, and the shared-reward multi-party agreement describes integrated project delivery.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Construction Manager at Risk",
+      "source_link": "../chapters/02-design-construction-process/index.md#construction-manager-at-risk",
+      "explanation_word_count": 58
+    },
+    {
+      "id": "02-q017",
+      "number": 17,
+      "question_text": "Why does a Minnesota contractor try to finish the foundation and dry-in before hard winter?",
+      "options": {
+        "A": "Interior work can proceed in heated, protected space without the cost of cold-weather measures",
+        "B": "Building codes prohibit pouring foundations or framing walls at any time between December and March",
+        "C": "Subcontractors are unavailable in winter, so only exterior work can be scheduled",
+        "D": "Dried-in buildings no longer need inspections before interior finishes are applied"
+      },
+      "correct_answer": "A",
+      "explanation": "Sequencing orders activities for physical reasons, to protect completed work, and to allow inspections. In Minnesota, the calendar adds a constraint: a project not dried in before freezing weather faces temporary heat, cold-weather concrete practices, and delays. Winter work is not prohibited by code, trades remain available, and inspections still occur.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Construction Sequencing",
+      "source_link": "../chapters/02-design-construction-process/index.md#construction-sequencing",
+      "explanation_word_count": 51
+    },
+    {
+      "id": "02-q018",
+      "number": 18,
+      "question_text": "Why should a project team identify a single person with authority to speak for the owner at the outset?",
+      "options": {
+        "A": "Only one person may sign the contract documents under public procurement laws",
+        "B": "The building official will communicate only with a single representative",
+        "C": "Slow or reversed owner decisions are a common source of delay and expense",
+        "D": "The architect cannot hold a design contract with more than one person"
+      },
+      "correct_answer": "C",
+      "explanation": "The owner commissions and pays for the project and approves each phase gate. When several people give conflicting answers or reverse decisions, the team loses time and money. Public procurement laws, official communication channels, and architect contracts do not require a single representative, though identifying one is a practical safeguard.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Project Owner",
+      "source_link": "../chapters/02-design-construction-process/index.md#the-project-owner",
+      "explanation_word_count": 50
+    },
+    {
+      "id": "02-q019",
+      "number": 19,
+      "question_text": "Why do payments and questions from a subcontractor flow through the general contractor?",
+      "options": {
+        "A": "The subcontractor is not licensed to communicate with the architect or engineers",
+        "B": "The subcontractor is paid by the building official after each inspection",
+        "C": "The subcontractor works only on public projects, where direct contact is prohibited",
+        "D": "The subcontractor has a contract with the general contractor and none with the owner"
+      },
+      "correct_answer": "D",
+      "explanation": "A subcontractor is a specialty firm hired by the general contractor for a portion of the work, so its contractual relationship runs up to the GC, who remains responsible for the entire chain, including any sub-tier firms. Questions and payments therefore follow that contract path. The reasons given in the other statements are not part of how projects are organized.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Subcontractor",
+      "source_link": "../chapters/02-design-construction-process/index.md#the-subcontractor",
+      "explanation_word_count": 60
+    },
+    {
+      "id": "02-q020",
+      "number": 20,
+      "question_text": "Which feature of integrated project delivery makes it extend construction manager at risk?",
+      "options": {
+        "A": "The builder adds cost advice during design but still holds a separate contract directly with the owner",
+        "B": "Designers and builders sign one multi-party agreement and share risk and reward instead of separate contracts",
+        "C": "The owner awards a single lump sum to the lowest bidder after the design is complete and permitted",
+        "D": "The contractor guarantees a maximum price and absorbs any overrun by itself"
+      },
+      "correct_answer": "B",
+      "explanation": "IPD brings the owner, architect, contractor, and key subcontractors under one agreement with shared incentives, so decisions move earlier, when change is cheapest. CMAR brings the builder into design but keeps separate contracts and puts the overrun risk on the construction manager. Lowest-bid lump sums describe design-bid-build, and bearing overruns alone describes the GMP in CMAR.",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Integrated Project Delivery",
+      "source_link": "../chapters/02-design-construction-process/index.md#integrated-project-delivery",
+      "explanation_word_count": 56
+    },
+    {
+      "id": "02-q021",
+      "number": 21,
+      "question_text": "An electrical subcontractor wants to order a main switchboard. What should happen before the switchboard is ordered?",
+      "options": {
+        "A": "The subcontractor orders the switchboard and sends the invoice to the architect for approval",
+        "B": "The subcontractor prepares a submittal, the general contractor checks it, and the engineer reviews it",
+        "C": "The subcontractor sends a request for information asking the owner to approve the manufacturer's switchboard",
+        "D": "The subcontractor asks the building official to approve the switchboard before purchase"
+      },
+      "correct_answer": "B",
+      "explanation": "Submittals such as product data and dimensions let the design team confirm that the product meets the specification before it is ordered. The sub prepares it, the GC checks it, and the engineer returns it with a status such as approved or revise and resubmit. An RFI asks a question, not for product approval, and the building official reviews code compliance, not product selection.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Submittals",
+      "source_link": "../chapters/02-design-construction-process/index.md#submittals",
+      "explanation_word_count": 64
+    },
+    {
+      "id": "02-q022",
+      "number": 22,
+      "question_text": "Why do requests for information protect both the contractor and the design team?",
+      "options": {
+        "A": "They automatically change the contract price when the design team replies",
+        "B": "They allow the contractor to start extra work without waiting for a signed change order from the owner",
+        "C": "They create a written record of the question, the date, and the answer for any later dispute",
+        "D": "They transfer responsibility for the question to the building official"
+      },
+      "correct_answer": "C",
+      "explanation": "An RFI is a written question that clarifies unclear, incomplete, or conflicting documents, and the written answer may become a change to the documents. Because the exchange is on file, both sides can show what was intended. An RFI does not by itself adjust price or authorize extra work; that requires a change order or written directive.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Requests for Information",
+      "source_link": "../chapters/02-design-construction-process/index.md#requests-for-information",
+      "explanation_word_count": 57
+    },
+    {
+      "id": "02-q023",
+      "number": 23,
+      "question_text": "A superintendent is told verbally at the site to add a small extra wall, and the schedule is tight. What is the best course of action?",
+      "options": {
+        "A": "Wait for a signed change order or written directive stating price and time",
+        "B": "Begin the work and settle the price after the extra wall is built",
+        "C": "Build the wall and submit it as a punch-list item at closeout",
+        "D": "Ask the building official to approve the extra wall as a field change before any work starts"
+      },
+      "correct_answer": "A",
+      "explanation": "A change order is a written modification of scope, price, or time signed by the owner, architect, and contractor. Starting extra work on a verbal go-ahead leaves price unagreed, so a dispute can leave the contractor unpaid. Punch-list items are minor corrections to contract work, and the building official reviews code compliance, not contract changes.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Change Orders",
+      "source_link": "../chapters/02-design-construction-process/index.md#change-orders",
+      "explanation_word_count": 55
+    },
+    {
+      "id": "02-q024",
+      "number": 24,
+      "question_text": "Activity A takes 3 days. Activities B (4 days) and C (6 days) both follow A. Activity D takes 2 days and follows both B and C. How many days is the shortest possible project duration?",
+      "options": {
+        "A": "9 days",
+        "B": "13 days",
+        "C": "15 days",
+        "D": "11 days"
+      },
+      "correct_answer": "D",
+      "explanation": "The critical path is the longest chain of dependent activities. A-B-D totals 9 days and A-C-D totals 11 days, so the critical path is A-C-D and the project takes 11 days, with B holding 2 days of float. Choosing 9 follows the shorter chain, 13 adds A, B, and C, and 15 adds every duration as though no activities could overlap.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Critical Path",
+      "source_link": "../chapters/02-design-construction-process/index.md#the-critical-path",
+      "explanation_word_count": 61
+    }
+  ],
+  "answer_distribution": {
+    "A": 6,
+    "B": 6,
+    "C": 6,
+    "D": 6
+  },
+  "bloom_distribution": {
+    "Remember": 10,
+    "Understand": 8,
+    "Apply": 5,
+    "Analyze": 1,
+    "Evaluate": 0,
+    "Create": 0
+  },
+  "concept_coverage": {
+    "total_concepts": 24,
+    "tested_concepts": 24,
+    "coverage_percentage": 100
+  },
+  "content_readiness_score": 90,
+  "overall_quality_score": 94
+}
