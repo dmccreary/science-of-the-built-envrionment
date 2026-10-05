@@ -46,6 +46,15 @@ Each `material` key draws one fixed hatch. Choose the key by what the layer *is*
 
 The Legend checkbox is **on by default** and draws a swatch row for the materials used in the current assembly. Students can untick it to hide the legend; Reset turns it back on. A horizontal stack reserves the bottom strip of the drawing for the legend, so bottom callouts stop above it.
 
+## Quiz mode
+
+The **Quiz me** checkbox turns the same layer data into a "read the drawing" exercise, with no extra authoring:
+
+- Callouts, layer checkboxes, the legend, and hover tooltips drop the layer names and show numbers only, so the labels do not give the answers away.
+- The panel under the drawing asks one question. Two kinds are generated: *which layer is this?* (using the layer's `what` or `why` sentence as the clue) and *click a layer that stops <flow>* (every layer whose `stops` includes the flow is accepted).
+- The student clicks a layer. The correct layer is outlined green, a wrong pick red, the names return, and the score updates. **Next question** moves on; unticking Quiz me returns to normal.
+- Because the clues are the layer sentences, write `what` and `why` so each one points to one layer. The validator warns when two layers share a `why`.
+
 ## Labels
 
 - **Callout (level 1): what it is.** A number plus a short noun phrase ("3 WRB", "6 Stud cavity"). Under it, a gray line says what the layer stops ("stops: rain"). Numbers run from side A to side B and match the Break checkboxes.

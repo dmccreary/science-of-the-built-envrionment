@@ -35,6 +35,8 @@ Work through these in each sim, in a wide window (fullscreen landscape) and agai
 - [ ] Tick **Line art**. The drawing should become black and white and print cleanly.
 - [ ] **Legend** is on when the sim loads. The hatch swatches match the layers drawn. Untick it and the legend disappears; **Reset** turns it back on.
 - [ ] Switch the unit selector to **SI**. Thickness, R-value, and temperature should change units.
+- [ ] Tick **Quiz me**. Layer names turn into numbers and a question appears. Click a wrong layer (it outlines red and the right one green), press **Next question**, then click a right layer. The score should read like 1 / 2. Untick Quiz me to return.
+- [ ] Select a layer. The bottom of the panel shows its typical materials and its **MasterFormat** section.
 - [ ] Press **Reset**. Everything returns to the starting state.
 - [ ] No callout text overlaps another, runs off the canvas, or is crossed by a leader line.
 
@@ -106,6 +108,18 @@ Vertical stack from the sky down to the room: ballast, membrane, insulation, vap
 - **Puncture the membrane:** rain should pass only through the hole.
 - **Remove the vapor retarder:** vapor from the room should rise into the insulation.
 - Check the label column on the right: names and the "stops: ..." lines should not overlap.
+
+## Also to test: Structural Span Ranges
+
+This one comes from the new `range-explorer` skill, not the layered-assembly engine. [Run fullscreen](../sims/structural-span-range-explorer/main.html) or open its [lesson page](../sims/structural-span-range-explorer/index.md).
+
+- [ ] It loads with the red marker at 24 ft and a headline like "Span 24 ft: 10 of 13 options reach it".
+- [ ] Drag the red marker in the chart, and move the slider. Both move the same marker.
+- [ ] Rows whose bar contains the marker are dark and bold; the rest fade. Light bar is possible, dark bar is typical.
+- [ ] Put the marker on 40 ft (the Riverbend girder line). Wood joists and flat plate slabs should fade; glulam, steel beams, and trusses should stay dark.
+- [ ] Click a row name: the panel shows what it is, why choose it, and what to watch out for. Click it again to clear.
+- [ ] Untick Wood, Steel, or Concrete; change Sort; switch IP to SI and watch the numbers and axis change.
+- [ ] **The span ranges are my illustrative values, not the book's.** Tell me which ones to change.
 
 ## Known limits of the engine
 

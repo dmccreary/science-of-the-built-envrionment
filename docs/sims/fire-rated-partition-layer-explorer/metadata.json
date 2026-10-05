@@ -3,7 +3,7 @@
   "description": "Explain how each layer of a fire-rated partition stops flame, slows heat, or damps sound, and predict which layer's loss weakens the wall most.",
   "creator": "The Science of the Built Environment",
   "author": "Dan McCreary",
-  "date": "2026-10-04",
+  "date": "2026-10-05",
   "subject": [
     "The Science of the Built Environment"
   ],
@@ -13,7 +13,7 @@
   "rights": "CC BY-NC-SA 4.0",
   "identifier": "fire-rated-partition-layer-explorer",
   "library": "p5.js",
-  "generator": "layered-assembly-infographic engine 1.1.0",
+  "generator": "layered-assembly-infographic engine 1.4.2",
   "bloomLevel": "Understand, Analyze",
   "bloomVerb": "explain, predict",
   "completion_status": "built",
@@ -21,7 +21,36 @@
   "chapter_title": "Fire Protection and Life Safety Requirements",
   "chapter_dir": "18-fire-life-safety",
   "chapter_rel_dir": "chapters/18-fire-life-safety",
-  "canvasHeight": 662,
+  "canvasHeight": 696,
+  "csi_sections": [
+    "09 21 16 Gypsum Board Assemblies",
+    "09 22 16 Non-Structural Metal Framing"
+  ],
+  "currency": {
+    "asOf": "2026-10",
+    "timeless": [
+      "Gypsum board slows heat and flame because it holds chemically bound water that must evaporate first.",
+      "Mass and air-tight layers slow sound; a hole in a rated wall defeats the rating however many layers remain.",
+      "A wall is only as good as its weakest path."
+    ],
+    "ages": [
+      {
+        "item": "The one-hour label for two layers of board on each side",
+        "basis": "Illustrative; not a listed design",
+        "check": "Confirm against a listed assembly (a testing agency's directory) and the IBC edition in force"
+      },
+      {
+        "item": "Board and stud sizes (5/8 in boards, 3 5/8 in steel studs)",
+        "basis": "Typical sizes, not from Chapter 18",
+        "check": "Use the dimensions in the listed design"
+      },
+      {
+        "item": "Fire-resistance rating rules",
+        "basis": "ASTM E119 as referenced by the model code",
+        "check": "Check which code edition the state has adopted"
+      }
+    ]
+  },
   "educational": {
     "educationalLevel": "Undergraduate, Adult learners",
     "learningResourceType": "simulation",
@@ -49,7 +78,8 @@
       "Click a layer or its label to read what it is, why it is there, and what happens if it fails.",
       "Watch the three kinds of dots. Red dots are flame, orange dots are heat, and gold dots are sound. Flame stops at the first intact board; heat and sound are only slowed, so some always reaches the far side.",
       "Untick a layer's checkbox to remove that layer, or choose Punch a hole first to puncture it instead. Read the status line and the layer panel after each change.",
-      "Slide Explode to pull the layers apart, and tick Line art for a black-and-white view you can print."
+      "Slide Explode to pull the layers apart, and tick Line art for a black-and-white view you can print.",
+      "Tick Quiz me to test yourself. A question appears under the drawing, the layer names are hidden, and you click the layer that answers it. Your score builds as you go; press Next question to continue."
     ],
     "activities": [
       "Predict and test (10 min): before you remove anything, write down which layer you think fails first in a real fire and which one the wall can least afford to lose. Then remove the fire-side boards one at a time, then both, and watch where the flame stops.",

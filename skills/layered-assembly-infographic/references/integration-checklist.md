@@ -23,6 +23,8 @@ The project rules that apply when a layered-assembly sim is added to the book. T
 
 - [ ] Opened in a browser and every control exercised (layers: untick each in both Remove and Punch modes, Explode, each flow, Temperature, Line art, Legend, units, Reset).
 - [ ] Checked at 640 px wide (the minimum test width) and at a wide fullscreen width: nothing overlaps, and a vertical stack, its labels, and its legend sit together in the center.
+- [ ] **Quiz me** works: names disappear, a question appears, a right and a wrong click both give feedback, the score updates, Next question loads another, and unticking Quiz me restores the normal view.
+- [ ] Selecting a layer shows its MasterFormat section (if it has `csi`) and the lesson page has the "MasterFormat Context" and "What Ages in This Sim" sections.
 - [ ] Console shows no errors or p5 "redeclared" warnings.
 - [ ] `mkdocs build --strict` exits clean. (Do not start or stop `mkdocs serve`; the author runs it.)
 - [ ] `assembly_tool.py sync` shows the sim's engine "up to date".

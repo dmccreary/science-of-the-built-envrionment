@@ -3,7 +3,7 @@
   "description": "Identify the layers under and in a heated slab-on-grade floor and predict what happens to ground water, vapor, and heat when the vapor retarder or the foam is left out.",
   "creator": "The Science of the Built Environment",
   "author": "Dan McCreary",
-  "date": "2026-10-04",
+  "date": "2026-10-05",
   "subject": [
     "The Science of the Built Environment"
   ],
@@ -13,7 +13,7 @@
   "rights": "CC BY-NC-SA 4.0",
   "identifier": "heated-slab-on-grade-layers",
   "library": "p5.js",
-  "generator": "layered-assembly-infographic engine 1.1.0",
+  "generator": "layered-assembly-infographic engine 1.4.2",
   "bloomLevel": "Remember, Understand",
   "bloomVerb": "identify, predict",
   "completion_status": "built",
@@ -21,7 +21,40 @@
   "chapter_title": "Foundation Systems",
   "chapter_dir": "10-foundation-systems",
   "chapter_rel_dir": "chapters/10-foundation-systems",
-  "canvasHeight": 756,
+  "canvasHeight": 790,
+  "csi_sections": [
+    "03 30 00 Cast-in-Place Concrete",
+    "07 21 00 Thermal Insulation",
+    "07 26 00 Vapor Retarders",
+    "31 23 23 Fill",
+    "32 11 23 Aggregate Base Courses",
+    "31 23 00 Excavation and Fill"
+  ],
+  "currency": {
+    "asOf": "2026-10",
+    "timeless": [
+      "Heat flows from the warm slab toward the cold ground, and most of the temperature drop falls across the layer with the most thermal resistance.",
+      "Ground water rises as liquid through fine soil but cannot climb across large gaps, so a gravel layer breaks the capillary path.",
+      "Vapor moves through gravel and sand freely and needs a vapor retarder to be slowed."
+    ],
+    "ages": [
+      {
+        "item": "R-values of foam, sand, gravel, and soil",
+        "basis": "Chapter 3 approximate values plus the author's assumptions for sand, gravel, and soil",
+        "check": "Use manufacturer data and the slab insulation R-value required by the adopted energy code"
+      },
+      {
+        "item": "Vapor retarder thickness (10 mil) and class",
+        "basis": "Typical practice, not a code citation",
+        "check": "Confirm the product class and the flooring manufacturer's moisture limits"
+      },
+      {
+        "item": "Whether foam is required under a heated slab, and where the retarder sits relative to the foam",
+        "basis": "Chapter 10 does not specify either",
+        "check": "Check the adopted energy code edition and the project details"
+      }
+    ]
+  },
   "educational": {
     "educationalLevel": "Undergraduate, Adult learners",
     "learningResourceType": "simulation",
@@ -47,7 +80,8 @@
       "Read the floor from the heated room at the top down to the ground at the bottom. Each numbered label names a layer.",
       "Click a layer or its label to see what it is, why it is there, and what goes wrong without it.",
       "Untick a layer's checkbox to leave that layer out, or choose Punch a hole first to puncture it. Watch where the blue (ground water), purple (vapor), and orange (heat) dots stop or pass.",
-      "Tick Temperature and drag the slider to see how much of the temperature drop the foam takes. Use Explode to separate the layers so thin ones are easy to see."
+      "Tick Temperature and drag the slider to see how much of the temperature drop the foam takes. Use Explode to separate the layers so thin ones are easy to see.",
+      "Tick Quiz me to test yourself. A question appears under the drawing, the layer names are hidden, and you click the layer that answers it. Your score builds as you go; press Next question to continue."
     ],
     "activities": [
       "Predict and test (10 min): before unticking any box, write which flows each of the five constructed layers (everything above the soil) stops. Then break the vapor retarder, then the foam, and compare your prediction with the status line.",

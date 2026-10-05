@@ -269,6 +269,7 @@ nav:
       - "Site Analysis Layer Explorer": sims/site-analysis-layer-explorer/index.md
       - "Bearing Capacity and Footing Size Explorer": sims/soil-bearing-footing-area-explorer/index.md
       - "Steel Shape Comparison Explorer": sims/steel-shape-comparison-explorer/index.md
+      - "Structural Span Ranges": sims/structural-span-range-explorer/index.md
       - "Stress, Force, and Area Explorer": sims/stress-area-load-explorer/index.md
       - "Stress-Strain Curve Explorer": sims/stress-strain-curve-explorer/index.md
       - "Sustainability Trade-Off Explorer": sims/sustainability-trade-off-explorer/index.md

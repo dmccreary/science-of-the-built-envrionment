@@ -1,0 +1,19 @@
+{
+  "skill_name": "range-explorer",
+  "evals": [
+    {
+      "id": 1,
+      "eval_name": "wire-gauge-vs-load",
+      "prompt": "Chapter 15 mentions 14, 12, 10, 8 and 6 AWG wire. Make an interactive where a student sets a load in amps and sees which gauges can carry it, using whatever numbers the chapter gives.",
+      "expected_output": "A validated range-explorer spec on an amps axis with five items, ranges taken from the chapter or clearly marked illustrative, no SI toggle, and a report that says where the numbers came from.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "eval_name": "layers-request-should-not-trigger",
+      "prompt": "Make a cross-section of an insulated basement wall with the layers labeled and a way to remove each layer.",
+      "expected_output": "The agent recognizes this is a layer stack and uses layered-assembly-infographic, not range-explorer.",
+      "files": []
+    }
+  ]
+}
