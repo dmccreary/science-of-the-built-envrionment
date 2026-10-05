@@ -1,0 +1,59 @@
+{
+  "title": "Code Editions and Building Life Explorer",
+  "description": "Calculate how many code editions are published during a building's service life and how many times each building component is replaced, given the building's life and each component's life.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-05",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "code-editions-building-life-explorer",
+  "library": "p5.js",
+  "bloomLevel": "Apply",
+  "bloomVerb": "calculate",
+  "completion_status": "built",
+  "chapter_number": 0,
+  "chapter_title": "Appendix H: Energy Codes and Building Performance Standards",
+  "chapter_dir": "codes-performance-standards",
+  "chapter_rel_dir": "appendices/codes-performance-standards",
+  "canvasHeight": 490,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Apply"
+    ],
+    "concepts": [
+      "Code edition cycle",
+      "Component replacement cycle",
+      "Building performance standards"
+    ],
+    "prerequisites": [
+      "Code edition",
+      "Service life",
+      "Replacement"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Calculate how many code editions are published during a building's service life and how many times each building component is replaced, given the building's life and each component's life.",
+    "recommendedUsage": [
+      "Read challenge 1 and type a whole number of code editions. Press Check.",
+      "After each answer the timeline fills in the part that the challenge asks about.",
+      "When the slider unlocks, change the building life from 30 to 100 years and watch the editions and the replacement counts update.",
+      "Find the components that stay for the whole life at 60 years, then raise the life to 100 years."
+    ],
+    "activities": [
+      "Count (10 min): For building lives of 40, 60, and 90 years, count the editions and the replacements of each component by hand, then check with the sim.",
+      "What cannot be upgraded (10 min): List the parts that stay for the whole life at 60 years and explain why this argues for building them better than the current minimum.",
+      "Design a life (5 min): Choose a life for a school and justify it by the replacements it implies."
+    ],
+    "assessment": [
+      "Students state the number of times a 30-year window is replaced in a 75-year life, with the arithmetic.",
+      "Students explain why the structural frame and the insulation and air barrier deserve more than the current code minimum."
+    ]
+  }
+}

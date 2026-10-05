@@ -379,3 +379,71 @@ ConceptID,ConceptLabel,Dependencies,TaxonomyID
 378,Renovation and Retrofit,377,DURA
 379,Adaptive Reuse,378,DURA
 380,Deconstruction,378|347,DURA
+381,Ground Temperature Profile,108|59,EVOL
+382,Seasonal Temperature Swing,381,EVOL
+383,Damping Depth,382,EVOL
+384,Refrigerant,248,EVOL
+385,Refrigeration Cycle,248|384,EVOL
+386,Coefficient of Performance,248|276,EVOL
+387,Temperature Lift,386|58,EVOL
+388,Carnot Limit,386|387,EVOL
+389,Cold-Climate Heat Pump,248|386,EVOL
+390,Variable-Speed Compressor,248,EVOL
+391,Building Electrification,245|271,EVOL
+392,Refrigerant Global Warming Potential,384|334,EVOL
+393,Energy Recovery Ventilator,255|69,EVOL
+394,Heat Recovery Effectiveness,255,EVOL
+395,Heat Exchanger Frost and Defrost,394|72,EVOL
+396,Ground-Source Heat Pump,248|381,EVOL
+397,Ground Loop,396,EVOL
+398,Networked Geothermal,397,EVOL
+399,Earth Tube,251|381,EVOL
+400,Peak Sun Hours,305|62,EVOL
+401,System Derate,305|400,EVOL
+402,Inverter,278|279,EVOL
+403,Net Metering,305|280,EVOL
+404,Battery Energy Storage,279|277|291|402,EVOL
+405,Lithium Iron Phosphate Batteries,404,EVOL
+406,Battery Energy and Power Ratings,404|276,EVOL
+407,Battery Run Time,406|291,EVOL
+408,Round-Trip Efficiency,404|277,EVOL
+409,Battery Safety Standards,404|304,EVOL
+410,Time-of-Use Rates,280|277,EVOL
+411,Vehicle-to-Home Power,404|306,EVOL
+412,Grid-Interactive Buildings,404|259|410,EVOL
+413,Building Sensors,259,EVOL
+414,Sensor Calibration and Placement,413,EVOL
+415,Carbon Dioxide Monitoring,413|256,EVOL
+416,Demand-Controlled Ventilation,415|251,EVOL
+417,Water Leak Detection,413|368,EVOL
+418,Occupancy Sensing,413|294,EVOL
+419,Energy Submetering,413|277,EVOL
+420,Control Loop,413,EVOL
+421,Fault Detection and Diagnostics,420,EVOL
+422,Building Communication Protocols,259|300,EVOL
+423,Building Cybersecurity and Privacy,422,EVOL
+424,Digital Twin,51|413,EVOL
+425,Continuous Commissioning,32|421,EVOL
+426,Type IV Mass Timber Construction,342|323,EVOL
+427,Timber Charring,342|96,EVOL
+428,Mass Timber Moisture Protection,342|162|201,EVOL
+429,Warm Roof Assembly,224|202|201,EVOL
+430,Low-Carbon Concrete,361|174,EVOL
+431,Carbon Mineralization,430,EVOL
+432,Biogenic Carbon,360,EVOL
+433,Buy Clean Procurement,336|339,EVOL
+434,Low-Carbon Steel,168|336,EVOL
+435,Code Edition Cycle,308,EVOL
+436,ASHRAE Standard 90.1,332|349,EVOL
+437,International Energy Conservation Code,308|349,EVOL
+438,Building Performance Standards,307|349,EVOL
+439,Minnesota 2036 Commercial Energy Target,311|435,EVOL
+440,Electric-Ready and Solar-Ready Requirements,311|305|306,EVOL
+441,Component Replacement Cycle,364,EVOL
+442,Prefabrication,24,EVOL
+443,Modular Construction,442,EVOL
+444,Clash Detection,51|52,EVOL
+445,Reality Capture,51,EVOL
+446,Construction Robotics,24,EVOL
+447,AI-Assisted Design and Code Review,51|319,EVOL
+448,AI Output Verification,447|53,EVOL

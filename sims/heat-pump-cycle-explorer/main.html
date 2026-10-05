@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Heat Pump Cycle Explorer</title>
+    <style>
+        * { box-sizing: border-box; }
+        body { margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: black; background: white; }
+        main { width: 100%; border: 1px solid silver; background: white; }
+        h1 { margin: 0; padding: 5px 10px; font-size: 20px; text-align: center; background: aliceblue; border-bottom: 1px solid silver; }
+        #diagram { background: aliceblue; border-bottom: 1px solid silver; }
+        svg { display: block; width: 100%; height: 340px; }
+        svg text { font-family: Arial, Helvetica, sans-serif; }
+        .part { cursor: pointer; }
+        .part:focus { outline: none; }
+        .part:focus .box, .part:hover .box { stroke: navy; stroke-width: 3; }
+        .box { fill: white; stroke: dimgray; stroke-width: 2; }
+        .hot { stroke-width: 3; }
+        .noclick { cursor: default; }
+        .glow .box { stroke: gold; stroke-width: 6; }
+        #legend { display: flex; flex-wrap: wrap; gap: 2px 14px; justify-content: center; padding: 3px 8px; font-size: 14px; background: aliceblue; border-bottom: 1px solid silver; }
+        #legend span::before { content: ""; display: inline-block; width: 22px; height: 6px; margin-right: 5px; vertical-align: middle; background: var(--c); }
+        #panel { padding: 6px 10px; min-height: 212px; }
+        #prompt { margin: 0 0 6px; line-height: 1.3; }
+        #prompt b { color: navy; }
+        .opts { display: flex; flex-wrap: wrap; gap: 6px 10px; margin: 6px 0; }
+        button { font-size: 16px; padding: 3px 10px; }
+        .fb { margin: 6px 0; padding: 4px 8px; border-left: 5px solid silver; line-height: 1.3; min-height: 24px; }
+        .fb.good { border-color: seagreen; background: honeydew; }
+        .fb.bad { border-color: firebrick; background: mistyrose; }
+        #bar { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 14px; padding: 5px 10px; border-top: 1px solid silver; }
+        #bar label { white-space: nowrap; }
+        .hide { display: none !important; }
+        .muted { color: dimgray; font-size: 14px; }
+    </style>
+    <script src="heat-pump-cycle-explorer.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Heat Pump Cycle Explorer</h1>
+        <div id="diagram">
+            <svg id="svg" viewBox="0 0 640 340" preserveAspectRatio="xMidYMid meet" role="group" aria-label="Heat pump refrigerant loop with a compressor, reversing valve, indoor coil, outdoor coil and expansion valve">
+                <rect x="0" y="0" width="320" height="340" fill="lightcyan" opacity="0.55"/>
+                <rect x="320" y="0" width="320" height="340" fill="floralwhite"/>
+                <text x="10" y="18" font-size="14" fill="dimgray" id="outLabel">OUTDOORS</text>
+                <text x="630" y="18" font-size="14" fill="dimgray" text-anchor="end" id="inLabel">INDOORS</text>
+                <g id="pipes"></g>
+                <g id="heat"></g>
+                <g class="part" id="gComp" tabindex="0" role="button" aria-label="Compressor">
+                    <rect class="box" x="265" y="24" width="110" height="44" rx="8"/>
+                    <text x="320" y="51" text-anchor="middle" font-size="16" font-weight="bold">Compressor</text>
+                </g>
+                <g class="part" id="gRv" tabindex="0" role="button" aria-label="Reversing valve">
+                    <rect class="box" x="265" y="92" width="110" height="40" rx="8"/>
+                    <text x="320" y="117" text-anchor="middle" font-size="15" font-weight="bold">Reversing valve</text>
+                </g>
+                <g class="part" id="gL" tabindex="0" role="button" aria-label="Outdoor coil">
+                    <rect class="box" x="40" y="140" width="100" height="110" rx="8"/>
+                    <text x="90" y="182" text-anchor="middle" font-size="16" font-weight="bold">Outdoor</text>
+                    <text x="90" y="200" text-anchor="middle" font-size="16" font-weight="bold">coil</text>
+                    <text id="roleL" x="90" y="228" text-anchor="middle" font-size="15" fill="navy"></text>
+                </g>
+                <g class="part" id="gR" tabindex="0" role="button" aria-label="Indoor coil">
+                    <rect class="box" x="500" y="140" width="100" height="110" rx="8"/>
+                    <text x="550" y="182" text-anchor="middle" font-size="16" font-weight="bold">Indoor</text>
+                    <text x="550" y="200" text-anchor="middle" font-size="16" font-weight="bold">coil</text>
+                    <text id="roleR" x="550" y="228" text-anchor="middle" font-size="15" fill="navy"></text>
+                </g>
+                <g class="part" id="gExp" tabindex="0" role="button" aria-label="Expansion valve">
+                    <rect class="box" x="265" y="280" width="110" height="40" rx="8"/>
+                    <text x="320" y="305" text-anchor="middle" font-size="15" font-weight="bold">Expansion valve</text>
+                </g>
+                <g id="notes"></g>
+            </svg>
+        </div>
+        <div id="legend">
+            <span style="--c: firebrick">hot high-pressure vapor</span>
+            <span style="--c: darkorange">warm liquid</span>
+            <span style="--c: royalblue">cold low-pressure liquid</span>
+            <span style="--c: deepskyblue">cool low-pressure vapor</span>
+        </div>
+        <div id="panel">
+            <p id="prompt"></p>
+            <div class="opts" id="opts"></div>
+            <div class="fb hide" id="fb" aria-live="polite"></div>
+            <button id="goBtn" type="button">Start walkthrough</button>
+            <button id="nextBtn" type="button" class="hide">Next stage</button>
+        </div>
+        <div id="bar">
+            <b>Mode:</b>
+            <label><input type="radio" name="mode" value="heating" checked disabled> Heating</label>
+            <label><input type="radio" name="mode" value="cooling" disabled> Cooling</label>
+            <span class="muted" id="modeHint">Mode switch unlocks after the walkthrough.</span>
+            <span id="score" style="margin-left:auto"></span>
+        </div>
+    </main>
+</body>
+</html>

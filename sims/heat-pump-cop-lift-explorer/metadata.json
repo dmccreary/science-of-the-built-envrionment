@@ -1,0 +1,61 @@
+{
+  "title": "Heat Pump COP and Lift Explorer",
+  "description": "Calculate the Carnot limit on heat pump COP from a stated outdoor temperature and supply temperature, to within 0.1, and use it to estimate the electricity and cost needed to deliver 100,000 Btu of heat.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-05",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "heat-pump-cop-lift-explorer",
+  "library": "p5.js",
+  "bloomLevel": "Apply",
+  "bloomVerb": "calculate",
+  "completion_status": "built",
+  "chapter_number": 0,
+  "chapter_title": "Appendix A: Heat Pumps and Building Electrification",
+  "chapter_dir": "heat-pumps-electrification",
+  "chapter_rel_dir": "appendices/heat-pumps-electrification",
+  "canvasHeight": 620,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Apply"
+    ],
+    "concepts": [
+      "Coefficient of performance",
+      "Temperature lift",
+      "Carnot limit",
+      "Cold-climate heat pump"
+    ],
+    "prerequisites": [
+      "Coefficient of performance",
+      "Lift",
+      "Kelvin",
+      "Therm and kilowatt-hour"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Calculate the Carnot limit on heat pump COP from a stated outdoor temperature and supply temperature, to within 0.1, and use it to estimate the electricity and cost needed to deliver 100,000 Btu of heat.",
+    "recommendedUsage": [
+      "Read the outdoor and supply temperatures for challenge 1, convert both to kelvin, and type the Carnot limit. Press Check.",
+      "Work through the four challenges. The thermometer shows the lift between the two temperatures.",
+      "When the sliders unlock, change the outdoor and supply temperatures and watch the Carnot limit, the COP used, and the three costs update.",
+      "Switch the COP source to the seasonal COP of 2.5 to reproduce the Appendix A example, then raise the gas price until the heat pump becomes the cheaper system and compare with the break-even price."
+    ],
+    "activities": [
+      "Predict the limit (10 min): For each challenge write the lift in kelvin before computing the limit.",
+      "Colder and hotter (10 min): Hold the supply at 100 F and lower the outdoor temperature from 60 F to -20 F. Then raise the supply to 130 F at 5 F outdoors. Record the limit each time.",
+      "Break-even (10 min): Find the gas price at which the heat pump and furnace cost the same, and check it against the readout."
+    ],
+    "assessment": [
+      "Students compute the Carnot limit for 20 F outdoors and 110 F supply, showing both kelvin conversions.",
+      "Students explain why a COP above 1 does not violate conservation of energy."
+    ]
+  }
+}

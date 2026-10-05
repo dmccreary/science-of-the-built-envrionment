@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Ground-Source ROI Estimator</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+    <style>
+        * { box-sizing: border-box; }
+        body { margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; font-size: 16px; color: black; background: white; }
+        main { width: 100%; border: 1px solid silver; background: white; }
+        h1 { margin: 0; padding: 5px 10px; font-size: 20px; text-align: center; background: aliceblue; border-bottom: 1px solid silver; }
+        #controls { padding: 5px 10px; border-bottom: 1px solid silver; }
+        .ctl { display: flex; align-items: center; gap: 4px 10px; margin: 4px 0; min-height: 26px; }
+        .ctl label.t { width: 250px; flex: 0 0 auto; white-space: nowrap; }
+        .ctl input[type=range] { flex: 1 1 120px; min-width: 80px; margin: 0; }
+        .ctl select { flex: 1 1 auto; min-width: 0; font-size: 16px; }
+        button { font-size: 16px; white-space: nowrap; }
+        #chartBox { position: relative; height: 300px; padding: 4px 6px 0; background: aliceblue; border-bottom: 1px solid silver; }
+        #tableBox { position: absolute; inset: 0; padding: 4px 8px; background: white; overflow: hidden; }
+        table { width: 100%; border-collapse: collapse; font-size: 13px; line-height: 1.2; font-variant-numeric: tabular-nums; }
+        th, td { padding: 2px 6px; text-align: right; border-bottom: 1px solid gainsboro; white-space: nowrap; }
+        th:first-child, td:first-child { text-align: left; }
+        th { background: aliceblue; }
+        tr.total td { font-weight: bold; border-bottom: none; }
+        #tiles { display: grid; grid-template-columns: repeat(4, 1fr); border-bottom: 1px solid silver; }
+        .tile { padding: 5px 10px 6px; border-left: 1px solid gainsboro; min-height: 88px; }
+        .tile:first-child { border-left: none; }
+        .tile .k { font-size: 14px; color: dimgray; white-space: nowrap; }
+        .tile .v { font-size: 24px; font-weight: bold; color: navy; line-height: 1.25; white-space: nowrap; }
+        .tile .s { font-size: 13px; color: dimgray; line-height: 1.25; }
+        #readout { padding: 5px 10px; line-height: 1.3; min-height: 52px; border-bottom: 1px solid silver; }
+        #readout b { color: navy; }
+        #challenge { padding: 5px 10px 6px; }
+        .row { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; }
+        .row input[type=number] { width: 80px; font-size: 16px; }
+        .msg { margin: 5px 0 0; padding: 4px 8px; border-left: 5px solid silver; background: white; min-height: 50px; line-height: 1.3; }
+        .msg.good { border-color: seagreen; background: honeydew; }
+        .msg.bad { border-color: firebrick; background: mistyrose; }
+        .foot { color: dimgray; font-size: 13px; line-height: 1.25; margin-top: 5px; min-height: 49px; }
+        .hide { display: none !important; }
+        @media (max-width: 700px) {
+            .ctl label.t { width: 225px; }
+            .tile { padding: 5px 7px 6px; }
+            .tile .v { font-size: 22px; }
+            th, td { padding: 2px 4px; }
+        }
+    </style>
+    <script src="ground-source-roi-estimator.js"></script>
+</head>
+<body>
+    <main>
+        <h1>Ground-Source ROI Estimator</h1>
+        <div id="controls">
+            <div class="ctl"><label class="t" for="lenSlider" id="lenText">Pipe length: 200 ft</label>
+                <input type="range" id="lenSlider" min="50" max="400" step="10" value="200" aria-label="Total length of buried pipe in feet"></div>
+            <div class="ctl"><label class="t" for="costSlider" id="costText">Installed cost: $40 per foot</label>
+                <input type="range" id="costSlider" min="20" max="80" step="5" value="40" aria-label="Installed cost in dollars per foot of pipe"></div>
+            <div class="ctl"><label class="t" for="sysSel"><b>Heating system</b></label>
+                <select id="sysSel" aria-label="Heating system">
+                    <option value="gas">95% gas furnace, $1.20/therm</option>
+                    <option value="hp">Heat pump, COP 2.5, $0.14/kWh</option>
+                    <option value="res">Electric resistance, $0.14/kWh</option>
+                </select>
+                <button id="viewBtn" type="button">Show table</button></div>
+        </div>
+        <div id="chartBox">
+            <canvas id="chart" role="img" aria-label="Paired bars for each month comparing the heating and cooling cost of a home with a standard air intake against the same home with a buried ground-source air intake"></canvas>
+            <div id="tableBox" class="hide"></div>
+        </div>
+        <div id="tiles" aria-live="polite">
+            <div class="tile"><div class="k">Installed cost</div><div class="v" id="costVal"></div><div class="s" id="costSub"></div></div>
+            <div class="tile"><div class="k">Yearly savings</div><div class="v" id="saveVal"></div><div class="s" id="saveSub"></div></div>
+            <div class="tile"><div class="k">Simple payback</div><div class="v" id="payVal"></div><div class="s" id="paySub"></div></div>
+            <div class="tile"><div class="k">30-year return (ROI)</div><div class="v" id="roiVal"></div><div class="s" id="roiSub"></div></div>
+        </div>
+        <div id="readout" aria-live="polite"></div>
+        <div id="challenge">
+            <div class="row">
+                <label for="lenInput"><b>Challenge:</b> which pipe length pays back fastest?</label>
+                <span><input type="number" id="lenInput" min="50" max="400" step="10" aria-label="Your answer in feet of pipe"> ft</span>
+                <button id="checkBtn" type="button">Check</button>
+            </div>
+            <div class="msg" id="msg" aria-live="polite"></div>
+            <div class="foot" id="note"></div>
+        </div>
+    </main>
+</body>
+</html>

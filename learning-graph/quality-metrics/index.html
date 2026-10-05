@@ -1847,12 +1847,12 @@
 <h1 id="learning-graph-quality-metrics-report">Learning Graph Quality Metrics Report<a class="headerlink" href="#learning-graph-quality-metrics-report" title="Permanent link">¶</a></h1>
 <h2 id="overview">Overview<a class="headerlink" href="#overview" title="Permanent link">¶</a></h2>
 <ul>
-<li><strong>Total Concepts</strong>: 380</li>
+<li><strong>Total Concepts</strong>: 448</li>
 <li><strong>Foundational Concepts</strong> (no prerequisites, other concepts depend on them): 6</li>
-<li><strong>Terminal Nodes</strong> (nothing depends on them, but have prerequisites): 149</li>
+<li><strong>Terminal Nodes</strong> (nothing depends on them, but have prerequisites): 181</li>
 <li><strong>Orphaned Nodes</strong> (completely disconnected, no edges): 0</li>
-<li><strong>Concepts with Dependencies</strong>: 374</li>
-<li><strong>Average Dependencies per Concept</strong>: 1.62</li>
+<li><strong>Concepts with Dependencies</strong>: 442</li>
+<li><strong>Average Dependencies per Concept</strong>: 1.64</li>
 </ul>
 <h2 id="graph-structure-validation">Graph Structure Validation<a class="headerlink" href="#graph-structure-validation" title="Permanent link">¶</a></h2>
 <ul>
@@ -1895,7 +1895,7 @@
 <h2 id="terminal-nodes-analysis">Terminal Nodes Analysis<a class="headerlink" href="#terminal-nodes-analysis" title="Permanent link">¶</a></h2>
 <p>Terminal nodes are concepts that nothing else depends on but have prerequisites. They represent natural endpoints of learning paths — culminating or specialized concepts.</p>
 <ul>
-<li><strong>Total Terminal Nodes</strong>: 149 (39.2% of all concepts)</li>
+<li><strong>Total Terminal Nodes</strong>: 181 (40.4% of all concepts)</li>
 <li><strong>Healthy Range</strong>: 5-40% of total concepts</li>
 </ul>
 <p>Concepts at the end of learning paths:</p>
@@ -1916,12 +1916,12 @@
 <li><strong>47</strong>: Requests for Information</li>
 <li><strong>48</strong>: Change Orders</li>
 <li><strong>50</strong>: Critical Path</li>
-<li><strong>51</strong>: Building Information Modeling</li>
-<li><strong>72</strong>: Condensation</li>
 <li><strong>78</strong>: Sound Transmission</li>
 <li><strong>86</strong>: Shear Strength</li>
+<li><strong>88</strong>: Modulus of Elasticity</li>
+<li><strong>90</strong>: Brittleness</li>
 </ul>
-<p><em>...and 129 more</em></p>
+<p><em>...and 161 more</em></p>
 <h2 id="orphaned-nodes-analysis">Orphaned Nodes Analysis<a class="headerlink" href="#orphaned-nodes-analysis" title="Permanent link">¶</a></h2>
 <p>Orphaned nodes are completely disconnected concepts with no inbound AND no outbound edges. These indicate a quality problem — every concept should connect to the graph.</p>
 <ul>
@@ -1955,54 +1955,54 @@
 <td>2</td>
 <td>59</td>
 <td>Heat Transfer</td>
-<td>10</td>
+<td>11</td>
 </tr>
 <tr>
 <td>3</td>
+<td>271</td>
+<td>Electrical Systems</td>
+<td>11</td>
+</tr>
+<tr>
+<td>4</td>
 <td>68</td>
 <td>Moisture</td>
 <td>10</td>
 </tr>
 <tr>
-<td>4</td>
+<td>5</td>
 <td>133</td>
 <td>Structural System</td>
-<td>10</td>
-</tr>
-<tr>
-<td>5</td>
-<td>271</td>
-<td>Electrical Systems</td>
 <td>10</td>
 </tr>
 <tr>
 <td>6</td>
 <td>307</td>
 <td>Building Codes</td>
-<td>9</td>
+<td>10</td>
 </tr>
 <tr>
 <td>7</td>
+<td>62</td>
+<td>Radiation</td>
+<td>9</td>
+</tr>
+<tr>
+<td>8</td>
+<td>334</td>
+<td>Sustainability</td>
+<td>9</td>
+</tr>
+<tr>
+<td>9</td>
 <td>4</td>
 <td>Building Materials</td>
 <td>8</td>
 </tr>
 <tr>
-<td>8</td>
-<td>62</td>
-<td>Radiation</td>
-<td>8</td>
-</tr>
-<tr>
-<td>9</td>
-<td>208</td>
-<td>Insulation</td>
-<td>8</td>
-</tr>
-<tr>
 <td>10</td>
-<td>334</td>
-<td>Sustainability</td>
+<td>174</td>
+<td>Concrete</td>
 <td>8</td>
 </tr>
 </tbody>
@@ -2022,19 +2022,19 @@
 </tr>
 <tr>
 <td>1</td>
-<td>171</td>
+<td>192</td>
 </tr>
 <tr>
 <td>2</td>
-<td>177</td>
+<td>219</td>
 </tr>
 <tr>
 <td>3</td>
-<td>24</td>
+<td>28</td>
 </tr>
 <tr>
 <td>4</td>
-<td>1</td>
+<td>2</td>
 </tr>
 <tr>
 <td>5</td>
@@ -2044,7 +2044,7 @@
 </table>
 <h2 id="recommendations">Recommendations<a class="headerlink" href="#recommendations" title="Permanent link">¶</a></h2>
 <ul>
-<li>✅ <strong>Terminal node percentage</strong> (39.2%): Within healthy range (5-40%)</li>
+<li>ℹ️ <strong>High terminal node percentage</strong> (40.4%): Consider if some terminal concepts should be prerequisites for advanced concepts</li>
 <li>✅ <strong>DAG structure verified</strong>: Graph supports valid learning progressions</li>
 </ul>
 <hr>
