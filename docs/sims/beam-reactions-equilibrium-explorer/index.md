@@ -1,6 +1,6 @@
 ---
-title: Beam Reactions and Equilibrium Explorer
-description: Students load a simply supported beam with a point load or a uniform line load and watch the support reactions change length as the load moves. A panel substitutes the current numbers into the three equilibrium equations and checks that all three sums are zero.
+title: "Beam Reactions and Equilibrium Explorer"
+description: "Students load a simply supported beam with a point load or a uniform line load and watch the support reactions change length as the load moves. A panel substitutes the current numbers into the three equilibrium equations and checks that all three sums are zero."
 image: /sims/beam-reactions-equilibrium-explorer/beam-reactions-equilibrium-explorer.png
 og:image: /sims/beam-reactions-equilibrium-explorer/beam-reactions-equilibrium-explorer.png
 twitter:image: /sims/beam-reactions-equilibrium-explorer/beam-reactions-equilibrium-explorer.png

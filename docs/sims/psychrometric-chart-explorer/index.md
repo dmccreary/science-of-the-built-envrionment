@@ -1,6 +1,6 @@
 ---
-title: Psychrometric Chart Explorer
-description: Students move a state point on a simplified psychrometric chart to read the temperature, humidity ratio, relative humidity, and dew point of air, then warm or cool the air to see RH change while the dew point stays fixed. A wall surface test shows whether a surface is cold enough for condensation.
+title: "Psychrometric Chart Explorer"
+description: "Students move a state point on a simplified psychrometric chart to read the temperature, humidity ratio, relative humidity, and dew point of air, then warm or cool the air to see RH change while the dew point stays fixed. A wall surface test shows whether a surface is cold enough for condensation."
 image: /sims/psychrometric-chart-explorer/psychrometric-chart-explorer.png
 og:image: /sims/psychrometric-chart-explorer/psychrometric-chart-explorer.png
 twitter:image: /sims/psychrometric-chart-explorer/psychrometric-chart-explorer.png

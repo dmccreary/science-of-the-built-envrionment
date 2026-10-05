@@ -1,6 +1,6 @@
 ---
-title: Scales of the Built Environment
-description: Five nested rounded rectangles show the scales of the built environment from material to region. Students hover for examples, click for definitions and failure consequences, and step through the January classroom example to see one complaint traced across four scales.
+title: "Scales of the Built Environment"
+description: "Five nested rounded rectangles show the scales of the built environment from material to region. Students hover for examples, click for definitions and failure consequences, and step through the January classroom example to see one complaint traced across four scales."
 image: /sims/built-environment-scales/built-environment-scales.png
 og:image: /sims/built-environment-scales/built-environment-scales.png
 twitter:image: /sims/built-environment-scales/built-environment-scales.png

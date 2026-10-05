@@ -1,6 +1,6 @@
 ---
-title: Ceiling Coordination Clash Explorer
-description: Students analyze a cross-section of the space above a ceiling, drag a supply duct, sloped drain pipe, cable tray, and light fixtures between two glued-laminated beams, and watch a live clash counter. A clash check lists the conflicts and states the priority order for resolving them.
+title: "Ceiling Coordination Clash Explorer"
+description: "Students analyze a cross-section of the space above a ceiling, drag a supply duct, sloped drain pipe, cable tray, and light fixtures between two glued-laminated beams, and watch a live clash counter. A clash check lists the conflicts and states the priority order for resolving them."
 image: /sims/ceiling-coordination-clash-explorer/ceiling-coordination-clash-explorer.png
 og:image: /sims/ceiling-coordination-clash-explorer/ceiling-coordination-clash-explorer.png
 twitter:image: /sims/ceiling-coordination-clash-explorer/ceiling-coordination-clash-explorer.png

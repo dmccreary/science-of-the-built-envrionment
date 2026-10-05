@@ -1,6 +1,6 @@
 ---
-title: Critical Path Explorer
-description: Students work with the eight Riverbend structure activities as a left-to-right network. They change durations with sliders, watch the earliest start, earliest finish, float, and critical path recalculate, and slip the truss delivery by 10 days to see the critical path change.
+title: "Critical Path Explorer"
+description: "Students work with the eight Riverbend structure activities as a left-to-right network. They change durations with sliders, watch the earliest start, earliest finish, float, and critical path recalculate, and slip the truss delivery by 10 days to see the critical path change."
 image: /sims/critical-path-explorer/critical-path-explorer.png
 og:image: /sims/critical-path-explorer/critical-path-explorer.png
 twitter:image: /sims/critical-path-explorer/critical-path-explorer.png

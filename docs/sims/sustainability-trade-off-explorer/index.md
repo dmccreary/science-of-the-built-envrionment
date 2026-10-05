@@ -1,6 +1,6 @@
 ---
-title: Sustainability Trade-Off Explorer
-description: Weigh three Riverbend heating options against environment, society, and economy criteria on a radar chart and a weighted-total bar chart. Moving the owner's priorities shows how the same scores can produce three different winners.
+title: "Sustainability Trade-Off Explorer"
+description: "Weigh three Riverbend heating options against environment, society, and economy criteria on a radar chart and a weighted-total bar chart. Moving the owner's priorities shows how the same scores can produce three different winners."
 image: /sims/sustainability-trade-off-explorer/sustainability-trade-off-explorer.png
 og:image: /sims/sustainability-trade-off-explorer/sustainability-trade-off-explorer.png
 twitter:image: /sims/sustainability-trade-off-explorer/sustainability-trade-off-explorer.png

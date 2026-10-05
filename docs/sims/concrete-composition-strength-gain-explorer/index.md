@@ -1,6 +1,6 @@
 ---
-title: Concrete Composition and Strength Gain Explorer
-description: Students see how one cubic yard of concrete divides among aggregates, cement, water, and air, and compare strength-gain curves for moist-cured, briefly cured, and uncured concrete. A marker reads the strength and the percentage of f'c at any age and shows when wall forms can be stripped.
+title: "Concrete Composition and Strength Gain Explorer"
+description: "Students see how one cubic yard of concrete divides among aggregates, cement, water, and air, and compare strength-gain curves for moist-cured, briefly cured, and uncured concrete. A marker reads the strength and the percentage of f'c at any age and shows when wall forms can be stripped."
 image: /sims/concrete-composition-strength-gain-explorer/concrete-composition-strength-gain-explorer.png
 og:image: /sims/concrete-composition-strength-gain-explorer/concrete-composition-strength-gain-explorer.png
 twitter:image: /sims/concrete-composition-strength-gain-explorer/concrete-composition-strength-gain-explorer.png

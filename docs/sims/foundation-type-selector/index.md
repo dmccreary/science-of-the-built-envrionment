@@ -1,6 +1,6 @@
 ---
-title: Foundation Type Selector
-description: Students set a ground profile, column load, groundwater, and frost depth, then judge which of five foundation types is suitable, marginal, or unsuitable and read the rule that governs the choice.
+title: "Foundation Type Selector"
+description: "Students set a ground profile, column load, groundwater, and frost depth, then judge which of five foundation types is suitable, marginal, or unsuitable and read the rule that governs the choice."
 image: /sims/foundation-type-selector/foundation-type-selector.png
 og:image: /sims/foundation-type-selector/foundation-type-selector.png
 twitter:image: /sims/foundation-type-selector/foundation-type-selector.png

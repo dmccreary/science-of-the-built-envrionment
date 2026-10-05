@@ -1,6 +1,6 @@
 ---
-title: Building Pressure and Air Leakage Explorer
-description: Students vary outdoor temperature, wind, an exhaust fan, and building height and watch the indoor-minus-outdoor pressure change at every height of a building with gaps in its walls and roof. Arrows show where air enters and leaves, and a dashed line marks the neutral pressure plane.
+title: "Building Pressure and Air Leakage Explorer"
+description: "Students vary outdoor temperature, wind, an exhaust fan, and building height and watch the indoor-minus-outdoor pressure change at every height of a building with gaps in its walls and roof. Arrows show where air enters and leaves, and a dashed line marks the neutral pressure plane."
 image: /sims/building-pressure-air-leakage-explorer/building-pressure-air-leakage-explorer.png
 og:image: /sims/building-pressure-air-leakage-explorer/building-pressure-air-leakage-explorer.png
 twitter:image: /sims/building-pressure-air-leakage-explorer/building-pressure-air-leakage-explorer.png

@@ -1,6 +1,6 @@
 ---
-title: Steel Shape Comparison Explorer
-description: Students compare a solid rectangle, a wide-flange I, and a hollow tube of equal area under the same beam load, reading the moment of inertia, weight, and deflection of each. Hovering shows the bending stress, and a quiz asks them to match each shape to a use.
+title: "Steel Shape Comparison Explorer"
+description: "Students compare a solid rectangle, a wide-flange I, and a hollow tube of equal area under the same beam load, reading the moment of inertia, weight, and deflection of each. Hovering shows the bending stress, and a quiz asks them to match each shape to a use."
 image: /sims/steel-shape-comparison-explorer/steel-shape-comparison-explorer.png
 og:image: /sims/steel-shape-comparison-explorer/steel-shape-comparison-explorer.png
 twitter:image: /sims/steel-shape-comparison-explorer/steel-shape-comparison-explorer.png

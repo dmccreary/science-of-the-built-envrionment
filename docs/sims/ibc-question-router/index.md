@@ -1,6 +1,6 @@
 ---
-title: IBC Question Router
-description: Students route a Riverbend design question to the group of International Building Code provisions where its answer starts, then switch to an occupant-load mode that follows the chain from room area to occupant load to likely number of exits.
+title: "IBC Question Router"
+description: "Students route a Riverbend design question to the group of International Building Code provisions where its answer starts, then switch to an occupant-load mode that follows the chain from room area to occupant load to likely number of exits."
 image: /sims/ibc-question-router/ibc-question-router.png
 og:image: /sims/ibc-question-router/ibc-question-router.png
 twitter:image: /sims/ibc-question-router/ibc-question-router.png

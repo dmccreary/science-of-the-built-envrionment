@@ -1,6 +1,6 @@
 ---
-title: Window Performance Explorer
-description: Students choose glazing, low-E coating, gas fill, and frame for a window and watch the whole-window U-factor, SHGC, visible transmittance, and inside glass temperature respond. A summary line judges whether the window suits a north or a south wall in Minneapolis.
+title: "Window Performance Explorer"
+description: "Students choose glazing, low-E coating, gas fill, and frame for a window and watch the whole-window U-factor, SHGC, visible transmittance, and inside glass temperature respond. A summary line judges whether the window suits a north or a south wall in Minneapolis."
 image: /sims/window-glazing-surface-temperature-explorer/window-glazing-surface-temperature-explorer.png
 og:image: /sims/window-glazing-surface-temperature-explorer/window-glazing-surface-temperature-explorer.png
 twitter:image: /sims/window-glazing-surface-temperature-explorer/window-glazing-surface-temperature-explorer.png

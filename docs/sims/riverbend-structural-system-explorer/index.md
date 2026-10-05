@@ -1,6 +1,6 @@
 ---
-title: Riverbend Structural System Explorer
-description: Students explore an exploded view of the idealized Riverbend building (120 ft by 75 ft) and classify each element as part of the gravity system, the lateral system, or both. Load arrows scale with dead, snow, and wind pressure, and removing an element shows which requirement (strength, stiffness, or stability) is put at risk.
+title: "Riverbend Structural System Explorer"
+description: "Students explore an exploded view of the idealized Riverbend building (120 ft by 75 ft) and classify each element as part of the gravity system, the lateral system, or both. Load arrows scale with dead, snow, and wind pressure, and removing an element shows which requirement (strength, stiffness, or stability) is put at risk."
 image: /sims/riverbend-structural-system-explorer/riverbend-structural-system-explorer.png
 og:image: /sims/riverbend-structural-system-explorer/riverbend-structural-system-explorer.png
 twitter:image: /sims/riverbend-structural-system-explorer/riverbend-structural-system-explorer.png

@@ -1,6 +1,6 @@
 ---
-title: Egress Time Margin Explorer
-description: Students calculate the margin between available and required safe egress time for the Riverbend multipurpose room, then add sprinklers, a voice alarm, or a blocked exit to judge which protective measure improves the margin most.
+title: "Egress Time Margin Explorer"
+description: "Students calculate the margin between available and required safe egress time for the Riverbend multipurpose room, then add sprinklers, a voice alarm, or a blocked exit to judge which protective measure improves the margin most."
 image: /sims/egress-time-margin-explorer/egress-time-margin-explorer.png
 og:image: /sims/egress-time-margin-explorer/egress-time-margin-explorer.png
 twitter:image: /sims/egress-time-margin-explorer/egress-time-margin-explorer.png

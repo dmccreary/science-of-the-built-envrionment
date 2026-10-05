@@ -1,6 +1,6 @@
 ---
-title: Drawing Scale Calculator
-description: Students measure a wall on a floor plan with a draggable line, predict the real length from the stated drawing scale, and check the answer. A print size slider shows why enlarging or reducing a printout breaks the scale and why written dimensions govern.
+title: "Drawing Scale Calculator"
+description: "Students measure a wall on a floor plan with a draggable line, predict the real length from the stated drawing scale, and check the answer. A print size slider shows why enlarging or reducing a printout breaks the scale and why written dimensions govern."
 image: /sims/drawing-scale-calculator/drawing-scale-calculator.png
 og:image: /sims/drawing-scale-calculator/drawing-scale-calculator.png
 twitter:image: /sims/drawing-scale-calculator/drawing-scale-calculator.png

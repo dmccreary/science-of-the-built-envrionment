@@ -1,6 +1,6 @@
 ---
-title: Stress, Force, and Area Explorer
-description: Students choose a steel rod, a wood post, or a footing on soil, set the load and the size, and watch the stress (force divided by area), the factor of safety, and a gauge that compares the stress with an illustrative limit. A Snowshoe button shows the same load producing less stress as the area grows.
+title: "Stress, Force, and Area Explorer"
+description: "Students choose a steel rod, a wood post, or a footing on soil, set the load and the size, and watch the stress (force divided by area), the factor of safety, and a gauge that compares the stress with an illustrative limit. A Snowshoe button shows the same load producing less stress as the area grows."
 image: /sims/stress-area-load-explorer/stress-area-load-explorer.png
 og:image: /sims/stress-area-load-explorer/stress-area-load-explorer.png
 twitter:image: /sims/stress-area-load-explorer/stress-area-load-explorer.png

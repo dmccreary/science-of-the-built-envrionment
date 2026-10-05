@@ -1,6 +1,6 @@
 ---
-title: Moisture Pathways in a Wall
-description: Students explore a section drawing of a Minnesota wall on a concrete foundation and classify each way moisture reaches it as bulk water, capillary action, air movement, or vapor diffusion. Each pathway has a driver, an example, and a matching control, and a quiz mode tests the match.
+title: "Moisture Pathways in a Wall"
+description: "Students explore a section drawing of a Minnesota wall on a concrete foundation and classify each way moisture reaches it as bulk water, capillary action, air movement, or vapor diffusion. Each pathway has a driver, an example, and a matching control, and a quiz mode tests the match."
 image: /sims/moisture-transport-pathways-explorer/moisture-transport-pathways-explorer.png
 og:image: /sims/moisture-transport-pathways-explorer/moisture-transport-pathways-explorer.png
 twitter:image: /sims/moisture-transport-pathways-explorer/moisture-transport-pathways-explorer.png

@@ -1,6 +1,6 @@
 ---
-title: Stress-Strain Curve Explorer
-description: Students read simplified stress-strain curves for steel in tension and for concrete and softwood in compression, moving a stress marker along each curve to see strain, factor of safety, and whether the behavior is elastic or plastic. Releasing the marker shows the strain returning to zero or a permanent offset, and a toughness shading and compare mode contrast ductile and brittle behavior.
+title: "Stress-Strain Curve Explorer"
+description: "Students read simplified stress-strain curves for steel in tension and for concrete and softwood in compression, moving a stress marker along each curve to see strain, factor of safety, and whether the behavior is elastic or plastic. Releasing the marker shows the strain returning to zero or a permanent offset, and a toughness shading and compare mode contrast ductile and brittle behavior."
 image: /sims/stress-strain-curve-explorer/stress-strain-curve-explorer.png
 og:image: /sims/stress-strain-curve-explorer/stress-strain-curve-explorer.png
 twitter:image: /sims/stress-strain-curve-explorer/stress-strain-curve-explorer.png

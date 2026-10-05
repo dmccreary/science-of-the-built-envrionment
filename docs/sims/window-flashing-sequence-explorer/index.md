@@ -1,6 +1,6 @@
 ---
-title: Window Flashing Sequence Explorer
-description: Students build the five flashing steps around a Riverbend window in order, test their sequencing by dragging the layers into place, and then pour water to see where it goes. A reversed lap sends the water into the opening.
+title: "Window Flashing Sequence Explorer"
+description: "Students build the five flashing steps around a Riverbend window in order, test their sequencing by dragging the layers into place, and then pour water to see where it goes. A reversed lap sends the water into the opening."
 image: /sims/window-flashing-sequence-explorer/window-flashing-sequence-explorer.png
 og:image: /sims/window-flashing-sequence-explorer/window-flashing-sequence-explorer.png
 twitter:image: /sims/window-flashing-sequence-explorer/window-flashing-sequence-explorer.png

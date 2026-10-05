@@ -1,6 +1,6 @@
 ---
-title: Reinforced Concrete Beam Behavior Explorer
-description: Students load a 12 in. by 20 in. concrete beam from zero to failure and watch where cracks form, how the compression zone, tension zone, and steel share the bending, and why plain, wrongly reinforced, reinforced, and prestressed beams behave so differently. A switch to a cantilever moves the tension face to the top.
+title: "Reinforced Concrete Beam Behavior Explorer"
+description: "Students load a 12 in. by 20 in. concrete beam from zero to failure and watch where cracks form, how the compression zone, tension zone, and steel share the bending, and why plain, wrongly reinforced, reinforced, and prestressed beams behave so differently. A switch to a cantilever moves the tension face to the top."
 image: /sims/reinforced-concrete-beam-behavior-explorer/reinforced-concrete-beam-behavior-explorer.png
 og:image: /sims/reinforced-concrete-beam-behavior-explorer/reinforced-concrete-beam-behavior-explorer.png
 twitter:image: /sims/reinforced-concrete-beam-behavior-explorer/reinforced-concrete-beam-behavior-explorer.png

@@ -1,6 +1,6 @@
 ---
-title: Site Analysis Layer Explorer
-description: Students switch six layers of site information on and off over the imagined 300 ft by 200 ft Riverbend lot and drag the 120 ft by 75 ft building to see which setbacks, easements, wet areas, and slopes it overlaps.
+title: "Site Analysis Layer Explorer"
+description: "Students switch six layers of site information on and off over the imagined 300 ft by 200 ft Riverbend lot and drag the 120 ft by 75 ft building to see which setbacks, easements, wet areas, and slopes it overlaps."
 image: /sims/site-analysis-layer-explorer/site-analysis-layer-explorer.png
 og:image: /sims/site-analysis-layer-explorer/site-analysis-layer-explorer.png
 twitter:image: /sims/site-analysis-layer-explorer/site-analysis-layer-explorer.png

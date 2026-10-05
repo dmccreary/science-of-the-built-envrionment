@@ -1,6 +1,6 @@
 ---
-title: Permit-to-Occupancy Flow
-description: Students follow a project from zoning check through permit, plan review, inspections, and final inspection to the certificate of occupancy, force failures at each decision to see the return loops, and watch the permit-time total change with review days.
+title: "Permit-to-Occupancy Flow"
+description: "Students follow a project from zoning check through permit, plan review, inspections, and final inspection to the certificate of occupancy, force failures at each decision to see the return loops, and watch the permit-time total change with review days."
 image: /sims/permit-to-occupancy-flow/permit-to-occupancy-flow.png
 og:image: /sims/permit-to-occupancy-flow/permit-to-occupancy-flow.png
 twitter:image: /sims/permit-to-occupancy-flow/permit-to-occupancy-flow.png

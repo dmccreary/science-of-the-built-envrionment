@@ -1,6 +1,6 @@
 ---
-title: Electric Circuit and Water Analogy Explorer
-description: Students compare an electrical circuit with its water-pipe twin, then open the switch, change the source voltage, remove a lamp, and wire two lamps in series or parallel to predict and see how the flow responds.
+title: "Electric Circuit and Water Analogy Explorer"
+description: "Students compare an electrical circuit with its water-pipe twin, then open the switch, change the source voltage, remove a lamp, and wire two lamps in series or parallel to predict and see how the flow responds."
 image: /sims/electrical-circuit-water-analogy-explorer/electrical-circuit-water-analogy-explorer.png
 og:image: /sims/electrical-circuit-water-analogy-explorer/electrical-circuit-water-analogy-explorer.png
 twitter:image: /sims/electrical-circuit-water-analogy-explorer/electrical-circuit-water-analogy-explorer.png

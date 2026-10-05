@@ -1,6 +1,6 @@
 ---
-title: Project Phases and the Cost of Change
-description: A conceptual line chart of the eight project phases shows the ability to influence the design falling while the cost of making a change rises. Students click a phase for its deliverable, approval gate, and electrical designer contribution, and slide a Riverbend wall change through the phases.
+title: "Project Phases and the Cost of Change"
+description: "A conceptual line chart of the eight project phases shows the ability to influence the design falling while the cost of making a change rises. Students click a phase for its deliverable, approval gate, and electrical designer contribution, and slide a Riverbend wall change through the phases."
 image: /sims/project-phases-cost-of-change/project-phases-cost-of-change.png
 og:image: /sims/project-phases-cost-of-change/project-phases-cost-of-change.png
 twitter:image: /sims/project-phases-cost-of-change/project-phases-cost-of-change.png

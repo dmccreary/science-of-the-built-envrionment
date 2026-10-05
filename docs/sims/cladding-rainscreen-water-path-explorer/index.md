@@ -1,6 +1,6 @@
 ---
-title: Cladding Rainscreen Water Path Explorer
-description: Students run a storm against four cladding systems, watch where the water that gets past the joint goes, and compare how the sheathing moisture gauge rises and how long each wall takes to dry.
+title: "Cladding Rainscreen Water Path Explorer"
+description: "Students run a storm against four cladding systems, watch where the water that gets past the joint goes, and compare how the sheathing moisture gauge rises and how long each wall takes to dry."
 image: /sims/cladding-rainscreen-water-path-explorer/cladding-rainscreen-water-path-explorer.png
 og:image: /sims/cladding-rainscreen-water-path-explorer/cladding-rainscreen-water-path-explorer.png
 twitter:image: /sims/cladding-rainscreen-water-path-explorer/cladding-rainscreen-water-path-explorer.png

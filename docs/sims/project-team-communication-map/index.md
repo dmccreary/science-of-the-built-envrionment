@@ -1,6 +1,6 @@
 ---
-title: Project Team Contracts and Communication Map
-description: A network diagram of the project team shows who has a contract with whom (solid lines) and who communicates without a contract (dashed lines) for three delivery methods. Students follow a submittal, an RFI, or a change order as an animated token and read the numbered steps.
+title: "Project Team Contracts and Communication Map"
+description: "A network diagram of the project team shows who has a contract with whom (solid lines) and who communicates without a contract (dashed lines) for three delivery methods. Students follow a submittal, an RFI, or a change order as an animated token and read the numbered steps."
 image: /sims/project-team-communication-map/project-team-communication-map.png
 og:image: /sims/project-team-communication-map/project-team-communication-map.png
 twitter:image: /sims/project-team-communication-map/project-team-communication-map.png

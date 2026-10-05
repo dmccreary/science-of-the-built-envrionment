@@ -1,6 +1,6 @@
 ---
-title: Net-Zero PV Balance Explorer
-description: Set the building area, energy use intensity, PV yield, and roof assumptions to see how large a photovoltaic array must be to offset a building's annual energy use and whether it fits on the roof. Applying efficiency measures shows why cutting the load first decides whether net zero is possible.
+title: "Net-Zero PV Balance Explorer"
+description: "Set the building area, energy use intensity, PV yield, and roof assumptions to see how large a photovoltaic array must be to offset a building's annual energy use and whether it fits on the roof. Applying efficiency measures shows why cutting the load first decides whether net zero is possible."
 image: /sims/net-zero-pv-balance-explorer/net-zero-pv-balance-explorer.png
 og:image: /sims/net-zero-pv-balance-explorer/net-zero-pv-balance-explorer.png
 twitter:image: /sims/net-zero-pv-balance-explorer/net-zero-pv-balance-explorer.png

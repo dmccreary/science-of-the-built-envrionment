@@ -1,6 +1,6 @@
 ---
-title: Heat Transfer Modes in a Winter Wall
-description: A cross-section of a winter wall shows the warm room on the left and the cold outdoors on the right, with arrows labeled conduction, convection, and radiation along the heat path. Students vary outdoor temperature, wind, and a reflective foil in the air gap and see how the heat flow and each mechanism change.
+title: "Heat Transfer Modes in a Winter Wall"
+description: "A cross-section of a winter wall shows the warm room on the left and the cold outdoors on the right, with arrows labeled conduction, convection, and radiation along the heat path. Students vary outdoor temperature, wind, and a reflective foil in the air gap and see how the heat flow and each mechanism change."
 image: /sims/heat-transfer-modes-wall-explorer/heat-transfer-modes-wall-explorer.png
 og:image: /sims/heat-transfer-modes-wall-explorer/heat-transfer-modes-wall-explorer.png
 twitter:image: /sims/heat-transfer-modes-wall-explorer/heat-transfer-modes-wall-explorer.png

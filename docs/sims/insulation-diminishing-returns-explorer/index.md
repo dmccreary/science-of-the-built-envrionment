@@ -1,6 +1,6 @@
 ---
-title: Insulation Diminishing Returns Explorer
-description: Students move two markers along a curve of annual roof heat loss against R-value, read the energy saved, gas cost, and simple payback for the added insulation, and see why each added layer saves less than the one before.
+title: "Insulation Diminishing Returns Explorer"
+description: "Students move two markers along a curve of annual roof heat loss against R-value, read the energy saved, gas cost, and simple payback for the added insulation, and see why each added layer saves less than the one before."
 image: /sims/insulation-diminishing-returns-explorer/insulation-diminishing-returns-explorer.png
 og:image: /sims/insulation-diminishing-returns-explorer/insulation-diminishing-returns-explorer.png
 twitter:image: /sims/insulation-diminishing-returns-explorer/insulation-diminishing-returns-explorer.png

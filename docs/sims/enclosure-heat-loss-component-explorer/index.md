@@ -1,6 +1,6 @@
 ---
-title: Enclosure Heat Loss Component Explorer
-description: Students change window area, roof and wall R-values, window U-value, and outdoor temperature to see how area and U-value combine into the conductive heat loss of the Riverbend enclosure, then rank three standard upgrades by the BTU/h each one saves.
+title: "Enclosure Heat Loss Component Explorer"
+description: "Students change window area, roof and wall R-values, window U-value, and outdoor temperature to see how area and U-value combine into the conductive heat loss of the Riverbend enclosure, then rank three standard upgrades by the BTU/h each one saves."
 image: /sims/enclosure-heat-loss-component-explorer/enclosure-heat-loss-component-explorer.png
 og:image: /sims/enclosure-heat-loss-component-explorer/enclosure-heat-loss-component-explorer.png
 twitter:image: /sims/enclosure-heat-loss-component-explorer/enclosure-heat-loss-component-explorer.png

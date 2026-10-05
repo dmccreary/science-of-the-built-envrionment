@@ -1,6 +1,6 @@
 ---
-title: Water-Cement Ratio Explorer
-description: Students change the water-cement ratio of a six-sack mix and watch pores grow in a magnified slice of concrete while bars show relative strength, permeability, and shrinkage against the limit for an exposure. An Add 5 gal at the chute button shows how a few gallons of extra water push a mix over its specified maximum.
+title: "Water-Cement Ratio Explorer"
+description: "Students change the water-cement ratio of a six-sack mix and watch pores grow in a magnified slice of concrete while bars show relative strength, permeability, and shrinkage against the limit for an exposure. An Add 5 gal at the chute button shows how a few gallons of extra water push a mix over its specified maximum."
 image: /sims/water-cement-ratio-explorer/water-cement-ratio-explorer.png
 og:image: /sims/water-cement-ratio-explorer/water-cement-ratio-explorer.png
 twitter:image: /sims/water-cement-ratio-explorer/water-cement-ratio-explorer.png

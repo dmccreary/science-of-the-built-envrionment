@@ -1,6 +1,6 @@
 ---
-title: Drawing Types Explorer
-description: Students compare plan, elevation, section, and detail views of the same small building. Each button shows a cutting plane or viewing arrow on an isometric house and the 2D drawing it produces, and a quiz mode asks which view answers a given question.
+title: "Drawing Types Explorer"
+description: "Students compare plan, elevation, section, and detail views of the same small building. Each button shows a cutting plane or viewing arrow on an isometric house and the 2D drawing it produces, and a quiz mode asks which view answers a given question."
 image: /sims/drawing-types-explorer/drawing-types-explorer.png
 og:image: /sims/drawing-types-explorer/drawing-types-explorer.png
 twitter:image: /sims/drawing-types-explorer/drawing-types-explorer.png

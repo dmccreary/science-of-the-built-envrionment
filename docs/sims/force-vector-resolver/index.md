@@ -1,6 +1,6 @@
 ---
-title: Force Vector Resolver
-description: Students resolve an inclined force into horizontal and vertical components by setting a force and angle or dragging the arrow tip. A readout gives the components in pounds and newtons, and a predict-first mode asks the student to type the horizontal component before it is revealed.
+title: "Force Vector Resolver"
+description: "Students resolve an inclined force into horizontal and vertical components by setting a force and angle or dragging the arrow tip. A readout gives the components in pounds and newtons, and a predict-first mode asks the student to type the horizontal component before it is revealed."
 image: /sims/force-vector-resolver/force-vector-resolver.png
 og:image: /sims/force-vector-resolver/force-vector-resolver.png
 twitter:image: /sims/force-vector-resolver/force-vector-resolver.png

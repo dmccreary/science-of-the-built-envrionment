@@ -1,6 +1,6 @@
 ---
-title: AC Waveform and Transmission Loss Explorer
-description: Students read peak, RMS, frequency, and phase from an AC waveform in single-phase and three-phase modes, then raise the transmission voltage to see line loss I squared R fall.
+title: "AC Waveform and Transmission Loss Explorer"
+description: "Students read peak, RMS, frequency, and phase from an AC waveform in single-phase and three-phase modes, then raise the transmission voltage to see line loss I squared R fall."
 image: /sims/ac-waveform-transmission-loss-explorer/ac-waveform-transmission-loss-explorer.png
 og:image: /sims/ac-waveform-transmission-loss-explorer/ac-waveform-transmission-loss-explorer.png
 twitter:image: /sims/ac-waveform-transmission-loss-explorer/ac-waveform-transmission-loss-explorer.png

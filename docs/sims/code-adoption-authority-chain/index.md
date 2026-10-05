@@ -1,6 +1,6 @@
 ---
-title: Code Adoption and Authority Chain
-description: Students follow a model code through state adoption, local ordinance, and referenced standards down to a permitted project, then test their understanding by deciding which layer controls in a series of rule conflicts.
+title: "Code Adoption and Authority Chain"
+description: "Students follow a model code through state adoption, local ordinance, and referenced standards down to a permitted project, then test their understanding by deciding which layer controls in a series of rule conflicts."
 image: /sims/code-adoption-authority-chain/code-adoption-authority-chain.png
 og:image: /sims/code-adoption-authority-chain/code-adoption-authority-chain.png
 twitter:image: /sims/code-adoption-authority-chain/code-adoption-authority-chain.png

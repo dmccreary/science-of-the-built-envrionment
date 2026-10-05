@@ -1,6 +1,6 @@
 ---
-title: Electrical Design Phase Timeline
-description: A timeline of the eight project phases with one row for each discipline shows when the architect, structural engineer, mechanical engineer, electrical designer, contractor, and utility are most active. Clicking a phase lists the electrical designer's tasks, deliverables, and meetings, and a Time of change marker shows how the cost of changing the kitchen oven rises from schematic design to construction.
+title: "Electrical Design Phase Timeline"
+description: "A timeline of the eight project phases with one row for each discipline shows when the architect, structural engineer, mechanical engineer, electrical designer, contractor, and utility are most active. Clicking a phase lists the electrical designer's tasks, deliverables, and meetings, and a Time of change marker shows how the cost of changing the kitchen oven rises from schematic design to construction."
 image: /sims/electrical-design-phase-responsibility-timeline/electrical-design-phase-responsibility-timeline.png
 og:image: /sims/electrical-design-phase-responsibility-timeline/electrical-design-phase-responsibility-timeline.png
 twitter:image: /sims/electrical-design-phase-responsibility-timeline/electrical-design-phase-responsibility-timeline.png

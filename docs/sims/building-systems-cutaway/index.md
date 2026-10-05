@@ -1,6 +1,6 @@
 ---
-title: Building Systems Cutaway
-description: Students explore a section through a two-story house drawn in six system colors, toggle each system layer, click components to see which other systems depend on them, and run What if? scenarios that show how one change ripples through the building.
+title: "Building Systems Cutaway"
+description: "Students explore a section through a two-story house drawn in six system colors, toggle each system layer, click components to see which other systems depend on them, and run What if? scenarios that show how one change ripples through the building."
 image: /sims/building-systems-cutaway/building-systems-cutaway.png
 og:image: /sims/building-systems-cutaway/building-systems-cutaway.png
 twitter:image: /sims/building-systems-cutaway/building-systems-cutaway.png

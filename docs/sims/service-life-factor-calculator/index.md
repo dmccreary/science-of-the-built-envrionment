@@ -1,6 +1,6 @@
 ---
-title: Service Life Factor Calculator
-description: Estimate the service life of a building component with the ISO 15686 factor method by multiplying a reference service life by seven factors. A ranked list shows which factor shortens or lengthens the estimate the most, so students can see which decisions move the number.
+title: "Service Life Factor Calculator"
+description: "Estimate the service life of a building component with the ISO 15686 factor method by multiplying a reference service life by seven factors. A ranked list shows which factor shortens or lengthens the estimate the most, so students can see which decisions move the number."
 image: /sims/service-life-factor-calculator/service-life-factor-calculator.png
 og:image: /sims/service-life-factor-calculator/service-life-factor-calculator.png
 twitter:image: /sims/service-life-factor-calculator/service-life-factor-calculator.png

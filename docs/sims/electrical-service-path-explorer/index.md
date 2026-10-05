@@ -1,6 +1,6 @@
 ---
-title: Electrical Service Path Explorer
-description: Students follow electricity from the utility primary line through the transformer, meter, service entrance, feeder, panelboard, and branch circuit to the loads, reading the voltage, current, owner, and protection at each stage. A load slider shows when equipment is overloaded, and a trip button shows what goes dark downstream of a breaker.
+title: "Electrical Service Path Explorer"
+description: "Students follow electricity from the utility primary line through the transformer, meter, service entrance, feeder, panelboard, and branch circuit to the loads, reading the voltage, current, owner, and protection at each stage. A load slider shows when equipment is overloaded, and a trip button shows what goes dark downstream of a breaker."
 image: /sims/electrical-service-path-explorer/electrical-service-path-explorer.png
 og:image: /sims/electrical-service-path-explorer/electrical-service-path-explorer.png
 twitter:image: /sims/electrical-service-path-explorer/electrical-service-path-explorer.png

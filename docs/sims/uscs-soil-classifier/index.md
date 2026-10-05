@@ -1,6 +1,6 @@
 ---
-title: USCS Soil Classifier
-description: Students enter the percent gravel, sand, and fines from a sieve analysis, choose the plasticity of the fines, and follow the highlighted decision path to a simplified USCS symbol with drainage, strength, and frost ratings.
+title: "USCS Soil Classifier"
+description: "Students enter the percent gravel, sand, and fines from a sieve analysis, choose the plasticity of the fines, and follow the highlighted decision path to a simplified USCS symbol with drainage, strength, and frost ratings."
 image: /sims/uscs-soil-classifier/uscs-soil-classifier.png
 og:image: /sims/uscs-soil-classifier/uscs-soil-classifier.png
 twitter:image: /sims/uscs-soil-classifier/uscs-soil-classifier.png

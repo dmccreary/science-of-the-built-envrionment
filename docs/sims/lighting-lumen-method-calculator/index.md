@@ -1,6 +1,6 @@
 ---
-title: Lighting Lumen Method Calculator
-description: Students apply the lumen method to a room: they set the room size, target footcandles, luminaire output and wattage, coefficient of utilization, and light loss factor, and watch the number of luminaires, the layout, an illuminance overlay, and the lighting power density update. A message compares the density to an adjustable energy-code limit.
+title: "Lighting Lumen Method Calculator"
+description: "Students apply the lumen method to a room: they set the room size, target footcandles, luminaire output and wattage, coefficient of utilization, and light loss factor, and watch the number of luminaires, the layout, an illuminance overlay, and the lighting power density update. A message compares the density to an adjustable energy-code limit."
 image: /sims/lighting-lumen-method-calculator/lighting-lumen-method-calculator.png
 og:image: /sims/lighting-lumen-method-calculator/lighting-lumen-method-calculator.png
 twitter:image: /sims/lighting-lumen-method-calculator/lighting-lumen-method-calculator.png

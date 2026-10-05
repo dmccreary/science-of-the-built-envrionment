@@ -1,6 +1,6 @@
 ---
-title: Bearing Capacity and Footing Size Explorer
-description: Students set a column load and pick a soil, then watch the required footing area, the footing size, the pressure bulb under it, and a four-soil bar chart update, including a flag when the footing grows past 8 ft square.
+title: "Bearing Capacity and Footing Size Explorer"
+description: "Students set a column load and pick a soil, then watch the required footing area, the footing size, the pressure bulb under it, and a four-soil bar chart update, including a flag when the footing grows past 8 ft square."
 image: /sims/soil-bearing-footing-area-explorer/soil-bearing-footing-area-explorer.png
 og:image: /sims/soil-bearing-footing-area-explorer/soil-bearing-footing-area-explorer.png
 twitter:image: /sims/soil-bearing-footing-area-explorer/soil-bearing-footing-area-explorer.png

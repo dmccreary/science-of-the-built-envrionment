@@ -1,6 +1,6 @@
 ---
-title: Heating System Energy Comparison
-description: Students compare the energy input an 80 percent furnace, a 95 percent furnace, electric resistance, and a heat pump need to deliver the same heat, and watch the heat pump COP change along an illustrative curve as the outdoor temperature changes.
+title: "Heating System Energy Comparison"
+description: "Students compare the energy input an 80 percent furnace, a 95 percent furnace, electric resistance, and a heat pump need to deliver the same heat, and watch the heat pump COP change along an illustrative curve as the outdoor temperature changes."
 image: /sims/heating-system-energy-comparison/heating-system-energy-comparison.png
 og:image: /sims/heating-system-energy-comparison/heating-system-energy-comparison.png
 twitter:image: /sims/heating-system-energy-comparison/heating-system-energy-comparison.png

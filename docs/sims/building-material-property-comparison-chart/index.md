@@ -1,6 +1,6 @@
 ---
-title: Building Material Property Comparison Chart
-description: Students compare density, strength, stiffness, thermal expansion, and thermal conductivity across seven common building materials on one horizontal bar chart, with a logarithmic scale for values that span many orders of magnitude and a Divide by density option that shows each property per pound of material.
+title: "Building Material Property Comparison Chart"
+description: "Students compare density, strength, stiffness, thermal expansion, and thermal conductivity across seven common building materials on one horizontal bar chart, with a logarithmic scale for values that span many orders of magnitude and a Divide by density option that shows each property per pound of material."
 image: /sims/building-material-property-comparison-chart/building-material-property-comparison-chart.png
 og:image: /sims/building-material-property-comparison-chart/building-material-property-comparison-chart.png
 twitter:image: /sims/building-material-property-comparison-chart/building-material-property-comparison-chart.png

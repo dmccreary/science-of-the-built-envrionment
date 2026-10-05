@@ -1,6 +1,6 @@
 ---
-title: Masonry Wall Assembly Explorer
-description: Students explore an elevation and cutaway of a concrete block wall, with brick and stone veneer options, to name its parts, then raise a wind pressure to compare how an unreinforced and a reinforced wall crack. A counter turns a chosen wall size into the number of blocks or bricks.
+title: "Masonry Wall Assembly Explorer"
+description: "Students explore an elevation and cutaway of a concrete block wall, with brick and stone veneer options, to name its parts, then raise a wind pressure to compare how an unreinforced and a reinforced wall crack. A counter turns a chosen wall size into the number of blocks or bricks."
 image: /sims/masonry-wall-assembly-explorer/masonry-wall-assembly-explorer.png
 og:image: /sims/masonry-wall-assembly-explorer/masonry-wall-assembly-explorer.png
 twitter:image: /sims/masonry-wall-assembly-explorer/masonry-wall-assembly-explorer.png

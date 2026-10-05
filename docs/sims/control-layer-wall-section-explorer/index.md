@@ -1,6 +1,6 @@
 ---
-title: Control Layer Wall Section Explorer
-description: Students identify the eight layers of the Riverbend cold-climate wall, see which control layer each serves (water, air, vapor, or thermal), and break layers to predict what happens to rain, air, vapor, heat, and the temperature of the sheathing.
+title: "Control Layer Wall Section Explorer"
+description: "Students identify the eight layers of the Riverbend cold-climate wall, see which control layer each serves (water, air, vapor, or thermal), and break layers to predict what happens to rain, air, vapor, heat, and the temperature of the sheathing."
 image: /sims/control-layer-wall-section-explorer/control-layer-wall-section-explorer.png
 og:image: /sims/control-layer-wall-section-explorer/control-layer-wall-section-explorer.png
 twitter:image: /sims/control-layer-wall-section-explorer/control-layer-wall-section-explorer.png

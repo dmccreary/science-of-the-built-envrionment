@@ -1,6 +1,6 @@
 ---
-title: Riverbend Load Path Tracer
-description: Students trace the snow-and-dead (gravity), wind, and quake load paths of the Riverbend multipurpose room link by link from the roof to the soil, read the force each link carries, and break one link to see which requirement (strength, stiffness, or stability) is lost.
+title: "Riverbend Load Path Tracer"
+description: "Students trace the snow-and-dead (gravity), wind, and quake load paths of the Riverbend multipurpose room link by link from the roof to the soil, read the force each link carries, and break one link to see which requirement (strength, stiffness, or stability) is lost."
 image: /sims/riverbend-load-path-tracer/riverbend-load-path-tracer.png
 og:image: /sims/riverbend-load-path-tracer/riverbend-load-path-tracer.png
 twitter:image: /sims/riverbend-load-path-tracer/riverbend-load-path-tracer.png

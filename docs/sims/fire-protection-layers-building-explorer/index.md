@@ -1,6 +1,6 @@
 ---
-title: Fire Protection Layers Building Explorer
-description: Students explore a two-story cutaway with ten numbered fire protection features, classify each as passive (blue square) or active (orange circle), and match it to one of the five jobs: detect, warn, suppress, control smoke, and contain. They start a fire in room B and switch layers off to see the consequence.
+title: "Fire Protection Layers Building Explorer"
+description: "Students explore a two-story cutaway with ten numbered fire protection features, classify each as passive (blue square) or active (orange circle), and match it to one of the five jobs: detect, warn, suppress, control smoke, and contain. They start a fire in room B and switch layers off to see the consequence."
 image: /sims/fire-protection-layers-building-explorer/fire-protection-layers-building-explorer.png
 og:image: /sims/fire-protection-layers-building-explorer/fire-protection-layers-building-explorer.png
 twitter:image: /sims/fire-protection-layers-building-explorer/fire-protection-layers-building-explorer.png

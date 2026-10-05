@@ -1,6 +1,6 @@
 ---
-title: Basement Wall Soil Pressure Explorer
-description: Students vary wall height, backfill, water, and a parking-lot surcharge and watch the triangular soil pressure diagram, the force per foot of wall, and the height of the resultant change.
+title: "Basement Wall Soil Pressure Explorer"
+description: "Students vary wall height, backfill, water, and a parking-lot surcharge and watch the triangular soil pressure diagram, the force per foot of wall, and the height of the resultant change."
 image: /sims/foundation-wall-lateral-pressure-explorer/foundation-wall-lateral-pressure-explorer.png
 og:image: /sims/foundation-wall-lateral-pressure-explorer/foundation-wall-lateral-pressure-explorer.png
 twitter:image: /sims/foundation-wall-lateral-pressure-explorer/foundation-wall-lateral-pressure-explorer.png

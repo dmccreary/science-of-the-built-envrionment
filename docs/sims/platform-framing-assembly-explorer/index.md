@@ -1,6 +1,6 @@
 ---
-title: Platform Framing Assembly Explorer
-description: Students explore an exploded elevation of a two-story platform-framed wall, name each component, and read its function, typical size, and load. Overlays follow the gravity load path, the wind load path, and fire spread, and a balloon-framing toggle and a shrinkage slider show why the platform stops fire but stacks shrinkage.
+title: "Platform Framing Assembly Explorer"
+description: "Students explore an exploded elevation of a two-story platform-framed wall, name each component, and read its function, typical size, and load. Overlays follow the gravity load path, the wind load path, and fire spread, and a balloon-framing toggle and a shrinkage slider show why the platform stops fire but stacks shrinkage."
 image: /sims/platform-framing-assembly-explorer/platform-framing-assembly-explorer.png
 og:image: /sims/platform-framing-assembly-explorer/platform-framing-assembly-explorer.png
 twitter:image: /sims/platform-framing-assembly-explorer/platform-framing-assembly-explorer.png

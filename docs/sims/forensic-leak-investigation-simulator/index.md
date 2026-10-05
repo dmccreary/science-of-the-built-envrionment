@@ -1,6 +1,6 @@
 ---
-title: Forensic Leak Investigation Simulator
-description: Investigate a ceiling stain in the Riverbend classroom by choosing diagnostic tools, reading the evidence each one returns, and judging which of five competing hypotheses it supports or eliminates. Submit a conclusion and compare your investigation with an efficient sequence.
+title: "Forensic Leak Investigation Simulator"
+description: "Investigate a ceiling stain in the Riverbend classroom by choosing diagnostic tools, reading the evidence each one returns, and judging which of five competing hypotheses it supports or eliminates. Submit a conclusion and compare your investigation with an efficient sequence."
 image: /sims/forensic-leak-investigation-simulator/forensic-leak-investigation-simulator.png
 og:image: /sims/forensic-leak-investigation-simulator/forensic-leak-investigation-simulator.png
 twitter:image: /sims/forensic-leak-investigation-simulator/forensic-leak-investigation-simulator.png

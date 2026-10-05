@@ -1,6 +1,6 @@
 ---
-title: Insulation R-Value and Thickness Comparison
-description: Students compare eight insulation materials by the thickness each needs to reach a target R-value, test them against a stud-cavity depth, and weigh cost and cold-weather performance to justify a choice.
+title: "Insulation R-Value and Thickness Comparison"
+description: "Students compare eight insulation materials by the thickness each needs to reach a target R-value, test them against a stud-cavity depth, and weigh cost and cold-weather performance to justify a choice."
 image: /sims/insulation-r-per-inch-thickness-chart/insulation-r-per-inch-thickness-chart.png
 og:image: /sims/insulation-r-per-inch-thickness-chart/insulation-r-per-inch-thickness-chart.png
 twitter:image: /sims/insulation-r-per-inch-thickness-chart/insulation-r-per-inch-thickness-chart.png

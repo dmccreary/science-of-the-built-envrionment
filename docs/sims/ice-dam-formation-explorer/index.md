@@ -1,6 +1,6 @@
 ---
-title: Ice Dam Formation Explorer
-description: Students change outdoor temperature, insulation, ceiling air leaks, attic ventilation, and an ice-and-water barrier on a roof section and watch the deck temperature, the snow melt, and the ice at the eave respond. The status line always points to air sealing first.
+title: "Ice Dam Formation Explorer"
+description: "Students change outdoor temperature, insulation, ceiling air leaks, attic ventilation, and an ice-and-water barrier on a roof section and watch the deck temperature, the snow melt, and the ice at the eave respond. The status line always points to air sealing first."
 image: /sims/ice-dam-formation-explorer/ice-dam-formation-explorer.png
 og:image: /sims/ice-dam-formation-explorer/ice-dam-formation-explorer.png
 twitter:image: /sims/ice-dam-formation-explorer/ice-dam-formation-explorer.png

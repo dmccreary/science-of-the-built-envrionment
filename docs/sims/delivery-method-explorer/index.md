@@ -1,6 +1,6 @@
 ---
-title: Delivery Method Explorer
-description: Students compare design-bid-build, design-build, construction manager at risk, and integrated project delivery on a timeline of design, bidding, and construction bars and on a diagram of who holds contracts with whom. A quiz mode describes a project and asks which method fits best.
+title: "Delivery Method Explorer"
+description: "Students compare design-bid-build, design-build, construction manager at risk, and integrated project delivery on a timeline of design, bidding, and construction bars and on a diagram of who holds contracts with whom. A quiz mode describes a project and asks which method fits best."
 image: /sims/delivery-method-explorer/delivery-method-explorer.png
 og:image: /sims/delivery-method-explorer/delivery-method-explorer.png
 twitter:image: /sims/delivery-method-explorer/delivery-method-explorer.png

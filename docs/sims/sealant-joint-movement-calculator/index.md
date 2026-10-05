@@ -1,6 +1,6 @@
 ---
-title: Sealant Joint Movement Calculator
-description: Students calculate the thermal movement of a panel from its material, length, and temperature range, find the minimum sealant joint width for a sealant rating, and watch a to-scale joint open, close, and tear as the temperature changes.
+title: "Sealant Joint Movement Calculator"
+description: "Students calculate the thermal movement of a panel from its material, length, and temperature range, find the minimum sealant joint width for a sealant rating, and watch a to-scale joint open, close, and tear as the temperature changes."
 image: /sims/sealant-joint-movement-calculator/sealant-joint-movement-calculator.png
 og:image: /sims/sealant-joint-movement-calculator/sealant-joint-movement-calculator.png
 twitter:image: /sims/sealant-joint-movement-calculator/sealant-joint-movement-calculator.png

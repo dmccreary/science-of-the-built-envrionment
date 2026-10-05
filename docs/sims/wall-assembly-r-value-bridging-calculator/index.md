@@ -1,6 +1,6 @@
 ---
-title: Wall Assembly R-Value and Thermal Bridging Calculator
-description: Students build a framed wall from a cavity insulation, a framing type, and optional continuous XPS, then see the cavity path R, the stud path R, and the effective R from the parallel path method. An optional temperature profile shows where the wall falls below freezing.
+title: "Wall Assembly R-Value and Thermal Bridging Calculator"
+description: "Students build a framed wall from a cavity insulation, a framing type, and optional continuous XPS, then see the cavity path R, the stud path R, and the effective R from the parallel path method. An optional temperature profile shows where the wall falls below freezing."
 image: /sims/wall-assembly-r-value-bridging-calculator/wall-assembly-r-value-bridging-calculator.png
 og:image: /sims/wall-assembly-r-value-bridging-calculator/wall-assembly-r-value-bridging-calculator.png
 twitter:image: /sims/wall-assembly-r-value-bridging-calculator/wall-assembly-r-value-bridging-calculator.png

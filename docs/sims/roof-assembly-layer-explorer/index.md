@@ -1,6 +1,6 @@
 ---
-title: Roof Assembly Layer Explorer
-description: Students identify each layer of a steep-slope attic roof and a low-slope membrane roof, see which of the four control layers (water, air, vapor, heat) each one provides, and remove a layer to see what it protects against.
+title: "Roof Assembly Layer Explorer"
+description: "Students identify each layer of a steep-slope attic roof and a low-slope membrane roof, see which of the four control layers (water, air, vapor, heat) each one provides, and remove a layer to see what it protects against."
 image: /sims/roof-assembly-layer-explorer/roof-assembly-layer-explorer.png
 og:image: /sims/roof-assembly-layer-explorer/roof-assembly-layer-explorer.png
 twitter:image: /sims/roof-assembly-layer-explorer/roof-assembly-layer-explorer.png

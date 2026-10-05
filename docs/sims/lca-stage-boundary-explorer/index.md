@@ -1,6 +1,6 @@
 ---
-title: Life-Cycle Stage and Boundary Explorer
-description: Explore the Riverbend 60-year life-cycle ledger by module (A1-A3 product, A4-A5 construction, B use, C end of life) and see how the system boundary, the operating energy, and the study period change the share of emissions that comes from materials.
+title: "Life-Cycle Stage and Boundary Explorer"
+description: "Explore the Riverbend 60-year life-cycle ledger by module (A1-A3 product, A4-A5 construction, B use, C end of life) and see how the system boundary, the operating energy, and the study period change the share of emissions that comes from materials."
 image: /sims/lca-stage-boundary-explorer/lca-stage-boundary-explorer.png
 og:image: /sims/lca-stage-boundary-explorer/lca-stage-boundary-explorer.png
 twitter:image: /sims/lca-stage-boundary-explorer/lca-stage-boundary-explorer.png

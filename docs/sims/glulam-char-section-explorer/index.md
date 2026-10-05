@@ -1,6 +1,6 @@
 ---
-title: Glulam Char Section Explorer
-description: Students expose a glued-laminated beam cross-section to fire, watch a char layer grow inward at a chosen rate, and calculate the remaining width, depth, and section modulus, then compare with a small member to see why large timbers resist fire better.
+title: "Glulam Char Section Explorer"
+description: "Students expose a glued-laminated beam cross-section to fire, watch a char layer grow inward at a chosen rate, and calculate the remaining width, depth, and section modulus, then compare with a small member to see why large timbers resist fire better."
 image: /sims/glulam-char-section-explorer/glulam-char-section-explorer.png
 og:image: /sims/glulam-char-section-explorer/glulam-char-section-explorer.png
 twitter:image: /sims/glulam-char-section-explorer/glulam-char-section-explorer.png

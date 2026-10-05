@@ -1,6 +1,6 @@
 ---
-title: Failure Chain Explorer
-description: Trace how a design, construction, or maintenance error becomes a visible building failure through a chain of mechanisms and damage processes. Remove a link with Break the chain to see which symptoms disappear and which remain.
+title: "Failure Chain Explorer"
+description: "Trace how a design, construction, or maintenance error becomes a visible building failure through a chain of mechanisms and damage processes. Remove a link with Break the chain to see which symptoms disappear and which remain."
 image: /sims/failure-chain-explorer/failure-chain-explorer.png
 og:image: /sims/failure-chain-explorer/failure-chain-explorer.png
 twitter:image: /sims/failure-chain-explorer/failure-chain-explorer.png

@@ -1,6 +1,6 @@
 ---
-title: Foundation Cross-Section Explorer
-description: A to-scale cross-section of a Riverbend exterior wall with numbered parts that students hover over and click to learn each part's job, a typical size, and where Chapter 10 explains it. A menu switches between slab-on-grade, crawl space, and basement.
+title: "Foundation Cross-Section Explorer"
+description: "A to-scale cross-section of a Riverbend exterior wall with numbered parts that students hover over and click to learn each part's job, a typical size, and where Chapter 10 explains it. A menu switches between slab-on-grade, crawl space, and basement."
 image: /sims/foundation-cross-section-explorer/foundation-cross-section-explorer.png
 og:image: /sims/foundation-cross-section-explorer/foundation-cross-section-explorer.png
 twitter:image: /sims/foundation-cross-section-explorer/foundation-cross-section-explorer.png

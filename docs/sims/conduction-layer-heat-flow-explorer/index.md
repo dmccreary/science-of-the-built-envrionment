@@ -1,6 +1,6 @@
 ---
-title: Conduction Through a Layer
-description: Students apply Fourier's law to a single flat layer: a slab shaded from hot to cold, with arrows that grow with the computed heat flow. Sliders and a material menu change conductivity, thickness, area, and temperature difference, and a compare mode puts two materials side by side.
+title: "Conduction Through a Layer"
+description: "Students apply Fourier's law to a single flat layer: a slab shaded from hot to cold, with arrows that grow with the computed heat flow. Sliders and a material menu change conductivity, thickness, area, and temperature difference, and a compare mode puts two materials side by side."
 image: /sims/conduction-layer-heat-flow-explorer/conduction-layer-heat-flow-explorer.png
 og:image: /sims/conduction-layer-heat-flow-explorer/conduction-layer-heat-flow-explorer.png
 twitter:image: /sims/conduction-layer-heat-flow-explorer/conduction-layer-heat-flow-explorer.png

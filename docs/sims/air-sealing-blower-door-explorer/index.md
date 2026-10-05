@@ -1,6 +1,6 @@
 ---
-title: Air Sealing and Blower Door Explorer
-description: Students seal the ten leakage points of a Riverbend cutaway one at a time, read CFM50 and ACH50 from a simulated blower door test, and convert the result to natural air changes and design-day heat loss to decide which leaks to seal first.
+title: "Air Sealing and Blower Door Explorer"
+description: "Students seal the ten leakage points of a Riverbend cutaway one at a time, read CFM50 and ACH50 from a simulated blower door test, and convert the result to natural air changes and design-day heat loss to decide which leaks to seal first."
 image: /sims/air-sealing-blower-door-explorer/air-sealing-blower-door-explorer.png
 og:image: /sims/air-sealing-blower-door-explorer/air-sealing-blower-door-explorer.png
 twitter:image: /sims/air-sealing-blower-door-explorer/air-sealing-blower-door-explorer.png

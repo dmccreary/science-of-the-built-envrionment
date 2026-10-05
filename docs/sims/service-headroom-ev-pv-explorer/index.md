@@ -1,6 +1,6 @@
 ---
-title: Service Headroom for Solar and EV Loads
-description: Students load the Riverbend demand onto a 100 to 600 A service, add Level 2 EV chargers and a rooftop array, and compare three ways to fix an overloaded service: a larger service, fewer chargers, or load management.
+title: "Service Headroom for Solar and EV Loads"
+description: "Students load the Riverbend demand onto a 100 to 600 A service, add Level 2 EV chargers and a rooftop array, and compare three ways to fix an overloaded service: a larger service, fewer chargers, or load management."
 image: /sims/service-headroom-ev-pv-explorer/service-headroom-ev-pv-explorer.png
 og:image: /sims/service-headroom-ev-pv-explorer/service-headroom-ev-pv-explorer.png
 twitter:image: /sims/service-headroom-ev-pv-explorer/service-headroom-ev-pv-explorer.png

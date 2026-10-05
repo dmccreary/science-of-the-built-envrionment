@@ -1,6 +1,6 @@
 ---
-title: Tributary Area and Load Takedown Calculator
-description: Students set the roof load, joist spacing, girder spacing, and girder span, and watch the shaded tributary area, line load, reaction, and maximum moment of a joist, girder, or post update in the Riverbend roof plan. An equilibrium check confirms that the post reactions equal the load on the bay.
+title: "Tributary Area and Load Takedown Calculator"
+description: "Students set the roof load, joist spacing, girder spacing, and girder span, and watch the shaded tributary area, line load, reaction, and maximum moment of a joist, girder, or post update in the Riverbend roof plan. An equilibrium check confirms that the post reactions equal the load on the bay."
 image: /sims/tributary-area-roof-takedown-calculator/tributary-area-roof-takedown-calculator.png
 og:image: /sims/tributary-area-roof-takedown-calculator/tributary-area-roof-takedown-calculator.png
 twitter:image: /sims/tributary-area-roof-takedown-calculator/tributary-area-roof-takedown-calculator.png

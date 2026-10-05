@@ -1,6 +1,6 @@
 ---
-title: Voltage, Current, and Resistance Explorer
-description: Students set the source voltage, load power, wire gauge, material, and run length and watch the current, voltage at the load, voltage drop, and heat lost in the wire update. A drop bar with a 3 percent limit and an optional ampacity marker show when a wire is too small or too long.
+title: "Voltage, Current, and Resistance Explorer"
+description: "Students set the source voltage, load power, wire gauge, material, and run length and watch the current, voltage at the load, voltage drop, and heat lost in the wire update. A drop bar with a 3 percent limit and an optional ampacity marker show when a wire is too small or too long."
 image: /sims/ohms-law-power-wire-explorer/ohms-law-power-wire-explorer.png
 og:image: /sims/ohms-law-power-wire-explorer/ohms-law-power-wire-explorer.png
 twitter:image: /sims/ohms-law-power-wire-explorer/ohms-law-power-wire-explorer.png

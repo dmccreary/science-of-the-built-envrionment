@@ -1,6 +1,6 @@
 ---
-title: Embodied Carbon Beam Comparison
-description: Compare the product-stage embodied carbon of steel, glued-laminated, and reinforced concrete beams for the same span by multiplying each member's quantity by an emission factor. Sliders sweep the factors across a low-to-high range to show when the ranking can flip, and a checkbox shows the stored biogenic carbon in wood.
+title: "Embodied Carbon Beam Comparison"
+description: "Compare the product-stage embodied carbon of steel, glued-laminated, and reinforced concrete beams for the same span by multiplying each member's quantity by an emission factor. Sliders sweep the factors across a low-to-high range to show when the ranking can flip, and a checkbox shows the stored biogenic carbon in wood."
 image: /sims/embodied-carbon-beam-comparison/embodied-carbon-beam-comparison.png
 og:image: /sims/embodied-carbon-beam-comparison/embodied-carbon-beam-comparison.png
 twitter:image: /sims/embodied-carbon-beam-comparison/embodied-carbon-beam-comparison.png

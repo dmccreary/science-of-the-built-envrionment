@@ -1,6 +1,6 @@
 ---
-title: Frost Heave Three-Condition Explorer
-description: Students run a Minnesota winter on a cross-section of ground with a wall footing and a slab edge, and watch ice lenses grow only when frost-susceptible soil, water, and freezing temperatures are all present. Turning any one condition off stops the heave, and a footing depth choice shows what a 42 in. footing does and does not protect.
+title: "Frost Heave Three-Condition Explorer"
+description: "Students run a Minnesota winter on a cross-section of ground with a wall footing and a slab edge, and watch ice lenses grow only when frost-susceptible soil, water, and freezing temperatures are all present. Turning any one condition off stops the heave, and a footing depth choice shows what a 42 in. footing does and does not protect."
 image: /sims/frost-heave-three-conditions/frost-heave-three-conditions.png
 og:image: /sims/frost-heave-three-conditions/frost-heave-three-conditions.png
 twitter:image: /sims/frost-heave-three-conditions/frost-heave-three-conditions.png

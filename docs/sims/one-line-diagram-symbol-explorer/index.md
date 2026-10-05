@@ -1,6 +1,6 @@
 ---
-title: One-Line Diagram Symbol Explorer
-description: Students read the one-line diagram of the Riverbend Youth Center, identify each symbol and its rating, trace the path from the utility transformer to a chosen load, and trip the main breaker to see what goes dark and which emergency lights stay on through the automatic transfer switch.
+title: "One-Line Diagram Symbol Explorer"
+description: "Students read the one-line diagram of the Riverbend Youth Center, identify each symbol and its rating, trace the path from the utility transformer to a chosen load, and trip the main breaker to see what goes dark and which emergency lights stay on through the automatic transfer switch."
 image: /sims/one-line-diagram-symbol-explorer/one-line-diagram-symbol-explorer.png
 og:image: /sims/one-line-diagram-symbol-explorer/one-line-diagram-symbol-explorer.png
 twitter:image: /sims/one-line-diagram-symbol-explorer/one-line-diagram-symbol-explorer.png

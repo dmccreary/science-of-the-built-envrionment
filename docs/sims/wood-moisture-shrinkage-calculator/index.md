@@ -1,6 +1,6 @@
 ---
-title: Wood Moisture and Shrinkage Calculator
-description: Students set a starting and a final moisture content on a line chart of across-grain size versus moisture, read the shrinkage in inches for a chosen member depth, and weigh a sample to compute its moisture content step by step. A Minnesota winter preset shows how a heated interior dries framing.
+title: "Wood Moisture and Shrinkage Calculator"
+description: "Students set a starting and a final moisture content on a line chart of across-grain size versus moisture, read the shrinkage in inches for a chosen member depth, and weigh a sample to compute its moisture content step by step. A Minnesota winter preset shows how a heated interior dries framing."
 image: /sims/wood-moisture-shrinkage-calculator/wood-moisture-shrinkage-calculator.png
 og:image: /sims/wood-moisture-shrinkage-calculator/wood-moisture-shrinkage-calculator.png
 twitter:image: /sims/wood-moisture-shrinkage-calculator/wood-moisture-shrinkage-calculator.png

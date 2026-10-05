@@ -1,6 +1,6 @@
 ---
-title: Heating Load and Ventilation Explorer
-description: Students set the outdoor temperature, U-factors, occupancy, and heat recovery for a 600 ft2 Riverbend classroom and watch conduction and ventilation heat loss add up in a stacked bar, in Btu/h and in tons.
+title: "Heating Load and Ventilation Explorer"
+description: "Students set the outdoor temperature, U-factors, occupancy, and heat recovery for a 600 ft2 Riverbend classroom and watch conduction and ventilation heat loss add up in a stacked bar, in Btu/h and in tons."
 image: /sims/hvac-heating-load-ventilation-explorer/hvac-heating-load-ventilation-explorer.png
 og:image: /sims/hvac-heating-load-ventilation-explorer/hvac-heating-load-ventilation-explorer.png
 twitter:image: /sims/hvac-heating-load-ventilation-explorer/hvac-heating-load-ventilation-explorer.png

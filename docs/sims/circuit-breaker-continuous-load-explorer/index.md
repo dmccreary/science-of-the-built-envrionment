@@ -1,6 +1,6 @@
 ---
-title: Circuit Breaker and Continuous Load Explorer
-description: Students plug devices into a 120 V branch circuit, choose the breaker rating, wire gauge, and hours of operation, and apply the 80 percent rule for continuous loads while a time-current curve shows how a breaker trips on overload and on short circuit.
+title: "Circuit Breaker and Continuous Load Explorer"
+description: "Students plug devices into a 120 V branch circuit, choose the breaker rating, wire gauge, and hours of operation, and apply the 80 percent rule for continuous loads while a time-current curve shows how a breaker trips on overload and on short circuit."
 image: /sims/circuit-breaker-continuous-load-explorer/circuit-breaker-continuous-load-explorer.png
 og:image: /sims/circuit-breaker-continuous-load-explorer/circuit-breaker-continuous-load-explorer.png
 twitter:image: /sims/circuit-breaker-continuous-load-explorer/circuit-breaker-continuous-load-explorer.png

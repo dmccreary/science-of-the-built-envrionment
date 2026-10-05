@@ -1,6 +1,6 @@
 ---
-title: Plumbing Supply and DWV Explorer
-description: Students explore a cross-section of a two-story building to tell thin, sealed, pressurized supply pipes from thick, sloped, gravity-driven drain-waste-vent pipes, then flush a toilet, remove the vent, and run a freeze test.
+title: "Plumbing Supply and DWV Explorer"
+description: "Students explore a cross-section of a two-story building to tell thin, sealed, pressurized supply pipes from thick, sloped, gravity-driven drain-waste-vent pipes, then flush a toilet, remove the vent, and run a freeze test."
 image: /sims/plumbing-supply-dwv-explorer/plumbing-supply-dwv-explorer.png
 og:image: /sims/plumbing-supply-dwv-explorer/plumbing-supply-dwv-explorer.png
 twitter:image: /sims/plumbing-supply-dwv-explorer/plumbing-supply-dwv-explorer.png

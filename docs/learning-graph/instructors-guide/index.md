@@ -31,12 +31,12 @@ If you only have half an hour before the first class, do these five things in or
 | FAQ questions | 100 in 6 categories | [FAQ](../../faq.md) |
 | MicroSims | 74 | [MicroSims](../../sims/index.md) |
 | Interactive infographic posters | 20 | [Poster Gallery](../../posters/index.md) |
-| Illustrated stories | 1 | [Stories](../../stories/index.md) |
+| Graphic novel stories | 12 | [Stories](../../stories/index.md) |
 | Annotated references | 210 (10 per chapter) | One references page per chapter |
 | Chapter text | about 138,000 words | The chapter pages |
 
-!!! warning "MicroSim readiness"
-    Of the 74 MicroSims, **27 are built** and **47 are scaffolds**. A scaffold has a written specification and a placeholder page, but no working simulation yet. Every chapter already embeds all of its MicroSims, so in chapters that still have scaffolds the student will see a placeholder box where the simulation will go. The nav status dots tell you which is which. See [MicroSim Status](#microsim-status-and-what-to-expect). None has yet been approved by the author for learners.
+!!! note "MicroSim readiness"
+    All 74 MicroSims are **built**, so every chapter shows a working simulation. None has been **approved** yet, which means the author has not finished testing each one with its controls. Test the simulations you plan to use before class, and report anything that misbehaves (see [Feedback](#feedback-and-reporting-problems)). The nav status dots show each simulation's state, as described in [MicroSim Status](#microsim-status-and-what-to-expect).
 
 ## About This Intelligent Textbook
 
@@ -119,27 +119,27 @@ Each chapter's Prerequisites section lists the chapters it builds on. Chapters 1
 
 | Chapter | Title | Concepts | Words | Builds on |
 |--------:|-------|---------:|------:|-----------|
-| 1 | [Introduction to the Built Environment and Construction Terminology](../../chapters/01-intro-terminology/index.md) | 22 | 5,525 | none |
-| 2 | [The Design and Construction Process](../../chapters/02-design-construction-process/index.md) | 24 | 8,190 | 1 |
-| 3 | [Forces, Heat, and the Physics of Buildings](../../chapters/03-forces-heat-physics/index.md) | 16 | 9,484 | none |
-| 4 | [Moisture, Air Movement, and Thermal Comfort](../../chapters/04-moisture-air-comfort/index.md) | 12 | 5,610 | 3 |
-| 5 | [Properties of Building Materials](../../chapters/05-material-properties/index.md) | 22 | 6,588 | 1, 3, 4 |
-| 6 | [Structural Loads and Load Paths](../../chapters/06-structural-loads/index.md) | 23 | 8,400 | 3, 4, 5 |
-| 7 | [Wood and Steel Framing](../../chapters/07-wood-steel-framing/index.md) | 18 | 6,279 | 1, 4, 6 |
-| 8 | [Concrete and Masonry](../../chapters/08-concrete-masonry/index.md) | 23 | 8,188 | 1, 5, 6 |
-| 9 | [Site Work, Soils, and Groundwater](../../chapters/09-site-soils/index.md) | 11 | 5,841 | 1, 2, 3, 4, 5 |
-| 10 | [Foundation Systems](../../chapters/10-foundation-systems/index.md) | 15 | 4,392 | 6, 8, 9 |
-| 11 | [Enclosure Control Layers and Insulation](../../chapters/11-enclosure-insulation/index.md) | 20 | 8,021 | 1, 3, 4, 7, 9, 10 |
-| 12 | [Cladding, Windows, Doors, and Air Sealing](../../chapters/12-cladding-windows-air-sealing/index.md) | 19 | 6,918 | 1, 3, 4, 5, 6, 8, 11 |
-| 13 | [Roof Assemblies](../../chapters/13-roof-assemblies/index.md) | 10 | 4,481 | 3, 4, 7, 11 |
-| 14 | [HVAC, Plumbing, and Fire Protection Systems](../../chapters/14-hvac-plumbing-fire/index.md) | 25 | 7,078 | 1, 3, 4, 5, 9, 10, 13 |
-| 15 | [Electrical Fundamentals and Building Service](../../chapters/15-electrical-fundamentals/index.md) | 17 | 8,392 | 1 |
-| 16 | [Electrical Distribution, Lighting, and Design Team Coordination](../../chapters/16-electrical-distribution-design/index.md) | 23 | 7,506 | 1, 2, 3, 6, 14, 15 |
-| 17 | [Building Codes, Permits, and Enforcement](../../chapters/17-building-codes-permits/index.md) | 20 | 6,001 | 1, 2, 5, 9, 14, 15 |
-| 18 | [Fire Protection and Life Safety Requirements](../../chapters/18-fire-life-safety/index.md) | 11 | 4,900 | 1, 5, 14, 15, 16, 17 |
-| 19 | [Energy Efficiency and High-Performance Buildings](../../chapters/19-energy-efficiency/index.md) | 14 | 4,983 | 1, 3, 11, 12, 13, 14, 16, 17 |
-| 20 | [Sustainable Building Materials](../../chapters/20-sustainable-materials/index.md) | 15 | 4,792 | 1, 2, 7, 8, 14, 19 |
-| 21 | [Durability, Maintenance, and Building Failure](../../chapters/21-durability-failure/index.md) | 20 | 6,597 | 4, 5, 7, 8, 9, 11, 19, 20 |
+| 1 | [Introduction to the Built Environment and Construction Terminology](../../chapters/01-intro-terminology/index.md) | 22 | 5,505 | none |
+| 2 | [The Design and Construction Process](../../chapters/02-design-construction-process/index.md) | 24 | 8,170 | 1 |
+| 3 | [Forces, Heat, and the Physics of Buildings](../../chapters/03-forces-heat-physics/index.md) | 16 | 9,454 | none |
+| 4 | [Moisture, Air Movement, and Thermal Comfort](../../chapters/04-moisture-air-comfort/index.md) | 12 | 5,595 | 3 |
+| 5 | [Properties of Building Materials](../../chapters/05-material-properties/index.md) | 22 | 6,578 | 1, 3, 4 |
+| 6 | [Structural Loads and Load Paths](../../chapters/06-structural-loads/index.md) | 23 | 8,385 | 3, 4, 5 |
+| 7 | [Wood and Steel Framing](../../chapters/07-wood-steel-framing/index.md) | 18 | 6,264 | 1, 4, 6 |
+| 8 | [Concrete and Masonry](../../chapters/08-concrete-masonry/index.md) | 23 | 8,168 | 1, 5, 6 |
+| 9 | [Site Work, Soils, and Groundwater](../../chapters/09-site-soils/index.md) | 11 | 5,821 | 1, 2, 3, 4, 5 |
+| 10 | [Foundation Systems](../../chapters/10-foundation-systems/index.md) | 15 | 4,377 | 6, 8, 9 |
+| 11 | [Enclosure Control Layers and Insulation](../../chapters/11-enclosure-insulation/index.md) | 20 | 8,006 | 1, 3, 4, 7, 9, 10 |
+| 12 | [Cladding, Windows, Doors, and Air Sealing](../../chapters/12-cladding-windows-air-sealing/index.md) | 19 | 6,893 | 1, 3, 4, 5, 6, 8, 11 |
+| 13 | [Roof Assemblies](../../chapters/13-roof-assemblies/index.md) | 10 | 4,466 | 3, 4, 7, 11 |
+| 14 | [HVAC, Plumbing, and Fire Protection Systems](../../chapters/14-hvac-plumbing-fire/index.md) | 25 | 7,058 | 1, 3, 4, 5, 9, 10, 13 |
+| 15 | [Electrical Fundamentals and Building Service](../../chapters/15-electrical-fundamentals/index.md) | 17 | 8,367 | 1 |
+| 16 | [Electrical Distribution, Lighting, and Design Team Coordination](../../chapters/16-electrical-distribution-design/index.md) | 23 | 7,481 | 1, 2, 3, 6, 14, 15 |
+| 17 | [Building Codes, Permits, and Enforcement](../../chapters/17-building-codes-permits/index.md) | 20 | 5,986 | 1, 2, 5, 9, 14, 15 |
+| 18 | [Fire Protection and Life Safety Requirements](../../chapters/18-fire-life-safety/index.md) | 11 | 4,890 | 1, 5, 14, 15, 16, 17 |
+| 19 | [Energy Efficiency and High-Performance Buildings](../../chapters/19-energy-efficiency/index.md) | 14 | 4,968 | 1, 3, 11, 12, 13, 14, 16, 17 |
+| 20 | [Sustainable Building Materials](../../chapters/20-sustainable-materials/index.md) | 15 | 4,782 | 1, 2, 7, 8, 14, 19 |
+| 21 | [Durability, Maintenance, and Building Failure](../../chapters/21-durability-failure/index.md) | 20 | 6,582 | 4, 5, 7, 8, 9, 11, 19, 20 |
 
 !!! note "Skipping and reordering"
     Chapters 1 and 3 start independent threads, and Chapter 15 depends only on Chapter 1. An electrical-focused course can therefore teach Chapters 1, 3, 15, and 16 early. Everything else follows the order shown, because later chapters reuse the earlier ones.
@@ -177,7 +177,7 @@ If you teach a shorter term, drop in this order: Chapter 13 (roofs, which can be
 
 ## Chapter-by-Chapter Teaching Notes
 
-Each entry gives the purpose of the chapter, its MicroSims with their current status, one in-class activity, and the misunderstanding to listen for. A status of **built** means a working simulation exists. **scaffold** means a specification and placeholder only.
+Each entry gives the purpose of the chapter, its MicroSims with their current status, one in-class activity, and the misunderstanding to listen for. A status of **built** means a working simulation exists and is awaiting the author's review. A status of **scaffold** would mean a specification and placeholder only.
 
 
 ### Chapter 1: Introduction to the Built Environment and Construction Terminology
@@ -328,9 +328,9 @@ Each entry gives the purpose of the chapter, its MicroSims with their current st
 **MicroSims in this chapter:**
 
 - [Concrete Composition and Strength Gain Explorer](../../sims/concrete-composition-strength-gain-explorer/index.md) (Chart.js; Bloom's: Understand, Apply; status: built)
-- [Masonry Wall Assembly Explorer](../../sims/masonry-wall-assembly-explorer/index.md) (p5.js; Bloom's: Remember, Analyze; status: scaffold)
-- [Reinforced Concrete Beam Behavior Explorer](../../sims/reinforced-concrete-beam-behavior-explorer/index.md) (p5.js; Bloom's: Understand, Apply; status: scaffold)
-- [Water-Cement Ratio Explorer](../../sims/water-cement-ratio-explorer/index.md) (p5.js; Bloom's: Apply, Evaluate; status: scaffold)
+- [Masonry Wall Assembly Explorer](../../sims/masonry-wall-assembly-explorer/index.md) (p5.js; Bloom's: Remember, Analyze; status: built)
+- [Reinforced Concrete Beam Behavior Explorer](../../sims/reinforced-concrete-beam-behavior-explorer/index.md) (p5.js; Bloom's: Understand, Apply; status: built)
+- [Water-Cement Ratio Explorer](../../sims/water-cement-ratio-explorer/index.md) (p5.js; Bloom's: Apply, Evaluate; status: built)
 
 **In-class activity.** Use the Concrete Composition and Strength Gain Explorer to show the curve over 28 days, then ask the class to defend the mix choice when a crew wants to add water at the chute.
 
@@ -347,10 +347,10 @@ Each entry gives the purpose of the chapter, its MicroSims with their current st
 
 **MicroSims in this chapter:**
 
-- [Bearing Capacity and Footing Size Explorer](../../sims/soil-bearing-footing-area-explorer/index.md) (p5.js; Bloom's: Apply, Analyze; status: scaffold)
-- [Frost Heave Three-Condition Explorer](../../sims/frost-heave-three-conditions/index.md) (p5.js; Bloom's: Understand; status: scaffold)
-- [Site Analysis Layer Explorer](../../sims/site-analysis-layer-explorer/index.md) (p5.js; Bloom's: Analyze; status: scaffold)
-- [USCS Soil Classifier](../../sims/uscs-soil-classifier/index.md) (p5.js; Bloom's: Apply, Understand; status: scaffold)
+- [Bearing Capacity and Footing Size Explorer](../../sims/soil-bearing-footing-area-explorer/index.md) (p5.js; Bloom's: Apply, Analyze; status: built)
+- [Frost Heave Three-Condition Explorer](../../sims/frost-heave-three-conditions/index.md) (p5.js; Bloom's: Understand; status: built)
+- [Site Analysis Layer Explorer](../../sims/site-analysis-layer-explorer/index.md) (p5.js; Bloom's: Analyze; status: built)
+- [USCS Soil Classifier](../../sims/uscs-soil-classifier/index.md) (p5.js; Bloom's: Apply, Understand; status: built)
 
 **In-class activity.** Give each pair a short boring log and have them classify the soil, then size a footing from a load and an allowable bearing pressure. The Bearing Capacity and Footing Size Explorer is the intended tool.
 
@@ -367,9 +367,9 @@ Each entry gives the purpose of the chapter, its MicroSims with their current st
 
 **MicroSims in this chapter:**
 
-- [Basement Wall Soil Pressure Explorer](../../sims/foundation-wall-lateral-pressure-explorer/index.md) (p5.js; Bloom's: Apply, Analyze; status: scaffold)
-- [Foundation Cross-Section Explorer](../../sims/foundation-cross-section-explorer/index.md) (p5.js; Bloom's: Remember, Understand; status: scaffold)
-- [Foundation Type Selector](../../sims/foundation-type-selector/index.md) (p5.js; Bloom's: Evaluate; status: scaffold)
+- [Basement Wall Soil Pressure Explorer](../../sims/foundation-wall-lateral-pressure-explorer/index.md) (p5.js; Bloom's: Apply, Analyze; status: built)
+- [Foundation Cross-Section Explorer](../../sims/foundation-cross-section-explorer/index.md) (p5.js; Bloom's: Remember, Understand; status: built)
+- [Foundation Type Selector](../../sims/foundation-type-selector/index.md) (p5.js; Bloom's: Evaluate; status: built)
 
 **In-class activity.** Have students sketch a foundation cross-section from memory, then compare it with the Foundation Cross-Section Explorer. Ask why a "shallow" footing in Minnesota is still about 42 inches down.
 
@@ -386,9 +386,9 @@ Each entry gives the purpose of the chapter, its MicroSims with their current st
 
 **MicroSims in this chapter:**
 
-- [Control Layer Wall Section Explorer](../../sims/control-layer-wall-section-explorer/index.md) (p5.js; Bloom's: Remember, Understand; status: scaffold)
-- [Enclosure Heat Loss Component Explorer](../../sims/enclosure-heat-loss-component-explorer/index.md) (Chart.js; Bloom's: Analyze, Evaluate; status: scaffold)
-- [Insulation R-Value and Thickness Comparison](../../sims/insulation-r-per-inch-thickness-chart/index.md) (Chart.js; Bloom's: Analyze, Evaluate; status: scaffold)
+- [Control Layer Wall Section Explorer](../../sims/control-layer-wall-section-explorer/index.md) (p5.js; Bloom's: Remember, Understand; status: built)
+- [Enclosure Heat Loss Component Explorer](../../sims/enclosure-heat-loss-component-explorer/index.md) (Chart.js; Bloom's: Analyze, Evaluate; status: built)
+- [Insulation R-Value and Thickness Comparison](../../sims/insulation-r-per-inch-thickness-chart/index.md) (Chart.js; Bloom's: Analyze, Evaluate; status: built)
 
 **In-class activity.** Give students a blank wall section and the Control Layer Wall Section Explorer. They place each layer, then check where the sheathing sits relative to the insulation and why it must stay dry and warm.
 
@@ -405,11 +405,11 @@ Each entry gives the purpose of the chapter, its MicroSims with their current st
 
 **MicroSims in this chapter:**
 
-- [Air Sealing and Blower Door Explorer](../../sims/air-sealing-blower-door-explorer/index.md) (p5.js; Bloom's: Apply, Evaluate; status: scaffold)
-- [Cladding Rainscreen Water Path Explorer](../../sims/cladding-rainscreen-water-path-explorer/index.md) (p5.js; Bloom's: Analyze, Understand; status: scaffold)
-- [Sealant Joint Movement Calculator](../../sims/sealant-joint-movement-calculator/index.md) (p5.js; Bloom's: Apply; status: scaffold)
-- [Window Flashing Sequence Explorer](../../sims/window-flashing-sequence-explorer/index.md) (p5.js; Bloom's: Apply, Evaluate; status: scaffold)
-- [Window Performance Explorer](../../sims/window-glazing-surface-temperature-explorer/index.md) (p5.js; Bloom's: Analyze, Evaluate; status: scaffold)
+- [Air Sealing and Blower Door Explorer](../../sims/air-sealing-blower-door-explorer/index.md) (p5.js; Bloom's: Apply, Evaluate; status: built)
+- [Cladding Rainscreen Water Path Explorer](../../sims/cladding-rainscreen-water-path-explorer/index.md) (p5.js; Bloom's: Analyze, Understand; status: built)
+- [Sealant Joint Movement Calculator](../../sims/sealant-joint-movement-calculator/index.md) (p5.js; Bloom's: Apply; status: built)
+- [Window Flashing Sequence Explorer](../../sims/window-flashing-sequence-explorer/index.md) (p5.js; Bloom's: Apply, Evaluate; status: built)
+- [Window Performance Explorer](../../sims/window-glazing-surface-temperature-explorer/index.md) (p5.js; Bloom's: Analyze, Evaluate; status: built)
 
 **In-class activity.** Use the Window Flashing Sequence Explorer to build a flashing order, then ask which step breaks if one lap is reversed. Compare outcomes in the Cladding Rainscreen Water Path Explorer.
 
@@ -426,9 +426,9 @@ Each entry gives the purpose of the chapter, its MicroSims with their current st
 
 **MicroSims in this chapter:**
 
-- [Ice Dam Formation Explorer](../../sims/ice-dam-formation-explorer/index.md) (p5.js; Bloom's: Analyze; status: scaffold)
-- [Roof Assembly Layer Explorer](../../sims/roof-assembly-layer-explorer/index.md) (p5.js; Bloom's: Remember, Understand; status: scaffold)
-- [Roof Drainage and Ponding Calculator](../../sims/roof-drainage-ponding-calculator/index.md) (p5.js; Bloom's: Apply, Understand; status: scaffold)
+- [Ice Dam Formation Explorer](../../sims/ice-dam-formation-explorer/index.md) (p5.js; Bloom's: Analyze; status: built)
+- [Roof Assembly Layer Explorer](../../sims/roof-assembly-layer-explorer/index.md) (p5.js; Bloom's: Remember, Understand; status: built)
+- [Roof Drainage and Ponding Calculator](../../sims/roof-drainage-ponding-calculator/index.md) (p5.js; Bloom's: Apply, Understand; status: built)
 
 **In-class activity.** Run the Ice Dam Formation Explorer for a heated attic in January, then connect the result back to Chapters 4 and 11: air leakage and missing insulation melt snow from below.
 
@@ -445,10 +445,10 @@ Each entry gives the purpose of the chapter, its MicroSims with their current st
 
 **MicroSims in this chapter:**
 
-- [Fire Protection Layers Building Explorer](../../sims/fire-protection-layers-building-explorer/index.md) (p5.js; Bloom's: Understand; status: scaffold)
-- [Heating Load and Ventilation Explorer](../../sims/hvac-heating-load-ventilation-explorer/index.md) (p5.js; Bloom's: TBD; status: scaffold)
-- [Heating System Energy Comparison](../../sims/heating-system-energy-comparison/index.md) (Chart.js; Bloom's: Analyze, Understand; status: scaffold)
-- [Plumbing Supply and DWV Explorer](../../sims/plumbing-supply-dwv-explorer/index.md) (p5.js; Bloom's: TBD; status: scaffold)
+- [Fire Protection Layers Building Explorer](../../sims/fire-protection-layers-building-explorer/index.md) (p5.js; Bloom's: Understand; status: built)
+- [Heating Load and Ventilation Explorer](../../sims/hvac-heating-load-ventilation-explorer/index.md) (p5.js; Bloom's: TBD; status: built)
+- [Heating System Energy Comparison](../../sims/heating-system-energy-comparison/index.md) (Chart.js; Bloom's: Analyze, Understand; status: built)
+- [Plumbing Supply and DWV Explorer](../../sims/plumbing-supply-dwv-explorer/index.md) (p5.js; Bloom's: TBD; status: built)
 
 **In-class activity.** Size a space heater against a simple heat loss using the Heating Load and Ventilation Explorer, then explain what oversizing does to cycling and humidity control.
 
@@ -465,11 +465,11 @@ Each entry gives the purpose of the chapter, its MicroSims with their current st
 
 **MicroSims in this chapter:**
 
-- [AC Waveform and Transmission Loss Explorer](../../sims/ac-waveform-transmission-loss-explorer/index.md) (p5.js; Bloom's: TBD; status: scaffold)
-- [Circuit Breaker and Continuous Load Explorer](../../sims/circuit-breaker-continuous-load-explorer/index.md) (p5.js; Bloom's: TBD; status: scaffold)
-- [Electric Circuit and Water Analogy Explorer](../../sims/electrical-circuit-water-analogy-explorer/index.md) (p5.js; Bloom's: TBD; status: scaffold)
-- [Electrical Service Path Explorer](../../sims/electrical-service-path-explorer/index.md) (p5.js; Bloom's: TBD; status: scaffold)
-- [Voltage, Current, and Resistance Explorer](../../sims/ohms-law-power-wire-explorer/index.md) (p5.js; Bloom's: TBD; status: scaffold)
+- [AC Waveform and Transmission Loss Explorer](../../sims/ac-waveform-transmission-loss-explorer/index.md) (p5.js; Bloom's: TBD; status: built)
+- [Circuit Breaker and Continuous Load Explorer](../../sims/circuit-breaker-continuous-load-explorer/index.md) (p5.js; Bloom's: TBD; status: built)
+- [Electric Circuit and Water Analogy Explorer](../../sims/electrical-circuit-water-analogy-explorer/index.md) (p5.js; Bloom's: TBD; status: built)
+- [Electrical Service Path Explorer](../../sims/electrical-service-path-explorer/index.md) (p5.js; Bloom's: TBD; status: built)
+- [Voltage, Current, and Resistance Explorer](../../sims/ohms-law-power-wire-explorer/index.md) (p5.js; Bloom's: TBD; status: built)
 
 **In-class activity.** Use the Electric Circuit and Water Analogy Explorer to map pressure, flow, and resistance, then work one voltage drop problem and one I-squared-R heating problem.
 
@@ -486,11 +486,11 @@ Each entry gives the purpose of the chapter, its MicroSims with their current st
 
 **MicroSims in this chapter:**
 
-- [Ceiling Coordination Clash Explorer](../../sims/ceiling-coordination-clash-explorer/index.md) (p5.js; Bloom's: TBD; status: scaffold)
-- [Electrical Design Phase Timeline](../../sims/electrical-design-phase-responsibility-timeline/index.md) (vis-timeline; Bloom's: TBD; status: scaffold)
-- [Lighting Lumen Method Calculator](../../sims/lighting-lumen-method-calculator/index.md) (p5.js; Bloom's: TBD; status: scaffold)
-- [One-Line Diagram Symbol Explorer](../../sims/one-line-diagram-symbol-explorer/index.md) (p5.js; Bloom's: TBD; status: scaffold)
-- [Service Headroom for Solar and EV Loads](../../sims/service-headroom-ev-pv-explorer/index.md) (Chart.js; Bloom's: TBD; status: scaffold)
+- [Ceiling Coordination Clash Explorer](../../sims/ceiling-coordination-clash-explorer/index.md) (p5.js; Bloom's: TBD; status: built)
+- [Electrical Design Phase Timeline](../../sims/electrical-design-phase-responsibility-timeline/index.md) (vis-timeline; Bloom's: TBD; status: built)
+- [Lighting Lumen Method Calculator](../../sims/lighting-lumen-method-calculator/index.md) (p5.js; Bloom's: TBD; status: built)
+- [One-Line Diagram Symbol Explorer](../../sims/one-line-diagram-symbol-explorer/index.md) (p5.js; Bloom's: TBD; status: built)
+- [Service Headroom for Solar and EV Loads](../../sims/service-headroom-ev-pv-explorer/index.md) (Chart.js; Bloom's: TBD; status: built)
 
 **In-class activity.** Run the Ceiling Coordination Clash Explorer and ask which trade should move and why. Then work a short service-size problem: list loads, convert to VA, apply demand factors, and round up to a standard size.
 
@@ -507,9 +507,9 @@ Each entry gives the purpose of the chapter, its MicroSims with their current st
 
 **MicroSims in this chapter:**
 
-- [Code Adoption and Authority Chain](../../sims/code-adoption-authority-chain/index.md) (p5.js; Bloom's: TBD; status: scaffold)
+- [Code Adoption and Authority Chain](../../sims/code-adoption-authority-chain/index.md) (p5.js; Bloom's: TBD; status: built)
 - [IBC Question Router](../../sims/ibc-question-router/index.md) (p5.js; Bloom's: Understand, Apply; status: built)
-- [Permit-to-Occupancy Flow](../../sims/permit-to-occupancy-flow/index.md) (p5.js; Bloom's: TBD; status: scaffold)
+- [Permit-to-Occupancy Flow](../../sims/permit-to-occupancy-flow/index.md) (p5.js; Bloom's: TBD; status: built)
 
 **In-class activity.** Use the IBC Question Router with three real questions (a change of use, a new deck, an addition) and have students name the authority having jurisdiction for each.
 
@@ -526,8 +526,8 @@ Each entry gives the purpose of the chapter, its MicroSims with their current st
 
 **MicroSims in this chapter:**
 
-- [Egress Time Margin Explorer](../../sims/egress-time-margin-explorer/index.md) (p5.js; Bloom's: TBD; status: scaffold)
-- [Glulam Char Section Explorer](../../sims/glulam-char-section-explorer/index.md) (p5.js; Bloom's: TBD; status: scaffold)
+- [Egress Time Margin Explorer](../../sims/egress-time-margin-explorer/index.md) (p5.js; Bloom's: TBD; status: built)
+- [Glulam Char Section Explorer](../../sims/glulam-char-section-explorer/index.md) (p5.js; Bloom's: TBD; status: built)
 
 **In-class activity.** Have students classify a mixed-use building, then look up how that classification controls exits and sprinklers. Use the Egress Time Margin Explorer to compare available and required safe egress time.
 
@@ -544,9 +544,9 @@ Each entry gives the purpose of the chapter, its MicroSims with their current st
 
 **MicroSims in this chapter:**
 
-- [Insulation Diminishing Returns Explorer](../../sims/insulation-diminishing-returns-explorer/index.md) (Chart.js; Bloom's: TBD; status: scaffold)
-- [Net-Zero PV Balance Explorer](../../sims/net-zero-pv-balance-explorer/index.md) (p5.js; Bloom's: TBD; status: scaffold)
-- [Sustainability Trade-Off Explorer](../../sims/sustainability-trade-off-explorer/index.md) (Chart.js; Bloom's: TBD; status: scaffold)
+- [Insulation Diminishing Returns Explorer](../../sims/insulation-diminishing-returns-explorer/index.md) (Chart.js; Bloom's: TBD; status: built)
+- [Net-Zero PV Balance Explorer](../../sims/net-zero-pv-balance-explorer/index.md) (p5.js; Bloom's: TBD; status: built)
+- [Sustainability Trade-Off Explorer](../../sims/sustainability-trade-off-explorer/index.md) (Chart.js; Bloom's: TBD; status: built)
 
 **In-class activity.** Use the Insulation Diminishing Returns Explorer to show that doubling R-value does not halve heat loss twice. Then compute operational carbon for the same wall under two electricity grids.
 
@@ -563,8 +563,8 @@ Each entry gives the purpose of the chapter, its MicroSims with their current st
 
 **MicroSims in this chapter:**
 
-- [Embodied Carbon Beam Comparison](../../sims/embodied-carbon-beam-comparison/index.md) (Chart.js; Bloom's: TBD; status: scaffold)
-- [Life-Cycle Stage and Boundary Explorer](../../sims/lca-stage-boundary-explorer/index.md) (Chart.js; Bloom's: TBD; status: scaffold)
+- [Embodied Carbon Beam Comparison](../../sims/embodied-carbon-beam-comparison/index.md) (Chart.js; Bloom's: TBD; status: built)
+- [Life-Cycle Stage and Boundary Explorer](../../sims/lca-stage-boundary-explorer/index.md) (Chart.js; Bloom's: TBD; status: built)
 
 **In-class activity.** Run the Embodied Carbon Beam Comparison, then change the system boundary in the Life-Cycle Stage and Boundary Explorer and ask why the ranking moved.
 
@@ -581,9 +581,9 @@ Each entry gives the purpose of the chapter, its MicroSims with their current st
 
 **MicroSims in this chapter:**
 
-- [Failure Chain Explorer](../../sims/failure-chain-explorer/index.md) (vis-network; Bloom's: TBD; status: scaffold)
-- [Forensic Leak Investigation Simulator](../../sims/forensic-leak-investigation-simulator/index.md) (p5.js; Bloom's: TBD; status: scaffold)
-- [Service Life Factor Calculator](../../sims/service-life-factor-calculator/index.md) (p5.js; Bloom's: TBD; status: scaffold)
+- [Failure Chain Explorer](../../sims/failure-chain-explorer/index.md) (vis-network; Bloom's: TBD; status: built)
+- [Forensic Leak Investigation Simulator](../../sims/forensic-leak-investigation-simulator/index.md) (p5.js; Bloom's: TBD; status: built)
+- [Service Life Factor Calculator](../../sims/service-life-factor-calculator/index.md) (p5.js; Bloom's: TBD; status: built)
 
 **In-class activity.** Give students a leak scenario and have them build a failure chain in the Failure Chain Explorer before using the Forensic Leak Investigation Simulator. Ask which earlier chapter each link comes from.
 
@@ -614,11 +614,11 @@ Each MicroSim's lesson page carries a status that paints a colored dot beside it
 
 | Dot | Status | Meaning | Count |
 |-----|--------|---------|------:|
-| Red | `scaffold` | A specification exists, but there is no working simulation yet. | 47 |
-| Orange | `built` | A working simulation exists and is awaiting the author's review. | 27 |
+| Red | `scaffold` | A specification exists, but there is no working simulation yet. | 0 |
+| Orange | `built` | A working simulation exists and is awaiting the author's review. | 74 |
 | Green | `approved` | The author tested it and approved it for learners. | 0 |
 
-Plan for this when you build a lesson around a simulation. Use the status dot to check that a MicroSim is working before you rely on it in class. Where the dot is red, use the written specification as a discussion prompt or a sketch exercise until the simulation is built. Chapters 1 through 7 are the most complete, and most of the later chapters still have scaffolds.
+Every MicroSim is built and none is approved yet, so each dot is orange for now. Open each simulation you plan to use, move every control through its range, and compare the behavior with the specification under it before you rely on it in class. Dots turn green as the author tests and approves each one.
 
 ### Libraries Behind the MicroSims
 
@@ -703,7 +703,8 @@ A **link** that stops working is called **link rot**. If a reference link breaks
 
 The [Poster Gallery](../../posters/index.md) has 20 **interactive infographic posters** that show big systems ideas on one page, such as the Perfect Wall's four control layers, the six shearing layers of a building, and the building as a chimney. Students open a poster, hover or click a region to read it, and then switch to **Quiz** mode. Posters work well as a first-day hook, a chapter opener, or a review station.
 
-The [Stories](../../stories/index.md) section has an illustrated story, *The Quality Without a Name* (after Christopher Alexander), which suits a discussion of why buildings feel the way they do.
+
+The [Stories](../../stories/index.md) section has 12 graphic novel stories, each following a person or an idea that shaped how we understand buildings, from the builders of Hagia Sophia and Brunelleschi's dome to Emily Roebling, Fazlur Khan, and Christopher Alexander. They suit a short reading or discussion at the start of a class, and they connect to chapter topics such as structure, earthquakes, bridges, and why places feel the way they do. A [story ideas](../../stories/story-ideas.md) page lists more that the author is considering.
 
 ## The Learning Graph
 
@@ -907,7 +908,7 @@ Anonymous page-view analytics is the safest choice. Before you collect anything 
 
 | Problem | What to try |
 |---------|-------------|
-| A MicroSim shows only a placeholder box | It is probably a scaffold. Check the status dot, and use the specification beneath it. |
+| A MicroSim shows only a placeholder box | It is a scaffold, which means the simulation is not built yet. Check the status dot, and use the specification beneath it. |
 | A MicroSim is blank | Reload the page, then try another browser. Check that your network allows the site. |
 | A link is broken | Search the title on the source's own site, or use the Wayback Machine, then report it. |
 | An equation looks like raw symbols | Reload the page. The equations load a small script when the page opens. |
