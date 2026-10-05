@@ -2,7 +2,12 @@
 title: 'The Science of the Built Environment'
 description: 'An interactive intelligent textbook on the science of the built environment: how buildings, materials, energy, air, light, and sound shape human health, comfort, and sustainability.'
 image: img/cover.png
+hide:
+  - toc
 ---
+<style>
+.md-content__inner h1 {display: none !important;}
+</style>
 
 # The Science of the Built Environment
 
@@ -10,31 +15,94 @@ image: img/cover.png
   ![The Science of the Built Environment cover](./img/cover.png){ width="100%" }
 </figure>
 
-An interactive intelligent textbook on the science of the built environment: how buildings, materials, energy, air, light, and sound shape human health, comfort, and sustainability.
+!!! mascot-welcome "Welcome, Builders!"
+    ![Beau waving welcome](img/mascot/welcome.png){ class="mascot-admonition-img" }
+    Hi, I'm Beau! I'll be your guide as we look at how buildings stand up, stay dry, keep us warm, and last for generations. Start with Chapter 1, try the MicroSims as you go, and let's build it right!
+
+## About This Book
+
+**The Science of the Built Environment** is an interactive intelligent textbook on how
+buildings are made and why they work. It shows how concrete, steel, wood, masonry,
+glass, and insulation behave under load, moisture, heat, fire, and time. It then follows
+those behaviors into the structures, enclosures, and mechanical, plumbing, and electrical
+systems that make a building safe, comfortable, and durable.
+
+Codes, regulations, and sustainability are treated as design inputs, not afterthoughts.
+Because the book was written for students in Minneapolis, its examples emphasize
+cold-climate construction: frost-protected foundations, high-performance insulation and
+air sealing, ice-dam and moisture control, and the Minnesota State Building Code and
+Energy Code.
+
+## Who This Book Is For
+
+- College undergraduates in construction, architecture, and building-systems programs
+- Future electrical designers and other members of a building design team
+- Instructors who want a modern, interactive text with simulations they can embed in their own course pages
+- Self-learners curious about what is inside a wall, under a slab, or above a ceiling
+
+The only prerequisite is a high-school education. Basic algebra and geometry help.
+The goal is a technically grounded generalist who can read a set of drawings, talk with
+specialists, and make sound decisions about how buildings are made. See the
+[Course Description](course-description.md) for the full list of learning outcomes.
+
+## What Is in the Book
+
+| | |
+|---|---|
+| **21 chapters** | From construction terminology and the design process, through physics, materials, structure, foundations, enclosure, building systems, codes, and fire safety, to energy, sustainability, and durability |
+| **380 concepts** | Organized in a dependency graph so prerequisites always come before the ideas that need them |
+| **80 MicroSims** | Small interactive simulations: adjust a load, an R-value, or a moisture level and watch the building respond |
+| **100 FAQ answers** | Common questions, each pointing back to the chapter that develops the idea |
+| **380 glossary terms** | Precise, plain-language definitions for the vocabulary of the trades |
+| **12 stories** | Short narratives about the builders, engineers, and architects who solved hard problems |
+| **20 posters** | One-page visual summaries of big ideas such as the load path and the four control layers |
+
+## How to Use This Book
+
+1. **Read the chapters in order.** Each chapter opens with a welcome from Beau, builds on the ones before it, and ends with a quiz and annotated references.
+2. **Play with the MicroSims.** They are the fastest way to build intuition for a new concept. Each one is embedded in its chapter and also listed on the [MicroSims](sims/index.md) page.
+3. **Look things up as you go.** The [Glossary](glossary.md) defines every term, and the [FAQ](faq.md) answers the questions builders ask most often.
+4. **See the big picture.** The [Learning Graph](learning-graph/index.md) shows how every concept connects to the others.
+
+## Explore
+
+<div class="grid cards" markdown>
+
+- **[Chapters](chapters/index.md)**
+
+    The 21 chapters of the book, from terminology to building failure.
+
+- **[MicroSims](sims/index.md)**
+
+    Interactive simulations for hands-on learning.
+
+- **[Learning Graph](learning-graph/index.md)**
+
+    How the 380 concepts depend on each other.
+
+- **[Posters](posters/index.md)**
+
+    Visual summaries of the book's big ideas.
+
+- **[Stories](stories/index.md)**
+
+    The people and projects behind great buildings.
+
+- **[FAQ](faq.md)** and **[Glossary](glossary.md)**
+
+    Quick answers and precise definitions.
+
+</div>
 
 ## Getting Started
 
-This is an intelligent textbook built with MkDocs Material. Use the navigation
-sidebar on the left to explore chapters, the learning graph, MicroSims, and
-supporting reference content.
+Begin with [Chapter 1: Introduction to the Built Environment and Construction Terminology](chapters/01-intro-terminology/index.md),
+or browse the [full list of chapters](chapters/index.md) and jump to the topic you need.
+Instructors can find classroom tips and customization steps in the
+[Instructors Guide](learning-graph/instructors-guide/index.md).
 
-## Front Matter
+## License and Contact
 
-- **About** — audience, prerequisites, and how to read the book
-- **Course Description** — the seed document used to generate the learning graph
-
-## Chapters
-
-The main body of the book lives under [Chapters](chapters/index.md). Each
-chapter has its own folder with a two-digit prefix (e.g. `01-intro-terminology`).
-
-## Learning Graph
-
-The [Learning Graph](learning-graph/index.md) shows how concepts depend on each
-other. Concepts are introduced in dependency order so prerequisites are always
-covered before they are used.
-
-## MicroSims
-
-Interactive simulations live under [MicroSims](sims/index.md). Each MicroSim
-focuses on one concept and is embeddable as an iframe inside chapter content.
+This book is licensed under [CC BY-NC-SA 4.0](license.md) for non-commercial use.
+Questions, corrections, and ideas are welcome on the [Contact](contact.md) page.
+Source and issue tracker: [GitHub](https://github.com/dmccreary/science-of-the-built-envrionment).
