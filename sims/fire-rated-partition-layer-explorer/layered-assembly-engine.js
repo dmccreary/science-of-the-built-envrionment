@@ -1,5 +1,5 @@
 // Layered Assembly Engine - draws a cross-section stack of building layers from the ASSEMBLY data object
-// ENGINE_VERSION: 1.3.0
+// ENGINE_VERSION: 1.4.2
 // Shared by every sim made with the layered-assembly-infographic skill. Do not edit a sim's copy by hand;
 // edit skills/layered-assembly-infographic/assets/layered-assembly-engine.js and run `assembly_tool.py sync`.
 //
@@ -7,7 +7,7 @@
 // Design rule: the base drawing is black-and-white line art with a fixed hatch legend; color is used only
 // for the invisible flows (heat, air, water, vapor) that the drawing is there to explain.
 
-const ENGINE_VERSION = '1.3.0';
+const ENGINE_VERSION = '1.4.2';
 
 // ---- Layout constants (the scaffold tool uses the same arithmetic to size the iframe) ----
 const ROW = 34;            // height of one control row
@@ -54,6 +54,8 @@ let hovered = -1;
 let dots = [];
 let layerRects = [];        // {a0,a1,c0,c1} per layer in along/cross coordinates
 let labelBoxes = [];        // {i,x,y,w,h} click targets for callouts
+let quizBox = null, nextButton = null;
+let quizQ = null, quizResult = '', quizPick = -1, quizScore = 0, quizAsked = 0, quizPool = [], quizWasOn = false;
 let specError = '';
 let thinScaled = false;
 
@@ -75,7 +77,7 @@ function setup() {
   isH = (A.direction || 'horizontal') === 'horizontal';
   drawHeight = A.drawHeight || 400;
   const hasCond = !!A.conditions;
-  controlHeight = ROW * (2 + 1 + 1 + (hasCond ? 1 : 0)) + 6;
+  controlHeight = ROW * (2 + 1 + 1 + (quizEnabled() ? 1 : 0) + (hasCond ? 1 : 0)) + 6;
   canvasHeight = drawHeight + INFO_HEIGHT + controlHeight;
   console.log('CANVAS_HEIGHT ' + canvasHeight + ' (engine ' + ENGINE_VERSION + ')');
 
@@ -87,7 +89,7 @@ function setup() {
   A.layers.forEach((L, i) => {
     const wide = (canvasWidth - 2 * margin) / Math.ceil(A.layers.length / 2) >= 95;
     const cb = createCheckbox((i + 1) + (wide ? ' ' + L.name : ''), true);   // ticked = layer present; untick to remove or puncture it
-    cb.changed(() => { if (!cb.checked()) selected = i; });
+    cb.changed(() => { if (!cb.checked() && !quizOn()) selected = i; });
     breakBoxes.push(cb);
   });
   failSel = createSelect();
@@ -107,12 +109,18 @@ function setup() {
   });
   lineArtBox = createCheckbox('Line art', false);
   legendBox = createCheckbox('Legend', legendDefault());
+  if (quizEnabled()) {
+    quizBox = createCheckbox('Quiz me', false);
+    nextButton = createButton('Next question');
+    nextButton.mousePressed(nextQuestion);
+    nextButton.hide();
+  }
   if (hasCond) {
     profileBox = createCheckbox('Temperature', false);
     const r = A.conditions.tempRange || [-20, 40];
     tempSlider = createSlider(r[0], r[1], A.conditions.tempA, 1);
   }
-  [...breakBoxes, failSel, explodeSlider, unitSel, resetButton, ...flowBoxes, lineArtBox, legendBox, profileBox, tempSlider]
+  [...breakBoxes, failSel, explodeSlider, unitSel, resetButton, ...flowBoxes, lineArtBox, legendBox, quizBox, nextButton, profileBox, tempSlider]
     .filter(Boolean).forEach(el => el.style('font-size', '14px'));
   positionControls();
 
@@ -138,6 +146,7 @@ function resetAll() {
   legendBox.checked(legendDefault());
   unitSel.selected((A.units || 'IP') === 'SI' ? 'SI' : 'IP');
   if (profileBox) { profileBox.checked(false); tempSlider.value(A.conditions.tempA); }
+  if (quizBox) quizBox.checked(false);
   selected = -1;
 }
 
@@ -167,11 +176,80 @@ function positionControls() {
   flowBoxes.forEach((cb, i) => cb.position(fx + i * fw2, y3));
   lineArtBox.position(fx + flowBoxes.length * fw2, y3);
   legendBox.position(fx + (flowBoxes.length + 1) * fw2, y3);
+  if (quizBox) {
+    const yq = top + 4 * ROW + 6;
+    quizBox.position(margin, yq);
+    nextButton.position(margin + 130, yq);
+  }
   if (profileBox) {
-    const y4 = top + 4 * ROW + 6;
+    const y4 = top + tempRowIndex() * ROW + 6;
     profileBox.position(margin, y4);
     tempSlider.position(360, y4 + 2);
     tempSlider.size(max(60, canvasWidth - 360 - margin));
+  }
+}
+
+// ---- Quiz mode: "read the drawing" questions built from the layer data (no extra authoring) ----
+function quizEnabled() { return !A || A.quiz !== false; }
+function quizOn() { return !!quizBox && quizBox.checked(); }
+function quizHidesNames() { return quizOn() && quizResult === ''; }   // names stay hidden until the student answers
+function tempRowIndex() { return 4 + (quizEnabled() ? 1 : 0); }
+function buildQuizPool() {
+  const pool = [];
+  A.layers.forEach((L, i) => {
+    if (L.what) pool.push({ answers: [i], text: 'Which layer is this?  "' + L.what + '"' });
+    if (L.why) pool.push({ answers: [i], text: 'Which layer is this?  "' + L.why + '"' });
+  });
+  (A.flows || []).forEach(f => {
+    const ans = A.layers.map((L, i) => (L.stops || []).includes(f.id) ? i : -1).filter(i => i >= 0);
+    if (ans.length) pool.push({ answers: ans, text: 'Click a layer that stops ' + f.name.toLowerCase() + '.' });
+  });
+  return pool.sort(() => random() - 0.5);
+}
+function nextQuestion() {
+  if (quizPool.length === 0) quizPool = buildQuizPool();
+  quizQ = quizPool.pop();
+  quizResult = '';
+  quizPick = -1;
+}
+function quizAnswer(i) {
+  if (!quizQ || quizResult !== '') return;
+  quizPick = i;
+  quizAsked++;
+  if (quizQ.answers.includes(i)) { quizResult = 'right'; quizScore++; } else quizResult = 'wrong';
+}
+function syncQuiz() {
+  if (!quizBox) return;
+  const on = quizOn();
+  if (on !== quizWasOn) {
+    quizWasOn = on;
+    if (on) { quizScore = 0; quizAsked = 0; quizPool = []; selected = -1; nextQuestion(); nextButton.show(); }
+    else { nextButton.hide(); quizQ = null; quizResult = ''; quizPick = -1; }
+  }
+  // layer checkbox labels carry the layer names, so show numbers only while a question is open
+  const colW = (canvasWidth - 2 * margin) / Math.ceil(A.layers.length / 2);
+  breakBoxes.forEach((cb, i) => {
+    const span = cb.elt.querySelector('span');
+    const want = (i + 1) + (colW >= 95 && !quizHidesNames() ? ' ' + A.layers[i].name : '');
+    if (span && span.textContent !== want) span.textContent = want;
+  });
+}
+function drawQuizInfo() {
+  const y0 = drawHeight, wInfo = canvasWidth - 2 * margin;
+  noStroke(); textAlign(LEFT, TOP);
+  textStyle(BOLD); textSize(13); fill(INK);
+  text('Quiz: read the drawing', margin, y0 + 6);
+  textAlign(RIGHT, TOP); text('Score ' + quizScore + ' / ' + quizAsked, canvasWidth - margin, y0 + 6);
+  textAlign(LEFT, TOP); textStyle(NORMAL); textSize(12); fill(60);
+  if (quizQ) text(quizQ.text, margin, y0 + 26, wInfo, 44);
+  if (quizResult === '') { fill(120); textSize(11); text('Click the layer in the drawing. Layer names are hidden until you answer.', margin, y0 + INFO_HEIGHT - 20); return; }
+  const first = quizQ.answers[0];
+  textStyle(BOLD); textSize(12);
+  if (quizResult === 'right') { fill('#2e7d32'); text('Correct: ' + (quizPick + 1) + ' ' + A.layers[quizPick].name + '. Press Next question.', margin, y0 + 74, wInfo, 16); }
+  else {
+    fill('#c62828');
+    const names = quizQ.answers.map(a => (a + 1) + ' ' + A.layers[a].name).join(' or ');
+    text('Not quite. That is ' + (quizPick + 1) + ' ' + A.layers[quizPick].name + '. The answer is ' + names + '.', margin, y0 + 74, wInfo, 30);
   }
 }
 
@@ -475,8 +553,10 @@ function drawLayer(i, hot) {
   // outline
   noFill();
   const warn = coldSensitive(i);
-  stroke(warn ? '#d32f2f' : (i === selected ? '#e65100' : INK));
-  strokeWeight(i === selected ? 3 : (hot ? 2 : 1));
+  const qRight = quizOn() && quizResult !== '' && quizQ.answers.includes(i);
+  const qWrong = quizOn() && quizResult === 'wrong' && i === quizPick;
+  stroke(qRight ? '#2e7d32' : (qWrong ? '#c62828' : (warn ? '#d32f2f' : (i === selected ? '#e65100' : INK))));
+  strokeWeight(qRight || qWrong ? 4 : (i === selected ? 3 : (hot ? 2 : 1)));
   rect(x, y, w, h);
 }
 
@@ -502,8 +582,8 @@ function drawCallouts() {
     A.layers.forEach((L, i) => {
       const cx = layerCenter(i).a;
       textSize(12); textStyle(BOLD);
-      const label = (i + 1) + ' ' + L.name;
-      const tag = tagFor(L);
+      const label = quizHidesNames() ? String(i + 1) : (i + 1) + ' ' + L.name;
+      const tag = quizHidesNames() ? '' : tagFor(L);
       const tw = max(textWidth(label), (textStyle(NORMAL), textSize(10), textWidth(tag))) + 4;
       const rightEdge = cx + 4 + tw > canvasWidth - 6;
       const tx0 = rightEdge ? cx - 4 - tw : cx + 4;
@@ -555,9 +635,9 @@ function drawCallouts() {
       line(sbox.c1, yy, sbox.c1 + 22, yy); line(sbox.c1 + 22, yy, lx - 6, ly);
       noStroke(); textAlign(LEFT, CENTER);
       fill(i === selected ? '#e65100' : INK); textStyle(BOLD); textSize(12);
-      const label = (i + 1) + ' ' + L.name;
+      const label = quizHidesNames() ? String(i + 1) : (i + 1) + ' ' + L.name;
       text(label, lx, ly - 7);
-      const tag = tagFor(L);
+      const tag = quizHidesNames() ? '' : tagFor(L);
       if (tag) { fill(110); textStyle(NORMAL); textSize(10); text(tag, lx, ly + 8); }
       labelBoxes.push({ i, x: lx, y: ly - 16, w: 150, h: 32 });
     });
@@ -625,6 +705,7 @@ function drawInfo() {
   stroke(200); strokeWeight(1); line(0, y0, canvasWidth, y0);
   noStroke(); textAlign(LEFT, TOP);
   const wInfo = canvasWidth - 2 * margin;
+  if (quizOn()) { drawQuizInfo(); return; }
   if (selected >= 0) {
     const L = A.layers[selected];
     const st = stateOf(selected);
@@ -647,7 +728,10 @@ function drawInfo() {
       text(v, margin + kw + 5, yy, wInfo - kw - 5, 32);
       yy += textWidth(k + v) > wInfo - 10 ? 30 : 16;
     });
-    if (L.materials) { fill(110); textSize(11); text('Typical materials: ' + L.materials, margin, y0 + INFO_HEIGHT - 18, wInfo, 14); }
+    const foot = [];
+    if (L.materials) foot.push('Typical materials: ' + L.materials);
+    if (L.csi) foot.push('MasterFormat ' + L.csi);
+    if (foot.length) { fill(110); textSize(11); textStyle(NORMAL); text(foot.join('   |   '), margin, y0 + INFO_HEIGHT - 18); }
   } else {
     textStyle(BOLD); textSize(13); fill(INK);
     text(A.title, margin, y0 + 6, wInfo, 18);
@@ -665,6 +749,7 @@ function drawInfo() {
       fill(INK); text(t, xx + 14, yy);
       xx += tw + 8;
     });
+    if (A.currency && A.currency.asOf) { fill(130); textSize(10); textAlign(LEFT, BOTTOM); text('Values are illustrative, as of ' + A.currency.asOf + '.', margin, y0 + INFO_HEIGHT - 4); }
     if (thinScaled) { fill(130); textSize(10); textAlign(RIGHT, BOTTOM); text('Thin layers are drawn wider than scale so they stay visible.', canvasWidth - margin, y0 + INFO_HEIGHT - 4); }
   }
 }
@@ -697,6 +782,7 @@ function draw() {
   if (specError) { background(255); fill(180, 0, 0); textSize(14); text(specError, 12, 40); return; }
   background(255);
   computeLayout();
+  syncQuiz();
   hovered = -1;
   layerRects.forEach((r, i) => {
     const p = px(r.a0, r.c0), q = px(r.a1, r.c1);
@@ -707,7 +793,7 @@ function draw() {
   if (profileBox && profileBox.checked()) drawProfile();
   drawFlows();
   drawCallouts();
-  if (legendBox.checked()) drawLegend();
+  if (legendBox.checked() && !quizHidesNames()) drawLegend();   // material names would give the answers away
   drawInfo();
   // control-row captions (the controls themselves are p5 DOM elements)
   const top = drawHeight + INFO_HEIGHT;
@@ -716,11 +802,10 @@ function draw() {
   text('Explode', 262, top + 2 * ROW + 6 + 12);
   text('Flows:', margin, top + 3 * ROW + 6 + 12);
   if (profileBox) {
-    const th = thermal();
-    text(shortSide(A.sideA) + ' ' + fmtTemp(tempSlider.value()) + '  ·  ' + shortSide(A.sideB).toLowerCase() + ' ' + fmtTemp(A.conditions.tempB), 150, top + 4 * ROW + 6 + 12);
+    text(shortSide(A.sideA) + ' ' + fmtTemp(tempSlider.value()) + '  ·  ' + shortSide(A.sideB).toLowerCase() + ' ' + fmtTemp(A.conditions.tempB), 150, top + tempRowIndex() * ROW + 6 + 12);
   }
-  // hover tooltip
-  if (hovered >= 0 && mouseY < drawHeight) {
+  // hover tooltip (hidden while a quiz question is open, because it names the layer)
+  if (hovered >= 0 && mouseY < drawHeight && !quizHidesNames()) {
     const L = A.layers[hovered];
     const t = L.name + (L.r !== undefined ? '  ·  ' + fmtR(L.r) : '') + '  ·  ' + fmtThickness(L.t);
     textSize(11); const tw = textWidth(t) + 12;
@@ -733,5 +818,6 @@ function draw() {
 function mousePressed() {
   if (specError) return;
   if (mouseX < 0 || mouseX > canvasWidth || mouseY < 0 || mouseY >= drawHeight) return;
+  if (quizOn()) { if (hovered >= 0) quizAnswer(hovered); return; }
   selected = hovered >= 0 ? hovered : -1;
 }
