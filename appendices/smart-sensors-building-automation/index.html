@@ -1,0 +1,2114 @@
+<!DOCTYPE html><html lang="en" class="no-js"><head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="How low-cost sensors, connected controls, and analytics are turning buildings into measured systems, with a worked example of carbon dioxide-based ventilation control.">
+      
+      
+        <meta name="author" content="Dan McCreary">
+      
+      
+        <link rel="canonical" href="https://dmccreary.github.io/science-of-the-built-envrionment/appendices/smart-sensors-building-automation/">
+      
+      
+        <link rel="prev" href="../geothermal-ground-source/">
+      
+      
+        <link rel="next" href="../mass-timber-low-carbon-materials/">
+      
+      
+      <link rel="icon" href="../../img/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+    
+    
+      
+        <title>Appendix F: Smart Sensors and Building Automation - The Science of the Built Environment</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+      <link rel="stylesheet" href="../../css/mascot.css">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-F7FKDK2SDS"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-F7FKDK2SDS",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-F7FKDK2SDS",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"><script src="../../assets/javascripts/glightbox.min.js"></script><style id="glightbox-style">
+            html.glightbox-open { overflow: initial; height: 100%; }
+            .gslide-title { margin-top: 0px; user-select: text; }
+            .gslide-desc { color: #666; user-select: text; }
+            .gslide-image img { background: white; }
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color); }
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color); }
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color); }
+        </style>  <meta property="og:title" content="Appendix F: Smart Sensors and Building Automation">
+  <meta name="twitter:title" content="Appendix F: Smart Sensors and Building Automation">
+  <meta property="og:description" content="How low-cost sensors, connected controls, and analytics are turning buildings into measured systems, with a worked example of carbon dioxide-based ventilation control.">
+  <meta name="twitter:description" content="How low-cost sensors, connected controls, and analytics are turning buildings into measured systems, with a worked example of carbon dioxide-based ventilation control.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dmccreary.github.io/science-of-the-built-envrionment/appendices/smart-sensors-building-automation/">
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="green" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#appendix-f-smart-sensors-and-building-automation" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="The Science of the Built Environment" class="md-header__button md-logo" aria-label="The Science of the Built Environment" data-md-component="logo">
+      
+  <img src="../../img/mascot/welcome.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"></path></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            The Science of the Built Environment
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Appendix F: Smart Sensors and Building Automation
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"></path></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"></path></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/dmccreary/science-of-the-built-envrionment" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="The Science of the Built Environment" class="md-nav__button md-logo" aria-label="The Science of the Built Environment" data-md-component="logo">
+      
+  <img src="../../img/mascot/welcome.png" alt="logo">
+
+    </a>
+    The Science of the Built Environment
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/dmccreary/science-of-the-built-envrionment" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"></path></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub Repo
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../course-description/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Course Description
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../chapters/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Chapters
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../learning-graph/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Learning Graph
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../stories/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Stories
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../posters/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    Posters
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+    <a href="../../sims/" class="md-nav__link">
+      
+  
+  <span class="md-ellipsis">
+    MicroSims
+  </span>
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Appendices
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_9" id="__nav_9_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Appendices
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../heat-pumps-electrification/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    A. Heat Pumps and Building Electrification
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../heat-recovery-ventilation/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    B. Heat Recovery Ventilation and Heat Exchangers
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../solar-photovoltaics/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    C. Solar Photovoltaics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../battery-storage/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    D. Battery Storage and Grid-Interactive Buildings
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../geothermal-ground-source/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    E. Geothermal Heating and Earth-Coupled Air
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    F. Smart Sensors and Building Automation
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    F. Smart Sensors and Building Automation
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-being-measured" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Is Being Measured
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#from-measurement-to-action" class="md-nav__link">
+    <span class="md-ellipsis">
+      From Measurement to Action
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="From Measurement to Action">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-sensor-to-action-map" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Sensor-to-Action Map
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-physics-that-does-not-change" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Physics That Does Not Change
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Physics That Does Not Change">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-classroom-co2-ventilation-balance-explorer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Classroom CO2 Ventilation Balance Explorer
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-changing" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Is Changing
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#privacy-and-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      Privacy and Security
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-to-watch" class="md-nav__link">
+    <span class="md-ellipsis">
+      What to Watch
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connects-to" class="md-nav__link">
+    <span class="md-ellipsis">
+      Connects To
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Takeaways
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mass-timber-low-carbon-materials/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    G. Mass Timber and Low-Carbon Materials
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../codes-performance-standards/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    H. Energy Codes and Performance Standards
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../digital-design-prefabrication-ai/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    I. Digital Design, Prefabrication, Robotics, and AI
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../glossary/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Glossary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../references/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    References
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../learning-graph/instructors-guide/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Instructors Guide
+  </span>
+  
+    
+  
+  
+    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
+    </span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../license/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    License
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../contact/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Contact
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-being-measured" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Is Being Measured
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#from-measurement-to-action" class="md-nav__link">
+    <span class="md-ellipsis">
+      From Measurement to Action
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="From Measurement to Action">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-sensor-to-action-map" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Sensor-to-Action Map
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-physics-that-does-not-change" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Physics That Does Not Change
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="The Physics That Does Not Change">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#diagram-classroom-co2-ventilation-balance-explorer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Diagram: Classroom CO2 Ventilation Balance Explorer
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-is-changing" class="md-nav__link">
+    <span class="md-ellipsis">
+      What Is Changing
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#privacy-and-security" class="md-nav__link">
+    <span class="md-ellipsis">
+      Privacy and Security
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-to-watch" class="md-nav__link">
+    <span class="md-ellipsis">
+      What to Watch
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#connects-to" class="md-nav__link">
+    <span class="md-ellipsis">
+      Connects To
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#key-takeaways" class="md-nav__link">
+    <span class="md-ellipsis">
+      Key Takeaways
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+    <a href="https://github.com/dmccreary/science-of-the-built-envrionment/blob/main/docs/appendices/smart-sensors-building-automation.md" title="Edit this page" class="md-content__button md-icon">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"></path></svg>
+    </a>
+  
+  
+
+
+<h1 id="appendix-f-smart-sensors-and-building-automation">Appendix F: Smart Sensors and Building Automation<a class="headerlink" href="#appendix-f-smart-sensors-and-building-automation" title="Permanent link">¶</a></h1>
+<div class="admonition mascot-welcome">
+<p class="admonition-title">A Building That Tells You How It Feels</p>
+<p><img alt="Beau waving welcome" class="mascot-admonition-img" src="../../img/mascot/welcome.png">
+Sensors the size of a coin can now report temperature, humidity, air quality, water leaks, and energy use all day long. This appendix shows how to use those numbers and how to know when to doubt them. Let's build it right!</p>
+</div>
+<p>For most of history a building's performance was a mystery after the ribbon cutting. Inexpensive sensors, wireless communication, and cloud software have changed that. A <strong>building automation system (BAS)</strong> is the network of sensors, controllers, and software that runs a building's mechanical and lighting systems. Smaller buildings and homes now have a lighter version of the same thing in smart thermostats, leak detectors, and energy monitors.</p>
+<h2 id="what-is-being-measured">What Is Being Measured<a class="headerlink" href="#what-is-being-measured" title="Permanent link">¶</a></h2>
+<ul>
+<li><strong>Temperature and humidity.</strong> The basis of comfort control and a guard against condensation (Chapter 4).</li>
+<li><strong>Carbon dioxide.</strong> A proxy for how much of a room's air is exhaled breath, and therefore for the ventilation rate per person.</li>
+<li><strong>Particulates and volatile compounds.</strong> Indicators of cooking, smoke, and off-gassing from materials.</li>
+<li><strong>Water.</strong> Leak detectors at water heaters, under sinks, and at the main shutoff catch the failures described in Chapter 21 before they become disasters.</li>
+<li><strong>Occupancy.</strong> Presence sensors dim lights and set back conditioning in empty rooms.</li>
+<li><strong>Energy and power.</strong> Submeters on circuits and equipment show where energy goes, which is the first step in reducing it.</li>
+</ul>
+<h2 id="from-measurement-to-action">From Measurement to Action<a class="headerlink" href="#from-measurement-to-action" title="Permanent link">¶</a></h2>
+<p>A sensor by itself only reports. In a <strong>building automation system</strong>, each sensor feeds a <strong>controller</strong>, a small computer that compares the reading with a <strong>setpoint</strong>, the value the building should hold, and then commands an <strong>actuator</strong>, a device that does something, such as a damper motor, a valve, a compressor, or a light dimmer. A controller can also take a non-sensor input, such as a utility price signal. The next MicroSim asks you to decide which action each input should drive.</p>
+<h4 id="diagram-sensor-to-action-map">Diagram: Sensor-to-Action Map<a class="headerlink" href="#diagram-sensor-to-action-map" title="Permanent link">¶</a></h4>
+<details>
+<summary>Sensor-to-Action Map</summary>
+<p>Type: graph-model
+<strong>sim-id:</strong> sensor-to-action-map<br>
+<strong>Library:</strong> vis-network<br>
+<strong>Status:</strong> Specified<br>
+<strong>Bloom Level:</strong> Understand<br>
+<strong>Bloom Verb:</strong> classify<br>
+<strong>Learning Objective:</strong> The learner will classify each of six building inputs by the control action it should drive, matching each input to one of six actions.</p>
+<p><strong>Prerequisites:</strong> sensor, controller, setpoint, actuator (all defined in the section "From Measurement to Action" above this block).</p>
+<p><strong>Evidence of Mastery:</strong> For each of 6 inputs the learner commits to one of the 6 actions. A choice is correct when it matches the Correct action column in Content, and each action is correct for exactly one input. Mastery is 5 of 6 correct. Opening node information is exploration, not evidence.</p>
+<p><strong>Misconceptions:</strong> (1) Any sensor can drive any control. (2) A leak sensor should only send an alert. (3) The outdoor temperature sensor is only for the thermostat display.</p>
+<p><strong>Instructional Rationale:</strong> Classifying inputs by the action they drive makes the learner connect what a sensor measures to what the building can do about it, which is the point of automation. Committing each match before the link is drawn gives the learner something to be right or wrong about.</p>
+<p><strong>Content:</strong></p>
+<p>Inputs, with the one action each should drive:</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Input</th>
+<th>Correct action</th>
+<th>Why (shown as feedback)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Room carbon dioxide sensor</td>
+<td>Ventilation airflow</td>
+<td>Carbon dioxide tracks the ventilation rate per person, so the controller raises or lowers outdoor air to hold the setpoint.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Room temperature sensor</td>
+<td>Heat pump compressor speed</td>
+<td>The controller compares room temperature with the setpoint and speeds up or slows down the compressor to close the gap.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Water leak sensor</td>
+<td>Main water shutoff valve</td>
+<td>Closing the valve at once limits the damage that a leak causes.</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Occupancy sensor</td>
+<td>Lighting and temperature setback</td>
+<td>Empty rooms do not need full lighting or comfort conditions, so the controller dims lights and relaxes the setpoint.</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Outdoor temperature sensor</td>
+<td>Heat recovery ventilator defrost mode</td>
+<td>Below the frost threshold the controller starts the defrost strategy described in Appendix B.</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Utility time-of-use price signal</td>
+<td>Battery charge and discharge</td>
+<td>The controller charges the battery when energy is cheap and discharges it when energy is expensive.</td>
+</tr>
+</tbody>
+</table>
+<p>The six actions to choose from are the six values in the Correct action column. One of the six inputs, the utility price signal, is not a sensor, and the sim must say so when it is shown.</p>
+<p>Each node's information panel gives one sentence stating what the input measures or signals and one sentence stating what the action does. Edge meanings are given in the node panels, not on clicking the edges.</p>
+<p><strong>Provenance:</strong> The inputs and actions follow the sensors and controls described in this appendix and in Appendices B and D. The wording is original to this book.</p>
+<p><strong>Rules:</strong> Each action is used by exactly one input. A learner cannot assign two inputs to the same action. After a choice is committed it cannot be changed.</p>
+<p><strong>Learner Activity:</strong></p>
+<ol>
+<li>The learner sees six input nodes on one side and six action nodes on the other, with no links between them.</li>
+<li>The learner selects an input, and chooses one of the six actions for it.</li>
+<li>The sim draws the link, marks it correct or incorrect, and shows the Why text.</li>
+<li>After the sixth input all six correct links are drawn, and the learner can open any node's information.</li>
+<li>The learner should notice that every action is driven by a measurement or signal that tells the controller whether the building needs it.</li>
+</ol>
+<p><strong>Feedback:</strong> Six inputs in fixed order, one attempt each. Correct: "Correct:" followed by the Why text. Incorrect: "Not quite:" followed by the Why text and the correct action. A running count "n of 6" is shown, and the final score appears after the sixth input.</p>
+<p><strong>Starting State:</strong> Six unlinked input nodes and six unlinked action nodes under the question "Which action should each input drive?"</p>
+<p><strong>Chapter Anchors:</strong> Appendix F names carbon dioxide, temperature, water leaks, occupancy and energy as measured quantities. Appendix B gives the frost indicator for heat recovery ventilators, and Appendix D describes time-of-use rates that reward charging at cheap hours.</p>
+</details>
+<h2 id="the-physics-that-does-not-change">The Physics That Does Not Change<a class="headerlink" href="#the-physics-that-does-not-change" title="Permanent link">¶</a></h2>
+<p>A sensor reports what is happening at one point, and the building's response still obeys the laws of mass and energy balance. Carbon dioxide control shows both sides.</p>
+<p><strong>Worked example: how much ventilation does 1,000 ppm imply?</strong> A resting adult exhales carbon dioxide at about 0.0106 cfm. Outdoor air carries about 420 ppm. At steady state, the airflow needed to hold the room at 1,000 ppm is the generation rate divided by the concentration rise:</p>
+<p><span class="arithmatex">\( \text{cfm per person} = \dfrac{0.0106 \times 10^{6}}{1000 - 420} \approx 18 \)</span></p>
+<p>About 18 cfm of outdoor air per person. This is why a classroom sensor reading of 2,000 ppm tells you the ventilation is less than half of what you wanted, and why <strong>demand-controlled ventilation</strong> can reduce the air, and the heating or cooling energy it carries, in a room that is only half full. The outdoor-air heating cost of that air is what the <a href="../../sims/hvac-heating-load-ventilation-explorer/">Heating Load and Ventilation Explorer</a> lets you vary.</p>
+<p>The next MicroSim lets you set the occupants and the ventilation airflow for a classroom, predict where the carbon dioxide will settle, and then see how long it takes and what a badly placed sensor reads.</p>
+<h4 id="diagram-classroom-co2-ventilation-balance-explorer">Diagram: Classroom CO2 Ventilation Balance Explorer<a class="headerlink" href="#diagram-classroom-co2-ventilation-balance-explorer" title="Permanent link">¶</a></h4>
+<details>
+<summary>Classroom CO2 Ventilation Balance Explorer</summary>
+<p>Type: microsim
+<strong>sim-id:</strong> co2-ventilation-balance-explorer<br>
+<strong>Library:</strong> p5.js<br>
+<strong>Status:</strong> Specified<br>
+<strong>Bloom Level:</strong> Apply<br>
+<strong>Bloom Verb:</strong> calculate<br>
+<strong>Learning Objective:</strong> The learner will calculate the steady-state carbon dioxide concentration in a room from the number of occupants and the outdoor airflow, to within 25 ppm, and the airflow needed to hold a target.</p>
+<p><strong>Prerequisites:</strong> ppm, cfm, steady state, demand-controlled ventilation, the carbon dioxide generation rate of a resting adult (all defined in this appendix above the block).</p>
+<p><strong>Evidence of Mastery:</strong> In four challenges the learner commits an answer before the sim reveals it. Challenges 1 and 2 ask for a concentration in ppm, correct within ±25 ppm. Challenge 3 asks for the smallest airflow in the allowed list that keeps the room at &lt;= 1,000 ppm. Challenge 4 asks whether a controller with a 1,000 ppm setpoint would see a problem through a sensor near the supply grille, correct when it answers yes or no matching the table. Mastery is 4 of 4 correct, with two attempts on each. Changing settings afterward is exploration, not evidence.</p>
+<p><strong>Misconceptions:</strong> (1) Carbon dioxide level depends on room size only. (2) A sensor anywhere in the room shows the same reading. (3) Halving the airflow doubles the rise above outdoor carbon dioxide, so it cannot matter much below 1,000 ppm.</p>
+<p><strong>Instructional Rationale:</strong> Apply-level skill is built by computing the balance for chosen numbers. The sensor-placement challenge shows that a reading is a measurement of one spot and not the truth about the room, which the appendix warns about.</p>
+<p><strong>Content:</strong></p>
+<p>The room is a classroom of 7,200 ft³ (30 ft by 24 ft by 10 ft). The room starts empty at the outdoor level of 420 ppm. Each resting adult generates 0.0106 cfm of carbon dioxide.</p>
+<table>
+<thead>
+<tr>
+<th>Quantity</th>
+<th>Min</th>
+<th>Max</th>
+<th>Step</th>
+<th>Default</th>
+<th>Unit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Occupants</td>
+<td>5</td>
+<td>40</td>
+<td>5</td>
+<td>25</td>
+<td>people</td>
+</tr>
+<tr>
+<td>Outdoor airflow</td>
+<td>50</td>
+<td>800</td>
+<td>50</td>
+<td>450</td>
+<td>cfm</td>
+</tr>
+</tbody>
+</table>
+<p>Sensor location choice (illustrative): "In the breathing zone" reads 100 percent of the rise above outdoor, "Near the supply grille" reads 60 percent, "In a stagnant corner" reads 120 percent. Default: in the breathing zone.</p>
+<p>Challenges, in this order:</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Setting</th>
+<th>Correct answer</th>
+<th>Why (shown as feedback)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>25 people, 450 cfm</td>
+<td>1,009 ppm</td>
+<td>Generation is 25 x 0.0106 = 0.265 cfm. Rise = 0.265 x 1,000,000 / 450 = 589 ppm. Steady level = 420 + 589 = 1,009 ppm.</td>
+</tr>
+<tr>
+<td>2</td>
+<td>25 people, 150 cfm</td>
+<td>2,187 ppm</td>
+<td>Rise = 0.265 x 1,000,000 / 150 = 1,767 ppm, so the level is 420 + 1,767 = 2,187 ppm. One third of the air gives three times the rise.</td>
+</tr>
+<tr>
+<td>3</td>
+<td>30 people, target &lt;= 1,000 ppm, airflow choices in steps of 50 cfm</td>
+<td>550 cfm</td>
+<td>Needed airflow = 30 x 0.0106 x 1,000,000 / (1,000 - 420) = 548 cfm. The smallest step that is &gt;= 548 is 550 cfm (500 cfm would give 1,056 ppm).</td>
+</tr>
+<tr>
+<td>4</td>
+<td>25 people, 300 cfm, sensor near the supply grille, setpoint 1,000 ppm</td>
+<td>No, the controller sees no problem</td>
+<td>The breathing zone reaches 420 + 883 = 1,303 ppm, but the sensor reads only 420 + 0.60 x 883 = 950 ppm, which is below the setpoint, so the airflow is not raised.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Provenance:</strong> The 420 ppm outdoor level, the 0.0106 cfm per person, the 18 cfm per person result and the 1,000 ppm example come from this appendix. The room size, the allowed ranges and the sensor-location percentages are illustrative, and the sim must label the sensor percentages "illustrative".</p>
+<p><strong>Rules:</strong></p>
+<ul>
+<li>Steady-state concentration = 420 + occupants x 0.0106 x 1,000,000 / airflow, in ppm.</li>
+<li>Concentration over time after the room fills = steady level - (steady level - 420) x e^(-(airflow / 7,200) x t), with t in minutes. The time constant is 7,200 / airflow minutes, which is 16 minutes at the default.</li>
+<li>Sensor reading = 420 + sensor fraction x (concentration - 420).</li>
+<li>Required airflow for a target concentration C is occupants x 0.0106 x 1,000,000 / (C - 420), for C &gt; 420.</li>
+<li>The sim shows the concentration rising from 420 ppm and settling at the steady level, and marks the time at which the level is within 5 percent of the rise, which is 3 time constants.</li>
+</ul>
+<p><strong>Learner Activity:</strong></p>
+<ol>
+<li>The learner reads the setting of a challenge and types a concentration, an airflow, or yes or no.</li>
+<li>The learner presses Check. The sim reveals the answer and the Why text, then plays the concentration rising over time for that setting.</li>
+<li>After the four challenges the learner changes occupants, airflow and sensor location. The steady level, the curve, and the sensor reading update at once.</li>
+<li>The learner halves the airflow from 450 cfm to 250 cfm and should notice that the steady level rises from 1,009 ppm to about 1,480 ppm, and the time to settle rises with it.</li>
+<li>The learner changes the sensor location and should notice that the reading differs from the breathing-zone concentration.</li>
+</ol>
+<p><strong>Feedback:</strong> Four challenges, fixed order, two attempts each. Correct: "Correct: <answer>." Incorrect on the first attempt: the Why text without the answer. After a second wrong attempt the answer and the Why text are shown, and the challenge counts as missed. A running count "Challenges correct: n of 4" is shown.</answer></p>
+<p><strong>Starting State:</strong> The classroom is shown empty with the carbon dioxide at 420 ppm, and challenge 1 asks "Twenty-five students and 450 cfm of fresh air: where will the carbon dioxide settle?"</p>
+<p><strong>Chapter Anchors:</strong> At 1,000 ppm indoors and 420 ppm outdoors, a resting adult needs about 18 cfm of outdoor air. A reading of 2,000 ppm means ventilation is less than half of what was wanted. A sensor next to a supply grille reads low.</p>
+</details>
+<h2 id="what-is-changing">What Is Changing<a class="headerlink" href="#what-is-changing" title="Permanent link">¶</a></h2>
+<ul>
+<li><strong>Cost and connectivity.</strong> Sensors and radios are cheap enough to place in every room, and common protocols such as BACnet and Matter are making equipment from different makers work together.</li>
+<li><strong>Analytics.</strong> Software compares sensor data with expectations to detect faults, such as a stuck damper or a simultaneous heating and cooling, and recommends fixes. This is sometimes called continuous commissioning, extending the commissioning in Chapter 2 beyond the day of handover.</li>
+<li><strong>Grid response.</strong> Controls can preheat, precool, or delay loads in response to utility signals, which links this appendix to <a href="../battery-storage/">Appendix D</a>.</li>
+<li><strong>Digital twins.</strong> A <strong>digital twin</strong> is a software model of a building that is updated with live sensor data, so designers and operators can test a change on the model before making it in the building.</li>
+<li><strong>Machine learning and AI agents.</strong> Software that learns occupant patterns and adjusts setpoints is moving from research into products.</li>
+</ul>
+<div class="admonition mascot-warning">
+<p class="admonition-title">A Reading Is Not the Truth</p>
+<p><img alt="Beau warning" class="mascot-admonition-img" src="../../img/mascot/warning.png">
+Sensors drift, sit in bad locations, and fail quietly, and a carbon dioxide sensor next to a supply grille will read low. Check new sensors against a reference, verify placement, and recalibrate on a schedule so that the controls respond to the room and not to an error.</p>
+</div>
+<h2 id="privacy-and-security">Privacy and Security<a class="headerlink" href="#privacy-and-security" title="Permanent link">¶</a></h2>
+<p>Occupancy sensors, cameras, and connected equipment collect information about people, and networked controls can be attacked. Good practice limits what is collected, keeps building networks separate from other networks, and updates equipment software. These issues are as much a part of building design now as fire separation.</p>
+<h2 id="what-to-watch">What to Watch<a class="headerlink" href="#what-to-watch" title="Permanent link">¶</a></h2>
+<ul>
+<li>Interoperability standards and the products that adopt them.</li>
+<li>Code and standards language on ventilation control, metering, and fault detection.</li>
+<li>Guidance on indoor air quality targets, which affects how sensor data is interpreted.</li>
+<li>Cybersecurity and privacy rules for connected buildings.</li>
+</ul>
+<h2 id="connects-to">Connects To<a class="headerlink" href="#connects-to" title="Permanent link">¶</a></h2>
+<ul>
+<li><a href="../../chapters/02-design-construction-process/">Chapter 2: The Design and Construction Process</a> (commissioning)</li>
+<li><a href="../../chapters/04-moisture-air-comfort/">Chapter 4: Moisture, Air Movement, and Thermal Comfort</a></li>
+<li><a href="../../chapters/14-hvac-plumbing-fire/">Chapter 14: HVAC, Plumbing, and Fire Protection Systems</a></li>
+<li><a href="../../chapters/21-durability-failure/">Chapter 21: Durability, Maintenance, and Building Failure</a></li>
+</ul>
+<h2 id="key-takeaways">Key Takeaways<a class="headerlink" href="#key-takeaways" title="Permanent link">¶</a></h2>
+<ul>
+<li>Sensors measure; the building still obeys mass and energy balance, so you need to interpret the data.</li>
+<li>Steady-state carbon dioxide control follows from a simple balance: at 1,000 ppm, about 18 cfm of outdoor air per person.</li>
+<li>Sensors, protocols, analytics, and AI tools are changing quickly; the need to calibrate, place, and protect them is not.</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"></path></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Footer">
+        
+          
+          <a href="../geothermal-ground-source/" class="md-footer__link md-footer__link--prev" aria-label="Previous: E. Geothermal Heating and Earth-Coupled Air">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"></path></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              <div class="md-ellipsis">
+                E. Geothermal Heating and Earth-Coupled Air
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../mass-timber-low-carbon-materials/" class="md-footer__link md-footer__link--next" aria-label="Next: G. Mass Timber and Low-Carbon Materials">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              <div class="md-ellipsis">
+                G. Mass Timber and Low-Carbon Materials
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"></path></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright © 2026 Dan McCreary. Licensed under <a href="license/">CC BY-NC-SA 4.0</a> for non-commercial use.
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "content.action.edit", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "search.share"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="../../js/extra.js"></script>
+      
+        <script src="../../js/katex.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+      
+    
+  
+<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+document$.subscribe(()=>{ lightbox.reload(); });
+</script></body></html>
