@@ -118,6 +118,24 @@ Implementation: p5.js with built-in select, slider, checkbox, and buttons, a sim
 
 In a cold climate, brick should be rated for freeze-thaw exposure, since water that freezes in porous brick can pop the face off. Brick is durable and heavy, as the footing example showed, and it must sit on a ledge of the foundation wall.
 
+Brick is a rain *screen*, not a rain *barrier*. Wind-driven rain soaks through the brick, runs down the air space, and leaves at the weep holes, so the layers behind the brick must be able to stop what gets through. The MicroSim below traces rain and air through a brick veneer wall. Remove each layer in turn and decide whether the rain, the air, or both would then reach the sheathing.
+
+#### Diagram: Brick Veneer Rainscreen Wall
+
+<iframe src="../../sims/brick-veneer-rainscreen-layer-explorer/main.html" width="100%" height="664px" scrolling="no"></iframe>
+
+[Run the Brick Veneer Rainscreen Wall MicroSim fullscreen](../../sims/brick-veneer-rainscreen-layer-explorer/main.html){ .md-button }
+
+<details markdown="1">
+<summary>Brick Veneer Rainscreen Wall</summary>
+Type: infographic
+**sim-id:** brick-veneer-rainscreen-layer-explorer<br/>
+**Library:** p5.js<br/>
+**Status:** Built
+
+Learning objective: Students will identify (Bloom Level 1, Remember) the four layers of a brick veneer wall with a drained air gap and will predict (Bloom Level 2, Understand) what reaches the sheathing when a layer is missing or punctured.
+</details>
+
 ## Stucco
 
 **Stucco** is a cement-based plaster applied in layers over a lath of metal mesh or other backing. A traditional three-coat system builds a plaster skin about 7/8 in thick, applied in this order:

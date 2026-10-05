@@ -5,7 +5,7 @@ These five MicroSims were made with the project skill `skills/layered-assembly-i
 two are the skill's own worked examples. All are `status: built` (orange dot in the nav).
 **Only you set `approved`**, after you have exercised the controls.
 
-None of them has been embedded in a chapter yet, and none has a screenshot, so they do not
+Each one is now embedded in its chapter (10, 11, 12, 13, and 18), but none has a screenshot yet, so they do not
 appear in the MicroSims grid. The numbers in every sim are illustrative teaching values.
 
 ## The sims

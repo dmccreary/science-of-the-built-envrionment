@@ -132,6 +132,24 @@ The slope often comes from the insulation rather than the structure. Manufacture
 
 **Worked example: tapered insulation and heat loss.** Assume for illustration that the designers of the Riverbend Youth Center (about 9,000 ft² on one story) choose a low-slope roof with the roof plan area equal to the floor area. Drains sit in valleys, and the longest distance from a high point to a drain is 30 ft. At a quarter inch per foot, the tapered insulation must change in thickness by \( 30 \times 0.25 = 7.5 \) inches over that distance, a quantity the designer must carry into the roof edge and parapet details. For heat loss, suppose two 3 in layers of polyisocyanurate at an illustrative R-5.7 per inch give a total of \( R = 2 \times 3 \times 5.7 = 34.2 \), using the average thickness for simplicity. The U-factor is \( 1/34.2 \approx 0.029 \) Btu/h·ft²·°F. With an indoor temperature of 70 °F and an outdoor temperature of 10 °F, the heat loss is \( Q = UA\Delta T = 0.029 \times 9{,}000 \times 60 \approx 15{,}800 \) Btu/h. The result is a quick check on whether the insulation level matches the energy code, which is the subject of Chapter 19.
 
+The MicroSim below draws a low-slope warm roof from the sky down to the room. Name the layer that keeps rain out and the layer that keeps room vapor out of the insulation. Then remove or puncture each one and watch where the dots go.
+
+#### Diagram: Low-Slope Warm Roof
+
+<iframe src="../../sims/example-low-slope-warm-roof/main.html" width="100%" height="704px" scrolling="no"></iframe>
+
+[Run the Low-Slope Warm Roof MicroSim fullscreen](../../sims/example-low-slope-warm-roof/main.html){ .md-button }
+
+<details markdown="1">
+<summary>Low-Slope Warm Roof</summary>
+Type: infographic
+**sim-id:** example-low-slope-warm-roof<br/>
+**Library:** p5.js<br/>
+**Status:** Built
+
+Learning objective: Students will identify (Bloom Level 1, Remember) the layers of a low-slope warm roof and will predict (Bloom Level 2, Understand) the consequence of removing or puncturing the membrane, vapor retarder, or insulation.
+</details>
+
 ### Roofing Membranes
 
 A **roofing membrane** is a continuous, flexible, waterproof sheet or built-up layer that forms the weathering surface of a low-slope roof. The main families are listed below.

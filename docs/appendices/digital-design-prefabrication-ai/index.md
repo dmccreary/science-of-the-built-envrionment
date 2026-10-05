@@ -89,6 +89,10 @@ The next MicroSim is a practice drill in that habit. It shows ten statements of 
 
 #### Diagram: AI Claim Audit Drill
 
+<iframe src="../../sims/ai-claim-audit-drill/main.html" width="100%" height="482px" scrolling="no"></iframe>
+
+[Run the AI Claim Audit Drill MicroSim fullscreen](../../sims/ai-claim-audit-drill/main.html){ .md-button }
+
 <details markdown="1">
 <summary>AI Claim Audit Drill</summary>
 Type: microsim

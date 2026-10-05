@@ -67,6 +67,10 @@ A sensor by itself only reports. In a **building automation system**, each senso
 
 #### Diagram: Sensor-to-Action Map
 
+<iframe src="../../sims/sensor-to-action-map/main.html" width="100%" height="647px" scrolling="no"></iframe>
+
+[Run the Sensor-to-Action Map MicroSim fullscreen](../../sims/sensor-to-action-map/main.html){ .md-button }
+
 <details markdown="1">
 <summary>Sensor-to-Action Map</summary>
 Type: graph-model
@@ -134,6 +138,10 @@ About 18 cfm of outdoor air per person. This is why a classroom sensor reading o
 The next MicroSim lets you set the occupants and the ventilation airflow for a classroom, predict where the carbon dioxide will settle, and then see how long it takes and what a badly placed sensor reads.
 
 #### Diagram: Classroom CO2 Ventilation Balance Explorer
+
+<iframe src="../../sims/co2-ventilation-balance-explorer/main.html" width="100%" height="562px" scrolling="no"></iframe>
+
+[Run the Classroom CO2 Ventilation Balance Explorer MicroSim fullscreen](../../sims/co2-ventilation-balance-explorer/main.html){ .md-button }
 
 <details markdown="1">
 <summary>Classroom CO2 Ventilation Balance Explorer</summary>

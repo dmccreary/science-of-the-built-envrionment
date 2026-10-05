@@ -4,7 +4,7 @@ This file tracks MicroSims that need screenshots captured.
 
 ## Missing Screenshots
 
-None. All 74 MicroSims listed in `index.md` have a `<name>/<name>.png` screenshot.
+None. All 86 MicroSims listed in `index.md` have a `<name>/<name>.png` screenshot.
 
 To capture a screenshot for a new MicroSim:
 

@@ -30,21 +30,21 @@ The laws of physics that govern how buildings work do not change. Heat still flo
 
 ## MicroSims in the Appendices
 
-Each appendix includes specifications for interactive MicroSims, and four reuse MicroSims that already exist in the main chapters. The new ones are specified and not yet built, so each carries the status `Specified`.
+Each appendix includes specifications for interactive MicroSims, and four reuse MicroSims that already exist in the main chapters. The new ones are built and awaiting author review, so each carries the status `Built`.
 
 | MicroSim | Appendix | Type | Bloom level | Status |
 |---|---|---|---|---|
-| Heat Pump Cycle Explorer | [A](heat-pumps-electrification/index.md) | infographic | Understand | Specified |
-| Heat Pump COP and Lift Explorer | [A](heat-pumps-electrification/index.md) | microsim | Apply | Specified |
-| HRV Effectiveness and Frost Explorer | [B](heat-recovery-ventilation/index.md) | microsim | Apply | Specified |
-| Rooftop PV Monthly Production Explorer | [C](solar-photovoltaics/index.md) | chart | Analyze | Specified |
-| Battery Backup Run-Time Explorer | [D](battery-storage/index.md) | microsim | Apply | Specified |
-| Ground Temperature versus Depth Explorer | [E](geothermal-ground-source/index.md) | chart | Analyze | Specified |
-| Sensor-to-Action Map | [F](smart-sensors-building-automation/index.md) | graph-model | Understand | Specified |
-| Classroom CO2 Ventilation Balance Explorer | [F](smart-sensors-building-automation/index.md) | microsim | Apply | Specified |
-| CLT Warm Roof Assembly Explorer | [G](mass-timber-low-carbon-materials/index.md) | microsim (layered assembly) | Understand | Specified |
-| Code Editions and Building Life Explorer | [H](codes-performance-standards/index.md) | microsim | Apply | Specified |
-| AI Claim Audit Drill | [I](digital-design-prefabrication-ai/index.md) | microsim | Evaluate | Specified |
+| [Heat Pump Cycle Explorer](../sims/heat-pump-cycle-explorer/index.md) | [A](heat-pumps-electrification/index.md) | infographic | Understand | Built |
+| [Heat Pump COP and Lift Explorer](../sims/heat-pump-cop-lift-explorer/index.md) | [A](heat-pumps-electrification/index.md) | microsim | Apply | Built |
+| [HRV Effectiveness and Frost Explorer](../sims/hrv-effectiveness-frost-explorer/index.md) | [B](heat-recovery-ventilation/index.md) | microsim | Apply | Built |
+| [Rooftop PV Monthly Production Explorer](../sims/pv-monthly-production-explorer/index.md) | [C](solar-photovoltaics/index.md) | chart | Analyze | Built |
+| [Battery Backup Run-Time Explorer](../sims/battery-backup-runtime-explorer/index.md) | [D](battery-storage/index.md) | microsim | Apply | Built |
+| [Ground Temperature versus Depth Explorer](../sims/ground-temperature-depth-explorer/index.md) | [E](geothermal-ground-source/index.md) | chart | Analyze | Built |
+| [Sensor-to-Action Map](../sims/sensor-to-action-map/index.md) | [F](smart-sensors-building-automation/index.md) | graph-model | Understand | Built |
+| [Classroom CO2 Ventilation Balance Explorer](../sims/co2-ventilation-balance-explorer/index.md) | [F](smart-sensors-building-automation/index.md) | microsim | Apply | Built |
+| [CLT Warm Roof Assembly Explorer](../sims/clt-warm-roof-assembly-explorer/index.md) | [G](mass-timber-low-carbon-materials/index.md) | microsim (layered assembly) | Understand | Built |
+| [Code Editions and Building Life Explorer](../sims/code-editions-building-life-explorer/index.md) | [H](codes-performance-standards/index.md) | microsim | Apply | Built |
+| [AI Claim Audit Drill](../sims/ai-claim-audit-drill/index.md) | [I](digital-design-prefabrication-ai/index.md) | microsim | Evaluate | Built |
 
 Reused from the main chapters: Heating System Energy Comparison (Appendix A), Glulam Char Section Explorer (Appendix G), Code Adoption and Authority Chain (Appendix H), and Ceiling Coordination Clash Explorer (Appendix I).
 

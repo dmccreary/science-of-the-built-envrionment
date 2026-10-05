@@ -68,6 +68,10 @@ The next MicroSim lets you choose which loads stay on during an outage and find 
 
 #### Diagram: Battery Backup Run-Time Explorer
 
+<iframe src="../../sims/battery-backup-runtime-explorer/main.html" width="100%" height="592px" scrolling="no"></iframe>
+
+[Run the Battery Backup Run-Time Explorer MicroSim fullscreen](../../sims/battery-backup-runtime-explorer/main.html){ .md-button }
+
 <details markdown="1">
 <summary>Battery Backup Run-Time Explorer</summary>
 Type: microsim

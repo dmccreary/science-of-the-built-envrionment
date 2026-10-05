@@ -60,6 +60,10 @@ Annual energy hides an important fact: the sun is far stronger in June than in D
 
 #### Diagram: Rooftop PV Monthly Production Explorer
 
+<iframe src="../../sims/pv-monthly-production-explorer/main.html" width="100%" height="628px" scrolling="no"></iframe>
+
+[Run the Rooftop PV Monthly Production Explorer MicroSim fullscreen](../../sims/pv-monthly-production-explorer/main.html){ .md-button }
+
 <details markdown="1">
 <summary>Rooftop PV Monthly Production Explorer</summary>
 Type: chart

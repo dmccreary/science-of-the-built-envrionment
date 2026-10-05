@@ -54,6 +54,10 @@ Taking an illustrative Twin Cities-like site with an annual mean of 45°F and a 
 
 #### Diagram: Ground Temperature versus Depth Explorer
 
+<iframe src="../../sims/ground-temperature-depth-explorer/main.html" width="100%" height="692px" scrolling="no"></iframe>
+
+[Run the Ground Temperature versus Depth Explorer MicroSim fullscreen](../../sims/ground-temperature-depth-explorer/main.html){ .md-button }
+
 <details markdown="1">
 <summary>Ground Temperature versus Depth Explorer</summary>
 Type: chart
@@ -153,13 +157,13 @@ A buried pipe never brings the air all the way to the soil temperature. Its **ef
 
 **Worked example: January.** The normal mean temperature for January in the Twin Cities is 16.2°F.[^2] The soil model above puts the ground at 8 feet at 40.4°F in mid-January, because the coldest soil arrives about two months after the coldest air. The 200-foot pipe delivers air at \( 16.2 + 0.86 \times (40.4 - 16.2) = 36.9 \)°F. The preheat is \( 1.08 \times 100 \times 20.7 \approx 2{,}240 \) Btu/h, or 1.67 million Btu over the 744 hours of the month. A 95 percent furnace burns 17.5 therms to supply that heat, which costs \$21 at the illustrative \$1.20 per therm from [Appendix A](../heat-pumps-electrification/index.md). The whole January heating bill for this house is about \$187, so the ground source lowers it by 11 percent.
 
-Repeating the calculation for every month gives a yearly heating and cooling bill of about \$956 with the standard intake and \$839 with the ground source, a saving of \$117. Suppose the system costs \$3,000 for the intake, filter, drain, and bypass damper, plus \$40 for each foot of trench and pipe, or \$11,000 for 200 feet. These installed costs are illustrative, and they assume an open site that excavating equipment can reach easily. The **simple payback**, the installed cost divided by the yearly savings, is \( 11{,}000 / 117 \approx 94 \) years. Over 30 years the savings add up to \$3,520, so the **return on investment (ROI)**, the net gain divided by the cost, is \( (3{,}520 - 11{,}000) / 11{,}000 = -68 \) percent.
+Repeating the calculation for every month gives a yearly heating and cooling bill of about \$956 with the standard intake and \$839 with the ground source, a saving of \$117. Suppose the system has a fixed cost of \$2,000 for the intake, filter, drain, and bypass damper, plus \$40 for each foot of trench and pipe, or \$10,000 for 200 feet. These installed costs are illustrative, and they assume an open site that excavating equipment can reach easily. The fixed cost is lower when a contractor with a backhoe is already working on the site. The **simple payback**, the installed cost divided by the yearly savings, is \( 10{,}000 / 117 \approx 85 \) years. Over 30 years the savings add up to \$3,520, so the **return on investment (ROI)**, the net gain divided by the cost, is \( (3{,}520 - 10{,}000) / 10{,}000 = -65 \) percent.
 
-The estimate favors the earth tube. It assumes that the soil stays at its undisturbed temperature all season, and it leaves out fan energy, filter changes, and cleaning, so a real system would save less. The MicroSim repeats the calculation for all twelve months and lets you change the pipe length, the cost per foot, and the heating system.
+The estimate favors the earth tube. It assumes that the soil stays at its undisturbed temperature all season, and it leaves out fan energy, filter changes, and cleaning, so a real system would save less. The MicroSim repeats the calculation for all twelve months and lets you change the pipe length, the fixed cost, the cost per foot, and the heating system.
 
 #### Diagram: Ground-Source ROI Estimator
 
-<iframe src="../../sims/ground-source-roi-estimator/main.html" width="100%" height="732px" scrolling="no"></iframe>
+<iframe src="../../sims/ground-source-roi-estimator/main.html" width="100%" height="762px" scrolling="no"></iframe>
 
 [Run the Ground-Source ROI Estimator MicroSim fullscreen](../../sims/ground-source-roi-estimator/main.html){ .md-button }
 
@@ -175,7 +179,7 @@ Type: chart
 
 **Prerequisites:** earth tube, seasonal swing, damping depth, balance point, effectiveness, simple payback, return on investment (all defined in this appendix above the block); therm, kilowatt-hour, and COP (Appendix A).
 
-**Evidence of Mastery:** The learner types the pipe length that gives the shortest simple payback for the cost per foot and heating system currently set. An answer is correct when it is within ±20 ft of the model's best length. Two attempts are allowed. Changing the cost per foot or the heating system starts a new challenge with a new answer. Moving the sliders is exploration, not evidence.
+**Evidence of Mastery:** The learner types the pipe length that gives the shortest simple payback for the fixed cost, cost per foot, and heating system currently set. An answer is correct when it is within ±20 ft of the model's best length. Two attempts are allowed. Changing the fixed cost, the cost per foot, or the heating system starts a new challenge with a new answer. Moving the sliders is exploration, not evidence.
 
 **Misconceptions:** (1) Doubling the pipe length doubles the savings. (2) Heat from the ground is free, so the payback must be short. (3) The ground helps in every month. (4) The saving depends only on the pipe, not on what the saved heat would have cost.
 
@@ -189,12 +193,13 @@ The chart shows twelve pairs of bars, one pair per month: the heating or cooling
 |---|---|---|---|---|---|
 | Pipe length | 50 | 400 | 10 | 200 | ft |
 | Installed cost per foot of pipe | 20 | 80 | 5 | 40 | \$ per ft |
+| Fixed installed cost | 1,000 | 3,000 | 250 | 2,000 | \$ |
 
 | Choice | Options | Default |
 |---|---|---|
 | Heating system | 95% gas furnace at \$1.20 per therm. Heat pump with seasonal COP 2.5 at \$0.14 per kWh. Electric resistance at \$0.14 per kWh. | 95% gas furnace |
 
-Fixed values: enclosure heat loss 300 Btu/h per °F; outdoor air 100 cfm; balance point 65°F; pipe diameter 8 in; pipe depth 8 ft; heat transfer coefficient of the pipe and surrounding soil 0.5 Btu/h per ft² per °F; cooling by an air conditioner with seasonal COP 4 at \$0.14 per kWh; fixed installed cost \$3,000; analysis period 30 years.
+Fixed values: enclosure heat loss 300 Btu/h per °F; outdoor air 100 cfm; balance point 65°F; pipe diameter 8 in; pipe depth 8 ft; heat transfer coefficient of the pipe and surrounding soil 0.5 Btu/h per ft² per °F; cooling by an air conditioner with seasonal COP 4 at \$0.14 per kWh; analysis period 30 years.
 
 | Month | Days | Outdoor air (°F) | Soil at 8 ft (°F) |
 |---|---|---|---|
@@ -223,10 +228,10 @@ Fixed values: enclosure heat loss 300 Btu/h per °F; outdoor air 100 cfm; balanc
 - Standard house load in Btu/h = (300 + 108) x the difference between 65°F and the outdoor temperature.
 - Ground-source house load = 300 x (65 - outdoor) + 108 x (65 - intake) in a heating month, and 300 x (outdoor - 65) + 108 x (intake - 65) in a cooling month, never less than zero.
 - Monthly cost = load x 24 x days x cost per Btu. Heating cost per Btu is 1.20 / (0.95 x 100,000) for gas, 0.14 / (3,412 x 2.5) for the heat pump, and 0.14 / 3,412 for resistance. Cooling cost per Btu is 0.14 / (3,412 x 4) for all three.
-- Installed cost = 3,000 + cost per foot x L. Yearly savings = standard yearly cost - ground-source yearly cost. Simple payback = installed cost / yearly savings. 30-year ROI = (30 x yearly savings - installed cost) / installed cost.
+- Installed cost = fixed cost + cost per foot x L. The fixed cost covers the intake, filter, drain, and bypass damper. Yearly savings = standard yearly cost - ground-source yearly cost. Simple payback = installed cost / yearly savings. 30-year ROI = (30 x yearly savings - installed cost) / installed cost.
 - Yearly savings are above zero at every setting, so no input divides by zero.
 - Best length = the slider step from 50 to 400 ft with the smallest payback.
-- At the defaults the sim must reproduce this appendix: effectiveness 86 percent, January intake air 36.9°F, January costs \$187 and \$166, yearly costs \$956 and \$839, savings \$117, installed cost \$11,000, payback 94 years, ROI -68 percent, and a best length of 100 ft with an 80-year payback.
+- At the defaults the sim must reproduce this appendix: effectiveness 86 percent, January intake air 36.9°F, January costs \$187 and \$166, yearly costs \$956 and \$839, savings \$117, installed cost \$10,000, payback 85 years, ROI -65 percent, and a best length of 90 ft with a 68-year payback.
 
 **Learner Activity:**
 
@@ -234,13 +239,13 @@ Fixed values: enclosure heat loss 300 Btu/h per °F; outdoor air 100 cfm; balanc
 2. The learner hovers over a month, or opens the table, to read the outdoor, soil, and intake temperatures, and should notice that the pipe is bypassed in April, May, and September because the soil is then colder than the outdoor air while the house still needs heat.
 3. The learner drags the pipe length from 50 to 400 ft and should notice that the savings rise quickly and then level off while the installed cost rises by the same amount for every foot.
 4. The learner types the pipe length with the shortest payback and presses Check.
-5. The learner changes the cost per foot and the heating system, and should notice that an expensive trench shortens the best length, and that only expensive heat combined with a cheap trench gives a positive 30-year return.
+5. The learner changes the fixed cost, the cost per foot, and the heating system, and should notice that a lower fixed cost or a more expensive trench shortens the best length, and that the gas furnace never reaches a positive 30-year return while electric resistance heat does when the installed costs are low.
 
-**Feedback:** One challenge for each combination of cost per foot and heating system, two attempts. Correct: "Correct: about <best> ft pays back fastest, in <n> years." followed by "Savings level off as the pipe gets longer, but the cost keeps rising by \$<cost> for every foot." Incorrect on the first attempt: the payback at the typed length and whether to try a shorter or a longer pipe. After a second wrong attempt the best length and the same explanation are shown, and the challenge counts as missed.
+**Feedback:** One challenge for each combination of fixed cost, cost per foot, and heating system, two attempts. Correct: "Correct: about <best> ft pays back fastest, in <n> years." followed by "Savings level off as the pipe gets longer, but the cost keeps rising by \$<cost> for every foot." Incorrect on the first attempt: the payback at the typed length and whether to try a shorter or a longer pipe. After a second wrong attempt the best length and the same explanation are shown, and the challenge counts as missed.
 
-**Starting State:** Pipe length 200 ft, \$40 per foot, 95% gas furnace. The chart is visible, the tiles read \$11,000, \$117, 94 years, and -68 percent, and the challenge answer box is empty.
+**Starting State:** Pipe length 200 ft, \$40 per foot, \$2,000 fixed cost, 95% gas furnace. The chart is visible, the tiles read \$10,000, \$117, 85 years, and -65 percent, and the challenge answer box is empty.
 
-**Chapter Anchors:** Appendix E states a January outdoor mean of 16.2°F and soil at 40.4°F at 8 ft; effectiveness of 62, 86, and 98 percent at 100, 200, and 400 ft; January intake air at 36.9°F and a \$21 saving on a \$187 bill; yearly costs of \$956 and \$839; an \$11,000 installed cost; a 94-year payback; and a 30-year ROI of -68 percent.
+**Chapter Anchors:** Appendix E states a January outdoor mean of 16.2°F and soil at 40.4°F at 8 ft; effectiveness of 62, 86, and 98 percent at 100, 200, and 400 ft; January intake air at 36.9°F and a \$21 saving on a \$187 bill; yearly costs of \$956 and \$839; a \$10,000 installed cost; an 85-year payback; and a 30-year ROI of -65 percent.
 </details>
 
 ## What Is Changing

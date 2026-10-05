@@ -189,7 +189,9 @@ nav:
       - List of MicroSims: sims/index.md
       - Learning Graph Viewer: sims/graph-viewer/index.md
       - "AC Waveform and Transmission Loss Explorer": sims/ac-waveform-transmission-loss-explorer/index.md
+      - "AI Claim Audit Drill": sims/ai-claim-audit-drill/index.md
       - "Air Sealing and Blower Door Explorer": sims/air-sealing-blower-door-explorer/index.md
+      - "Battery Backup Run-Time Explorer": sims/battery-backup-runtime-explorer/index.md
       - "Beam Reactions and Equilibrium Explorer": sims/beam-reactions-equilibrium-explorer/index.md
       - "Brick Veneer Rainscreen Wall": sims/brick-veneer-rainscreen-layer-explorer/index.md
       - "Building Material Property Comparison Chart": sims/building-material-property-comparison-chart/index.md
@@ -199,7 +201,10 @@ nav:
       - "Ceiling Coordination Clash Explorer": sims/ceiling-coordination-clash-explorer/index.md
       - "Circuit Breaker and Continuous Load Explorer": sims/circuit-breaker-continuous-load-explorer/index.md
       - "Cladding Rainscreen Water Path Explorer": sims/cladding-rainscreen-water-path-explorer/index.md
+      - "CLT Warm Roof Assembly Explorer": sims/clt-warm-roof-assembly-explorer/index.md
+      - "Classroom CO2 Ventilation Balance Explorer": sims/co2-ventilation-balance-explorer/index.md
       - "Code Adoption and Authority Chain": sims/code-adoption-authority-chain/index.md
+      - "Code Editions and Building Life Explorer": sims/code-editions-building-life-explorer/index.md
       - "Concrete Composition and Strength Gain Explorer": sims/concrete-composition-strength-gain-explorer/index.md
       - "Conduction Through a Layer": sims/conduction-layer-heat-flow-explorer/index.md
       - "Control Layer Wall Section Explorer": sims/control-layer-wall-section-explorer/index.md
@@ -225,8 +230,13 @@ nav:
       - "Basement Wall Soil Pressure Explorer": sims/foundation-wall-lateral-pressure-explorer/index.md
       - "Frost Heave Three-Condition Explorer": sims/frost-heave-three-conditions/index.md
       - "Glulam Char Section Explorer": sims/glulam-char-section-explorer/index.md
+      - "Ground-Source ROI Estimator": sims/ground-source-roi-estimator/index.md
+      - "Ground Temperature versus Depth Explorer": sims/ground-temperature-depth-explorer/index.md
+      - "Heat Pump COP and Lift Explorer": sims/heat-pump-cop-lift-explorer/index.md
+      - "Heat Pump Cycle Explorer": sims/heat-pump-cycle-explorer/index.md
       - "Heat Transfer Modes in a Winter Wall": sims/heat-transfer-modes-wall-explorer/index.md
       - "Heating System Energy Comparison": sims/heating-system-energy-comparison/index.md
+      - "HRV Effectiveness and Frost Explorer": sims/hrv-effectiveness-frost-explorer/index.md
       - "Heating Load and Ventilation Explorer": sims/hvac-heating-load-ventilation-explorer/index.md
       - "Heated Slab on Grade": sims/heated-slab-on-grade-layers/index.md
       - "IBC Question Router": sims/ibc-question-router/index.md
@@ -246,12 +256,14 @@ nav:
       - "Project Phases and the Cost of Change": sims/project-phases-cost-of-change/index.md
       - "Project Team Contracts and Communication Map": sims/project-team-communication-map/index.md
       - "Psychrometric Chart Explorer": sims/psychrometric-chart-explorer/index.md
+      - "Rooftop PV Monthly Production Explorer": sims/pv-monthly-production-explorer/index.md
       - "Reinforced Concrete Beam Behavior Explorer": sims/reinforced-concrete-beam-behavior-explorer/index.md
       - "Riverbend Load Path Tracer": sims/riverbend-load-path-tracer/index.md
       - "Riverbend Structural System Explorer": sims/riverbend-structural-system-explorer/index.md
       - "Roof Assembly Layer Explorer": sims/roof-assembly-layer-explorer/index.md
       - "Roof Drainage and Ponding Calculator": sims/roof-drainage-ponding-calculator/index.md
       - "Sealant Joint Movement Calculator": sims/sealant-joint-movement-calculator/index.md
+      - "Sensor-to-Action Map": sims/sensor-to-action-map/index.md
       - "Service Headroom for Solar and EV Loads": sims/service-headroom-ev-pv-explorer/index.md
       - "Service Life Factor Calculator": sims/service-life-factor-calculator/index.md
       - "Site Analysis Layer Explorer": sims/site-analysis-layer-explorer/index.md

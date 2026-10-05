@@ -1,6 +1,6 @@
 ---
 title: "List of MicroSims for The Science of the Built Environment"
-description: "A grid of all 74 interactive MicroSims in The Science of the Built Environment, with a screenshot and description of each."
+description: "A grid of all 86 interactive MicroSims in The Science of the Built Environment, with a screenshot and description of each."
 image: /img/cover.png
 og:image: /img/cover.png
 hide:
@@ -16,12 +16,17 @@ The colored dot beside a MicroSim in the left navigation shows how finished it i
 The [Learning Graph Viewer](graph-viewer/index.md) is a separate tool for exploring how the book's 448 concepts depend on each other.
 
 <div class="grid cards" markdown>
-
 -   **[AC Waveform and Transmission Loss Explorer](./ac-waveform-transmission-loss-explorer/index.md)**
 
     ![AC Waveform and Transmission Loss Explorer](./ac-waveform-transmission-loss-explorer/ac-waveform-transmission-loss-explorer.png)
 
     Students read peak, RMS, frequency, and phase from an AC waveform in single-phase and three-phase modes, then raise the transmission voltage to see line loss I squared R fall.
+
+-   **[AI Claim Audit Drill](./ai-claim-audit-drill/index.md)**
+
+    ![AI Claim Audit Drill](./ai-claim-audit-drill/ai-claim-audit-drill.png)
+
+    Students judge ten technical statements written by an AI assistant as correct or incorrect against the physics and facts in Appendices A through H, see the reason and the appendix to check after each, and review the statements they got wrong.
 
 -   **[Air Sealing and Blower Door Explorer](./air-sealing-blower-door-explorer/index.md)**
 
@@ -34,6 +39,12 @@ The [Learning Graph Viewer](graph-viewer/index.md) is a separate tool for explor
     ![Basement Wall Soil Pressure Explorer](./foundation-wall-lateral-pressure-explorer/foundation-wall-lateral-pressure-explorer.png)
 
     Students vary wall height, backfill, water, and a parking-lot surcharge and watch the triangular soil pressure diagram, the force per foot of wall, and the height of the resultant change.
+
+-   **[Battery Backup Run-Time Explorer](./battery-backup-runtime-explorer/index.md)**
+
+    ![Battery Backup Run-Time Explorer](./battery-backup-runtime-explorer/battery-backup-runtime-explorer.png)
+
+    Students calculate how long a 13.5 kWh home battery carries a chosen set of loads, discover that a load above the inverter rating trips the system however much energy remains, and then explore battery size, inverter size, and large loads such as a vehicle charger.
 
 -   **[Beam Reactions and Equilibrium Explorer](./beam-reactions-equilibrium-explorer/index.md)**
 
@@ -83,11 +94,29 @@ The [Learning Graph Viewer](graph-viewer/index.md) is a separate tool for explor
 
     Students run a storm against four cladding systems, watch where the water that gets past the joint goes, and compare how the sheathing moisture gauge rises and how long each wall takes to dry.
 
+-   **[Classroom CO2 Ventilation Balance Explorer](./co2-ventilation-balance-explorer/index.md)**
+
+    ![Classroom CO2 Ventilation Balance Explorer](./co2-ventilation-balance-explorer/co2-ventilation-balance-explorer.png)
+
+    Students calculate the steady-state carbon dioxide level in a classroom from the number of occupants and the outdoor airflow, find the airflow that holds a target, and see why a sensor next to a supply grille can hide a problem.
+
+-   **[CLT Warm Roof Assembly Explorer](./clt-warm-roof-assembly-explorer/index.md)**
+
+    ![CLT Warm Roof Assembly Explorer](./clt-warm-roof-assembly-explorer/clt-warm-roof-assembly-explorer.png)
+
+    Students predict what follows when each of the four layers of a cross-laminated timber warm roof is removed, then drag the outdoor temperature to see how the foam keeps the timber deck above the dew point.
+
 -   **[Code Adoption and Authority Chain](./code-adoption-authority-chain/index.md)**
 
     ![Code Adoption and Authority Chain](./code-adoption-authority-chain/code-adoption-authority-chain.png)
 
     Students follow a model code through state adoption, local ordinance, and referenced standards down to a permitted project, then test their understanding by deciding which layer controls in a series of rule conflicts.
+
+-   **[Code Editions and Building Life Explorer](./code-editions-building-life-explorer/index.md)**
+
+    ![Code Editions and Building Life Explorer](./code-editions-building-life-explorer/code-editions-building-life-explorer.png)
+
+    Students calculate how many code editions are published during a building's life and how many times a roof membrane and a heat pump are replaced, then change the building life to see which parts stay for the whole life.
 
 -   **[Concrete Composition and Strength Gain Explorer](./concrete-composition-strength-gain-explorer/index.md)**
 
@@ -215,6 +244,30 @@ The [Learning Graph Viewer](graph-viewer/index.md) is a separate tool for explor
 
     Students expose a glued-laminated beam cross-section to fire, watch a char layer grow inward at a chosen rate, and calculate the remaining width, depth, and section modulus, then compare with a small member to see why large timbers resist fire better.
 
+-   **[Ground Temperature versus Depth Explorer](./ground-temperature-depth-explorer/index.md)**
+
+    ![Ground Temperature versus Depth Explorer](./ground-temperature-depth-explorer/ground-temperature-depth-explorer.png)
+
+    Students use the damped seasonal temperature model to find the swing at 10 feet, the depth where the swing falls to 2 F in two soils, and the date of the coldest soil at 10 feet, then compare soils and sites with four seasonal curves and a depth marker.
+
+-   **[Ground-Source ROI Estimator](./ground-source-roi-estimator/index.md)**
+
+    ![Ground-Source ROI Estimator](./ground-source-roi-estimator/ground-source-roi-estimator.png)
+
+    Students compare the monthly heating and cooling cost of a typical Minnesota home with a standard air intake against the same home with a buried earth-tube intake, then judge the installed cost, simple payback, and 30-year return on investment as the pipe length changes.
+
+-   **[Heat Pump COP and Lift Explorer](./heat-pump-cop-lift-explorer/index.md)**
+
+    ![Heat Pump COP and Lift Explorer](./heat-pump-cop-lift-explorer/heat-pump-cop-lift-explorer.png)
+
+    Students calculate the Carnot limit on a heat pump's COP from the outdoor and supply temperatures in kelvin, then explore how lift, the fraction of the limit achieved, and fuel prices change the cost of delivering 100,000 Btu with a heat pump, a gas furnace, and electric resistance.
+
+-   **[Heat Pump Cycle Explorer](./heat-pump-cycle-explorer/index.md)**
+
+    ![Heat Pump Cycle Explorer](./heat-pump-cycle-explorer/heat-pump-cycle-explorer.png)
+
+    Students walk through the five parts of a heat pump, predict what happens to the refrigerant and which way heat flows at each, and then switch between heating and cooling mode to watch the indoor and outdoor coils trade roles.
+
 -   **[Heat Transfer Modes in a Winter Wall](./heat-transfer-modes-wall-explorer/index.md)**
 
     ![Heat Transfer Modes in a Winter Wall](./heat-transfer-modes-wall-explorer/heat-transfer-modes-wall-explorer.png)
@@ -232,6 +285,12 @@ The [Learning Graph Viewer](graph-viewer/index.md) is a separate tool for explor
     ![Heating System Energy Comparison](./heating-system-energy-comparison/heating-system-energy-comparison.png)
 
     Students compare the energy input an 80 percent furnace, a 95 percent furnace, electric resistance, and a heat pump need to deliver the same heat, and watch the heat pump COP change along an illustrative curve as the outdoor temperature changes.
+
+-   **[HRV Effectiveness and Frost Explorer](./hrv-effectiveness-frost-explorer/index.md)**
+
+    ![HRV Effectiveness and Frost Explorer](./hrv-effectiveness-frost-explorer/hrv-effectiveness-frost-explorer.png)
+
+    Students calculate the supply-air temperature and the ventilation heating load removed by a balanced heat recovery ventilator from its effectiveness, airflow, and the outdoor temperature, then find the outdoor temperatures at which the core would frost.
 
 -   **[IBC Question Router](./ibc-question-router/index.md)**
 
@@ -359,6 +418,12 @@ The [Learning Graph Viewer](graph-viewer/index.md) is a separate tool for explor
 
     Students calculate the flow a roof's drains must carry from roof area and rainfall intensity, then clog drains and run a 30-minute storm to see standing water build up, add load, and deflect the roof. A secondary overflow scupper stops the rise.
 
+-   **[Rooftop PV Monthly Production Explorer](./pv-monthly-production-explorer/index.md)**
+
+    ![Rooftop PV Monthly Production Explorer](./pv-monthly-production-explorer/pv-monthly-production-explorer.png)
+
+    Students predict which months a 7 kW rooftop array makes more electricity than a house uses, see monthly production beside monthly load, find the smallest array that covers the annual load, and then explore array size, derate, annual use, and a winter-heavy load.
+
 -   **[Scales of the Built Environment](./built-environment-scales/index.md)**
 
     ![Scales of the Built Environment](./built-environment-scales/built-environment-scales.png)
@@ -370,6 +435,12 @@ The [Learning Graph Viewer](graph-viewer/index.md) is a separate tool for explor
     ![Sealant Joint Movement Calculator](./sealant-joint-movement-calculator/sealant-joint-movement-calculator.png)
 
     Students calculate the thermal movement of a panel from its material, length, and temperature range, find the minimum sealant joint width for a sealant rating, and watch a to-scale joint open, close, and tear as the temperature changes.
+
+-   **[Sensor-to-Action Map](./sensor-to-action-map/index.md)**
+
+    ![Sensor-to-Action Map](./sensor-to-action-map/sensor-to-action-map.png)
+
+    Students match six building inputs, five sensors and one utility price signal, to the control action each should drive, see each link marked correct or incorrect with the reason, and then open any node to read what it measures and what its action does.
 
 -   **[Service Headroom for Solar and EV Loads](./service-headroom-ev-pv-explorer/index.md)**
 

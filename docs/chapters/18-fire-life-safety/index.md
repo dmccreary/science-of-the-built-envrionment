@@ -203,6 +203,24 @@ Implementation: p5.js with a responsive canvas, DOM sliders and radio buttons, a
 
 A rated separation works only if it is continuous. Every opening in it must be protected: doors are fire-rated and self-closing, ducts carry *fire dampers* that close when heat is detected, and the gaps around pipes and conduit that pass through the wall are sealed with *firestopping*, a tested sealing system. Riverbend might separate the classroom wing from the multipurpose room, since they are different occupancies, and then every wire and pipe that crosses that wall needs sealing.
 
+The MicroSim below shows a one-hour fire-rated partition as a stack of five layers, read from the fire side to the far side. Red dots are flame, orange dots are heat, and gold dots are sound. Remove a layer, or punch a hole through it, and predict which layer's loss weakens the wall most before you check.
+
+#### Diagram: Fire-Rated Partition Explorer
+
+<iframe src="../../sims/fire-rated-partition-layer-explorer/main.html" width="100%" height="664px" scrolling="no"></iframe>
+
+[Run the Fire-Rated Partition Explorer MicroSim fullscreen](../../sims/fire-rated-partition-layer-explorer/main.html){ .md-button }
+
+<details markdown="1">
+<summary>Fire-Rated Partition Explorer</summary>
+Type: infographic
+**sim-id:** fire-rated-partition-layer-explorer<br/>
+**Library:** p5.js<br/>
+**Status:** Built
+
+Learning objective: Students will explain (Bloom Level 2, Understand) how each layer of a fire-rated partition stops flame, slows heat, or damps sound, and will predict (Bloom Level 4, Analyze) which layer's loss weakens the wall most.
+</details>
+
 !!! mascot-warning "Watch Out: Holes in a Rated Wall"
     ![Beau warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
     A rated wall loses its rating wherever a trade cuts an opening and leaves it unsealed, and conduit and cable penetrations are among the most frequent culprits. Coordinate with the contractor before rough-in, mark rated walls on the electrical drawings, and require tested firestopping at every penetration, so inspectors see a sealed system.

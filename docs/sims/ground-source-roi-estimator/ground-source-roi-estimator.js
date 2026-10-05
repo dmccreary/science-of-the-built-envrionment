@@ -1,5 +1,5 @@
 // Ground-Source ROI Estimator - Chart.js
-// CANVAS_HEIGHT: 730
+// CANVAS_HEIGHT: 760
 // Bloom Level 5 (Evaluate): judge whether a buried earth-tube air intake pays for itself in a typical Minnesota home, and find the pipe length with the shortest payback
 
 // ---- Climate ----
@@ -35,14 +35,14 @@ const SYSTEMS = {
   hp: { label: 'Heat pump, seasonal COP 2.5', perBtu: PRICE.kwh / (3412 * 2.5) },
   res: { label: 'Electric resistance heat', perBtu: PRICE.kwh / 3412 }
 };
-const FIXED_COST = 3000;                                 // intake, filter, drain, bypass damper, wall opening
 const YEARS = 30;
 const LEN = { min: 50, max: 400, step: 10 };
 
 // ---- Model ----
 // Each month is a heating month (mean below 65 F) or a cooling month. The tube moves the intake air
 // toward the soil temperature by its effectiveness. A bypass damper skips the tube when it would not help.
-function compute(len, perFt, sysKey) {
+// fixed = the cost that does not depend on length: intake, filter, drain, bypass damper, wall opening
+function compute(len, perFt, fixed, sysKey) {
   const eff = 1 - Math.exp(-len / L0);
   const rows = MONTHS.map(m => {
     const hours = 24 * m.d;
@@ -59,17 +59,17 @@ function compute(len, perFt, sysKey) {
   const annualStd = rows.reduce((s, r) => s + r.std, 0);
   const annualGs = rows.reduce((s, r) => s + r.gs, 0);
   const savings = annualStd - annualGs;
-  const installed = FIXED_COST + perFt * len;
+  const installed = fixed + perFt * len;
   return {
     len, eff, rows, annualStd, annualGs, savings, installed,
     payback: installed / savings,
     roi: (YEARS * savings - installed) / installed
   };
 }
-function bestLength(perFt, sysKey) {
+function bestLength(perFt, fixed, sysKey) {
   let best = null;
   for (let len = LEN.min; len <= LEN.max; len += LEN.step) {
-    const r = compute(len, perFt, sysKey);
+    const r = compute(len, perFt, fixed, sysKey);
     if (!best || r.payback < best.payback) best = r;
   }
   return best;
@@ -160,14 +160,14 @@ document.addEventListener('DOMContentLoaded', function () {
   }
   function check() {
     if (challenge.done) return;
-    const perFt = +$('costSlider').value, sysKey = $('sysSel').value;
+    const perFt = +$('costSlider').value, fixed = +$('fixedSlider').value, sysKey = $('sysSel').value;
     const typed = parseFloat($('lenInput').value);
     if (isNaN(typed) || typed < LEN.min || typed > LEN.max) {
       setMsg('Type a pipe length between ' + LEN.min + ' and ' + LEN.max + ' ft, then press Check.', 'bad');
       return;
     }
-    const best = bestLength(perFt, sysKey);
-    const mine = compute(typed, perFt, sysKey);
+    const best = bestLength(perFt, fixed, sysKey);
+    const mine = compute(typed, perFt, fixed, sysKey);
     const why = 'Savings level off as the pipe gets longer, but the cost keeps rising by $' + perFt + ' for every foot.';
     challenge.attempts++;
     if (Math.abs(typed - best.len) <= 20) {
@@ -185,10 +185,11 @@ document.addEventListener('DOMContentLoaded', function () {
 
   // ---- Update everything from the controls ----
   function update() {
-    const len = +$('lenSlider').value, perFt = +$('costSlider').value, sysKey = $('sysSel').value;
-    model = compute(len, perFt, sysKey);
+    const len = +$('lenSlider').value, perFt = +$('costSlider').value, fixed = +$('fixedSlider').value, sysKey = $('sysSel').value;
+    model = compute(len, perFt, fixed, sysKey);
     $('lenText').textContent = 'Pipe length: ' + len + ' ft';
     $('costText').textContent = 'Installed cost: $' + perFt + ' per foot';
+    $('fixedText').textContent = 'Fixed cost: ' + money(fixed);
 
     const pick = (heating, field) => model.rows.map(r => r.heating === heating ? Math.round(r[field]) : 0);
     chart.data.datasets[0].data = pick(true, 'std');
@@ -200,7 +201,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     const back = YEARS * model.savings / model.installed;
     $('costVal').textContent = money(model.installed);
-    $('costSub').textContent = money(FIXED_COST) + ' fixed + ' + len + ' ft × $' + perFt;
+    $('costSub').textContent = money(fixed) + ' fixed + ' + len + ' ft × $' + perFt;
     $('saveVal').textContent = money(model.savings);
     $('saveSub').textContent = money(model.annualStd) + ' falls to ' + money(model.annualGs) + ' a year';
     $('payVal').textContent = years(model.payback);
@@ -212,7 +213,7 @@ document.addEventListener('DOMContentLoaded', function () {
     $('readout').innerHTML = '<div>A <b>' + len + ' ft</b> pipe closes <b>' + Math.round(model.eff * 100) + '%</b> of the gap between the outdoor air and the soil 8 ft down. ' +
       'January air arrives at <b>' + deg(jan.tIn) + '</b> instead of ' + deg(MONTHS[0].tOut) + ', and July air at <b>' + deg(jul.tIn) + '</b> instead of ' + deg(MONTHS[6].tOut) + '.</div>';
 
-    const key = perFt + '|' + sysKey;
+    const key = perFt + '|' + fixed + '|' + sysKey;
     if (key !== challenge.key) resetChallenge(key);
   }
 
@@ -221,7 +222,7 @@ document.addEventListener('DOMContentLoaded', function () {
     $('tableBox').classList.toggle('hide', !tableShown);
     $('viewBtn').textContent = tableShown ? 'Show chart' : 'Show table';
   });
-  ['lenSlider', 'costSlider'].forEach(id => $(id).addEventListener('input', update));
+  ['lenSlider', 'costSlider', 'fixedSlider'].forEach(id => $(id).addEventListener('input', update));
   $('sysSel').addEventListener('change', update);
   $('checkBtn').addEventListener('click', check);
   $('lenInput').addEventListener('keydown', e => { if (e.key === 'Enter') check(); });

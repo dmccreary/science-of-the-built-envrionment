@@ -186,6 +186,24 @@ A **slab-on-grade** is a concrete floor slab placed directly on the ground, usua
 
 Welded wire or fiber reinforcement controls cracking, and *control joints* saw-cut into the slab make cracks occur in straight lines. In a cold climate, the slab edge and sometimes the entire slab is insulated to keep the floor warm, a topic Chapter 11 develops.
 
+A **heated slab on grade** adds two more layers to this section. A sheet of rigid foam insulation under the slab keeps the heat of a radiant floor from draining into the ground, and a thin sand cushion under the vapor retarder protects the sheet from sharp stone. The MicroSim below shows the whole stack from the heated room down to the soil. Predict what each layer stops, then leave a layer out and check your prediction.
+
+#### Diagram: Heated Slab on Grade
+
+<iframe src="../../sims/heated-slab-on-grade-layers/main.html" width="100%" height="758px" scrolling="no"></iframe>
+
+[Run the Heated Slab on Grade MicroSim fullscreen](../../sims/heated-slab-on-grade-layers/main.html){ .md-button }
+
+<details markdown="1">
+<summary>Heated Slab on Grade</summary>
+Type: infographic
+**sim-id:** heated-slab-on-grade-layers<br/>
+**Library:** p5.js<br/>
+**Status:** Built
+
+Learning objective: Students will identify (Bloom Level 1, Remember) the layers under and in a heated slab-on-grade floor and will predict (Bloom Level 2, Understand) how ground water, water vapor, and heat move when the gravel, vapor retarder, or foam is left out.
+</details>
+
 ## Foundation Walls
 
 A **foundation wall** is the wall that rises from the footing to the floor framing and holds back the soil around a basement or crawl space. It carries the vertical load of the wall above and also resists the lateral pressure of the soil against its outside face. Foundation walls are commonly cast-in-place concrete, as described in Chapter 8, or concrete masonry units (CMU) with grout and reinforcing. Walls of 8 in or more are common. The sill plate, the first wood member of the framing, is anchored to the top of the wall with anchor bolts, commonly spaced about 6 ft apart, so that wind cannot lift the framing off the foundation.

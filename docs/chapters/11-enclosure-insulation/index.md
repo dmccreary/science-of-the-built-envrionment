@@ -198,6 +198,24 @@ Walls are commonly grouped by where the insulation sits. In a *cavity-insulated*
 
 The total of 32.4 applies only where there is cavity insulation. Through a stud the cavity insulation is replaced by 5.5 in of wood at about R-1.25 per inch, giving a layer R of \( 5.5 / 0.8 = 6.9 \) and a total of 19.3. Weighting these paths by area gives the effective R-value of 27.7 shown in the Continuous Insulation section.
 
+The next MicroSim draws a simpler cold-climate wall as a stack of eight layers. Predict which of the four flows (rain, air, vapor, and heat) each layer stops. Then remove or puncture a layer and watch where the colored dots now travel. Turn on the temperature profile to see which layer falls below the dew point.
+
+#### Diagram: Cold-Climate Exterior Wall
+
+<iframe src="../../sims/example-cold-climate-wall/main.html" width="100%" height="698px" scrolling="no"></iframe>
+
+[Run the Cold-Climate Exterior Wall MicroSim fullscreen](../../sims/example-cold-climate-wall/main.html){ .md-button }
+
+<details markdown="1">
+<summary>Cold-Climate Exterior Wall</summary>
+Type: infographic
+**sim-id:** example-cold-climate-wall<br/>
+**Library:** p5.js<br/>
+**Status:** Built
+
+Learning objective: Students will identify (Bloom Level 1, Remember) the layers of a cold-climate wall and the job each does, and will predict (Bloom Level 2, Understand) what happens to rain, air, vapor, and heat when a layer is removed or punctured.
+</details>
+
 ## Water Control Layer
 
 The **water control layer** is the continuous plane in a wall that keeps liquid water from reaching materials that rot, corrode, or lose insulating value when wet. In Minneapolis, melting snow and freeze-thaw cycles add to the load of wind-driven rain. Water reaches a wall from four main sources:

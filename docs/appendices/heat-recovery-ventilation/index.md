@@ -66,6 +66,10 @@ The next MicroSim has you calculate the supply temperature and the load removed 
 
 #### Diagram: HRV Effectiveness and Frost Explorer
 
+<iframe src="../../sims/hrv-effectiveness-frost-explorer/main.html" width="100%" height="562px" scrolling="no"></iframe>
+
+[Run the HRV Effectiveness and Frost Explorer MicroSim fullscreen](../../sims/hrv-effectiveness-frost-explorer/main.html){ .md-button }
+
 <details markdown="1">
 <summary>HRV Effectiveness and Frost Explorer</summary>
 Type: microsim

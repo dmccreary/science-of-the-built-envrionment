@@ -88,6 +88,10 @@ The next MicroSim turns this arithmetic into a calculation you can repeat for an
 
 #### Diagram: Code Editions and Building Life Explorer
 
+<iframe src="../../sims/code-editions-building-life-explorer/main.html" width="100%" height="492px" scrolling="no"></iframe>
+
+[Run the Code Editions and Building Life Explorer MicroSim fullscreen](../../sims/code-editions-building-life-explorer/main.html){ .md-button }
+
 <details markdown="1">
 <summary>Code Editions and Building Life Explorer</summary>
 Type: microsim

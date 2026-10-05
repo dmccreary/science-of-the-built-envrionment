@@ -55,6 +55,10 @@ Every stage obeys one rule: heat flows only from the warmer thing to the colder 
 
 #### Diagram: Heat Pump Cycle Explorer
 
+<iframe src="../../sims/heat-pump-cycle-explorer/main.html" width="100%" height="692px" scrolling="no"></iframe>
+
+[Run the Heat Pump Cycle Explorer MicroSim fullscreen](../../sims/heat-pump-cycle-explorer/main.html){ .md-button }
+
 <details markdown="1">
 <summary>Heat Pump Cycle Explorer</summary>
 Type: infographic
@@ -143,6 +147,10 @@ At these prices the gas furnace is still cheaper to run, and the heat pump beats
 The next MicroSim lets you compute the Carnot limit yourself for four cases and then turn it into energy and cost for 100,000 Btu of heat.
 
 #### Diagram: Heat Pump COP and Lift Explorer
+
+<iframe src="../../sims/heat-pump-cop-lift-explorer/main.html" width="100%" height="622px" scrolling="no"></iframe>
+
+[Run the Heat Pump COP and Lift Explorer MicroSim fullscreen](../../sims/heat-pump-cop-lift-explorer/main.html){ .md-button }
 
 <details markdown="1">
 <summary>Heat Pump COP and Lift Explorer</summary>
