@@ -13,11 +13,50 @@
   "rights": "CC BY-NC-SA 4.0",
   "identifier": "permit-to-occupancy-flow",
   "library": "p5.js",
-  "bloomLevel": "TBD",
-  "bloomVerb": "TBD",
-  "completion_status": "scaffold",
+  "bloomLevel": "Apply, Analyze",
+  "bloomVerb": "sequence, analyze",
+  "completion_status": "built",
   "chapter_number": 17,
   "chapter_title": "Building Codes, Permits, and Enforcement",
   "chapter_dir": "17-building-codes-permits",
-  "chapter_rel_dir": "chapters/17-building-codes-permits"
+  "chapter_rel_dir": "chapters/17-building-codes-permits",
+  "canvasHeight": 543,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Apply",
+      "Analyze"
+    ],
+    "concepts": [
+      "Building permit",
+      "Plan review and resubmittal",
+      "Code inspections and special inspections",
+      "Certificate of occupancy",
+      "Schedule effect of failed review"
+    ],
+    "prerequisites": [
+      "Chapter 2 project phases and closeout",
+      "Chapter 17 code adoption and the building official"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Sequence the steps from permit application through certificate of occupancy and analyze how a failed review or inspection delays the schedule.",
+    "recommendedUsage": [
+      "Follow the numbered boxes from 1 (zoning check) to 9 (certificate of occupancy). Box color and border style show who acts: designer, building official, contractor, or testing agency. Hover over a box to see who acts and what is produced.",
+      "Click a box or diamond to open an infobox with its definition from the chapter. Click again to close it.",
+      "Move the Business days per review slider. The permit time is the first review, a 5-day resubmittal, and a second review of about two thirds as long, which gives 15 + 5 + 10 = 30 business days for Riverbend.",
+      "Check Review comments, Fail inspection, Fail special test, or Fail final to force a failure at that diamond. The orange return loop becomes active and the added delay appears under the diagram.",
+      "Press Skip an inspection to see why covering work early costs more than waiting."
+    ],
+    "activities": [
+      "Sequence (5 min): Students list the nine steps from memory, then check their order against the flowchart and note which actor owns each step.",
+      "Calculate (10 min): Students set 15 business days per review and reproduce the Riverbend total of 30 days, then try 10 and 25 days and with and without comments, and explain which has the larger effect.",
+      "Analyze (10 min): Students force each failure in turn and record the added delay, then press Skip an inspection and write two sentences comparing the time saved with the time lost."
+    ],
+    "assessment": [
+      "Students compute the permit time for 20 business days per review with comments on a first review, and show the three terms of the sum.",
+      "Students explain in two sentences why the certificate of occupancy cannot be issued before the final inspection passes."
+    ]
+  }
 }

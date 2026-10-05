@@ -13,11 +13,49 @@
   "rights": "CC BY-NC-SA 4.0",
   "identifier": "electrical-service-path-explorer",
   "library": "p5.js",
-  "bloomLevel": "TBD",
-  "bloomVerb": "TBD",
-  "completion_status": "scaffold",
+  "bloomLevel": "Remember, Understand",
+  "bloomVerb": "identify, explain",
+  "completion_status": "built",
   "chapter_number": 15,
   "chapter_title": "Electrical Fundamentals and Building Service",
   "chapter_dir": "15-electrical-fundamentals",
-  "chapter_rel_dir": "chapters/15-electrical-fundamentals"
+  "chapter_rel_dir": "chapters/15-electrical-fundamentals",
+  "canvasHeight": 500,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Remember",
+      "Understand"
+    ],
+    "concepts": [
+      "Utility service",
+      "Service entrance",
+      "Feeders",
+      "Panelboards",
+      "Branch circuits"
+    ],
+    "prerequisites": [
+      "Chapter 15 voltage, current, and power",
+      "Ohm's law and three-phase power as covered in Chapter 15"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Name the eight stages from utility to load in order, and explain the voltage, current, owner, and protective device at each stage.",
+    "recommendedUsage": [
+      "Choose a service type: 120/240 V single-phase, 208Y/120 V three-phase, or 480Y/277 V three-phase. Voltage labels above the stages change with it.",
+      "Drag the Building load slider from 10 to 500 kVA. The current labels update at every stage, and any stage whose rating is exceeded turns red with an OVER RATING tag.",
+      "Click a block to open its infobox with the function, voltage, current at this load, owner, protection, and the code idea. Hover over a block or a breaker symbol to see its name.",
+      "Pick a breaker (main, feeder, or branch) and press Trip a breaker. Everything downstream turns dark gray and everything upstream stays energized. Press Reset the breaker to restore power."
+    ],
+    "activities": [
+      "Warm-up (5 min): Students list the stages from memory, then check the order against the diagram and mark which are utility-owned and which are owner-owned.",
+      "Explore (10 min): With 208Y/120 V selected and the load at 72 kVA, students click each stage and record the current and rating. They then switch to 480Y/277 V and explain why the current drops.",
+      "Apply (10 min): Students find the load at which each stage first turns red on each service type, then trip each breaker in turn and describe which parts of the building lose power."
+    ],
+    "assessment": [
+      "Students sketch the path from memory and label the voltage, current, and protective device at each stage.",
+      "Students explain in two or three sentences why tripping the branch breaker leaves the panelboard energized but tripping the main breaker does not."
+    ]
+  }
 }

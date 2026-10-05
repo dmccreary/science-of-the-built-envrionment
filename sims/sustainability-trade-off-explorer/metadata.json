@@ -13,11 +13,48 @@
   "rights": "CC BY-NC-SA 4.0",
   "identifier": "sustainability-trade-off-explorer",
   "library": "Chart.js",
-  "bloomLevel": "TBD",
-  "bloomVerb": "TBD",
-  "completion_status": "scaffold",
+  "bloomLevel": "Evaluate",
+  "bloomVerb": "evaluate, justify",
+  "completion_status": "built",
   "chapter_number": 19,
   "chapter_title": "Energy Efficiency and High-Performance Buildings",
   "chapter_dir": "19-energy-efficiency",
-  "chapter_rel_dir": "chapters/19-energy-efficiency"
+  "chapter_rel_dir": "chapters/19-energy-efficiency",
+  "canvasHeight": 800,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Evaluate"
+    ],
+    "concepts": [
+      "Triple bottom line",
+      "Weighted decision matrix",
+      "Trade-offs",
+      "Owner priorities"
+    ],
+    "prerequisites": [
+      "Chapter 19 sustainability dimensions",
+      "Weighted averages"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Students evaluate alternative building systems against environment, society, and economy criteria and justify how a change in the owner's priorities changes the best choice.",
+    "recommendedUsage": [
+      "Start with Equal weights and read the radar chart: each polygon is one heating option, and the bar chart shows its weighted total. Option B leads at 4.00.",
+      "Click Cost first (70 percent economy) and then Climate first (60 percent environment) to reproduce the three winners in the Chapter 19 worked example.",
+      "Drag any weight slider. The other two weights rescale in proportion so the total stays 100 percent. Read the lead-change lines to see where the winner flips.",
+      "Check Edit scores to change any score from 1 to 5 and test whether a different judgment, not a different priority, changes the winner.",
+      "Hover over a polygon vertex for the option, dimension, and score, or over a bar for the weighted-sum arithmetic. Click Reset to restore the defaults."
+    ],
+    "activities": [
+      "Reproduce the three weightings from the Chapter 19 worked example and record the winner and the margin for each.",
+      "Find the economy weight at which Option A overtakes Option B, and compare it with the lead-change line shown by the sim.",
+      "In pairs, argue for a weighting that a school district, a developer, and a climate-focused city might choose, and defend each choice with the numbers."
+    ],
+    "assessment": [
+      "Explain in three sentences why the weights should be agreed on before the design is judged.",
+      "Change one score with Edit scores so that the winner under Equal weights changes, then justify whether the new score is defensible."
+    ]
+  }
 }
