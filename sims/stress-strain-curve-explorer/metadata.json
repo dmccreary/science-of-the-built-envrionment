@@ -3,7 +3,7 @@
   "description": "Students will interpret (Bloom Level 2, Understand) stress-strain curves for steel, concrete, and wood to identify yield strength, ultimate strength, stiffness, and the type of failure, and will compare (Bloom Level 4, Analyze) ductile and brittle behavior.",
   "creator": "The Science of the Built Environment",
   "author": "Dan McCreary",
-  "date": "2026-10-03",
+  "date": "2026-10-02",
   "subject": [
     "The Science of the Built Environment"
   ],
@@ -13,49 +13,11 @@
   "rights": "CC BY-NC-SA 4.0",
   "identifier": "stress-strain-curve-explorer",
   "library": "Chart.js",
-  "bloomLevel": "Understand, Analyze",
-  "bloomVerb": "interpret, compare",
-  "completion_status": "built",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
   "chapter_number": 5,
   "chapter_title": "Properties of Building Materials",
   "chapter_dir": "05-material-properties",
-  "chapter_rel_dir": "chapters/05-material-properties",
-  "canvasHeight": 850,
-  "educational": {
-    "educationalLevel": "Undergraduate, Adult learners",
-    "learningResourceType": "simulation",
-    "bloomLevel": [
-      "Understand",
-      "Analyze"
-    ],
-    "concepts": [
-      "Yield strength",
-      "Ultimate strength",
-      "Modulus of elasticity",
-      "Ductile and brittle failure",
-      "Toughness"
-    ],
-    "prerequisites": [
-      "Stress and strain (Chapter 3)",
-      "Reading a line graph"
-    ]
-  },
-  "pedagogical": {
-    "learningObjective": "Interpret stress-strain curves to identify yield strength, ultimate strength, stiffness, and failure type, and compare ductile and brittle behavior.",
-    "recommendedUsage": [
-      "Choose Steel, Concrete, or Wood. The slider starts at the Chapter 5 worked example: the 18,100 psi Riverbend hanger rod, a 417 psi concrete column, or a 1,500 psi design-level wood stress.",
-      "Drag the Applied stress slider and read the strain, the two factors of safety, and the elastic or plastic label. Hover over (or tap) a circle, triangle, or square on the curve to see the yield, ultimate, or fracture point.",
-      "Release the slider below the yield stress and the marker runs back to zero strain. Release it above yield and a dashed line, parallel to the elastic line, ends at a permanent strain. The Release the load button does the same for keyboard users.",
-      "Check Show area under the curve to read toughness, check Compare all three to overlay the curves, and check Zoom in on small strains to see the steel elastic line or the concrete and wood curves up close."
-    ],
-    "activities": [
-      "Warm-up (5 min): Students sketch the expected shape of the steel, concrete, and wood curves, then compare their sketches with the chart.",
-      "Explore (10 min): Students load each material to its elastic limit, then past it, release the slider, and record whether any permanent strain remains and how large it is.",
-      "Analyze (10 min): Students turn on Compare all three with the zoom, rank the materials by stiffness and by toughness, and explain why steel gives warning before it fails and concrete does not."
-    ],
-    "assessment": [
-      "Students explain in two sentences why a ductile material is preferred in earthquake design, using the area under the curve.",
-      "Students use the slider to find the factor of safety against yield for the Riverbend hanger rod and state whether it matches the Chapter 5 value of about 2.0."
-    ]
-  }
+  "chapter_rel_dir": "chapters/05-material-properties"
 }

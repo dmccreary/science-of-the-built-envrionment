@@ -15,14 +15,17 @@
         <link rel="canonical" href="https://dmccreary.github.io/science-of-the-built-envrionment/chapters/15-electrical-fundamentals/">
       
       
-        <link rel="prev" href="../14-hvac-plumbing-fire/">
+        <link rel="prev" href="../14-hvac-plumbing-fire/quiz/">
       
       
-        <link rel="next" href="../16-electrical-distribution-design/">
+        <link rel="next" href="quiz/">
       
       
-      <link rel="icon" href="../../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
@@ -30,10 +33,10 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -56,13 +59,10 @@
     
       <link rel="stylesheet" href="../../css/mascot.css">
     
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
-    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
-    
     
     
     <meta property="og:title" content="Electrical Fundamentals and Building Service">
@@ -107,7 +107,8 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../.." title="The Science of the Built Environment" class="md-header__button md-logo" aria-label="The Science of the Built Environment" data-md-component="logo">
       
-  <img src="../../img/mascot/welcome.png" alt="logo">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -136,11 +137,13 @@
     
     
     
-      <label class="md-header__button md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-      </label>
-      <div class="md-search" data-md-component="search" role="dialog">
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
@@ -179,13 +182,14 @@
     </div>
   </div>
 </div>
+      
     
     
       <div class="md-header__source">
         <a href="https://github.com/dmccreary/science-of-the-built-envrionment" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub Repo
@@ -220,7 +224,8 @@
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="The Science of the Built Environment" class="md-nav__button md-logo" aria-label="The Science of the Built Environment" data-md-component="logo">
       
-  <img src="../../img/mascot/welcome.png" alt="logo">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
     The Science of the Built Environment
@@ -230,7 +235,7 @@
       <a href="https://github.com/dmccreary/science-of-the-built-envrionment" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub Repo
@@ -250,9 +255,16 @@
       <a href="../.." class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Home
+  
+
+    
   </span>
+  
   
 
       </a>
@@ -270,9 +282,16 @@
       <a href="../../about/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     About
+  
+
+    
   </span>
+  
   
 
       </a>
@@ -290,9 +309,16 @@
       <a href="../../course-description/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Course Description
+  
+
+    
   </span>
+  
   
 
       </a>
@@ -316,89 +342,48 @@
         
       
         
-          
+      
         
       
         
-          
+      
         
       
         
-          
+      
         
       
         
-          
+      
         
       
         
-          
+      
         
       
         
-          
+      
         
       
         
-          
+      
         
       
         
-          
+      
         
       
         
-          
+      
         
       
         
-          
+      
         
       
         
-          
-        
       
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
+    
     
     
     
@@ -411,14 +396,20 @@
         <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
-          
           <div class="md-nav__link md-nav__container">
             <a href="../" class="md-nav__link ">
               
   
+  
   <span class="md-ellipsis">
+    
+  
     Chapters
+  
+
+    
   </span>
+  
   
 
             </a>
@@ -433,7 +424,877 @@
         <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
-            Chapters
+            
+  
+    Chapters
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../01-intro-terminology/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. Introduction to the Built Environment and Construction Terminology
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../02-design-construction-process/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2. The Design and Construction Process
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../03-forces-heat-physics/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. Forces, Heat, and the Physics of Buildings
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../04-moisture-air-comfort/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4. Moisture, Air Movement, and Thermal Comfort
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../05-material-properties/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    5. Properties of Building Materials
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../06-structural-loads/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    6. Structural Loads and Load Paths
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../07-wood-steel-framing/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7. Wood and Steel Framing
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../08-concrete-masonry/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    8. Concrete and Masonry
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../09-site-soils/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    9. Site Work, Soils, and Groundwater
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../10-foundation-systems/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10. Foundation Systems
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../11-enclosure-insulation/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    11. Enclosure Control Layers and Insulation
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../12-cladding-windows-air-sealing/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    12. Cladding, Windows, Doors, and Air Sealing
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../13-roof-assemblies/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    13. Roof Assemblies
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../14-hvac-plumbing-fire/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    14. HVAC, Plumbing, and Fire Protection Systems
+  
+
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_16" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="./" class="md-nav__link md-nav__link--active">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    15. Electrical Fundamentals and Building Service
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link md-nav__link--active" for="__nav_4_16" id="__nav_4_16_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_16_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_4_16">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    15. Electrical Fundamentals and Building Service
+  
+
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -446,15 +1307,30 @@
   
   
     <li class="md-nav__item">
-      <a href="../01-intro-terminology/" class="md-nav__link">
+      <a href="quiz/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    1. Introduction to the Built Environment and Construction Terminology
+    
+  
+    Quiz
+  
+
+    
   </span>
+  
   
 
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -464,649 +1340,111 @@
                 
   
   
-  
-  
-    <li class="md-nav__item">
-      <a href="../02-design-construction-process/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    2. The Design and Construction Process
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../03-forces-heat-physics/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    3. Forces, Heat, and the Physics of Buildings
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../04-moisture-air-comfort/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    4. Moisture, Air Movement, and Thermal Comfort
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../05-material-properties/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    5. Properties of Building Materials
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../06-structural-loads/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    6. Structural Loads and Load Paths
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../07-wood-steel-framing/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    7. Wood and Steel Framing
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../08-concrete-masonry/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    8. Concrete and Masonry
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../09-site-soils/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    9. Site Work, Soils, and Groundwater
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../10-foundation-systems/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    10. Foundation Systems
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../11-enclosure-insulation/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    11. Enclosure Control Layers and Insulation
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../12-cladding-windows-air-sealing/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    12. Cladding, Windows, Doors, and Air Sealing
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../13-roof-assemblies/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    13. Roof Assemblies
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../14-hvac-plumbing-fire/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    14. HVAC, Plumbing, and Fire Protection Systems
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
   
   
     
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
+    
       
         
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
           
-  
-  <span class="md-ellipsis">
-    15. Electrical Fundamentals and Building Service
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
         
-  
-  <span class="md-ellipsis">
-    15. Electrical Fundamentals and Building Service
-  </span>
-  
-
-      </a>
       
         
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
+        
+  
+  
+  
+    <a href="../16-electrical-distribution-design/" class="md-nav__link">
+      
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    16. Electrical Distribution, Lighting, and Design Team Coordination
+  
 
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
   
   
   
     
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+    
       
-        <li class="md-nav__item">
-  <a href="#summary" class="md-nav__link">
-    <span class="md-ellipsis">
-      Summary
-    </span>
-  </a>
-  
-</li>
+        
+          
+        
       
-        <li class="md-nav__item">
-  <a href="#concepts-covered" class="md-nav__link">
-    <span class="md-ellipsis">
-      Concepts Covered
-    </span>
-  </a>
-  
-</li>
+        
       
-        <li class="md-nav__item">
-  <a href="#prerequisites" class="md-nav__link">
-    <span class="md-ellipsis">
-      Prerequisites
-    </span>
-  </a>
-  
-</li>
+    
+    
+    
+    
       
-        <li class="md-nav__item">
-  <a href="#electricity" class="md-nav__link">
-    <span class="md-ellipsis">
-      Electricity
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Electricity">
-      <ul class="md-nav__list">
         
-          <li class="md-nav__item">
-  <a href="#diagram-electric-circuit-and-water-analogy-explorer" class="md-nav__link">
-    <span class="md-ellipsis">
-      Diagram: Electric Circuit and Water Analogy Explorer
-    </span>
-  </a>
-  
-</li>
         
-      </ul>
-    </nav>
-  
-</li>
       
-        <li class="md-nav__item">
-  <a href="#voltage" class="md-nav__link">
-    <span class="md-ellipsis">
-      Voltage
-    </span>
-  </a>
-  
-</li>
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
       
-        <li class="md-nav__item">
-  <a href="#current" class="md-nav__link">
-    <span class="md-ellipsis">
-      Current
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Current">
-      <ul class="md-nav__list">
         
-          <li class="md-nav__item">
-  <a href="#diagram-voltage-current-and-resistance-explorer" class="md-nav__link">
-    <span class="md-ellipsis">
-      Diagram: Voltage, Current, and Resistance Explorer
-    </span>
-  </a>
   
-</li>
-        
-      </ul>
-    </nav>
   
-</li>
+  
+    <a href="../17-building-codes-permits/" class="md-nav__link">
       
-        <li class="md-nav__item">
-  <a href="#resistance" class="md-nav__link">
-    <span class="md-ellipsis">
-      Resistance
-    </span>
-  </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#electrical-power" class="md-nav__link">
-    <span class="md-ellipsis">
-      Electrical Power
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Electrical Power">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#electrical-energy" class="md-nav__link">
-    <span class="md-ellipsis">
-      Electrical Energy
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#direct-current" class="md-nav__link">
-    <span class="md-ellipsis">
-      Direct Current
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#alternating-current" class="md-nav__link">
-    <span class="md-ellipsis">
-      Alternating Current
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Alternating Current">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#diagram-ac-waveform-and-transmission-loss-explorer" class="md-nav__link">
-    <span class="md-ellipsis">
-      Diagram: AC Waveform and Transmission Loss Explorer
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#transformers" class="md-nav__link">
-    <span class="md-ellipsis">
-      Transformers
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#electrical-systems" class="md-nav__link">
-    <span class="md-ellipsis">
-      Electrical Systems
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Electrical Systems">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#diagram-electrical-service-path-explorer" class="md-nav__link">
-    <span class="md-ellipsis">
-      Diagram: Electrical Service Path Explorer
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#utility-service" class="md-nav__link">
-    <span class="md-ellipsis">
-      Utility Service
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#service-entrance" class="md-nav__link">
-    <span class="md-ellipsis">
-      Service Entrance
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#switchgear" class="md-nav__link">
-    <span class="md-ellipsis">
-      Switchgear
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#panelboards" class="md-nav__link">
-    <span class="md-ellipsis">
-      Panelboards
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Panelboards">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#circuit-breakers" class="md-nav__link">
-    <span class="md-ellipsis">
-      Circuit Breakers
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Circuit Breakers">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#diagram-circuit-breaker-and-continuous-load-explorer" class="md-nav__link">
-    <span class="md-ellipsis">
-      Diagram: Circuit Breaker and Continuous Load Explorer
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#feeders" class="md-nav__link">
-    <span class="md-ellipsis">
-      Feeders
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#branch-circuits" class="md-nav__link">
-    <span class="md-ellipsis">
-      Branch Circuits
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#key-takeaways" class="md-nav__link">
-    <span class="md-ellipsis">
-      Key Takeaways
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../16-electrical-distribution-design/" class="md-nav__link">
-        
   
   <span class="md-ellipsis">
-    16. Electrical Distribution, Lighting, and Design Team Coordination
-  </span>
+    
   
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../17-building-codes-permits/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
     17. Building Codes, Permits, and Enforcement
-  </span>
   
 
-      </a>
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
@@ -1118,16 +1456,52 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../18-fire-life-safety/" class="md-nav__link">
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
         
   
+  
+  
+    <a href="../18-fire-life-safety/" class="md-nav__link">
+      
+  
+  
   <span class="md-ellipsis">
+    
+  
     18. Fire Protection and Life Safety Requirements
-  </span>
   
 
-      </a>
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
@@ -1139,16 +1513,52 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../19-energy-efficiency/" class="md-nav__link">
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
         
   
+  
+  
+    <a href="../19-energy-efficiency/" class="md-nav__link">
+      
+  
+  
   <span class="md-ellipsis">
+    
+  
     19. Energy Efficiency and High-Performance Buildings
-  </span>
   
 
-      </a>
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
@@ -1160,16 +1570,52 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../20-sustainable-materials/" class="md-nav__link">
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
         
   
+  
+  
+    <a href="../20-sustainable-materials/" class="md-nav__link">
+      
+  
+  
   <span class="md-ellipsis">
+    
+  
     20. Sustainable Building Materials
-  </span>
   
 
-      </a>
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
@@ -1181,16 +1627,52 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../21-durability-failure/" class="md-nav__link">
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
+      
         
   
+  
+  
+    <a href="../21-durability-failure/" class="md-nav__link">
+      
+  
+  
   <span class="md-ellipsis">
+    
+  
     21. Durability, Maintenance, and Building Failure
-  </span>
   
 
-      </a>
+    
+  </span>
+  
+  
+
+      
+        <span class="md-nav__icon md-icon"></span>
+      
+    </a>
+  
+
+      
     </li>
   
 
@@ -1228,12 +1710,7 @@
       
         
       
-        
-      
-        
-      
-        
-      
+    
     
     
     
@@ -1245,14 +1722,22 @@
     <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
       
         
+  
   
   
     <a href="../../learning-graph/" class="md-nav__link">
       
   
+  
   <span class="md-ellipsis">
+    
+  
     Learning Graph
+  
+
+    
   </span>
+  
   
 
       
@@ -1281,54 +1766,7 @@
       
         
       
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
+    
     
     
     
@@ -1341,487 +1779,21 @@
       
         
   
-  
-    <a href="../../stories/" class="md-nav__link">
-      
-  
-  <span class="md-ellipsis">
-    Stories
-  </span>
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-          
-        
-      
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-    
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-    <a href="../../posters/" class="md-nav__link">
-      
-  
-  <span class="md-ellipsis">
-    Posters
-  </span>
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-    
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
   
   
     <a href="../../sims/" class="md-nav__link">
       
   
+  
   <span class="md-ellipsis">
+    
+  
     MicroSims
+  
+
+    
   </span>
+  
   
 
       
@@ -1831,46 +1803,6 @@
   
 
       
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../faq/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    FAQ
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../glossary/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Glossary
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -1885,9 +1817,16 @@
       <a href="../../license/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     License
+  
+
+    
   </span>
+  
   
 
       </a>
@@ -1905,9 +1844,16 @@
       <a href="../../contact/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Contact
+  
+
+    
   </span>
+  
   
 
       </a>
@@ -1944,7 +1890,9 @@
         <li class="md-nav__item">
   <a href="#summary" class="md-nav__link">
     <span class="md-ellipsis">
-      Summary
+      
+        Summary
+      
     </span>
   </a>
   
@@ -1953,7 +1901,9 @@
         <li class="md-nav__item">
   <a href="#concepts-covered" class="md-nav__link">
     <span class="md-ellipsis">
-      Concepts Covered
+      
+        Concepts Covered
+      
     </span>
   </a>
   
@@ -1962,7 +1912,9 @@
         <li class="md-nav__item">
   <a href="#prerequisites" class="md-nav__link">
     <span class="md-ellipsis">
-      Prerequisites
+      
+        Prerequisites
+      
     </span>
   </a>
   
@@ -1971,7 +1923,9 @@
         <li class="md-nav__item">
   <a href="#electricity" class="md-nav__link">
     <span class="md-ellipsis">
-      Electricity
+      
+        Electricity
+      
     </span>
   </a>
   
@@ -1981,7 +1935,9 @@
           <li class="md-nav__item">
   <a href="#diagram-electric-circuit-and-water-analogy-explorer" class="md-nav__link">
     <span class="md-ellipsis">
-      Diagram: Electric Circuit and Water Analogy Explorer
+      
+        Diagram: Electric Circuit and Water Analogy Explorer
+      
     </span>
   </a>
   
@@ -1995,7 +1951,9 @@
         <li class="md-nav__item">
   <a href="#voltage" class="md-nav__link">
     <span class="md-ellipsis">
-      Voltage
+      
+        Voltage
+      
     </span>
   </a>
   
@@ -2004,7 +1962,9 @@
         <li class="md-nav__item">
   <a href="#current" class="md-nav__link">
     <span class="md-ellipsis">
-      Current
+      
+        Current
+      
     </span>
   </a>
   
@@ -2014,7 +1974,9 @@
           <li class="md-nav__item">
   <a href="#diagram-voltage-current-and-resistance-explorer" class="md-nav__link">
     <span class="md-ellipsis">
-      Diagram: Voltage, Current, and Resistance Explorer
+      
+        Diagram: Voltage, Current, and Resistance Explorer
+      
     </span>
   </a>
   
@@ -2028,7 +1990,9 @@
         <li class="md-nav__item">
   <a href="#resistance" class="md-nav__link">
     <span class="md-ellipsis">
-      Resistance
+      
+        Resistance
+      
     </span>
   </a>
   
@@ -2037,7 +2001,9 @@
         <li class="md-nav__item">
   <a href="#electrical-power" class="md-nav__link">
     <span class="md-ellipsis">
-      Electrical Power
+      
+        Electrical Power
+      
     </span>
   </a>
   
@@ -2047,7 +2013,9 @@
           <li class="md-nav__item">
   <a href="#electrical-energy" class="md-nav__link">
     <span class="md-ellipsis">
-      Electrical Energy
+      
+        Electrical Energy
+      
     </span>
   </a>
   
@@ -2061,7 +2029,9 @@
         <li class="md-nav__item">
   <a href="#direct-current" class="md-nav__link">
     <span class="md-ellipsis">
-      Direct Current
+      
+        Direct Current
+      
     </span>
   </a>
   
@@ -2070,7 +2040,9 @@
         <li class="md-nav__item">
   <a href="#alternating-current" class="md-nav__link">
     <span class="md-ellipsis">
-      Alternating Current
+      
+        Alternating Current
+      
     </span>
   </a>
   
@@ -2080,7 +2052,9 @@
           <li class="md-nav__item">
   <a href="#diagram-ac-waveform-and-transmission-loss-explorer" class="md-nav__link">
     <span class="md-ellipsis">
-      Diagram: AC Waveform and Transmission Loss Explorer
+      
+        Diagram: AC Waveform and Transmission Loss Explorer
+      
     </span>
   </a>
   
@@ -2089,7 +2063,9 @@
           <li class="md-nav__item">
   <a href="#transformers" class="md-nav__link">
     <span class="md-ellipsis">
-      Transformers
+      
+        Transformers
+      
     </span>
   </a>
   
@@ -2103,7 +2079,9 @@
         <li class="md-nav__item">
   <a href="#electrical-systems" class="md-nav__link">
     <span class="md-ellipsis">
-      Electrical Systems
+      
+        Electrical Systems
+      
     </span>
   </a>
   
@@ -2113,7 +2091,9 @@
           <li class="md-nav__item">
   <a href="#diagram-electrical-service-path-explorer" class="md-nav__link">
     <span class="md-ellipsis">
-      Diagram: Electrical Service Path Explorer
+      
+        Diagram: Electrical Service Path Explorer
+      
     </span>
   </a>
   
@@ -2122,7 +2102,9 @@
           <li class="md-nav__item">
   <a href="#utility-service" class="md-nav__link">
     <span class="md-ellipsis">
-      Utility Service
+      
+        Utility Service
+      
     </span>
   </a>
   
@@ -2131,7 +2113,9 @@
           <li class="md-nav__item">
   <a href="#service-entrance" class="md-nav__link">
     <span class="md-ellipsis">
-      Service Entrance
+      
+        Service Entrance
+      
     </span>
   </a>
   
@@ -2140,7 +2124,9 @@
           <li class="md-nav__item">
   <a href="#switchgear" class="md-nav__link">
     <span class="md-ellipsis">
-      Switchgear
+      
+        Switchgear
+      
     </span>
   </a>
   
@@ -2154,7 +2140,9 @@
         <li class="md-nav__item">
   <a href="#panelboards" class="md-nav__link">
     <span class="md-ellipsis">
-      Panelboards
+      
+        Panelboards
+      
     </span>
   </a>
   
@@ -2164,7 +2152,9 @@
           <li class="md-nav__item">
   <a href="#circuit-breakers" class="md-nav__link">
     <span class="md-ellipsis">
-      Circuit Breakers
+      
+        Circuit Breakers
+      
     </span>
   </a>
   
@@ -2174,7 +2164,9 @@
           <li class="md-nav__item">
   <a href="#diagram-circuit-breaker-and-continuous-load-explorer" class="md-nav__link">
     <span class="md-ellipsis">
-      Diagram: Circuit Breaker and Continuous Load Explorer
+      
+        Diagram: Circuit Breaker and Continuous Load Explorer
+      
     </span>
   </a>
   
@@ -2188,7 +2180,9 @@
           <li class="md-nav__item">
   <a href="#feeders" class="md-nav__link">
     <span class="md-ellipsis">
-      Feeders
+      
+        Feeders
+      
     </span>
   </a>
   
@@ -2202,7 +2196,9 @@
         <li class="md-nav__item">
   <a href="#branch-circuits" class="md-nav__link">
     <span class="md-ellipsis">
-      Branch Circuits
+      
+        Branch Circuits
+      
     </span>
   </a>
   
@@ -2211,7 +2207,9 @@
         <li class="md-nav__item">
   <a href="#key-takeaways" class="md-nav__link">
     <span class="md-ellipsis">
-      Key Takeaways
+      
+        Key Takeaways
+      
     </span>
   </a>
   
@@ -2227,12 +2225,80 @@
           
           
             <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+  <nav class="md-path" aria-label="Navigation" >
+    <ol class="md-path__list">
+      
+        
+  
+  
+    <li class="md-path__item">
+      <a href="../.." class="md-path__link">
+        
+  <span class="md-ellipsis">
+    Home
+  </span>
+
+      </a>
+    </li>
+  
+
+      
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="../" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    Chapters
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+    
+      <li class="md-path__item">
+        <a href="./" class="md-path__link">
+          
+  <span class="md-ellipsis">
+    15. Electrical Fundamentals and Building Service
+  </span>
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ol>
+  </nav>
+
+              
               <article class="md-content__inner md-typeset">
                 
                   
 
+
   
-    <a href="https://github.com/dmccreary/science-of-the-built-envrionment/blob/main/docs/chapters/15-electrical-fundamentals/index.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/dmccreary/science-of-the-built-envrionment/blob/main/docs/chapters/15-electrical-fundamentals/index.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -2554,7 +2620,7 @@ Three-phase power confuses almost everyone at first, because you cannot see it a
 <h3 id="utility-service">Utility Service<a class="headerlink" href="#utility-service" title="Permanent link">&para;</a></h3>
 <p>The <strong>utility service</strong> is the supply of electricity from the electric utility company to the building, including the transformer, the service conductors, and the meter. In Minneapolis, the local electric utility is typically Xcel Energy. The utility owns the lines and transformer up to the <em>point of service</em>, where its conductors meet the building owner's conductors, and the owner owns everything beyond that point. Service reaches a building either by <em>overhead</em> conductors from a pole, called a service drop, or by <em>underground</em> conductors, called a service lateral, which is common in dense urban areas and in new commercial projects.</p>
 <p>Utilities supply power at a standard voltage and phase arrangement, and the designer must request the arrangement that suits the building. Service requests, transformer purchase, and trenching can take months, so the electrical designer typically submits a <em>load estimate</em> early, during schematic design (Chapter 2). The utility then selects a transformer and tells the project where it will be located.</p>
-<p><strong>Worked example: a preliminary service size for Riverbend.</strong> At schematic design, the designer has no circuit layout yet, so uses a rule-of-thumb load density. Assume an illustrative 8 VA per square foot for a small community building. For 9,000 ft², the estimated demand is <span class="arithmatex">\( 9{,}000 \times 8 = 72{,}000 \)</span> VA, or 72 kVA. At 208 V three-phase, the current is <span class="arithmatex">\( 72{,}000/(1.732 \times 208) \approx 200 \)</span> A. The designer therefore requests a 200 A, 208Y/120 V three-phase service and shares the 72 kVA estimate with the utility, which commonly selects the next standard transformer size above it, such as 75 kVA. A 200 A, 208 V three-phase service has a capacity of <span class="arithmatex">\( 1.732 \times 208 \times 200 \approx 72{,}050 \)</span> VA, which matches the estimate. The estimate is deliberately rough and is revised once the actual loads are known. Chapter 16 covers how loads are counted properly.</p>
+<p><strong>Worked example: a preliminary service size for Riverbend.</strong> At schematic design, the designer has no circuit layout yet, so uses a rule-of-thumb load density. Assume an illustrative 8 VA per square foot for a small community building. For 9,000 ft², the estimated demand is <span class="arithmatex">\( 9{,}000 \times 8 = 72{,}000 \)</span> VA, or 72 kVA. At 208 V three-phase, the current is <span class="arithmatex">\( 72{,}000/(1.732 \times 208) \approx 200 \)</span> A. The designer therefore requests a 200 A, 208Y/120 V three-phase service and shares the 72 kVA estimate with the utility, which commonly selects the next standard transformer size above it, such as 75 kVA. The estimate is deliberately rough and is revised once the actual loads are known. Chapter 16 covers how loads are counted properly.</p>
 <h3 id="service-entrance">Service Entrance<a class="headerlink" href="#service-entrance" title="Permanent link">&para;</a></h3>
 <p>The <strong>service entrance</strong> is the point where the service conductors enter the building and connect to the equipment that provides the first disconnect and overcurrent protection for the whole electrical system. It includes the <em>service conductors</em>, the <em>meter</em> or the current-transformer cabinet used to measure large services, the <em>service disconnect</em>, which is a main switch or main breaker that can shut off all power to the building in an emergency, and the connection to the grounding electrode (Chapter 16). The service disconnect must be readily accessible, and the code commonly limits the number of switches or breakers that can serve as the main disconnect to six.</p>
 <p>The <em>service rating</em> in amperes sets the capacity of the entire building. Standard ratings include 100, 200, 400, 600, 800, 1,000, and 1,200 A, with larger sizes available. Three-phase power in kVA is <span class="arithmatex">\( \sqrt{3} \times V \times I \)</span>, where <span class="arithmatex">\( V \)</span> is the line-to-line voltage.</p>
@@ -2697,7 +2763,7 @@ You can now explain voltage, current, resistance, and power with Ohm's law, tell
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../14-hvac-plumbing-fire/" class="md-footer__link md-footer__link--prev" aria-label="Previous: 14. HVAC, Plumbing, and Fire Protection Systems">
+          <a href="../14-hvac-plumbing-fire/quiz/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Quiz">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
@@ -2707,20 +2773,20 @@ You can now explain voltage, current, resistance, and power with Ohm's law, tell
                 Previous
               </span>
               <div class="md-ellipsis">
-                14. HVAC, Plumbing, and Fire Protection Systems
+                Quiz
               </div>
             </div>
           </a>
         
         
           
-          <a href="../16-electrical-distribution-design/" class="md-footer__link md-footer__link--next" aria-label="Next: 16. Electrical Distribution, Lighting, and Design Team Coordination">
+          <a href="quiz/" class="md-footer__link md-footer__link--next" aria-label="Next: Quiz">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                16. Electrical Distribution, Lighting, and Design Team Coordination
+                Quiz
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -2753,18 +2819,13 @@ You can now explain voltage, current, resistance, and power with Ohm's law, tell
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "content.action.edit", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "search.share"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.code.copy", "content.action.edit", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "search.share"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
-      
-        <script src="../../js/extra.js"></script>
-      
-        <script src="../../js/katex.js"></script>
-      
-        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
-      
-        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
     
   </body>

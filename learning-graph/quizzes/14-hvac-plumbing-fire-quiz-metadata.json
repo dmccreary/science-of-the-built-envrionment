@@ -1,0 +1,480 @@
+{
+  "chapter": "HVAC, Plumbing, and Fire Protection Systems",
+  "chapter_file": "docs/chapters/14-hvac-plumbing-fire/index.md",
+  "quiz_file": "docs/chapters/14-hvac-plumbing-fire/quiz.md",
+  "generated_date": "2026-10-04",
+  "total_questions": 25,
+  "questions": [
+    {
+      "id": "14-q001",
+      "number": 1,
+      "question_text": "A room has a heating load of 12,000 BTU/h, and supply air at 100\u00b0F serves a room held at 70\u00b0F. Using Q = 1.08 \u00d7 cfm \u00d7 \u0394T, what airflow is needed?",
+      "options": {
+        "A": "About 400 cfm",
+        "B": "About 370 cfm",
+        "C": "About 12,960 cfm",
+        "D": "About 33 cfm"
+      },
+      "correct_answer": "B",
+      "explanation": "The temperature difference is 30\u00b0F, so cfm = 12,000 / (1.08 \u00d7 30) \u2248 370. Omitting the 1.08 constant, which combines air density, minutes per hour, and specific heat, gives 400. Multiplying instead of dividing gives 12,960. HVAC maintains temperature, humidity, and air quality, and it is a response to the building, since the enclosure sets the load.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "HVAC Systems",
+      "source_link": "../chapters/14-hvac-plumbing-fire/index.md#hvac-systems",
+      "explanation_word_count": 58
+    },
+    {
+      "id": "14-q002",
+      "number": 2,
+      "question_text": "Why can supply pipes run in any direction while drain pipes must slope continuously downhill?",
+      "options": {
+        "A": "Supply pipes are larger than drain pipes, so they can carry water uphill by capillary action and suction",
+        "B": "Drain pipes are sealed and pressurized, while supply pipes are open to the atmosphere through vents on the roof",
+        "C": "Supply pipes carry only cold water, while drain pipes carry only hot water from the fixtures to the sewer",
+        "D": "Supply pipes are sealed and pressurized, while drain pipes are partly full, vented to the atmosphere, and drain by gravity"
+      },
+      "correct_answer": "D",
+      "explanation": "Plumbing is really three systems: the pressurized water supply, the gravity drain-waste-vent system, and the stormwater system. This difference explains why a drain often controls the layout of a floor. A flush sends waste through a trap, a branch drain, a stack, a building drain, and the building sewer, with the vent supplying air behind the flowing water.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Plumbing Systems",
+      "source_link": "../chapters/14-hvac-plumbing-fire/index.md#plumbing-systems",
+      "explanation_word_count": 58
+    },
+    {
+      "id": "14-q003",
+      "number": 3,
+      "question_text": "Which pair correctly distinguishes passive from active fire protection?",
+      "options": {
+        "A": "Passive features such as sprinklers respond to a fire, while active features such as rated walls divide the building",
+        "B": "Passive features such as alarms warn occupants, while active features such as rated floors suppress the fire",
+        "C": "Passive features such as rated walls work without moving parts, while active features such as sprinklers respond to a fire",
+        "D": "Passive features operate only in winter when heating is on, while active features operate only in summer"
+      },
+      "correct_answer": "C",
+      "explanation": "Fire protection combines features that prevent a fire from starting, detect it, alert occupants, limit spread, and control or extinguish it. The chain of five jobs is detect, warn, suppress, control smoke, and contain. A building usually relies on several at once, because any single system can fail. Rated walls, floors, and doors compartmentalize and slow the spread, which is the passive part.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Fire Protection",
+      "source_link": "../chapters/14-hvac-plumbing-fire/index.md#fire-protection",
+      "explanation_word_count": 63
+    },
+    {
+      "id": "14-q004",
+      "number": 4,
+      "question_text": "A classroom has 20 occupants and 800 ft\u00b2 of floor area. Using 10 cfm per person plus 0.12 cfm per ft\u00b2, what outdoor airflow is required?",
+      "options": {
+        "A": "296 cfm",
+        "B": "200 cfm",
+        "C": "96 cfm",
+        "D": "1,000 cfm"
+      },
+      "correct_answer": "A",
+      "explanation": "Required outdoor airflow is the people rate plus the area rate: 10 \u00d7 20 + 0.12 \u00d7 800 = 200 + 96 = 296 cfm. The value 200 counts only people and 96 counts only floor area. Standards such as ASHRAE 62.1 combine both because contaminants come from people and from the building itself. Heating this much outdoor air in winter can exceed the conduction load.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Ventilation",
+      "source_link": "../chapters/14-hvac-plumbing-fire/index.md#ventilation",
+      "explanation_word_count": 66
+    },
+    {
+      "id": "14-q005",
+      "number": 5,
+      "question_text": "Why can a heat pump with a COP of 3 deliver more heat energy than the electrical energy it uses?",
+      "options": {
+        "A": "It burns fuel more efficiently than a furnace, so each unit of electricity makes three units of heat",
+        "B": "It stores heat in its refrigerant during the night, so daytime use is lower",
+        "C": "It uses a higher voltage than resistance heaters, so the energy is multiplied",
+        "D": "It moves heat that already exists instead of creating it by combustion or resistance"
+      },
+      "correct_answer": "D",
+      "explanation": "Combustion equipment is rated by AFUE, the fraction of fuel energy that becomes useful heat over a season. A heat pump is rated by COP, the ratio of heat delivered to electrical energy used, and the figure exceeds 1 because heat is moved from a cooler place to a warmer one. COP falls as outdoor temperature falls, so cold-climate models and sizing matter in Minnesota.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Heating Systems",
+      "source_link": "../chapters/14-hvac-plumbing-fire/index.md#heating-systems",
+      "explanation_word_count": 65
+    },
+    {
+      "id": "14-q006",
+      "number": 6,
+      "question_text": "Street pressure is 55 psi, the meter and backflow preventer use 8 psi, and a fixture sits 30 ft above the service entrance. Water produces 0.433 psi per foot of height. What pressure reaches the fixture?",
+      "options": {
+        "A": "About 47 psi",
+        "B": "About 17 psi",
+        "C": "About 34 psi",
+        "D": "About 55 psi"
+      },
+      "correct_answer": "C",
+      "explanation": "Lift costs 30 \u00d7 0.433 \u2248 13 psi, so the pressure at the fixture is 55 \u2212 8 \u2212 13 \u2248 34 psi. The value 47 forgets the lift, 17 subtracts the pressure twice, and 55 ignores all losses. If pressure is too low, a booster pump is needed, so designers request available street pressure before sizing pipes. Codes commonly limit static pressure to about 80 psi, and backflow preventers protect the public system.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Water Supply",
+      "source_link": "../chapters/14-hvac-plumbing-fire/index.md#water-supply",
+      "explanation_word_count": 74
+    },
+    {
+      "id": "14-q007",
+      "number": 7,
+      "question_text": "How do most cooling systems remove heat from indoor air and reject it outdoors?",
+      "options": {
+        "A": "A heat exchanger that passes cold outdoor air directly across the indoor coil to cool the supply air",
+        "B": "A refrigeration cycle where the evaporator absorbs heat and the condenser rejects it outdoors",
+        "C": "A boiler that cools water by circulating it through radiant floor loops and then through the chiller",
+        "D": "A furnace that reverses its blower to pull heat out of the rooms and discharge it through the flue"
+      },
+      "correct_answer": "B",
+      "explanation": "Nearly all cooling uses the same refrigeration cycle as a heat pump: the evaporator sits in the airstream or a water loop and absorbs heat, and the compressor and condenser reject it outdoors. Chillers cool water that is piped to coils in larger buildings, and evaporative cooling works best in dry climates. Cooling matters in Minnesota where occupancy, glass, or equipment adds heat.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Cooling Systems",
+      "source_link": "../chapters/14-hvac-plumbing-fire/index.md#cooling-systems",
+      "explanation_word_count": 63
+    },
+    {
+      "id": "14-q008",
+      "number": 8,
+      "question_text": "Why is a balanced system, often with a heat recovery ventilator, preferred for tight cold-climate buildings over exhaust-only or supply-only?",
+      "options": {
+        "A": "Exhaust-only draws replacement air through the envelope, supply-only pushes warm moist air into walls, and balanced matches flows",
+        "B": "Exhaust-only provides too much outdoor air, and supply-only provides too little, so only balanced meets any code requirement",
+        "C": "Exhaust-only cannot be controlled by sensors, and supply-only cannot filter air, so only a balanced system can do both",
+        "D": "Exhaust-only and supply-only systems are illegal in Minnesota, so only balanced systems are approved by officials"
+      },
+      "correct_answer": "A",
+      "explanation": "In a tight building, air sealing leaves too little leakage to ventilate. An exhaust-only system pulls air out through fans and lets replacement air leak in, which can draw radon or combustion gases through the envelope. A supply-only system pressurizes the building and pushes humid air into walls in winter. A balanced system uses equal flows, and commercial buildings often add demand-controlled ventilation using CO\u2082 sensors.",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Mechanical Ventilation",
+      "source_link": "../chapters/14-hvac-plumbing-fire/index.md#mechanical-ventilation",
+      "explanation_word_count": 66
+    },
+    {
+      "id": "14-q009",
+      "number": 9,
+      "question_text": "What is the purpose of a vent in a drain-waste-vent system?",
+      "options": {
+        "A": "It admits air so that water flows freely and traps keep their seals",
+        "B": "It carries solids away from the fixture by gravity to the building drain",
+        "C": "It supplies pressurized hot water to the fixture from the water heater",
+        "D": "It holds a plug of water that blocks sewer gas from entering the room"
+      },
+      "correct_answer": "A",
+      "explanation": "The DWV system is gravity piping that removes used water and sewage and admits air through vents that terminate above the roof. Without a vent, flowing water would pull a trap dry, and sewer gas would enter the room. The trap is the part that holds water. Small horizontal drains commonly slope about one-quarter inch per foot, and cleanouts allow a clogged pipe to be rodded.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Drain-Waste-Vent System",
+      "source_link": "../chapters/14-hvac-plumbing-fire/index.md#drain-waste-vent-system",
+      "explanation_word_count": 66
+    },
+    {
+      "id": "14-q010",
+      "number": 10,
+      "question_text": "A branch duct must carry 400 cfm at a design velocity of 800 feet per minute. What cross-sectional area is required?",
+      "options": {
+        "A": "36 in\u00b2",
+        "B": "0.5 in\u00b2",
+        "C": "72 in\u00b2",
+        "D": "5 in\u00b2"
+      },
+      "correct_answer": "C",
+      "explanation": "Airflow equals velocity times area, so area = 400 / 800 = 0.5 ft\u00b2, which is 72 in\u00b2. The value 36 in\u00b2 uses 72 divided by two, and 0.5 forgets to convert from square feet. A duct that is too small makes air move too fast, which causes noise and uses fan energy. Ducts compete with beams for ceiling space, a typical source of design conflict.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Ductwork",
+      "source_link": "../chapters/14-hvac-plumbing-fire/index.md#ductwork",
+      "explanation_word_count": 66
+    },
+    {
+      "id": "14-q011",
+      "number": 11,
+      "question_text": "How does an energy recovery ventilator (ERV) differ from a heat recovery ventilator (HRV)?",
+      "options": {
+        "A": "An HRV mixes the exhaust and incoming air streams, while an ERV keeps the two streams completely separate",
+        "B": "Both pass exhaust and incoming air through a heat exchanger without mixing, but an ERV also transfers moisture",
+        "C": "An HRV transfers moisture between the streams, while an ERV transfers only heat between them",
+        "D": "An HRV is used only in houses, while an ERV is used only in large commercial buildings"
+      },
+      "correct_answer": "B",
+      "explanation": "An HRV preheats incoming fresh air using the outgoing exhaust air, without mixing the two. With 75 percent sensible effectiveness, 0\u00b0F outdoor air is warmed to about 52.5\u00b0F, recovering about 18,300 of the 24,300 BTU/h needed in the classroom example. An ERV adds moisture transfer. In a cold climate, recovery is usually the main reason to install the device.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Heat Recovery Ventilator",
+      "source_link": "../chapters/14-hvac-plumbing-fire/index.md#heat-recovery-ventilator",
+      "explanation_word_count": 59
+    },
+    {
+      "id": "14-q012",
+      "number": 12,
+      "question_text": "In what order are the three strategies for controlling indoor air quality applied?",
+      "options": {
+        "A": "Filter the air first, ventilate to dilute what remains, and then remove the source of the contaminants",
+        "B": "Ventilate to dilute the contaminants, filter the air, and then redesign the building enclosure entirely",
+        "C": "Test for contaminants, filter the air, and then ventilate only if the test results show a problem",
+        "D": "Remove or avoid the source, ventilate to dilute what remains, then filter to capture particles"
+      },
+      "correct_answer": "D",
+      "explanation": "IAQ is the condition of the air inside a building as it affects health and comfort. Contaminants include carbon dioxide, VOCs from paints and adhesives, particles, combustion gases, moisture and mold, and radon. Source control comes first because it is most effective, filters are rated by MERV, and carbon dioxide level is only a rough indicator of ventilation quality.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Indoor Air Quality",
+      "source_link": "../chapters/14-hvac-plumbing-fire/index.md#indoor-air-quality",
+      "explanation_word_count": 59
+    },
+    {
+      "id": "14-q013",
+      "number": 13,
+      "question_text": "What do federal standards limit for common toilets and showerheads?",
+      "options": {
+        "A": "About 5 gallons per flush for toilets and about 10 gallons per minute for showerheads",
+        "B": "About 0.5 gallons per flush for toilets and about 1 gallon per minute for showerheads",
+        "C": "About 1.6 gallons per flush for toilets and about 2.5 gallons per minute for showerheads",
+        "D": "About 3 gallons per flush for toilets and about 5 gallons per minute for showerheads"
+      },
+      "correct_answer": "C",
+      "explanation": "A plumbing fixture receives water from the supply system and discharges used water to the drain system, and every fixture has a trap, a drain, and a vent. Codes set a minimum number of fixtures by occupancy, so Riverbend's multipurpose room requires more toilets than a small office. Efficient fixtures lower both water and water-heating energy, and accessibility rules govern mounting heights and clearances.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Plumbing Fixtures",
+      "source_link": "../chapters/14-hvac-plumbing-fire/index.md#plumbing-fixtures",
+      "explanation_word_count": 64
+    },
+    {
+      "id": "14-q014",
+      "number": 14,
+      "question_text": "Why does sub-slab depressurization keep radon out of a building?",
+      "options": {
+        "A": "A membrane under the slab absorbs the radon and converts it to harmless carbon dioxide in the soil",
+        "B": "A fan draws soil gas from a gravel layer under the slab and discharges it above the roof",
+        "C": "A filter at the furnace removes radon from the indoor air before it is breathed by the occupants",
+        "D": "A vent at the foundation wall pushes soil gas into the basement so it can be diluted by room air"
+      },
+      "correct_answer": "B",
+      "explanation": "Radon is a radioactive gas released from soil that seeps through cracks because air pressure in a heated building is usually lower than in the soil. Long-term exposure raises lung cancer risk, and much of Minnesota has high radon potential. Sealing cracks and testing after construction complete the strategy, and some codes require the piping to be roughed in for new houses.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Radon Mitigation",
+      "source_link": "../chapters/14-hvac-plumbing-fire/index.md#radon-mitigation",
+      "explanation_word_count": 62
+    },
+    {
+      "id": "14-q015",
+      "number": 15,
+      "question_text": "What distinguishes a condensing furnace from a standard furnace?",
+      "options": {
+        "A": "It burns no fuel at all, so it needs no vent and heats the air using resistance heating elements",
+        "B": "It heats water for hydronic distribution through pipes instead of heating air for distribution in ducts",
+        "C": "It uses a refrigeration cycle to move heat from the outdoor air into the building, rather than burning fuel",
+        "D": "It extracts so much heat that exhaust gases condense, so it vents through plastic pipe and drains condensate"
+      },
+      "correct_answer": "D",
+      "explanation": "A furnace burns gas, propane, or oil, passes the hot gases through a heat exchanger, and uses a blower to push household air over it, so combustion gases never mix with room air. Condensing models reach very high AFUE. Because combustion produces carbon monoxide, furnaces require a proper vent and combustion air, and CO alarms are commonly required near sleeping areas. Electric furnaces need no vent.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Furnace",
+      "source_link": "../chapters/14-hvac-plumbing-fire/index.md#furnace",
+      "explanation_word_count": 66
+    },
+    {
+      "id": "14-q016",
+      "number": 16,
+      "question_text": "Why do hydronic systems use small pipes where an air system would need large ducts?",
+      "options": {
+        "A": "Water holds far more heat per volume than air, so small pipes carry the same amount of heat",
+        "B": "Water flows much faster than air through any pipe, so the pipes can be smaller than the ducts",
+        "C": "Boilers produce only steam, so pressure forces the water through small pipes at high velocity",
+        "D": "Pipes are better insulated than ducts, so they lose less heat in transit through the building"
+      },
+      "correct_answer": "A",
+      "explanation": "A boiler heats water, or steam in older systems, and sends it to radiators, baseboards, and radiant floor loops. It allows zoning with pumps and valves and is common in schools, hospitals, and apartment buildings. Condensing boilers reach their best efficiency when return water is cool, which suits low-temperature radiant systems. Gas boilers still need venting and combustion air.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Boiler",
+      "source_link": "../chapters/14-hvac-plumbing-fire/index.md#boiler",
+      "explanation_word_count": 59
+    },
+    {
+      "id": "14-q017",
+      "number": 17,
+      "question_text": "To deliver the same heat, how much electricity does a heat pump operating at COP 3 draw compared with electric resistance heating?",
+      "options": {
+        "A": "About the same",
+        "B": "About three times as much",
+        "C": "About one-third as much",
+        "D": "About one-half as much"
+      },
+      "correct_answer": "C",
+      "explanation": "Electric resistance converts each kilowatt of electricity into one kilowatt of heat, while a heat pump at COP 3 delivers three units of heat for each unit of electricity. To deliver 23.4 kW of heat, resistance draws 23.4 kW and the heat pump draws 7.8 kW. COP falls with outdoor temperature, so at a COP of 2 it draws about half as much as resistance.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Heat Pump",
+      "source_link": "../chapters/14-hvac-plumbing-fire/index.md#heat-pump",
+      "explanation_word_count": 65
+    },
+    {
+      "id": "14-q018",
+      "number": 18,
+      "question_text": "What is the difference between latent cooling and sensible cooling?",
+      "options": {
+        "A": "Latent cooling lowers air temperature, while sensible cooling removes moisture by condensation",
+        "B": "Latent cooling removes moisture by condensing vapor on a cold coil, while sensible cooling lowers air temperature",
+        "C": "Latent cooling is done by evaporative cooling only, while sensible cooling uses a chiller only",
+        "D": "Latent cooling rejects heat outdoors, while sensible cooling stores the heat in the building mass"
+      },
+      "correct_answer": "B",
+      "explanation": "Air conditioning treats air to control temperature, humidity, cleanliness, and distribution at once. Cooling air below its dew point makes water vapor condense on the cold coil, which dehumidifies the air. This matters because the body feels warmer in humid air. An oversized unit cools quickly, shuts off, and never runs long enough to remove humidity.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Air Conditioning",
+      "source_link": "../chapters/14-hvac-plumbing-fire/index.md#air-conditioning",
+      "explanation_word_count": 56
+    },
+    {
+      "id": "14-q019",
+      "number": 19,
+      "question_text": "A bedroom's door is closed, and the room has no return opening or transfer grille. What is the likely result?",
+      "options": {
+        "A": "The room becomes depressurized and draws in more air from the other rooms, which improves overall comfort",
+        "B": "The room's diffuser throws air farther along the ceiling, which improves mixing and reduces drafts",
+        "C": "The room's supply air bypasses the equipment entirely, so the furnace shuts down on a safety limit",
+        "D": "The room becomes pressurized and starves other rooms of air, since air must flow out as fast as it flows in"
+      },
+      "correct_answer": "D",
+      "explanation": "Air distribution delivers conditioned air through diffusers on the supply side and returns it through grilles. Good distribution mixes air without drafts. Because air must leave a room as fast as it enters, doors and walls need return openings or transfer grilles, and a closed door with no return path pressurizes the room and shortchanges others.",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Air Distribution",
+      "source_link": "../chapters/14-hvac-plumbing-fire/index.md#air-distribution",
+      "explanation_word_count": 56
+    },
+    {
+      "id": "14-q020",
+      "number": 20,
+      "question_text": "Why does a radiant slab need insulation below it, and how does it respond to control changes?",
+      "options": {
+        "A": "Insulation sends heat up into the room instead of the soil, and the slab responds slowly, so controls must anticipate",
+        "B": "Insulation prevents the slab from cracking, and the slab responds quickly to changes in thermostat setting",
+        "C": "Insulation protects the tubing from corrosion, and the slab responds instantly to outdoor temperature",
+        "D": "Insulation eliminates the need for a boiler, and the slab responds as quickly as forced air does in the room"
+      },
+      "correct_answer": "A",
+      "explanation": "Radiant heating warms surfaces that radiate directly to people and objects, most commonly with warm water in tubing embedded in a slab. It feels comfortable at slightly lower air temperatures because occupants exchange heat with warm surfaces. The thermal mass makes response slow, so controls must anticipate changes in weather.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Radiant Heating",
+      "source_link": "../chapters/14-hvac-plumbing-fire/index.md#radiant-heating",
+      "explanation_word_count": 50
+    },
+    {
+      "id": "14-q021",
+      "number": 21,
+      "question_text": "Net exterior wall of 2,000 ft\u00b2 has a U-factor of 0.05 and a 60\u00b0F temperature difference. What is its conductive heat loss?",
+      "options": {
+        "A": "6,000 BTU/h",
+        "B": "100 BTU/h",
+        "C": "120,000 BTU/h",
+        "D": "600 BTU/h"
+      },
+      "correct_answer": "A",
+      "explanation": "Conduction loss is Q = U \u00d7 A \u00d7 \u0394T = 0.05 \u00d7 2,000 \u00d7 60 = 6,000 BTU/h. Multiplying only U and area gives 100, and multiplying area by temperature difference gives 120,000. Equipment is sized from loads, never the other way around, and oversizing causes short cycling and poor humidity control. One ton of cooling equals 12,000 BTU/h.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Heating and Cooling Loads",
+      "source_link": "../chapters/14-hvac-plumbing-fire/index.md#heating-and-cooling-loads",
+      "explanation_word_count": 60
+    },
+    {
+      "id": "14-q022",
+      "number": 22,
+      "question_text": "How do storage, tankless, and heat pump water heaters differ?",
+      "options": {
+        "A": "Storage heats on demand with high power, tankless keeps a tank of hot water ready, and a heat pump unit burns fuel oil",
+        "B": "Storage keeps hot water ready and loses heat, tankless heats on demand with high power, and a heat pump unit uses a refrigeration cycle",
+        "C": "Storage and tankless both lose heat all day, and a heat pump water heater needs no electricity at all to run",
+        "D": "Storage uses a refrigeration cycle, tankless uses a tank of hot water, and a heat pump unit uses resistance elements only"
+      },
+      "correct_answer": "B",
+      "explanation": "Water for personal use is commonly delivered at about 120\u00b0F to limit scalding, and where tanks store water at lower temperatures, designers watch for bacterial growth such as Legionella. Heating 50 gallons from 50\u00b0F to 120\u00b0F takes about 8.34 \u00d7 50 \u00d7 70 \u2248 29,200 BTU, from 8.34 lb per gallon and 1 BTU per pound per degree.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Water Heating",
+      "source_link": "../chapters/14-hvac-plumbing-fire/index.md#water-heating",
+      "explanation_word_count": 58
+    },
+    {
+      "id": "14-q023",
+      "number": 23,
+      "question_text": "What are detention and infiltration in stormwater management?",
+      "options": {
+        "A": "Detention lets water soak into the soil, while infiltration holds it in a basin and releases it slowly",
+        "B": "Detention carries water to the sanitary sewer, while infiltration sends it to the treatment plant",
+        "C": "Detention holds water in a basin and releases it slowly, while infiltration lets it soak into the soil",
+        "D": "Detention speeds runoff off the site, while infiltration collects it on the roof for the building to use"
+      },
+      "correct_answer": "C",
+      "explanation": "A developed site produces more runoff, faster, than natural ground, so regulations commonly require a development to release water no faster than before construction. Green roofs also help, and infiltration depends on the site's soil. Stormwater drains are separate from sanitary drains in most modern systems, so rainwater does not overload the treatment plant.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Stormwater Management",
+      "source_link": "../chapters/14-hvac-plumbing-fire/index.md#stormwater-management",
+      "explanation_word_count": 54
+    },
+    {
+      "id": "14-q024",
+      "number": 24,
+      "question_text": "A sprinkler system serves an unheated loading dock in Minnesota. Which type fits, and why?",
+      "options": {
+        "A": "A wet-pipe system, because water in the pipes at all times responds fastest to any fire in the area",
+        "B": "A wet-pipe system, because it is the most common type and therefore is always required by the code",
+        "C": "A dry-pipe system, because it holds water at all times in the pipes and has no air in them at all",
+        "D": "A dry-pipe system, because pressurized air in the pipes prevents freezing until a sprinkler opens"
+      },
+      "correct_answer": "D",
+      "explanation": "Sprinkler heads open independently when a glass bulb or link reaches its rated temperature, commonly around 155\u00b0F, so only sprinklers near the fire open. Wet-pipe systems hold water at all times and are most common, but water in unheated spaces would freeze. Dry-pipe systems hold pressurized air and admit water only when a sprinkler opens. Flow follows Q = K\u221aP.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Sprinkler Systems",
+      "source_link": "../chapters/14-hvac-plumbing-fire/index.md#sprinkler-systems",
+      "explanation_word_count": 60
+    },
+    {
+      "id": "14-q025",
+      "number": 25,
+      "question_text": "Why are ordinary HVAC fans commonly shut down on a fire alarm while stair pressurization fans operate?",
+      "options": {
+        "A": "HVAC fans consume too much electricity during an alarm, while pressurized stairs use stored power",
+        "B": "HVAC fans could spread smoke through the building, while pressurized stairs keep smoke out of exit paths",
+        "C": "HVAC fans produce flames when they run for long periods, while pressurized stairs absorb the smoke",
+        "D": "HVAC fans must be off for the sprinklers to work, while stairs do not need any airflow at all"
+      },
+      "correct_answer": "B",
+      "explanation": "Smoke, not flame, is the leading cause of fire deaths because it blocks vision and carries toxic gases. Smoke barriers and dampers limit movement passively, while stair pressurization supplies air so the stair is at higher pressure than the fire floor, and smoke exhaust serves large spaces such as atria. HVAC controls and the fire alarm are one coordinated design tested during commissioning.",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Smoke Control",
+      "source_link": "../chapters/14-hvac-plumbing-fire/index.md#smoke-control",
+      "explanation_word_count": 63
+    }
+  ],
+  "answer_distribution": {
+    "A": 6,
+    "B": 7,
+    "C": 6,
+    "D": 6
+  },
+  "bloom_distribution": {
+    "Remember": 7,
+    "Understand": 8,
+    "Apply": 7,
+    "Analyze": 3,
+    "Evaluate": 0,
+    "Create": 0
+  },
+  "concept_coverage": {
+    "total_concepts": 25,
+    "tested_concepts": 25,
+    "coverage_percentage": 100
+  },
+  "content_readiness_score": 90,
+  "overall_quality_score": 95
+}

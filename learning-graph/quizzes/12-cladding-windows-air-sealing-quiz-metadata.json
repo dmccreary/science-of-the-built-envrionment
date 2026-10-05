@@ -1,0 +1,372 @@
+{
+  "chapter": "Cladding, Windows, Doors, and Air Sealing",
+  "chapter_file": "docs/chapters/12-cladding-windows-air-sealing/index.md",
+  "quiz_file": "docs/chapters/12-cladding-windows-air-sealing/quiz.md",
+  "generated_date": "2026-10-04",
+  "total_questions": 19,
+  "questions": [
+    {
+      "id": "12-q001",
+      "number": 1,
+      "question_text": "Why is cladding described as the first line of defense and not as the water control layer?",
+      "options": {
+        "A": "It is applied last in the sequence, so it is installed only after the water control layer is no longer needed",
+        "B": "It sheds most rain and snow, but some water gets behind it, where the weather-resistive barrier acts as the second line",
+        "C": "It is face-sealed in every cladding system, so water that gets past the surface cannot reach the layers behind",
+        "D": "It is the only layer that must be continuous, so the barrier behind it may have gaps without consequence"
+      },
+      "correct_answer": "B",
+      "explanation": "Cladding is the exterior skin that sheds water, protects the layers behind from sunlight, impact, and wear, gives the building its appearance, and contributes to fire performance. Most modern walls use a drained strategy that assumes some water will get behind it and provides a path out. A face-sealed system tries to keep all water out, so every joint must stay watertight for the wall's life.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Cladding",
+      "source_link": "../chapters/12-cladding-windows-air-sealing/index.md#cladding",
+      "explanation_word_count": 66
+    },
+    {
+      "id": "12-q002",
+      "number": 2,
+      "question_text": "A joint must accommodate 0.30 in. of thermal movement, and the sealant is rated for plus or minus 25 percent. What is the minimum joint width?",
+      "options": {
+        "A": "0.6 in.",
+        "B": "0.3 in.",
+        "C": "1.2 in.",
+        "D": "0.15 in."
+      },
+      "correct_answer": "A",
+      "explanation": "The minimum width equals the movement divided by twice the movement capability: 0.30 / (2 \u00d7 0.25) = 0.6 in. Using the movement alone ignores the sealant's capability, 1.2 in. doubles the result, and 0.15 in. uses a rating of 100 percent. A narrow 1/8 in. joint would tear on the first cold night, and sealant should adhere on two sides only, with a backer rod behind it.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Sealants",
+      "source_link": "../chapters/12-cladding-windows-air-sealing/index.md#sealants",
+      "explanation_word_count": 68
+    },
+    {
+      "id": "12-q003",
+      "number": 3,
+      "question_text": "Which type of glass is heat-treated to be about four times stronger and breaks into small, blunt pieces?",
+      "options": {
+        "A": "Annealed glass",
+        "B": "Laminated glass",
+        "C": "Insulating glass",
+        "D": "Tempered glass"
+      },
+      "correct_answer": "D",
+      "explanation": "Tempered glass is heat-treated for strength and safety. Annealed glass is ordinary, slowly cooled glass that breaks into sharp shards, and laminated glass has a plastic layer between two panes that holds pieces together and improves sound reduction and security. An insulating glass unit is two or three panes separated by a sealed gap, not a strength treatment. Codes require safety glazing where people are likely to strike glass.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Glazing",
+      "source_link": "../chapters/12-cladding-windows-air-sealing/index.md#glazing",
+      "explanation_word_count": 69
+    },
+    {
+      "id": "12-q004",
+      "number": 4,
+      "question_text": "Why is air sealing done before the drywall is installed?",
+      "options": {
+        "A": "The air barrier material is installed only on the outside of the wall, so the drywall would block it",
+        "B": "The drywall must be sealed with spray foam on both faces, which requires the framing to be open",
+        "C": "Most leakage occurs at joints and penetrations, and open framing lets the crew reach every one cheaply",
+        "D": "Building codes require an inspection of the framing before drywall regardless of air leakage"
+      },
+      "correct_answer": "C",
+      "explanation": "A wall can have a perfect air barrier material and still leak at the top plate, rim joist, window and door gaps, penetrations, and electrical boxes. Sealants, gaskets, tape, and foam close them. Leaks hidden behind finished drywall are expensive to find and repair, and nearly impossible to do well afterward. Low-expansion foam is used around windows to avoid bowing the frame.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Air Sealing",
+      "source_link": "../chapters/12-cladding-windows-air-sealing/index.md#air-sealing",
+      "explanation_word_count": 62
+    },
+    {
+      "id": "12-q005",
+      "number": 5,
+      "question_text": "On a design day, indoor air is 70\u00b0F and outdoor air is \u221210\u00b0F. A window with U-0.55 has an inside film resistance of 0.68. The room's dew point is 45\u00b0F. What happens at the glass?",
+      "options": {
+        "A": "The inside surface is about 26\u00b0F, but condensation does not occur because the glass is dry",
+        "B": "The inside surface is about 54\u00b0F, above the dew point, so the glass stays clear",
+        "C": "The inside surface is about 40\u00b0F, below the dew point, so moisture condenses",
+        "D": "The inside surface is about 70\u00b0F, equal to the room air, so no heat flows"
+      },
+      "correct_answer": "C",
+      "explanation": "The surface temperature is T_in \u2212 U \u00d7 \u0394T \u00d7 0.68 = 70 \u2212 0.55 \u00d7 80 \u00d7 0.68 \u2248 40\u00b0F, below the 45\u00b0F dew point, so moisture condenses and may freeze. Leaving out the film resistance gives about 26\u00b0F, and a low-U window such as U-0.28 would stay near 55\u00b0F. The glass edge is colder than the center, so real condensation starts earlier.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Windows",
+      "source_link": "../chapters/12-cladding-windows-air-sealing/index.md#windows",
+      "explanation_word_count": 64
+    },
+    {
+      "id": "12-q006",
+      "number": 6,
+      "question_text": "A blower door holds 50 Pa at 4,500 CFM50 in a building of 90,000 ft\u00b3. What is the ACH50?",
+      "options": {
+        "A": "30",
+        "B": "0.05",
+        "C": "1.5",
+        "D": "3.0"
+      },
+      "correct_answer": "D",
+      "explanation": "ACH50 = CFM50 \u00d7 60 / volume = 4,500 \u00d7 60 / 90,000 = 3.0. Forgetting the factor of 60 gives 0.05, and 30 and 1.5 are order-of-magnitude and halving errors. A calibrated fan depressurizes the building by 50 pascals, and natural leakage is commonly estimated by dividing ACH50 by 15 to 20. Cold-climate residential codes commonly require about 3 ACH50 or less.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Blower Door Test",
+      "source_link": "../chapters/12-cladding-windows-air-sealing/index.md#blower-door-test",
+      "explanation_word_count": 63
+    },
+    {
+      "id": "12-q007",
+      "number": 7,
+      "question_text": "What distinguishes Type X gypsum board?",
+      "options": {
+        "A": "Its core has added glass fibers that help it hold together in a fire, so it builds rated assemblies",
+        "B": "Its core has added moisture-resistant additives, so it can be used in showers and other wet areas",
+        "C": "Its paper facing is replaced with foil, so it also acts as both a vapor barrier and an air barrier",
+        "D": "Its thickness is limited to 1/4 in., so it is used only as a covering over existing walls and ceilings"
+      },
+      "correct_answer": "A",
+      "explanation": "Gypsum board has a core of gypsum, a mineral that holds water chemically, pressed between sheets of heavy paper. Type X is used to build the fire-resistance-rated assemblies described in Chapter 18. Moisture-resistant types serve wet areas, and plain paper-faced board should be kept dry because wet paper supports mold. Panels are commonly 1/2 or 5/8 in. thick.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Gypsum Board",
+      "source_link": "../chapters/12-cladding-windows-air-sealing/index.md#gypsum-board",
+      "explanation_word_count": 58
+    },
+    {
+      "id": "12-q008",
+      "number": 8,
+      "question_text": "What is the function of weep holes in a brick veneer wall?",
+      "options": {
+        "A": "They hold the brick to the backup wall to resist wind pressure on the wall",
+        "B": "They let water collected on the flashing drain out of the cavity",
+        "C": "They support the brick above windows and doors at the top of each opening",
+        "D": "They allow air to circulate in the cavity so the brick can expand freely"
+      },
+      "correct_answer": "B",
+      "explanation": "A brick veneer wall has an air space, metal ties, flashing, weep holes, and lintels. Flashing at the base and above openings catches water running down the cavity, and weep holes in the mortar joints just above the flashing let it out. Ties hold the brick to the backup, and steel angle lintels hold the brick above openings. Veneer carries only its own weight.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Brick Veneer",
+      "source_link": "../chapters/12-cladding-windows-air-sealing/index.md#brick-veneer",
+      "explanation_word_count": 64
+    },
+    {
+      "id": "12-q009",
+      "number": 9,
+      "question_text": "Why are vinyl siding nail holes slotted and the nails not driven tight?",
+      "options": {
+        "A": "Vinyl is soft, so tight nails would crush it during installation",
+        "B": "Vinyl is a drainage layer, so tight nails would block water paths",
+        "C": "Vinyl is combustible, so loose nails reduce the spread of fire",
+        "D": "Vinyl expands and contracts with temperature, so it needs room to move"
+      },
+      "correct_answer": "D",
+      "explanation": "Siding is a family of thin, lapped cladding boards or panels fastened in courses, with each course overlapping the one below to shed water by the shingle principle. Vinyl moves with temperature, so the nails must allow it to slide. Fiber cement resists rot and fire, but cutting it creates silica dust that can harm lungs, so dust control is required.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Siding",
+      "source_link": "../chapters/12-cladding-windows-air-sealing/index.md#siding",
+      "explanation_word_count": 61
+    },
+    {
+      "id": "12-q010",
+      "number": 10,
+      "question_text": "In a traditional three-coat stucco system, what is the correct order of the coats?",
+      "options": {
+        "A": "Brown coat, scratch coat, finish coat",
+        "B": "Scratch coat, brown coat, finish coat",
+        "C": "Finish coat, brown coat, scratch coat",
+        "D": "Scratch coat, finish coat, brown coat"
+      },
+      "correct_answer": "B",
+      "explanation": "Stucco is a cement-based plaster applied in layers over lath. The scratch coat is pressed into the lath and scored for grip, the brown coat levels and builds thickness, and the finish coat provides the colored or textured surface. Stucco is hard and fire-resistant but cracks as the building moves, so over wood framing it needs a water-resistive barrier and often a drainage mat.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Stucco",
+      "source_link": "../chapters/12-cladding-windows-air-sealing/index.md#stucco",
+      "explanation_word_count": 64
+    },
+    {
+      "id": "12-q011",
+      "number": 11,
+      "question_text": "Which two design problems must be addressed in a metal panel wall because of the properties of metal?",
+      "options": {
+        "A": "Thermal bridging at clips and girts, and movement of panels with temperature changes at the joints",
+        "B": "Moisture absorption in the panels, and rot of the supporting framing behind the panels over time",
+        "C": "Combustibility of the panels, and shrinkage of the panels as they dry out after installation",
+        "D": "Low strength of the panels, and galvanic corrosion caused by contact with the wood framing"
+      },
+      "correct_answer": "A",
+      "explanation": "Metal panels are light, durable, and common on commercial and industrial buildings. Because metal conducts heat well, the clips and girts create thermal bridges unless thermal breaks are used, and because it moves with temperature, the joints must be sized for that movement, as in the sealant calculation. Panels are normally installed as a rainscreen, with an air space behind them.",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Metal Panels",
+      "source_link": "../chapters/12-cladding-windows-air-sealing/index.md#metal-panels",
+      "explanation_word_count": 61
+    },
+    {
+      "id": "12-q012",
+      "number": 12,
+      "question_text": "Which three benefits does the gap in a rainscreen provide?",
+      "options": {
+        "A": "Insulation, air sealing, and vapor control",
+        "B": "Fire resistance, sound reduction, and structural support",
+        "C": "Drainage, drying by moving air, and a capillary break",
+        "D": "Weight reduction, cost savings, and faster installation"
+      },
+      "correct_answer": "C",
+      "explanation": "A rainscreen has a gap, often 3/4 in. or more, between the cladding and the water-resistive barrier. Water that gets past the cladding falls down the gap, moving air dries the wall, and the gap stops capillary action. A pressure-equalized rainscreen also matches the gap pressure to wind pressure outside so wind has less force pushing rain through joints. Riverbend mounts siding on vertical furring strips to form the gap.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Rainscreen",
+      "source_link": "../chapters/12-cladding-windows-air-sealing/index.md#rainscreen",
+      "explanation_word_count": 70
+    },
+    {
+      "id": "12-q013",
+      "number": 13,
+      "question_text": "Why can a curtain wall be thin and highly glazed?",
+      "options": {
+        "A": "It is a load-bearing wall made of glass panels, and the glass carries the floor loads in compression",
+        "B": "It is attached to the foundation, and the foundation carries the wind load directly into the ground",
+        "C": "It is made of aluminum, which is strong enough to replace the structural frame of the building",
+        "D": "It hangs from the structure and carries only its own weight and wind, since the structure carries the floors"
+      },
+      "correct_answer": "D",
+      "explanation": "A curtain wall is typically an aluminum frame with glass or panels as infill, and it is the usual exterior of a multi-story commercial building. Because it is a complete enclosure, its frame must include water, air, vapor, and thermal control layers, and it needs thermal breaks, strips of low-conductivity plastic, because bare aluminum conducts heat very well. A storefront is the one-story version.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Curtain Wall",
+      "source_link": "../chapters/12-cladding-windows-air-sealing/index.md#curtain-wall",
+      "explanation_word_count": 64
+    },
+    {
+      "id": "12-q014",
+      "number": 14,
+      "question_text": "At the head of a window opening, how should the weather-resistive barrier be installed relative to the head flashing?",
+      "options": {
+        "A": "Tucked under the head flashing, so the barrier is protected from the sun and from impact",
+        "B": "Lapped over the head flashing, so water on the barrier runs onto the flashing and outward",
+        "C": "Omitted above the flashing, so the sheathing can dry upward through the opening toward the attic",
+        "D": "Replaced with a bead of caulk across the top of the window, which seals the joint"
+      },
+      "correct_answer": "B",
+      "explanation": "Flashing directs water out of the wall. The top of the flashing tucks behind the weather-resistive barrier, and the bottom laps over the cladding below, which is the shingle principle. If the barrier were under the head flashing, water would flow behind the flashing and into the opening. Caulk is only a backup, because sealant ages, cracks, and leaves a gap.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Flashing",
+      "source_link": "../chapters/12-cladding-windows-air-sealing/index.md#flashing",
+      "explanation_word_count": 61
+    },
+    {
+      "id": "12-q015",
+      "number": 15,
+      "question_text": "Why do designers commonly place a low-E coating on surface 3 in a heating climate and on surface 2 in a cooling climate?",
+      "options": {
+        "A": "Surface 3 reflects visible light into the room, and surface 2 absorbs visible light from outdoors",
+        "B": "Surface 3 protects the coating from the weather, and surface 2 exposes it for easier cleaning",
+        "C": "Surface 3 keeps heat in the room while admitting solar heat, and surface 2 rejects more solar heat",
+        "D": "Surface 3 reduces the glass's emissivity to zero, and surface 2 increases the glass's emissivity"
+      },
+      "correct_answer": "C",
+      "explanation": "A low-E coating is a microscopically thin metal or metal-oxide layer that reflects long-wave infrared radiation, or heat, while passing visible light, lowering emissivity from about 0.84 to roughly 0.04 to 0.20. It is placed inside the sealed unit where it is protected. It can lower the U-factor of a double pane by about a third.",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Low-E Coatings",
+      "source_link": "../chapters/12-cladding-windows-air-sealing/index.md#low-e-coatings",
+      "explanation_word_count": 56
+    },
+    {
+      "id": "12-q016",
+      "number": 16,
+      "question_text": "Two windows with a combined 100 ft\u00b2 of glazing have whole-window U-factors of 0.48 and 0.28. On a design day with an 80\u00b0F temperature difference, how much more heat does the 0.48 option lose?",
+      "options": {
+        "A": "1,600 BTU/h",
+        "B": "2,240 BTU/h",
+        "C": "3,840 BTU/h",
+        "D": "640 BTU/h"
+      },
+      "correct_answer": "A",
+      "explanation": "Heat flow is U \u00d7 A \u00d7 \u0394T. The 0.48 window loses 0.48 \u00d7 100 \u00d7 80 = 3,840 BTU/h and the 0.28 window loses 2,240 BTU/h, so the difference is 1,600 BTU/h. The other values are the individual losses or a slip. The NFRC label reports the whole-window value, which is higher than center-of-glass because the frame and edge conduct more heat.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Window U-Factor",
+      "source_link": "../chapters/12-cladding-windows-air-sealing/index.md#window-u-factor",
+      "explanation_word_count": 63
+    },
+    {
+      "id": "12-q017",
+      "number": 17,
+      "question_text": "What does the solar heat gain coefficient measure?",
+      "options": {
+        "A": "The rate of heat flow through the whole window per square foot per degree of temperature difference",
+        "B": "The percentage of visible light that passes through the glass and the frame into the room",
+        "C": "The fraction of the sun's energy striking a window that passes through as heat, from 0 to 1",
+        "D": "The fraction of long-wave infrared radiation that the coating reflects back into the room"
+      },
+      "correct_answer": "C",
+      "explanation": "SHGC helps predict solar gain: heat gained equals SHGC \u00d7 glass area \u00d7 solar irradiance. A low SHGC reduces cooling loads and glare, while a high SHGC helps heat a building in winter, so Minneapolis designers commonly use a high SHGC on the south side and a low one where sun would cause overheating. The heat-flow rate is the U-factor, and visible light is visible transmittance.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Solar Heat Gain Coefficient",
+      "source_link": "../chapters/12-cladding-windows-air-sealing/index.md#solar-heat-gain-coefficient",
+      "explanation_word_count": 66
+    },
+    {
+      "id": "12-q018",
+      "number": 18,
+      "question_text": "Why do busy building entries often include a vestibule with two sets of doors?",
+      "options": {
+        "A": "Doors opened by many people cause the largest bursts of air leakage, and two sets keep one closed",
+        "B": "Doors need two sets so that the sill pan can be sloped outward on both sides of the vestibule",
+        "C": "Egress codes require two doors in series so that occupants can exit the building in two steps",
+        "D": "Two sets of doors provide a thermal bridge that helps warm the entry during the winter months"
+      },
+      "correct_answer": "A",
+      "explanation": "An exterior door is a slab, a frame, a threshold, and weatherstripping, and it is another hole in the control layers. Water enters under the threshold, so it needs a sill pan and sloped threshold, and air leaks around the perimeter, so it needs weatherstripping and a sweep. A thermal break in the frame and threshold avoids thermal bridging. An egress door typically needs a clear opening of at least 32 in. wide.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Doors",
+      "source_link": "../chapters/12-cladding-windows-air-sealing/index.md#doors",
+      "explanation_word_count": 73
+    },
+    {
+      "id": "12-q019",
+      "number": 19,
+      "question_text": "Why should flooring and paint be installed only after the building is enclosed and the slab is dry?",
+      "options": {
+        "A": "They are the first layer of the air barrier, so they must be completed before the drywall is hung",
+        "B": "They are required to pass the blower door test, so they must be finished before the test begins",
+        "C": "They cure by absorbing moisture from the slab, so a wet building improves their bond to the floor",
+        "D": "They are damaged by moisture, and finishes are the last materials installed in the construction sequence"
+      },
+      "correct_answer": "D",
+      "explanation": "Interior finishes are surface materials such as paint, tile, flooring, ceilings, and wall base, selected for durability, cleaning, appearance, acoustics, and fire behavior. Codes assign flame-spread classes A, B, or C and limit the class allowed in corridors, exits, and assembly rooms. Low-emitting products reduce chemicals in indoor air. They are not part of the air barrier and are installed after air sealing and inspections.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Interior Finishes",
+      "source_link": "../chapters/12-cladding-windows-air-sealing/index.md#interior-finishes",
+      "explanation_word_count": 65
+    }
+  ],
+  "answer_distribution": {
+    "A": 5,
+    "B": 4,
+    "C": 5,
+    "D": 5
+  },
+  "bloom_distribution": {
+    "Remember": 6,
+    "Understand": 6,
+    "Apply": 5,
+    "Analyze": 2,
+    "Evaluate": 0,
+    "Create": 0
+  },
+  "concept_coverage": {
+    "total_concepts": 19,
+    "tested_concepts": 19,
+    "coverage_percentage": 100
+  },
+  "content_readiness_score": 90,
+  "overall_quality_score": 94
+}

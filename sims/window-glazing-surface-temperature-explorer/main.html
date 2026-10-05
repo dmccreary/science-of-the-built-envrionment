@@ -3,21 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
-    <title>Window Performance Explorer MicroSim using P5.js 2.3.2</title>
-    <script src="https://cdn.jsdelivr.net/npm/p5@2.3.2/lib/p5.js"></script>
+    <!-- microsim-scaffold-stub -->
+    <title>Window Performance Explorer</title>
     <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            margin: 0px;
-            padding: 0px;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            color: #212529;
         }
+        #container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #1a3a6c;
+        }
+        .placeholder {
+            border: 2px dashed #adb5bd;
+            border-radius: 8px;
+            padding: 40px 20px;
+            text-align: center;
+            color: #6c757d;
+            margin: 20px 0;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .placeholder .badge {
+            display: inline-block;
+            background: #ffc107;
+            color: #212529;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .placeholder h2 {
+            font-size: 18px;
+            color: #495057;
+            margin-bottom: 8px;
+        }
+        .placeholder p {
+            font-size: 14px;
+            max-width: 480px;
+        }
+        .meta {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+            padding-top: 12px;
+        }
+        .meta strong { color: #495057; }
     </style>
-    <script src="window-glazing-surface-temperature-explorer.js"></script>
 </head>
 <body>
-    <main></main>
-    <br/>
-    <a href=".">Back to Window Performance Explorer Lesson Plan</a>
+    <div id="container">
+        <h1>Window Performance Explorer</h1>
+        <div class="placeholder">
+            <span class="badge">SCAFFOLD</span>
+            <h2>MicroSim Not Yet Implemented</h2>
+            <p>This MicroSim has been scaffolded from its specification but the
+            interactive content has not been built yet. See the chapter source
+            and the <code>index.md</code> in this directory for the full spec.</p>
+        </div>
+        <div class="meta">
+            <p><strong>Sim ID:</strong> window-glazing-surface-temperature-explorer</p>
+            <p><strong>Library:</strong> p5.js</p>
+            <p><strong>Bloom Level:</strong> TBD</p>
+            <p><strong>Learning Objective:</strong> Students will analyze (Bloom Level 4, Analyze) how glazing type, coating, and gas fill change U-factor, SHGC, and inside surface temperature, and will judge (Bloom Level 5, Evaluate) which window suits a north wall and a south wall in Minneapolis.</p>
+        </div>
+    </div>
+
+    <!--
+    SPECIFICATION (from chapter index.md):
+
+    Type: microsim
+    **sim-id:** window-glazing-surface-temperature-explorer<br/>
+    **Library:** p5.js<br/>
+    **Status:** Specified
+    
+    Learning objective: Students will analyze (Bloom Level 4, Analyze) how glazing type, coating, and gas fill change U-factor, SHGC, and inside surface temperature, and will judge (Bloom Level 5, Evaluate) which window suits a north wall and a south wall in Minneapolis.
+    
+    Visual: A cross-section of a window showing panes, gaps, coatings, and spacer, with a temperature profile line across the window from the indoor to the outdoor air. Beside it, three gauges show the whole-window U-factor, the SHGC, and the visible transmittance. A thermometer shows the inside glass surface temperature, which turns red when it is below the dew point of the room air. The canvas is responsive, 500 px tall, and redraws on window resize.
+    
+    Controls: A dropdown for glazing (single, double, triple). A dropdown for coating (none, low-E surface 2, low-E surface 3). A dropdown for gas (air, argon). A dropdown for frame (aluminum, aluminum with thermal break, vinyl, fiberglass). A slider for outdoor temperature (-20 to 50°F) and one for indoor relative humidity (20 to 60 percent). A radio button for orientation (north or south).
+    
+    Interactions: Hovering over a pane, gap, or coating shows its role. Changing any option updates the gauges, the temperature profile, and the surface temperature immediately. When the inside surface falls below the dew point, a condensation message appears. A summary line recommends whether the choice suits the selected orientation, based on U-factor and SHGC.
+    
+    Default state: Double pane, no coating, air fill, vinyl frame, -10°F outdoors, 40 percent relative humidity, north orientation.
+    
+    Implementation: p5.js with built-in selects, sliders, and radio buttons, a lookup table of approximate values, and a responsive canvas.
+    -->
 </body>
 </html>

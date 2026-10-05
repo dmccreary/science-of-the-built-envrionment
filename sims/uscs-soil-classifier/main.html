@@ -3,21 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
-    <title>USCS Soil Classifier MicroSim using P5.js 2.3.2</title>
-    <script src="https://cdn.jsdelivr.net/npm/p5@2.3.2/lib/p5.js"></script>
+    <!-- microsim-scaffold-stub -->
+    <title>USCS Soil Classifier</title>
     <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            margin: 0px;
-            padding: 0px;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            color: #212529;
         }
+        #container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #1a3a6c;
+        }
+        .placeholder {
+            border: 2px dashed #adb5bd;
+            border-radius: 8px;
+            padding: 40px 20px;
+            text-align: center;
+            color: #6c757d;
+            margin: 20px 0;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .placeholder .badge {
+            display: inline-block;
+            background: #ffc107;
+            color: #212529;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .placeholder h2 {
+            font-size: 18px;
+            color: #495057;
+            margin-bottom: 8px;
+        }
+        .placeholder p {
+            font-size: 14px;
+            max-width: 480px;
+        }
+        .meta {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+            padding-top: 12px;
+        }
+        .meta strong { color: #495057; }
     </style>
-    <script src="uscs-soil-classifier.js"></script>
 </head>
 <body>
-    <main></main>
-    <br/>
-    <a href=".">Back to USCS Soil Classifier Lesson Plan</a>
+    <div id="container">
+        <h1>USCS Soil Classifier</h1>
+        <div class="placeholder">
+            <span class="badge">SCAFFOLD</span>
+            <h2>MicroSim Not Yet Implemented</h2>
+            <p>This MicroSim has been scaffolded from its specification but the
+            interactive content has not been built yet. See the chapter source
+            and the <code>index.md</code> in this directory for the full spec.</p>
+        </div>
+        <div class="meta">
+            <p><strong>Sim ID:</strong> uscs-soil-classifier</p>
+            <p><strong>Library:</strong> p5.js</p>
+            <p><strong>Bloom Level:</strong> TBD</p>
+            <p><strong>Learning Objective:</strong> Students will apply (Bloom Level 3, Apply) the simplified USCS decision path to a sieve analysis to classify a soil as a gravel, sand, silt, or clay, and will predict (Bloom Level 2, Understand) its drainage, strength, and frost behavior.</p>
+        </div>
+    </div>
+
+    <!--
+    SPECIFICATION (from chapter index.md):
+
+    Type: microsim
+    **sim-id:** uscs-soil-classifier<br/>
+    **Library:** p5.js<br/>
+    **Status:** Specified
+    
+    Learning objective: Students will apply (Bloom Level 3, Apply) the simplified USCS decision path to a sieve analysis to classify a soil as a gravel, sand, silt, or clay, and will predict (Bloom Level 2, Understand) its drainage, strength, and frost behavior.
+    
+    Visual: On the left, a column of three stacked sieves (No. 4, No. 200, and a pan) with a stacked bar showing the percentage of the sample retained in each. On the right, a flowchart of the decision path (more than 50 percent retained on No. 200? more than half of coarse fraction sand or gravel? more than 12 percent fines? plasticity low or high?) with the current path highlighted. At the bottom, a result card shows the symbol, a name, and icons for drainage, strength, and frost susceptibility. The canvas is responsive, 460 px tall, and redraws on window resize.
+    
+    Controls: Three sliders for percent gravel, sand, and fines that always sum to 100 (adjusting one rescales the others). A dropdown for "plasticity of the fines" with options low and high. A "Load Riverbend boring B-2" button sets 8, 62, and 30 percent with low plasticity. A "Random sample" button generates a new soil.
+    
+    Interactions: Hovering over a sieve shows its opening size and the particle size category it separates. Clicking any decision box opens a one-sentence explanation of why that test is applied. The result card updates immediately when any control changes.
+    
+    Default state: Riverbend boring B-2 loaded, result SM (silty sand).
+    
+    Implementation: p5.js with built-in sliders, select, and buttons, a rule-based classifier, and a responsive canvas.
+    -->
 </body>
 </html>

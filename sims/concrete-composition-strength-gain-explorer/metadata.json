@@ -3,7 +3,7 @@
   "description": "Students will describe (Bloom Level 2, Understand) the approximate volume proportions of the ingredients in concrete, and will predict (Bloom Level 3, Apply) the strength of a 4,000 psi mix at a given age under moist curing and under poor curing.",
   "creator": "The Science of the Built Environment",
   "author": "Dan McCreary",
-  "date": "2026-10-03",
+  "date": "2026-10-02",
   "subject": [
     "The Science of the Built Environment"
   ],
@@ -13,49 +13,11 @@
   "rights": "CC BY-NC-SA 4.0",
   "identifier": "concrete-composition-strength-gain-explorer",
   "library": "Chart.js",
-  "bloomLevel": "Understand, Apply",
-  "bloomVerb": "describe, predict",
-  "completion_status": "built",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
   "chapter_number": 8,
   "chapter_title": "Concrete and Masonry",
   "chapter_dir": "08-concrete-masonry",
-  "chapter_rel_dir": "chapters/08-concrete-masonry",
-  "canvasHeight": 740,
-  "educational": {
-    "educationalLevel": "Undergraduate, Adult learners",
-    "learningResourceType": "simulation",
-    "bloomLevel": [
-      "Understand",
-      "Apply"
-    ],
-    "concepts": [
-      "Concrete composition",
-      "Compressive strength f'c",
-      "Hydration and curing",
-      "Strength gain with age",
-      "Form stripping strength"
-    ],
-    "prerequisites": [
-      "Chapter 5 compressive strength",
-      "Percent and volume units"
-    ]
-  },
-  "pedagogical": {
-    "learningObjective": "Describe the approximate volume proportions of the ingredients in concrete and predict the strength of a 4,000 psi mix at a given age under moist curing and under poor curing.",
-    "recommendedUsage": [
-      "Hover over each slice of the doughnut chart to read the ingredient, how much of the cubic yard it takes now, its typical range, and its role. Change Air content to see the air slice and the aggregate slice trade volume.",
-      "Set the Specified strength f'c and the Age sliders. The gold marker on the strength-gain chart and the readout show the predicted strength in psi and its share of f'c. The default (4,000 psi, 7 days, moist-cured) gives about 2,600 psi, as in Chapter 8.",
-      "Switch Curing between Moist-cured, Cured 3 days only, and Not cured and compare the three curves, which differ in line style as well as color. Read the note that explains why the poorly cured curves flatten.",
-      "Watch the stripping indicator: the readout says whether the concrete has reached the assumed 1,000 psi needed to strip wall forms, and on which day it does."
-    ],
-    "activities": [
-      "Warm-up (5 min): Students estimate, before touching the controls, what fraction of a cubic yard of concrete is aggregate, then check against the doughnut chart.",
-      "Explore (10 min): Students record the strength at 3, 7, 14, and 28 days for each curing condition at 4,000 psi and describe how the three curves diverge.",
-      "Apply (10 min): For a winter wall pour, students use the stripping indicator at f'c = 3,000, 4,000, and 5,000 psi to decide how many days the forms must stay on, and explain why curing matters for the answer."
-    ],
-    "assessment": [
-      "Students predict the strength at 7 days of a 5,000 psi mix that is moist-cured, then verify with the simulator and explain any difference.",
-      "Students write two sentences explaining why concrete cures rather than dries, and why not curing leaves it weaker."
-    ]
-  }
+  "chapter_rel_dir": "chapters/08-concrete-masonry"
 }

@@ -3,77 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <!-- microsim-scaffold-stub -->
     <title>Stress-Strain Curve Explorer</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
     <style>
-        * { box-sizing: border-box; }
-        body { margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: black; background: white; }
-        main { width: 100%; border: 1px solid silver; background: white; }
-        #chartWrap { position: relative; height: 420px; background: aliceblue; border-bottom: 1px solid silver; padding: 4px 6px 2px 6px; }
-        #controls { padding: 6px 10px; font-size: 15px; border-bottom: 1px solid silver; }
-        .row { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 16px; margin: 2px 0; }
-        .row label { display: flex; align-items: center; gap: 5px; white-space: nowrap; }
-        .swatch { display: inline-block; width: 12px; height: 12px; border: 1px solid black; }
-        #stressSlider { flex: 1 1 160px; min-width: 120px; max-width: 420px; }
-        #stressText { min-width: 215px; }
-        button { font-size: 15px; padding: 2px 10px; }
-        #caption { padding: 4px 10px; font-size: 14px; line-height: 1.35; border-bottom: 1px solid silver; min-height: 38px; }
-        #lower { display: flex; flex-wrap: wrap; gap: 8px 14px; padding: 6px 10px; }
-        #readout { flex: 1 1 250px; }
-        #tableWrap { flex: 2 1 340px; }
-        h3 { margin: 0 0 4px 0; font-size: 16px; color: navy; }
-        .stats { display: flex; flex-wrap: wrap; gap: 4px 14px; }
-        .stat { flex: 1 1 42%; min-width: 120px; }
-        .stat span { display: block; font-size: 13px; color: dimgray; }
-        .stat b { font-size: 16px; }
-        .state { margin-top: 4px; padding: 3px 8px; border-left: 5px solid gray; font-weight: bold; }
-        .state.elastic { border-color: seagreen; background: honeydew; }
-        .state.plastic { border-color: darkorange; background: floralwhite; }
-        .msg { margin-top: 3px; line-height: 1.3; }
-        table { border-collapse: collapse; width: 100%; font-size: 13px; }
-        th, td { border: 1px solid silver; padding: 2px 5px; text-align: left; }
-        th { background: whitesmoke; }
-        td.sel, th.sel { background: lightyellow; font-weight: bold; }
-        .foot { margin-top: 3px; color: dimgray; font-size: 13px; }
-        @media (max-width: 520px) {
-            #chartWrap { height: 280px; }
-            #controls { font-size: 14px; }
-            #stressSlider { min-width: 80px; flex-basis: 80px; }
-            button { font-size: 14px; padding: 2px 6px; }
-            .row { gap: 4px 10px; }
-            #stressText { min-width: 0; }
-            table { font-size: 12px; }
-            th, td { padding: 1px 3px; }
-            #lower { padding: 4px 8px; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            color: #212529;
         }
+        #container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #1a3a6c;
+        }
+        .placeholder {
+            border: 2px dashed #adb5bd;
+            border-radius: 8px;
+            padding: 40px 20px;
+            text-align: center;
+            color: #6c757d;
+            margin: 20px 0;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .placeholder .badge {
+            display: inline-block;
+            background: #ffc107;
+            color: #212529;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .placeholder h2 {
+            font-size: 18px;
+            color: #495057;
+            margin-bottom: 8px;
+        }
+        .placeholder p {
+            font-size: 14px;
+            max-width: 480px;
+        }
+        .meta {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+            padding-top: 12px;
+        }
+        .meta strong { color: #495057; }
     </style>
-    <script src="stress-strain-curve-explorer.js"></script>
 </head>
 <body>
-    <main>
-        <div id="chartWrap"><canvas id="ssChart" role="img" aria-label="Stress-strain curve chart"></canvas></div>
-        <div id="controls">
-            <div class="row" role="radiogroup" aria-label="Material">
-                <b>Material:</b>
-                <label><input type="radio" name="mat" value="steel" checked><span class="swatch" style="background:dimgray"></span>Steel</label>
-                <label><input type="radio" name="mat" value="concrete"><span class="swatch" style="background:rgb(190,155,100)"></span>Concrete</label>
-                <label><input type="radio" name="mat" value="wood"><span class="swatch" style="background:saddlebrown"></span>Wood</label>
-                <label><input type="checkbox" id="areaToggle"> Show area under the curve</label>
-                <label><input type="checkbox" id="compareToggle"> Compare all three</label>
-                <label><input type="checkbox" id="zoomToggle"> Zoom in on small strains</label>
-            </div>
-            <div class="row">
-                <label for="stressSlider" id="stressText">Applied stress: 0 psi</label>
-                <input type="range" id="stressSlider" min="0" max="58000" step="100" value="0" aria-label="Applied stress in psi">
-                <button id="releaseBtn" type="button">Release the load</button>
-            </div>
+    <div id="container">
+        <h1>Stress-Strain Curve Explorer</h1>
+        <div class="placeholder">
+            <span class="badge">SCAFFOLD</span>
+            <h2>MicroSim Not Yet Implemented</h2>
+            <p>This MicroSim has been scaffolded from its specification but the
+            interactive content has not been built yet. See the chapter source
+            and the <code>index.md</code> in this directory for the full spec.</p>
         </div>
-        <div id="caption" aria-live="polite"></div>
-        <div id="lower">
-            <div id="readout" aria-live="polite"></div>
-            <div id="tableWrap"></div>
+        <div class="meta">
+            <p><strong>Sim ID:</strong> stress-strain-curve-explorer</p>
+            <p><strong>Library:</strong> Chart.js</p>
+            <p><strong>Bloom Level:</strong> TBD</p>
+            <p><strong>Learning Objective:</strong> Students will interpret (Bloom Level 2, Understand) stress-strain curves for steel, concrete, and wood to identify yield strength, ultimate strength, stiffness, and the type of failure, and will compare (Bloom Level 4, Analyze) ductile and brittle behavior.</p>
         </div>
-    </main>
+    </div>
+
+    <!--
+    SPECIFICATION (from chapter index.md):
+
+    Type: chart
+    **sim-id:** stress-strain-curve-explorer<br/>
+    **Library:** Chart.js<br/>
+    **Status:** Specified
+    
+    Learning objective: Students will interpret (Bloom Level 2, Understand) stress-strain curves for steel, concrete, and wood to identify yield strength, ultimate strength, stiffness, and the type of failure, and will compare (Bloom Level 4, Analyze) ductile and brittle behavior.
+    
+    Visual: A line chart with strain on the horizontal axis and stress in psi on the vertical axis. A simplified curve is drawn for the selected material: structural steel in tension (a steep elastic line, a yield plateau, strain hardening, and a necking drop to fracture), concrete in compression (a curve that rises to its peak and then falls), and softwood in compression parallel to the grain (a nearly straight line that ends in crushing). Markers show the yield point, the ultimate point, and the fracture point. The chart fills the container width with a height of 440 px and redraws on window resize.
+    
+    Controls: Radio buttons labeled "Steel," "Concrete," and "Wood" choose the curve. A slider labeled "Applied stress" moves a marker along the curve. A checkbox labeled "Show area under the curve" shades the area, and a checkbox labeled "Compare all three" overlays the three curves.
+    
+    Interactions: As the stress marker moves, a readout shows the strain, the factor of safety against yield, and whether the behavior is elastic or plastic. Releasing the marker in the elastic range animates a return to zero strain, and releasing it past yield shows a permanent offset. Hovering over a key point shows its name and value. The caption beside the shaded area explains that it represents toughness.
+    
+    Colors: Steel is dark gray, concrete is tan, and wood is brown. The elastic range is shaded green and the plastic range is shaded orange, with text labels on each.
+    
+    Implementation: Chart.js line chart with a custom plugin for the shaded areas and markers, and a data table for each material.
+    -->
 </body>
 </html>

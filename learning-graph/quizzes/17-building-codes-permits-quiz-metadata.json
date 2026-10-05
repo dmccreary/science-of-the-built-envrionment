@@ -1,0 +1,390 @@
+{
+  "chapter": "Building Codes, Permits, and Enforcement",
+  "chapter_file": "docs/chapters/17-building-codes-permits/index.md",
+  "quiz_file": "docs/chapters/17-building-codes-permits/quiz.md",
+  "generated_date": "2026-10-04",
+  "total_questions": 20,
+  "questions": [
+    {
+      "id": "17-q001",
+      "number": 1,
+      "question_text": "A 1,800 ft\u00b2 assembly room with tables and chairs uses about 15 net ft\u00b2 per person. What occupant load must the design assume?",
+      "options": {
+        "A": "120 people",
+        "B": "257 people",
+        "C": "12 people",
+        "D": "27,000 people"
+      },
+      "correct_answer": "A",
+      "explanation": "The occupant load equals floor area divided by floor area per occupant: 1,800 / 15 = 120. Using the concentrated-use factor of about 7 net ft\u00b2 per person would give about 257, which applies when chairs are set in tight rows. Multiplying gives 27,000, and dividing the other way gives 12. The chain in the code is use, factor, load, then exits, so classifying occupancy correctly at the start matters.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Building Codes",
+      "source_link": "../chapters/17-building-codes-permits/index.md#building-codes",
+      "explanation_word_count": 70
+    },
+    {
+      "id": "17-q002",
+      "number": 2,
+      "question_text": "Why is the edition of a model code in force for a Minnesota project often one or two cycles behind the newest published edition?",
+      "options": {
+        "A": "Model codes are published only once, so there is never a newer edition than the one adopted",
+        "B": "A state must review each new edition, hold hearings, add amendments, and write rules before it takes effect",
+        "C": "Model codes apply automatically in every state, so the state's role is only to enforce them locally",
+        "D": "Minnesota writes its own codes from scratch, so it ignores the editions published by private groups"
+      },
+      "correct_answer": "B",
+      "explanation": "Model codes are written by private organizations through consensus processes and published on a regular cycle, typically every three years. They have no legal force until a government adopts them, usually with amendments. The advantage is consistency among states, and the cost is the lag. A permit is reviewed against the edition in force on the application date.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Model Codes",
+      "source_link": "../chapters/17-building-codes-permits/index.md#model-codes",
+      "explanation_word_count": 58
+    },
+    {
+      "id": "17-q003",
+      "number": 3,
+      "question_text": "Which statement correctly describes the building official's role?",
+      "options": {
+        "A": "The official designs the building's structure and guarantees the quality of all of the work done",
+        "B": "The official manages construction on the site and decides the schedule for each of the trades",
+        "C": "The official may waive code requirements informally when the owner asks and promises to correct the work",
+        "D": "The official administers and enforces the code, but does not design the building or waive the code"
+      },
+      "correct_answer": "D",
+      "explanation": "The building official has the power to issue permits, review plans, inspect work, accept alternative materials and methods that meet the code's intent, order unsafe work stopped, and deny the occupancy certificate. A request to depart from the code must go through the formal variance or appeal process. Treating the official as a partner, as in a pre-application meeting, usually produces better outcomes than treating them as an adversary.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Building Official",
+      "source_link": "../chapters/17-building-codes-permits/index.md#building-official",
+      "explanation_word_count": 69
+    },
+    {
+      "id": "17-q004",
+      "number": 4,
+      "question_text": "To which buildings does the International Building Code apply?",
+      "options": {
+        "A": "Only one- and two-family houses and townhouses that are built under the residential code",
+        "B": "Only buildings that are taller than ten stories and that are built of noncombustible materials",
+        "C": "Most buildings other than houses and townhouses, including a commercial building like Riverbend",
+        "D": "Only buildings that contain electrical systems rated at more than 600 volts to the equipment"
+      },
+      "correct_answer": "C",
+      "explanation": "The ICC publishes the IBC, and it is the basis for the commercial building code in Minnesota and most other states. Its provisions are grouped as administration, use and occupancy classification, height, area, and construction types, fire and smoke protection, means of egress and accessibility, interior environment and energy, exterior walls and roofs, structural design, and special inspections. Houses and townhouses fall under the residential code.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "International Building Code",
+      "source_link": "../chapters/17-building-codes-permits/index.md#international-building-code",
+      "explanation_word_count": 66
+    },
+    {
+      "id": "17-q005",
+      "number": 5,
+      "question_text": "A jurisdiction takes 12 business days for the first plan review, the team needs 4 business days to resubmit, and the second review takes 8 business days. What is the total permit time?",
+      "options": {
+        "A": "12 business days",
+        "B": "20 business days",
+        "C": "48 business days",
+        "D": "24 business days"
+      },
+      "correct_answer": "D",
+      "explanation": "The permit time is the sum of all three steps: 12 + 4 + 8 = 24 business days, about five working weeks. Counting only the first review ignores the resubmittal and the second review, and omitting the team's turnaround gives 20. The permit is a schedule activity that belongs on the critical path, and a contractor may hold an earlier grading permit so excavation can begin.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Building Permits",
+      "source_link": "../chapters/17-building-codes-permits/index.md#building-permits",
+      "explanation_word_count": 67
+    },
+    {
+      "id": "17-q006",
+      "number": 6,
+      "question_text": "How do special inspections differ from the building department's inspections?",
+      "options": {
+        "A": "They are performed by an independent qualified agency hired by the owner, and the official reviews the reports",
+        "B": "They are performed by the building department only, and the owner reviews the reports of their findings",
+        "C": "They are performed by the contractor who built the work, and the building official reviews their reports",
+        "D": "They are performed by the fire marshal for every project, and the owner reviews their reports and findings"
+      },
+      "correct_answer": "A",
+      "explanation": "Inspection and testing includes the official's inspections plus tests on materials, such as concrete cylinders and soil compaction, and on systems, such as piping pressure tests and fire alarm acceptance tests. Testing agencies provide data the inspector cannot gather by looking, and the reports become part of the project record that supports the certificate of occupancy. Welding inspection of structural steel is one example.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Inspection and Testing",
+      "source_link": "../chapters/17-building-codes-permits/index.md#inspection-and-testing",
+      "explanation_word_count": 64
+    },
+    {
+      "id": "17-q007",
+      "number": 7,
+      "question_text": "Which description of the Minnesota State Building Code is correct?",
+      "options": {
+        "A": "It is a model code written by a private organization, and it has no legal force anywhere in the state",
+        "B": "It is a set of regulations the state adopts and applies statewide, usually a model code with Minnesota amendments",
+        "C": "It is a local zoning ordinance that applies only inside Minneapolis and that regulates building use only",
+        "D": "It is a federal law that replaces all of the state and local building rules for every kind of building"
+      },
+      "correct_answer": "B",
+      "explanation": "The Minnesota Department of Labor and Industry administers the adoption process and generally adopts a model code such as the IBC with amendments. The state publishes codes by subject, for example commercial, residential, energy, and accessibility. Most cities and many counties administer it through their own building officials, and local government may add rules such as zoning but generally cannot weaken the state code.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Minnesota State Building Code",
+      "source_link": "../chapters/17-building-codes-permits/index.md#minnesota-state-building-code",
+      "explanation_word_count": 64
+    },
+    {
+      "id": "17-q008",
+      "number": 8,
+      "question_text": "Why do clear code summaries on the drawings shorten plan review?",
+      "options": {
+        "A": "Reviewers are not allowed to calculate occupant loads themselves, so the drawings must provide the numbers",
+        "B": "Code summaries replace the need for the specifications and the project manual during the plan review",
+        "C": "Reviewers can only judge what the documents show, and a summary shows how the designer applied the code",
+        "D": "Code summaries automatically approve the plans as soon as they are submitted to the building department"
+      },
+      "correct_answer": "C",
+      "explanation": "Plan review is the examination of construction documents for code compliance before a permit is issued, covering occupancy classification, construction type, area limits, fire-resistance ratings, egress, accessibility, structural design, energy, and mechanical, plumbing, and electrical systems. The reviewer returns comments, and the team revises and responds in writing. Approved plans are stamped and kept on site, where inspectors use them as the standard.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Plan Review",
+      "source_link": "../chapters/17-building-codes-permits/index.md#plan-review",
+      "explanation_word_count": 63
+    },
+    {
+      "id": "17-q009",
+      "number": 9,
+      "question_text": "A contractor is eager to hang drywall on a Friday, but the insulation and air sealing inspection has not been signed off. What should the contractor do?",
+      "options": {
+        "A": "Wait for the inspection to be approved, because work must be inspected before it is covered and hidden",
+        "B": "Hang the drywall on schedule, and let the final inspection verify the hidden insulation work later on",
+        "C": "Ask the owner to certify the insulation personally, since the owner is the one paying for the work",
+        "D": "Request a variance from the building official so that the required inspection can be skipped entirely"
+      },
+      "correct_answer": "A",
+      "explanation": "Code inspections are visits to the site, during construction, to verify that the work matches the approved plans and the code. Typical points are footing and foundation before concrete, underground plumbing and electrical before backfill, framing, insulation and air sealing before drywall, and final. Covering work early risks an order to uncover it, which costs far more than waiting. The inspector sees only a sample, so contractor quality control still matters.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Code Inspections",
+      "source_link": "../chapters/17-building-codes-permits/index.md#code-inspections",
+      "explanation_word_count": 71
+    },
+    {
+      "id": "17-q010",
+      "number": 10,
+      "question_text": "Which tools does a jurisdiction use for code enforcement?",
+      "options": {
+        "A": "Designing the building's systems, scheduling the trades on the site, and guaranteeing the quality of the work",
+        "B": "Publishing model codes, setting zoning districts, issuing federal civil rights rulings, and training inspectors",
+        "C": "Testing concrete cylinders, calibrating blower doors, inspecting welds, and verifying the mix design of concrete",
+        "D": "Refusing a permit until plans comply, correction notices, stop-work orders, fines, and orders to vacate unsafe buildings"
+      },
+      "correct_answer": "D",
+      "explanation": "Enforcement works by consequence: a building that has not passed final inspection cannot legally be occupied, and an owner who ignores a notice may be fined or taken to court. Most enforcement is routine and cooperative, with the inspector identifying a problem and the contractor correcting it. The legal tools exist for cases where cooperation fails, including complaints and periodic inspections of existing buildings.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Code Enforcement",
+      "source_link": "../chapters/17-building-codes-permits/index.md#code-enforcement",
+      "explanation_word_count": 64
+    },
+    {
+      "id": "17-q011",
+      "number": 11,
+      "question_text": "Why is the NEC described as an installation code and not a design manual?",
+      "options": {
+        "A": "It dictates every circuit layout in detail, so no design decisions remain for the engineer to make",
+        "B": "It sets safety limits for wiring and equipment but leaves the choice of design to the engineer",
+        "C": "It covers only the utility's lines in the street, so the wiring inside the building is outside its scope",
+        "D": "It is written by the state and revised every year, so it changes the design process"
+      },
+      "correct_answer": "B",
+      "explanation": "The NEC is published as NFPA 70 by the National Fire Protection Association and revised on a three-year cycle. It governs conductors, overcurrent protection, grounding, and the equipment in Chapters 15 and 16. States adopt it into law, and in Minnesota the state's electrical program, rather than the city building inspector, typically handles electrical inspection, so an electrical designer pulls a separate electrical permit.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "National Electrical Code",
+      "source_link": "../chapters/17-building-codes-permits/index.md#national-electrical-code",
+      "explanation_word_count": 64
+    },
+    {
+      "id": "17-q012",
+      "number": 12,
+      "question_text": "Which code governs a four-story apartment building and a single-family house, respectively?",
+      "options": {
+        "A": "The residential code governs both buildings, because both are places where people live and sleep",
+        "B": "The International Building Code governs both, because both have structure and fire protection",
+        "C": "The International Building Code governs the apartment building, and the residential code governs the house",
+        "D": "The fire code governs the apartment building, and the plumbing code governs the single-family house"
+      },
+      "correct_answer": "C",
+      "explanation": "The residential code, in model form the International Residential Code, covers one- and two-family dwellings and townhouses up to a stated height. It is a single prescriptive document including structural, mechanical, plumbing, and energy provisions, so a builder can find nearly everything in one place. Apartment buildings and commercial buildings like Riverbend fall under the IBC.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Residential Code",
+      "source_link": "../chapters/17-building-codes-permits/index.md#residential-code",
+      "explanation_word_count": 56
+    },
+    {
+      "id": "17-q013",
+      "number": 13,
+      "question_text": "A congregation locks an exit door during services and stacks chairs in a corridor. Which code is being violated, and why?",
+      "options": {
+        "A": "The building code, which governs only how buildings are constructed, so exits are unregulated after construction",
+        "B": "The electrical code, which governs the safe operation of door hardware and the wiring of exit doors",
+        "C": "The fire code, which governs the use and maintenance of buildings after construction, such as keeping exits clear",
+        "D": "The zoning ordinance, which governs the number of chairs allowed in the room and the seating layout"
+      },
+      "correct_answer": "C",
+      "explanation": "The building code governs how buildings are built, while the fire code governs their use and maintenance. It covers keeping exits unobstructed, storing hazardous materials, testing sprinklers and alarms, and limiting crowds in assembly spaces. Fire marshals and fire departments typically enforce it, and Chapter 18 treats fire protection and life-safety requirements in detail.",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Fire Code",
+      "source_link": "../chapters/17-building-codes-permits/index.md#fire-code",
+      "explanation_word_count": 54
+    },
+    {
+      "id": "17-q014",
+      "number": 14,
+      "question_text": "Which subjects does the plumbing code regulate?",
+      "options": {
+        "A": "Heating, ventilation, air conditioning, exhaust, and ductwork",
+        "B": "Wiring, grounding, overcurrent protection, and electrical equipment",
+        "C": "Egress, fire ratings, accessible routes, and exit signs",
+        "D": "Water supply, drainage, venting, fixtures, and backflow prevention"
+      },
+      "correct_answer": "D",
+      "explanation": "Plumbing code requirements protect health, such as safe drinking water and safe venting of drains, and they cover the systems described in Chapter 14. Heating, ventilation, air conditioning, exhaust, fuel-burning equipment, and ductwork belong to the mechanical code, and wiring belongs to the NEC. States vary in which model plumbing code they build on, so the designer confirms the Minnesota version.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Plumbing Code",
+      "source_link": "../chapters/17-building-codes-permits/index.md#plumbing-code-and-mechanical-code",
+      "explanation_word_count": 61
+    },
+    {
+      "id": "17-q015",
+      "number": 15,
+      "question_text": "Which Riverbend items fall under the mechanical code?",
+      "options": {
+        "A": "The restroom fixtures, kitchen waste piping, backflow preventers, and drains",
+        "B": "The rooftop heating-and-cooling unit, the kitchen hood and exhaust, and the ductwork",
+        "C": "The switchboard, panelboards, grounding electrodes, and branch circuit wiring",
+        "D": "The exit signs, fire extinguishers, egress doors, and fire alarm devices"
+      },
+      "correct_answer": "B",
+      "explanation": "The mechanical code regulates heating, ventilation, air conditioning, exhaust, fuel-burning equipment, and ductwork, and each such code is typically enforced by its own inspectors. Restroom fixtures and kitchen waste belong to the plumbing code, the switchboard and grounding to the NEC, and exit signs and extinguishers to the fire code. Safe combustion venting is a typical mechanical-code health protection.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Mechanical Code",
+      "source_link": "../chapters/17-building-codes-permits/index.md#plumbing-code-and-mechanical-code",
+      "explanation_word_count": 59
+    },
+    {
+      "id": "17-q016",
+      "number": 16,
+      "question_text": "A new community center passes building code accessibility review. Why might it still need a further check?",
+      "options": {
+        "A": "The Americans with Disabilities Act separately requires accessibility, so a design may pass the code yet fail the law",
+        "B": "Building codes do not mention accessibility at all, so a separate review is always required for every project",
+        "C": "Accessibility rules apply only to residential buildings, so a community center is exempt from every such rule",
+        "D": "Accessibility rules are enforced only after occupancy begins, so no check is needed during the design phases"
+      },
+      "correct_answer": "A",
+      "explanation": "Accessibility standards require that buildings be usable by people who use wheelchairs or have limited vision or hearing, and they cover accessible routes, ramps, door clearances, restrooms, parking, and signage. Two sources apply: the building code references a technical standard on accessible design, and a federal civil rights law separately requires accessibility. The designer reviews both.",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Accessibility Standards",
+      "source_link": "../chapters/17-building-codes-permits/index.md#accessibility-standards",
+      "explanation_word_count": 56
+    },
+    {
+      "id": "17-q017",
+      "number": 17,
+      "question_text": "How does zoning differ from the building code?",
+      "options": {
+        "A": "Zoning answers whether a building may be built on a parcel and how it sits, while the code answers whether it is safe",
+        "B": "Zoning answers whether a building is built safely, while the building code answers whether it may be built on a parcel",
+        "C": "Zoning and the building code answer the same question but are enforced by different agencies",
+        "D": "Zoning applies only after the certificate of occupancy, while the building code applies before construction"
+      },
+      "correct_answer": "A",
+      "explanation": "Zoning is a local land-use law that controls permitted uses, building height, lot coverage, setbacks, parking, and sometimes appearance. It usually comes first because a building not permitted on the site never reaches building-code review. A zoning rule can also shape the structure, since a setback that pushes a building toward a property line can trigger fire-resistance requirements for the nearest wall.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Zoning",
+      "source_link": "../chapters/17-building-codes-permits/index.md#zoning",
+      "explanation_word_count": 62
+    },
+    {
+      "id": "17-q018",
+      "number": 18,
+      "question_text": "Why is a new certificate of occupancy commonly required when an owner changes a building's use from offices to a restaurant?",
+      "options": {
+        "A": "The old certificate expires automatically after five years of any use, so a new one is always required",
+        "B": "The restaurant must pay a new fee, which is the only purpose of issuing a certificate of occupancy",
+        "C": "The new use brings new code requirements, and the certificate approves the building only for its stated use",
+        "D": "The building official must redesign the building before the restaurant can legally be used by patrons"
+      },
+      "correct_answer": "C",
+      "explanation": "The certificate of occupancy states that a building has been inspected, complies with the code, and may be occupied for its stated use. It lists the occupancy classification and may state the approved occupant load. Some jurisdictions issue a temporary certificate permitting use while minor items remain unfinished. It requires final approval from the building official, and often from the fire marshal.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Certificate of Occupancy",
+      "source_link": "../chapters/17-building-codes-permits/index.md#certificate-of-occupancy",
+      "explanation_word_count": 62
+    },
+    {
+      "id": "17-q019",
+      "number": 19,
+      "question_text": "A designer disagrees with the building official's ruling on an alternative design. What is the usual path?",
+      "options": {
+        "A": "Proceeding with construction as designed and arguing the point with the inspector at the final inspection",
+        "B": "A conversation, then a written request to accept an alternative meeting the code's intent, then an appeals hearing",
+        "C": "Asking the contractor to change the design quietly so that no ruling from the official is needed at all",
+        "D": "Asking the fire marshal to sign off on the alternative in place of the building official's own ruling"
+      },
+      "correct_answer": "B",
+      "explanation": "A variance is a formal permission to depart from a requirement when strict compliance would cause unusual hardship, and an appeal asks a higher authority to review a decision. A variance works best when the designer shows with evidence, such as an engineering analysis or a test, that the alternative gives the same level of safety. In Minnesota the appeal route can continue to the state level, and zoning variances go to a local board.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Variances and Appeals",
+      "source_link": "../chapters/17-building-codes-permits/index.md#variances-and-appeals",
+      "explanation_word_count": 75
+    },
+    {
+      "id": "17-q020",
+      "number": 20,
+      "question_text": "The IBC says the glulam beams must carry the design loads. Why must the designer also open the loads standard and the wood design specification?",
+      "options": {
+        "A": "Those documents are optional guidance only, so reading them is good practice but never a requirement",
+        "B": "Those documents replace the building code for beams, so the code itself can be ignored for that purpose",
+        "C": "Those documents apply only to residential buildings, so they are used only for comparison with the code",
+        "D": "The code names those documents and makes them enforceable, so reading only the code means reading part of it"
+      },
+      "correct_answer": "D",
+      "explanation": "A building code cannot repeat every test method and design procedure, so it cites the document instead. For Riverbend, the IBC points to ASCE/SEI 7 for snow, wind, and live loads and to the American Wood Council's specification for member strength, plus an industry manufacturing standard. A single sentence in the code opens a trail through three or more documents, and the cited edition becomes part of the code.",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Referenced Standards",
+      "source_link": "../chapters/17-building-codes-permits/index.md#referenced-standards",
+      "explanation_word_count": 69
+    }
+  ],
+  "answer_distribution": {
+    "A": 5,
+    "B": 5,
+    "C": 5,
+    "D": 5
+  },
+  "bloom_distribution": {
+    "Remember": 6,
+    "Understand": 6,
+    "Apply": 5,
+    "Analyze": 3,
+    "Evaluate": 0,
+    "Create": 0
+  },
+  "concept_coverage": {
+    "total_concepts": 20,
+    "tested_concepts": 20,
+    "coverage_percentage": 100
+  },
+  "content_readiness_score": 90,
+  "overall_quality_score": 96
+}

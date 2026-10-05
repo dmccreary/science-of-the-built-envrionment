@@ -3,55 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <!-- microsim-scaffold-stub -->
     <title>Enclosure Heat Loss Component Explorer</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
     <style>
-        * { box-sizing: border-box; }
-        body { margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: black; background: white; }
-        main { width: 100%; border: 1px solid silver; background: white; }
-        #chartWrap { position: relative; height: 300px; background: aliceblue; border-bottom: 1px solid silver; padding: 4px 6px 2px 6px; }
-        #readout { padding: 6px 10px; border-bottom: 1px solid silver; font-size: 15px; line-height: 1.4; }
-        #readout .big { font-size: 20px; font-weight: bold; color: navy; }
-        #readout .note { color: dimgray; font-size: 14px; }
-        #controls { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 4px 20px; padding: 8px 10px 4px 10px; }
-        .ctl { display: flex; align-items: center; gap: 8px; }
-        .ctl span { flex: 0 0 168px; font-size: 15px; }
-        .ctl input[type=range] { flex: 1 1 auto; min-width: 90px; margin: 0; }
-        #buttons { display: flex; flex-wrap: wrap; gap: 8px; padding: 4px 10px 8px 10px; }
-        #buttons button { font-size: 15px; padding: 4px 10px; }
-        #rank { margin: 0 10px 8px 10px; padding: 6px 10px; border: 1px solid silver; border-radius: 8px; background: white; min-height: 120px; font-size: 14px; line-height: 1.35; }
-        #rank h3 { margin: 0 0 4px 0; font-size: 16px; color: navy; }
-        .rrow { display: flex; align-items: center; gap: 8px; margin: 2px 0; }
-        .rrow .nm { flex: 0 0 150px; }
-        .rrow .bar { height: 14px; background: seagreen; border-radius: 3px; min-width: 2px; }
-        .rrow .val { white-space: nowrap; }
-        #rank .why { margin-top: 4px; padding: 3px 8px; border-left: 4px solid goldenrod; background: floralwhite; }
-        @media (min-width: 640px) { #chartWrap { height: 400px; } }
-        @media (max-width: 520px) {
-            .ctl span { flex-basis: 158px; font-size: 14px; }
-            .rrow .nm { flex-basis: 138px; }
-            #readout .big { font-size: 18px; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            color: #212529;
         }
+        #container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #1a3a6c;
+        }
+        .placeholder {
+            border: 2px dashed #adb5bd;
+            border-radius: 8px;
+            padding: 40px 20px;
+            text-align: center;
+            color: #6c757d;
+            margin: 20px 0;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .placeholder .badge {
+            display: inline-block;
+            background: #ffc107;
+            color: #212529;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .placeholder h2 {
+            font-size: 18px;
+            color: #495057;
+            margin-bottom: 8px;
+        }
+        .placeholder p {
+            font-size: 14px;
+            max-width: 480px;
+        }
+        .meta {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+            padding-top: 12px;
+        }
+        .meta strong { color: #495057; }
     </style>
-    <script src="enclosure-heat-loss-component-explorer.js"></script>
 </head>
 <body>
-    <main>
-        <div id="chartWrap"><canvas id="lossChart" role="img" aria-label="Two stacked horizontal bars: the share of enclosure area and the heat loss in BTU per hour for the roof, the walls, and the windows"></canvas></div>
-        <div id="readout" aria-live="polite"></div>
-        <div id="controls">
-            <label class="ctl"><span id="lblWin"></span><input type="range" id="winArea" min="0" max="1400" step="2" value="702" aria-label="Window area in square feet"></label>
-            <label class="ctl"><span id="lblRoof"></span><input type="range" id="roofR" min="20" max="60" step="1" value="40" aria-label="Roof R-value"></label>
-            <label class="ctl"><span id="lblWall"></span><input type="range" id="wallR" min="10" max="40" step="0.1" value="27.7" aria-label="Wall effective R-value"></label>
-            <label class="ctl"><span id="lblWinU"></span><input type="range" id="winU" min="0.15" max="0.60" step="0.01" value="0.30" aria-label="Window U-value"></label>
-            <label class="ctl"><span id="lblTemp"></span><input type="range" id="outT" min="-20" max="40" step="1" value="-10" aria-label="Outdoor temperature in degrees Fahrenheit"></label>
+    <div id="container">
+        <h1>Enclosure Heat Loss Component Explorer</h1>
+        <div class="placeholder">
+            <span class="badge">SCAFFOLD</span>
+            <h2>MicroSim Not Yet Implemented</h2>
+            <p>This MicroSim has been scaffolded from its specification but the
+            interactive content has not been built yet. See the chapter source
+            and the <code>index.md</code> in this directory for the full spec.</p>
         </div>
-        <div id="buttons">
-            <button id="btnReset" type="button">Riverbend defaults</button>
-            <button id="btnRank" type="button">Which change helps most?</button>
+        <div class="meta">
+            <p><strong>Sim ID:</strong> enclosure-heat-loss-component-explorer</p>
+            <p><strong>Library:</strong> Chart.js</p>
+            <p><strong>Bloom Level:</strong> TBD</p>
+            <p><strong>Learning Objective:</strong> Students will analyze (Bloom Level 4, Analyze) how roof, wall, and window area and U-value combine to determine total conductive heat loss, and will evaluate (Bloom Level 5, Evaluate) which single change reduces the loss most.</p>
         </div>
-        <div id="rank" aria-live="polite"></div>
-    </main>
+    </div>
+
+    <!--
+    SPECIFICATION (from chapter index.md):
+
+    Type: chart
+    **sim-id:** enclosure-heat-loss-component-explorer<br/>
+    **Library:** Chart.js<br/>
+    **Status:** Specified
+    
+    Learning objective: Students will analyze (Bloom Level 4, Analyze) how roof, wall, and window area and U-value combine to determine total conductive heat loss, and will evaluate (Bloom Level 5, Evaluate) which single change reduces the loss most.
+    
+    Visual: A stacked horizontal bar showing the heat loss of the roof, walls, and windows in BTU/h, beside a second bar showing each component's share of the enclosure area for comparison. A readout shows the total loss in BTU/h and the equivalent in kW. The chart is responsive to the container width, 420 px tall, and redraws on window resize.
+    
+    Controls: A slider for window area (0 to 1,400 ft² in 50 ft² steps). A slider for roof R-value (R-20 to R-60), wall effective R-value (R-10 to R-40), and window U-value (0.15 to 0.60). A slider for outdoor temperature (-20 to 40°F) with the indoor temperature fixed at 70°F. A "Riverbend defaults" button.
+    
+    Interactions: Hovering over any bar segment shows the component's area, U-value, and loss. A "Which change helps most?" button applies a standard improvement to each component in turn (roof +R-10, wall +R-10, windows U-0.20) and ranks them by the BTU/h saved, with a one-sentence explanation of why the result differs from expectation.
+    
+    Default state: 702 ft² of windows, roof R-40, wall R-27.7, window U-0.30, -10°F outdoors; total about 46,300 BTU/h.
+    
+    Implementation: Chart.js stacked bar chart with a small calculation function and custom tooltips.
+    -->
 </body>
 </html>

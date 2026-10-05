@@ -3,21 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
-    <title>Water-Cement Ratio Explorer MicroSim using P5.js 2.3.2</title>
-    <script src="https://cdn.jsdelivr.net/npm/p5@2.3.2/lib/p5.js"></script>
+    <!-- microsim-scaffold-stub -->
+    <title>Water-Cement Ratio Explorer</title>
     <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            margin: 0px;
-            padding: 0px;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            color: #212529;
         }
+        #container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #1a3a6c;
+        }
+        .placeholder {
+            border: 2px dashed #adb5bd;
+            border-radius: 8px;
+            padding: 40px 20px;
+            text-align: center;
+            color: #6c757d;
+            margin: 20px 0;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .placeholder .badge {
+            display: inline-block;
+            background: #ffc107;
+            color: #212529;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .placeholder h2 {
+            font-size: 18px;
+            color: #495057;
+            margin-bottom: 8px;
+        }
+        .placeholder p {
+            font-size: 14px;
+            max-width: 480px;
+        }
+        .meta {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+            padding-top: 12px;
+        }
+        .meta strong { color: #495057; }
     </style>
-    <script src="water-cement-ratio-explorer.js"></script>
 </head>
 <body>
-    <main></main>
-    <br/>
-    <a href=".">Back to Water-Cement Ratio Explorer Lesson Plan</a>
+    <div id="container">
+        <h1>Water-Cement Ratio Explorer</h1>
+        <div class="placeholder">
+            <span class="badge">SCAFFOLD</span>
+            <h2>MicroSim Not Yet Implemented</h2>
+            <p>This MicroSim has been scaffolded from its specification but the
+            interactive content has not been built yet. See the chapter source
+            and the <code>index.md</code> in this directory for the full spec.</p>
+        </div>
+        <div class="meta">
+            <p><strong>Sim ID:</strong> water-cement-ratio-explorer</p>
+            <p><strong>Library:</strong> p5.js</p>
+            <p><strong>Bloom Level:</strong> TBD</p>
+            <p><strong>Learning Objective:</strong> Students will predict (Bloom Level 3, Apply) how changing the water-cement ratio changes the strength, permeability, and shrinkage of concrete, and will evaluate (Bloom Level 5, Evaluate) whether adding water at the chute is acceptable for a given specification.</p>
+        </div>
+    </div>
+
+    <!--
+    SPECIFICATION (from chapter index.md):
+
+    Type: microsim
+    **sim-id:** water-cement-ratio-explorer<br/>
+    **Library:** p5.js<br/>
+    **Status:** Specified
+    
+    Learning objective: Students will predict (Bloom Level 3, Apply) how changing the water-cement ratio changes the strength, permeability, and shrinkage of concrete, and will evaluate (Bloom Level 5, Evaluate) whether adding water at the chute is acceptable for a given specification.
+    
+    Visual: A magnified cutaway of a concrete section showing aggregate particles, cement paste, and pores that grow in number and size as the water content increases. Beside it, three bars show relative strength, permeability, and shrinkage. A truck chute icon sits beside a gallon counter. The canvas follows the container width with a height of 460 px.
+    
+    Controls: A slider labeled "Water-cement ratio" (0.30 to 0.65) with the cement content fixed at 564 lb per cubic yard. A button labeled "Add 5 gal at the chute" adds the extra water and recalculates the ratio. A drop-down labeled "Exposure" (indoor slab, exterior walk, parking structure) sets the specified maximum ratio.
+    
+    Interactions: Dragging the slider redraws the pores and adjusts the three bars. A readout shows the water in gallons and pounds per cubic yard and the estimated strength range, labeled as illustrative. If the ratio exceeds the maximum for the selected exposure, the bars turn orange and a message states which property is at risk and suggests a water-reducing admixture. Hovering over a pore shows how it forms.
+    
+    Colors: Aggregate is gray, paste is tan, pores are white with a dark outline, and the specification limit is a dashed line with a text label.
+    
+    Implementation: p5.js with a responsive canvas, DOM slider, button, and drop-down.
+    -->
 </body>
 </html>

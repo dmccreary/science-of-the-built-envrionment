@@ -3,7 +3,7 @@
   "description": "Students will calculate (Bloom Level 3, Apply) the heating load of a room from envelope conduction and outdoor-air ventilation, and will compare (Bloom Level 4, Analyze) how enclosure quality and heat recovery change the total.",
   "creator": "The Science of the Built Environment",
   "author": "Dan McCreary",
-  "date": "2026-10-03",
+  "date": "2026-10-02",
   "subject": [
     "The Science of the Built Environment"
   ],
@@ -13,49 +13,11 @@
   "rights": "CC BY-NC-SA 4.0",
   "identifier": "hvac-heating-load-ventilation-explorer",
   "library": "p5.js",
-  "bloomLevel": "Apply, Analyze",
-  "bloomVerb": "calculate, compare",
-  "completion_status": "built",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
   "chapter_number": 14,
   "chapter_title": "HVAC, Plumbing, and Fire Protection Systems",
   "chapter_dir": "14-hvac-plumbing-fire",
-  "chapter_rel_dir": "chapters/14-hvac-plumbing-fire",
-  "canvasHeight": 630,
-  "educational": {
-    "educationalLevel": "Undergraduate, Adult learners",
-    "learningResourceType": "simulation",
-    "bloomLevel": [
-      "Apply",
-      "Analyze"
-    ],
-    "concepts": [
-      "Heating load",
-      "Conduction loss",
-      "Ventilation load",
-      "Heat recovery ventilator",
-      "Sensible heat formula"
-    ],
-    "prerequisites": [
-      "Chapter 3 conduction and U-factor",
-      "Using Q = 1.08 x cfm x delta T"
-    ]
-  },
-  "pedagogical": {
-    "learningObjective": "Calculate the heating load of a room from envelope conduction and outdoor-air ventilation, and compare how enclosure quality and heat recovery change the total.",
-    "recommendedUsage": [
-      "Start at the default design day (0 degrees F outdoors, 25 people, no heat recovery). The cutaway shows an arrow for each conducting surface and a large orange arrow for the heat carried out by ventilation air; arrow thickness grows with the heat flow.",
-      "Read the stacked bar and the total in Btu/h and tons. Hover over any arrow, bar segment, or legend entry to see the calculation behind it, such as U x A x delta T for the walls.",
-      "Move the U-factor sliders and watch the walls, windows, and roof segments change while the ventilation segment stays the same. Then change the number of people or the outdoor temperature.",
-      "Check Add heat recovery ventilator and drag the effectiveness slider to see the ventilation segment shrink. Press Reset to Minneapolis design day to return to the defaults."
-    ],
-    "activities": [
-      "Reproduce (10 min): At the defaults students confirm the Chapter 14 values: 322 cfm of outdoor air, about 24,300 Btu/h of ventilation load, and about 8,000 Btu/h of conduction. Then they turn on a 75 percent heat recovery ventilator and confirm the 6,100 Btu/h that remains.",
-      "Compare (10 min): Students improve the enclosure to the best U-factors on the sliders and record how much the total drops, then compare that with adding heat recovery.",
-      "Analyze (10 min): Students sweep the outdoor temperature and the number of occupants and describe which component grows fastest and why."
-    ],
-    "assessment": [
-      "Students predict the total load for 40 people at -20 degrees F with and without heat recovery, then check the prediction in the simulation.",
-      "Students explain in two sentences why better insulation barely changes the ventilation load but a heat recovery ventilator does."
-    ]
-  }
+  "chapter_rel_dir": "chapters/14-hvac-plumbing-fire"
 }

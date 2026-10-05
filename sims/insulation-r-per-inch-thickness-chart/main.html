@@ -3,51 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <!-- microsim-scaffold-stub -->
     <title>Insulation R-Value and Thickness Comparison</title>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
     <style>
-        * { box-sizing: border-box; }
-        body { margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: black; background: white; }
-        main { width: 100%; border: 1px solid silver; background: white; }
-        #chartWrap { position: relative; height: 360px; background: aliceblue; border-bottom: 1px solid silver; padding: 4px 6px 2px 6px; }
-        #controls { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 18px; padding: 8px 10px 4px 10px; font-size: 15px; }
-        #controls label { display: flex; align-items: center; gap: 6px; }
-        #controls select { font-size: 15px; }
-        #controls input[type=range] { width: 170px; margin: 0; }
-        #targetWrap span { display: inline-block; min-width: 140px; }
-        #readout { padding: 2px 10px 4px 10px; font-size: 15px; line-height: 1.35; min-height: 52px; }
-        #readout .note { margin-top: 3px; padding: 3px 8px; border-left: 4px solid goldenrod; background: floralwhite; font-size: 14px; }
-        #infobox { margin: 4px 10px 8px 10px; padding: 6px 10px; border: 1px solid silver; border-radius: 8px; font-size: 14px; line-height: 1.35; min-height: 84px; }
-        #infobox h3 { margin: 0 0 3px 0; font-size: 16px; color: navy; }
-        @media (min-width: 640px) { #chartWrap { height: 470px; } #infobox { min-height: 110px; } }
-        @media (max-width: 520px) {
-            #controls input[type=range] { width: 120px; }
-            #targetWrap span { min-width: 128px; font-size: 14px; }
-            #controls { font-size: 14px; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            color: #212529;
         }
+        #container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #1a3a6c;
+        }
+        .placeholder {
+            border: 2px dashed #adb5bd;
+            border-radius: 8px;
+            padding: 40px 20px;
+            text-align: center;
+            color: #6c757d;
+            margin: 20px 0;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .placeholder .badge {
+            display: inline-block;
+            background: #ffc107;
+            color: #212529;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .placeholder h2 {
+            font-size: 18px;
+            color: #495057;
+            margin-bottom: 8px;
+        }
+        .placeholder p {
+            font-size: 14px;
+            max-width: 480px;
+        }
+        .meta {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+            padding-top: 12px;
+        }
+        .meta strong { color: #495057; }
     </style>
-    <script src="insulation-r-per-inch-thickness-chart.js"></script>
 </head>
 <body>
-    <main>
-        <div id="chartWrap"><canvas id="insChart" role="img" aria-label="Horizontal bar chart of the thickness in inches that eight insulation materials need to reach a target R-value, with a line for the cavity depth"></canvas></div>
-        <div id="controls">
-            <label id="targetWrap"><span id="lblTarget"></span><input type="range" id="target" min="10" max="60" step="1" value="20" aria-label="Target R-value"></label>
-            <label>Cavity depth:
-                <select id="cavity" aria-label="Cavity depth">
-                    <option value="3.5">3.5 in (2×4)</option>
-                    <option value="5.5" selected>5.5 in (2×6)</option>
-                    <option value="7.25">7.25 in (2×8)</option>
-                    <option value="9.25">9.25 in (2×10)</option>
-                    <option value="none">None</option>
-                </select>
-            </label>
-            <label><input type="checkbox" id="costBox"> Show typical relative cost</label>
-            <label><input type="checkbox" id="coldBox"> Show cold-weather derating</label>
+    <div id="container">
+        <h1>Insulation R-Value and Thickness Comparison</h1>
+        <div class="placeholder">
+            <span class="badge">SCAFFOLD</span>
+            <h2>MicroSim Not Yet Implemented</h2>
+            <p>This MicroSim has been scaffolded from its specification but the
+            interactive content has not been built yet. See the chapter source
+            and the <code>index.md</code> in this directory for the full spec.</p>
         </div>
-        <div id="readout" aria-live="polite"></div>
-        <div id="infobox" aria-live="polite"></div>
-    </main>
+        <div class="meta">
+            <p><strong>Sim ID:</strong> insulation-r-per-inch-thickness-chart</p>
+            <p><strong>Library:</strong> Chart.js</p>
+            <p><strong>Bloom Level:</strong> TBD</p>
+            <p><strong>Learning Objective:</strong> Students will compare (Bloom Level 4, Analyze) insulation materials by R per inch and the thickness each needs to reach a target R-value, and will justify (Bloom Level 5, Evaluate) a choice for a given cavity depth.</p>
+        </div>
+    </div>
+
+    <!--
+    SPECIFICATION (from chapter index.md):
+
+    Type: chart
+    **sim-id:** insulation-r-per-inch-thickness-chart<br/>
+    **Library:** Chart.js<br/>
+    **Status:** Specified
+    
+    Learning objective: Students will compare (Bloom Level 4, Analyze) insulation materials by R per inch and the thickness each needs to reach a target R-value, and will justify (Bloom Level 5, Evaluate) a choice for a given cavity depth.
+    
+    Visual: A horizontal bar chart with one bar per insulation type showing the thickness in inches needed to reach the target R-value. A vertical line marks the depth of the selected cavity. Bars that fit within the cavity are green and bars that do not are red. The chart is responsive, 440 px tall, and redraws on window resize.
+    
+    Controls: A slider for target R-value (R-10 to R-60). A dropdown for cavity depth (3.5 in, 5.5 in, 7.25 in, 9.25 in, none). A checkbox "Show typical relative cost." A checkbox "Show cold-weather derating," which reduces polyisocyanurate's R per inch at low temperature with an explanation.
+    
+    Interactions: Hovering over a bar shows the material's R per inch range, the thickness needed, and one line about its air-sealing, moisture, and fire behavior. Clicking a bar opens an infobox with common uses and installation cautions.
+    
+    Default state: R-20 target, 5.5 in cavity, fiberglass, cellulose, and open-cell foam within the cavity, and closed-cell foam well under it.
+    
+    Implementation: Chart.js horizontal bar chart with a custom plugin for the cavity line and dynamic bar colors.
+    -->
 </body>
 </html>

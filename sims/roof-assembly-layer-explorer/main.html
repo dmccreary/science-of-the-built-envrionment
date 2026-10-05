@@ -3,21 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
-    <title>Roof Assembly Layer Explorer MicroSim using P5.js 2.3.2</title>
-    <script src="https://cdn.jsdelivr.net/npm/p5@2.3.2/lib/p5.js"></script>
+    <!-- microsim-scaffold-stub -->
+    <title>Roof Assembly Layer Explorer</title>
     <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            margin: 0px;
-            padding: 0px;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            color: #212529;
         }
+        #container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #1a3a6c;
+        }
+        .placeholder {
+            border: 2px dashed #adb5bd;
+            border-radius: 8px;
+            padding: 40px 20px;
+            text-align: center;
+            color: #6c757d;
+            margin: 20px 0;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .placeholder .badge {
+            display: inline-block;
+            background: #ffc107;
+            color: #212529;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .placeholder h2 {
+            font-size: 18px;
+            color: #495057;
+            margin-bottom: 8px;
+        }
+        .placeholder p {
+            font-size: 14px;
+            max-width: 480px;
+        }
+        .meta {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+            padding-top: 12px;
+        }
+        .meta strong { color: #495057; }
     </style>
-    <script src="roof-assembly-layer-explorer.js"></script>
 </head>
 <body>
-    <main></main>
-    <br/>
-    <a href=".">Back to Roof Assembly Layer Explorer Lesson Plan</a>
+    <div id="container">
+        <h1>Roof Assembly Layer Explorer</h1>
+        <div class="placeholder">
+            <span class="badge">SCAFFOLD</span>
+            <h2>MicroSim Not Yet Implemented</h2>
+            <p>This MicroSim has been scaffolded from its specification but the
+            interactive content has not been built yet. See the chapter source
+            and the <code>index.md</code> in this directory for the full spec.</p>
+        </div>
+        <div class="meta">
+            <p><strong>Sim ID:</strong> roof-assembly-layer-explorer</p>
+            <p><strong>Library:</strong> p5.js</p>
+            <p><strong>Bloom Level:</strong> TBD</p>
+            <p><strong>Learning Objective:</strong> Students will identify (Bloom Level 1, Remember) each layer of a steep-slope and a low-slope roof assembly and will explain (Bloom Level 2, Understand) which of the four control layers (water, air, vapor, heat) each layer provides.</p>
+        </div>
+    </div>
+
+    <!--
+    SPECIFICATION (from chapter index.md):
+
+    Type: infographic
+    **sim-id:** roof-assembly-layer-explorer<br/>
+    **Library:** p5.js<br/>
+    **Status:** Specified
+    
+    Learning objective: Students will identify (Bloom Level 1, Remember) each layer of a steep-slope and a low-slope roof assembly and will explain (Bloom Level 2, Understand) which of the four control layers (water, air, vapor, heat) each layer provides.
+    
+    Visual: A cross-section drawing of a roof from interior ceiling to exterior surface, drawn to a distorted but proportional thickness so every layer is legible. A tab control labeled "Steep-slope attic roof" and "Low-slope membrane roof" switches between the two stacks. Each layer is a labeled, color-coded band. On the right, a four-icon legend shows water, air, vapor, and heat control.
+    
+    Interactions: Hovering over a layer highlights it and shows a tooltip with its name. Clicking a layer opens an infobox with its function, the control layer(s) it provides, and one common failure (for example, "underlayment: torn at eave, allows wind-driven water"). A toggle labeled "Show heat flow" draws arrows from interior to exterior through the insulation and shows temperature labels in winter. A toggle labeled "Show water path" animates a raindrop along the shortest route over or through the assembly. A "Remove this layer" button on each infobox grays out the layer and displays the consequence in a status line, so students can see what each layer protects against.
+    
+    Colors: Structure in brown, insulation in yellow, membrane and underlayment in dark gray, covering in the color of the selected roof type. Colors are paired with patterns so the diagram works without color.
+    
+    Responsive design: The canvas width follows the container and redraws on window resize. Height is 460 px on wide screens.
+    
+    Implementation: p5.js with updateCanvasSize() as the first statement in setup(), built-in createButton and createCheckbox controls, and an infobox drawn in a div beneath the canvas.
+    -->
 </body>
 </html>

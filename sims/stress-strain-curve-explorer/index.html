@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="Students read simplified stress-strain curves for steel in tension and for concrete and softwood in compression, moving a stress marker along each curve to see strain, factor of safety, and whether the behavior is elastic or plastic. Releasing the marker shows the strain returning to zero or a permanent offset, and a toughness shading and compare mode contrast ductile and brittle behavior.">
+        <meta name="description" content="Students will interpret (Bloom Level 2, Understand) stress-strain curves for steel, concrete, and wood to identify yield strength, ultimate strength, stiffness, and the type of failure, and will compare (Bloom Level 4, Analyze) ductile and brittle behavior.">
       
       
         <meta name="author" content="Dan McCreary">
@@ -15,14 +15,13 @@
         <link rel="canonical" href="https://dmccreary.github.io/science-of-the-built-envrionment/sims/stress-strain-curve-explorer/">
       
       
-        <link rel="prev" href="../stress-area-load-explorer/">
       
       
-        <link rel="next" href="../sustainability-trade-off-explorer/">
+        
       
       
-      <link rel="icon" href="../../img/favicon.ico">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.43">
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
     
     
       
@@ -30,10 +29,10 @@
       
     
     
-      <link rel="stylesheet" href="../../assets/stylesheets/main.0253249f.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
       
         
-        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -56,24 +55,19 @@
     
       <link rel="stylesheet" href="../../css/mascot.css">
     
-      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
-    
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
     
     
-    
     <meta property="og:title" content="Stress-Strain Curve Explorer">
   <meta name="twitter:title" content="Stress-Strain Curve Explorer">
-  <meta property="og:description" content="Students read simplified stress-strain curves for steel in tension and for concrete and softwood in compression, moving a stress marker along each curve to see strain, factor of safety, and whether the behavior is elastic or plastic. Releasing the marker shows the strain returning to zero or a permanent offset, and a toughness shading and compare mode contrast ductile and brittle behavior.">
-  <meta name="twitter:description" content="Students read simplified stress-strain curves for steel in tension and for concrete and softwood in compression, moving a stress marker along each curve to see strain, factor of safety, and whether the behavior is elastic or plastic. Releasing the marker shows the strain returning to zero or a permanent offset, and a toughness shading and compare mode contrast ductile and brittle behavior.">
+  <meta property="og:description" content="Students will interpret (Bloom Level 2, Understand) stress-strain curves for steel, concrete, and wood to identify yield strength, ultimate strength, stiffness, and the type of failure, and will compare (Bloom Level 4, Analyze) ductile and brittle behavior.">
+  <meta name="twitter:description" content="Students will interpret (Bloom Level 2, Understand) stress-strain curves for steel, concrete, and wood to identify yield strength, ultimate strength, stiffness, and the type of failure, and will compare (Bloom Level 4, Analyze) ductile and brittle behavior.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://dmccreary.github.io/science-of-the-built-envrionment/sims/stress-strain-curve-explorer/">
   <meta name="twitter:card" content="summary_large_image">
-  <meta property="og:image" content="https://dmccreary.github.io/science-of-the-built-envrionment/sims/stress-strain-curve-explorer/stress-strain-curve-explorer.png">
-  <meta name="twitter:image" content="https://dmccreary.github.io/science-of-the-built-envrionment/sims/stress-strain-curve-explorer/stress-strain-curve-explorer.png">
 </head>
   
   
@@ -109,7 +103,8 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../.." title="The Science of the Built Environment" class="md-header__button md-logo" aria-label="The Science of the Built Environment" data-md-component="logo">
       
-  <img src="../../img/mascot/welcome.png" alt="logo">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -138,11 +133,13 @@
     
     
     
-      <label class="md-header__button md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-      </label>
-      <div class="md-search" data-md-component="search" role="dialog">
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
@@ -181,13 +178,14 @@
     </div>
   </div>
 </div>
+      
     
     
       <div class="md-header__source">
         <a href="https://github.com/dmccreary/science-of-the-built-envrionment" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub Repo
@@ -222,7 +220,8 @@
   <label class="md-nav__title" for="__drawer">
     <a href="../.." title="The Science of the Built Environment" class="md-nav__button md-logo" aria-label="The Science of the Built Environment" data-md-component="logo">
       
-  <img src="../../img/mascot/welcome.png" alt="logo">
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
 
     </a>
     The Science of the Built Environment
@@ -232,7 +231,7 @@
       <a href="https://github.com/dmccreary/science-of-the-built-envrionment" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
   </div>
   <div class="md-source__repository">
     GitHub Repo
@@ -252,9 +251,16 @@
       <a href="../.." class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Home
+  
+
+    
   </span>
+  
   
 
       </a>
@@ -272,9 +278,16 @@
       <a href="../../about/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     About
+  
+
+    
   </span>
+  
   
 
       </a>
@@ -292,9 +305,16 @@
       <a href="../../course-description/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Course Description
+  
+
+    
   </span>
+  
   
 
       </a>
@@ -316,89 +336,48 @@
         
       
         
-          
+      
         
       
         
-          
+      
         
       
         
-          
+      
         
       
         
-          
+      
         
       
         
-          
+      
         
       
         
-          
+      
         
       
         
-          
+      
         
       
         
-          
+      
         
       
         
-          
+      
         
       
         
-          
+      
         
       
         
-          
-        
       
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
+    
     
     
     
@@ -410,14 +389,22 @@
     <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
       
         
+  
   
   
     <a href="../../chapters/" class="md-nav__link">
       
   
+  
   <span class="md-ellipsis">
+    
+  
     Chapters
+  
+
+    
   </span>
+  
   
 
       
@@ -456,12 +443,7 @@
       
         
       
-        
-      
-        
-      
-        
-      
+    
     
     
     
@@ -473,14 +455,22 @@
     <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
       
         
+  
   
   
     <a href="../../learning-graph/" class="md-nav__link">
       
   
+  
   <span class="md-ellipsis">
+    
+  
     Learning Graph
+  
+
+    
   </span>
+  
   
 
       
@@ -509,54 +499,7 @@
       
         
       
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
+    
     
     
     
@@ -570,2805 +513,29 @@
         
   
   
-    <a href="../../stories/" class="md-nav__link">
+  
+    <a href="../" class="md-nav__link">
       
+  
   
   <span class="md-ellipsis">
-    Stories
-  </span>
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    
-    
-      
-        
-          
-        
-      
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-      
-    
-    
-    
-      
-        
-        
-      
-    
-    <li class="md-nav__item md-nav__item--pruned md-nav__item--nested">
-      
-        
-  
-  
-    <a href="../../posters/" class="md-nav__link">
-      
-  
-  <span class="md-ellipsis">
-    Posters
-  </span>
-  
-
-      
-        <span class="md-nav__icon md-icon"></span>
-      
-    </a>
-  
-
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
     
   
-  
-  
-    
-    
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-        
-          
-        
-      
-    
-    
-    
-      
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
-        
-          
-          
-          <div class="md-nav__link md-nav__container">
-            <a href="../" class="md-nav__link ">
-              
-  
-  <span class="md-ellipsis">
     MicroSims
-  </span>
-  
-
-            </a>
-            
-              
-              <label class="md-nav__link " for="__nav_8" id="__nav_8_label" tabindex="0">
-                <span class="md-nav__icon md-icon"></span>
-              </label>
-            
-          </div>
-        
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_8">
-            <span class="md-nav__icon md-icon"></span>
-            MicroSims
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../graph-viewer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Learning Graph Viewer
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../ac-waveform-transmission-loss-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    AC Waveform and Transmission Loss Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--scaffold" title="Scaffold — placeholder, not yet implemented">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../air-sealing-blower-door-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Air Sealing and Blower Door Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../beam-reactions-equilibrium-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Beam Reactions and Equilibrium Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../building-material-property-comparison-chart/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Building Material Property Comparison Chart
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../building-pressure-air-leakage-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Building Pressure and Air Leakage Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../building-systems-cutaway/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Building Systems Cutaway
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../built-environment-scales/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Scales of the Built Environment
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../ceiling-coordination-clash-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Ceiling Coordination Clash Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--scaffold" title="Scaffold — placeholder, not yet implemented">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../circuit-breaker-continuous-load-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Circuit Breaker and Continuous Load Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--scaffold" title="Scaffold — placeholder, not yet implemented">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../cladding-rainscreen-water-path-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Cladding Rainscreen Water Path Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../code-adoption-authority-chain/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Code Adoption and Authority Chain
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--scaffold" title="Scaffold — placeholder, not yet implemented">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../concrete-composition-strength-gain-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Concrete Composition and Strength Gain Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../conduction-layer-heat-flow-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Conduction Through a Layer
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../control-layer-wall-section-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Control Layer Wall Section Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../critical-path-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Critical Path Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../delivery-method-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Delivery Method Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../drawing-scale-calculator/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Drawing Scale Calculator
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../drawing-types-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Drawing Types Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../egress-time-margin-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Egress Time Margin Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--scaffold" title="Scaffold — placeholder, not yet implemented">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../electrical-circuit-water-analogy-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Electric Circuit and Water Analogy Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--scaffold" title="Scaffold — placeholder, not yet implemented">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../electrical-design-phase-responsibility-timeline/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Electrical Design Phase Timeline
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--scaffold" title="Scaffold — placeholder, not yet implemented">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../electrical-service-path-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Electrical Service Path Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--scaffold" title="Scaffold — placeholder, not yet implemented">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../embodied-carbon-beam-comparison/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Embodied Carbon Beam Comparison
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--scaffold" title="Scaffold — placeholder, not yet implemented">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../enclosure-heat-loss-component-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Enclosure Heat Loss Component Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../failure-chain-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Failure Chain Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--scaffold" title="Scaffold — placeholder, not yet implemented">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../fire-protection-layers-building-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Fire Protection Layers Building Explorer
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../force-vector-resolver/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Force Vector Resolver
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../forensic-leak-investigation-simulator/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Forensic Leak Investigation Simulator
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--scaffold" title="Scaffold — placeholder, not yet implemented">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../foundation-cross-section-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Foundation Cross-Section Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../foundation-type-selector/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Foundation Type Selector
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../foundation-wall-lateral-pressure-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Basement Wall Soil Pressure Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../frost-heave-three-conditions/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Frost Heave Three-Condition Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../glulam-char-section-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Glulam Char Section Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--scaffold" title="Scaffold — placeholder, not yet implemented">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../heat-transfer-modes-wall-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Heat Transfer Modes in a Winter Wall
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../heating-system-energy-comparison/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Heating System Energy Comparison
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../hvac-heating-load-ventilation-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Heating Load and Ventilation Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../ibc-question-router/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    IBC Question Router
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../ice-dam-formation-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Ice Dam Formation Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../insulation-diminishing-returns-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Insulation Diminishing Returns Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--scaffold" title="Scaffold — placeholder, not yet implemented">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../insulation-r-per-inch-thickness-chart/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Insulation R-Value and Thickness Comparison
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../lca-stage-boundary-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Life-Cycle Stage and Boundary Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--scaffold" title="Scaffold — placeholder, not yet implemented">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../lighting-lumen-method-calculator/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Lighting Lumen Method Calculator
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--scaffold" title="Scaffold — placeholder, not yet implemented">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../masonry-wall-assembly-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Masonry Wall Assembly Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../moisture-transport-pathways-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Moisture Pathways in a Wall
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../net-zero-pv-balance-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Net-Zero PV Balance Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--scaffold" title="Scaffold — placeholder, not yet implemented">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../ohms-law-power-wire-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Voltage, Current, and Resistance Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--scaffold" title="Scaffold — placeholder, not yet implemented">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../one-line-diagram-symbol-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    One-Line Diagram Symbol Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--scaffold" title="Scaffold — placeholder, not yet implemented">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../permit-to-occupancy-flow/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Permit-to-Occupancy Flow
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--scaffold" title="Scaffold — placeholder, not yet implemented">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../platform-framing-assembly-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Platform Framing Assembly Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
   
 
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../plumbing-supply-dwv-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Plumbing Supply and DWV Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--scaffold" title="Scaffold — placeholder, not yet implemented">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../project-phases-cost-of-change/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Project Phases and the Cost of Change
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../project-team-communication-map/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Project Team Contracts and Communication Map
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../psychrometric-chart-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Psychrometric Chart Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../reinforced-concrete-beam-behavior-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Reinforced Concrete Beam Behavior Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../riverbend-load-path-tracer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Riverbend Load Path Tracer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../riverbend-structural-system-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Riverbend Structural System Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../roof-assembly-layer-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Roof Assembly Layer Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../roof-drainage-ponding-calculator/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Roof Drainage and Ponding Calculator
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../sealant-joint-movement-calculator/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Sealant Joint Movement Calculator
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../service-headroom-ev-pv-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Service Headroom for Solar and EV Loads
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--scaffold" title="Scaffold — placeholder, not yet implemented">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../service-life-factor-calculator/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Service Life Factor Calculator
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--scaffold" title="Scaffold — placeholder, not yet implemented">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../site-analysis-layer-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Site Analysis Layer Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../soil-bearing-footing-area-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Bearing Capacity and Footing Size Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../steel-shape-comparison-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Steel Shape Comparison Explorer
-  </span>
-  
     
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../stress-area-load-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Stress, Force, and Area Explorer
   </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
   
-
-  
-
-      </a>
-    </li>
   
 
-              
-            
-              
-                
-  
-  
-    
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
       
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+        <span class="md-nav__icon md-icon"></span>
       
+    </a>
+  
+
       
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Stress-Strain Curve Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  <span class="md-ellipsis">
-    Stress-Strain Curve Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#description" class="md-nav__link">
-    <span class="md-ellipsis">
-      Description
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how-to-use" class="md-nav__link">
-    <span class="md-ellipsis">
-      How to Use
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lesson-plan" class="md-nav__link">
-    <span class="md-ellipsis">
-      Lesson Plan
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#references" class="md-nav__link">
-    <span class="md-ellipsis">
-      References
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#specification" class="md-nav__link">
-    <span class="md-ellipsis">
-      Specification
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#related-resources" class="md-nav__link">
-    <span class="md-ellipsis">
-      Related Resources
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../sustainability-trade-off-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Sustainability Trade-Off Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--scaffold" title="Scaffold — placeholder, not yet implemented">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../tributary-area-roof-takedown-calculator/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Tributary Area and Load Takedown Calculator
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../uscs-soil-classifier/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    USCS Soil Classifier
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../wall-assembly-r-value-bridging-calculator/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Wall Assembly R-Value and Thermal Bridging Calculator
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../water-cement-ratio-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Water-Cement Ratio Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../window-flashing-sequence-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Window Flashing Sequence Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../window-glazing-surface-temperature-explorer/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Window Performance Explorer
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../wood-moisture-shrinkage-calculator/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Wood Moisture and Shrinkage Calculator
-  </span>
-  
-    
-  
-  
-    <span class="md-status md-status--built" title="Built — implementation complete, awaiting review">
-    </span>
-  
-
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../faq/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    FAQ
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-    
-      
-      
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../glossary/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Glossary
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -3383,9 +550,16 @@
       <a href="../../license/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     License
+  
+
+    
   </span>
+  
   
 
       </a>
@@ -3403,9 +577,16 @@
       <a href="../../contact/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
+    
+  
     Contact
+  
+
+    
   </span>
+  
   
 
       </a>
@@ -3440,45 +621,11 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#description" class="md-nav__link">
-    <span class="md-ellipsis">
-      Description
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#how-to-use" class="md-nav__link">
-    <span class="md-ellipsis">
-      How to Use
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#lesson-plan" class="md-nav__link">
-    <span class="md-ellipsis">
-      Lesson Plan
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#references" class="md-nav__link">
-    <span class="md-ellipsis">
-      References
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#specification" class="md-nav__link">
     <span class="md-ellipsis">
-      Specification
+      
+        Specification
+      
     </span>
   </a>
   
@@ -3487,7 +634,9 @@
         <li class="md-nav__item">
   <a href="#related-resources" class="md-nav__link">
     <span class="md-ellipsis">
-      Related Resources
+      
+        Related Resources
+      
     </span>
   </a>
   
@@ -3503,12 +652,22 @@
           
           
             <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+              
               <article class="md-content__inner md-typeset">
                 
                   
 
+
   
-    <a href="https://github.com/dmccreary/science-of-the-built-envrionment/blob/main/docs/sims/stress-strain-curve-explorer/index.md" title="Edit this page" class="md-content__button md-icon">
+    <a href="https://github.com/dmccreary/science-of-the-built-envrionment/blob/main/docs/sims/stress-strain-curve-explorer/index.md" title="Edit this page" class="md-content__button md-icon" rel="edit">
       
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4zm10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1z"/></svg>
     </a>
@@ -3517,59 +676,28 @@
 
 
 <h1 id="stress-strain-curve-explorer">Stress-Strain Curve Explorer<a class="headerlink" href="#stress-strain-curve-explorer" title="Permanent link">&para;</a></h1>
-<iframe src="main.html" width="100%" height="852" scrolling="no"></iframe>
+<iframe src="main.html" width="100%" height="600"></iframe>
 
-<p><a class="md-button md-button--primary" href="main.html">Run the Stress-Strain Curve Explorer MicroSim Fullscreen</a></p>
-<p>Place the following line in your website to include this MicroSim in your course.</p>
-<div class="language-html highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p">&lt;</span><span class="nt">iframe</span> <span class="na">src</span><span class="o">=</span><span class="s">"https://dmccreary.github.io/science-of-the-built-envrionment/sims/stress-strain-curve-explorer/main.html"</span> <span class="na">width</span><span class="o">=</span><span class="s">"100%"</span> <span class="na">height</span><span class="o">=</span><span class="s">"852"</span> <span class="na">scrolling</span><span class="o">=</span><span class="s">"no"</span><span class="p">&gt;&lt;/</span><span class="nt">iframe</span><span class="p">&gt;</span>
-</span></code></pre></div>
-<h2 id="description">Description<a class="headerlink" href="#description" title="Permanent link">&para;</a></h2>
-<p>Students read simplified stress-strain curves for steel in tension and for concrete and softwood in compression, moving a stress marker along each curve to see strain, factor of safety, and whether the behavior is elastic or plastic. Releasing the marker shows the strain returning to zero or a permanent offset, and a toughness shading and compare mode contrast ductile and brittle behavior.</p>
-<h2 id="how-to-use">How to Use<a class="headerlink" href="#how-to-use" title="Permanent link">&para;</a></h2>
-<ol>
-<li>Choose Steel, Concrete, or Wood. The slider starts at the Chapter 5 worked example: the 18,100 psi Riverbend hanger rod, a 417 psi concrete column, or a 1,500 psi design-level wood stress.</li>
-<li>Drag the Applied stress slider and read the strain, the two factors of safety, and the elastic or plastic label. Hover over (or tap) a circle, triangle, or square on the curve to see the yield, ultimate, or fracture point.</li>
-<li>Release the slider below the yield stress and the marker runs back to zero strain. Release it above yield and a dashed line, parallel to the elastic line, ends at a permanent strain. The Release the load button does the same for keyboard users.</li>
-<li>Check Show area under the curve to read toughness, check Compare all three to overlay the curves, and check Zoom in on small strains to see the steel elastic line or the concrete and wood curves up close.</li>
-</ol>
-<h2 id="lesson-plan">Lesson Plan<a class="headerlink" href="#lesson-plan" title="Permanent link">&para;</a></h2>
-<p><strong>Learning objective:</strong> Interpret stress-strain curves to identify yield strength, ultimate strength, stiffness, and failure type, and compare ductile and brittle behavior.</p>
-<p><strong>Suggested activities</strong></p>
-<ul>
-<li>Warm-up (5 min): Students sketch the expected shape of the steel, concrete, and wood curves, then compare their sketches with the chart.</li>
-<li>Explore (10 min): Students load each material to its elastic limit, then past it, release the slider, and record whether any permanent strain remains and how large it is.</li>
-<li>Analyze (10 min): Students turn on Compare all three with the zoom, rank the materials by stiffness and by toughness, and explain why steel gives warning before it fails and concrete does not.</li>
-</ul>
-<p><strong>Assessment</strong></p>
-<ul>
-<li>Students explain in two sentences why a ductile material is preferred in earthquake design, using the area under the curve.</li>
-<li>Students use the slider to find the factor of safety against yield for the Riverbend hanger rod and state whether it matches the Chapter 5 value of about 2.0.</li>
-</ul>
-<h2 id="references">References<a class="headerlink" href="#references" title="Permanent link">&para;</a></h2>
-<ul>
-<li><a href="../../chapters/05-material-properties/">Chapter 5: Properties of Building Materials</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Stress%E2%80%93strain_curve">Stress-strain curve (Wikipedia)</a></li>
-<li><a href="https://en.wikipedia.org/wiki/Ductility">Ductility (Wikipedia)</a></li>
-</ul>
+<p><a class="md-button md-button--primary" href="main.html">Run MicroSim in Fullscreen</a></p>
 <h2 id="specification">Specification<a class="headerlink" href="#specification" title="Permanent link">&para;</a></h2>
 <p>The full specification below is extracted from
 <a href="../../chapters/05-material-properties/">Chapter 5: Properties of Building Materials</a>.</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>Type: chart
-</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a>**sim-id:** stress-strain-curve-explorer&lt;br/&gt;
-</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a>**Library:** Chart.js&lt;br/&gt;
-</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a>**Status:** Specified
-</span><span id="__span-1-5"><a id="__codelineno-1-5" name="__codelineno-1-5" href="#__codelineno-1-5"></a>
-</span><span id="__span-1-6"><a id="__codelineno-1-6" name="__codelineno-1-6" href="#__codelineno-1-6"></a>Learning objective: Students will interpret (Bloom Level 2, Understand) stress-strain curves for steel, concrete, and wood to identify yield strength, ultimate strength, stiffness, and the type of failure, and will compare (Bloom Level 4, Analyze) ductile and brittle behavior.
-</span><span id="__span-1-7"><a id="__codelineno-1-7" name="__codelineno-1-7" href="#__codelineno-1-7"></a>
-</span><span id="__span-1-8"><a id="__codelineno-1-8" name="__codelineno-1-8" href="#__codelineno-1-8"></a>Visual: A line chart with strain on the horizontal axis and stress in psi on the vertical axis. A simplified curve is drawn for the selected material: structural steel in tension (a steep elastic line, a yield plateau, strain hardening, and a necking drop to fracture), concrete in compression (a curve that rises to its peak and then falls), and softwood in compression parallel to the grain (a nearly straight line that ends in crushing). Markers show the yield point, the ultimate point, and the fracture point. The chart fills the container width with a height of 440 px and redraws on window resize.
-</span><span id="__span-1-9"><a id="__codelineno-1-9" name="__codelineno-1-9" href="#__codelineno-1-9"></a>
-</span><span id="__span-1-10"><a id="__codelineno-1-10" name="__codelineno-1-10" href="#__codelineno-1-10"></a>Controls: Radio buttons labeled "Steel," "Concrete," and "Wood" choose the curve. A slider labeled "Applied stress" moves a marker along the curve. A checkbox labeled "Show area under the curve" shades the area, and a checkbox labeled "Compare all three" overlays the three curves.
-</span><span id="__span-1-11"><a id="__codelineno-1-11" name="__codelineno-1-11" href="#__codelineno-1-11"></a>
-</span><span id="__span-1-12"><a id="__codelineno-1-12" name="__codelineno-1-12" href="#__codelineno-1-12"></a>Interactions: As the stress marker moves, a readout shows the strain, the factor of safety against yield, and whether the behavior is elastic or plastic. Releasing the marker in the elastic range animates a return to zero strain, and releasing it past yield shows a permanent offset. Hovering over a key point shows its name and value. The caption beside the shaded area explains that it represents toughness.
-</span><span id="__span-1-13"><a id="__codelineno-1-13" name="__codelineno-1-13" href="#__codelineno-1-13"></a>
-</span><span id="__span-1-14"><a id="__codelineno-1-14" name="__codelineno-1-14" href="#__codelineno-1-14"></a>Colors: Steel is dark gray, concrete is tan, and wood is brown. The elastic range is shaded green and the plastic range is shaded orange, with text labels on each.
-</span><span id="__span-1-15"><a id="__codelineno-1-15" name="__codelineno-1-15" href="#__codelineno-1-15"></a>
-</span><span id="__span-1-16"><a id="__codelineno-1-16" name="__codelineno-1-16" href="#__codelineno-1-16"></a>Implementation: Chart.js line chart with a custom plugin for the shaded areas and markers, and a data table for each material.
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>Type: chart
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>**sim-id:** stress-strain-curve-explorer&lt;br/&gt;
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>**Library:** Chart.js&lt;br/&gt;
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>**Status:** Specified
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>Learning objective: Students will interpret (Bloom Level 2, Understand) stress-strain curves for steel, concrete, and wood to identify yield strength, ultimate strength, stiffness, and the type of failure, and will compare (Bloom Level 4, Analyze) ductile and brittle behavior.
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>Visual: A line chart with strain on the horizontal axis and stress in psi on the vertical axis. A simplified curve is drawn for the selected material: structural steel in tension (a steep elastic line, a yield plateau, strain hardening, and a necking drop to fracture), concrete in compression (a curve that rises to its peak and then falls), and softwood in compression parallel to the grain (a nearly straight line that ends in crushing). Markers show the yield point, the ultimate point, and the fracture point. The chart fills the container width with a height of 440 px and redraws on window resize.
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>
+</span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>Controls: Radio buttons labeled "Steel," "Concrete," and "Wood" choose the curve. A slider labeled "Applied stress" moves a marker along the curve. A checkbox labeled "Show area under the curve" shades the area, and a checkbox labeled "Compare all three" overlays the three curves.
+</span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>Interactions: As the stress marker moves, a readout shows the strain, the factor of safety against yield, and whether the behavior is elastic or plastic. Releasing the marker in the elastic range animates a return to zero strain, and releasing it past yield shows a permanent offset. Hovering over a key point shows its name and value. The caption beside the shaded area explains that it represents toughness.
+</span><span id="__span-0-13"><a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>
+</span><span id="__span-0-14"><a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>Colors: Steel is dark gray, concrete is tan, and wood is brown. The elastic range is shaded green and the plastic range is shaded orange, with text labels on each.
+</span><span id="__span-0-15"><a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>
+</span><span id="__span-0-16"><a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>Implementation: Chart.js line chart with a custom plugin for the shaded areas and markers, and a data table for each material.
 </span></code></pre></div>
 <h2 id="related-resources">Related Resources<a class="headerlink" href="#related-resources" title="Permanent link">&para;</a></h2>
 <ul>
@@ -3609,44 +737,6 @@
         <footer class="md-footer">
   
     
-      
-      <nav class="md-footer__inner md-grid" aria-label="Footer" >
-        
-          
-          <a href="../stress-area-load-explorer/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Stress, Force, and Area Explorer">
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
-            </div>
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              <div class="md-ellipsis">
-                Stress, Force, and Area Explorer
-              </div>
-            </div>
-          </a>
-        
-        
-          
-          <a href="../sustainability-trade-off-explorer/" class="md-footer__link md-footer__link--next" aria-label="Next: Sustainability Trade-Off Explorer">
-            <div class="md-footer__title">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              <div class="md-ellipsis">
-                Sustainability Trade-Off Explorer
-              </div>
-            </div>
-            <div class="md-footer__button md-icon">
-              
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
-            </div>
-          </a>
-        
-      </nav>
-    
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -3669,18 +759,13 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.copy", "content.action.edit", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "search.share"], "search": "../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["content.code.copy", "content.action.edit", "navigation.expand", "navigation.path", "navigation.prune", "navigation.indexes", "navigation.top", "navigation.footer", "toc.follow", "search.suggest", "search.highlight", "search.share"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../assets/javascripts/bundle.83f73b43.min.js"></script>
-      
-        <script src="../../js/extra.js"></script>
-      
-        <script src="../../js/katex.js"></script>
-      
-        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
-      
-        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
       
     
   </body>

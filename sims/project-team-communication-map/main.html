@@ -3,113 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <!-- microsim-scaffold-stub -->
     <title>Project Team Contracts and Communication Map</title>
-    <script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
     <style>
-        * { box-sizing: border-box; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 14px;
-            color: black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            color: #212529;
+        }
+        #container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
             background: white;
         }
-        #app {
-            width: 100%;
-            height: 100vh;
-            border: 1px solid silver;
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #1a3a6c;
+        }
+        .placeholder {
+            border: 2px dashed #adb5bd;
+            border-radius: 8px;
+            padding: 40px 20px;
+            text-align: center;
+            color: #6c757d;
+            margin: 20px 0;
+            min-height: 400px;
             display: flex;
             flex-direction: column;
-            background: white;
-        }
-        #titleBar {
-            flex: 0 0 auto;
-            text-align: center;
-            font-size: 22px;
-            padding: 4px 6px 2px 6px;
-            background: aliceblue;
-        }
-        #network {
-            flex: 0 0 370px;
-            height: 370px;
-            min-height: 0;
-            overflow: hidden;
-            background: aliceblue;
-            border-bottom: 1px solid silver;
-        }
-        #controls {
-            flex: 0 0 auto;
-            display: flex;
-            flex-wrap: wrap;
+            justify-content: center;
             align-items: center;
-            gap: 6px 10px;
-            padding: 6px 8px;
-            font-size: 15px;
-            border-bottom: 1px solid silver;
         }
-        #controls select { font-size: 15px; padding: 2px 4px; }
-        #controls button { font-size: 15px; padding: 3px 10px; cursor: pointer; }
-        #controls button.active { background: darkorange; border: 1px solid black; font-weight: bold; }
-        #legend {
-            flex: 0 0 auto;
-            display: flex;
-            flex-wrap: wrap;
-            gap: 4px 18px;
-            padding: 4px 10px;
+        .placeholder .badge {
+            display: inline-block;
+            background: #ffc107;
+            color: #212529;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .placeholder h2 {
+            font-size: 18px;
+            color: #495057;
+            margin-bottom: 8px;
+        }
+        .placeholder p {
             font-size: 14px;
-            border-bottom: 1px solid silver;
+            max-width: 480px;
         }
-        div.vis-tooltip { white-space: normal !important; max-width: 280px; font-size: 14px !important; padding: 6px 8px !important; }
-        .swatch { display: inline-block; width: 34px; vertical-align: middle; margin-right: 6px; }
-        .contract { border-top: 4px solid navy; }
-        .comm { border-top: 3px dashed gray; }
-        #info {
-            flex: 1 1 auto;
-            padding: 6px 12px;
-            line-height: 1.35;
-            overflow: auto;
+        .meta {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+            padding-top: 12px;
         }
-        #info h3 { margin: 0 0 3px 0; font-size: 16px; color: navy; }
-        #info p { margin: 2px 0; }
-        #info ol { margin: 3px 0 3px 0; padding-left: 22px; }
-        #info li { margin: 1px 0; }
-        #info li.now { background: moccasin; font-weight: bold; }
-        #info .note { margin-top: 4px; padding: 3px 8px; border-left: 4px solid navy; background: aliceblue; }
-        @media (max-width: 520px) {
-            #titleBar { font-size: 17px; }
-            #network { flex-basis: 300px; height: 300px; }
-            #controls { font-size: 14px; gap: 5px 6px; }
-            #controls select, #controls button { font-size: 14px; }
-            #controls button { padding: 3px 7px; }
-            #legend { font-size: 13px; gap: 2px 12px; }
-            #info { font-size: 13px; padding: 4px 8px; line-height: 1.3; }
-            #info h3 { font-size: 15px; }
-        }
+        .meta strong { color: #495057; }
     </style>
-    <script src="project-team-communication-map.js"></script>
 </head>
 <body>
-    <div id="app">
-        <div id="titleBar">Project Team Contracts and Communication Map</div>
-        <div id="network" role="img" aria-label="Network of project participants: Owner, Architect, Engineers, General Contractor, Subcontractors, and Building Official, joined by contract lines and communication lines"></div>
-        <div id="controls">
-            <label for="method">Delivery method:</label>
-            <select id="method">
-                <option value="dbb">Design-bid-build</option>
-                <option value="db">Design-build</option>
-                <option value="cmar">Construction manager at risk</option>
-            </select>
-            <button id="btnSubmittal">Submittal</button>
-            <button id="btnRfi">RFI</button>
-            <button id="btnChange">Change order</button>
+    <div id="container">
+        <h1>Project Team Contracts and Communication Map</h1>
+        <div class="placeholder">
+            <span class="badge">SCAFFOLD</span>
+            <h2>MicroSim Not Yet Implemented</h2>
+            <p>This MicroSim has been scaffolded from its specification but the
+            interactive content has not been built yet. See the chapter source
+            and the <code>index.md</code> in this directory for the full spec.</p>
         </div>
-        <div id="legend">
-            <span><span class="swatch contract"></span>Contract (solid, dark blue)</span>
-            <span><span class="swatch comm"></span>Communication, no contract (dashed, gray)</span>
+        <div class="meta">
+            <p><strong>Sim ID:</strong> project-team-communication-map</p>
+            <p><strong>Library:</strong> vis-network</p>
+            <p><strong>Bloom Level:</strong> TBD</p>
+            <p><strong>Learning Objective:</strong> Students will trace (Bloom Level 4, Analyze) the route taken by a submittal, a request for information, and a change order through the project team, and will explain (Bloom Level 2, Understand) why subcontractors communicate with the design team only through the general contractor.</p>
         </div>
-        <div id="info" aria-live="polite"></div>
     </div>
+
+    <!--
+    SPECIFICATION (from chapter index.md):
+
+    Type: graph-model
+    **sim-id:** project-team-communication-map<br/>
+    **Library:** vis-network<br/>
+    **Status:** Specified
+    
+    Learning objective: Students will trace (Bloom Level 4, Analyze) the route taken by a submittal, a request for information, and a change order through the project team, and will explain (Bloom Level 2, Understand) why subcontractors communicate with the design team only through the general contractor.
+    
+    Visual: A network with nodes for Owner, Architect, Engineers, General Contractor, Subcontractors, and Building Official. Solid edges show contracts (Owner to Architect, Owner to General Contractor, Architect to Engineers, General Contractor to Subcontractors). Dashed edges show communication that has no contract (Building Official to General Contractor, Architect to Subcontractors). The default view shows design-bid-build. The canvas fills the container width with a height of 480 px and responds to window resize.
+    
+    Interactions: Clicking a node opens an infobox with the participant's role and responsibilities, drawn from this chapter. Three buttons labeled "Submittal," "RFI," and "Change order" animate a token along the correct path, with a step-by-step caption in the infobox, for example "1. Subcontractor prepares shop drawings. 2. General contractor checks and forwards. 3. Architect and engineer review. 4. Returned to the general contractor, who returns it to the subcontractor." Hovering over an edge shows whether it is a contract or an informal communication path.
+    
+    Behavior: A dropdown labeled "Delivery method" redraws the contract lines for design-build and construction manager at risk. In design-build, the Architect node moves under the General Contractor node.
+    
+    Colors: Contract edges are dark blue, and communication edges are gray. Nodes are labeled with text as well as color.
+    
+    Implementation: vis-network with custom edge styles, a token-animation routine, and an infobox div.
+    -->
 </body>
 </html>

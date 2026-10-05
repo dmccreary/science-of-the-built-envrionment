@@ -3,21 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
-    <title>Drawing Scale Calculator MicroSim using P5.js 2.3.2</title>
-    <script src="https://cdn.jsdelivr.net/npm/p5@2.3.2/lib/p5.js"></script>
+    <!-- microsim-scaffold-stub -->
+    <title>Drawing Scale Calculator</title>
     <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            margin: 0px;
-            padding: 0px;
-            font-family: Arial, Helvetica, sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f8f9fa;
+            color: #212529;
         }
+        #container {
+            width: 100%;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+        }
+        h1 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #1a3a6c;
+        }
+        .placeholder {
+            border: 2px dashed #adb5bd;
+            border-radius: 8px;
+            padding: 40px 20px;
+            text-align: center;
+            color: #6c757d;
+            margin: 20px 0;
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .placeholder .badge {
+            display: inline-block;
+            background: #ffc107;
+            color: #212529;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        .placeholder h2 {
+            font-size: 18px;
+            color: #495057;
+            margin-bottom: 8px;
+        }
+        .placeholder p {
+            font-size: 14px;
+            max-width: 480px;
+        }
+        .meta {
+            margin-top: 20px;
+            font-size: 13px;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+            padding-top: 12px;
+        }
+        .meta strong { color: #495057; }
     </style>
-    <script src="drawing-scale-calculator.js"></script>
 </head>
 <body>
-    <main></main>
-    <br/>
-    <a href=".">Back to Drawing Scale Calculator Lesson Plan</a>
+    <div id="container">
+        <h1>Drawing Scale Calculator</h1>
+        <div class="placeholder">
+            <span class="badge">SCAFFOLD</span>
+            <h2>MicroSim Not Yet Implemented</h2>
+            <p>This MicroSim has been scaffolded from its specification but the
+            interactive content has not been built yet. See the chapter source
+            and the <code>index.md</code> in this directory for the full spec.</p>
+        </div>
+        <div class="meta">
+            <p><strong>Sim ID:</strong> drawing-scale-calculator</p>
+            <p><strong>Library:</strong> p5.js</p>
+            <p><strong>Bloom Level:</strong> TBD</p>
+            <p><strong>Learning Objective:</strong> Students will calculate (Bloom Level 3, Apply) the real length of a wall from a drawn length and a stated scale, and explain (Bloom Level 2, Understand) why a changed print size breaks the scale.</p>
+        </div>
+    </div>
+
+    <!--
+    SPECIFICATION (from chapter index.md):
+
+    Type: microsim
+    **sim-id:** drawing-scale-calculator<br/>
+    **Library:** p5.js<br/>
+    **Status:** Specified
+    
+    Learning objective: Students will calculate (Bloom Level 3, Apply) the real length of a wall from a drawn length and a stated scale, and explain (Bloom Level 2, Understand) why a changed print size breaks the scale.
+    
+    Visual: A simple floor plan drawn on a canvas that is 600 px wide by 400 px high and resizes with the window. A draggable measuring line with end handles is placed on a wall. A readout shows the drawn length in inches, the selected scale, and the computed real length in feet-inches and in millimeters.
+    
+    Controls: A dropdown to select 1/8" = 1'-0", 1/4" = 1'-0", 1/2" = 1'-0", or 3" = 1'-0". A slider labeled "Print size" from 50% to 150% that rescales the drawing, with a warning message appearing when the slider is not at 100% that says the printed scale no longer applies. A "Check my answer" button lets the student type a length before the readout is revealed.
+    
+    Behavior: Dragging the handles updates the readout live. Changing the scale recomputes the real length. Default state: scale 1/4" = 1'-0", print size 100%.
+    
+    Implementation: p5.js with a responsive canvas and DOM controls.
+    -->
 </body>
 </html>

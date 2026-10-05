@@ -3,7 +3,7 @@
   "description": "Students will identify (Bloom Level 1, Remember) the six building systems in a simple building section and analyze (Bloom Level 4, Analyze) which other systems are affected when one system changes.",
   "creator": "The Science of the Built Environment",
   "author": "Dan McCreary",
-  "date": "2026-10-03",
+  "date": "2026-10-02",
   "subject": [
     "The Science of the Built Environment"
   ],
@@ -13,50 +13,11 @@
   "rights": "CC BY-NC-SA 4.0",
   "identifier": "building-systems-cutaway",
   "library": "p5.js",
-  "bloomLevel": "Remember, Analyze",
-  "bloomVerb": "identify, analyze",
-  "completion_status": "built",
+  "bloomLevel": "TBD",
+  "bloomVerb": "TBD",
+  "completion_status": "scaffold",
   "chapter_number": 1,
   "chapter_title": "Introduction to the Built Environment and Construction Terminology",
   "chapter_dir": "01-intro-terminology",
-  "chapter_rel_dir": "chapters/01-intro-terminology",
-  "canvasHeight": 515,
-  "educational": {
-    "educationalLevel": "Undergraduate, Adult learners",
-    "learningResourceType": "simulation",
-    "bloomLevel": [
-      "Remember",
-      "Analyze"
-    ],
-    "concepts": [
-      "Building systems",
-      "Structure",
-      "Enclosure",
-      "Mechanical, plumbing, electrical",
-      "Fire protection",
-      "System interdependence"
-    ],
-    "prerequisites": [
-      "Basic building vocabulary (wall, floor, roof)",
-      "None beyond Chapter 1 introduction"
-    ]
-  },
-  "pedagogical": {
-    "learningObjective": "Identify the six building systems in a house section and analyze which other systems are affected when one system changes.",
-    "recommendedUsage": [
-      "Click a system name in the legend to hide or show that system's layer. Each swatch is labeled with text as well as color.",
-      "Click any component, or hover for its name, to see its system and the other systems that depend on it. Those systems stay bright and the rest fade.",
-      "Choose a What if? scenario (Remove insulation, Add a large window, or Move the furnace) to see which system changes and which others are affected.",
-      "Press Reset view to bring back all layers and clear the selection."
-    ],
-    "activities": [
-      "Warm-up (5 min): Students hide all layers but one and list the components of that system from memory before revealing it.",
-      "Explore (10 min): Students click five components in different systems and record which systems depend on each one.",
-      "Analyze (10 min): Students run each What if? scenario, predict the affected systems first, then compare with the sim and discuss any they missed."
-    ],
-    "assessment": [
-      "Students name the six systems and give one component of each.",
-      "Students explain in three sentences how removing wall insulation affects at least two other systems."
-    ]
-  }
+  "chapter_rel_dir": "chapters/01-intro-terminology"
 }
