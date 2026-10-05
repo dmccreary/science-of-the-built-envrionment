@@ -1,0 +1,57 @@
+{
+  "title": "Low-slope warm roof",
+  "description": "Identify the layers of a low-slope warm roof and predict the consequence of removing or puncturing the membrane, vapor retarder, or insulation.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-04",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "example-low-slope-warm-roof",
+  "library": "p5.js",
+  "generator": "layered-assembly-infographic engine 1.1.0",
+  "bloomLevel": "Remember, Understand",
+  "bloomVerb": "identify, predict",
+  "completion_status": "built",
+  "chapter_number": 13,
+  "chapter_title": "Roof Assemblies",
+  "chapter_dir": "13-roof-assemblies",
+  "chapter_rel_dir": "chapters/13-roof-assemblies",
+  "canvasHeight": 702,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Remember",
+      "Understand"
+    ],
+    "concepts": [
+      "Low-slope roof",
+      "Roof membrane",
+      "Vapor retarder",
+      "Roof insulation"
+    ],
+    "prerequisites": [
+      "Heat transfer and R-values",
+      "Moisture and air movement"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Identify the layers of a low-slope warm roof and predict the consequence of removing or puncturing the membrane, vapor retarder, or insulation.",
+    "recommendedUsage": [
+      "Read the roof from the sky (top) to the room (bottom). Each numbered label names a layer.",
+      "Click a layer or its label to see what it is and why it is there.",
+      "Untick a layer's checkbox to remove that layer, or choose Punch a hole first to puncture it, and watch where the colored dots stop or pass."
+    ],
+    "activities": [
+      "Predict and test (10 min): before unticking a box, predict which flows will pass, then check."
+    ],
+    "assessment": [
+      "Name the layer that keeps rain out and the layer that keeps room vapor out of the insulation."
+    ]
+  }
+}

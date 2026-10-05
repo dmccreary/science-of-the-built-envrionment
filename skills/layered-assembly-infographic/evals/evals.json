@@ -1,0 +1,26 @@
+{
+  "skill_name": "layered-assembly-infographic",
+  "evals": [
+    {
+      "id": 1,
+      "eval_name": "slab-on-grade-vertical-stack",
+      "prompt": "I need a MicroSim for chapter 10 (foundation systems) showing the layers under and in a heated slab-on-grade floor: compacted gravel, sand, a vapor retarder, rigid foam under the slab, and the concrete slab. I want students to see how ground moisture and heat move through it and what happens if the vapor retarder or the foam is left out.",
+      "expected_output": "A complete layered-assembly sim folder with a vertical stack, moisture/vapor and heat flows, break-the-layer behavior, index.md with status built, and a validated spec.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "eval_name": "fire-rated-partition-horizontal-stack",
+      "prompt": "Chapter 18 needs an interactive of a one-hour fire-rated interior partition wall: two layers of Type X gypsum board on each side of steel studs with mineral wool in the cavity. Show how fire, heat, and sound get through, and let students take layers away to see what fails first.",
+      "expected_output": "A complete layered-assembly sim folder with a horizontal stack, fire/heat/sound flows, break-the-layer behavior, and lesson text that reflects the chapter.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "eval_name": "rainscreen-overlaps-existing-sim",
+      "prompt": "Make me a layers MicroSim for the rainscreen cladding wall in chapter 12 - brick veneer, the air gap, the weather barrier, the sheathing - showing the water path and where air leaks. Add it to the book.",
+      "expected_output": "The agent notices that docs/sims/cladding-rainscreen-water-path-explorer already covers this topic and tells the user, then still delivers a validated layered-assembly sim in the requested output location without editing the repository's mkdocs.yml.",
+      "files": []
+    }
+  ]
+}

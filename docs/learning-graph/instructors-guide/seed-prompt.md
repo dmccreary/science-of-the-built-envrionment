@@ -21,4 +21,11 @@ The following prompt was given to Dan McCreary (using Claude Sonnet 5.5) on Frid
 
 ## Result
 
-[Course Description](../course-description.md)
+[Course Description](../../course-description.md)
+
+## Log Files
+
+You can also access the log files that were used to see how this textbook was generated.
+
+- [Log Files](https://github.com/dmccreary/science-of-the-built-envrionment/tree/main/logs)
+- [Initialize Textbook Session](https://github.com/dmccreary/science-of-the-built-envrionment/blob/main/logs/init-textbook.md)

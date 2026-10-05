@@ -1,0 +1,63 @@
+{
+  "title": "Brick veneer rainscreen wall",
+  "description": "Identify the four layers of a brick veneer wall with a drained air gap, explain the job each does, and predict what reaches the sheathing when a layer is missing or punctured.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-04",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "brick-veneer-rainscreen-layer-explorer",
+  "library": "p5.js",
+  "generator": "layered-assembly-infographic engine 1.1.0",
+  "bloomLevel": "Understand, Analyze",
+  "bloomVerb": "explain, predict",
+  "completion_status": "built",
+  "chapter_number": 12,
+  "chapter_title": "Cladding, Windows, Doors, and Air Sealing",
+  "chapter_dir": "12-cladding-windows-air-sealing",
+  "chapter_rel_dir": "chapters/12-cladding-windows-air-sealing",
+  "canvasHeight": 662,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Understand",
+      "Analyze"
+    ],
+    "concepts": [
+      "Brick veneer",
+      "Rainscreen",
+      "Weather-resistive barrier",
+      "Air barrier",
+      "Flashing"
+    ],
+    "prerequisites": [
+      "Control layers (Chapter 11)",
+      "Weather-resistive barrier (Chapter 11)",
+      "Air control layer (Chapter 11)"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Identify the four layers of a brick veneer wall with a drained air gap, explain the job each does, and predict what reaches the sheathing when a layer is missing or punctured.",
+    "recommendedUsage": [
+      "Read the wall from outside (left) to the framed wall (right). Each numbered label names a layer; the gray line under it says what the layer does.",
+      "Click a layer or its label to read what it is, why it is there, and what happens if it fails.",
+      "Leave Rain and Air ticked and watch the dots. Rain is slowed by the brick, so a few drops reach the gap, and the weather barrier stops all of them. Air passes straight through the brick, the gap, and the barrier until it meets the sheathing.",
+      "Untick a layer's checkbox to remove that layer, or choose Punch a hole first to puncture it instead. Read the status line under the title to see where each flow now ends up.",
+      "Slide Explode to pull the layers apart, and tick Line art for a black-and-white view you can print."
+    ],
+    "activities": [
+      "Predict and test (10 min): for each of the four layers, predict whether removing it lets rain reach the sheathing, lets air reach the sheathing, both, or neither. Then check.",
+      "Compare (10 min): puncture the weather barrier and then the sheathing. Say which hole is a water problem and which is an air problem, and where a real crew would find each one."
+    ],
+    "assessment": [
+      "Explain in two sentences why rain that gets past the brick does not reach the sheathing in this wall.",
+      "Name the layer that stops air in this drawing, and say why the brick and the air gap cannot do that job."
+    ]
+  }
+}

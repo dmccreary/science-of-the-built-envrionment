@@ -48,6 +48,17 @@ docs/css/extra.css          custom CSS (status indicators, iframe styles)
 docs/img/                   cover image, license badge, mascot poses
 ```
 
+## Next steps and project skills
+
+Planned improvements are tracked in `docs/learning-graph/next-steps.md`.
+That is where we store the project's next steps: read it before proposing
+new features, and update the status table there when an idea moves forward.
+
+Skills specific to this book (and to sister trade books) live in `skills/`,
+not in the global skills folder. They are for building/trades content only.
+Currently: `skills/layered-assembly-infographic` (assembly cross-sections with
+callouts, layer toggles, and flows).
+
 ## Build and serve rules
 
 - **Never start or kill `mkdocs serve`.** The author runs it in their own
@@ -86,6 +97,13 @@ complex, it needs a MicroSim — do not settle for a wall of text.
   New sims are born `scaffold`. Bump to `built` when you write a real
   implementation. **Never auto-advance a sim to `approved`** — only the human
   author does that, after exercising the controls.
+
+### Test widths
+
+The book's first goal is to look good on a standard laptop for students who use
+laptops. Test every MicroSim fullscreen on a landscape laptop screen and in a
+**640 px wide** iframe column, which is the minimum test width unless the author
+says otherwise. Phone layouts are not a concern in the initial phases.
 
 ### p5.js specifics
 
