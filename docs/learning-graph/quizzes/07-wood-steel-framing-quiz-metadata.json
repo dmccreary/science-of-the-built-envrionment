@@ -1,0 +1,354 @@
+{
+  "chapter": "Wood and Steel Framing",
+  "chapter_file": "docs/chapters/07-wood-steel-framing/index.md",
+  "quiz_file": "docs/chapters/07-wood-steel-framing/quiz.md",
+  "generated_date": "2026-10-04",
+  "total_questions": 18,
+  "questions": [
+    {
+      "id": "07-q001",
+      "number": 1,
+      "question_text": "A designer calculates the area of a nominal 2\u00d76 stud for a load check. Which area should be used?",
+      "options": {
+        "A": "8.25 in\u00b2, from the actual size of 1.5 in. by 5.5 in.",
+        "B": "12.0 in\u00b2, from the nominal size of 2 in. by 6 in. used in the lumber's name",
+        "C": "7.0 in\u00b2, from a size of 1.5 in. by 4.5 in.",
+        "D": "5.5 in\u00b2, from the width of the face alone"
+      },
+      "correct_answer": "A",
+      "explanation": "Lumber is sold by nominal size, a rounded name, but the actual size is smaller because the piece loses material in drying and planing. Structural calculations always use the actual size, so a 2\u00d76 is 1.5 \u00d7 5.5 in. = 8.25 in\u00b2. Using the nominal 2 \u00d7 6 overstates the area by almost half, which makes the member look stronger than it is.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Lumber",
+      "source_link": "../chapters/07-wood-steel-framing/index.md#lumber",
+      "explanation_word_count": 63
+    },
+    {
+      "id": "07-q002",
+      "number": 2,
+      "question_text": "Why can an I-joist be nearly as stiff as a sawn 2\u00d712 while using about half the wood?",
+      "options": {
+        "A": "Its web is made of steel, which supplies most of the stiffness without adding any wood to the joist",
+        "B": "Its flanges are cross-laminated, so the grain of each layer resists bending in both directions",
+        "C": "Its adhesive bonds expand when loaded, which raises the moment of inertia of the thin web",
+        "D": "Its flanges place material far from the center of the section, where it adds the most stiffness"
+      },
+      "correct_answer": "D",
+      "explanation": "A beam's stiffness depends on depth cubed, so material far from the neutral axis is more valuable than material near it. An 11\u215e in. I-joist has about 164 in\u2074 and 8.6 in\u00b2 of wood, versus 178 in\u2074 and 16.9 in\u00b2 for the sawn 2\u00d712. Its web is OSB, not steel, and cross-lamination describes plywood and CLT rather than flanges.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Engineered Wood Products",
+      "source_link": "../chapters/07-wood-steel-framing/index.md#engineered-wood-products",
+      "explanation_word_count": 59
+    },
+    {
+      "id": "07-q003",
+      "number": 3,
+      "question_text": "Why are framing members commonly spaced at 16 or 24 in. on center?",
+      "options": {
+        "A": "Both match the minimum spacing the code allows between studs in bearing walls",
+        "B": "Both keep the studs far enough apart to eliminate thermal bridging",
+        "C": "Both divide 48 in. evenly, so they match the 4 ft by 8 ft sheathing panels",
+        "D": "Both are the only spacings at which light-frame wood walls can resist wind"
+      },
+      "correct_answer": "C",
+      "explanation": "Light-frame wood construction uses closely spaced studs, joists, and rafters or trusses covered with sheathing, and the spacing is chosen so panel edges fall on framing members. The numerous members make the system redundant: a weak stud shares its load through the sheathing. Spacing does not eliminate thermal bridging, and other spacings can resist wind.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Wood Framing",
+      "source_link": "../chapters/07-wood-steel-framing/index.md#wood-framing",
+      "explanation_word_count": 55
+    },
+    {
+      "id": "07-q004",
+      "number": 4,
+      "question_text": "How does OSB differ in construction from plywood?",
+      "options": {
+        "A": "OSB is made of veneers with parallel grain, while plywood is made of strands aligned in a single direction under heat",
+        "B": "OSB is made of wood strands aligned in layers and bonded with resin, while plywood is veneers with alternating grain",
+        "C": "OSB is made of finger-jointed laminations, while plywood is made of crossing boards",
+        "D": "OSB is a hardwood product used only for finishes, while plywood is a softwood used only for framing work"
+      },
+      "correct_answer": "B",
+      "explanation": "Plywood is thin veneers peeled from a log and glued with each layer perpendicular to its neighbors, which makes it nearly equal in strength in both directions. OSB uses long strands in oriented layers, bonded under heat and pressure. Both are 4 ft by 8 ft structural sheathing panels with a span rating, and OSB edges can swell if soaked.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Plywood and OSB",
+      "source_link": "../chapters/07-wood-steel-framing/index.md#plywood-and-osb",
+      "explanation_word_count": 60
+    },
+    {
+      "id": "07-q005",
+      "number": 5,
+      "question_text": "A roof has an 8:12 pitch. How much does it rise over a horizontal run of 9 ft?",
+      "options": {
+        "A": "13.5 ft",
+        "B": "4.5 ft",
+        "C": "6.0 ft",
+        "D": "8.0 ft"
+      },
+      "correct_answer": "C",
+      "explanation": "Roof pitch is the rise in inches per 12 in. of run, so rise = run \u00d7 8/12 = 9 \u00d7 8/12 = 6.0 ft. The value 13.5 ft inverts the ratio, 4.5 ft uses a 6:12 slope, and 8.0 ft takes the pitch number as feet. Knowing the rise lets you find rafter length with the Pythagorean theorem and order lumber in standard lengths.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Roof Framing",
+      "source_link": "../chapters/07-wood-steel-framing/index.md#roof-framing",
+      "explanation_word_count": 65
+    },
+    {
+      "id": "07-q006",
+      "number": 6,
+      "question_text": "Why is structural steel usually protected with fireproofing and coatings even though it is strong, stiff, and ductile?",
+      "options": {
+        "A": "It burns in a fire because it is combustible, and it swells when exposed to moisture",
+        "B": "It loses strength at temperatures reached in a building fire and corrodes without coatings",
+        "C": "It cannot carry compression after yielding, and it conducts too little heat to dissipate fire",
+        "D": "It shrinks as it dries, so cladding attached to steel would crack over time"
+      },
+      "correct_answer": "B",
+      "explanation": "Steel is an alloy with a modulus of about 29,000 ksi and yield strength of 36 to 50 ksi, and it gives warning of overload by stretching. Its weaknesses are loss of strength in fire, which is why it gets sprayed-on fireproofing, intumescent paint, or gypsum enclosures, and corrosion. It is noncombustible and conducts heat well, so it is also an effective thermal bridge.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Structural Steel",
+      "source_link": "../chapters/07-wood-steel-framing/index.md#structural-steel",
+      "explanation_word_count": 64
+    },
+    {
+      "id": "07-q007",
+      "number": 7,
+      "question_text": "What is the main trade-off of platform framing compared with balloon framing?",
+      "options": {
+        "A": "Each platform lets studs run continuously, but fire can spread freely through the open wall cavities above",
+        "B": "Each platform reduces shrinkage to zero, but workers lack a safe surface from which to build the next story",
+        "C": "Each platform lowers the cost of walls, but joists carry no load from the framing above",
+        "D": "Each platform interrupts vertical fire paths, but horizontal-grain wood at every floor adds cumulative shrinkage"
+      },
+      "correct_answer": "D",
+      "explanation": "In platform framing each story is a separate platform, so the floor interrupts cavities that let fire race upward and gives workers a safe surface. The joist and plates have their grain horizontal, so they shrink in height as they dry; about 0.28 in. per floor in the example, or 0.83 in. over three floors. Balloon framing ran studs continuously through all floors.",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Platform Framing",
+      "source_link": "../chapters/07-wood-steel-framing/index.md#platform-framing",
+      "explanation_word_count": 63
+    },
+    {
+      "id": "07-q008",
+      "number": 8,
+      "question_text": "Which set of functions describes wall studs?",
+      "options": {
+        "A": "They carry vertical loads, resist wind pressure by spanning between floors, and provide nailing for sheathing",
+        "B": "They span openings to carry loads around them, and they are sized from the code's span tables for houses",
+        "C": "They tie the roof to the walls and resist uplift from wind suction, using metal straps and screws",
+        "D": "They support the subfloor and keep the floor from bouncing under foot traffic across the joist span"
+      },
+      "correct_answer": "A",
+      "explanation": "Studs are the vertical members of a framed wall, typically 2\u00d74 or 2\u00d76 at 16 or 24 in. on center. A 2\u00d76 gives a deeper cavity for insulation, so many Minnesota exterior walls use them. Spanning openings is the job of headers, tying roofs to walls is done by metal straps, and supporting the floor is the job of joists and the subfloor.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Wall Studs",
+      "source_link": "../chapters/07-wood-steel-framing/index.md#wall-studs",
+      "explanation_word_count": 63
+    },
+    {
+      "id": "07-q009",
+      "number": 9,
+      "question_text": "Why is glulam stronger than sawn lumber of the same size?",
+      "options": {
+        "A": "Defects are scattered across many laminations, and the best lumber goes at top and bottom where bending stress peaks",
+        "B": "Its laminations run perpendicular to one another, so each layer reinforces the layers above and below it in bending",
+        "C": "Its laminations are made of steel-reinforced veneers that carry the bending stresses",
+        "D": "Its adhesive is stronger than the lumber itself, so the member can never fail along its glue lines"
+      },
+      "correct_answer": "A",
+      "explanation": "Glulam bonds many layers of lumber face-to-face with the grain of every layer along the length, and finger joints allow members much longer than a single board. Because knots are scattered and top and bottom laminations hold the best lumber, it outperforms sawn lumber. Crossing layers describe CLT, not glulam, and large glulam members also char slowly in a fire.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Glulam",
+      "source_link": "../chapters/07-wood-steel-framing/index.md#glulam",
+      "explanation_word_count": 60
+    },
+    {
+      "id": "07-q010",
+      "number": 10,
+      "question_text": "Which statement correctly describes cross-laminated timber?",
+      "options": {
+        "A": "A beam of thin veneers glued with parallel grain, used as headers and girders in framed buildings",
+        "B": "A panel of oriented wood strands bonded in layers, used mainly as wall and roof sheathing",
+        "C": "A large panel of boards in perpendicular glued layers, used as a floor, wall, or roof panel",
+        "D": "A member of finger-jointed laminations bent into curves, used for arches and gymnasium beams"
+      },
+      "correct_answer": "C",
+      "explanation": "CLT typically has three, five, or seven layers, each perpendicular to the one beneath, so the panel carries load in both directions like a thick plate. It is cut and prepared in a factory and erected by crane, and it belongs to the mass timber group. The parallel-veneer product is LVL, the strand panel is OSB, and the curved member is glulam.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Cross-Laminated Timber",
+      "source_link": "../chapters/07-wood-steel-framing/index.md#cross-laminated-timber",
+      "explanation_word_count": 62
+    },
+    {
+      "id": "07-q011",
+      "number": 11,
+      "question_text": "A wood sample weighs 48 g as delivered and 40 g after oven drying. What is its moisture content?",
+      "options": {
+        "A": "16.7 percent",
+        "B": "8 percent",
+        "C": "120 percent",
+        "D": "20 percent"
+      },
+      "correct_answer": "D",
+      "explanation": "Moisture content is the mass of water divided by the oven-dry mass: (48 \u2212 40) / 40 = 0.20, or 20 percent. Dividing by the wet mass gives 16.7 percent, which understates it. The value 8 is the water mass in grams, not a percentage, and 120 percent divides the wet mass by the dry mass. At a sustained 20 percent, decay fungi can begin to grow.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Wood Moisture Content",
+      "source_link": "../chapters/07-wood-steel-framing/index.md#wood-moisture-content",
+      "explanation_word_count": 67
+    },
+    {
+      "id": "07-q012",
+      "number": 12,
+      "question_text": "A W14\u00d730 wide-flange beam is 30 ft long. About how much does the beam weigh?",
+      "options": {
+        "A": "420 lb",
+        "B": "900 lb",
+        "C": "14 lb",
+        "D": "30 lb"
+      },
+      "correct_answer": "B",
+      "explanation": "The designation names a wide-flange shape about 14 in. deep that weighs 30 lb per foot, so weight = 30 lb/ft \u00d7 30 ft = 900 lb. Multiplying the depth by the length gives 420, which treats the depth as the weight. The values 14 and 30 lb are only single numbers from the name, and the beam's dead load follows from weight per foot times length.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Steel Shapes",
+      "source_link": "../chapters/07-wood-steel-framing/index.md#steel-shapes",
+      "explanation_word_count": 67
+    },
+    {
+      "id": "07-q013",
+      "number": 13,
+      "question_text": "In the framing around a window opening, which members carry the header's load down to the floor framing and foundation?",
+      "options": {
+        "A": "Cripple studs, which fill the short spaces above the header",
+        "B": "King studs, which run the full height of the wall",
+        "C": "Sole plates, which run along the bottom of the wall",
+        "D": "Jack studs, also called trimmers, at each end of the header"
+      },
+      "correct_answer": "D",
+      "explanation": "A header is a beam over an opening that carries loads around it. Jack studs stand at each end of the header and support it. King studs run the full wall height beside them to tie the opening to the plates and brace it against wind, and cripple studs fill the short spaces above the header and below a sill. Plates do not support the header's concentrated end loads.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Headers",
+      "source_link": "../chapters/07-wood-steel-framing/index.md#headers",
+      "explanation_word_count": 69
+    },
+    {
+      "id": "07-q014",
+      "number": 14,
+      "question_text": "Why do stiffness and vibration, rather than strength, usually decide joist size in a wood floor?",
+      "options": {
+        "A": "Wood joists are always strong enough, so no strength check is ever needed",
+        "B": "Subfloors carry most of the load, so joists do not need to resist bending",
+        "C": "Occupants notice a bouncy floor long before it threatens collapse",
+        "D": "Codes limit joist spans only by stiffness and not by any strength requirement"
+      },
+      "correct_answer": "C",
+      "explanation": "A floor system is joists or trusses with a subfloor, and strength is rarely the controlling issue. A floor that sags or bounces is unacceptable even if it never breaks, so deflection and vibration limits set the member size. Strength must still be checked, and the floor also acts as the horizontal diaphragm that collects lateral loads and passes them to shear walls.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Floor Systems",
+      "source_link": "../chapters/07-wood-steel-framing/index.md#floor-systems",
+      "explanation_word_count": 63
+    },
+    {
+      "id": "07-q015",
+      "number": 15,
+      "question_text": "How does a slip-critical bolted connection carry load differently from a bearing-type connection?",
+      "options": {
+        "A": "The bolts are tightened snug so the shank presses on the sides of the hole and carries the load",
+        "B": "The bolts are tightened to a specified high tension, so friction between clamped plates carries the load",
+        "C": "The bolts are welded to the plates, so the load passes through the weld and not through the bolts",
+        "D": "The bolts are left loose, so the plates can slip until they bear against the nut and washer"
+      },
+      "correct_answer": "B",
+      "explanation": "In a bearing-type connection the bolts are snug and load passes from plate to plate as the shank bears on the hole. In a slip-critical connection the plates are clamped together and friction carries the load. Bolts are the common choice for field connections because ordinary wrenches work in any weather, and holes are slightly oversized for erection tolerance.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Bolted Connections",
+      "source_link": "../chapters/07-wood-steel-framing/index.md#bolted-connections",
+      "explanation_word_count": 59
+    },
+    {
+      "id": "07-q016",
+      "number": 16,
+      "question_text": "Why are most structural welds made in the fabricator's shop, with the pieces then bolted together on site?",
+      "options": {
+        "A": "Shop conditions are controlled, while field welding needs qualified welders, inspection, and preheating in cold",
+        "B": "Shop welds are always stronger than any bolted joint, so no site connection is ever needed in the building",
+        "C": "Bolts cannot be tightened in cold weather, so field welding is the only option for connections made on site",
+        "D": "Welding is allowed only on plates and never on beams, so the shop prepares plates and the field bolts beams"
+      },
+      "correct_answer": "A",
+      "explanation": "A weld melts the edges of the metal with filler so the joint becomes continuous steel. Controlled shop conditions help quality, while field welds, used where a rigid connection such as a moment frame is needed, require qualified welders and visual or ultrasonic inspection. In cold weather, steel is preheated to avoid cracking. Bolts can be installed in any weather with ordinary wrenches.",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Welded Connections",
+      "source_link": "../chapters/07-wood-steel-framing/index.md#welded-connections",
+      "explanation_word_count": 63
+    },
+    {
+      "id": "07-q017",
+      "number": 17,
+      "question_text": "A designer proposes a Minnesota exterior wall of light-gauge steel studs filled only with cavity insulation. What concern does this raise and what is the usual remedy?",
+      "options": {
+        "A": "Steel studs absorb moisture and rot, so the cavity must be filled with a vapor barrier on both faces",
+        "B": "Steel conducts heat so well that studs bridge the insulation, so continuous insulation goes outside the framing",
+        "C": "Steel studs shrink as they dry, so the sheathing must be spaced to allow for movement in the wall",
+        "D": "Steel studs burn at low temperatures, so gypsum must be added to every cavity of the wall assembly"
+      },
+      "correct_answer": "B",
+      "explanation": "Light-gauge steel studs are cold-bent C-shapes in the same arrangement as wood framing. They do not burn, rot, shrink, or attract termites, but steel conducts heat several hundred times as readily as wood, so cavity insulation loses much of its effectiveness. Cold climates therefore need continuous insulation outside the framing, a strategy covered in Chapter 11.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Light-Gauge Steel Framing",
+      "source_link": "../chapters/07-wood-steel-framing/index.md#light-gauge-steel-framing",
+      "explanation_word_count": 56
+    },
+    {
+      "id": "07-q018",
+      "number": 18,
+      "question_text": "What does composite floor deck provide that ordinary roof deck does not?",
+      "options": {
+        "A": "A deeper profile that allows it to span between columns without any supporting beams",
+        "B": "A coating that makes the deck noncombustible and eliminates the need for fire protection",
+        "C": "Embossments that bond to a poured concrete topping so the deck and slab act together",
+        "D": "A wood layer that serves as a nailing surface for the floor finishes above it"
+      },
+      "correct_answer": "C",
+      "explanation": "Steel decking is corrugated sheet steel that spans between joists or beams. Roof deck is about 1\u00bd in. deep and carries roofing and insulation, while composite floor deck has a deeper profile with embossments so that the concrete topping bonds to it. Fastened by welds or screws, any deck also acts as the horizontal diaphragm that carries wind and seismic forces.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Steel Decking",
+      "source_link": "../chapters/07-wood-steel-framing/index.md#steel-decking",
+      "explanation_word_count": 61
+    }
+  ],
+  "answer_distribution": {
+    "A": 4,
+    "B": 5,
+    "C": 5,
+    "D": 4
+  },
+  "bloom_distribution": {
+    "Remember": 6,
+    "Understand": 5,
+    "Apply": 5,
+    "Analyze": 2,
+    "Evaluate": 0,
+    "Create": 0
+  },
+  "concept_coverage": {
+    "total_concepts": 18,
+    "tested_concepts": 18,
+    "coverage_percentage": 100
+  },
+  "content_readiness_score": 90,
+  "overall_quality_score": 92
+}

@@ -38,27 +38,69 @@ nav:
 
   - Chapters:
       - List of Chapters: chapters/index.md
-      - 1. Introduction to the Built Environment and Construction Terminology: chapters/01-intro-terminology/index.md
-      - 2. The Design and Construction Process: chapters/02-design-construction-process/index.md
-      - 3. Forces, Heat, and the Physics of Buildings: chapters/03-forces-heat-physics/index.md
-      - 4. Moisture, Air Movement, and Thermal Comfort: chapters/04-moisture-air-comfort/index.md
-      - 5. Properties of Building Materials: chapters/05-material-properties/index.md
-      - 6. Structural Loads and Load Paths: chapters/06-structural-loads/index.md
-      - 7. Wood and Steel Framing: chapters/07-wood-steel-framing/index.md
-      - 8. Concrete and Masonry: chapters/08-concrete-masonry/index.md
-      - 9. Site Work, Soils, and Groundwater: chapters/09-site-soils/index.md
-      - 10. Foundation Systems: chapters/10-foundation-systems/index.md
-      - 11. Enclosure Control Layers and Insulation: chapters/11-enclosure-insulation/index.md
-      - 12. Cladding, Windows, Doors, and Air Sealing: chapters/12-cladding-windows-air-sealing/index.md
-      - 13. Roof Assemblies: chapters/13-roof-assemblies/index.md
-      - 14. HVAC, Plumbing, and Fire Protection Systems: chapters/14-hvac-plumbing-fire/index.md
-      - 15. Electrical Fundamentals and Building Service: chapters/15-electrical-fundamentals/index.md
-      - 16. Electrical Distribution, Lighting, and Design Team Coordination: chapters/16-electrical-distribution-design/index.md
-      - 17. Building Codes, Permits, and Enforcement: chapters/17-building-codes-permits/index.md
-      - 18. Fire Protection and Life Safety Requirements: chapters/18-fire-life-safety/index.md
-      - 19. Energy Efficiency and High-Performance Buildings: chapters/19-energy-efficiency/index.md
-      - 20. Sustainable Building Materials: chapters/20-sustainable-materials/index.md
-      - 21. Durability, Maintenance, and Building Failure: chapters/21-durability-failure/index.md
+      - 1. Introduction to the Built Environment and Construction Terminology:
+        - Content: chapters/01-intro-terminology/index.md
+        - Quiz: chapters/01-intro-terminology/quiz.md
+      - 2. The Design and Construction Process:
+        - Content: chapters/02-design-construction-process/index.md
+        - Quiz: chapters/02-design-construction-process/quiz.md
+      - 3. Forces, Heat, and the Physics of Buildings:
+        - Content: chapters/03-forces-heat-physics/index.md
+        - Quiz: chapters/03-forces-heat-physics/quiz.md
+      - 4. Moisture, Air Movement, and Thermal Comfort:
+        - Content: chapters/04-moisture-air-comfort/index.md
+        - Quiz: chapters/04-moisture-air-comfort/quiz.md
+      - 5. Properties of Building Materials:
+        - Content: chapters/05-material-properties/index.md
+        - Quiz: chapters/05-material-properties/quiz.md
+      - 6. Structural Loads and Load Paths:
+        - Content: chapters/06-structural-loads/index.md
+        - Quiz: chapters/06-structural-loads/quiz.md
+      - 7. Wood and Steel Framing:
+        - Content: chapters/07-wood-steel-framing/index.md
+        - Quiz: chapters/07-wood-steel-framing/quiz.md
+      - 8. Concrete and Masonry:
+        - Content: chapters/08-concrete-masonry/index.md
+        - Quiz: chapters/08-concrete-masonry/quiz.md
+      - 9. Site Work, Soils, and Groundwater:
+        - Content: chapters/09-site-soils/index.md
+        - Quiz: chapters/09-site-soils/quiz.md
+      - 10. Foundation Systems:
+        - Content: chapters/10-foundation-systems/index.md
+        - Quiz: chapters/10-foundation-systems/quiz.md
+      - 11. Enclosure Control Layers and Insulation:
+        - Content: chapters/11-enclosure-insulation/index.md
+        - Quiz: chapters/11-enclosure-insulation/quiz.md
+      - 12. Cladding, Windows, Doors, and Air Sealing:
+        - Content: chapters/12-cladding-windows-air-sealing/index.md
+        - Quiz: chapters/12-cladding-windows-air-sealing/quiz.md
+      - 13. Roof Assemblies:
+        - Content: chapters/13-roof-assemblies/index.md
+        - Quiz: chapters/13-roof-assemblies/quiz.md
+      - 14. HVAC, Plumbing, and Fire Protection Systems:
+        - Content: chapters/14-hvac-plumbing-fire/index.md
+        - Quiz: chapters/14-hvac-plumbing-fire/quiz.md
+      - 15. Electrical Fundamentals and Building Service:
+        - Content: chapters/15-electrical-fundamentals/index.md
+        - Quiz: chapters/15-electrical-fundamentals/quiz.md
+      - 16. Electrical Distribution, Lighting, and Design Team Coordination:
+        - Content: chapters/16-electrical-distribution-design/index.md
+        - Quiz: chapters/16-electrical-distribution-design/quiz.md
+      - 17. Building Codes, Permits, and Enforcement:
+        - Content: chapters/17-building-codes-permits/index.md
+        - Quiz: chapters/17-building-codes-permits/quiz.md
+      - 18. Fire Protection and Life Safety Requirements:
+        - Content: chapters/18-fire-life-safety/index.md
+        - Quiz: chapters/18-fire-life-safety/quiz.md
+      - 19. Energy Efficiency and High-Performance Buildings:
+        - Content: chapters/19-energy-efficiency/index.md
+        - Quiz: chapters/19-energy-efficiency/quiz.md
+      - 20. Sustainable Building Materials:
+        - Content: chapters/20-sustainable-materials/index.md
+        - Quiz: chapters/20-sustainable-materials/quiz.md
+      - 21. Durability, Maintenance, and Building Failure:
+        - Content: chapters/21-durability-failure/index.md
+        - Quiz: chapters/21-durability-failure/quiz.md
 
   - Learning Graph:
       - Introduction: learning-graph/index.md
@@ -73,6 +115,8 @@ nav:
       - FAQ Coverage Gaps: learning-graph/faq-coverage-gaps.md
       - Glossary Quality Report: learning-graph/glossary-quality-report.md
       - Glossary Fact-Check Report: learning-graph/glossary-fact-check.md
+      # Generated by quiz-generator skill:
+      - Quiz Generation Report: learning-graph/quiz-generation-report.md
 
   - Stories:
       - Overview: stories/index.md

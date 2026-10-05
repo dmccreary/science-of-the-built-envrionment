@@ -1,0 +1,300 @@
+{
+  "chapter": "Sustainable Building Materials",
+  "chapter_file": "docs/chapters/20-sustainable-materials/index.md",
+  "quiz_file": "docs/chapters/20-sustainable-materials/quiz.md",
+  "generated_date": "2026-10-04",
+  "total_questions": 15,
+  "questions": [
+    {
+      "id": "20-q001",
+      "number": 1,
+      "question_text": "In the waste hierarchy for materials, which sequence ranks strategies from best to worst?",
+      "options": {
+        "A": "Recycle, reuse, reduce, then dispose",
+        "B": "Reduce, reuse, recycle, then dispose",
+        "C": "Dispose, recycle, reuse, then reduce",
+        "D": "Reuse, dispose, recycle, then reduce"
+      },
+      "correct_answer": "B",
+      "explanation": "Sustainable materials have comparatively low environmental, health, and social impacts over their whole life while still performing the job. The cheapest and cleanest material is the one that was never needed, so reducing the amount comes first. Reusing what already exists comes next, then recycling into new products, and only last disposal of what remains. Designers also judge embodied impacts, source, health, durability, and end of life.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Sustainable Materials",
+      "source_link": "../chapters/20-sustainable-materials/index.md#sustainable-materials",
+      "explanation_word_count": 67
+    },
+    {
+      "id": "20-q002",
+      "number": 2,
+      "question_text": "A 60-year ledger shows 200 t of emissions in the product stage, 20 t in construction, 800 t in use, and 30 t at end of life. About what share of the total comes from the product stage?",
+      "options": {
+        "A": "About 19 percent",
+        "B": "About 25 percent",
+        "C": "About 76 percent",
+        "D": "About 2 percent"
+      },
+      "correct_answer": "A",
+      "explanation": "The total is 200 + 20 + 800 + 30 = 1,050 t, so the product stage is 200 / 1,050 \u2248 19 percent. Dividing by use alone gives 25, and 76 is the use share. Because the product stage is front-loaded, its share rises as operating energy falls. LCA follows ISO 14040 and 14044 in four steps: goal and scope, inventory, impact assessment, and interpretation.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Life-Cycle Assessment",
+      "source_link": "../chapters/20-sustainable-materials/index.md#life-cycle-assessment",
+      "explanation_word_count": 66
+    },
+    {
+      "id": "20-q003",
+      "number": 3,
+      "question_text": "Structural steel has about 25 times the embodied energy per kilogram of concrete, yet a slab can embody more total energy than a set of steel beams. What explains this?",
+      "options": {
+        "A": "Concrete's embodied energy per kilogram is larger than steel's, so the slab is always higher",
+        "B": "Steel's embodied energy is counted only in the use stage, so it is not included",
+        "C": "Total embodied energy is intensity times quantity, and the slab is far heavier than the beams",
+        "D": "The slab includes the energy of operating the building, so it is always higher"
+      },
+      "correct_answer": "C",
+      "explanation": "Embodied energy is the energy consumed to extract, process, manufacture, transport, and install a material, a cradle-to-gate figure. In the example, the slab has about 255 GJ at 1 MJ/kg, while about 4,800 kg of steel at 25 MJ/kg has about 120 GJ. Counting only intensity per kilogram would mislead. Embodied energy is highest for materials that need high temperatures or many processing steps.",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Embodied Energy",
+      "source_link": "../chapters/20-sustainable-materials/index.md#embodied-energy",
+      "explanation_word_count": 64
+    },
+    {
+      "id": "20-q004",
+      "number": 4,
+      "question_text": "A steel member set has a mass of 3,000 kg, and the emission factor is 1.2 kg CO\u2082e per kg. What is its product-stage embodied carbon?",
+      "options": {
+        "A": "2,500 kg CO\u2082e",
+        "B": "36,000 kg CO\u2082e",
+        "C": "300 kg CO\u2082e",
+        "D": "3,600 kg CO\u2082e"
+      },
+      "correct_answer": "D",
+      "explanation": "Quantity times emission factor gives emissions: 3,000 \u00d7 1.2 = 3,600 kg CO\u2082e. Dividing the mass by the factor gives 2,500, and the other values are decimal slips. Embodied carbon is front-loaded, since all of it is released before the building opens, while operational emissions are spread over decades. It is not the same as embodied energy, because cement releases carbon from the limestone itself.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Embodied Carbon",
+      "source_link": "../chapters/20-sustainable-materials/index.md#embodied-carbon",
+      "explanation_word_count": 65
+    },
+    {
+      "id": "20-q005",
+      "number": 5,
+      "question_text": "Why does a renewable material not automatically have a low environmental impact?",
+      "options": {
+        "A": "It is always more expensive than any mineral material, so its use is limited to small decorative applications",
+        "B": "It is renewable only if the source is well managed, and it still needs processing, transport, and adhesives",
+        "C": "It cannot be certified by any organization, so its sources and harvesting practices cannot be verified",
+        "D": "It regrows only over many centuries, so it is never considered to be renewable in practice by anyone"
+      },
+      "correct_answer": "B",
+      "explanation": "Renewable materials such as wood, bamboo, cork, straw, wool, and the plant oils in linoleum regrow on a human timescale, unlike steel, aluminum, cement, and plastic. Wood harvested faster than it regrows is not renewable in practice, so certification programs such as the Forest Stewardship Council verify sustainable forest management. Rapidly renewable materials such as bamboo regenerate within about ten years.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Renewable Materials",
+      "source_link": "../chapters/20-sustainable-materials/index.md#renewable-materials",
+      "explanation_word_count": 61
+    },
+    {
+      "id": "20-q006",
+      "number": 6,
+      "question_text": "A project produces 80 tons of waste and sends 60 tons to recycling or reuse. What is its diversion rate?",
+      "options": {
+        "A": "25 percent",
+        "B": "133 percent",
+        "C": "75 percent",
+        "D": "60 percent"
+      },
+      "correct_answer": "C",
+      "explanation": "The diversion rate is the waste diverted divided by the total waste: 60 / 80 = 0.75, or 75 percent. The value 25 percent is the share sent to landfill, 133 percent inverts the ratio, and 60 is the tonnage. Rating systems such as LEED reward diversion rates of 50 or 75 percent, depending on the version. The most effective strategy is to design to avoid waste in the first place.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Construction Waste",
+      "source_link": "../chapters/20-sustainable-materials/index.md#construction-waste",
+      "explanation_word_count": 71
+    },
+    {
+      "id": "20-q007",
+      "number": 7,
+      "question_text": "What does material health concern, and how does it relate to VOC emissions?",
+      "options": {
+        "A": "The strength of a product under load, while VOC emissions determine the durability of the same product",
+        "B": "The cost of a product to the owner, while VOC emissions determine the price that the product sells for",
+        "C": "The embodied carbon of a product, while VOC emissions are included in the same figure by every method",
+        "D": "The chemicals in a product and their effects on people, while indoor emissions are a related but separate matter"
+      },
+      "correct_answer": "D",
+      "explanation": "Ingredients such as formaldehyde, some flame retardants, certain plasticizers, lead, and PFAS have raised concerns. A Health Product Declaration lists a product's ingredients and known hazards, and programs such as Declare labels and Cradle to Cradle certification evaluate products against lists of chemicals of concern. Occupant exposure depends on the product and the use, so a designer asks the manufacturer for the information.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Material Health",
+      "source_link": "../chapters/20-sustainable-materials/index.md#material-health",
+      "explanation_word_count": 63
+    },
+    {
+      "id": "20-q008",
+      "number": 8,
+      "question_text": "Why does reuse rank above recycling in the waste hierarchy, and what must be checked before salvaged structural members are used?",
+      "options": {
+        "A": "Reuse avoids almost all of the energy of remanufacturing, but salvaged members may need testing and may hold hazards",
+        "B": "Reuse requires no inspection, and salvaged members are always stronger than new ones of the same size and grade",
+        "C": "Reuse costs more than recycling, and salvaged members always need to be melted down before they can be used",
+        "D": "Reuse is required by the building code, and salvaged members never contain lead paint or asbestos in any form"
+      },
+      "correct_answer": "A",
+      "explanation": "Reuse places an item in the same or similar role, while salvage recovers an item from a building being demolished or renovated, such as reclaimed timber, brick, fixtures, and steel. Older materials may contain lead paint or asbestos, and supply is hard to schedule. A building designed for later disassembly, with mechanical fasteners instead of adhesives, makes reuse far easier.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Reuse and Salvage",
+      "source_link": "../chapters/20-sustainable-materials/index.md#reuse-and-salvage",
+      "explanation_word_count": 60
+    },
+    {
+      "id": "20-q009",
+      "number": 9,
+      "question_text": "Why is it misleading to compare one EPD's kg CO\u2082e per kilogram with another's kg CO\u2082e per square meter?",
+      "options": {
+        "A": "The EPD with the larger number is always the worse product, regardless of the declared units used in each one",
+        "B": "EPDs report only the weight of the product, so no environmental comparison between them is ever valid",
+        "C": "EPDs from different manufacturers are never comparable, even when they use exactly the same declared unit",
+        "D": "The declared units differ, so the numbers measure different things, and both should be converted to one functional unit"
+      },
+      "correct_answer": "D",
+      "explanation": "An environmental product declaration is a third-party-verified report of a specific product's life-cycle impacts, based on LCA, following product category rules, and stating a declared unit such as one cubic meter of concrete. Comparisons are valid only between EPDs with the same declared unit and compatible rules, and an EPD reports impacts without judging whether they are good. Industry-wide EPDs average many producers, while product-specific ones cover one manufacturer.",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Product Declarations (EPD)",
+      "source_link": "../chapters/20-sustainable-materials/index.md#product-declarations-epd",
+      "explanation_word_count": 69
+    },
+    {
+      "id": "20-q010",
+      "number": 10,
+      "question_text": "How does post-consumer recycled content differ from pre-consumer content?",
+      "options": {
+        "A": "Post-consumer content is manufacturing scrap diverted from disposal, while pre-consumer content comes from demolished buildings",
+        "B": "Post-consumer content is virgin material that has never been used, while pre-consumer content is recycled material",
+        "C": "Post-consumer content comes from products after use, such as scrap steel from demolished buildings; pre-consumer is manufacturing scrap",
+        "D": "Post-consumer content applies only to structural steel, while pre-consumer content applies only to concrete mixes"
+      },
+      "correct_answer": "C",
+      "explanation": "Recycled content is the share, by weight, of a product made from recovered material. Structural steel made in electric arc furnaces commonly has recycled content above 90 percent, and fly ash is a recycled industrial byproduct used in concrete. High content avoids extracting virgin material, but a product with a long delivery route or poor durability may have more impact than a virgin product with a good EPD.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Recycled Content",
+      "source_link": "../chapters/20-sustainable-materials/index.md#recycled-content",
+      "explanation_word_count": 68
+    },
+    {
+      "id": "20-q011",
+      "number": 11,
+      "question_text": "Why does mass timber appeal for sustainability, and what limits remain?",
+      "options": {
+        "A": "It is noncombustible, stores no carbon, and is cast on site, but its cost is lower than that of any other structural system",
+        "B": "It is renewable, stores carbon, and can be prefabricated, but cost, supply, moisture, and fire and acoustic detailing need checking",
+        "C": "It is made only from recycled steel, can be prefabricated in a shop, and has no moisture concerns during construction",
+        "D": "It is a thin veneer product, stores carbon, and is limited only by the availability of colors and finishes"
+      },
+      "correct_answer": "B",
+      "explanation": "Mass timber is a family of large engineered wood products, including cross-laminated timber, glulam, and nail- or dowel-laminated timber. Fire resistance is achieved by designing for charring behavior. Recent IBC editions include construction types that permit tall mass timber buildings, and a seven-story office building in Minneapolis, known as T3, brought the technology to the city. Teams verify each limit with the engineer and the building official.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Mass Timber",
+      "source_link": "../chapters/20-sustainable-materials/index.md#mass-timber",
+      "explanation_word_count": 67
+    },
+    {
+      "id": "20-q012",
+      "number": 12,
+      "question_text": "A product made 1,500 miles away with clean energy may have lower embodied carbon than a nearby product made with dirty energy. Why?",
+      "options": {
+        "A": "Transportation is often a small share of embodied carbon compared with manufacturing, so distance is only one factor",
+        "B": "Transportation is always the largest share of embodied carbon, so distance never matters in any comparison of products",
+        "C": "Local products are always made with clean energy, so the distant product must be inferior in every comparison",
+        "D": "EPDs exclude manufacturing from their results, so only the distance of delivery can be compared fairly"
+      },
+      "correct_answer": "A",
+      "explanation": "Local materials are extracted and manufactured within a short distance, often a radius of a few hundred miles. Benefits include lower transportation emissions, support for the regional economy, and suitability to the local climate and trades. Minnesota examples include regional lumber, limestone and granite, and heavy concrete and masonry products that are costly to ship. Local does not always mean low impact.",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Local Materials",
+      "source_link": "../chapters/20-sustainable-materials/index.md#local-materials",
+      "explanation_word_count": 62
+    },
+    {
+      "id": "20-q013",
+      "number": 13,
+      "question_text": "An installer plans to lay carpet immediately after wet paint and sealants in a tight, energy-efficient building. What is the better practice?",
+      "options": {
+        "A": "Install the carpet immediately so it absorbs the paint odors before the occupants arrive in the building",
+        "B": "Seal the building tightly after painting so the VOCs are contained inside the building until they are gone",
+        "C": "Choose low-emitting products, ventilate, and let wet products dry before installing absorbent materials",
+        "D": "Skip the ventilation entirely, because VOCs evaporate only in cold weather and never in a warm building"
+      },
+      "correct_answer": "C",
+      "explanation": "VOCs are carbon-based chemicals that evaporate easily at room temperature and enter the indoor air, a process called off-gassing. Sources include paints, adhesives, sealants, flooring, and composite wood products with formaldehyde. Absorbent materials soak up emissions and release them later. In a tight building, pollutants build up unless ventilation removes them. Labels such as Green Seal and GREENGUARD, and the CDPH test method, indicate low-emitting products.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Volatile Organic Compounds",
+      "source_link": "../chapters/20-sustainable-materials/index.md#volatile-organic-compounds",
+      "explanation_word_count": 66
+    },
+    {
+      "id": "20-q014",
+      "number": 14,
+      "question_text": "A beam has 1,000 kg of dry wood, and about half of the dry mass is carbon. Using a CO\u2082-to-carbon mass ratio of 44/12, how much CO\u2082 does it store?",
+      "options": {
+        "A": "About 1,833 kg",
+        "B": "About 500 kg",
+        "C": "About 3,667 kg",
+        "D": "About 1,000 kg"
+      },
+      "correct_answer": "A",
+      "explanation": "Half of 1,000 kg is 500 kg of carbon, and multiplying by 44/12 gives about 1,833 kg of CO\u2082. The value 500 forgets the conversion, and 3,667 forgets that only half the dry mass is carbon. The stored carbon, called biogenic carbon, is real only if the forest regrows, the beams are durable, and at end of life the wood is reused or kept out of burning and landfills that would release it.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Carbon Sequestration",
+      "source_link": "../chapters/20-sustainable-materials/index.md#carbon-sequestration",
+      "explanation_word_count": 73
+    },
+    {
+      "id": "20-q015",
+      "number": 15,
+      "question_text": "Why do supplementary cementitious materials cut the embodied carbon of concrete, and what is the Minnesota trade-off?",
+      "options": {
+        "A": "They replace the aggregates, which are the source of most of concrete's carbon, but they raise the water-cement ratio of the mix",
+        "B": "They replace part of the portland cement, the source of most of concrete's carbon, but mixes may gain strength slowly in cold weather",
+        "C": "They replace the water, which is the source of most of concrete's carbon, but they cure faster in cold weather conditions",
+        "D": "They replace the rebar, which is the source of most of concrete's carbon, but they reduce the compressive strength of the mix"
+      },
+      "correct_answer": "B",
+      "explanation": "Common SCMs include fly ash, slag cement, silica fume, natural pozzolans, and calcined clays. Replacing 30 percent of the cement with slag saves about 61 kg CO\u2082e per cubic yard in the example, about 27 percent of the cement's emissions. They are among the most effective ways to cut a mix's carbon without changing how the concrete is placed, but winter pours need planned curing and protection.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Cement Substitutes (SCMs)",
+      "source_link": "../chapters/20-sustainable-materials/index.md#cement-substitutes-scms",
+      "explanation_word_count": 67
+    }
+  ],
+  "answer_distribution": {
+    "A": 4,
+    "B": 4,
+    "C": 4,
+    "D": 3
+  },
+  "bloom_distribution": {
+    "Remember": 3,
+    "Understand": 4,
+    "Apply": 5,
+    "Analyze": 3,
+    "Evaluate": 0,
+    "Create": 0
+  },
+  "concept_coverage": {
+    "total_concepts": 15,
+    "tested_concepts": 15,
+    "coverage_percentage": 100
+  },
+  "content_readiness_score": 90,
+  "overall_quality_score": 92
+}

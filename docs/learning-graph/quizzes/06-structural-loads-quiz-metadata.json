@@ -1,0 +1,444 @@
+{
+  "chapter": "Structural Loads and Load Paths",
+  "chapter_file": "docs/chapters/06-structural-loads/index.md",
+  "quiz_file": "docs/chapters/06-structural-loads/quiz.md",
+  "generated_date": "2026-10-04",
+  "total_questions": 23,
+  "questions": [
+    {
+      "id": "06-q001",
+      "number": 1,
+      "question_text": "Which three requirements must a structural system satisfy at the same time?",
+      "options": {
+        "A": "Strength, durability, and affordability",
+        "B": "Stiffness, ductility, and toughness",
+        "C": "Strength, stiffness, and stability",
+        "D": "Stability, permeability, and fire resistance"
+      },
+      "correct_answer": "C",
+      "explanation": "The structural system collects loads and carries them safely to the ground. Members must not break or yield (strength), must deform only a small amount (stiffness), and the whole structure must keep its shape and position without tipping, buckling, or racking (stability). Each fails differently, so a designer checks all three. The other combinations mix in material properties or concerns outside the structural job.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Structural System",
+      "source_link": "../chapters/06-structural-loads/index.md#the-structural-system",
+      "explanation_word_count": 64
+    },
+    {
+      "id": "06-q002",
+      "number": 2,
+      "question_text": "A building carries its gravity loads perfectly but collapses sideways in a windstorm. Which principle from the chapter best explains this?",
+      "options": {
+        "A": "Loads flow toward the more flexible route, so wind loads bypassed the stiff walls entirely",
+        "B": "Gravity loads always travel through the lateral system, which was overloaded by the roof's weight",
+        "C": "A load path is required only for loads that act downward, so wind was not part of the design",
+        "D": "Gravity and lateral loads each need their own complete path, and a path for one does not serve the other"
+      },
+      "correct_answer": "D",
+      "explanation": "A load path is the continuous route from the point of application through each member and connection to the soil, and it must exist for every load. The chapter notes that a building may carry its gravity load perfectly yet fail sideways because the lateral path was never designed. Loads flow toward the stiffer route, not the more flexible one.",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Load Path",
+      "source_link": "../chapters/06-structural-loads/index.md#load-path",
+      "explanation_word_count": 60
+    },
+    {
+      "id": "06-q003",
+      "number": 3,
+      "question_text": "Why does the code require 100 psf for an assembly space when a packed crowd weighs only about 29 psf?",
+      "options": {
+        "A": "Live load is a design allowance covering furniture, equipment, dynamic motion, and uncertainty about future use",
+        "B": "Live load is calculated from the weight of the structure, so it is always larger than the crowd weight alone",
+        "C": "Live load includes snow and wind, so the code adds those to the weight of the people",
+        "D": "Live load is measured after construction, so the code uses the highest value ever recorded"
+      },
+      "correct_answer": "A",
+      "explanation": "The code specifies minimum design live loads by occupancy, chosen to cover realistic worst cases such as crowding, stage equipment, and dancing. The 29 psf figure is only the actual weight of 400 adults on 2,400 ft\u00b2. Weight of the structure itself is dead load, and snow and wind are separate loads in the code's classification.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Live Loads",
+      "source_link": "../chapters/06-structural-loads/index.md#live-loads",
+      "explanation_word_count": 56
+    },
+    {
+      "id": "06-q004",
+      "number": 4,
+      "question_text": "A roof assembly has a membrane at 1.0 psf, rigid insulation at 1.5 psf, sheathing at 2.0 psf, joists at 3.0 psf, and a ceiling with services at 4.5 psf. What is the dead load?",
+      "options": {
+        "A": "10.5 psf",
+        "B": "12.0 psf",
+        "C": "13.5 psf",
+        "D": "4.5 psf"
+      },
+      "correct_answer": "B",
+      "explanation": "Dead load is the sum of the permanent weights: 1.0 + 1.5 + 2.0 + 3.0 + 4.5 = 12.0 psf. The value 10.5 omits the 1.5 psf of insulation, 13.5 overcounts, and 4.5 psf is just the ceiling. Dead load is the most predictable load, yet it is the one a designer can least afford to underestimate because every other load is added to it.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Dead Loads",
+      "source_link": "../chapters/06-structural-loads/index.md#dead-loads",
+      "explanation_word_count": 66
+    },
+    {
+      "id": "06-q005",
+      "number": 5,
+      "question_text": "In what order does a gravity load pass through the building, from the roof surface down?",
+      "options": {
+        "A": "Deck, columns, joists, girders and beams, bearing walls, then foundation",
+        "B": "Joists, deck, bearing walls, beams and girders, columns, then the foundation",
+        "C": "Foundation, columns and walls, girders and beams, joists, then the roof deck",
+        "D": "Deck, joists, beams and girders, columns and bearing walls, then foundation"
+      },
+      "correct_answer": "D",
+      "explanation": "The gravity load system hands loads from many small closely spaced members to fewer, larger members: the deck spreads load to joists, joists pass it to beams or girders, those pass it to columns or bearing walls, and the foundation spreads it into the soil. The pattern repeats in every building, with fewer, larger, more widely spaced members at each step down.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Gravity Load System",
+      "source_link": "../chapters/06-structural-loads/index.md#the-gravity-load-system",
+      "explanation_word_count": 62
+    },
+    {
+      "id": "06-q006",
+      "number": 6,
+      "question_text": "Why is a 2\u00d78 plank much stiffer when set on edge than when laid flat?",
+      "options": {
+        "A": "Stiffness depends on the cube of the depth, so the deeper orientation raises the moment of inertia greatly",
+        "B": "Stiffness depends on the width squared, so the wider face carries load better when it faces upward",
+        "C": "Stiffness depends on the area alone, so the plank gains extra area when it is turned on its edge",
+        "D": "Stiffness depends on the material, and wood is stronger along its edge than across its flat face"
+      },
+      "correct_answer": "A",
+      "explanation": "For a rectangular beam I = b d\u00b3 / 12, so depth enters as the cube. A 2\u00d78 set on edge has I of about 47.6 in\u2074 versus about 2.04 in\u2074 when flat, roughly 23 times stiffer. The area is the same in both orientations, and the wood's material properties do not change. A beam is always set on edge for this reason.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Beams",
+      "source_link": "../chapters/06-structural-loads/index.md#beams",
+      "explanation_word_count": 63
+    },
+    {
+      "id": "06-q007",
+      "number": 7,
+      "question_text": "Why does a tall, slender column fail at a lower load than a short, stocky column made of the same material?",
+      "options": {
+        "A": "It fails by crushing, because the longer member has more material that reaches its strength",
+        "B": "It fails in tension, because slender members cannot carry compression forces along their length",
+        "C": "It fails by buckling, a sudden sideways bowing, before the material reaches its compressive strength",
+        "D": "It fails by shear, because the supports twist the member at both ends under the applied load"
+      },
+      "correct_answer": "C",
+      "explanation": "Slender columns are flexible, like a yardstick pressed at its ends. The Euler buckling load depends on E, the smallest moment of inertia, and the square of the unsupported length. A 4\u00d74 post of 10 ft can buckle at about 12,000 lb, while a 6\u00d76 has about six times the capacity. Short, stocky columns fail by crushing instead.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Columns",
+      "source_link": "../chapters/06-structural-loads/index.md#columns",
+      "explanation_word_count": 58
+    },
+    {
+      "id": "06-q008",
+      "number": 8,
+      "question_text": "Using q \u2248 0.00256 V\u00b2, by what factor does the velocity pressure change when the wind speed doubles from 60 mph to 120 mph?",
+      "options": {
+        "A": "It increases by a factor of 2",
+        "B": "It increases by a factor of 4",
+        "C": "It increases by a factor of 8",
+        "D": "It increases by a factor of 16"
+      },
+      "correct_answer": "B",
+      "explanation": "Because speed is squared, doubling it quadruples the pressure: about 9.2 psf at 60 mph and about 36.9 psf at 120 mph. A factor of 2 would apply if pressure were proportional to speed, while 8 and 16 assume a cube or fourth-power relationship, which describes other quantities such as deflection versus span but not wind pressure.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Wind Loads",
+      "source_link": "../chapters/06-structural-loads/index.md#wind-loads",
+      "explanation_word_count": 57
+    },
+    {
+      "id": "06-q009",
+      "number": 9,
+      "question_text": "Why does replacing a light roof with a heavy masonry roof increase the seismic force on a building?",
+      "options": {
+        "A": "Base shear depends on the exposed area, so a heavy roof presents more surface to the ground motion",
+        "B": "Base shear is a fraction of the building's weight, so greater mass produces a greater inertial force",
+        "C": "Base shear depends on wind speed, so a heavy roof receives a larger share of the wind force",
+        "D": "Base shear depends on the soil only, so the roof weight changes how the force is resisted"
+      },
+      "correct_answer": "B",
+      "explanation": "When the ground shakes, the building's mass resists the motion because of inertia, and the horizontal force is V = C_s W. Doubling the roof weight in the example doubles V from 8.5 to 17 kips, exceeding the wind force. Wind scales with area and speed squared, whereas earthquakes scale with weight, so heavy buildings worry about quakes and light, large ones about wind.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Seismic Loads",
+      "source_link": "../chapters/06-structural-loads/index.md#seismic-loads",
+      "explanation_word_count": 64
+    },
+    {
+      "id": "06-q010",
+      "number": 10,
+      "question_text": "Why can trusses span long distances using little material?",
+      "options": {
+        "A": "Triangles cannot change shape, so each member carries only axial tension or compression",
+        "B": "Trusses are always built from steel, which has a very high strength-to-weight ratio",
+        "C": "Truss members carry bending along their length, which uses the full cross-section",
+        "D": "Trusses spread load over the entire roof, which removes the need for supports"
+      },
+      "correct_answer": "A",
+      "explanation": "A truss is a framework of straight members arranged in triangles and loaded at its joints. A pinned four-sided frame can rack, but a triangle cannot change shape unless a member changes length. Members loaded axially use their material efficiently. Trusses can be wood with connector plates or steel, and they still need supports at their ends.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Trusses",
+      "source_link": "../chapters/06-structural-loads/index.md#trusses",
+      "explanation_word_count": 57
+    },
+    {
+      "id": "06-q011",
+      "number": 11,
+      "question_text": "What are the three links by which the lateral load system carries wind to the foundation?",
+      "options": {
+        "A": "Footings resist the wind, columns spread it to the soil, and beams deliver it to the exterior walls",
+        "B": "The roof deck resists the wind, joists collect the force, and girders carry it to the posts",
+        "C": "Walls span vertically, a horizontal diaphragm collects the force, and vertical elements carry it down",
+        "D": "Posts receive the wind, the foundation deflects it, and the soil carries it back up to the walls"
+      },
+      "correct_answer": "C",
+      "explanation": "The lateral system supplies resistance that the gravity system lacks. Walls receive pressure and pass it to the roof edge and ground, a diaphragm collects those forces and spreads them to vertical resisting elements, and those elements carry the force down. Without it, a building would be like a cardboard box with unglued flaps, able to carry a book on top but ready to collapse sideways.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Lateral Load System",
+      "source_link": "../chapters/06-structural-loads/index.md#the-lateral-load-system",
+      "explanation_word_count": 66
+    },
+    {
+      "id": "06-q012",
+      "number": 12,
+      "question_text": "Wind suction is 24 psf, and 60 percent of a 15 psf dead load resists it. A girder end has 200 ft\u00b2 of tributary roof, and its bracket is rated for 2,500 lb of uplift. Which conclusion is correct?",
+      "options": {
+        "A": "Adequate, because net uplift of about 1,800 lb is below the 2,500 lb rating",
+        "B": "Adequate, because the full dead load offsets the suction, leaving no uplift",
+        "C": "Inadequate, because the net pressure is 24 psf, which multiplies to 4,800 lb",
+        "D": "Inadequate, because net uplift of about 3,000 lb exceeds the 2,500 lb rating"
+      },
+      "correct_answer": "D",
+      "explanation": "Net upward pressure is 24 \u2212 0.6 \u00d7 15 = 15 psf, and 15 \u00d7 200 = 3,000 lb, so the demand exceeds the 2,500 lb capacity (a ratio of 1.2). Counting only part of the dead load is the code's rule where dead load helps. Using the full suction ignores that offset, and counting no suction misreads the check. Uplift connections are specified by the engineer, not left to the framer.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Structural Connections",
+      "source_link": "../chapters/06-structural-loads/index.md#structural-connections",
+      "explanation_word_count": 72
+    },
+    {
+      "id": "06-q013",
+      "number": 13,
+      "question_text": "A code gives a ground snow load of 40 psf, and the adjustments for a heated flat roof in typical exposure give a factor of about 0.7. What is the roof snow load?",
+      "options": {
+        "A": "40 psf",
+        "B": "57 psf",
+        "C": "12 psf",
+        "D": "28 psf"
+      },
+      "correct_answer": "D",
+      "explanation": "The designer adjusts the ground snow load for exposure, heat loss, slope, and importance: 0.7 \u00d7 40 = 28 psf. Using 40 psf skips the adjustment, 57 psf divides by 0.7 instead of multiplying, and 12 psf subtracts the factor. Uniform snow is only part of the story, since drifting against parapets and roof steps can create local loads several times higher.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Snow Loads",
+      "source_link": "../chapters/06-structural-loads/index.md#snow-loads",
+      "explanation_word_count": 62
+    },
+    {
+      "id": "06-q014",
+      "number": 14,
+      "question_text": "What does \"16 in. o.c.\" mean when describing joist spacing?",
+      "options": {
+        "A": "The joists are spaced 16 in. apart, measured from the center of one joist to the center of the next",
+        "B": "The joists are 16 in. deep, measured from the top of the joist to its bottom edge at the support",
+        "C": "The joists may span a maximum of 16 in. before they must be supported by a beam or girder",
+        "D": "The joists are 16 in. long, measured from the support to the first connection at the beam"
+      },
+      "correct_answer": "A",
+      "explanation": "Joists are closely spaced horizontal members that support a floor or roof deck, commonly at 12, 16, or 24 in. on center. Because they are close together and tied by the deck, a heavily loaded joist can share load with neighbors. Blocking or bridging between them keeps tall, thin joists from twisting. On center never refers to depth or span.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Joists",
+      "source_link": "../chapters/06-structural-loads/index.md#joists",
+      "explanation_word_count": 60
+    },
+    {
+      "id": "06-q015",
+      "number": 15,
+      "question_text": "How does a roof diaphragm resist lateral force?",
+      "options": {
+        "A": "It acts like a column, with the sheathing resisting buckling and the chords resisting crushing forces",
+        "B": "It acts like a deep beam lying on its side, with chords resisting bending and sheathing resisting shear",
+        "C": "It acts like a truss, with the chords carrying shear and the sheathing carrying bending moments",
+        "D": "It acts like a footing, with the sheathing spreading the force into the soil"
+      },
+      "correct_answer": "B",
+      "explanation": "A diaphragm is a large, flat, horizontal element such as a roof deck or floor. It collects wind or seismic force from the walls and delivers it to shear walls or frames. The edges, called chords, resist tension and compression from bending, while the sheathing resists shear. Large openings for skylights or stairs reduce its capacity and need special reinforcement.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Diaphragms",
+      "source_link": "../chapters/06-structural-loads/index.md#diaphragms",
+      "explanation_word_count": 60
+    },
+    {
+      "id": "06-q016",
+      "number": 16,
+      "question_text": "Why does the code not add snow load and roof live load together in a load combination?",
+      "options": {
+        "A": "Snow load already contains the roof live load, so adding them would count it twice",
+        "B": "Roof live load applies only to floors, so it does not belong in a roof combination",
+        "C": "Workers and heavy snow are not expected at the same time, so the larger of the two governs",
+        "D": "The code treats both loads as permanent, so only one may be counted in a combination"
+      },
+      "correct_answer": "C",
+      "explanation": "Load combinations scale and add loads according to how likely they are to occur together, since a crowded room is unlikely to coincide with the worst storm. Roof live load represents workers and maintenance, so it is not combined with heavy snow, and the larger governs. Neither load is permanent. Where dead load helps, as in resisting uplift, only part of it counts.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Load Combinations",
+      "source_link": "../chapters/06-structural-loads/index.md#load-combinations",
+      "explanation_word_count": 63
+    },
+    {
+      "id": "06-q017",
+      "number": 17,
+      "question_text": "A roof carries 50 psf and interior members are spaced 12 ft apart. What line load does each member carry?",
+      "options": {
+        "A": "600 plf",
+        "B": "300 plf",
+        "C": "62 plf",
+        "D": "4.2 plf"
+      },
+      "correct_answer": "A",
+      "explanation": "The tributary width is the spacing between interior members, so w = q \u00d7 b = 50 \u00d7 12 = 600 plf. Using half the spacing gives 300, adding the numbers gives 62, and dividing gives 4.2. The tributary area extends halfway to the next supporting member on each side, which for an interior member is the full spacing between members.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Tributary Area",
+      "source_link": "../chapters/06-structural-loads/index.md#tributary-area",
+      "explanation_word_count": 61
+    },
+    {
+      "id": "06-q018",
+      "number": 18,
+      "question_text": "What distinguishes a girder from an ordinary beam?",
+      "options": {
+        "A": "A girder is a beam that carries only its own weight and the finishes on it",
+        "B": "A girder is a vertical member that carries load mainly in compression",
+        "C": "A girder is a diagonal member that triangulates a frame so it cannot rack",
+        "D": "A girder is a primary beam that supports other beams, usually joists"
+      },
+      "correct_answer": "D",
+      "explanation": "The glulam members over Riverbend's multipurpose room are girders because they receive concentrated loads from many joists and carry them across the span to posts. A girder generally has a larger tributary width, so it is deeper and heavier than the members it supports. Vertical compression members are columns, and diagonal members that stop racking are braces.",
+      "bloom_level": "Remember",
+      "difficulty": "easy",
+      "concept_tested": "Girders",
+      "source_link": "../chapters/06-structural-loads/index.md#girders",
+      "explanation_word_count": 57
+    },
+    {
+      "id": "06-q019",
+      "number": 19,
+      "question_text": "A homeowner wants to remove an interior wall that looks like a partition. Which observation indicates that the wall is bearing?",
+      "options": {
+        "A": "It has door openings of standard height",
+        "B": "It is built from studs at 16 in. on center",
+        "C": "Joists or a beam end rest on top of it",
+        "D": "It carries only its own weight and the finish on it"
+      },
+      "correct_answer": "C",
+      "explanation": "Bearing walls carry vertical load from floors or roof above, delivered continuously along their length. If joists, trusses, or a beam end rest on a wall, removing it breaks the load path, so the homeowner should check which way the framing runs and consult a structural engineer. A wall that carries only itself is a non-bearing partition, and openings or stud spacing do not decide the question.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Bearing Walls",
+      "source_link": "../chapters/06-structural-loads/index.md#bearing-walls",
+      "explanation_word_count": 67
+    },
+    {
+      "id": "06-q020",
+      "number": 20,
+      "question_text": "Why is each end of a wood shear wall anchored to the foundation with hold-downs?",
+      "options": {
+        "A": "A wall pushed in its own plane tries to slide, and hold-downs resist the sliding directly",
+        "B": "A wall pushed in its own plane tries to tip over, and hold-downs resist the resulting uplift",
+        "C": "A wall under gravity load tries to buckle, and hold-downs keep the studs straight",
+        "D": "A wall under wind suction tries to crack, and hold-downs spread the cracks along the length"
+      },
+      "correct_answer": "B",
+      "explanation": "A shear wall resists lateral forces acting in its own plane by shearing, as a deck of cards slides when pushed from the top. The pushed wall tends to overturn, so steel hold-downs resist uplift at its ends. A longer wall resists more, and large openings reduce capacity. Sliding is resisted mainly by the foundation, and buckling and cracking are not the purpose of hold-downs.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Shear Walls",
+      "source_link": "../chapters/06-structural-loads/index.md#shear-walls",
+      "explanation_word_count": 65
+    },
+    {
+      "id": "06-q021",
+      "number": 21,
+      "question_text": "Why do slender X-braced rod diagonals work in tension only?",
+      "options": {
+        "A": "In each direction of push both diagonals are stretched equally, so neither one ever carries any compression",
+        "B": "A rod diagonal carries compression easily, so the second diagonal is only needed for redundancy in the frame",
+        "C": "In each direction of push one diagonal stretches and the other goes slack, since a rod cannot resist compression",
+        "D": "The rods are connected at their center, so they always pull on the corners of the frame together at once"
+      },
+      "correct_answer": "C",
+      "explanation": "Bracing triangulates a rectangular frame so it cannot rack, the same principle as a truss. Slender rods can pull but buckle in compression, so in an X pattern the diagonal that would be compressed goes slack while the other works in tension. Braced frames are stiff and efficient but interrupt openings, so architects must locate them with care.",
+      "bloom_level": "Understand",
+      "difficulty": "easy",
+      "concept_tested": "Bracing",
+      "source_link": "../chapters/06-structural-loads/index.md#bracing",
+      "explanation_word_count": 58
+    },
+    {
+      "id": "06-q022",
+      "number": 22,
+      "question_text": "An architect wants a storefront with no diagonal braces or solid walls in the openings. What trade-off comes with using a moment frame instead of a braced frame?",
+      "options": {
+        "A": "The frame is stiffer and needs fewer connections, but its beams must be placed inside walls",
+        "B": "The frame is more flexible and needs larger members and more complex connections",
+        "C": "The frame cannot resist wind, so a separate shear wall must be added to every opening",
+        "D": "The frame resists force only in tension, so slender rods must be added to each joint"
+      },
+      "correct_answer": "B",
+      "explanation": "A moment frame has rigid beam-to-column joints that resist rotation, so force is carried through bending rather than diagonals, leaving openings free. In exchange, it is more flexible than a braced frame and needs larger members and more complex connections. Steel and reinforced concrete are the common materials. It does resist wind, and its members carry bending, not just tension.",
+      "bloom_level": "Analyze",
+      "difficulty": "hard",
+      "concept_tested": "Moment Frames",
+      "source_link": "../chapters/06-structural-loads/index.md#moment-frames",
+      "explanation_word_count": 60
+    },
+    {
+      "id": "06-q023",
+      "number": 23,
+      "question_text": "By what factor does the deflection of a simply supported beam with a uniform load change when its span is doubled, with all else unchanged?",
+      "options": {
+        "A": "It is multiplied by 16",
+        "B": "It is multiplied by 2",
+        "C": "It is multiplied by 4",
+        "D": "It is multiplied by 8"
+      },
+      "correct_answer": "A",
+      "explanation": "In \u03b4 = 5wL\u2074 / 384EI, deflection grows with the fourth power of the span, so doubling it multiplies deflection by 2\u2074 = 16. A factor of 2 would apply to a linear relationship, 4 to a squared one, and 8 to a cube, which is how depth enters the moment of inertia. Codes limit deflection to a fraction of span, such as L/360, so floors do not sag or crack finishes.",
+      "bloom_level": "Apply",
+      "difficulty": "medium",
+      "concept_tested": "Deflection",
+      "source_link": "../chapters/06-structural-loads/index.md#deflection",
+      "explanation_word_count": 72
+    }
+  ],
+  "answer_distribution": {
+    "A": 6,
+    "B": 6,
+    "C": 6,
+    "D": 5
+  },
+  "bloom_distribution": {
+    "Remember": 6,
+    "Understand": 8,
+    "Apply": 7,
+    "Analyze": 2,
+    "Evaluate": 0,
+    "Create": 0
+  },
+  "concept_coverage": {
+    "total_concepts": 23,
+    "tested_concepts": 23,
+    "coverage_percentage": 100
+  },
+  "content_readiness_score": 90,
+  "overall_quality_score": 94
+}
