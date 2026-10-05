@@ -71,6 +71,10 @@ The diagram below lets you turn each category of site information on and off as 
 
 #### Diagram: Site Analysis Layer Explorer
 
+
+<iframe src="../../sims/site-analysis-layer-explorer/main.html" width="100%" height="577px" scrolling="no"></iframe>
+[Run Site Analysis Layer Explorer Fullscreen](../../sims/site-analysis-layer-explorer/main.html)
+
 <details markdown="1">
 <summary>Site Analysis Layer Explorer</summary>
 Type: microsim
@@ -114,6 +118,10 @@ The engineering profession uses the **Unified Soil Classification System** (USCS
 Much of Minnesota's ground consists of *glacial till* (a mixture of clay, silt, sand, and gravel deposited by ice sheets) and layers of lake clay, with peat in low, wet areas. Local conditions change within a few city blocks, which is the reason no one should assume the soil from a neighboring site.
 
 #### Diagram: USCS Soil Classifier
+
+
+<iframe src="../../sims/uscs-soil-classifier/main.html" width="100%" height="587px" scrolling="no"></iframe>
+[Run USCS Soil Classifier Fullscreen](../../sims/uscs-soil-classifier/main.html)
 
 <details markdown="1">
 <summary>USCS Soil Classifier</summary>
@@ -163,6 +171,10 @@ where \( P \) is the column load in pounds or kips (1 kip equals 1,000 lb) and \
 
 #### Diagram: Bearing Capacity and Footing Size Explorer
 
+
+<iframe src="../../sims/soil-bearing-footing-area-explorer/main.html" width="100%" height="577px" scrolling="no"></iframe>
+[Run Bearing Capacity and Footing Size Explorer Fullscreen](../../sims/soil-bearing-footing-area-explorer/main.html)
+
 <details markdown="1">
 <summary>Bearing Capacity and Footing Size Explorer</summary>
 Type: microsim
@@ -208,6 +220,10 @@ Groundwater matters to builders in three ways. Saturated soil usually has less s
 **Frost heave** is the upward movement of the ground, and of anything resting on it, when soil freezes. Many people attribute it to water expanding about 9 percent when it turns to ice, but that expansion alone would produce only modest movement. The larger cause is the growth of *ice lenses*, layers of nearly pure ice that form as freezing soil draws more water upward from below by capillary action, thickening the lens until it lifts the soil above. Heave requires three conditions together: frost-susceptible soil, a supply of water, and freezing temperatures. Silt is the worst offender, because it is fine enough to pull water up strongly and permeable enough to let it move. Removing any one of the three stops heave, which is the basis of the cures: place footings below frost depth, replace silty soil with clean gravel, or drain the water away.
 
 #### Diagram: Frost Heave Three-Condition Explorer
+
+
+<iframe src="../../sims/frost-heave-three-conditions/main.html" width="100%" height="632px" scrolling="no"></iframe>
+[Run Frost Heave Three-Condition Explorer Fullscreen](../../sims/frost-heave-three-conditions/main.html)
 
 <details markdown="1">
 <summary>Frost Heave Three-Condition Explorer</summary>

@@ -282,6 +282,10 @@ A quick equilibrium check confirms the result. The girder carries \( 800 \times 
 
 #### Diagram: Tributary Area and Load Takedown Calculator
 
+
+<iframe src="../../sims/tributary-area-roof-takedown-calculator/main.html" width="100%" height="572px" scrolling="no"></iframe>
+[Run Tributary Area and Load Takedown Calculator Fullscreen](../../sims/tributary-area-roof-takedown-calculator/main.html)
+
 <details markdown="1">
 <summary>Tributary Area and Load Takedown Calculator</summary>
 Type: microsim
@@ -347,6 +351,10 @@ Now consider the other direction. Wind against the 120 ft long wall produces \( 
 With both subsystems and all of their members now defined, the following explorer lets you see the complete structural system of the building at once and test what each element contributes.
 
 #### Diagram: Riverbend Structural System Explorer
+
+
+<iframe src="../../sims/riverbend-structural-system-explorer/main.html" width="100%" height="592px" scrolling="no"></iframe>
+[Run Riverbend Structural System Explorer Fullscreen](../../sims/riverbend-structural-system-explorer/main.html)
 
 <details markdown="1">
 <summary>Riverbend Structural System Explorer</summary>
@@ -419,6 +427,10 @@ For the gravity path, the footing under each post must spread 16,000 lb over eno
     On any drawing, pick a member and ask, "What is directly underneath this?" Keep asking until you reach the soil. If the answer is ever "air" or "a partition that was not designed to carry this," you have found a gap in the path.
 
 #### Diagram: Riverbend Load Path Tracer
+
+
+<iframe src="../../sims/riverbend-load-path-tracer/main.html" width="100%" height="592px" scrolling="no"></iframe>
+[Run Riverbend Load Path Tracer Fullscreen](../../sims/riverbend-load-path-tracer/main.html)
 
 <details markdown="1">
 <summary>Riverbend Load Path Tracer</summary>

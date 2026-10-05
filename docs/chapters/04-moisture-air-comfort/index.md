@@ -75,6 +75,10 @@ The table below organizes the four mechanisms we have defined, so you can see wh
 
 #### Diagram: Moisture Pathways in a Wall
 
+
+<iframe src="../../sims/moisture-transport-pathways-explorer/main.html" width="100%" height="582px" scrolling="no"></iframe>
+[Run Moisture Pathways in a Wall Fullscreen](../../sims/moisture-transport-pathways-explorer/main.html)
+
 <details markdown="1">
 <summary>Moisture Pathways in a Wall</summary>
 Type: infographic
@@ -157,6 +161,10 @@ To find the dew point, begin at the air's state point and move horizontally to t
 
 #### Diagram: Psychrometric Chart Explorer
 
+
+<iframe src="../../sims/psychrometric-chart-explorer/main.html" width="100%" height="692px" scrolling="no"></iframe>
+[Run Psychrometric Chart Explorer Fullscreen](../../sims/psychrometric-chart-explorer/main.html)
+
 <details markdown="1">
 <summary>Psychrometric Chart Explorer</summary>
 Type: chart
@@ -211,6 +219,10 @@ Wind pressure can be estimated by the standard velocity-pressure formula, in whi
 | Supply fans | Pressurizes the building | Warm humid air pushed into walls | Balance supply and exhaust |
 
 #### Diagram: Building Pressure and Air Leakage Explorer
+
+
+<iframe src="../../sims/building-pressure-air-leakage-explorer/main.html" width="100%" height="607px" scrolling="no"></iframe>
+[Run Building Pressure and Air Leakage Explorer Fullscreen](../../sims/building-pressure-air-leakage-explorer/main.html)
 
 <details markdown="1">
 <summary>Building Pressure and Air Leakage Explorer</summary>

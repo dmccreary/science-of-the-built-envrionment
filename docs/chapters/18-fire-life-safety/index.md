@@ -72,6 +72,10 @@ The hazard is not only flame. Burning produces hot gases and smoke that can fill
 
 #### Diagram: Egress Time Margin Explorer
 
+
+<iframe src="../../sims/egress-time-margin-explorer/main.html" width="100%" height="579px" scrolling="no"></iframe>
+[Run Egress Time Margin Explorer Fullscreen](../../sims/egress-time-margin-explorer/main.html)
+
 <details markdown="1">
 <summary>Egress Time Margin Explorer</summary>
 Type: microsim
@@ -168,6 +172,10 @@ After one hour, 1.5 in of each exposed face has charred, so the remaining sectio
 That is about 58 percent of the original capacity. For the beam to survive one hour, the designer must show that the remaining section can still carry the design loads, which are lower in a fire than in normal service. If it cannot, a deeper or wider beam is used. The method is a simplified illustration, and the code and a structural engineer specify the actual design procedure and char values.
 
 #### Diagram: Glulam Char Section Explorer
+
+
+<iframe src="../../sims/glulam-char-section-explorer/main.html" width="100%" height="542px" scrolling="no"></iframe>
+[Run Glulam Char Section Explorer Fullscreen](../../sims/glulam-char-section-explorer/main.html)
 
 <details markdown="1">
 <summary>Glulam Char Section Explorer</summary>

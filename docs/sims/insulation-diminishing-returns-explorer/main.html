@@ -3,106 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- microsim-scaffold-stub -->
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>Insulation Diminishing Returns Explorer</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            color: #212529;
+        * { box-sizing: border-box; }
+        body { margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: black; background: white; }
+        main { width: 100%; border: 1px solid silver; background: white; }
+        #chartWrap { position: relative; height: 330px; padding: 4px 6px; background: aliceblue; border-bottom: 1px solid silver; }
+        #chart { touch-action: pan-y; }
+        #controls { padding: 6px 10px; font-size: 15px; border-bottom: 1px solid silver; display: grid; grid-template-columns: 1fr 1fr; gap: 3px 22px; }
+        .ctl { display: flex; align-items: center; gap: 2px 10px; min-width: 0; }
+        .ctl label { flex: 0 0 auto; width: 200px; white-space: nowrap; }
+        .ctl input[type=range] { flex: 1 1 90px; min-width: 70px; }
+        .ctl button { font-size: 14px; padding: 2px 8px; }
+        @media (max-width: 760px) { #controls { grid-template-columns: 1fr; gap: 1px; } }
+        #readout { padding: 6px 10px; }
+        table { border-collapse: collapse; width: 100%; font-size: 14px; }
+        th, td { border: 1px solid silver; padding: 2px 6px; text-align: right; }
+        th:first-child, td:first-child { text-align: left; }
+        thead th { background: aliceblue; }
+        td.key { font-weight: bold; color: navy; }
+        .state { margin: 5px 0; padding: 3px 8px; border-left: 5px solid gray; font-weight: bold; }
+        .state.ok { border-color: seagreen; background: honeydew; }
+        .state.bad { border-color: darkorange; background: floralwhite; }
+        .note { line-height: 1.35; margin-top: 3px; }
+        .foot { margin-top: 3px; color: dimgray; font-size: 13px; line-height: 1.3; }
+        @media (max-width: 520px) {
+            #chartWrap { height: 285px; }
+            #controls { font-size: 14px; padding: 4px 8px; }
+            .ctl label { width: 205px; }
+            #readout { padding: 4px 8px; }
+            table, th, td { font-size: 13px; }
+            .foot { display: none; }
         }
-        #container {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-        }
-        h1 {
-            font-size: 22px;
-            margin-bottom: 10px;
-            color: #1a3a6c;
-        }
-        .placeholder {
-            border: 2px dashed #adb5bd;
-            border-radius: 8px;
-            padding: 40px 20px;
-            text-align: center;
-            color: #6c757d;
-            margin: 20px 0;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .placeholder .badge {
-            display: inline-block;
-            background: #ffc107;
-            color: #212529;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .placeholder h2 {
-            font-size: 18px;
-            color: #495057;
-            margin-bottom: 8px;
-        }
-        .placeholder p {
-            font-size: 14px;
-            max-width: 480px;
-        }
-        .meta {
-            margin-top: 20px;
-            font-size: 13px;
-            color: #6c757d;
-            border-top: 1px solid #dee2e6;
-            padding-top: 12px;
-        }
-        .meta strong { color: #495057; }
     </style>
+    <script src="insulation-diminishing-returns-explorer.js"></script>
 </head>
 <body>
-    <div id="container">
-        <h1>Insulation Diminishing Returns Explorer</h1>
-        <div class="placeholder">
-            <span class="badge">SCAFFOLD</span>
-            <h2>MicroSim Not Yet Implemented</h2>
-            <p>This MicroSim has been scaffolded from its specification but the
-            interactive content has not been built yet. See the chapter source
-            and the <code>index.md</code> in this directory for the full spec.</p>
+    <main>
+        <div id="chartWrap"><canvas id="chart" role="img" aria-label="Line chart of annual heat loss in MMBtu against insulation R-value from R-5 to R-60, with two draggable markers for the current and proposed R-values"></canvas></div>
+        <div id="controls">
+            <div class="ctl"><label for="areaS" id="areaT">Roof area: 9,000 ft²</label><input type="range" id="areaS" min="1000" max="20000" step="500" value="9000" aria-label="Roof area in square feet"></div>
+            <div class="ctl"><label for="hddS" id="hddT">Heating degree days: 7,500</label><input type="range" id="hddS" min="4000" max="9000" step="100" value="7500" aria-label="Heating degree days"></div>
+            <div class="ctl"><label for="gasS" id="gasT">Gas price: $10.00 per MMBtu</label><input type="range" id="gasS" min="5" max="20" step="0.5" value="10" aria-label="Gas price in dollars per MMBtu"></div>
+            <div class="ctl"><label for="effS" id="effT">Furnace efficiency: 90 %</label><input type="range" id="effS" min="60" max="98" step="1" value="90" aria-label="Furnace efficiency in percent"></div>
+            <div class="ctl"><label for="costS" id="costT">Cost per added R-20: $1.50/ft²</label><input type="range" id="costS" min="0.5" max="4" step="0.1" value="1.5" aria-label="Insulation cost in dollars per square foot per added R-20"></div>
+            <div class="ctl"><label for="curS" id="curT">Current R: R-30</label><input type="range" id="curS" min="5" max="59" step="1" value="30" aria-label="Current R-value"></div>
+            <div class="ctl"><label for="propS" id="propT">Proposed R: R-50</label><input type="range" id="propS" min="6" max="60" step="1" value="50" aria-label="Proposed R-value"></div>
+            <div class="ctl"><button type="button" id="resetB">Reset to Riverbend defaults</button></div>
         </div>
-        <div class="meta">
-            <p><strong>Sim ID:</strong> insulation-diminishing-returns-explorer</p>
-            <p><strong>Library:</strong> Chart.js</p>
-            <p><strong>Bloom Level:</strong> TBD</p>
-            <p><strong>Learning Objective:</strong> Students will calculate (Bloom Level 3, Apply) annual heat loss through a surface for different R-values and will explain (Bloom Level 2, Understand) why each added layer of insulation saves less than the one before.</p>
-        </div>
-    </div>
-
-    <!--
-    SPECIFICATION (from chapter index.md):
-
-    Type: chart
-    **sim-id:** insulation-diminishing-returns-explorer<br/>
-    **Library:** Chart.js<br/>
-    **Status:** Specified
-    
-    Learning objective: Students will calculate (Bloom Level 3, Apply) annual heat loss through a surface for different R-values and will explain (Bloom Level 2, Understand) why each added layer of insulation saves less than the one before.
-    
-    Visual: A line chart with R-value (R-5 to R-60) on the horizontal axis and annual heat loss in MMBtu on the vertical axis. The curve falls steeply at low R and flattens at high R. A shaded vertical band between two chosen R-values shows the savings, and a table below the chart shows the heat loss, savings, gas cost, and simple payback. The chart is responsive with a height of 420 px and redraws on window resize.
-    
-    Controls: Sliders for roof area (1,000 to 20,000 ft², default 9,000), heating degree days (4,000 to 9,000, default 7,500), gas price (\$5 to \$20 per MMBtu, default \$10), furnace efficiency (60 to 98 percent, default 90), and insulation cost per ft² per added R-20 (\$0.50 to \$4, default \$1.50). Two draggable markers set "current R" and "proposed R" on the curve, with defaults at R-30 and R-50.
-    
-    Interactions: Hovering over the curve shows the R-value and the annual loss. The table updates as markers move. A message states "Payback exceeds the typical building life" when the simple payback is above 50 years.
-    
-    Colors: The curve is blue, the savings band is green, and the markers are orange. All values are also shown as text.
-    
-    Implementation: Chart.js with draggable annotation markers and DOM sliders, recalculating \( Q = (A/R) \times \text{HDD} \times 24 \) on each change.
-    -->
+        <div id="readout" aria-live="polite"></div>
+    </main>
 </body>
 </html>

@@ -1,18 +1,59 @@
 ---
 title: USCS Soil Classifier
-description: Students will apply (Bloom Level 3, Apply) the simplified USCS decision path to a sieve analysis to classify a soil as a gravel, sand, silt, or clay, and will predict (Bloom Level 2, Understand) its drainage, strength, and frost behavior.
-status: scaffold
+description: Students enter the percent gravel, sand, and fines from a sieve analysis, choose the plasticity of the fines, and follow the highlighted decision path to a simplified USCS symbol with drainage, strength, and frost ratings.
+image: /sims/uscs-soil-classifier/uscs-soil-classifier.png
+og:image: /sims/uscs-soil-classifier/uscs-soil-classifier.png
+twitter:image: /sims/uscs-soil-classifier/uscs-soil-classifier.png
+social:
+   cards: false
+status: built
 library: p5.js
-bloom_level: TBD
+bloom_level: Apply, Understand
 ---
 
 # USCS Soil Classifier
 
+<iframe src="main.html" width="100%" height="587" scrolling="no"></iframe>
 
+[Run the USCS Soil Classifier MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+Place the following line in your website to include this MicroSim in your course.
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+```html
+<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/uscs-soil-classifier/main.html" width="100%" height="587" scrolling="no"></iframe>
+```
+
+## Description
+
+Students enter the percent gravel, sand, and fines from a sieve analysis, choose the plasticity of the fines, and follow the highlighted decision path to a simplified USCS symbol with drainage, strength, and frost ratings.
+
+## How to Use
+
+1. Press Load Riverbend boring B-2 to start from the Chapter 9 example of 8 percent gravel, 62 percent sand, and 30 percent fines with low plasticity. The result is SM, silty sand.
+2. Move any of the three sliders. The other two rescale so the total stays 100 percent. Choose low or high plasticity for the fines.
+3. Watch the stacked bar and the sieves, then read the highlighted path through the four decision boxes. Click any box for a one-sentence reason for the test.
+4. Read the result card for the symbol, name, and drainage, strength, and frost ratings. Press Random sample to classify a new soil, and hover over a sieve for its opening size.
+
+## Lesson Plan
+
+**Learning objective:** Apply the simplified USCS decision path to a sieve analysis to classify a soil as gravel, sand, silt, or clay, and predict its drainage, strength, and frost behavior.
+
+**Suggested activities**
+
+- Warm-up (5 min): Students reproduce the Chapter 9 worked example for boring B-2 by hand, then confirm SM in the MicroSim.
+- Explore (10 min): Students press Random sample six times, predict the symbol before checking the path, and keep a tally of correct predictions.
+- Predict (10 min): Students find the smallest percent of fines that turns a clean sand into a silty sand and describe how the frost rating changes.
+
+**Assessment**
+
+- Students classify three sieve results given on paper and state the drainage and frost behavior of each.
+- Students explain in two sentences why a soil with 30 percent low-plasticity fines is not a clean sand.
+
+## References
+
+- [Chapter 9: Site Work, Soils, and Groundwater](../../chapters/09-site-soils/index.md)
+- [Unified Soil Classification System (Wikipedia)](https://en.wikipedia.org/wiki/Unified_Soil_Classification_System)
+- ASTM D2487, Standard Practice for Classification of Soils for Engineering Purposes (Unified Soil Classification System).
 
 ## Specification
 

@@ -74,6 +74,10 @@ Roofs fall into two families defined by slope, and the slope drives almost every
 
 #### Diagram: Roof Assembly Layer Explorer
 
+
+<iframe src="../../sims/roof-assembly-layer-explorer/main.html" width="100%" height="482px" scrolling="no"></iframe>
+[Run Roof Assembly Layer Explorer Fullscreen](../../sims/roof-assembly-layer-explorer/main.html)
+
 <details markdown="1">
 <summary>Roof Assembly Layer Explorer</summary>
 Type: infographic
@@ -152,6 +156,10 @@ A membrane is held in place by one of three methods. In a *fully adhered* system
 
 #### Diagram: Roof Drainage and Ponding Calculator
 
+
+<iframe src="../../sims/roof-drainage-ponding-calculator/main.html" width="100%" height="517px" scrolling="no"></iframe>
+[Run Roof Drainage and Ponding Calculator Fullscreen](../../sims/roof-drainage-ponding-calculator/main.html)
+
 <details markdown="1">
 <summary>Roof Drainage and Ponding Calculator</summary>
 Type: microsim
@@ -187,6 +195,10 @@ An **ice dam** is a ridge of ice that forms at the eave of a sloped roof and tra
 The cure targets the heat source, not the ice. In priority order, the remedies are to air seal the ceiling plane so warm air stops entering the attic, to add insulation, to ventilate the attic so the deck stays near outdoor temperature, and to install a self-adhering ice-and-water barrier at the eaves as a backup. Heating cables can melt channels through ice, but they add cost and do nothing about the underlying heat loss.
 
 #### Diagram: Ice Dam Formation Explorer
+
+
+<iframe src="../../sims/ice-dam-formation-explorer/main.html" width="100%" height="462px" scrolling="no"></iframe>
+[Run Ice Dam Formation Explorer Fullscreen](../../sims/ice-dam-formation-explorer/main.html)
 
 <details markdown="1">
 <summary>Ice Dam Formation Explorer</summary>

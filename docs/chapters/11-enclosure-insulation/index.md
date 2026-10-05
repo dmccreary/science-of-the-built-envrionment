@@ -83,6 +83,10 @@ The windows are 5 percent of the enclosure area (\( 702 / 13{,}680 \)) but accou
 
 #### Diagram: Enclosure Heat Loss Component Explorer
 
+
+<iframe src="../../sims/enclosure-heat-loss-component-explorer/main.html" width="100%" height="758px" scrolling="no"></iframe>
+[Run Enclosure Heat Loss Component Explorer Fullscreen](../../sims/enclosure-heat-loss-component-explorer/main.html)
+
 <details markdown="1">
 <summary>Enclosure Heat Loss Component Explorer</summary>
 Type: chart
@@ -140,6 +144,10 @@ The table below shows how the materials in a Riverbend wall serve the four jobs.
 Use the interactive wall section below to see the layers in order, select a layer to learn what it does, and remove a layer to see what happens when it is missing.
 
 #### Diagram: Control Layer Wall Section Explorer
+
+
+<iframe src="../../sims/control-layer-wall-section-explorer/main.html" width="100%" height="688px" scrolling="no"></iframe>
+[Run Control Layer Wall Section Explorer Fullscreen](../../sims/control-layer-wall-section-explorer/main.html)
 
 <details markdown="1">
 <summary>Control Layer Wall Section Explorer</summary>
@@ -324,6 +332,10 @@ The five insulation families used in Minnesota walls are fiberglass, mineral woo
 **Worked example: reaching R-20 in a 5.5 in cavity.** The thickness needed equals the target R divided by the R per inch. Fiberglass or cellulose at about R-3.7 per inch needs \( 20 / 3.7 = 5.4 \) in, which just fits. Open-cell foam at R-3.6 fills 5.5 in to give 19.8. Closed-cell foam at about R-6.5 needs only \( 20 / 6.5 = 3.1 \) in, leaving room for something else but costing much more per R. No option exceeds the 5.5 in of a 2×6 cavity by much, and that depth limit is the reason cold-climate designers add insulation outside the framing instead of deepening the cavity.
 
 #### Diagram: Insulation R-Value and Thickness Comparison
+
+
+<iframe src="../../sims/insulation-r-per-inch-thickness-chart/main.html" width="100%" height="862px" scrolling="no"></iframe>
+[Run Insulation R-Value and Thickness Comparison Fullscreen](../../sims/insulation-r-per-inch-thickness-chart/main.html)
 
 <details markdown="1">
 <summary>Insulation R-Value and Thickness Comparison</summary>

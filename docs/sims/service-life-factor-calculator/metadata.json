@@ -13,11 +13,50 @@
   "rights": "CC BY-NC-SA 4.0",
   "identifier": "service-life-factor-calculator",
   "library": "p5.js",
-  "bloomLevel": "TBD",
-  "bloomVerb": "TBD",
-  "completion_status": "scaffold",
+  "bloomLevel": "Apply, Analyze",
+  "bloomVerb": "calculate, analyze",
+  "completion_status": "built",
   "chapter_number": 21,
   "chapter_title": "Durability, Maintenance, and Building Failure",
   "chapter_dir": "21-durability-failure",
-  "chapter_rel_dir": "chapters/21-durability-failure"
+  "chapter_rel_dir": "chapters/21-durability-failure",
+  "canvasHeight": 710,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Apply",
+      "Analyze"
+    ],
+    "concepts": [
+      "Service life",
+      "Reference service life",
+      "Factor method (ISO 15686)",
+      "Maintenance",
+      "Sensitivity of an estimate"
+    ],
+    "prerequisites": [
+      "Chapter 21 durability and agents of degradation",
+      "Multiplying decimals"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Students calculate the estimated service life of a building component with the factor method and analyze which factor changes the estimate most.",
+    "recommendedUsage": [
+      "Start with the Riverbend roof membrane: a 25-year reference life and the Chapter 21 factors. Check that the estimate is about 17.8 years and that the written product matches the bars.",
+      "Drag any of the seven factor sliders from 0.6 to 1.2. A factor of 1.0 is standard conditions, below 1.0 shortens life, and above 1.0 lengthens it. Hover over a slider to read what raises or lowers that factor.",
+      "Read the ranked list on the right to see which factor is shortening or lengthening the estimate the most, in years.",
+      "Click Apply good maintenance to set the maintenance factor to 1.1, and compare the years gained.",
+      "Choose a different component (window, exterior paint, or HVAC rooftop unit) to see how its reference life changes the estimate, and click Reset to restore the defaults."
+    ],
+    "activities": [
+      "Reproduce the Chapter 21 roof membrane result by hand and with the simulator, then improve the drainage detail (design level) and installation quality (work quality) to see how much life is recovered.",
+      "Set every factor except one to 1.0 and move that factor from 0.6 to 1.2 for each of the seven factors. Compare the range of estimated life each one produces.",
+      "Choose a component and write a short maintenance plan that justifies its maintenance factor."
+    ],
+    "assessment": [
+      "Explain why every factor has the same percentage effect on the estimate, and why the factor furthest from 1.0 currently matters most.",
+      "Use the result to recommend a replacement fund start date for the roof membrane and state what assumption could change it."
+    ]
+  }
 }

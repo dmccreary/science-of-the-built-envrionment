@@ -103,6 +103,10 @@ Moisture content affects strength, dimensional stability, and durability. Framin
 
 #### Diagram: Wood Moisture and Shrinkage Calculator
 
+
+<iframe src="../../sims/wood-moisture-shrinkage-calculator/main.html" width="100%" height="714px" scrolling="no"></iframe>
+[Run Wood Moisture and Shrinkage Calculator Fullscreen](../../sims/wood-moisture-shrinkage-calculator/main.html)
+
 <details markdown="1">
 <summary>Wood Moisture and Shrinkage Calculator</summary>
 Type: chart
@@ -192,6 +196,10 @@ The disadvantage is shrinkage. A floor joist and the plates above and below it h
 
 #### Diagram: Platform Framing Assembly Explorer
 
+
+<iframe src="../../sims/platform-framing-assembly-explorer/main.html" width="100%" height="592px" scrolling="no"></iframe>
+[Run Platform Framing Assembly Explorer Fullscreen](../../sims/platform-framing-assembly-explorer/main.html)
+
 <details markdown="1">
 <summary>Platform Framing Assembly Explorer</summary>
 Type: microsim
@@ -273,6 +281,10 @@ Steel allows long spans, tall buildings, and rapid erection of prefabricated pie
     A W12×26 is a wide-flange shape about 12 in. deep that weighs 26 lb per foot. Multiply the weight per foot by the length and you have the dead load of a beam in seconds, such as \( 26 \times 20 = 520 \) lb for a 20 ft piece.
 
 #### Diagram: Steel Shape Comparison Explorer
+
+
+<iframe src="../../sims/steel-shape-comparison-explorer/main.html" width="100%" height="592px" scrolling="no"></iframe>
+[Run Steel Shape Comparison Explorer Fullscreen](../../sims/steel-shape-comparison-explorer/main.html)
 
 <details markdown="1">
 <summary>Steel Shape Comparison Explorer</summary>

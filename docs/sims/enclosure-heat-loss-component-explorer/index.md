@@ -1,18 +1,60 @@
 ---
 title: Enclosure Heat Loss Component Explorer
-description: Students will analyze (Bloom Level 4, Analyze) how roof, wall, and window area and U-value combine to determine total conductive heat loss, and will evaluate (Bloom Level 5, Evaluate) which single change reduces the loss most.
-status: scaffold
+description: Students change window area, roof and wall R-values, window U-value, and outdoor temperature to see how area and U-value combine into the conductive heat loss of the Riverbend enclosure, then rank three standard upgrades by the BTU/h each one saves.
+image: /sims/enclosure-heat-loss-component-explorer/enclosure-heat-loss-component-explorer.png
+og:image: /sims/enclosure-heat-loss-component-explorer/enclosure-heat-loss-component-explorer.png
+twitter:image: /sims/enclosure-heat-loss-component-explorer/enclosure-heat-loss-component-explorer.png
+social:
+   cards: false
+status: built
 library: Chart.js
-bloom_level: TBD
+bloom_level: Analyze, Evaluate
 ---
 
 # Enclosure Heat Loss Component Explorer
 
+<iframe src="main.html" width="100%" height="758" scrolling="no"></iframe>
 
+[Run the Enclosure Heat Loss Component Explorer MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+Place the following line in your website to include this MicroSim in your course.
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+```html
+<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/enclosure-heat-loss-component-explorer/main.html" width="100%" height="758" scrolling="no"></iframe>
+```
+
+## Description
+
+Students change window area, roof and wall R-values, window U-value, and outdoor temperature to see how area and U-value combine into the conductive heat loss of the Riverbend enclosure, then rank three standard upgrades by the BTU/h each one saves.
+
+## How to Use
+
+1. Read the two stacked bars. The top bar shows each component's share of the enclosure area (top axis); the bottom bar shows its heat loss in BTU/h (bottom axis). The dashed mark is the Riverbend default total.
+2. Move the sliders for window area, roof R-value, wall effective R-value, window U-value, and outdoor temperature (indoor stays at 70 degrees F). Hover over any segment for its area, U-value, and loss.
+3. Compare the windows' share of the area with their share of the loss in the readout under the chart.
+4. Press Which change helps most? to rank roof +R-10, walls +R-10, and windows to U-0.20 by the BTU/h each saves at the current settings, and read the explanation.
+5. Press Riverbend defaults to return to 702 ft2 of windows, R-40 roof, R-27.7 walls, U-0.30 windows, and -10 degrees F.
+
+## Lesson Plan
+
+**Learning objective:** Analyze how area and U-value combine to set conductive heat loss, and evaluate which single change reduces the loss most.
+
+**Suggested activities**
+
+- Predict (5 min): Before touching the sliders, students predict which component loses the most heat per square foot and which loses the most in total, then check against the default chart.
+- Explore (10 min): Students sweep the window area from 0 to 1,400 ft2 and record how the total loss and the windows' share of the loss change.
+- Evaluate (10 min): Students run the ranking at the defaults, then lower the roof R-value to R-20 and run it again, and explain why the best upgrade changes.
+
+**Assessment**
+
+- Students reproduce the Chapter 11 table of roof, wall, and window losses (about 46,300 BTU/h) from the defaults and explain each row with Q = U x A x deltaT.
+- Students recommend one upgrade for a client with a limited budget and justify it using the BTU/h saved.
+
+## References
+
+- [Chapter 11: Enclosure Control Layers and Insulation](../../chapters/11-enclosure-insulation/index.md)
+- [R-value (insulation) (Wikipedia)](https://en.wikipedia.org/wiki/R-value_(insulation))
+- [Thermal transmittance (Wikipedia)](https://en.wikipedia.org/wiki/Thermal_transmittance)
 
 ## Specification
 

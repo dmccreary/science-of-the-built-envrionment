@@ -1,18 +1,60 @@
 ---
 title: Insulation R-Value and Thickness Comparison
-description: Students will compare (Bloom Level 4, Analyze) insulation materials by R per inch and the thickness each needs to reach a target R-value, and will justify (Bloom Level 5, Evaluate) a choice for a given cavity depth.
-status: scaffold
+description: Students compare eight insulation materials by the thickness each needs to reach a target R-value, test them against a stud-cavity depth, and weigh cost and cold-weather performance to justify a choice.
+image: /sims/insulation-r-per-inch-thickness-chart/insulation-r-per-inch-thickness-chart.png
+og:image: /sims/insulation-r-per-inch-thickness-chart/insulation-r-per-inch-thickness-chart.png
+twitter:image: /sims/insulation-r-per-inch-thickness-chart/insulation-r-per-inch-thickness-chart.png
+social:
+   cards: false
+status: built
 library: Chart.js
-bloom_level: TBD
+bloom_level: Analyze, Evaluate
 ---
 
 # Insulation R-Value and Thickness Comparison
 
+<iframe src="main.html" width="100%" height="862" scrolling="no"></iframe>
 
+[Run the Insulation R-Value and Thickness Comparison MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+Place the following line in your website to include this MicroSim in your course.
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+```html
+<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/insulation-r-per-inch-thickness-chart/main.html" width="100%" height="862" scrolling="no"></iframe>
+```
+
+## Description
+
+Students compare eight insulation materials by the thickness each needs to reach a target R-value, test them against a stud-cavity depth, and weigh cost and cold-weather performance to justify a choice.
+
+## How to Use
+
+1. Set the target R-value with the slider and choose a cavity depth. Each bar shows the inches of that material needed to reach the target; the dashed line is the cavity depth.
+2. Bars that fit inside the cavity are green and say 'fits'. Bars that do not fit are red with diagonal hatching and say 'too thick'.
+3. Hover over a bar for the material's R-per-inch range and its air, moisture, and fire behavior. Click a bar for common uses and installation cautions.
+4. Tick Show typical relative cost to add an illustrative cost per R, and tick Show cold-weather derating to see how polyisocyanurate changes in cold weather.
+5. Read the sentence under the controls for how many options fit and which is thinnest or, with cost shown, cheapest.
+
+## Lesson Plan
+
+**Learning objective:** Compare insulation materials by R per inch and the thickness needed to reach a target R-value, and justify a choice for a given cavity depth.
+
+**Suggested activities**
+
+- Reproduce (5 min): At R-20 and a 5.5 in cavity, students check the Chapter 11 worked example, noting which materials fit and which just miss.
+- Explore (10 min): Students raise the target to R-30 and R-40 and describe what happens to the bars that fit, then explain why cold-climate designers add continuous insulation outside the framing.
+- Justify (10 min): Students pick a material for a 3.5 in cavity at R-15 with cost shown and write a two-sentence recommendation.
+
+**Assessment**
+
+- Students calculate the thickness of fiberglass, closed-cell foam, and polyiso for R-30 by hand and compare with the chart.
+- Students explain why a material with the highest R per inch is not always the best choice.
+
+## References
+
+- [Chapter 11: Enclosure Control Layers and Insulation](../../chapters/11-enclosure-insulation/index.md)
+- [Building insulation (Wikipedia)](https://en.wikipedia.org/wiki/Building_insulation)
+- [R-value (insulation) (Wikipedia)](https://en.wikipedia.org/wiki/R-value_(insulation))
 
 ## Specification
 

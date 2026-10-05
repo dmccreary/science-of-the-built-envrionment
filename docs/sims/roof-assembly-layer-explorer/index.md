@@ -1,18 +1,59 @@
 ---
 title: Roof Assembly Layer Explorer
-description: Students will identify (Bloom Level 1, Remember) each layer of a steep-slope and a low-slope roof assembly and will explain (Bloom Level 2, Understand) which of the four control layers (water, air, vapor, heat) each layer provides.
-status: scaffold
+description: Students identify each layer of a steep-slope attic roof and a low-slope membrane roof, see which of the four control layers (water, air, vapor, heat) each one provides, and remove a layer to see what it protects against.
+image: /sims/roof-assembly-layer-explorer/roof-assembly-layer-explorer.png
+og:image: /sims/roof-assembly-layer-explorer/roof-assembly-layer-explorer.png
+twitter:image: /sims/roof-assembly-layer-explorer/roof-assembly-layer-explorer.png
+social:
+   cards: false
+status: built
 library: p5.js
-bloom_level: TBD
+bloom_level: Remember, Understand
 ---
 
 # Roof Assembly Layer Explorer
 
+<iframe src="main.html" width="100%" height="482" scrolling="no"></iframe>
 
+[Run the Roof Assembly Layer Explorer MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+Place the following line in your website to include this MicroSim in your course.
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+```html
+<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/roof-assembly-layer-explorer/main.html" width="100%" height="482" scrolling="no"></iframe>
+```
+
+## Description
+
+Students identify each layer of a steep-slope attic roof and a low-slope membrane roof, see which of the four control layers (water, air, vapor, heat) each one provides, and remove a layer to see what it protects against.
+
+## How to Use
+
+1. Choose Steep-slope attic roof or Low-slope membrane roof. The layers run from the exterior covering at the top to the interior ceiling at the bottom. Thickness is exaggerated so every layer is legible.
+2. Hover over a layer to highlight it and read its name. Click a layer to open the infobox with its function, the control layers it provides (water, air, vapor, heat), and one common failure.
+3. With a layer selected, press Remove this layer. The layer is grayed out and the status line at the bottom tells what goes wrong. Press the button again, or Restore all layers, to put it back.
+4. Tick Show heat flow to see arrows through the insulation, the heat loss, and winter temperatures at 70 °F inside and 10 °F outside. Tick Show water path to watch a raindrop run over the covering, or soak in when the water control is removed.
+
+## Lesson Plan
+
+**Learning objective:** Identify each layer of a steep-slope and a low-slope roof assembly and explain which of the four control layers each layer provides.
+
+**Suggested activities**
+
+- Warm-up (5 min): Students list from memory the layers of a roof from the room to the sky, then check the list against the steep-slope stack.
+- Explore (10 min): Students click every layer in both stacks and complete a table with the columns layer, control layer provided, and common failure.
+- Predict and test (10 min): Students predict the consequence of removing each layer, then press Remove this layer and compare the status line with their prediction.
+
+**Assessment**
+
+- Students explain which layer provides the air barrier and which provides the water control in each roof type, and why the two are in different places.
+- Students explain in two sentences why a shingle covering is not enough by itself to keep a building dry.
+
+## References
+
+- [Chapter 13: Roof Assemblies](../../chapters/13-roof-assemblies/index.md)
+- [Roof (Wikipedia)](https://en.wikipedia.org/wiki/Roof)
+- National Roofing Contractors Association (NRCA), The NRCA Roofing Manual (steep-slope and membrane roof systems).
 
 ## Specification
 

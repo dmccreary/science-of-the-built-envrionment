@@ -13,11 +13,50 @@
   "rights": "CC BY-NC-SA 4.0",
   "identifier": "embodied-carbon-beam-comparison",
   "library": "Chart.js",
-  "bloomLevel": "TBD",
-  "bloomVerb": "TBD",
-  "completion_status": "scaffold",
+  "bloomLevel": "Apply, Evaluate",
+  "bloomVerb": "calculate, evaluate",
+  "completion_status": "built",
   "chapter_number": 20,
   "chapter_title": "Sustainable Building Materials",
   "chapter_dir": "20-sustainable-materials",
-  "chapter_rel_dir": "chapters/20-sustainable-materials"
+  "chapter_rel_dir": "chapters/20-sustainable-materials",
+  "canvasHeight": 800,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Apply",
+      "Evaluate"
+    ],
+    "concepts": [
+      "Embodied carbon",
+      "Emission factor",
+      "Quantity times factor",
+      "Biogenic carbon",
+      "Uncertainty"
+    ],
+    "prerequisites": [
+      "Chapter 20 life-cycle modules A1 to A3",
+      "Unit conversion between pounds, kilograms, and cubic meters"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Students calculate the product-stage embodied carbon of alternative structural members from quantity and emission factor, and evaluate how uncertainty in the factor changes the ranking.",
+    "recommendedUsage": [
+      "Start with the defaults: six beams over a 40 ft span. The pale bars show mass in kilograms and the solid bars show embodied carbon in kg CO\u2082e. The table under the chart shows quantity times factor equals emissions.",
+      "Compare the glulam and steel rows with the Chapter 20 worked example: about 5,750 kg CO\u2082e for steel and 1,560 kg CO\u2082e for glulam.",
+      "Drag the emission factor sliders across their low-to-high ranges. Watch the banner to see when two options can swap places.",
+      "Check Count stored biogenic carbon in wood to add a green negative bar of about 9,000 kg CO\u2082 for the default glulam beams, and read the net result in the table.",
+      "Change the number of beams or the span to see how quantity scales, hover over any bar for the numbers behind it, and click Reset to restore the defaults."
+    ],
+    "activities": [
+      "Verify the steel and glulam rows of the table against the Chapter 20 worked example by hand, then add the reinforced concrete row using the quantity shown.",
+      "Find the steel emission factor at which steel and reinforced concrete have equal emissions for the default quantities.",
+      "Discuss whether it is fair to count stored biogenic carbon, and what must be true about the forest and the end of life for the storage to be real."
+    ],
+    "assessment": [
+      "A product declaration reports 2.1 kg CO\u2082e per kg for steel. Students recalculate the steel bar and state whether the ranking of the three options changes.",
+      "Students write a two-sentence justification of a material choice that acknowledges the uncertainty in the factors."
+    ]
+  }
 }

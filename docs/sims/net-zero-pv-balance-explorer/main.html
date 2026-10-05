@@ -3,106 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- microsim-scaffold-stub -->
-    <title>Net-Zero PV Balance Explorer</title>
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Net-Zero PV Balance Explorer MicroSim using P5.js 2.3.2</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@2.3.2/lib/p5.js"></script>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            color: #212529;
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
         }
-        #container {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-        }
-        h1 {
-            font-size: 22px;
-            margin-bottom: 10px;
-            color: #1a3a6c;
-        }
-        .placeholder {
-            border: 2px dashed #adb5bd;
-            border-radius: 8px;
-            padding: 40px 20px;
-            text-align: center;
-            color: #6c757d;
-            margin: 20px 0;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .placeholder .badge {
-            display: inline-block;
-            background: #ffc107;
-            color: #212529;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .placeholder h2 {
-            font-size: 18px;
-            color: #495057;
-            margin-bottom: 8px;
-        }
-        .placeholder p {
-            font-size: 14px;
-            max-width: 480px;
-        }
-        .meta {
-            margin-top: 20px;
-            font-size: 13px;
-            color: #6c757d;
-            border-top: 1px solid #dee2e6;
-            padding-top: 12px;
-        }
-        .meta strong { color: #495057; }
     </style>
+    <script src="net-zero-pv-balance-explorer.js"></script>
 </head>
 <body>
-    <div id="container">
-        <h1>Net-Zero PV Balance Explorer</h1>
-        <div class="placeholder">
-            <span class="badge">SCAFFOLD</span>
-            <h2>MicroSim Not Yet Implemented</h2>
-            <p>This MicroSim has been scaffolded from its specification but the
-            interactive content has not been built yet. See the chapter source
-            and the <code>index.md</code> in this directory for the full spec.</p>
-        </div>
-        <div class="meta">
-            <p><strong>Sim ID:</strong> net-zero-pv-balance-explorer</p>
-            <p><strong>Library:</strong> p5.js</p>
-            <p><strong>Bloom Level:</strong> TBD</p>
-            <p><strong>Learning Objective:</strong> Students will calculate (Bloom Level 3, Apply) the photovoltaic array size and roof area needed to offset a building's annual energy use and will analyze (Bloom Level 4, Analyze) how reducing energy use intensity changes the feasibility of net zero.</p>
-        </div>
-    </div>
-
-    <!--
-    SPECIFICATION (from chapter index.md):
-
-    Type: microsim
-    **sim-id:** net-zero-pv-balance-explorer<br/>
-    **Library:** p5.js<br/>
-    **Status:** Specified
-    
-    Learning objective: Students will calculate (Bloom Level 3, Apply) the photovoltaic array size and roof area needed to offset a building's annual energy use and will analyze (Bloom Level 4, Analyze) how reducing energy use intensity changes the feasibility of net zero.
-    
-    Visual: The left side shows a simplified roof plan of a one-story building with solar panels filling from one edge. A shaded zone represents rooftop equipment and unavailable roof area. The right side shows two bars, annual energy use and annual PV production, with a gap label in kWh. The canvas fills the container width, has a height of 480 px, and redraws on window resize.
-    
-    Controls: A slider for building area (3,000 to 20,000 ft², default 9,000). A slider for energy use intensity (15 to 90 kBtu/ft² per year, default 60). A slider for PV yield (1,000 to 1,500 kWh per kW per year, default 1,250). A slider for roof area per kW (60 to 110 ft², default 80). A slider for the share of roof usable for PV (40 to 90 percent, default 70). A button labeled "Apply efficiency measures" lowers EUI to 30 and animates the change.
-    
-    Interactions: Panels fill the roof as needed and turn red when the array does not fit. The message states "Net zero is feasible on this roof" or "Need X more ft² of PV area." Hovering over a bar shows the numbers behind it.
-    
-    Colors: PV in blue, equipment zone in gray, use bar in orange, production bar in green. Every state is also written in text.
-    
-    Implementation: p5.js with a responsive canvas, DOM sliders, and the arithmetic of the worked example recalculated on each change.
-    -->
+    <main></main>
+    <br/>
+    <a href=".">Back to Net-Zero PV Balance Explorer Lesson Plan</a>
 </body>
 </html>

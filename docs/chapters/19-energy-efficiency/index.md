@@ -86,6 +86,10 @@ The total score for each option is the sum of each score times its weight. With 
 
 #### Diagram: Sustainability Trade-Off Explorer
 
+
+<iframe src="../../sims/sustainability-trade-off-explorer/main.html" width="100%" height="802px" scrolling="no"></iframe>
+[Run Sustainability Trade-Off Explorer Fullscreen](../../sims/sustainability-trade-off-explorer/main.html)
+
 <details markdown="1">
 <summary>Sustainability Trade-Off Explorer</summary>
 Type: chart
@@ -125,6 +129,10 @@ where \( Q \) is the heat lost in Btu per year, \( A \) is the area in ft², \( 
     When a salesperson or a model claims big savings from an envelope upgrade, run \( A/R \times \text{HDD} \times 24 \) for the old and new R-values on the back of an envelope. If the claimed savings exceed the difference you calculate, ask where the extra comes from.
 
 #### Diagram: Insulation Diminishing Returns Explorer
+
+
+<iframe src="../../sims/insulation-diminishing-returns-explorer/main.html" width="100%" height="732px" scrolling="no"></iframe>
+[Run Insulation Diminishing Returns Explorer Fullscreen](../../sims/insulation-diminishing-returns-explorer/main.html)
 
 <details markdown="1">
 <summary>Insulation Diminishing Returns Explorer</summary>
@@ -203,6 +211,10 @@ A **net-zero energy** building produces as much renewable energy on or near the 
 **Worked example: can Riverbend reach net zero on its own roof?** Suppose that a typical design has an energy use intensity (EUI), the annual energy per square foot, of 60 kBtu/ft² (illustrative). The annual use is \( 60 \times 9{,}000 = 540{,}000 \) kBtu, which is \( 540{,}000/3.412 \approx 158{,}000 \) kWh. In Minnesota, a PV array commonly produces about 1,200 to 1,300 kWh per installed kW each year, so assume 1,250 kWh/kW. The array must be \( 158{,}000/1{,}250 \approx 127 \) kW. At roughly 80 ft² of roof per kW (illustrative, including spacing), that needs about 10,100 ft² of roof, which is more than the entire 9,000 ft² roof. Now suppose efficiency measures cut the EUI to 30 kBtu/ft². The use falls to about 79,000 kWh, the array to about 63 kW, and the roof area to about 5,100 ft², which fits even after allowing for rooftop equipment. Efficiency first is therefore not only good practice. For a one-story building it decides whether net zero is possible at all.
 
 #### Diagram: Net-Zero PV Balance Explorer
+
+
+<iframe src="../../sims/net-zero-pv-balance-explorer/main.html" width="100%" height="552px" scrolling="no"></iframe>
+[Run Net-Zero PV Balance Explorer Fullscreen](../../sims/net-zero-pv-balance-explorer/main.html)
 
 <details markdown="1">
 <summary>Net-Zero PV Balance Explorer</summary>

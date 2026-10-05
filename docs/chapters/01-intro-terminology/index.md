@@ -84,6 +84,10 @@ The table below summarizes the nested scales that we have just described. It add
 
 #### Diagram: Scales of the Built Environment
 
+
+<iframe src="../../sims/built-environment-scales/main.html" width="100%" height="517px" scrolling="no"></iframe>
+[Run Scales of the Built Environment Fullscreen](../../sims/built-environment-scales/main.html)
+
 <details markdown="1">
 <summary>Scales of the Built Environment</summary>
 Type: infographic
@@ -170,6 +174,10 @@ The key idea is that the systems are *interdependent*. The structure must be bui
 **Worked example: a leaky wall.** Suppose a wall is built with gaps that leak air. The enclosure system now loses heat faster than designed. The mechanical system (a furnace sized for the *designed* heat loss) cannot keep the rooms warm. The electrical system (a baseboard heater added as a repair) draws more power than the circuit was sized for. A structural problem eventually follows if warm, moist indoor air leaks into the wall cavity and condenses on the framing, which can lead to decay. One construction defect has now touched four systems.
 
 #### Diagram: Building Systems Cutaway
+
+
+<iframe src="../../sims/building-systems-cutaway/main.html" width="100%" height="517px" scrolling="no"></iframe>
+[Run Building Systems Cutaway Fullscreen](../../sims/building-systems-cutaway/main.html)
 
 <details markdown="1">
 <summary>Building Systems Cutaway</summary>
@@ -287,6 +295,10 @@ The scale ratio can be calculated directly. If the scale is 1/4" = 1'-0", then 1
 
 #### Diagram: Drawing Scale Calculator
 
+
+<iframe src="../../sims/drawing-scale-calculator/main.html" width="100%" height="552px" scrolling="no"></iframe>
+[Run Drawing Scale Calculator Fullscreen](../../sims/drawing-scale-calculator/main.html)
+
 <details markdown="1">
 <summary>Drawing Scale Calculator</summary>
 Type: microsim
@@ -342,6 +354,10 @@ A **schedule** is a table that lists repeated items, such as doors, windows, or 
 **Worked example: following a window through the set.** On the floor plan, a window appears at a wall as a thin symbol with a tag, "W3." On the exterior elevation, the window is shown with its height above the floor. On the window schedule, the tag W3 leads to a row stating that it measures 3'-0" wide by 4'-0" high, double glazed. On a wall section, the same window is shown with its flashing and sill. Four views of the same window each answer a different question, and the tag W3 ties them together.
 
 #### Diagram: Drawing Types Explorer
+
+
+<iframe src="../../sims/drawing-types-explorer/main.html" width="100%" height="542px" scrolling="no"></iframe>
+[Run Drawing Types Explorer Fullscreen](../../sims/drawing-types-explorer/main.html)
 
 <details markdown="1">
 <summary>Drawing Types Explorer</summary>

@@ -1,18 +1,60 @@
 ---
 title: Cladding Rainscreen Water Path Explorer
-description: Students will compare (Bloom Level 4, Analyze) how face-sealed, drained, and rainscreen cladding systems manage water that gets past the surface, and will explain (Bloom Level 2, Understand) why a drainage gap lets a wall dry.
-status: scaffold
+description: Students run a storm against four cladding systems, watch where the water that gets past the joint goes, and compare how the sheathing moisture gauge rises and how long each wall takes to dry.
+image: /sims/cladding-rainscreen-water-path-explorer/cladding-rainscreen-water-path-explorer.png
+og:image: /sims/cladding-rainscreen-water-path-explorer/cladding-rainscreen-water-path-explorer.png
+twitter:image: /sims/cladding-rainscreen-water-path-explorer/cladding-rainscreen-water-path-explorer.png
+social:
+   cards: false
+status: built
 library: p5.js
-bloom_level: TBD
+bloom_level: Analyze, Understand
 ---
 
 # Cladding Rainscreen Water Path Explorer
 
+<iframe src="main.html" width="100%" height="697" scrolling="no"></iframe>
 
+[Run the Cladding Rainscreen Water Path Explorer MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+Place the following line in your website to include this MicroSim in your course.
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+```html
+<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/cladding-rainscreen-water-path-explorer/main.html" width="100%" height="697" scrolling="no"></iframe>
+```
+
+## Description
+
+Students run a storm against four cladding systems, watch where the water that gets past the joint goes, and compare how the sheathing moisture gauge rises and how long each wall takes to dry.
+
+## How to Use
+
+1. Choose a system from the dropdown: face-sealed siding, drained siding, brick veneer with a cavity, or a rainscreen with a ventilated gap. The default is drained siding with flashing and weeps.
+2. Set the rain intensity with the slider and press Run storm. Wind drives droplets against the cladding; a few get through the joint. Follow them: running down the gap and out at the weep, or soaking into the sheathing.
+3. Watch the moisture gauge on the sheathing. Untick Flashing + weeps to see what happens when drained water has no exit.
+4. Hover over a droplet or a layer to read what it is doing and what moves it: wind pressure, gravity, or capillary action.
+5. Press Dry out to watch the sheathing dry in fast-forward and to see the time to dry for all four systems after the same storm.
+
+## Lesson Plan
+
+**Learning objective:** Compare how face-sealed, drained, and rainscreen cladding systems manage water that gets past the surface, and explain why a drainage gap lets a wall dry.
+
+**Suggested activities**
+
+- Predict (5 min): Before running a storm, students rank the four systems by how wet the sheathing will get, then check with a moderate storm.
+- Test (10 min): Students run each system at heavy rain with and without flashing, and record the final moisture and the days to dry.
+- Explain (10 min): Students write three sentences on why the ventilated gap dries fastest, using drainage, capillary break, and air movement.
+
+**Assessment**
+
+- Students explain why a face-sealed wall soaks the sheathing when a single joint leaks, while a drained wall does not.
+- Students describe what flashing and weep openings do and what happens without them.
+
+## References
+
+- [Chapter 12: Cladding, Windows, Doors, and Air Sealing](../../chapters/12-cladding-windows-air-sealing/index.md)
+- [Rainscreen (Wikipedia)](https://en.wikipedia.org/wiki/Rainscreen)
+- [Capillary action (Wikipedia)](https://en.wikipedia.org/wiki/Capillary_action)
 
 ## Specification
 

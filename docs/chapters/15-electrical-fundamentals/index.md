@@ -80,6 +80,10 @@ Electricity is also hazardous, and the hazard has a simple basis. A current of r
 
 #### Diagram: Electric Circuit and Water Analogy Explorer
 
+
+<iframe src="../../sims/electrical-circuit-water-analogy-explorer/main.html" width="100%" height="567px" scrolling="no"></iframe>
+[Run Electric Circuit and Water Analogy Explorer Fullscreen](../../sims/electrical-circuit-water-analogy-explorer/main.html)
+
 <details markdown="1">
 <summary>Electric Circuit and Water Analogy Explorer</summary>
 Type: microsim
@@ -125,6 +129,10 @@ Current matters to building designers more than almost any other quantity, for t
 **Worked example: adding currents at a junction.** In a parallel circuit, the current in the supply conductor is the sum of the currents in the branches. Suppose three Riverbend circuits connected to the same supply draw 12 A, 8 A, and 5 A when all are on. The supply conductor feeding them carries \( 12 + 8 + 5 = 25 \) A. A 30 A conductor and breaker would handle that load with a margin, while a 20 A conductor would be overloaded. The same additive idea applies at every level of the building, since the current in a panel's main feeder is the sum of everything downstream, which is why feeders are larger than any one branch circuit. (For simple loads, currents add directly. The designer's treatment of motors and electronics involves additional corrections that are beyond this introduction.)
 
 #### Diagram: Voltage, Current, and Resistance Explorer
+
+
+<iframe src="../../sims/ohms-law-power-wire-explorer/main.html" width="100%" height="482px" scrolling="no"></iframe>
+[Run Voltage, Current, and Resistance Explorer Fullscreen](../../sims/ohms-law-power-wire-explorer/main.html)
 
 <details markdown="1">
 <summary>Voltage, Current, and Resistance Explorer</summary>
@@ -210,6 +218,10 @@ Most commercial buildings use *three-phase* AC rather than ordinary single-phase
 
 #### Diagram: AC Waveform and Transmission Loss Explorer
 
+
+<iframe src="../../sims/ac-waveform-transmission-loss-explorer/main.html" width="100%" height="602px" scrolling="no"></iframe>
+[Run AC Waveform and Transmission Loss Explorer Fullscreen](../../sims/ac-waveform-transmission-loss-explorer/main.html)
+
 <details markdown="1">
 <summary>AC Waveform and Transmission Loss Explorer</summary>
 Type: microsim
@@ -262,6 +274,10 @@ The table below summarizes the same route, using illustrative values for a 208Y/
 Electrical systems are governed by the *National Electrical Code* (NEC, published as NFPA 70), a model code that Minnesota adopts with amendments as the Minnesota Electrical Code. Equipment is commonly required to be *listed*, meaning that an independent laboratory has tested it to a recognized standard, and inspectors verify the installation before the building can be occupied. Chapter 17 explains how codes and inspections fit into the permit process.
 
 #### Diagram: Electrical Service Path Explorer
+
+
+<iframe src="../../sims/electrical-service-path-explorer/main.html" width="100%" height="502px" scrolling="no"></iframe>
+[Run Electrical Service Path Explorer Fullscreen](../../sims/electrical-service-path-explorer/main.html)
 
 <details markdown="1">
 <summary>Electrical Service Path Explorer</summary>
@@ -337,6 +353,10 @@ Three ratings describe a breaker. The *ampere rating* is the current at which it
     A 20 A breaker can *trip* at 20 A, but a continuous load should stay near 16 A. Size the circuit for the load plus the margin, and never replace a breaker with a larger one to stop it from tripping, because the wire behind it cannot carry the extra current.
 
 #### Diagram: Circuit Breaker and Continuous Load Explorer
+
+
+<iframe src="../../sims/circuit-breaker-continuous-load-explorer/main.html" width="100%" height="622px" scrolling="no"></iframe>
+[Run Circuit Breaker and Continuous Load Explorer Fullscreen](../../sims/circuit-breaker-continuous-load-explorer/main.html)
 
 <details markdown="1">
 <summary>Circuit Breaker and Continuous Load Explorer</summary>

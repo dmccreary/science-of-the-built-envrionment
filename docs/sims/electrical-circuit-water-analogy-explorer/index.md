@@ -1,18 +1,60 @@
 ---
 title: Electric Circuit and Water Analogy Explorer
-description: Students will explain (Bloom Level 2, Understand) how a source, conductors, a load, and a switch form a closed circuit, and will predict (Bloom Level 2, Understand) how opening a switch or connecting loads in series or in parallel changes the behavior of the circuit.
-status: scaffold
+description: Students compare an electrical circuit with its water-pipe twin, then open the switch, change the source voltage, remove a lamp, and wire two lamps in series or parallel to predict and see how the flow responds.
+image: /sims/electrical-circuit-water-analogy-explorer/electrical-circuit-water-analogy-explorer.png
+og:image: /sims/electrical-circuit-water-analogy-explorer/electrical-circuit-water-analogy-explorer.png
+twitter:image: /sims/electrical-circuit-water-analogy-explorer/electrical-circuit-water-analogy-explorer.png
+social:
+   cards: false
+status: built
 library: p5.js
-bloom_level: TBD
+bloom_level: Understand
 ---
 
 # Electric Circuit and Water Analogy Explorer
 
+<iframe src="main.html" width="100%" height="567" scrolling="no"></iframe>
 
+[Run the Electric Circuit and Water Analogy Explorer MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+Place the following line in your website to include this MicroSim in your course.
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+```html
+<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/electrical-circuit-water-analogy-explorer/main.html" width="100%" height="567" scrolling="no"></iframe>
+```
+
+## Description
+
+Students compare an electrical circuit with its water-pipe twin, then open the switch, change the source voltage, remove a lamp, and wire two lamps in series or parallel to predict and see how the flow responds.
+
+## How to Use
+
+1. Press Start flow to set the dots moving. Yellow dots are charge in the wires on the left; blue dots are water in the pipes on the right. Their speed follows the current, and the arrowheads show the direction.
+2. Hover over any part to highlight its twin in the other half (battery and pump, switch and valve, lamp and water wheel, wire and pipe). Click a part to read its electrical meaning and the limit of the analogy.
+3. Press the Switch button to open and close the loop, and drag the source voltage slider. Notice that an open switch is a closed valve and that the voltage is the push, not the flow.
+4. Press the Lamps button to switch between series and parallel, then check Remove lamp 2 in each arrangement. Predict what will happen before you click, then read the status line.
+5. Uncheck Show water analogy to see the electrical circuit alone.
+
+## Lesson Plan
+
+**Learning objective:** Explain how a source, conductors, a load, and a switch form a closed circuit, and predict how opening a switch or connecting loads in series or parallel changes the behavior of the circuit.
+
+**Suggested activities**
+
+- Predict (5 min): Before using the controls, students write what will happen to lamp 1 when lamp 2 is removed in a series circuit and in a parallel circuit.
+- Explore (10 min): Students test their predictions, then change the source voltage and compare the lamp power in series and in parallel at 12 V.
+- Critique (10 min): Students read the limit of the analogy for each part and write one place where the water picture would mislead a beginner.
+
+**Assessment**
+
+- Students explain in two sentences why a classroom is wired in parallel rather than in series.
+- Students use the readout to explain why each lamp is brighter in parallel than in series on the same source.
+
+## References
+
+- [Chapter 15: Electrical Fundamentals and Building Service](../../chapters/15-electrical-fundamentals/index.md)
+- [Series and parallel circuits (Wikipedia)](https://en.wikipedia.org/wiki/Series_and_parallel_circuits)
+- [Hydraulic analogy (Wikipedia)](https://en.wikipedia.org/wiki/Hydraulic_analogy)
 
 ## Specification
 
