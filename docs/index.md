@@ -50,7 +50,7 @@ specialists, and make sound decisions about how buildings are made. See the
 | | |
 |---|---|
 | **21 chapters** | From construction terminology and the design process, through physics, materials, structure, foundations, enclosure, building systems, codes, and fire safety, to energy, sustainability, and durability |
-| **380 concepts** | Organized in a dependency graph so prerequisites always come before the ideas that need them |
+| **448 concepts** | 380 in the chapters and 68 in the appendices, organized in a dependency graph so prerequisites always come before the ideas that need them |
 | **80 MicroSims** | Small interactive simulations: adjust a load, an R-value, or a moisture level and watch the building respond |
 | **100 FAQ answers** | Common questions, each pointing back to the chapter that develops the idea |
 | **380 glossary terms** | Precise, plain-language definitions for the vocabulary of the trades |
@@ -78,7 +78,7 @@ specialists, and make sound decisions about how buildings are made. See the
 
 - **[Learning Graph](learning-graph/index.md)**
 
-    How the 380 concepts depend on each other.
+    How the 448 concepts depend on each other.
 
 - **[Posters](posters/index.md)**
 

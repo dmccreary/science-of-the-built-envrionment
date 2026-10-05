@@ -1,14 +1,48 @@
 ---
 title: "Appendix A: Heat Pumps and Building Electrification"
 description: "How cold-climate heat pumps, inverter-driven compressors, and new refrigerants are replacing combustion heating, and the unchanging thermodynamics that explains why they work."
+generated_by: claude skill chapter-content-generator
+date: 2026-10-05 08:30:52
+version: 1.11
 last_reviewed: 2026-10-05
 rate_of_change: very high
 ---
 
 # Appendix A: Heat Pumps and Building Electrification
 
+## Summary
+
+How cold-climate heat pumps, inverter-driven compressors, and new refrigerants are replacing combustion heating, and the unchanging thermodynamics that explains why they work. After completing this appendix, students will be able to define, explain, and apply the 9 concepts listed below.
+
+## Concepts Covered
+
+This appendix covers the following 9 concepts from the learning graph:
+
+| Concept | Concept Impact Score |
+|---------|-----------------------|
+| Coefficient of Performance | 5 |
+| Refrigerant | 3 |
+| Temperature Lift | 2 |
+| Refrigeration Cycle | 1 |
+| Carnot Limit | 1 |
+| Cold-Climate Heat Pump | 1 |
+| Variable-Speed Compressor | 1 |
+| Building Electrification | 1 |
+| Refrigerant Global Warming Potential | 1 |
+
+## Prerequisites
+
+This appendix builds on concepts from these parts of the book:
+
+- [Chapter 3: Forces, Heat, and the Physics of Buildings](../../chapters/03-forces-heat-physics/index.md): Heat
+- [Chapter 14: HVAC, Plumbing, and Fire Protection Systems](../../chapters/14-hvac-plumbing-fire/index.md): Heat Pump, Heating Systems
+- [Chapter 15: Electrical Fundamentals and Building Service](../../chapters/15-electrical-fundamentals/index.md): Electrical Power, Electrical Systems
+- [Chapter 19: Energy Efficiency and High-Performance Buildings](../../chapters/19-energy-efficiency/index.md): Sustainability
+
+---
+
 !!! mascot-welcome "A Furnace That Moves Heat Instead of Making It"
-    ![Beau waving welcome](../img/mascot/welcome.png){ class="mascot-admonition-img" }
+    ![Beau waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
     A heat pump can deliver two or three units of heat for every unit of electricity it uses, and it keeps getting better at doing it in Minnesota winters. This appendix shows why that works and which parts of the story are still changing. Let's build it right!
 
 For most of the twentieth century, heating a Minnesota building meant burning something: gas, oil, propane, or wood. A **heat pump** does something different. It uses electricity to move heat from a cold place to a warmer one, the way a refrigerator moves heat out of its cold box, so the heat delivered can be larger than the electrical energy consumed. Chapter 14 introduces the equipment; this appendix explains why the technology is changing so quickly and how to evaluate a claim about it.
@@ -92,7 +126,7 @@ The limit nearly halves between a mild day and a cold one. Real equipment reache
 - **Variable-speed compressors.** Inverter-driven compressors adjust their speed to the load instead of cycling on and off, which improves efficiency and lets a machine hold capacity at low outdoor temperatures.
 - **Cold-climate performance.** Models listed to cold-climate specifications are designed to keep heating at 5°F and below, which moved heat pumps from "mild climates only" to a serious option in Minneapolis.
 - **Refrigerants.** Under the AIM Act, EPA's Technology Transitions rule limits new residential air-conditioning and heat pump equipment to refrigerants with a global warming potential below 700. R-410A, with a potential near 2,088, was replaced in equipment manufactured from January 1, 2025 by refrigerants such as R-454B and R-32.[^2] These are classed as mildly flammable, so codes, installer training, and service practices are changing with them. The installation deadline for earlier-built R-410A equipment was relaxed by EPA in 2026, an example of how fast the rules move.
-- **Electrical service.** Replacing a gas furnace and water heater adds electrical load. Chapter 15 and the [Service Headroom for Solar and EV Loads](../sims/service-headroom-ev-pv-explorer/index.md) MicroSim show how the panel and service size become design questions.
+- **Electrical service.** Replacing a gas furnace and water heater adds electrical load. Chapter 15 and the [Service Headroom for Solar and EV Loads](../../sims/service-headroom-ev-pv-explorer/index.md) MicroSim show how the panel and service size become design questions.
 
 ## Worked Example: Heating Cost per 100,000 Btu
 
@@ -185,9 +219,9 @@ Outputs shown for each setting: the Carnot limit, the COP used, and the cost of 
 
 #### Diagram: Heating System Energy Comparison
 
-<iframe src="../sims/heating-system-energy-comparison/main.html" width="100%" height="742px" scrolling="no"></iframe>
+<iframe src="../../sims/heating-system-energy-comparison/main.html" width="100%" height="742px" scrolling="no"></iframe>
 
-[Run the Heating System Energy Comparison MicroSim fullscreen](../sims/heating-system-energy-comparison/main.html){ .md-button }
+[Run the Heating System Energy Comparison MicroSim fullscreen](../../sims/heating-system-energy-comparison/main.html){ .md-button }
 
 <details markdown="1">
 <summary>Heating System Energy Comparison (reused MicroSim)</summary>
@@ -205,7 +239,7 @@ Reused from this book's own MicroSims (Chapter 14), which already teach the same
 </details>
 
 !!! mascot-tip "Ask for the Design-Temperature Number"
-    ![Beau giving a tip](../img/mascot/tip.png){ class="mascot-admonition-img" }
+    ![Beau giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
     A catalog COP is usually rated at 47°F. Ask the manufacturer for capacity and COP at the outdoor design temperature for your site, then compare that capacity with the building's heat loss on its coldest hour.
 
 ## What to Watch
@@ -218,9 +252,9 @@ Reused from this book's own MicroSims (Chapter 14), which already teach the same
 
 ## Connects To
 
-- [Chapter 14: HVAC, Plumbing, and Fire Protection Systems](../chapters/14-hvac-plumbing-fire/index.md)
-- [Chapter 19: Energy Efficiency and High-Performance Buildings](../chapters/19-energy-efficiency/index.md)
-- [Heating System Energy Comparison](../sims/heating-system-energy-comparison/index.md) MicroSim
+- [Chapter 14: HVAC, Plumbing, and Fire Protection Systems](../../chapters/14-hvac-plumbing-fire/index.md)
+- [Chapter 19: Energy Efficiency and High-Performance Buildings](../../chapters/19-energy-efficiency/index.md)
+- [Heating System Energy Comparison](../../sims/heating-system-energy-comparison/index.md) MicroSim
 
 ## Key Takeaways
 

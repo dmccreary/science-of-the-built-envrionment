@@ -2,12 +2,12 @@
 
 ## Overview
 
-- **Total Concepts**: 380
+- **Total Concepts**: 448
 - **Foundational Concepts** (no prerequisites, other concepts depend on them): 6
-- **Terminal Nodes** (nothing depends on them, but have prerequisites): 149
+- **Terminal Nodes** (nothing depends on them, but have prerequisites): 181
 - **Orphaned Nodes** (completely disconnected, no edges): 0
-- **Concepts with Dependencies**: 374
-- **Average Dependencies per Concept**: 1.62
+- **Concepts with Dependencies**: 442
+- **Average Dependencies per Concept**: 1.64
 
 ## Graph Structure Validation
 
@@ -52,7 +52,7 @@ These concepts have no prerequisites:
 
 Terminal nodes are concepts that nothing else depends on but have prerequisites. They represent natural endpoints of learning paths — culminating or specialized concepts.
 
-- **Total Terminal Nodes**: 149 (39.2% of all concepts)
+- **Total Terminal Nodes**: 181 (40.4% of all concepts)
 - **Healthy Range**: 5-40% of total concepts
 
 Concepts at the end of learning paths:
@@ -73,12 +73,12 @@ Concepts at the end of learning paths:
 - **47**: Requests for Information
 - **48**: Change Orders
 - **50**: Critical Path
-- **51**: Building Information Modeling
-- **72**: Condensation
 - **78**: Sound Transmission
 - **86**: Shear Strength
+- **88**: Modulus of Elasticity
+- **90**: Brittleness
 
-*...and 129 more*
+*...and 161 more*
 
 ## Orphaned Nodes Analysis
 
@@ -101,30 +101,30 @@ Top 10 concepts that are prerequisites for the most other concepts:
 | Rank | Concept ID | Concept Label | Indegree |
 |------|-----------|---------------|----------|
 | 1 | 82 | Material Properties | 14 |
-| 2 | 59 | Heat Transfer | 10 |
-| 3 | 68 | Moisture | 10 |
-| 4 | 133 | Structural System | 10 |
-| 5 | 271 | Electrical Systems | 10 |
-| 6 | 307 | Building Codes | 9 |
-| 7 | 4 | Building Materials | 8 |
-| 8 | 62 | Radiation | 8 |
-| 9 | 208 | Insulation | 8 |
-| 10 | 334 | Sustainability | 8 |
+| 2 | 59 | Heat Transfer | 11 |
+| 3 | 271 | Electrical Systems | 11 |
+| 4 | 68 | Moisture | 10 |
+| 5 | 133 | Structural System | 10 |
+| 6 | 307 | Building Codes | 10 |
+| 7 | 62 | Radiation | 9 |
+| 8 | 334 | Sustainability | 9 |
+| 9 | 4 | Building Materials | 8 |
+| 10 | 174 | Concrete | 8 |
 
 ## Outdegree Distribution
 
 | Dependencies | Number of Concepts |
 |--------------|--------------------|
 | 0 | 6 |
-| 1 | 171 |
-| 2 | 177 |
-| 3 | 24 |
-| 4 | 1 |
+| 1 | 192 |
+| 2 | 219 |
+| 3 | 28 |
+| 4 | 2 |
 | 5 | 1 |
 
 ## Recommendations
 
-- ✅ **Terminal node percentage** (39.2%): Within healthy range (5-40%)
+- ℹ️ **High terminal node percentage** (40.4%): Consider if some terminal concepts should be prerequisites for advanced concepts
 - ✅ **DAG structure verified**: Graph supports valid learning progressions
 
 ---

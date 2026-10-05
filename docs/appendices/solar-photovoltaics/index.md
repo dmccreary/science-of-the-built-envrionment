@@ -1,14 +1,42 @@
 ---
 title: "Appendix C: Solar Photovoltaics"
 description: "How falling costs, changing incentives, and better modules are reshaping rooftop solar, with a worked example sizing a Minneapolis array."
+generated_by: claude skill chapter-content-generator
+date: 2026-10-05 08:30:52
+version: 1.11
 last_reviewed: 2026-10-05
 rate_of_change: very high
 ---
 
 # Appendix C: Solar Photovoltaics
 
+## Summary
+
+How falling costs, changing incentives, and better modules are reshaping rooftop solar, with a worked example sizing a Minneapolis array. After completing this appendix, students will be able to define, explain, and apply the 4 concepts listed below.
+
+## Concepts Covered
+
+This appendix covers the following 4 concepts from the learning graph:
+
+| Concept | Concept Impact Score |
+|---------|-----------------------|
+| Inverter | 9 |
+| Peak Sun Hours | 2 |
+| System Derate | 1 |
+| Net Metering | 1 |
+
+## Prerequisites
+
+This appendix builds on concepts from these parts of the book:
+
+- [Chapter 3: Forces, Heat, and the Physics of Buildings](../../chapters/03-forces-heat-physics/index.md): Radiation
+- [Chapter 15: Electrical Fundamentals and Building Service](../../chapters/15-electrical-fundamentals/index.md): Alternating Current, Direct Current, Utility Service
+- [Chapter 16: Electrical Distribution, Lighting, and Design Team Coordination](../../chapters/16-electrical-distribution-design/index.md): Photovoltaic Systems
+
+---
+
 !!! mascot-welcome "A Roof That Pays You Back"
-    ![Beau waving welcome](../img/mascot/welcome.png){ class="mascot-admonition-img" }
+    ![Beau waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
     Few building technologies have changed as fast as solar panels, and both their cost and the rules around them keep moving. This appendix gives you a way to size an array yourself so the numbers never depend on a sales brochure. Let's build it right!
 
 A **photovoltaic (PV)** panel converts sunlight directly into direct-current electricity, and an **inverter** converts that to the alternating current a building uses. Chapter 16 covers renewable systems as part of electrical distribution, and Chapter 19 treats net-zero energy buildings. The technology has moved from a curiosity to a mainstream building component in two decades.
@@ -26,7 +54,7 @@ Here *peak sun hours* is the daily solar energy expressed as hours at 1,000 W/mÂ
 - Annual energy: \( 7 \times 4.3 \times 365 \times 0.80 \approx 8{,}800 \) kWh.
 - Roof area at 21 percent module efficiency: \( 7 / 0.21 \approx 33 \text{ m}^2 \), or about 360 ftÂ².
 
-A typical US home uses roughly 10,000 kWh a year, so this array covers most of an efficient house. Cold helps a little, because panels make more power per sunbeam when they are cool. Snow, short winter days, and a low sun angle hurt in December, so most of the annual energy arrives from spring through fall. The [Net-Zero PV Balance Explorer](../sims/net-zero-pv-balance-explorer/index.md) lets you vary the array and the load.
+A typical US home uses roughly 10,000 kWh a year, so this array covers most of an efficient house. Cold helps a little, because panels make more power per sunbeam when they are cool. Snow, short winter days, and a low sun angle hurt in December, so most of the annual energy arrives from spring through fall. The [Net-Zero PV Balance Explorer](../../sims/net-zero-pv-balance-explorer/index.md) lets you vary the array and the load.
 
 Annual energy hides an important fact: the sun is far stronger in June than in December. The monthly peak sun hours below are illustrative values that average about 4.3 across the year. The MicroSim uses them to show when a 7 kW array makes more than a house needs and when it falls short.
 
@@ -114,12 +142,12 @@ Challenges, in this order:
 
 - **Cost.** IRENA reports that the global average cost of electricity from solar PV fell by roughly 90 percent between 2010 and 2023.[^1] Hardware is now a smaller share of a rooftop job than labor, permitting, and financing.
 - **Policy.** The 30 percent federal residential clean energy credit (Section 25D) ended for expenditures made after December 31, 2025 under the One Big Beautiful Bill Act, years ahead of its earlier schedule.[^2] Incentives for businesses, state and utility programs, and the rules for selling surplus power back to the grid all differ and keep changing.
-- **Net metering.** Many utilities are replacing one-for-one credit for exported power with lower rates, which raises the value of using solar energy on site, including with batteries ([Appendix D](battery-storage.md)).
+- **Net metering.** Many utilities are replacing one-for-one credit for exported power with lower rates, which raises the value of using solar energy on site, including with batteries ([Appendix D](../battery-storage/index.md)).
 - **Modules and mounting.** Higher-efficiency cells, bifacial modules, building-integrated products, and rapid-shutdown electronics are changing what goes on a roof.
 - **Roof readiness.** Roof condition, structural capacity, and fire-code setbacks now shape the design as much as the array itself. Chapters 6 and 13 supply the tools to check them.
 
 !!! mascot-warning "Do Not Install Solar on a Roof Near the End of Its Life"
-    ![Beau warning](../img/mascot/warning.png){ class="mascot-admonition-img" }
+    ![Beau warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
     Panels last decades, so a roof that needs replacement in five years means paying to remove and reinstall the array. Check the roof's remaining service life and its structure before you size the system.
 
 ## What to Watch
@@ -131,10 +159,10 @@ Challenges, in this order:
 
 ## Connects To
 
-- [Chapter 15: Electrical Fundamentals and Building Service](../chapters/15-electrical-fundamentals/index.md)
-- [Chapter 16: Electrical Distribution, Lighting, and Design Team Coordination](../chapters/16-electrical-distribution-design/index.md)
-- [Chapter 19: Energy Efficiency and High-Performance Buildings](../chapters/19-energy-efficiency/index.md)
-- [Net-Zero PV Balance Explorer](../sims/net-zero-pv-balance-explorer/index.md) and [Service Headroom for Solar and EV Loads](../sims/service-headroom-ev-pv-explorer/index.md) MicroSims
+- [Chapter 15: Electrical Fundamentals and Building Service](../../chapters/15-electrical-fundamentals/index.md)
+- [Chapter 16: Electrical Distribution, Lighting, and Design Team Coordination](../../chapters/16-electrical-distribution-design/index.md)
+- [Chapter 19: Energy Efficiency and High-Performance Buildings](../../chapters/19-energy-efficiency/index.md)
+- [Net-Zero PV Balance Explorer](../../sims/net-zero-pv-balance-explorer/index.md) and [Service Headroom for Solar and EV Loads](../../sims/service-headroom-ev-pv-explorer/index.md) MicroSims
 
 ## Key Takeaways
 

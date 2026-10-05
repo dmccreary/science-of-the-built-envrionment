@@ -1,14 +1,53 @@
 ---
 title: "Appendix F: Smart Sensors and Building Automation"
 description: "How low-cost sensors, connected controls, and analytics are turning buildings into measured systems, with a worked example of carbon dioxide-based ventilation control."
+generated_by: claude skill chapter-content-generator
+date: 2026-10-05 08:31:02
+version: 1.11
 last_reviewed: 2026-10-05
 rate_of_change: very high
 ---
 
 # Appendix F: Smart Sensors and Building Automation
 
+## Summary
+
+How low-cost sensors, connected controls, and analytics are turning buildings into measured systems, with a worked example of carbon dioxide-based ventilation control. After completing this appendix, students will be able to define, explain, and apply the 13 concepts listed below.
+
+## Concepts Covered
+
+This appendix covers the following 13 concepts from the learning graph:
+
+| Concept | Concept Impact Score |
+|---------|-----------------------|
+| Building Sensors | 11 |
+| Control Loop | 3 |
+| Carbon Dioxide Monitoring | 2 |
+| Fault Detection and Diagnostics | 2 |
+| Building Communication Protocols | 2 |
+| Sensor Calibration and Placement | 1 |
+| Demand-Controlled Ventilation | 1 |
+| Water Leak Detection | 1 |
+| Occupancy Sensing | 1 |
+| Energy Submetering | 1 |
+| Building Cybersecurity and Privacy | 1 |
+| Digital Twin | 1 |
+| Continuous Commissioning | 1 |
+
+## Prerequisites
+
+This appendix builds on concepts from these parts of the book:
+
+- [Chapter 2: The Design and Construction Process](../../chapters/02-design-construction-process/index.md): Commissioning
+- [Chapter 14: HVAC, Plumbing, and Fire Protection Systems](../../chapters/14-hvac-plumbing-fire/index.md): Indoor Air Quality, Ventilation
+- [Chapter 15: Electrical Fundamentals and Building Service](../../chapters/15-electrical-fundamentals/index.md): Electrical Energy
+- [Chapter 16: Electrical Distribution, Lighting, and Design Team Coordination](../../chapters/16-electrical-distribution-design/index.md): Building Automation, Building Information Modeling, Data and Communications, Lighting Controls
+- [Chapter 21: Durability, Maintenance, and Building Failure](../../chapters/21-durability-failure/index.md): Water Intrusion
+
+---
+
 !!! mascot-welcome "A Building That Tells You How It Feels"
-    ![Beau waving welcome](../img/mascot/welcome.png){ class="mascot-admonition-img" }
+    ![Beau waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
     Sensors the size of a coin can now report temperature, humidity, air quality, water leaks, and energy use all day long. This appendix shows how to use those numbers and how to know when to doubt them. Let's build it right!
 
 For most of history a building's performance was a mystery after the ribbon cutting. Inexpensive sensors, wireless communication, and cloud software have changed that. A **building automation system (BAS)** is the network of sensors, controllers, and software that runs a building's mechanical and lighting systems. Smaller buildings and homes now have a lighter version of the same thing in smart thermostats, leak detectors, and energy monitors.
@@ -90,7 +129,7 @@ A sensor reports what is happening at one point, and the building's response sti
 
 \( \text{cfm per person} = \dfrac{0.0106 \times 10^{6}}{1000 - 420} \approx 18 \)
 
-About 18 cfm of outdoor air per person. This is why a classroom sensor reading of 2,000 ppm tells you the ventilation is less than half of what you wanted, and why **demand-controlled ventilation** can reduce the air, and the heating or cooling energy it carries, in a room that is only half full. The outdoor-air heating cost of that air is what the [Heating Load and Ventilation Explorer](../sims/hvac-heating-load-ventilation-explorer/index.md) lets you vary.
+About 18 cfm of outdoor air per person. This is why a classroom sensor reading of 2,000 ppm tells you the ventilation is less than half of what you wanted, and why **demand-controlled ventilation** can reduce the air, and the heating or cooling energy it carries, in a room that is only half full. The outdoor-air heating cost of that air is what the [Heating Load and Ventilation Explorer](../../sims/hvac-heating-load-ventilation-explorer/index.md) lets you vary.
 
 The next MicroSim lets you set the occupants and the ventilation airflow for a classroom, predict where the carbon dioxide will settle, and then see how long it takes and what a badly placed sensor reads.
 
@@ -163,12 +202,12 @@ Challenges, in this order:
 
 - **Cost and connectivity.** Sensors and radios are cheap enough to place in every room, and common protocols such as BACnet and Matter are making equipment from different makers work together.
 - **Analytics.** Software compares sensor data with expectations to detect faults, such as a stuck damper or a simultaneous heating and cooling, and recommends fixes. This is sometimes called continuous commissioning, extending the commissioning in Chapter 2 beyond the day of handover.
-- **Grid response.** Controls can preheat, precool, or delay loads in response to utility signals, which links this appendix to [Appendix D](battery-storage.md).
+- **Grid response.** Controls can preheat, precool, or delay loads in response to utility signals, which links this appendix to [Appendix D](../battery-storage/index.md).
 - **Digital twins.** A **digital twin** is a software model of a building that is updated with live sensor data, so designers and operators can test a change on the model before making it in the building.
 - **Machine learning and AI agents.** Software that learns occupant patterns and adjusts setpoints is moving from research into products.
 
 !!! mascot-warning "A Reading Is Not the Truth"
-    ![Beau warning](../img/mascot/warning.png){ class="mascot-admonition-img" }
+    ![Beau warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
     Sensors drift, sit in bad locations, and fail quietly, and a carbon dioxide sensor next to a supply grille will read low. Check new sensors against a reference, verify placement, and recalibrate on a schedule so that the controls respond to the room and not to an error.
 
 ## Privacy and Security
@@ -184,10 +223,10 @@ Occupancy sensors, cameras, and connected equipment collect information about pe
 
 ## Connects To
 
-- [Chapter 2: The Design and Construction Process](../chapters/02-design-construction-process/index.md) (commissioning)
-- [Chapter 4: Moisture, Air Movement, and Thermal Comfort](../chapters/04-moisture-air-comfort/index.md)
-- [Chapter 14: HVAC, Plumbing, and Fire Protection Systems](../chapters/14-hvac-plumbing-fire/index.md)
-- [Chapter 21: Durability, Maintenance, and Building Failure](../chapters/21-durability-failure/index.md)
+- [Chapter 2: The Design and Construction Process](../../chapters/02-design-construction-process/index.md) (commissioning)
+- [Chapter 4: Moisture, Air Movement, and Thermal Comfort](../../chapters/04-moisture-air-comfort/index.md)
+- [Chapter 14: HVAC, Plumbing, and Fire Protection Systems](../../chapters/14-hvac-plumbing-fire/index.md)
+- [Chapter 21: Durability, Maintenance, and Building Failure](../../chapters/21-durability-failure/index.md)
 
 ## Key Takeaways
 

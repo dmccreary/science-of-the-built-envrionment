@@ -1,0 +1,60 @@
+{
+  "title": "Ground Temperature versus Depth Explorer",
+  "description": "Examine how the seasonal temperature swing and its timing change with depth for a stated site and soil, to determine the swing at a given depth and the depth at which the swing falls to 2 F or less.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-05",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "ground-temperature-depth-explorer",
+  "library": "Plotly.js",
+  "bloomLevel": "Analyze",
+  "bloomVerb": "examine",
+  "completion_status": "built",
+  "chapter_number": 0,
+  "chapter_title": "Appendix E: Geothermal Heating and Earth-Coupled Air",
+  "chapter_dir": "geothermal-ground-source",
+  "chapter_rel_dir": "appendices/geothermal-ground-source",
+  "canvasHeight": 690,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Analyze"
+    ],
+    "concepts": [
+      "Ground temperature profile",
+      "Seasonal temperature swing",
+      "Damping depth",
+      "Ground-source heat pump"
+    ],
+    "prerequisites": [
+      "Seasonal swing",
+      "Damping depth",
+      "Annual mean temperature"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Examine how the seasonal temperature swing and its timing change with depth for a stated site and soil, to determine the swing at a given depth and the depth at which the swing falls to 2 F or less.",
+    "recommendedUsage": [
+      "Read challenge 1 and type the swing at 10 feet. The four seasonal curves stay hidden until you answer.",
+      "Work through the depth and date challenges. After each answer the dotted line marks the answer on the chart.",
+      "When the controls unlock, choose a site and a soil and drag the depth marker. The readout gives the swing and the coldest and warmest dates at that depth.",
+      "Switch from typical to wet dense soil, then compare the two sites."
+    ],
+    "activities": [
+      "Predict the number (10 min): For each challenge, compute the answer from the formula before pressing Check.",
+      "Depth and delay (10 min): Move the marker from 0 to 30 feet in typical soil and record the swing and the coldest date at 5, 10, 20, and 30 feet.",
+      "Site matters (5 min): Compare the Twin Cities-like and mid-latitude sites at 25 feet and explain where the curves converge."
+    ],
+    "assessment": [
+      "Students compute the swing at 15 feet in light dry soil for the Twin Cities-like site.",
+      "Students explain why ground at 10 feet is not 55 F everywhere."
+    ]
+  }
+}

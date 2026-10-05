@@ -20,6 +20,8 @@ Students examine how concrete, steel, wood, masonry, glass, insulation, and othe
 
 The course also treats codes, regulations, and sustainability as design inputs rather than afterthoughts. Students learn to apply building codes, to compare materials by performance, cost, and environmental impact, and to justify material choices with evidence. Because the course is taught in Minneapolis, examples emphasize cold-climate construction: frost-protected foundations, high-performance insulation and air sealing, ice-dam and moisture control, and the Minnesota State Building Code and Minnesota Energy Code. The goal is a technically grounded generalist who can read a set of drawings, talk with specialists, and make sound decisions about how buildings are made.
 
+The course also recognizes that the building trades are anything but timeless. Cost-effective solar panels, battery storage, cold-climate heat pumps, heat recovery ventilators, geothermal loops that use the steady temperature of the ground, home sensors, mass timber, and AI-assisted design keep changing what buildings contain and how they are built. The laws of physics that govern how buildings work do not change, so the main chapters teach that physics. A set of appendices then follows the fastest-changing topics and shows, with a worked example for each, which physical principle lets a student judge a new product or claim. The goal is not to memorize rules that will be out of date, but to recognize the timeless patterns in great buildings. The textbook is designed to be updated continually by intelligent agents, with the author's review, so that students always have a current resource.
+
 ## Main Topics Covered
 
 - The design and construction process: project phases, delivery methods, and the roles of owner, architect, engineer, contractor, and inspector
@@ -34,6 +36,7 @@ The course also treats codes, regulations, and sustainability as design inputs r
 - Building codes, standards, and regulations: the Minnesota State Building Code, the Minnesota Energy Code, permitting, inspection, fire and life safety, and accessibility
 - Sustainable building materials: embodied carbon, life-cycle assessment, recycled content, and green certification
 - Building durability, maintenance, failure modes, and building forensics
+- Rapidly evolving building technologies, covered in the appendices: heat pumps and electrification, heat recovery ventilation and modern heat exchangers, solar photovoltaics, battery storage, geothermal and earth-coupled systems, smart sensors and building automation, mass timber and low-carbon materials, changing energy codes and performance standards, and digital design, prefabrication, robotics, and AI
 
 ## Topics Not Covered
 
@@ -45,6 +48,7 @@ The course also treats codes, regulations, and sustainability as design inputs r
 - Land development, zoning law, real estate, and urban planning
 - Construction trade skills and hands-on installation techniques
 - Building information modeling (BIM) software operation
+- Product-specific selection, pricing, and incentive guidance for the rapidly evolving technologies, which change too quickly for a textbook and are checked against current sources
 
 ## Learning Outcomes
 
@@ -70,6 +74,8 @@ After completing this course, students will be able to:
 - Explain how a building code is organized and why code requirements exist
 - Describe the contribution of the electrical designer in each phase of design and construction
 - Explain what embodied carbon and life-cycle assessment measure
+- Explain why the physics of heat flow, moisture, and loads stays constant while technologies such as heat pumps, solar panels, and batteries keep changing
+- Describe how a heat pump, a heat recovery ventilator, and a ground loop each use the flow of heat from warm to cold
 
 ### Apply
 *Carrying out or using a procedure in a given situation.*
@@ -80,6 +86,7 @@ After completing this course, students will be able to:
 - Sequence the activities of a small building project from site preparation through occupancy
 - Select an appropriate material for a given structural or enclosure application using stated criteria
 - Interpret a typical wall section and identify each layer and its function
+- Calculate the limiting efficiency of a heat pump, the heating load saved by a heat recovery ventilator, the annual output of a rooftop solar array, and the run time of a backup battery from stated conditions
 
 ### Analyze
 *Breaking material into constituent parts and determining how the parts relate to one another and to an overall structure or purpose.*
@@ -90,6 +97,7 @@ After completing this course, students will be able to:
 - Diagnose likely causes of common building failures, such as cracking, water intrusion, and condensation
 - Break down the design and construction process to show where information is handed off and where coordination fails
 - Differentiate the properties of materials to explain why each suits one application better than another
+- Examine how a changing technology, such as replacing a gas furnace with a heat pump, affects other systems such as the electrical service, the enclosure, and ventilation
 
 ### Evaluate
 *Making judgments based on criteria and standards through checking and critiquing.*
@@ -100,6 +108,7 @@ After completing this course, students will be able to:
 - Evaluate sustainable materials using life-cycle data, certifications, and embodied-carbon values
 - Critique a proposed construction sequence for risks, conflicts, and missing steps
 - Appraise the coordination between electrical design and other disciplines at each project phase
+- Judge a claim about a new building technology, including a statement produced by an AI assistant, by checking it against the governing physics, a worked calculation, and the current code
 
 ### Create
 *Putting elements together to form a coherent or functional whole; reorganizing elements into a new pattern or structure.*

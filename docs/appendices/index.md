@@ -18,15 +18,15 @@ The laws of physics that govern how buildings work do not change. Heat still flo
 
 | Appendix | What is changing | The physics that stays |
 |---|---|---|
-| [A. Heat Pumps and Building Electrification](heat-pumps-electrification.md) | Cold-climate machines, variable-speed compressors, new refrigerants, incentives | Heat moves from cold to hot only with work; COP depends on the lift |
-| [B. Heat Recovery Ventilation and Modern Heat Exchangers](heat-recovery-ventilation.md) | Higher-effectiveness cores, energy recovery, defrost strategies | Heat flows from the warmer airstream to the cooler one |
-| [C. Solar Photovoltaics](solar-photovoltaics.md) | Falling costs, changing incentives, net-metering rules, better modules | Output follows the sunlight that reaches the panel |
-| [D. Battery Storage and Grid-Interactive Buildings](battery-storage.md) | Falling pack prices, LFP chemistry, safety codes, vehicle-to-home | Energy (kWh) and power (kW) are different limits |
-| [E. Geothermal Heating and Earth-Coupled Air](geothermal-ground-source.md) | Ground loops, networked geothermal, earth tubes | Soil below about 10 feet holds a nearly steady temperature |
-| [F. Smart Sensors and Building Automation](smart-sensors-building-automation.md) | Cheap sensors, connected controls, digital twins, analytics | Mass and energy balance govern what the sensors measure |
-| [G. Mass Timber and Low-Carbon Materials](mass-timber-low-carbon-materials.md) | Tall-timber code types, low-carbon concrete, EPDs | Large timber chars at a steady rate and keeps its core |
-| [H. Energy Codes and Building Performance Standards](codes-performance-standards.md) | Three-year code cycles, state targets, performance standards | Heat, air, moisture, and fire questions behind every code |
-| [I. Digital Design, Prefabrication, Robotics, and AI](digital-design-prefabrication-ai.md) | BIM, factory-built components, robotic tools, AI assistants | A building must still carry its loads and control water, air, and heat |
+| [A. Heat Pumps and Building Electrification](heat-pumps-electrification/index.md) | Cold-climate machines, variable-speed compressors, new refrigerants, incentives | Heat moves from cold to hot only with work; COP depends on the lift |
+| [B. Heat Recovery Ventilation and Modern Heat Exchangers](heat-recovery-ventilation/index.md) | Higher-effectiveness cores, energy recovery, defrost strategies | Heat flows from the warmer airstream to the cooler one |
+| [C. Solar Photovoltaics](solar-photovoltaics/index.md) | Falling costs, changing incentives, net-metering rules, better modules | Output follows the sunlight that reaches the panel |
+| [D. Battery Storage and Grid-Interactive Buildings](battery-storage/index.md) | Falling pack prices, LFP chemistry, safety codes, vehicle-to-home | Energy (kWh) and power (kW) are different limits |
+| [E. Geothermal Heating and Earth-Coupled Air](geothermal-ground-source/index.md) | Ground loops, networked geothermal, earth tubes | Soil below about 10 feet holds a nearly steady temperature |
+| [F. Smart Sensors and Building Automation](smart-sensors-building-automation/index.md) | Cheap sensors, connected controls, digital twins, analytics | Mass and energy balance govern what the sensors measure |
+| [G. Mass Timber and Low-Carbon Materials](mass-timber-low-carbon-materials/index.md) | Tall-timber code types, low-carbon concrete, EPDs | Large timber chars at a steady rate and keeps its core |
+| [H. Energy Codes and Building Performance Standards](codes-performance-standards/index.md) | Three-year code cycles, state targets, performance standards | Heat, air, moisture, and fire questions behind every code |
+| [I. Digital Design, Prefabrication, Robotics, and AI](digital-design-prefabrication-ai/index.md) | BIM, factory-built components, robotic tools, AI assistants | A building must still carry its loads and control water, air, and heat |
 
 ## MicroSims in the Appendices
 
@@ -34,17 +34,17 @@ Each appendix includes specifications for interactive MicroSims, and four reuse 
 
 | MicroSim | Appendix | Type | Bloom level | Status |
 |---|---|---|---|---|
-| Heat Pump Cycle Explorer | [A](heat-pumps-electrification.md) | infographic | Understand | Specified |
-| Heat Pump COP and Lift Explorer | [A](heat-pumps-electrification.md) | microsim | Apply | Specified |
-| HRV Effectiveness and Frost Explorer | [B](heat-recovery-ventilation.md) | microsim | Apply | Specified |
-| Rooftop PV Monthly Production Explorer | [C](solar-photovoltaics.md) | chart | Analyze | Specified |
-| Battery Backup Run-Time Explorer | [D](battery-storage.md) | microsim | Apply | Specified |
-| Ground Temperature versus Depth Explorer | [E](geothermal-ground-source.md) | chart | Analyze | Specified |
-| Sensor-to-Action Map | [F](smart-sensors-building-automation.md) | graph-model | Understand | Specified |
-| Classroom CO2 Ventilation Balance Explorer | [F](smart-sensors-building-automation.md) | microsim | Apply | Specified |
-| CLT Warm Roof Assembly Explorer | [G](mass-timber-low-carbon-materials.md) | microsim (layered assembly) | Understand | Specified |
-| Code Editions and Building Life Explorer | [H](codes-performance-standards.md) | microsim | Apply | Specified |
-| AI Claim Audit Drill | [I](digital-design-prefabrication-ai.md) | microsim | Evaluate | Specified |
+| Heat Pump Cycle Explorer | [A](heat-pumps-electrification/index.md) | infographic | Understand | Specified |
+| Heat Pump COP and Lift Explorer | [A](heat-pumps-electrification/index.md) | microsim | Apply | Specified |
+| HRV Effectiveness and Frost Explorer | [B](heat-recovery-ventilation/index.md) | microsim | Apply | Specified |
+| Rooftop PV Monthly Production Explorer | [C](solar-photovoltaics/index.md) | chart | Analyze | Specified |
+| Battery Backup Run-Time Explorer | [D](battery-storage/index.md) | microsim | Apply | Specified |
+| Ground Temperature versus Depth Explorer | [E](geothermal-ground-source/index.md) | chart | Analyze | Specified |
+| Sensor-to-Action Map | [F](smart-sensors-building-automation/index.md) | graph-model | Understand | Specified |
+| Classroom CO2 Ventilation Balance Explorer | [F](smart-sensors-building-automation/index.md) | microsim | Apply | Specified |
+| CLT Warm Roof Assembly Explorer | [G](mass-timber-low-carbon-materials/index.md) | microsim (layered assembly) | Understand | Specified |
+| Code Editions and Building Life Explorer | [H](codes-performance-standards/index.md) | microsim | Apply | Specified |
+| AI Claim Audit Drill | [I](digital-design-prefabrication-ai/index.md) | microsim | Evaluate | Specified |
 
 Reused from the main chapters: Heating System Energy Comparison (Appendix A), Glulam Char Section Explorer (Appendix G), Code Adoption and Authority Chain (Appendix H), and Ceiling Coordination Clash Explorer (Appendix I).
 

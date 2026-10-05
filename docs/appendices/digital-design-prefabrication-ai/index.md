@@ -1,29 +1,60 @@
 ---
 title: "Appendix I: Digital Design, Prefabrication, Robotics, and AI"
 description: "How building information modeling, factory-built components, robotic tools, and AI assistants are changing how buildings are designed and delivered."
+generated_by: claude skill chapter-content-generator
+date: 2026-10-05 08:31:02
+version: 1.11
 last_reviewed: 2026-10-05
 rate_of_change: very high
 ---
 
 # Appendix I: Digital Design, Prefabrication, Robotics, and AI
 
+## Summary
+
+How building information modeling, factory-built components, robotic tools, and AI assistants are changing how buildings are designed and delivered. After completing this appendix, students will be able to define, explain, and apply the 7 concepts listed below.
+
+## Concepts Covered
+
+This appendix covers the following 7 concepts from the learning graph:
+
+| Concept | Concept Impact Score |
+|---------|-----------------------|
+| Prefabrication | 2 |
+| AI-Assisted Design and Code Review | 2 |
+| Modular Construction | 1 |
+| Clash Detection | 1 |
+| Reality Capture | 1 |
+| Construction Robotics | 1 |
+| AI Output Verification | 1 |
+
+## Prerequisites
+
+This appendix builds on concepts from these parts of the book:
+
+- [Chapter 2: The Design and Construction Process](../../chapters/02-design-construction-process/index.md): Construction Process
+- [Chapter 16: Electrical Distribution, Lighting, and Design Team Coordination](../../chapters/16-electrical-distribution-design/index.md): Building Information Modeling, Interdisciplinary Coordination
+- [Chapter 17: Building Codes, Permits, and Enforcement](../../chapters/17-building-codes-permits/index.md): Inspection and Testing, Plan Review
+
+---
+
 !!! mascot-welcome "The Jobsite Is Moving Indoors and Onto Screens"
-    ![Beau waving welcome](../img/mascot/welcome.png){ class="mascot-admonition-img" }
+    ![Beau waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
     More of a building is now designed in software and built in a factory before it ever reaches the site. This appendix looks at four trends that are changing how buildings get made and what a builder needs to know. Let's build it right!
 
 Chapter 2 describes the design and construction process as a sequence of phases, and the cost of changing a decision rises with each one. The trends below try to move the discovery of problems earlier, and the work of fixing them out of the field.
 
 ## Building Information Modeling
 
-**Building information modeling (BIM)** is a shared three-dimensional model in which every element carries data such as material, size, cost, and manufacturer. Because the architect, structural engineer, and mechanical and electrical designers draw in the same model, software can run **clash detection** and flag a duct that passes through a beam before anyone pours concrete. The [Ceiling Coordination Clash Explorer](../sims/ceiling-coordination-clash-explorer/index.md) shows why this matters above a ceiling. BIM models are increasingly handed to owners for use in operation, which connects to the digital twins in [Appendix F](smart-sensors-building-automation.md).
+**Building information modeling (BIM)** is a shared three-dimensional model in which every element carries data such as material, size, cost, and manufacturer. Because the architect, structural engineer, and mechanical and electrical designers draw in the same model, software can run **clash detection** and flag a duct that passes through a beam before anyone pours concrete. The [Ceiling Coordination Clash Explorer](../../sims/ceiling-coordination-clash-explorer/index.md) shows why this matters above a ceiling. BIM models are increasingly handed to owners for use in operation, which connects to the digital twins in [Appendix F](../smart-sensors-building-automation/index.md).
 
 The Ceiling Coordination Clash Explorer from Chapter 16 gives a hands-on view of what clash detection finds.
 
 #### Diagram: Ceiling Coordination Clash Explorer
 
-<iframe src="../sims/ceiling-coordination-clash-explorer/main.html" width="100%" height="502px" scrolling="no"></iframe>
+<iframe src="../../sims/ceiling-coordination-clash-explorer/main.html" width="100%" height="502px" scrolling="no"></iframe>
 
-[Run the Ceiling Coordination Clash Explorer MicroSim fullscreen](../sims/ceiling-coordination-clash-explorer/main.html){ .md-button }
+[Run the Ceiling Coordination Clash Explorer MicroSim fullscreen](../../sims/ceiling-coordination-clash-explorer/main.html){ .md-button }
 
 <details markdown="1">
 <summary>Ceiling Coordination Clash Explorer (reused MicroSim)</summary>
@@ -42,7 +73,7 @@ Reused from this book's own MicroSims, which already teach clash detection with 
 
 ## Prefabrication and Modular Construction
 
-**Prefabrication** builds components, such as wall panels, roof trusses, and bathroom pods, or whole room-sized modules in a factory and delivers them for assembly. Factory work is protected from weather, uses repeatable jigs, and can be inspected as it is made. The concerns are the lead time needed to finalize a design earlier, transport size limits, the connections between components, and the need for the enclosure's control layers to be continuous across the joints (Chapters 11 and 12). Mass timber panels from [Appendix G](mass-timber-low-carbon-materials.md) are well suited to this approach.
+**Prefabrication** builds components, such as wall panels, roof trusses, and bathroom pods, or whole room-sized modules in a factory and delivers them for assembly. Factory work is protected from weather, uses repeatable jigs, and can be inspected as it is made. The concerns are the lead time needed to finalize a design earlier, transport size limits, the connections between components, and the need for the enclosure's control layers to be continuous across the joints (Chapters 11 and 12). Mass timber panels from [Appendix G](../mass-timber-low-carbon-materials/index.md) are well suited to this approach.
 
 ## Robotics and Reality Capture
 
@@ -113,7 +144,7 @@ Each statement is shown as "Written by an AI assistant" with Accept and Reject c
 </details>
 
 !!! mascot-warning "Plausible Is Not the Same as Correct"
-    ![Beau warning](../img/mascot/warning.png){ class="mascot-admonition-img" }
+    ![Beau warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
     An AI assistant can quote a code section that does not exist or misapply one that does. Look up the section in the adopted code, confirm the edition, and have a licensed professional sign off on anything that carries risk.
 
 ## The Pattern Under the Change
@@ -129,10 +160,10 @@ None of these tools alters what a building must do: support its loads, control h
 
 ## Connects To
 
-- [Chapter 2: The Design and Construction Process](../chapters/02-design-construction-process/index.md)
-- [Chapter 11: Enclosure Control Layers and Insulation](../chapters/11-enclosure-insulation/index.md)
-- [Chapter 17: Building Codes, Permits, and Enforcement](../chapters/17-building-codes-permits/index.md)
-- [Project Phases and the Cost of Change](../sims/project-phases-cost-of-change/index.md) and [Ceiling Coordination Clash Explorer](../sims/ceiling-coordination-clash-explorer/index.md) MicroSims
+- [Chapter 2: The Design and Construction Process](../../chapters/02-design-construction-process/index.md)
+- [Chapter 11: Enclosure Control Layers and Insulation](../../chapters/11-enclosure-insulation/index.md)
+- [Chapter 17: Building Codes, Permits, and Enforcement](../../chapters/17-building-codes-permits/index.md)
+- [Project Phases and the Cost of Change](../../sims/project-phases-cost-of-change/index.md) and [Ceiling Coordination Clash Explorer](../../sims/ceiling-coordination-clash-explorer/index.md) MicroSims
 
 ## Key Takeaways
 

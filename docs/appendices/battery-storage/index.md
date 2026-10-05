@@ -1,14 +1,48 @@
 ---
 title: "Appendix D: Battery Storage and Grid-Interactive Buildings"
 description: "How falling battery prices and lithium iron phosphate chemistry are putting battery walls in homes and buildings, and how to size one by energy and power."
+generated_by: claude skill chapter-content-generator
+date: 2026-10-05 08:31:02
+version: 1.11
 last_reviewed: 2026-10-05
 rate_of_change: very high
 ---
 
 # Appendix D: Battery Storage and Grid-Interactive Buildings
 
+## Summary
+
+How falling battery prices and lithium iron phosphate chemistry are putting battery walls in homes and buildings, and how to size one by energy and power. After completing this appendix, students will be able to define, explain, and apply the 9 concepts listed below.
+
+## Concepts Covered
+
+This appendix covers the following 9 concepts from the learning graph:
+
+| Concept | Concept Impact Score |
+|---------|-----------------------|
+| Battery Energy Storage | 8 |
+| Battery Energy and Power Ratings | 2 |
+| Time-of-Use Rates | 2 |
+| Lithium Iron Phosphate Batteries | 1 |
+| Battery Run Time | 1 |
+| Round-Trip Efficiency | 1 |
+| Battery Safety Standards | 1 |
+| Vehicle-to-Home Power | 1 |
+| Grid-Interactive Buildings | 1 |
+
+## Prerequisites
+
+This appendix builds on concepts from these parts of the book:
+
+- [Chapter 15: Electrical Fundamentals and Building Service](../../chapters/15-electrical-fundamentals/index.md): Direct Current, Electrical Energy, Electrical Power, Utility Service
+- [Chapter 16: Electrical Distribution, Lighting, and Design Team Coordination](../../chapters/16-electrical-distribution-design/index.md): Building Automation, Electric Vehicle Charging, Electrical Loads
+- [Chapter 17: Building Codes, Permits, and Enforcement](../../chapters/17-building-codes-permits/index.md): National Electrical Code
+- [Appendix C: Solar Photovoltaics](../solar-photovoltaics/index.md): Inverter
+
+---
+
 !!! mascot-welcome "A Wall That Stores Sunshine"
-    ![Beau waving welcome](../img/mascot/welcome.png){ class="mascot-admonition-img" }
+    ![Beau waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
     A battery on a garage wall can keep the refrigerator running through an outage and shift cheap energy to expensive hours. Batteries are changing faster than almost anything else in the building, so we will learn the sizing rules that outlast any one product. Let's build it right!
 
 A **battery energy storage system (BESS)** is a bank of rechargeable cells, an inverter that converts between direct and alternating current, and the controls and safety hardware that tie them together. Residential units are often wall-mounted "battery walls" in a garage or utility room. Chapter 16 covers building electrical distribution; storage adds a new source that can supply a building when the grid cannot.
@@ -26,7 +60,7 @@ Two numbers describe a battery system, and confusing them is the most common mis
 | Refrigerator, furnace blower, sump pump, lights, internet, and chargers | 1.2 kW | \( 13.5 / 1.2 \approx 11 \) hours |
 | The same loads plus a 2 kW heat pump | 3.2 kW | \( 13.5 / 3.2 \approx 4 \) hours |
 
-If the combined loads ever exceed 5 kW, the inverter trips regardless of how much energy remains. A solar array that keeps recharging the battery during the day extends these times, which is what makes the pairing in [Appendix C](solar-photovoltaics.md) valuable in a long outage.
+If the combined loads ever exceed 5 kW, the inverter trips regardless of how much energy remains. A solar array that keeps recharging the battery during the day extends these times, which is what makes the pairing in [Appendix C](../solar-photovoltaics/index.md) valuable in a long outage.
 
 Batteries are not perfectly efficient. A round-trip efficiency near 90 percent means that for every 10 kWh stored, about 9 kWh come back out, and the difference becomes heat.
 
@@ -113,7 +147,7 @@ Challenges, in this order (battery 13.5 kWh, inverter 5 kW unless stated):
 - **Vehicles as batteries.** Electric vehicles carry far larger batteries than a wall unit, and equipment that lets a vehicle power a building or feed the grid is emerging.
 
 !!! mascot-tip "Size to the Critical Loads, Not the Whole House"
-    ![Beau giving a tip](../img/mascot/tip.png){ class="mascot-admonition-img" }
+    ![Beau giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
     List what must keep running in an outage, add up the watts, and wire those circuits to a separate backed-up panel. A smaller battery on a few circuits often outperforms a larger one that tries to carry everything.
 
 ## What to Watch
@@ -125,10 +159,10 @@ Challenges, in this order (battery 13.5 kWh, inverter 5 kW unless stated):
 
 ## Connects To
 
-- [Chapter 15: Electrical Fundamentals and Building Service](../chapters/15-electrical-fundamentals/index.md)
-- [Chapter 16: Electrical Distribution, Lighting, and Design Team Coordination](../chapters/16-electrical-distribution-design/index.md)
-- [Chapter 18: Fire Protection and Life Safety Requirements](../chapters/18-fire-life-safety/index.md)
-- [Service Headroom for Solar and EV Loads](../sims/service-headroom-ev-pv-explorer/index.md) MicroSim
+- [Chapter 15: Electrical Fundamentals and Building Service](../../chapters/15-electrical-fundamentals/index.md)
+- [Chapter 16: Electrical Distribution, Lighting, and Design Team Coordination](../../chapters/16-electrical-distribution-design/index.md)
+- [Chapter 18: Fire Protection and Life Safety Requirements](../../chapters/18-fire-life-safety/index.md)
+- [Service Headroom for Solar and EV Loads](../../sims/service-headroom-ev-pv-explorer/index.md) MicroSim
 
 ## Key Takeaways
 

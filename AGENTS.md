@@ -14,7 +14,7 @@ rules win.
 
 ## Read this before generating content
 
-Before you write or edit any student-facing markdown — chapters, quizzes, FAQ
+Before you write or edit any student-facing markdown — chapters, appendices, quizzes, FAQ
 entries, glossary prose, lesson plans — you **MUST** read and follow:
 
 ```
@@ -42,6 +42,7 @@ mkdocs.yml                  site config and nav (the single source of nav truth)
 CONTENT-GENERATION-GUIDE.md content rules — read before generating
 plugins/social_override.py  og:/twitter: meta-tag hook
 docs/chapters/              chapter content, one directory per chapter
+docs/appendices/            appendices on fast-changing topics, one directory each
 docs/learning-graph/        concept list, taxonomy, dependency graph, metrics
 docs/sims/                  MicroSims, one directory per sim
 docs/css/extra.css          custom CSS (status indicators, iframe styles)

@@ -1,14 +1,40 @@
 ---
 title: "Appendix B: Heat Recovery Ventilation and Modern Heat Exchangers"
 description: "How heat recovery and energy recovery ventilators let tight buildings breathe without throwing away their heat, and how heat-exchanger design keeps improving."
+generated_by: claude skill chapter-content-generator
+date: 2026-10-05 08:30:52
+version: 1.11
 last_reviewed: 2026-10-05
 rate_of_change: high
 ---
 
 # Appendix B: Heat Recovery Ventilation and Modern Heat Exchangers
 
+## Summary
+
+How heat recovery and energy recovery ventilators let tight buildings breathe without throwing away their heat, and how heat-exchanger design keeps improving. After completing this appendix, students will be able to define, explain, and apply the 3 concepts listed below.
+
+## Concepts Covered
+
+This appendix covers the following 3 concepts from the learning graph:
+
+| Concept | Concept Impact Score |
+|---------|-----------------------|
+| Heat Recovery Effectiveness | 2 |
+| Energy Recovery Ventilator | 1 |
+| Heat Exchanger Frost and Defrost | 1 |
+
+## Prerequisites
+
+This appendix builds on concepts from these parts of the book:
+
+- [Chapter 4: Moisture, Air Movement, and Thermal Comfort](../../chapters/04-moisture-air-comfort/index.md): Condensation, Humidity
+- [Chapter 14: HVAC, Plumbing, and Fire Protection Systems](../../chapters/14-hvac-plumbing-fire/index.md): Heat Recovery Ventilator
+
+---
+
 !!! mascot-welcome "Breathe Fresh Air Without Paying for It Twice"
-    ![Beau waving welcome](../img/mascot/welcome.png){ class="mascot-admonition-img" }
+    ![Beau waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
     Tight buildings need fresh air, and in a Minnesota January that air arrives cold. A heat exchanger lets the outgoing air hand its warmth to the incoming air, so you ventilate without heating the outdoors. Let's build it right!
 
 Chapter 12 shows how air sealing closes the leaks that once supplied fresh air by accident, and Chapter 19 explains that a Passive House enclosure is so tight that mechanical ventilation is essential, ideally with heat or energy recovery. Chapter 4 covers the moisture and air-movement background. A **heat recovery ventilator (HRV)** is a fan-driven box with two airstreams, stale indoor air going out and fresh outdoor air coming in, passing on opposite sides of a thin barrier called the *core*. The barrier lets heat cross but keeps the air from mixing. An **energy recovery ventilator (ERV)** also transfers moisture.
@@ -107,11 +133,11 @@ Feedback when wrong: "Supply = outdoor + effectiveness x (indoor - outdoor). Loa
 - **Higher effectiveness.** Heat recovery units are commonly reported to recover roughly 60 to over 85 percent of the heat in the exhaust air, depending on the product and test conditions, and core designs such as counterflow cores continue to improve.[^1]
 - **Energy recovery cores.** Membrane cores move water vapor as well as heat. In a Minnesota winter they help keep indoor air from becoming extremely dry, and in humid summers they reduce the moisture load on air conditioning.
 - **Frost control.** At very low outdoor temperatures, moisture in the exhaust air can freeze in the core. Newer units use defrost strategies such as briefly pausing the supply fan, and the right choice depends on the climate.
-- **Fans and controls.** Efficient electronically commutated motors and sensor-driven controls, covered in [Appendix F](smart-sensors-building-automation.md), let ventilation rates follow occupancy.
+- **Fans and controls.** Efficient electronically commutated motors and sensor-driven controls, covered in [Appendix F](../smart-sensors-building-automation/index.md), let ventilation rates follow occupancy.
 - **Integration.** Ventilation, heating, and cooling are increasingly packaged together, as in heat pump systems that include heat recovery.
 
 !!! mascot-warning "A Great Core in a Leaky Duct System"
-    ![Beau warning](../img/mascot/warning.png){ class="mascot-admonition-img" }
+    ![Beau warning](../../img/mascot/warning.png){ class="mascot-admonition-img" }
     A high-effectiveness unit loses its advantage if the ducts leak or the supply and exhaust flows are unbalanced. Seal and test the ducts, and have the airflows measured and balanced at commissioning.
 
 ## What to Watch
@@ -123,10 +149,10 @@ Feedback when wrong: "Supply = outdoor + effectiveness x (indoor - outdoor). Loa
 
 ## Connects To
 
-- [Chapter 4: Moisture, Air Movement, and Thermal Comfort](../chapters/04-moisture-air-comfort/index.md)
-- [Chapter 12: Cladding, Windows, Doors, and Air Sealing](../chapters/12-cladding-windows-air-sealing/index.md)
-- [Chapter 14: HVAC, Plumbing, and Fire Protection Systems](../chapters/14-hvac-plumbing-fire/index.md)
-- [Heating Load and Ventilation Explorer](../sims/hvac-heating-load-ventilation-explorer/index.md) MicroSim
+- [Chapter 4: Moisture, Air Movement, and Thermal Comfort](../../chapters/04-moisture-air-comfort/index.md)
+- [Chapter 12: Cladding, Windows, Doors, and Air Sealing](../../chapters/12-cladding-windows-air-sealing/index.md)
+- [Chapter 14: HVAC, Plumbing, and Fire Protection Systems](../../chapters/14-hvac-plumbing-fire/index.md)
+- [Heating Load and Ventilation Explorer](../../sims/hvac-heating-load-ventilation-explorer/index.md) MicroSim
 
 ## Key Takeaways
 

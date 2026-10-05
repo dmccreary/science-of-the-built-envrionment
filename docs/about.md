@@ -27,7 +27,7 @@ Buildings are where people spend nearly all of their lives, and they are also am
 
 These numbers describe the world your students will build, operate, and repair. A technically grounded generalist who understands how buildings work is one of the scarcest and most useful people on a project team, and this book exists to help students become that person.
 
-This book takes a different approach from a traditional textbook. It is built on a **learning graph of 380 interconnected concepts** organized into 12 categories, so concepts are introduced in the order their prerequisites are established. Throughout the book you will find **interactive MicroSims**, browser-based simulations that let you change a load, an R-value, or a moisture level and watch the building respond. Terms are defined in a glossary with an entry for every concept. The entire textbook is **open source and free**, with no paywalls and no access codes.
+This book takes a different approach from a traditional textbook. It is built on a **learning graph of 448 interconnected concepts** organized into 13 categories, so concepts are introduced in the order their prerequisites are established. Throughout the book you will find **interactive MicroSims**, browser-based simulations that let you change a load, an R-value, or a moisture level and watch the building respond. Terms are defined in a glossary with an entry for every concept. The entire textbook is **open source and free**, with no paywalls and no access codes.
 
 ## How to Use This Book
 
@@ -41,7 +41,7 @@ This textbook is designed for self-paced study. Each chapter builds on previous 
 - **FAQ** with common questions and answers
 - **Stories** about the builders and engineers behind great buildings
 - **Posters** that summarize big ideas on a single page
-- **Learning Graph** visualizing 380 concept dependencies
+- **Learning Graph** visualizing 448 concept dependencies
 - **Search** available from any page using the search bar
 
 The [Learning Graph](learning-graph/index.md) visualizes how concepts connect across chapters. If you want to explore non-linearly or check prerequisites for a specific topic, start there. Otherwise, begin with [Chapter 1: Introduction to the Built Environment and Construction Terminology](chapters/01-intro-terminology/index.md).

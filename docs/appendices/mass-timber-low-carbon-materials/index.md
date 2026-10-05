@@ -1,14 +1,51 @@
 ---
 title: "Appendix G: Mass Timber and Low-Carbon Materials"
 description: "How mass timber code provisions, low-carbon concrete, and environmental product declarations are changing structural material choices."
+generated_by: claude skill chapter-content-generator
+date: 2026-10-05 08:31:02
+version: 1.11
 last_reviewed: 2026-10-05
 rate_of_change: high
 ---
 
 # Appendix G: Mass Timber and Low-Carbon Materials
 
+## Summary
+
+How mass timber code provisions, low-carbon concrete, and environmental product declarations are changing structural material choices. After completing this appendix, students will be able to define, explain, and apply the 9 concepts listed below.
+
+## Concepts Covered
+
+This appendix covers the following 9 concepts from the learning graph:
+
+| Concept | Concept Impact Score |
+|---------|-----------------------|
+| Low-Carbon Concrete | 2 |
+| Type IV Mass Timber Construction | 1 |
+| Timber Charring | 1 |
+| Mass Timber Moisture Protection | 1 |
+| Warm Roof Assembly | 1 |
+| Carbon Mineralization | 1 |
+| Biogenic Carbon | 1 |
+| Buy Clean Procurement | 1 |
+| Low-Carbon Steel | 1 |
+
+## Prerequisites
+
+This appendix builds on concepts from these parts of the book:
+
+- [Chapter 5: Properties of Building Materials](../../chapters/05-material-properties/index.md): Fire Resistance
+- [Chapter 7: Wood and Steel Framing](../../chapters/07-wood-steel-framing/index.md): Structural Steel, Wood Moisture Content
+- [Chapter 8: Concrete and Masonry](../../chapters/08-concrete-masonry/index.md): Concrete
+- [Chapter 11: Enclosure Control Layers and Insulation](../../chapters/11-enclosure-insulation/index.md): Thermal Control Layer, Vapor Control Layer
+- [Chapter 13: Roof Assemblies](../../chapters/13-roof-assemblies/index.md): Roof Assemblies
+- [Chapter 18: Fire Protection and Life Safety Requirements](../../chapters/18-fire-life-safety/index.md): Construction Types
+- [Chapter 20: Sustainable Building Materials](../../chapters/20-sustainable-materials/index.md): Carbon Sequestration, Cement Substitutes (SCMs), Embodied Carbon, Mass Timber, Product Declarations (EPD)
+
+---
+
 !!! mascot-welcome "Tall Buildings Made of Trees"
-    ![Beau waving welcome](../img/mascot/welcome.png){ class="mascot-admonition-img" }
+    ![Beau waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
     Wood used to top out at a few stories, and now code-approved timber buildings reach into the high teens. We will look at what changed in the code, what did not change in the fire physics, and how designers now count carbon. Let's build it right!
 
 Chapter 7 introduced cross-laminated timber and glulam, Chapter 8 covered concrete, and Chapter 20 explained embodied carbon and life-cycle assessment. This appendix follows how quickly the choices among them are shifting.
@@ -21,15 +58,15 @@ The 2021 International Building Code added three construction types for tall mas
 
 Large timber members resist fire by **charring**. The outer layer burns and forms an insulating char, and the wood inside the char stays cool and keeps its strength. The depth of char grows at a roughly steady rate, commonly taken as about 1.5 inches per hour for design.
 
-**Worked example: char depth for a two-hour rating.** After two hours of fire exposure, the char depth is about \( 1.5 \times 2 = 3 \) inches on each exposed face. The designer must size the beam or column so that the section remaining after losing that depth, and a thin additional layer of heat-weakened wood, still carries the load. This is why mass timber members look oversized compared with steel of the same capacity. The [Glulam Char Section Explorer](../sims/glulam-char-section-explorer/index.md) lets you try it.
+**Worked example: char depth for a two-hour rating.** After two hours of fire exposure, the char depth is about \( 1.5 \times 2 = 3 \) inches on each exposed face. The designer must size the beam or column so that the section remaining after losing that depth, and a thin additional layer of heat-weakened wood, still carries the load. This is why mass timber members look oversized compared with steel of the same capacity. The [Glulam Char Section Explorer](../../sims/glulam-char-section-explorer/index.md) lets you try it.
 
 The next MicroSim is the Glulam Char Section Explorer from Chapter 18, which already lets you apply the char rate to a real section.
 
 #### Diagram: Glulam Char Section Explorer
 
-<iframe src="../sims/glulam-char-section-explorer/main.html" width="100%" height="542px" scrolling="no"></iframe>
+<iframe src="../../sims/glulam-char-section-explorer/main.html" width="100%" height="542px" scrolling="no"></iframe>
 
-[Run the Glulam Char Section Explorer MicroSim fullscreen](../sims/glulam-char-section-explorer/main.html){ .md-button }
+[Run the Glulam Char Section Explorer MicroSim fullscreen](../../sims/glulam-char-section-explorer/main.html){ .md-button }
 
 <details markdown="1">
 <summary>Glulam Char Section Explorer (reused MicroSim)</summary>
@@ -130,13 +167,13 @@ Wood stores biogenic carbon, but the benefit depends on how the forest is manage
 
 Cement is the largest source of concrete's carbon, so the main strategies reduce the cement in the mix or change what it is made of.
 
-- **Supplementary cementitious materials.** Replacing part of the cement with fly ash, slag, or calcined clay lowers carbon, with changes to strength gain that the [Concrete Composition and Strength Gain Explorer](../sims/concrete-composition-strength-gain-explorer/index.md) lets you see.
+- **Supplementary cementitious materials.** Replacing part of the cement with fly ash, slag, or calcined clay lowers carbon, with changes to strength gain that the [Concrete Composition and Strength Gain Explorer](../../sims/concrete-composition-strength-gain-explorer/index.md) lets you see.
 - **Blended and limestone cements.** Cements that incorporate ground limestone are becoming a standard product.
 - **Carbon mineralization.** Some plants inject captured carbon dioxide into the mix, where it becomes a mineral.
 - **Steel.** Electric-arc furnaces that melt scrap steel have a much lower carbon footprint than furnaces that make steel from ore, and the recycled-content figure of a product matters.
 
 !!! mascot-thinking "Carbon Is Another Property to Specify"
-    ![Beau thinking](../img/mascot/thinking.png){ class="mascot-admonition-img" }
+    ![Beau thinking](../../img/mascot/thinking.png){ class="mascot-admonition-img" }
     Strength, stiffness, fire rating, cost, and now embodied carbon are all numbers on the same submittal. Think of an EPD as a data sheet that a designer reads alongside the others.
 
 ## What to Watch
@@ -148,11 +185,11 @@ Cement is the largest source of concrete's carbon, so the main strategies reduce
 
 ## Connects To
 
-- [Chapter 7: Wood and Steel Framing](../chapters/07-wood-steel-framing/index.md)
-- [Chapter 8: Concrete and Masonry](../chapters/08-concrete-masonry/index.md)
-- [Chapter 18: Fire Protection and Life Safety Requirements](../chapters/18-fire-life-safety/index.md)
-- [Chapter 20: Sustainable Building Materials](../chapters/20-sustainable-materials/index.md)
-- [Embodied Carbon Beam Comparison](../sims/embodied-carbon-beam-comparison/index.md) MicroSim
+- [Chapter 7: Wood and Steel Framing](../../chapters/07-wood-steel-framing/index.md)
+- [Chapter 8: Concrete and Masonry](../../chapters/08-concrete-masonry/index.md)
+- [Chapter 18: Fire Protection and Life Safety Requirements](../../chapters/18-fire-life-safety/index.md)
+- [Chapter 20: Sustainable Building Materials](../../chapters/20-sustainable-materials/index.md)
+- [Embodied Carbon Beam Comparison](../../sims/embodied-carbon-beam-comparison/index.md) MicroSim
 
 ## Key Takeaways
 

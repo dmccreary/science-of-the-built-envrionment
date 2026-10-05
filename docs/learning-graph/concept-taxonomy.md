@@ -1,6 +1,6 @@
 # Concept Taxonomy
 
-The 380 concepts are grouped into 12 categories. No category exceeds 30% of the concepts.
+The 448 concepts are grouped into 13 categories. No category exceeds 30% of the concepts. The first 380 concepts come from the chapters, and the last 68 come from the appendices.
 
 ## Foundations and Terminology (FOUND)
 
@@ -50,3 +50,6 @@ Embodied carbon, life-cycle assessment, energy efficiency, and green building. (
 
 Service life, maintenance, failure modes, forensics, and renovation. (18 concepts)
 
+## Rapidly Evolving Technologies (EVOL)
+
+Concepts from the appendices on fast-changing building technologies: heat pumps and refrigerants, heat recovery ventilation, ground-source and earth-coupled systems, solar photovoltaics and net metering, battery storage and grid-interactive buildings, smart sensors and building automation, mass timber and low-carbon materials, evolving energy codes, and prefabrication, digital design, and AI. Each concept depends on concepts taught in the chapters. (68 concepts)

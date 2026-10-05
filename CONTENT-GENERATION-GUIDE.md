@@ -344,3 +344,116 @@ pedagogical requirement rather than a garnish.
    --strict` fails with a "target is not found among documentation files"
    warning.
 3. **Admonition bodies** are indented four spaces.
+
+## Chapter and Appendix Directory Layout
+
+Chapters and appendices share one layout. Each is its own directory so that
+images, photos, and data can sit beside the page that uses them:
+
+```
+docs/chapters/NN-slug/index.md       docs/appendices/slug/index.md
+docs/chapters/NN-slug/quiz.md        docs/appendices/slug/quiz.md
+docs/chapters/NN-slug/references.md  docs/appendices/slug/references.md
+```
+
+- Each directory is nested in `mkdocs.yml` as **Content**, **Quiz**, and
+  **Annotated References**.
+- `index.md` in either location is two directories below `docs/`, so Markdown
+  image and page links begin with `../../` (for example
+  `../../img/mascot/welcome.png`). Only `docs/appendices/index.md`, the
+  overview page, is one level down and uses `../`.
+- Chapters are numbered (`07-wood-steel-framing`). Appendices are lettered in
+  their titles ("Appendix D") and use an unnumbered slug in the path, so a new
+  appendix never forces a rename.
+- A `quiz.md` or `references.md` that has not been written yet is a stub with
+  `status: scaffold` in its frontmatter, which paints the red status dot beside
+  it in the left nav (the same dot the MicroSim statuses use). Fill it with the
+  `quiz-generator` or `reference-generator` skill and delete the `status` line
+  when it is done.
+
+## Appendices
+
+The appendices cover the topics that change faster than a printed chapter can
+keep up with. Everything above applies to them, with the differences below.
+`docs/appendices/index.md` is a landing page, not an appendix, and follows
+none of these rules.
+
+### Frontmatter
+
+An appendix carries the same keys as a chapter (`title`, `description`,
+`generated_by`, `date`, `version`) plus two review keys:
+
+```yaml
+last_reviewed: 2026-10-05
+rate_of_change: very high    # very high | high
+```
+
+Update `last_reviewed` whenever the page is checked against current prices,
+products, or rules, even if no text changes. `rate_of_change` tells a
+reviewing agent how often to look.
+
+### Header block
+
+Open with the same three sections a chapter has, in the same order and the
+same table format: **Summary**, **Concepts Covered** (the concepts from the
+learning graph, with their current Concept Impact Score), and **Prerequisites**,
+then a horizontal rule and the `mascot-welcome`. Prerequisites name chapters
+and, where one appendix builds on another, the appendix (Appendix D needs the
+inverter from Appendix C). Take them from the learning graph's dependency
+edges rather than from memory. The `quiz-generator` skill reads the Concepts
+Covered table, so an appendix without one cannot be quizzed.
+
+### Body pattern
+
+Appendices teach the unchanging physics first so the reader can judge next
+year's product. Use these sections, in this order, and omit one only when it
+does not apply:
+
+1. **The physics that does not change**, with a worked example the reader can
+   repeat with new prices or products.
+2. **What is changing**, one bolded lead-in per trend.
+3. **MicroSims**, introduced by a bridge sentence and a `#### Diagram:` block.
+4. **What to watch**, the facts most likely to go stale, as a short list.
+5. **Connects to**, links to the chapters and sims that this appendix extends.
+6. **Key takeaways**.
+7. **References**, as footnotes.
+
+Topic-specific sections (for example "Privacy and Security", "Counting
+Carbon", "Ground Loops Need Balance") go between 1 and 4.
+
+### Sources for facts that go stale
+
+A price, a statistic, a code citation, a date, a standard number, or a physical
+constant used in a worked example needs a footnote under **References**. An
+appendix that states such a figure and has no footnote is incomplete, however
+well it reads. If a figure cannot yet be sourced, tell the author which
+figure and where, rather than deleting it or inventing a citation. The footnotes
+feed the annotated `references.md` file, which uses the chapter format.
+
+### Mascot in appendices
+
+The placement rules above apply unchanged. In practice an appendix is a short
+page, so expect 2 to 5 admonitions: the required `mascot-welcome` plus one to
+three purposeful poses (a `mascot-warning` for a trap, a `mascot-tip` for a
+sanity check, a `mascot-thinking` for the mental model). An appendix closes
+with Key Takeaways and References, so a `mascot-celebration` is optional and
+usually omitted. Run the validator on each appendix as well as each chapter:
+
+    python "$BK_HOME/skills/book-installer/scripts/validate-chapter-mascots.py" docs/appendices/slug/index.md
+
+### Length
+
+Appendix concepts are leaves of the learning graph: little depends on them, so
+their Concept Impact Scores are low and most land in Tier C, with the
+occasional Tier B. The Elaboration Budget therefore asks for brief treatment,
+a clear definition per concept, and a worked example for the few Tier B
+concepts. An appendix of 7 to 13 concepts reaching 1,500 to 3,500 words,
+counting its MicroSim specifications, is correct. Do not pad an appendix to
+resemble a chapter.
+
+### MicroSims in appendices
+
+Specify new sims with the same block as chapters. Where a chapter sim already
+teaches the idea, reuse it with the **Reused** block instead of specifying a
+copy, and say in one bridge sentence why it applies here. Reused sims keep the
+short block and are not required to carry the full set of specification fields.

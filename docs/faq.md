@@ -90,7 +90,7 @@ The grouping is a reading aid, not a formal division in the book. Every chapter 
 
 Read the chapters in order the first time through, because each concept is introduced after the concepts it depends on. The [list of chapters](chapters/index.md) recommends this path, and every chapter lists its prerequisite chapters at the top.
 
-The [learning graph](learning-graph/index.md) is a network of the book's 380 concepts, where an arrow from one concept to another means you should understand the first before the second. Six concepts have no prerequisites: Built Environment, Units of Measurement, Forces, Heat, Moisture, and Electricity. The longest dependency chain has 15 concepts. The graph is built from the course description, and you can explore it in the interactive viewer on that page.
+The [learning graph](learning-graph/index.md) is a network of the book's 448 concepts (380 from the chapters and 68 from the appendices), where an arrow from one concept to another means you should understand the first before the second. Six concepts have no prerequisites: Built Environment, Units of Measurement, Forces, Heat, Moisture, and Electricity. The longest dependency chain has 15 concepts. The graph is built from the course description, and you can explore it in the interactive viewer on that page.
 
 For example, the chain begins at Built Environment and passes through Concrete, Water-Cement Ratio, and Slab-on-Grade before it reaches Radon Mitigation. If a later chapter feels hard, look up its concepts in the graph and review the ones to their left.
 

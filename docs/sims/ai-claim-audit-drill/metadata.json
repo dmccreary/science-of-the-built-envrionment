@@ -1,0 +1,56 @@
+{
+  "title": "AI Claim Audit Drill",
+  "description": "Judge ten technical statements written by an AI assistant as correct or incorrect, using the physics and facts in Appendices A through H, with at least 8 of 10 judged correctly.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-05",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "ai-claim-audit-drill",
+  "library": "p5.js",
+  "bloomLevel": "Evaluate",
+  "bloomVerb": "judge",
+  "completion_status": "built",
+  "chapter_number": 0,
+  "chapter_title": "Appendix I: Digital Design, Prefabrication, Robotics, and AI",
+  "chapter_dir": "digital-design-prefabrication-ai",
+  "chapter_rel_dir": "appendices/digital-design-prefabrication-ai",
+  "canvasHeight": 480,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Evaluate"
+    ],
+    "concepts": [
+      "AI output verification",
+      "AI-assisted design and code review"
+    ],
+    "prerequisites": [
+      "Definitions and worked examples in Appendices A through F and H"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Judge ten technical statements written by an AI assistant as correct or incorrect, using the physics and facts in Appendices A through H, with at least 8 of 10 judged correctly.",
+    "recommendedUsage": [
+      "Read the statement under \"Written by an AI assistant\" and choose Accept or Reject.",
+      "Read whether your choice was correct, the reason, and the source to check. Open the appendix link if you want to verify it.",
+      "Press Next statement. After statement 10 the score and the statements you judged wrongly appear.",
+      "Reopen any missed statement from the menu, then restart the drill if you wish."
+    ],
+    "activities": [
+      "Audit (10 min): Complete the drill without opening any appendix, then list the statements you accepted too quickly.",
+      "Check by calculation (5 min): Four statements can be checked with a one-line calculation. Find them and do each check.",
+      "Write one (10 min): Write one correct and one subtly wrong statement of your own about a building system and trade them with a partner."
+    ],
+    "assessment": [
+      "Students explain why a statement with precise numbers can still be wrong.",
+      "Students describe how they would verify an AI statement that affects code compliance."
+    ]
+  }
+}

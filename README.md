@@ -3,6 +3,10 @@
 [![MkDocs](https://img.shields.io/badge/Made%20with-MkDocs-526CFE?logo=materialformkdocs)](https://www.mkdocs.org/)
 [![Material for MkDocs](https://img.shields.io/badge/Material%20for%20MkDocs-526CFE?logo=materialformkdocs)](https://squidfunk.github.io/mkdocs-material/)
 [![GitHub Pages](https://img.shields.io/badge/View%20on-GitHub%20Pages-blue?logo=github)](https://dmccreary.github.io/science-of-the-built-envrionment/)
+[![Claude Code](https://img.shields.io/badge/Built%20with-Claude%20Code-DA7857?logo=anthropic)](https://claude.ai/code)
+[![Claude Skills](https://img.shields.io/badge/Uses-Claude%20Skills-DA7857?logo=anthropic)](https://github.com/dmccreary/ibook-skills)
+[![OpenAI ChatGPT](https://img.shields.io/badge/Images%20by-OpenAI%20ChatGPT-412991?logo=openai&logoColor=white)](https://chatgpt.com/)
+[![p5.js](https://img.shields.io/badge/p5.js-ED225D?logo=p5.js&logoColor=white)](https://p5js.org/)
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 <p align="center">
@@ -44,7 +48,9 @@ check-ins, and encouragement throughout the chapters with the motto: *"Let's bui
 
 ## Course Structure and Chapters
 
-The curriculum spans 21 core chapters covering 380 concepts, which the learning graph sorts into 12 taxonomy categories:
+The curriculum spans 21 core chapters covering 380 concepts. Nine appendices on fast-changing topics
+add 68 more, for 448 concepts in total, which the learning graph sorts into 13 taxonomy categories.
+The chapters are:
 
 1. **Introduction to the Built Environment and Construction Terminology** — Core industry
    vocabulary, drawings, specifications, and project scales.
@@ -109,20 +115,45 @@ The curriculum spans 21 core chapters covering 380 concepts, which the learning 
 21. **Durability, Maintenance, and Building Failure** — Building forensics, moisture degradation,
     structural movement, and preventative maintenance.
 
-## Interactive MicroSims and Learning Graph
+## Interactive MicroSims, Posters, and Learning Graph
 
-- **Interactive MicroSims**: Hands-on browser simulations built with p5.js and interactive web
+- **Interactive MicroSims**: 92 hands-on browser simulations built with p5.js and interactive web
   components allowing students to explore physical behaviors, parameter adjustments, and system
   dynamics.
+
+- **Infographic Posters**: 20 one-page visual summaries of the big ideas in the book, such as the
+  load path, the four control layers, the Swiss cheese model of building failure, and the six
+  shearing layers. Browse them in the [Poster Gallery](https://dmccreary.github.io/science-of-the-built-envrionment/posters/).
 
 - **Learning Graph Viewer**: A vis-network interactive concept visualization tool enabling students
   and instructors to explore concept dependencies, prerequisites, and learning paths.
 
-## Site Status
+## Site Status and Metrics
 
-This intelligent textbook is actively developed using MkDocs Material and intelligent-textbook
-generative tooling. Detailed content metrics (word counts, concept coverage, quizzes, and diagram
-counts) will be compiled and published upon completion of the content generation phase.
+Counts come from `docs/learning-graph/book-metrics.json` (generated October 5, 2026), except the
+poster count, which is the number of poster directories under `docs/posters/`.
+
+| Metric | Count |
+|--------|-------|
+| Concepts in Learning Graph | 448 (380 in chapters, 68 in appendices) |
+| Chapters | 21 |
+| Appendices | 9 |
+| MicroSims | 92 |
+| **Infographic Posters** | **20** |
+| Stories | 12 |
+| Glossary Terms | 380 |
+| FAQ Questions | 100 |
+| Quiz Questions | 380 (21 chapter quizzes) |
+| Annotated References | 210 (21 chapter reference lists) |
+| Diagrams | 89 |
+| Mascot Images | 7 |
+| Images (all image files in `docs/`) | 242 |
+| Total Words | 445,712 |
+| Links | 2,385 |
+| Equivalent Printed Pages | 1,851 |
+
+**Completion Status:** The chapters, quizzes, references, FAQ, and glossary are complete. The
+appendices and their MicroSims are newly added and still under review.
 
 ## Getting Started
 
@@ -194,8 +225,12 @@ science-of-the-built-envrionment/
 │   │   ├── concept-taxonomy.md          # 12 taxonomy categories
 │   │   ├── learning-graph.csv           # Concept dependency edges
 │   │   └── learning-graph.json          # Graph viewer network payload
-│   ├── sims/                            # Interactive MicroSim applications
+│   ├── appendices/                      # 9 appendices on fast-changing topics
+│   ├── posters/                         # 20 infographic posters
+│   │   └── the-load-path/               # main.html, index.md, image-prompt.md
+│   ├── sims/                            # 92 interactive MicroSim applications
 │   │   └── graph-viewer/                # Interactive concept graph explorer
+│   ├── stories/                         # 12 stories of builders and engineers
 │   ├── about.md                         # Book background and pedagogy
 │   ├── contact.md                       # Author contact details
 │   ├── course-description.md            # Foundational course syllabus and outcomes
@@ -261,6 +296,7 @@ See [`docs/license.md`](./docs/license.md) for full terms.
 - **[Dunwoody College of Technology](https://dunwoody.edu/)** — Technical education in construction sciences.
 - **[vis-network](https://visjs.org/)** — Interactive graph visualization library powering the Learning Graph Viewer.
 - **[p5.js](https://p5js.org/)** — Accessible creative computing framework supporting educational MicroSims.
+- **[OpenAI ChatGPT](https://chatgpt.com/)** — Image generation (GPT 5.6 Sol) for the Beau the Beaver mascot images, the infographic posters, and the graphic-novel story images.
 
 ## Contact
 

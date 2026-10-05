@@ -1,31 +1,65 @@
 ---
 title: "Appendix H: Energy Codes and Building Performance Standards"
 description: "How energy codes are updated on a regular cycle, how Minnesota law steers its commercial energy code toward an 80 percent reduction by 2036, and how performance standards regulate existing buildings."
+generated_by: claude skill chapter-content-generator
+date: 2026-10-05 08:31:02
+version: 1.11
 last_reviewed: 2026-10-05
 rate_of_change: high
 ---
 
 # Appendix H: Energy Codes and Building Performance Standards
 
+## Summary
+
+How energy codes are updated on a regular cycle, how Minnesota law steers its commercial energy code toward an 80 percent reduction by 2036, and how performance standards regulate existing buildings. After completing this appendix, students will be able to define, explain, and apply the 7 concepts listed below.
+
+## Concepts Covered
+
+This appendix covers the following 7 concepts from the learning graph:
+
+| Concept | Concept Impact Score |
+|---------|-----------------------|
+| Code Edition Cycle | 2 |
+| ASHRAE Standard 90.1 | 1 |
+| International Energy Conservation Code | 1 |
+| Building Performance Standards | 1 |
+| Minnesota 2036 Commercial Energy Target | 1 |
+| Electric-Ready and Solar-Ready Requirements | 1 |
+| Component Replacement Cycle | 1 |
+
+## Prerequisites
+
+This appendix builds on concepts from these parts of the book:
+
+- [Chapter 16: Electrical Distribution, Lighting, and Design Team Coordination](../../chapters/16-electrical-distribution-design/index.md): Electric Vehicle Charging, Photovoltaic Systems
+- [Chapter 17: Building Codes, Permits, and Enforcement](../../chapters/17-building-codes-permits/index.md): Building Codes, Model Codes, Referenced Standards
+- [Chapter 19: Energy Efficiency and High-Performance Buildings](../../chapters/19-energy-efficiency/index.md): Energy Efficiency, Minnesota Energy Code
+- [Chapter 21: Durability, Maintenance, and Building Failure](../../chapters/21-durability-failure/index.md): Service Life
+
+---
+
 !!! mascot-welcome "The Rulebook Has a Revision Date"
-    ![Beau waving welcome](../img/mascot/welcome.png){ class="mascot-admonition-img" }
+    ![Beau waving welcome](../../img/mascot/welcome.png){ class="mascot-admonition-img" }
     Codes are not carved in stone; they are living documents that get new editions on a schedule. This appendix shows how that schedule works so you always know which edition governs your project. Let's build it right!
 
 Chapter 17 explains how model codes are written, adopted, and enforced, and Chapter 19 introduces the Minnesota Energy Code. The code changes more often than a building ages, and that mismatch is the subject of this appendix.
 
 ## How Codes Change
 
-Model energy codes are revised on a regular cycle. The International Energy Conservation Code and ASHRAE Standard 90.1 are each updated roughly every three years, and each edition generally tightens requirements for insulation, windows, air leakage, lighting, and mechanical equipment. States adopt editions on their own timetables, often with amendments, and local jurisdictions enforce them. The [Code Adoption and Authority Chain](../sims/code-adoption-authority-chain/index.md) MicroSim shows the path from model code to local enforcement.
+Model energy codes are revised on a regular cycle. The International Energy Conservation Code and ASHRAE Standard 90.1 are each updated roughly every three years, and each edition generally tightens requirements for insulation, windows, air leakage, lighting, and mechanical equipment. States adopt editions on their own timetables, often with amendments, and local jurisdictions enforce them. The [Code Adoption and Authority Chain](../../sims/code-adoption-authority-chain/index.md) MicroSim shows the path from model code to local enforcement.
 
 Minnesota is an example of a state setting a direction by law. Minnesota Statutes section 326B.106 requires the commissioner, beginning in 2024, to adopt each new published edition of ASHRAE 90.1 or a more efficient standard, and requires that the commercial energy code in effect in 2036 and afterward achieve an 80 percent reduction in annual net energy consumption compared with a 90.1-2004 baseline, with codes adopted in between moving incrementally toward it.[^1] Check the Department of Labor and Industry for the editions in force and their effective dates, because they change.
+
+A newer kind of code provision looks ahead to equipment that has not been installed yet. **Electric-ready** requirements ask a new building to include the wiring, electrical panel space, and outlets or circuits that a later switch to electric appliances or an electric vehicle charger would need. **Solar-ready** requirements ask for unshaded roof area and a protected path for wiring, so that a solar array can be added later without opening finished walls. Which of these apply, and to which building types, varies by jurisdiction and edition, so confirm them with the building official. The reasoning is the one this book keeps returning to: building the pathway costs little during construction and a great deal afterward.
 
 The Code Adoption and Authority Chain MicroSim from Chapter 17 lets you follow a model code through each layer of adoption.
 
 #### Diagram: Code Adoption and Authority Chain
 
-<iframe src="../sims/code-adoption-authority-chain/main.html" width="100%" height="537px" scrolling="no"></iframe>
+<iframe src="../../sims/code-adoption-authority-chain/main.html" width="100%" height="537px" scrolling="no"></iframe>
 
-[Run the Code Adoption and Authority Chain MicroSim fullscreen](../sims/code-adoption-authority-chain/main.html){ .md-button }
+[Run the Code Adoption and Authority Chain MicroSim fullscreen](../../sims/code-adoption-authority-chain/main.html){ .md-button }
 
 <details markdown="1">
 <summary>Code Adoption and Authority Chain (reused MicroSim)</summary>
@@ -48,7 +82,7 @@ A code governs what is built. A **building performance standard (BPS)** governs 
 
 ## The Timeline Problem
 
-**Worked example: a code edition against a building's life.** A building designed in 2026 might stand for 60 years. With a new code edition about every three years, roughly 20 further editions will be published while it is in service, and each will probably ask more of a new building than the one before. Parts of the building age at very different rates, as the [Six S's of Shearing Layers](../posters/six-s-shearing-layers/index.md) poster shows: a roof membrane or a heat pump may be replaced two or three times, while the structure and the enclosure's insulation and air barrier stay in place for the whole 60 years. That is the case for building the hard-to-change parts, especially the enclosure, better than the current minimum, and for leaving room in the electrical service and mechanical spaces for later upgrades. The [Service Life Factor Calculator](../sims/service-life-factor-calculator/index.md) lets you explore service-life reasoning.
+**Worked example: a code edition against a building's life.** A building designed in 2026 might stand for 60 years. With a new code edition about every three years, roughly 20 further editions will be published while it is in service, and each will probably ask more of a new building than the one before. Parts of the building age at very different rates, as the [Six S's of Shearing Layers](../../posters/six-s-shearing-layers/index.md) poster shows: a roof membrane or a heat pump may be replaced two or three times, while the structure and the enclosure's insulation and air barrier stay in place for the whole 60 years. That is the case for building the hard-to-change parts, especially the enclosure, better than the current minimum, and for leaving room in the electrical service and mechanical spaces for later upgrades. The [Service Life Factor Calculator](../../sims/service-life-factor-calculator/index.md) lets you explore service-life reasoning.
 
 The next MicroSim turns this arithmetic into a calculation you can repeat for any building life.
 
@@ -122,7 +156,7 @@ Challenges, in this order:
 </details>
 
 !!! mascot-tip "Ask Which Edition Governs"
-    ![Beau giving a tip](../img/mascot/tip.png){ class="mascot-admonition-img" }
+    ![Beau giving a tip](../../img/mascot/tip.png){ class="mascot-admonition-img" }
     At the start of any project, ask the building official which code editions and local amendments apply, and note the date the permit application was filed. A project is generally reviewed under the edition in force at the time, so the date matters.
 
 ## What Stays the Same
@@ -138,10 +172,10 @@ Codes change their numbers, but the questions behind them do not. How much heat 
 
 ## Connects To
 
-- [Chapter 17: Building Codes, Permits, and Enforcement](../chapters/17-building-codes-permits/index.md)
-- [Chapter 19: Energy Efficiency and High-Performance Buildings](../chapters/19-energy-efficiency/index.md)
-- [Chapter 21: Durability, Maintenance, and Building Failure](../chapters/21-durability-failure/index.md)
-- [Code Adoption and Authority Chain](../sims/code-adoption-authority-chain/index.md) MicroSim
+- [Chapter 17: Building Codes, Permits, and Enforcement](../../chapters/17-building-codes-permits/index.md)
+- [Chapter 19: Energy Efficiency and High-Performance Buildings](../../chapters/19-energy-efficiency/index.md)
+- [Chapter 21: Durability, Maintenance, and Building Failure](../../chapters/21-durability-failure/index.md)
+- [Code Adoption and Authority Chain](../../sims/code-adoption-authority-chain/index.md) MicroSim
 
 ## Key Takeaways
 
