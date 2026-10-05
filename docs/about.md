@@ -52,7 +52,8 @@ This textbook exists because two people encouraged me to build it.
 
 **[Polly Friendshuh](https://www.linkedin.com/in/polly-friendshuh-mba-94561820/)** encouraged me to generate this textbook and provided the seed prompt: the course description and the eight course competencies from which the course description, the learning graph, and every chapter were generated. You can read the original request on the [Seed Prompt](learning-graph/instructors-guide/seed-prompt.md) page.
 
-**[Craig Truempi](https://www.linkedin.com/in/craigtruempi/)** also encouraged me to take on this project and kept me going while it took shape.
+**[Craig Truempi](https://www.linkedin.com/in/craigtruempi/)** introduced me to Polly and also encouraged us work together to explore how AI could create a better learning experience for
+students at Dunwoody College.
 
 Thank you both.
 
@@ -63,6 +64,8 @@ Thank you both.
 Dan McCreary is a semi-retired AI researcher, solution architect, and educator who has spent more than three decades helping Fortune 100 organizations reason over massive datasets. At Optum he founded the Generative AI Center of Excellence and led the team that built one of the world's largest healthcare knowledge graphs — spanning over 25 billion vertices — to unify member, provider, and patient insights. Dan's deep background in knowledge representation and systems thinking underpins the precise learning graphs and intelligent textbook workflows used throughout this course.
 
 He is the co-author of *Making Sense of NoSQL* (Manning Publications), the founding chair of the NoSQL Now! conference, and a frequent keynote speaker on semantic search, ontology strategy, and AI hardware. Beyond industry, Dan has mentored students as a STEM volunteer since 2014 and now applies the same rigor to building open educational resources. You can visit the [Intelligent Textbooks Case Studies](https://dmccreary.github.io/intelligent-textbooks/case-studies/) to see over 87 textbooks that Dan has created or co-created with other authors.
+
+One of Dan's favorite books of all time is Christopher Alexander's *A Timeless Way of Building* (read the [story behind it](stories/timeless-way-of-building/index.md)). It inspired him to write *Making Sense of NoSQL*, where he looked for the universal patterns in choosing a database and designing database solutions that are correctly suited to the problem at hand. He now sees the same opportunity in the built environment. The building profession today is anything but timeless: cost-effective solar panels, new building materials, and home sensors keep changing what the trades do and how they do it. His hope is that intelligent agents will continually upgrade this book so students always have an up-to-date resource. The laws of physics that govern how buildings work do not change, however, so teaching the physics of buildings remains the timeless core of building science. His goal is not to teach rules for memorization, but to help every student recognize the timeless patterns in great buildings.
 
 **Selected Credentials**
 
