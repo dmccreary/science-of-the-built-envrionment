@@ -96,6 +96,10 @@ The phases matter because the cost of changing a design rises with each phase, a
 
 #### Diagram: Electrical Design Phase Timeline
 
+
+<iframe src="../../sims/electrical-design-phase-responsibility-timeline/main.html" width="100%" height="462px" scrolling="no"></iframe>
+[Run Electrical Design Phase Timeline Fullscreen](../../sims/electrical-design-phase-responsibility-timeline/main.html)
+
 <details markdown="1">
 <summary>Electrical Design Phase Timeline</summary>
 Type: timeline
@@ -149,6 +153,10 @@ A useful rule is the order in which the systems claim space. Gravity-drained pip
 **Building information modeling** (BIM) is the practice of creating a digital three-dimensional model of a building in which each element carries data, such as its size, material, manufacturer, and connections. The architect, structural engineer, mechanical engineer, and electrical designer each build their own part of the model, and the parts are combined. Software then performs *clash detection*, which automatically identifies elements that occupy the same space, such as a cable tray passing through a duct. Finding such a clash on a computer costs an hour of redrawing, and finding it on site costs a change order. BIM also supports quantity takeoffs and, afterward, facility management. This book does not teach BIM software, but it is useful to know that the coordination drawings an electrician receives are often extracted from a model.
 
 #### Diagram: Ceiling Coordination Clash Explorer
+
+
+<iframe src="../../sims/ceiling-coordination-clash-explorer/main.html" width="100%" height="502px" scrolling="no"></iframe>
+[Run Ceiling Coordination Clash Explorer Fullscreen](../../sims/ceiling-coordination-clash-explorer/main.html)
 
 <details markdown="1">
 <summary>Ceiling Coordination Clash Explorer</summary>
@@ -211,6 +219,10 @@ A **one-line diagram** (also called a single-line diagram) is a simplified drawi
 The one-line diagram is the designer's backbone document. The utility uses it to understand the service, the inspector uses it to check protection, and the electrician uses it to build in the correct order. It also shows, at a glance, whether a feeder is protected by a breaker no larger than the wire allows.
 
 #### Diagram: One-Line Diagram Symbol Explorer
+
+
+<iframe src="../../sims/one-line-diagram-symbol-explorer/main.html" width="100%" height="522px" scrolling="no"></iframe>
+[Run One-Line Diagram Symbol Explorer Fullscreen](../../sims/one-line-diagram-symbol-explorer/main.html)
 
 <details markdown="1">
 <summary>One-Line Diagram Symbol Explorer</summary>
@@ -282,6 +294,10 @@ A **lighting system** is the combination of luminaires (complete light fixtures)
 
 #### Diagram: Lighting Lumen Method Calculator
 
+
+<iframe src="../../sims/lighting-lumen-method-calculator/main.html" width="100%" height="542px" scrolling="no"></iframe>
+[Run Lighting Lumen Method Calculator Fullscreen](../../sims/lighting-lumen-method-calculator/main.html)
+
 <details markdown="1">
 <summary>Lighting Lumen Method Calculator</summary>
 Type: microsim
@@ -351,6 +367,10 @@ Cold-climate details matter. Panels produce more voltage in cold weather, so the
 **Worked example: will four chargers fit?** Suppose the owner of Riverbend wants four Level 2 chargers delivering 32 A each at 208 V. Each draws \( 32 \times 208 = 6{,}656 \) VA, so four draw 26,624 VA. Earlier, Riverbend's demand load was 59,250 VA, and a 200 A service at 208 V three-phase has a capacity of about 72,050 VA, leaving only about 12,800 VA of headroom. The four chargers do not fit at full power. The designer has three options: upgrade to a 400 A service, install fewer chargers, or use an *energy management system* that limits the chargers' combined output to the available headroom, which slows charging when the building is busy. A 36 kWh charging session at 6.66 kW takes about 5.4 hours, which suits a vehicle parked during an evening event.
 
 #### Diagram: Service Headroom for Solar and EV Loads
+
+
+<iframe src="../../sims/service-headroom-ev-pv-explorer/main.html" width="100%" height="732px" scrolling="no"></iframe>
+[Run Service Headroom for Solar and EV Loads Fullscreen](../../sims/service-headroom-ev-pv-explorer/main.html)
 
 <details markdown="1">
 <summary>Service Headroom for Solar and EV Loads</summary>

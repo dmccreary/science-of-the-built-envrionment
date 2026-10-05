@@ -13,11 +13,49 @@
   "rights": "CC BY-NC-SA 4.0",
   "identifier": "sealant-joint-movement-calculator",
   "library": "p5.js",
-  "bloomLevel": "TBD",
-  "bloomVerb": "TBD",
-  "completion_status": "scaffold",
+  "bloomLevel": "Apply",
+  "bloomVerb": "calculate",
+  "completion_status": "built",
   "chapter_number": 12,
   "chapter_title": "Cladding, Windows, Doors, and Air Sealing",
   "chapter_dir": "12-cladding-windows-air-sealing",
-  "chapter_rel_dir": "chapters/12-cladding-windows-air-sealing"
+  "chapter_rel_dir": "chapters/12-cladding-windows-air-sealing",
+  "canvasHeight": 686,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Apply"
+    ],
+    "concepts": [
+      "Thermal expansion",
+      "Sealant movement capability",
+      "Backer rod",
+      "Joint width",
+      "Three-sided adhesion"
+    ],
+    "prerequisites": [
+      "Chapter 5 thermal expansion of materials",
+      "Percent and unit conversion (feet to inches)"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Calculate the thermal movement and minimum sealant joint width for a given material, length, temperature range, and sealant rating.",
+    "recommendedUsage": [
+      "Choose a material and a sealant rating, then set the panel length and the lowest and highest temperatures the panel will see. The table on the right lists each calculation step.",
+      "Set the joint width with the slider. The verdict box says PASS or FAIL by comparing your width with the minimum width in step 4.",
+      "Drag the Now slider from cold to hot. The panel grows when warm and closes the joint, and the sealant stretches when cold. The sealant is green when comfortably within its rating, yellow near its limit, and red when over it, and the text beside it says the same.",
+      "Hover over the sealant to read its strain and what fraction of its limit it is using. When the width fails and the strain passes the limit, the sealant tears in the drawing and the message gives the cause.",
+      "Tick Three-sided adhesion to remove the backer rod and see how a bead stuck to the back of the joint tears even when the width is enough."
+    ],
+    "activities": [
+      "Reproduce (5 min): With the defaults (10 ft aluminum, -20 to 140 degrees F, plus or minus 25 percent), students reproduce the Chapter 12 result of 0.25 in of movement and a 1/2 in minimum joint.",
+      "Compare (10 min): Students change the sealant rating to plus or minus 50 percent and then switch the material to steel and vinyl, and record the minimum width each time.",
+      "Troubleshoot (10 min): Students set a 1/8 in joint, drag Now to the coldest temperature, and write down the cause of the tear and two ways to fix it."
+    ],
+    "assessment": [
+      "Students calculate by hand the minimum joint width for a 16 ft vinyl panel from 0 to 120 degrees F with a plus or minus 35 percent sealant and check it with the table.",
+      "Students explain in two sentences why a backer rod keeps the sealant from tearing."
+    ]
+  }
 }

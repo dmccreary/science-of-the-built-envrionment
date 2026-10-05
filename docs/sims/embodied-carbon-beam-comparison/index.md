@@ -1,18 +1,60 @@
 ---
 title: Embodied Carbon Beam Comparison
-description: Students will calculate (Bloom Level 3, Apply) the product-stage embodied carbon of alternative structural members from quantity and emission factor and will evaluate (Bloom Level 5, Evaluate) how uncertainty in the emission factor changes the ranking.
-status: scaffold
+description: Compare the product-stage embodied carbon of steel, glued-laminated, and reinforced concrete beams for the same span by multiplying each member's quantity by an emission factor. Sliders sweep the factors across a low-to-high range to show when the ranking can flip, and a checkbox shows the stored biogenic carbon in wood.
+image: /sims/embodied-carbon-beam-comparison/embodied-carbon-beam-comparison.png
+og:image: /sims/embodied-carbon-beam-comparison/embodied-carbon-beam-comparison.png
+twitter:image: /sims/embodied-carbon-beam-comparison/embodied-carbon-beam-comparison.png
+social:
+   cards: false
+status: built
 library: Chart.js
-bloom_level: TBD
+bloom_level: Apply, Evaluate
 ---
 
 # Embodied Carbon Beam Comparison
 
+<iframe src="main.html" width="100%" height="802" scrolling="no"></iframe>
 
+[Run the Embodied Carbon Beam Comparison MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+Place the following line in your website to include this MicroSim in your course.
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+```html
+<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/embodied-carbon-beam-comparison/main.html" width="100%" height="802" scrolling="no"></iframe>
+```
+
+## Description
+
+Compare the product-stage embodied carbon of steel, glued-laminated, and reinforced concrete beams for the same span by multiplying each member's quantity by an emission factor. Sliders sweep the factors across a low-to-high range to show when the ranking can flip, and a checkbox shows the stored biogenic carbon in wood.
+
+## How to Use
+
+1. Start with the defaults: six beams over a 40 ft span. The pale bars show mass in kilograms and the solid bars show embodied carbon in kg CO₂e. The table under the chart shows quantity times factor equals emissions.
+2. Compare the glulam and steel rows with the Chapter 20 worked example: about 5,750 kg CO₂e for steel and 1,560 kg CO₂e for glulam.
+3. Drag the emission factor sliders across their low-to-high ranges. Watch the banner to see when two options can swap places.
+4. Check Count stored biogenic carbon in wood to add a green negative bar of about 9,000 kg CO₂ for the default glulam beams, and read the net result in the table.
+5. Change the number of beams or the span to see how quantity scales, hover over any bar for the numbers behind it, and click Reset to restore the defaults.
+
+## Lesson Plan
+
+**Learning objective:** Students calculate the product-stage embodied carbon of alternative structural members from quantity and emission factor, and evaluate how uncertainty in the factor changes the ranking.
+
+**Suggested activities**
+
+- Verify the steel and glulam rows of the table against the Chapter 20 worked example by hand, then add the reinforced concrete row using the quantity shown.
+- Find the steel emission factor at which steel and reinforced concrete have equal emissions for the default quantities.
+- Discuss whether it is fair to count stored biogenic carbon, and what must be true about the forest and the end of life for the storage to be real.
+
+**Assessment**
+
+- A product declaration reports 2.1 kg CO₂e per kg for steel. Students recalculate the steel bar and state whether the ranking of the three options changes.
+- Students write a two-sentence justification of a material choice that acknowledges the uncertainty in the factors.
+
+## References
+
+- [Chapter 20: Sustainable Building Materials](../../chapters/20-sustainable-materials/index.md)
+- [Embodied carbon (Wikipedia: Embodied energy)](https://en.wikipedia.org/wiki/Embodied_energy)
+- [Environmental product declaration (Wikipedia)](https://en.wikipedia.org/wiki/Environmental_product_declaration)
 
 ## Specification
 

@@ -75,6 +75,10 @@ Before you open the simulation below, note that the arrow's angle is measured fr
 
 #### Diagram: Force Vector Resolver
 
+
+<iframe src="../../sims/force-vector-resolver/main.html" width="100%" height="557px" scrolling="no"></iframe>
+[Run Force Vector Resolver Fullscreen](../../sims/force-vector-resolver/main.html)
+
 <details markdown="1">
 <summary>Force Vector Resolver</summary>
 Type: microsim
@@ -121,6 +125,10 @@ The vertical forces must also sum to zero, so \( R_A + R_B = 6{,}000 \) and \( R
 
 #### Diagram: Beam Reactions and Equilibrium Explorer
 
+
+<iframe src="../../sims/beam-reactions-equilibrium-explorer/main.html" width="100%" height="557px" scrolling="no"></iframe>
+[Run Beam Reactions and Equilibrium Explorer Fullscreen](../../sims/beam-reactions-equilibrium-explorer/main.html)
+
 <details markdown="1">
 <summary>Beam Reactions and Equilibrium Explorer</summary>
 Type: microsim
@@ -166,6 +174,10 @@ The direction of the force relative to the area gives stress its type. *Tensile*
 Now consider a wood post, 3.5 in by 3.5 in, that carries 6,000 lb. Its area is 12.25 in², so the compressive stress is \( 6{,}000 / 12.25 = 490 \) psi. The post sits on a square concrete footing 2 ft by 2 ft, an area of 4 ft², so the load pressing on the soil is \( 6{,}000 / 4 = 1{,}500 \) psf, which is only 10.4 psi. The footing exists to spread the same force over a bigger area so that the weak soil beneath is stressed no more than it can bear. Allowable soil pressures commonly fall in the range of about 1,500 to 3,000 psf for competent soils, and Chapter 9 explains how they are determined.
 
 #### Diagram: Stress, Force, and Area Explorer
+
+
+<iframe src="../../sims/stress-area-load-explorer/main.html" width="100%" height="562px" scrolling="no"></iframe>
+[Run Stress, Force, and Area Explorer Fullscreen](../../sims/stress-area-load-explorer/main.html)
 
 <details markdown="1">
 <summary>Stress, Force, and Area Explorer</summary>
@@ -243,6 +255,10 @@ The rate of heat flow depends on the temperature difference \( \Delta T \) drivi
 
 #### Diagram: Heat Transfer Modes in a Winter Wall
 
+
+<iframe src="../../sims/heat-transfer-modes-wall-explorer/main.html" width="100%" height="542px" scrolling="no"></iframe>
+[Run Heat Transfer Modes in a Winter Wall Fullscreen](../../sims/heat-transfer-modes-wall-explorer/main.html)
+
 <details markdown="1">
 <summary>Heat Transfer Modes in a Winter Wall</summary>
 Type: infographic
@@ -288,6 +304,10 @@ Insulation works because it holds air still in thousands of tiny pockets, so the
 **Worked example: stud versus insulation.** Take a 3.5 in thick layer, 1 ft² in area, and a 70°F temperature difference across it. Through a softwood stud, \( \dot{Q} = 0.8 \times 1 \times 70 / 3.5 = 16 \) BTU/h. Through a fiberglass batt of the same size, \( \dot{Q} = 0.27 \times 1 \times 70 / 3.5 = 5.4 \) BTU/h. The wood passes about three times as much heat as the insulation. For the same thickness, an 8 in concrete layer would pass \( 10 \times 70 / 8 = 87.5 \) BTU/h, more than 16 times the batt. A steel stud conducts so well that it can carry roughly 1,000 times the heat of insulation at an equal thickness, a fact that returns when we discuss thermal bridging.
 
 #### Diagram: Conduction Through a Layer
+
+
+<iframe src="../../sims/conduction-layer-heat-flow-explorer/main.html" width="100%" height="557px" scrolling="no"></iframe>
+[Run Conduction Through a Layer Fullscreen](../../sims/conduction-layer-heat-flow-explorer/main.html)
 
 <details markdown="1">
 <summary>Conduction Through a Layer</summary>
@@ -416,6 +436,10 @@ The effective total resistance is \( 1/0.0856 = 11.7 \), about 24 percent lower 
 The next simulation lets you build the wall layer by layer, so you can see the framing penalty directly.
 
 #### Diagram: Wall Assembly R-Value and Thermal Bridging Calculator
+
+
+<iframe src="../../sims/wall-assembly-r-value-bridging-calculator/main.html" width="100%" height="647px" scrolling="no"></iframe>
+[Run Wall Assembly R-Value and Thermal Bridging Calculator Fullscreen](../../sims/wall-assembly-r-value-bridging-calculator/main.html)
 
 <details markdown="1">
 <summary>Wall Assembly R-Value and Thermal Bridging Calculator</summary>

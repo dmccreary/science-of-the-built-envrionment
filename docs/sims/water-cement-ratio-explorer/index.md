@@ -1,18 +1,59 @@
 ---
 title: Water-Cement Ratio Explorer
-description: Students will predict (Bloom Level 3, Apply) how changing the water-cement ratio changes the strength, permeability, and shrinkage of concrete, and will evaluate (Bloom Level 5, Evaluate) whether adding water at the chute is acceptable for a given specification.
-status: scaffold
+description: Students change the water-cement ratio of a six-sack mix and watch pores grow in a magnified slice of concrete while bars show relative strength, permeability, and shrinkage against the limit for an exposure. An Add 5 gal at the chute button shows how a few gallons of extra water push a mix over its specified maximum.
+image: /sims/water-cement-ratio-explorer/water-cement-ratio-explorer.png
+og:image: /sims/water-cement-ratio-explorer/water-cement-ratio-explorer.png
+twitter:image: /sims/water-cement-ratio-explorer/water-cement-ratio-explorer.png
+social:
+   cards: false
+status: built
 library: p5.js
-bloom_level: TBD
+bloom_level: Apply, Evaluate
 ---
 
 # Water-Cement Ratio Explorer
 
+<iframe src="main.html" width="100%" height="637" scrolling="no"></iframe>
 
+[Run the Water-Cement Ratio Explorer MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+Place the following line in your website to include this MicroSim in your course.
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+```html
+<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/water-cement-ratio-explorer/main.html" width="100%" height="637" scrolling="no"></iframe>
+```
+
+## Description
+
+Students change the water-cement ratio of a six-sack mix and watch pores grow in a magnified slice of concrete while bars show relative strength, permeability, and shrinkage against the limit for an exposure. An Add 5 gal at the chute button shows how a few gallons of extra water push a mix over its specified maximum.
+
+## How to Use
+
+1. Drag the Water-cement ratio slider from 0.30 to 0.65 and watch the white pores in the magnified slice multiply and grow. Hover over a pore to read how it forms, and over the gray and tan areas to name them.
+2. Read the three bars (strength, permeability, and shrinkage, all relative to a 0.45 mix) and the readout, which gives the water in gallons and pounds per cubic yard and an illustrative strength range. The dashed line marks the limit for the selected exposure.
+3. Choose an Exposure (indoor slab, exterior walk, or parking structure) to change the maximum ratio. When the ratio is above the maximum, the bars turn orange and the message names the property at risk.
+4. Set the ratio to 0.45 with Exterior walk selected, press Add 5 gal at the chute, and read the new ratio and the verdict. Press Remove chute water to start over.
+
+## Lesson Plan
+
+**Learning objective:** Predict how changing the water-cement ratio changes the strength, permeability, and shrinkage of concrete, and evaluate whether adding water at the chute is acceptable for a given specification.
+
+**Suggested activities**
+
+- Warm-up (5 min): Students sketch what happens to the pores in the paste when a mix has more water than the cement needs, then check the sketch against the magnified slice.
+- Explore (10 min): Students record the three bar values at w/c 0.35, 0.45, and 0.55 and describe which property changes the most and which the least.
+- Apply (10 min): Students reproduce the Chapter 8 chute example (0.45 plus 5 gal gives about 0.52) for each exposure, decide whether the added water is acceptable, and write the instruction they would give the crew.
+
+**Assessment**
+
+- Students calculate by hand the water in gallons for a 564 lb cement mix at w/c 0.50 and check it against the readout.
+- Students explain in two sentences why a water-reducing admixture is preferable to adding water at the chute.
+
+## References
+
+- [Chapter 8: Concrete and Masonry](../../chapters/08-concrete-masonry/index.md)
+- American Concrete Institute, ACI 318 Building Code Requirements for Structural Concrete (durability requirements and maximum water-cementitious materials ratios by exposure class).
+- [Water-cement ratio (Wikipedia)](https://en.wikipedia.org/wiki/Water%E2%80%93cement_ratio)
 
 ## Specification
 

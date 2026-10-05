@@ -141,7 +141,19 @@ nav:
 
   - Stories:
       - Overview: stories/index.md
+      - Story Ideas: stories/story-ideas.md
+      - A Dome Like Heaven - Anthemius and Isidore: stories/hagia-sophia-builders/index.md
+      - The Shrine That Is Always New - Ise and Hōryū-ji: stories/ise-shrine-horyuji-carpenters/index.md
+      - The Dome Without a Frame - Filippo Brunelleschi: stories/brunelleschi-florence-dome/index.md
+      - The Woman on the Bridge - Emily Warren Roebling: stories/emily-roebling-brooklyn-bridge/index.md
+      - The Bell Tower That Stood - Julia Morgan: stories/julia-morgan-earthquake-architect/index.md
+      - Mud, Vaults, and a Village - Hassan Fathy: stories/hassan-fathy-mud-brick/index.md
+      - The Ring and the Bridge - Quebec 1907: stories/quebec-bridge-iron-ring/index.md
+      - Houses Anyone Can Build - Walter Segal: stories/walter-segal-self-build/index.md
+      - The Building as a Tube - Fazlur Khan: stories/fazlur-khan-tube-skyscrapers/index.md
       - The Quality Without a Name - Christopher Alexander: stories/timeless-way-of-building/index.md
+      - The $20,000 House - Samuel Mockbee: stories/rural-studio-samuel-mockbee/index.md
+      - The School in the Clay - Francis Kéré: stories/francis-kere-gando-school/index.md
 
   - Posters:
       - Poster Gallery: posters/index.md

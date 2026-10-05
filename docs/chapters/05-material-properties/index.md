@@ -83,6 +83,10 @@ The comparison chart below applies the same idea to many materials and propertie
 
 #### Diagram: Building Material Property Comparison Chart
 
+
+<iframe src="../../sims/building-material-property-comparison-chart/main.html" width="100%" height="662px" scrolling="no"></iframe>
+[Run Building Material Property Comparison Chart Fullscreen](../../sims/building-material-property-comparison-chart/main.html)
+
 <details markdown="1">
 <summary>Building Material Property Comparison Chart</summary>
 Type: chart
@@ -124,6 +128,10 @@ Designers never load a member to its strength. They apply a *factor of safety*, 
     A common trap is to assume that a stronger material also deflects less. Strength tells you when a member fails, and stiffness tells you how much it bends on the way there, so a floor can be strong enough and still feel bouncy. Check both properties, and check deflection as well as stress.
 
 #### Diagram: Stress-Strain Curve Explorer
+
+
+<iframe src="../../sims/stress-strain-curve-explorer/main.html" width="100%" height="852px" scrolling="no"></iframe>
+[Run Stress-Strain Curve Explorer Fullscreen](../../sims/stress-strain-curve-explorer/main.html)
 
 <details markdown="1">
 <summary>Stress-Strain Curve Explorer</summary>

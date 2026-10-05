@@ -3,104 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- microsim-scaffold-stub -->
-    <title>Permit-to-Occupancy Flow</title>
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
+    <title>Permit-to-Occupancy Flow MicroSim using P5.js 2.3.2</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@2.3.2/lib/p5.js"></script>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            color: #212529;
+            margin: 0px;
+            padding: 0px;
+            font-family: Arial, Helvetica, sans-serif;
         }
-        #container {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-        }
-        h1 {
-            font-size: 22px;
-            margin-bottom: 10px;
-            color: #1a3a6c;
-        }
-        .placeholder {
-            border: 2px dashed #adb5bd;
-            border-radius: 8px;
-            padding: 40px 20px;
-            text-align: center;
-            color: #6c757d;
-            margin: 20px 0;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .placeholder .badge {
-            display: inline-block;
-            background: #ffc107;
-            color: #212529;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .placeholder h2 {
-            font-size: 18px;
-            color: #495057;
-            margin-bottom: 8px;
-        }
-        .placeholder p {
-            font-size: 14px;
-            max-width: 480px;
-        }
-        .meta {
-            margin-top: 20px;
-            font-size: 13px;
-            color: #6c757d;
-            border-top: 1px solid #dee2e6;
-            padding-top: 12px;
-        }
-        .meta strong { color: #495057; }
     </style>
+    <script src="permit-to-occupancy-flow.js"></script>
 </head>
 <body>
-    <div id="container">
-        <h1>Permit-to-Occupancy Flow</h1>
-        <div class="placeholder">
-            <span class="badge">SCAFFOLD</span>
-            <h2>MicroSim Not Yet Implemented</h2>
-            <p>This MicroSim has been scaffolded from its specification but the
-            interactive content has not been built yet. See the chapter source
-            and the <code>index.md</code> in this directory for the full spec.</p>
-        </div>
-        <div class="meta">
-            <p><strong>Sim ID:</strong> permit-to-occupancy-flow</p>
-            <p><strong>Library:</strong> p5.js</p>
-            <p><strong>Bloom Level:</strong> TBD</p>
-            <p><strong>Learning Objective:</strong> Students will sequence (Bloom Level 3, Apply) the steps from permit application through certificate of occupancy and will analyze (Bloom Level 4, Analyze) how a failed review or inspection delays the schedule.</p>
-        </div>
-    </div>
-
-    <!--
-    SPECIFICATION (from chapter index.md):
-
-    Type: workflow
-    **sim-id:** permit-to-occupancy-flow<br/>
-    **Library:** p5.js<br/>
-    **Status:** Specified
-    
-    Learning objective: Students will sequence (Bloom Level 3, Apply) the steps from permit application through certificate of occupancy and will analyze (Bloom Level 4, Analyze) how a failed review or inspection delays the schedule.
-    
-    Visual: A left-to-right flowchart with the boxes "Zoning check," "Permit application," "Plan review," "Corrections and resubmittal," "Permit issued," "Inspections during construction," "Special inspections and tests," "Final inspection," and "Certificate of occupancy." Decision diamonds follow plan review ("Comments?") and each inspection ("Pass?"). Return loops show corrections. The canvas width follows the container, the height is 460 px, and the layout redraws on window resize.
-    
-    Interactions: Hovering over a box shows who acts (designer, building official, contractor, or testing agency) and what is produced. Clicking a box opens an infobox with a two-sentence definition drawn from this chapter. A toggle on each diamond lets the student force a failure and see the loop. A slider labeled "Business days per review" (5 to 25) updates a running total of permit time using the same arithmetic as the Riverbend example. A button labeled "Skip an inspection" shows the consequence of covering work and the cost of uncovering it.
-    
-    Colors: Designer actions in blue, official actions in green, contractor actions in orange, and testing agency actions in gray. The legend also names each role in text.
-    
-    Implementation: p5.js with a responsive canvas, hit-testing on boxes, and a small state machine for pass and fail paths.
-    -->
+    <main></main>
+    <br/>
+    <a href=".">Back to Permit-to-Occupancy Flow Lesson Plan</a>
 </body>
 </html>

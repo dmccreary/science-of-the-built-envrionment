@@ -3,106 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- microsim-scaffold-stub -->
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>Life-Cycle Stage and Boundary Explorer</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            color: #212529;
+        * { box-sizing: border-box; }
+        html, body { height: 100%; }
+        body { margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: black; background: white; }
+        main { height: 100%; display: flex; flex-direction: column; border: 1px solid silver; background: white; }
+        h2 { margin: 0; padding: 4px 8px 2px 8px; font-size: 20px; text-align: center; background: aliceblue; }
+        #chartWrap { flex: 1 1 auto; min-height: 0; position: relative; background: aliceblue; padding: 2px 6px; border-bottom: 1px solid silver; }
+        #readout { padding: 5px 10px; font-size: 15px; line-height: 1.35; border-bottom: 1px solid silver; }
+        #readout b { color: navy; }
+        #readout .sub { color: #333; font-size: 14px; }
+        #info { margin: 5px 10px; padding: 4px 8px; border-left: 5px solid steelblue; background: aliceblue; font-size: 14px; line-height: 1.35; min-height: 52px; }
+        #controls { padding: 2px 10px 6px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); gap: 3px 20px; }
+        .ctl { display: flex; align-items: center; gap: 8px; }
+        .ctl span { flex: 0 0 230px; font-size: 14px; }
+        .ctl input[type=range] { flex: 1 1 auto; min-width: 80px; margin: 0; }
+        .ctl select { flex: 1 1 auto; min-width: 0; font-size: 14px; padding: 2px; }
+        button { font-size: 14px; padding: 3px 10px; cursor: pointer; margin-top: 3px; }
+        @media (max-width: 560px) {
+            #readout { font-size: 14px; }
+            #readout .sub, #info { font-size: 13px; }
+            .ctl span { flex: 0 0 150px; font-size: 13px; }
         }
-        #container {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-        }
-        h1 {
-            font-size: 22px;
-            margin-bottom: 10px;
-            color: #1a3a6c;
-        }
-        .placeholder {
-            border: 2px dashed #adb5bd;
-            border-radius: 8px;
-            padding: 40px 20px;
-            text-align: center;
-            color: #6c757d;
-            margin: 20px 0;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .placeholder .badge {
-            display: inline-block;
-            background: #ffc107;
-            color: #212529;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .placeholder h2 {
-            font-size: 18px;
-            color: #495057;
-            margin-bottom: 8px;
-        }
-        .placeholder p {
-            font-size: 14px;
-            max-width: 480px;
-        }
-        .meta {
-            margin-top: 20px;
-            font-size: 13px;
-            color: #6c757d;
-            border-top: 1px solid #dee2e6;
-            padding-top: 12px;
-        }
-        .meta strong { color: #495057; }
     </style>
+    <script src="lca-stage-boundary-explorer.js" defer></script>
 </head>
 <body>
-    <div id="container">
-        <h1>Life-Cycle Stage and Boundary Explorer</h1>
-        <div class="placeholder">
-            <span class="badge">SCAFFOLD</span>
-            <h2>MicroSim Not Yet Implemented</h2>
-            <p>This MicroSim has been scaffolded from its specification but the
-            interactive content has not been built yet. See the chapter source
-            and the <code>index.md</code> in this directory for the full spec.</p>
+    <main>
+        <h2>Life-Cycle Stage and Boundary Explorer</h2>
+        <div id="chartWrap"><canvas id="lcaChart" role="img" aria-label="Stacked horizontal bar chart of life-cycle carbon dioxide equivalent emissions in tonnes for the Riverbend building: modules A1 to A3 product stage, A4 to A5 construction, B use, and C end of life. One bar shows the current design and a second bar shows the efficient, electrified case. Each segment is labeled with its percentage of the total."></canvas></div>
+        <div id="readout" aria-live="polite"></div>
+        <div id="info" aria-live="polite"></div>
+        <div id="controls">
+            <div class="grid">
+                <label class="ctl"><span style="flex-basis:120px">System boundary</span>
+                    <select id="boundary" aria-label="System boundary">
+                        <option value="gate">Cradle to gate (A1-A3)</option>
+                        <option value="constr">Through construction (A1-A5)</option>
+                        <option value="grave" selected>Cradle to grave (A1-C)</option>
+                    </select></label>
+                <label class="ctl"><span id="lblOp"></span><input type="range" id="opShare" min="10" max="100" step="1" value="100" aria-label="Operating energy as a share of baseline, percent"></label>
+                <label class="ctl"><span id="lblYr"></span><input type="range" id="years" min="20" max="100" step="1" value="60" aria-label="Study period in years"></label>
+                <div><button type="button" id="effBtn">Apply efficient and electrified case</button></div>
+            </div>
         </div>
-        <div class="meta">
-            <p><strong>Sim ID:</strong> lca-stage-boundary-explorer</p>
-            <p><strong>Library:</strong> Chart.js</p>
-            <p><strong>Bloom Level:</strong> TBD</p>
-            <p><strong>Learning Objective:</strong> Students will analyze (Bloom Level 4, Analyze) how the choice of system boundary and operating energy changes the share of life-cycle emissions that comes from materials, and will interpret (Bloom Level 2, Understand) what each life-cycle module represents.</p>
-        </div>
-    </div>
-
-    <!--
-    SPECIFICATION (from chapter index.md):
-
-    Type: chart
-    **sim-id:** lca-stage-boundary-explorer<br/>
-    **Library:** Chart.js<br/>
-    **Status:** Specified
-    
-    Learning objective: Students will analyze (Bloom Level 4, Analyze) how the choice of system boundary and operating energy changes the share of life-cycle emissions that comes from materials, and will interpret (Bloom Level 2, Understand) what each life-cycle module represents.
-    
-    Visual: A stacked horizontal bar chart with segments for modules A1-A3 (product), A4-A5 (construction), B (use), and C (end of life), in tonnes of carbon dioxide equivalent. The defaults are 330, 35, 1,720, and 20 for the Riverbend ledger. A second bar shows the efficient, electrified case. A percentage label on each segment shows its share of the total. The chart is responsive with a height of 400 px and redraws on window resize.
-    
-    Controls: A dropdown labeled "System boundary" with the choices "Cradle to gate (A1-A3)," "Through construction (A1-A5)," and "Cradle to grave (A1-C)." A slider labeled "Operating energy as a share of baseline" from 10 to 100 percent, with a default of 100. A slider labeled "Study period (years)" from 20 to 100, with a default of 60. A button labeled "Apply efficient and electrified case" sets the operating slider to 40 percent.
-    
-    Interactions: Hovering over a segment shows the module name, the plain-language definition, and the tonnes of emissions. Clicking a segment opens an infobox with one example of what the module includes. A readout states the share from materials, for example "Materials are 31 percent of the cradle-to-grave total."
-    
-    Colors: Product stage in brown, construction in orange, use in blue, end of life in gray, each also named in the legend text.
-    
-    Implementation: Chart.js stacked bar chart with DOM controls and recalculation of the totals on each change.
-    -->
+    </main>
 </body>
 </html>

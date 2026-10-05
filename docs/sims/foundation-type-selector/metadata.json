@@ -13,11 +13,48 @@
   "rights": "CC BY-NC-SA 4.0",
   "identifier": "foundation-type-selector",
   "library": "p5.js",
-  "bloomLevel": "TBD",
-  "bloomVerb": "TBD",
-  "completion_status": "scaffold",
+  "bloomLevel": "Evaluate",
+  "bloomVerb": "evaluate, justify",
+  "completion_status": "built",
   "chapter_number": 10,
   "chapter_title": "Foundation Systems",
   "chapter_dir": "10-foundation-systems",
-  "chapter_rel_dir": "chapters/10-foundation-systems"
+  "chapter_rel_dir": "chapters/10-foundation-systems",
+  "canvasHeight": 585,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Evaluate"
+    ],
+    "concepts": [
+      "Shallow foundations",
+      "Deep foundations",
+      "Soil bearing capacity",
+      "Frost depth",
+      "Groundwater"
+    ],
+    "prerequisites": [
+      "Chapter 9 soil bearing capacity",
+      "Chapter 6 load paths"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Evaluate which foundation type best fits a combination of soil, load, water, and frost conditions, and justify the choice with the rule that applies.",
+    "recommendedUsage": [
+      "Press Riverbend defaults to start from firm sand, a 40 kip column, and a 42 in frost depth. Spread and continuous footings are rated suitable.",
+      "Change the top soil layer, its thickness, the column load, the frost depth, or High groundwater. Each icon shows green (suitable), yellow (marginal), or red (unsuitable), and also spells the rating in words.",
+      "Read the rule line under the icons. It names the condition that governs, for example a soft layer deeper than 10 ft. Press Soft peat site to see the Chapter 10 case of 15 ft of peat over firm sand.",
+      "Hover over an icon for its definition and the main reason for its rating, and click an icon for its typical use and one cost or constructability concern."
+    ],
+    "activities": [
+      "Warm-up (5 min): Students predict the ratings for Riverbend defaults and for the soft peat site, then check them.",
+      "Explore (10 min): Students lengthen a soft clay layer from 0 to 25 ft and record the thickness at which each foundation type changes color.",
+      "Evaluate (10 min): Students pick three site combinations, choose a foundation, and write one sentence citing the rule that justifies it."
+    ],
+    "assessment": [
+      "Students recommend a foundation for a site with 12 ft of soft clay and a 200 kip column, and justify it with the governing rule.",
+      "Students explain in two sentences why high groundwater can downgrade both footings and drilled piers."
+    ]
+  }
 }

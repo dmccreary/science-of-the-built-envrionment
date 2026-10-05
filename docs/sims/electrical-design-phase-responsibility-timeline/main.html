@@ -3,108 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- microsim-scaffold-stub -->
+    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
     <title>Electrical Design Phase Timeline</title>
+    <script src="https://unpkg.com/vis-timeline@7.7.3/standalone/umd/vis-timeline-graph2d.min.js"></script>
+    <link href="https://unpkg.com/vis-timeline@7.7.3/styles/vis-timeline-graph2d.min.css" rel="stylesheet">
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: #f8f9fa;
-            color: #212529;
+        * { box-sizing: border-box; }
+        html, body { margin: 0; padding: 0; height: 100%; }
+        body { font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: black; background: white; }
+        #app { height: 100vh; border: 1px solid silver; display: flex; flex-direction: column; background: white; overflow: hidden; }
+        h1 { flex: 0 0 auto; margin: 0; padding: 4px 8px; font-size: 20px; text-align: center; background: aliceblue; border-bottom: 1px solid silver; }
+        #controls { flex: 0 0 auto; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 16px; padding: 5px 10px; font-size: 15px; border-bottom: 1px solid silver; }
+        #controls label { display: flex; align-items: center; gap: 6px; }
+        #controls select { font-size: 14px; max-width: 190px; }
+        #controls input[type=range] { width: 130px; }
+        #changeLabel { font-weight: bold; margin-left: -8px; }
+
+        #timeline { flex: 0 0 auto; position: relative; background: white; border-bottom: 1px solid silver; }
+        #handoffs { position: absolute; left: 0; top: 0; pointer-events: none; z-index: 20; overflow: visible; }
+        #handoffs .badge { pointer-events: all; cursor: help; }
+        #handoffs .badge circle { fill: #0f172a; stroke: white; stroke-width: 2; }
+        #handoffs .badge text { fill: white; font-size: 12px; font-weight: bold; }
+
+        #info { flex: 1 1 auto; min-height: 0; display: flex; gap: 8px; padding: 6px 8px; }
+        #phaseBox, #costBox { flex: 1 1 0; min-width: 0; overflow: auto; padding: 4px 8px; border: 1px solid silver; border-radius: 8px; font-size: 14px; line-height: 1.3; }
+        #costBox { background: floralwhite; border-color: darkorange; }
+        #info h3 { margin: 0 0 3px 0; font-size: 15px; color: navy; }
+        #info .row { margin: 2px 0; }
+        #info ul { margin: 0 0 2px 0; padding-left: 18px; }
+        #info .note { color: dimgray; font-size: 13px; margin-top: 3px; }
+        #costBox .meter { height: 12px; background: #e2e8f0; border: 1px solid gray; border-radius: 6px; overflow: hidden; margin: 3px 0; }
+        #costBox .meter .fill { height: 100%; }
+
+        /* timeline: bigger text, no axis, shaded columns */
+        .vis-timeline { border: none; font-size: 12px; }
+        .vis-time-axis, .vis-panel.vis-top { display: none; }
+        .vis-panel.vis-left { border-right: 1px solid gray; }
+        .vis-labelset .vis-label { font-size: 13px; color: black; border-bottom: 1px solid #cbd5e1; }
+        .vis-labelset .vis-label .vis-inner { padding: 4px 6px; }
+        .vis-label .sw { display: inline-block; width: 16px; height: 12px; margin-right: 4px; vertical-align: middle; border-width: 3px; box-sizing: border-box; }
+        .vis-label .gl { vertical-align: middle; }
+        .vis-foreground .vis-group { border-bottom: 1px solid #cbd5e1; }
+        .vis-item { font-size: 12px; line-height: 15px; }
+        .vis-item .vis-item-content { padding: 3px 5px; }
+        .vis-background .bgA { background: #f1f5f9; }
+        .vis-background .bgB { background: white; }
+        .vis-background .bgSel { background: #fef9c3; }
+        .vis-item.phase { background: #e2e8f0; border: 2px solid #334155; color: #0f172a; text-align: center; border-radius: 4px; font-size: 11px; line-height: 13px; }
+        .vis-item.phase .vis-item-content { white-space: normal; width: 100%; padding: 2px 1px; hyphens: manual; }
+        .vis-item.phase.sel { background: #fde68a; border-color: #0f172a; border-width: 3px; }
+        .vis-item.bar { color: white; font-weight: bold; border-width: 3px; border-radius: 4px; text-align: left; }
+        .vis-item.bar .vis-item-content { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding: 2px 4px; }
+        .vis-item.bar-arch { background: #1d4ed8; border-color: #0b1f5c; border-style: solid; }
+        .vis-item.bar-stru { background: #7c3f00; border-color: #2e1700; border-style: dashed; }
+        .vis-item.bar-mech { background: #0f766e; border-color: #032e2b; border-style: dotted; }
+        .vis-item.bar-elec { background: #b45309; border-color: #431a03; border-style: double; border-width: 4px; }
+        .vis-item.bar-cont { background: #6b21a8; border-color: #2e1065; border-style: groove; }
+        .vis-item.bar-util { background: #be123c; border-color: #4c0519; border-style: ridge; }
+        .vis-custom-time.chg { background: rgba(220, 38, 38, 0.8); width: 3px; cursor: ew-resize; z-index: 15; }
+        div.vis-tooltip { font-size: 14px; max-width: 260px; white-space: normal; background: #0f172a; color: white; border: 1px solid #0f172a; border-radius: 6px; padding: 6px 9px; }
+
+        @media (max-width: 619px) {
+            #controls { font-size: 14px; gap: 3px 10px; padding: 4px 8px; }
+            #controls select { max-width: 150px; }
+            #controls input[type=range] { width: 100px; }
+            #info { flex-direction: column; gap: 4px; padding: 4px; overflow: auto; }
+            #phaseBox, #costBox { flex: 0 0 auto; overflow: visible; }
+            .vis-labelset .vis-label { font-size: 12px; }
+            .vis-labelset .vis-label .vis-inner { padding: 3px 3px; }
+            .vis-label .sw { width: 12px; margin-right: 2px; }
+            .vis-item.bar .vis-item-content { font-size: 11px; padding: 2px 2px; }
+            .vis-item { font-size: 11px; line-height: 13px; }
         }
-        #container {
-            width: 100%;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 20px;
-            background: white;
-        }
-        h1 {
-            font-size: 22px;
-            margin-bottom: 10px;
-            color: #1a3a6c;
-        }
-        .placeholder {
-            border: 2px dashed #adb5bd;
-            border-radius: 8px;
-            padding: 40px 20px;
-            text-align: center;
-            color: #6c757d;
-            margin: 20px 0;
-            min-height: 400px;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .placeholder .badge {
-            display: inline-block;
-            background: #ffc107;
-            color: #212529;
-            padding: 4px 12px;
-            border-radius: 12px;
-            font-size: 12px;
-            font-weight: 600;
-            margin-bottom: 12px;
-        }
-        .placeholder h2 {
-            font-size: 18px;
-            color: #495057;
-            margin-bottom: 8px;
-        }
-        .placeholder p {
-            font-size: 14px;
-            max-width: 480px;
-        }
-        .meta {
-            margin-top: 20px;
-            font-size: 13px;
-            color: #6c757d;
-            border-top: 1px solid #dee2e6;
-            padding-top: 12px;
-        }
-        .meta strong { color: #495057; }
     </style>
+    <script src="electrical-design-phase-responsibility-timeline.js"></script>
 </head>
 <body>
-    <div id="container">
+    <div id="app">
         <h1>Electrical Design Phase Timeline</h1>
-        <div class="placeholder">
-            <span class="badge">SCAFFOLD</span>
-            <h2>MicroSim Not Yet Implemented</h2>
-            <p>This MicroSim has been scaffolded from its specification but the
-            interactive content has not been built yet. See the chapter source
-            and the <code>index.md</code> in this directory for the full spec.</p>
+        <div id="controls">
+            <label>Show discipline <select id="filter" aria-label="Show discipline"></select></label>
+            <label><input type="checkbox" id="handoffToggle"> Show handoffs</label>
+            <label>Time of change <input type="range" id="changeSlider" min="1" max="8" step="1" value="2" aria-label="Time of change, project phase"></label>
+            <span id="changeLabel"></span>
         </div>
-        <div class="meta">
-            <p><strong>Sim ID:</strong> electrical-design-phase-responsibility-timeline</p>
-            <p><strong>Library:</strong> vis-timeline</p>
-            <p><strong>Bloom Level:</strong> TBD</p>
-            <p><strong>Learning Objective:</strong> Students will describe (Bloom Level 2, Understand) the electrical designer's deliverables in each of the eight project phases and will identify (Bloom Level 1, Remember) the other disciplines with whom the designer coordinates at each stage.</p>
+        <div id="timeline" aria-label="Timeline of eight project phases with one row for each discipline"></div>
+        <div id="info" aria-live="polite">
+            <div id="phaseBox"></div>
+            <div id="costBox"></div>
         </div>
     </div>
-
-    <!--
-    SPECIFICATION (from chapter index.md):
-
-    Type: timeline
-    **sim-id:** electrical-design-phase-responsibility-timeline<br/>
-    **Library:** vis-timeline<br/>
-    **Status:** Specified
-    
-    Learning objective: Students will describe (Bloom Level 2, Understand) the electrical designer's deliverables in each of the eight project phases and will identify (Bloom Level 1, Remember) the other disciplines with whom the designer coordinates at each stage.
-    
-    Visual: A horizontal timeline with the eight project phases as consecutive blocks. Above the line, one row per discipline (architect, structural engineer, mechanical engineer, electrical designer, contractor, utility). Colored bars show when each discipline is most active.
-    
-    Controls: A filter drop-down labeled "Show discipline" lets the learner focus on one row. A toggle labeled "Show handoffs" draws arrows between phases and disciplines, such as "load data from mechanical to electrical." A slider labeled "Time of change" places a marker at any phase.
-    
-    Interactions: Hovering over a phase block shows its main question. Clicking a block opens an infobox listing the electrical designer's tasks, the deliverables, and the coordination meetings that occur in that phase. Moving the "Time of change" marker displays a relative cost of changing the kitchen oven example (low in schematic design, high after the conduit is installed), reinforcing the cost-of-change idea from Chapter 2.
-    
-    Colors: Each discipline has a unique color and a unique line pattern. All text labels are high contrast.
-    
-    Responsive design: The timeline follows the container width and redraws on window resize. Height is 460 px.
-    
-    Implementation: vis-timeline with custom item templates, click handlers that populate an infobox div, and a filter that updates the visible groups.
-    -->
 </body>
 </html>

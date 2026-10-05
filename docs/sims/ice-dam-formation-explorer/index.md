@@ -1,18 +1,60 @@
 ---
 title: Ice Dam Formation Explorer
-description: Students will analyze (Bloom Level 4, Analyze) how ceiling air leakage, insulation level, and attic ventilation combine to produce or prevent an ice dam on a Minnesota roof.
-status: scaffold
+description: Students change outdoor temperature, insulation, ceiling air leaks, attic ventilation, and an ice-and-water barrier on a roof section and watch the deck temperature, the snow melt, and the ice at the eave respond. The status line always points to air sealing first.
+image: /sims/ice-dam-formation-explorer/ice-dam-formation-explorer.png
+og:image: /sims/ice-dam-formation-explorer/ice-dam-formation-explorer.png
+twitter:image: /sims/ice-dam-formation-explorer/ice-dam-formation-explorer.png
+social:
+   cards: false
+status: built
 library: p5.js
-bloom_level: TBD
+bloom_level: Analyze
 ---
 
 # Ice Dam Formation Explorer
 
+<iframe src="main.html" width="100%" height="462" scrolling="no"></iframe>
 
+[Run the Ice Dam Formation Explorer MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+Place the following line in your website to include this MicroSim in your course.
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+```html
+<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/ice-dam-formation-explorer/main.html" width="100%" height="462" scrolling="no"></iframe>
+```
+
+## Description
+
+Students change outdoor temperature, insulation, ceiling air leaks, attic ventilation, and an ice-and-water barrier on a roof section and watch the deck temperature, the snow melt, and the ice at the eave respond. The status line always points to air sealing first.
+
+## How to Use
+
+1. Read the default case: 20 °F outdoors, R-30 insulation, air leaks at the ceiling, vents closed, and no barrier. Snow melts on the warm deck, the water refreezes on the cold overhang, and an ice dam forms.
+2. Untick Air leaks at ceiling and watch the deck temperature drop. Then raise the insulation, then tick Soffit and ridge vents open, one change at a time, and note which change matters most.
+3. Tick Ice-and-water barrier at eave. The readout for water reaching the interior changes, but the ice dam still forms.
+4. Move the outdoor temperature slider. Very cold weather keeps the deck below freezing even for a leaky ceiling, and weather near freezing makes a dam more likely.
+5. Move the pointer over the canvas to animate the meltwater and any water reaching the interior.
+
+## Lesson Plan
+
+**Learning objective:** Analyze how ceiling air leakage, insulation level, and attic ventilation combine to produce or prevent an ice dam on a Minnesota roof.
+
+**Suggested activities**
+
+- Warm-up (5 min): Students predict which of the three heat-control fixes will stop the dam fastest, then test the fixes one at a time in the sim.
+- Explore (10 min): Students find the outdoor temperature range in which a leaky R-30 ceiling with closed vents makes a dam, and the range in which it does not.
+- Analyze (10 min): Students rank air sealing, insulation, ventilation, and the barrier from first to last and justify the order using the deck temperature readout.
+
+**Assessment**
+
+- Students explain in two sentences why ventilation is the third remedy and not the first.
+- Students explain what an ice-and-water barrier protects and what it does not stop.
+
+## References
+
+- [Chapter 13: Roof Assemblies](../../chapters/13-roof-assemblies/index.md)
+- [Ice dam (roof) (Wikipedia)](https://en.wikipedia.org/wiki/Ice_dam_(roof))
+- U.S. Department of Energy, Energy Saver guidance on attic air sealing and insulation (energy.gov).
 
 ## Specification
 

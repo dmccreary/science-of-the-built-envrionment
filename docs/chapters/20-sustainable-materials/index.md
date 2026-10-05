@@ -102,6 +102,10 @@ The module labels are easier to understand with numbers. Chapter 19 used an illu
 
 #### Diagram: Life-Cycle Stage and Boundary Explorer
 
+
+<iframe src="../../sims/lca-stage-boundary-explorer/main.html" width="100%" height="702px" scrolling="no"></iframe>
+[Run Life-Cycle Stage and Boundary Explorer Fullscreen](../../sims/lca-stage-boundary-explorer/main.html)
+
 <details markdown="1">
 <summary>Life-Cycle Stage and Boundary Explorer</summary>
 Type: chart
@@ -139,6 +143,10 @@ Embodied carbon is the counterpart of the operational carbon of Chapter 19, and 
 **Worked example: beams for the 40 ft room.** To carry the roof of the multipurpose room, suppose that an engineer sizes either six glued-laminated beams of 8.75 in by 27 in by 40 ft or six steel W21×44 shapes. The glulam volume is \( 6 \times 1.86 \approx 11.1 \) m³, with a mass of about 5,600 kg at 500 kg/m³. The steel mass is \( 6 \times 44 \text{ lb/ft} \times 40 \text{ ft} \approx 10{,}560 \) lb, or about 4,790 kg. Using illustrative factors of 1.2 kg CO₂e per kg of steel and 140 kg CO₂e per m³ of glulam, the product-stage emissions are about \( 4{,}790 \times 1.2 \approx 5{,}750 \) kg for steel and \( 11.1 \times 140 \approx 1{,}560 \) kg for glulam. The glulam beams have about a quarter of the steel's product-stage emissions, even though they weigh more. A real comparison would use product-specific data, include connections and fire protection, and consider the biological carbon in wood, discussed under Carbon Sequestration below.
 
 #### Diagram: Embodied Carbon Beam Comparison
+
+
+<iframe src="../../sims/embodied-carbon-beam-comparison/main.html" width="100%" height="802px" scrolling="no"></iframe>
+[Run Embodied Carbon Beam Comparison Fullscreen](../../sims/embodied-carbon-beam-comparison/main.html)
 
 <details markdown="1">
 <summary>Embodied Carbon Beam Comparison</summary>

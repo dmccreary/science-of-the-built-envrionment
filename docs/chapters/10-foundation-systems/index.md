@@ -60,6 +60,10 @@ Foundations fall into two families. **Shallow foundations** deliver load to soil
 
 #### Diagram: Foundation Type Selector
 
+
+<iframe src="../../sims/foundation-type-selector/main.html" width="100%" height="587px" scrolling="no"></iframe>
+[Run Foundation Type Selector Fullscreen](../../sims/foundation-type-selector/main.html)
+
 <details markdown="1">
 <summary>Foundation Type Selector</summary>
 Type: microsim
@@ -117,6 +121,10 @@ where \( b \) is the footing width in feet, \( w \) is the line load in pounds p
 **Worked example: the Riverbend perimeter footing.** Assume the exterior wall and roof deliver 2,400 plf (an illustrative value that includes snow). On 2,000 psf soil, \( b = 2{,}400 / 2{,}000 = 1.2 \) ft, which is 14.4 in, rounded up to 16 in. On weaker 1,500 psf clay the width would be \( 2{,}400 / 1{,}500 = 1.6 \) ft, or 19.2 in, rounded to 20 in. The Riverbend perimeter is \( 2 \times (120 + 75) = 390 \) ft, so a 16 in wide, 8 in thick footing needs \( (16/12) \times (8/12) \times 390 = 347 \) ft³, or about 12.8 yd³ of concrete, before the footings under columns and the thickened areas are counted.
 
 #### Diagram: Foundation Cross-Section Explorer
+
+
+<iframe src="../../sims/foundation-cross-section-explorer/main.html" width="100%" height="552px" scrolling="no"></iframe>
+[Run Foundation Cross-Section Explorer Fullscreen](../../sims/foundation-cross-section-explorer/main.html)
 
 <details markdown="1">
 <summary>Foundation Cross-Section Explorer</summary>
@@ -191,6 +199,10 @@ The resultant acts at one third of the height above the base.
 **Worked example: an 8 ft basement wall.** Take \( \gamma_e = 45 \) pcf (an illustrative value for a moderate soil). The pressure at the base is \( 45 \times 8 = 360 \) psf, the force is \( 0.5 \times 45 \times 8^2 = 1{,}440 \) lb per foot of wall, and it acts \( 8/3 = 2.67 \) ft above the base. Now suppose drainage fails and water fills the backfill to full height. Water alone gives \( 62.4 \times 8 = 499 \) psf at the base and \( 0.5 \times 62.4 \times 8^2 = 1{,}997 \) lb per foot, which is already more than the drained soil, and the soil still adds its own pressure. The wall that was safe with drainage can crack without it.
 
 #### Diagram: Basement Wall Soil Pressure Explorer
+
+
+<iframe src="../../sims/foundation-wall-lateral-pressure-explorer/main.html" width="100%" height="577px" scrolling="no"></iframe>
+[Run Basement Wall Soil Pressure Explorer Fullscreen](../../sims/foundation-wall-lateral-pressure-explorer/main.html)
 
 <details markdown="1">
 <summary>Basement Wall Soil Pressure Explorer</summary>

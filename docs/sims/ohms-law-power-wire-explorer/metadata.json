@@ -13,11 +13,49 @@
   "rights": "CC BY-NC-SA 4.0",
   "identifier": "ohms-law-power-wire-explorer",
   "library": "p5.js",
-  "bloomLevel": "TBD",
-  "bloomVerb": "TBD",
-  "completion_status": "scaffold",
+  "bloomLevel": "Apply, Understand",
+  "bloomVerb": "calculate, predict",
+  "completion_status": "built",
   "chapter_number": 15,
   "chapter_title": "Electrical Fundamentals and Building Service",
   "chapter_dir": "15-electrical-fundamentals",
-  "chapter_rel_dir": "chapters/15-electrical-fundamentals"
+  "chapter_rel_dir": "chapters/15-electrical-fundamentals",
+  "canvasHeight": 480,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Apply",
+      "Understand"
+    ],
+    "concepts": [
+      "Voltage",
+      "Current",
+      "Resistance",
+      "Ohm's law",
+      "Electrical power"
+    ],
+    "prerequisites": [
+      "Chapter 15 voltage, current, and resistance",
+      "Basic algebra and unit conversion"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Apply Ohm's law and P = V x I to find current, voltage drop, and wire loss, and predict how wire gauge and length change the drop.",
+    "recommendedUsage": [
+      "Set the source voltage and load power with the sliders. The current is the load power divided by the source voltage, so a 1,500 W load on 120 V draws 12.5 A.",
+      "Choose a wire gauge and material, then set the one-way length. The drop bar fills as the voltage drop grows, green up to 3 percent and red beyond.",
+      "Hover over the wire to see its resistance per 1,000 ft, the loop resistance, and the drop calculation. Hover over the load to see P = V x I.",
+      "Check Show ampacity limit to see the typical ampacity of the chosen wire. A red warning marker appears when the current exceeds it."
+    ],
+    "activities": [
+      "Warm-up (5 min): Students predict, before moving anything, whether doubling the wire length will double or quadruple the voltage drop, then test it.",
+      "Explore (10 min): Students reproduce the chapter's worked examples: 120 V, 2,400 W, 100 ft of copper at 12, 10, and 8 AWG should give drops near 6.4, 4.0, and 2.5 percent.",
+      "Apply (10 min): Students choose the smallest gauge that keeps a 200 ft run of a 1,500 W heater within 3 percent drop and within ampacity, then repeat for aluminum."
+    ],
+    "assessment": [
+      "Students calculate by hand the current, drop, and wire loss for one setting and check the answer against the readouts.",
+      "Students explain in two sentences why a long run at 12 V loses a far larger share of its voltage than the same run at 240 V."
+    ]
+  }
 }

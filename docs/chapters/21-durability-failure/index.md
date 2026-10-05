@@ -107,6 +107,10 @@ The method does not predict a date. It shows which decisions move the number: im
 
 #### Diagram: Service Life Factor Calculator
 
+
+<iframe src="../../sims/service-life-factor-calculator/main.html" width="100%" height="712px" scrolling="no"></iframe>
+[Run Service Life Factor Calculator Fullscreen](../../sims/service-life-factor-calculator/main.html)
+
 <details markdown="1">
 <summary>Service Life Factor Calculator</summary>
 Type: microsim
@@ -187,6 +191,10 @@ Failures are better understood by their causes than by their symptoms. A failure
 Most of the chains in building failure involve water, and most could have been broken early. That is why the following sections treat the common mechanisms one at a time.
 
 #### Diagram: Failure Chain Explorer
+
+
+<iframe src="../../sims/failure-chain-explorer/main.html" width="100%" height="722px" scrolling="no"></iframe>
+[Run Failure Chain Explorer Fullscreen](../../sims/failure-chain-explorer/main.html)
 
 <details markdown="1">
 <summary>Failure Chain Explorer</summary>
@@ -320,6 +328,10 @@ Forensic history teaches design lessons as well as repair. In the Hyatt Regency 
     Going from a symptom back to a cause is one of the hardest skills in the field, and experienced investigators are often wrong on their first guess. You already know how water, heat, loads, and materials behave, so write down every plausible cause, list what evidence would separate them, and test them one by one.
 
 #### Diagram: Forensic Leak Investigation Simulator
+
+
+<iframe src="../../sims/forensic-leak-investigation-simulator/main.html" width="100%" height="682px" scrolling="no"></iframe>
+[Run Forensic Leak Investigation Simulator Fullscreen](../../sims/forensic-leak-investigation-simulator/main.html)
 
 <details markdown="1">
 <summary>Forensic Leak Investigation Simulator</summary>

@@ -93,6 +93,10 @@ The fresh air this classroom needs for ventilation, calculated later in this cha
 
 #### Diagram: Heating Load and Ventilation Explorer
 
+
+<iframe src="../../sims/hvac-heating-load-ventilation-explorer/main.html" width="100%" height="632px" scrolling="no"></iframe>
+[Run Heating Load and Ventilation Explorer Fullscreen](../../sims/hvac-heating-load-ventilation-explorer/main.html)
+
 <details markdown="1">
 <summary>Heating Load and Ventilation Explorer</summary>
 Type: microsim
@@ -145,6 +149,10 @@ The table below summarizes the four main heating types that the following subsec
 | Radiant system | Hot water or electric elements | Warm surfaces | Comfortable at lower air temperatures |
 
 #### Diagram: Heating System Energy Comparison
+
+
+<iframe src="../../sims/heating-system-energy-comparison/main.html" width="100%" height="742px" scrolling="no"></iframe>
+[Run Heating System Energy Comparison Fullscreen](../../sims/heating-system-energy-comparison/main.html)
 
 <details markdown="1">
 <summary>Heating System Energy Comparison</summary>
@@ -276,6 +284,10 @@ Vents terminate above the roof, where their openings must stay clear of snow and
 
 #### Diagram: Plumbing Supply and DWV Explorer
 
+
+<iframe src="../../sims/plumbing-supply-dwv-explorer/main.html" width="100%" height="587px" scrolling="no"></iframe>
+[Run Plumbing Supply and DWV Explorer Fullscreen](../../sims/plumbing-supply-dwv-explorer/main.html)
+
 <details markdown="1">
 <summary>Plumbing Supply and DWV Explorer</summary>
 Type: infographic
@@ -315,6 +327,10 @@ A useful way to think about the whole system is a chain of five jobs: detect the
     NFPA, IBC, density, remote area, K-factor: fire protection arrives with a lot of vocabulary, and nobody learns it in one sitting. You already know the idea, which is water on a fire, so focus on the chain of five jobs and let the details attach to it one by one.
 
 #### Diagram: Fire Protection Layers Building Explorer
+
+
+<iframe src="../../sims/fire-protection-layers-building-explorer/main.html" width="100%" height="502px" scrolling="no"></iframe>
+[Run Fire Protection Layers Building Explorer Fullscreen](../../sims/fire-protection-layers-building-explorer/main.html)
 
 <details markdown="1">
 <summary>Fire Protection Layers Building Explorer</summary>

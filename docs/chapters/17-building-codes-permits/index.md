@@ -90,6 +90,10 @@ Three terms need a short definition before we look at the diagram below. A **mod
 
 #### Diagram: Code Adoption and Authority Chain
 
+
+<iframe src="../../sims/code-adoption-authority-chain/main.html" width="100%" height="537px" scrolling="no"></iframe>
+[Run Code Adoption and Authority Chain Fullscreen](../../sims/code-adoption-authority-chain/main.html)
+
 <details markdown="1">
 <summary>Code Adoption and Authority Chain</summary>
 Type: infographic
@@ -153,6 +157,10 @@ The IBC follows the organization described earlier, and the sequence of its tech
 The chain in the table is the reason most designers use a **code-routing habit**: ask the question, find the group, and follow the cross-references until the requirement is fully resolved. The following MicroSim lets you practice that habit.
 
 #### Diagram: IBC Question Router
+
+
+<iframe src="../../sims/ibc-question-router/main.html" width="100%" height="522px" scrolling="no"></iframe>
+[Run IBC Question Router Fullscreen](../../sims/ibc-question-router/main.html)
 
 <details markdown="1">
 <summary>IBC Question Router</summary>
@@ -282,6 +290,10 @@ For structural and other critical work, the code often requires **special inspec
     It is tempting to pour or close up a wall when the inspector is running late. The risk is that the inspector may order the work uncovered, which costs far more than waiting, so confirm every required inspection is signed off before concealing the work.
 
 #### Diagram: Permit-to-Occupancy Flow
+
+
+<iframe src="../../sims/permit-to-occupancy-flow/main.html" width="100%" height="545px" scrolling="no"></iframe>
+[Run Permit-to-Occupancy Flow Fullscreen](../../sims/permit-to-occupancy-flow/main.html)
 
 <details markdown="1">
 <summary>Permit-to-Occupancy Flow</summary>

@@ -13,11 +13,50 @@
   "rights": "CC BY-NC-SA 4.0",
   "identifier": "plumbing-supply-dwv-explorer",
   "library": "p5.js",
-  "bloomLevel": "TBD",
-  "bloomVerb": "TBD",
-  "completion_status": "scaffold",
+  "bloomLevel": "Analyze, Understand",
+  "bloomVerb": "distinguish, explain",
+  "completion_status": "built",
   "chapter_number": 14,
   "chapter_title": "HVAC, Plumbing, and Fire Protection Systems",
   "chapter_dir": "14-hvac-plumbing-fire",
-  "chapter_rel_dir": "chapters/14-hvac-plumbing-fire"
+  "chapter_rel_dir": "chapters/14-hvac-plumbing-fire",
+  "canvasHeight": 585,
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Analyze",
+      "Understand"
+    ],
+    "concepts": [
+      "Water supply",
+      "Drain-waste-vent system",
+      "Trap",
+      "Vent",
+      "Pipe freezing"
+    ],
+    "prerequisites": [
+      "Chapter 9 frost depth",
+      "Chapter 11 warm side of the insulation"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Distinguish pressurized supply piping from gravity drain-waste-vent piping, and explain the role of the trap and the vent in a fixture's drain.",
+    "recommendedUsage": [
+      "Hover over any pipe or fixture to highlight it and read its name, then click it to read its function, whether it is under pressure or gravity-driven, and a typical code note in the infobox.",
+      "Use the Show supply system, Show DWV system, and Show vent checkboxes to look at one system at a time. Compare line styles: thin solid blue is cold supply, thin dashed red is hot supply, thick gray is drain, and green dashes are vent.",
+      "Press Flush toilet to watch waste water travel by gravity through the trap, branch drain, stack, building drain, and sewer while the cold supply refills the tank.",
+      "Check Remove vent and flush again to see the trap pulled dry and the status line report sewer gas. Uncheck it to restore the vent.",
+      "Drag the Freeze test slider below 32 degrees F to highlight the supply pipes in the exterior wall."
+    ],
+    "activities": [
+      "Sort (5 min): With only the supply system showing and then only the DWV system, students list three differences in pipe size, slope, and what fills the pipe.",
+      "Predict and test (10 min): Students predict what happens to the trap when the vent is removed and the toilet is flushed, then test it and explain the result using suction behind the flowing water.",
+      "Locate (10 min): Using the freeze test, students identify which pipes are at risk and propose where the pipes should run instead."
+    ],
+    "assessment": [
+      "Students sketch the path of one flush from the toilet to the city sewer and label the trap, branch drain, stack, building drain, cleanout, and building sewer.",
+      "Students explain in two sentences why a drain must slope downhill but a supply pipe can run uphill."
+    ]
+  }
 }

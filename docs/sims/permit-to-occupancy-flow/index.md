@@ -1,18 +1,60 @@
 ---
 title: Permit-to-Occupancy Flow
-description: Students will sequence (Bloom Level 3, Apply) the steps from permit application through certificate of occupancy and will analyze (Bloom Level 4, Analyze) how a failed review or inspection delays the schedule.
-status: scaffold
+description: Students follow a project from zoning check through permit, plan review, inspections, and final inspection to the certificate of occupancy, force failures at each decision to see the return loops, and watch the permit-time total change with review days.
+image: /sims/permit-to-occupancy-flow/permit-to-occupancy-flow.png
+og:image: /sims/permit-to-occupancy-flow/permit-to-occupancy-flow.png
+twitter:image: /sims/permit-to-occupancy-flow/permit-to-occupancy-flow.png
+social:
+   cards: false
+status: built
 library: p5.js
-bloom_level: TBD
+bloom_level: Apply, Analyze
 ---
 
 # Permit-to-Occupancy Flow
 
+<iframe src="main.html" width="100%" height="545" scrolling="no"></iframe>
 
+[Run the Permit-to-Occupancy Flow MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+Place the following line in your website to include this MicroSim in your course.
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+```html
+<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/permit-to-occupancy-flow/main.html" width="100%" height="545" scrolling="no"></iframe>
+```
+
+## Description
+
+Students follow a project from zoning check through permit, plan review, inspections, and final inspection to the certificate of occupancy, force failures at each decision to see the return loops, and watch the permit-time total change with review days.
+
+## How to Use
+
+1. Follow the numbered boxes from 1 (zoning check) to 9 (certificate of occupancy). Box color and border style show who acts: designer, building official, contractor, or testing agency. Hover over a box to see who acts and what is produced.
+2. Click a box or diamond to open an infobox with its definition from the chapter. Click again to close it.
+3. Move the Business days per review slider. The permit time is the first review, a 5-day resubmittal, and a second review of about two thirds as long, which gives 15 + 5 + 10 = 30 business days for Riverbend.
+4. Check Review comments, Fail inspection, Fail special test, or Fail final to force a failure at that diamond. The orange return loop becomes active and the added delay appears under the diagram.
+5. Press Skip an inspection to see why covering work early costs more than waiting.
+
+## Lesson Plan
+
+**Learning objective:** Sequence the steps from permit application through certificate of occupancy and analyze how a failed review or inspection delays the schedule.
+
+**Suggested activities**
+
+- Sequence (5 min): Students list the nine steps from memory, then check their order against the flowchart and note which actor owns each step.
+- Calculate (10 min): Students set 15 business days per review and reproduce the Riverbend total of 30 days, then try 10 and 25 days and with and without comments, and explain which has the larger effect.
+- Analyze (10 min): Students force each failure in turn and record the added delay, then press Skip an inspection and write two sentences comparing the time saved with the time lost.
+
+**Assessment**
+
+- Students compute the permit time for 20 business days per review with comments on a first review, and show the three terms of the sum.
+- Students explain in two sentences why the certificate of occupancy cannot be issued before the final inspection passes.
+
+## References
+
+- [Chapter 17: Building Codes, Permits, and Enforcement](../../chapters/17-building-codes-permits/index.md)
+- [Certificate of occupancy (Wikipedia)](https://en.wikipedia.org/wiki/Certificate_of_occupancy)
+- International Code Council, International Building Code, Chapter 1 (administration, permits, inspections, and certificate of occupancy); verify the adopted edition.
 
 ## Specification
 

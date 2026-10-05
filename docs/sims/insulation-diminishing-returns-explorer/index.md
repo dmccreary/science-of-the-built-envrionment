@@ -1,18 +1,59 @@
 ---
 title: Insulation Diminishing Returns Explorer
-description: Students will calculate (Bloom Level 3, Apply) annual heat loss through a surface for different R-values and will explain (Bloom Level 2, Understand) why each added layer of insulation saves less than the one before.
-status: scaffold
+description: Students move two markers along a curve of annual roof heat loss against R-value, read the energy saved, gas cost, and simple payback for the added insulation, and see why each added layer saves less than the one before.
+image: /sims/insulation-diminishing-returns-explorer/insulation-diminishing-returns-explorer.png
+og:image: /sims/insulation-diminishing-returns-explorer/insulation-diminishing-returns-explorer.png
+twitter:image: /sims/insulation-diminishing-returns-explorer/insulation-diminishing-returns-explorer.png
+social:
+   cards: false
+status: built
 library: Chart.js
-bloom_level: TBD
+bloom_level: Understand, Apply
 ---
 
 # Insulation Diminishing Returns Explorer
 
+<iframe src="main.html" width="100%" height="732" scrolling="no"></iframe>
 
+[Run the Insulation Diminishing Returns Explorer MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
-<iframe src="main.html" width="100%" height="600"></iframe>
+Place the following line in your website to include this MicroSim in your course.
 
-[Run MicroSim in Fullscreen](main.html){ .md-button .md-button--primary }
+```html
+<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/insulation-diminishing-returns-explorer/main.html" width="100%" height="732" scrolling="no"></iframe>
+```
+
+## Description
+
+Students move two markers along a curve of annual roof heat loss against R-value, read the energy saved, gas cost, and simple payback for the added insulation, and see why each added layer saves less than the one before.
+
+## How to Use
+
+1. Read the blue curve: annual heat loss Q = (A/R) × HDD × 24, in MMBtu. At the Riverbend defaults the curve is steep at low R and nearly flat above R-40.
+2. Drag the orange markers, or use the Current R and Proposed R sliders, to choose the existing and added insulation. The green band between them is the energy saved. Hover over the curve to read the loss at any R-value.
+3. Read the table below the chart: annual heat loss, gas burned, gas cost, the added insulation cost, and the simple payback. At R-30 to R-50 the Riverbend roof saves 21.6 MMBtu of heat, or $240 a year, for $13,500, a payback of about 56 years.
+4. Change the roof area, heating degree days, gas price, furnace efficiency, or insulation cost to see how each input moves the payback. A message appears when the payback exceeds the typical building life of 50 years.
+
+## Lesson Plan
+
+**Learning objective:** Calculate annual heat loss through a surface for different R-values and explain why each added layer of insulation saves less than the one before.
+
+**Suggested activities**
+
+- Verify (5 min): Students reproduce the Chapter 19 numbers by hand (162, 54, and 32.4 MMBtu at R-10, R-30, and R-50) and match them to the curve.
+- Compare (10 min): Students record the savings of the first +20 R (R-10 to R-30) and of the next +20 R (R-30 to R-50), and explain in terms of 1/R why the second is five times smaller.
+- Decide (10 min): Students raise the gas price and lower the insulation cost until the payback drops below 50 years, then write a recommendation that also mentions comfort and peak loads.
+
+**Assessment**
+
+- Students calculate the annual heat loss of a 6,000 ft² roof at R-20 and R-40 with 7,000 heating degree days, and the heat saved.
+- Students explain in two sentences why doubling the R-value never halves the cost of heating the whole building.
+
+## References
+
+- [Chapter 19: Energy Efficiency and High-Performance Buildings](../../chapters/19-energy-efficiency/index.md)
+- [R-value (insulation) (Wikipedia)](https://en.wikipedia.org/wiki/R-value_(insulation))
+- [Heating degree day (Wikipedia)](https://en.wikipedia.org/wiki/Heating_degree_day)
 
 ## Specification
 

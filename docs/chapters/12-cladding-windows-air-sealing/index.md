@@ -78,6 +78,10 @@ Cladding systems follow one of two strategies. A *face-sealed* system tries to k
 
 #### Diagram: Cladding Rainscreen Water Path Explorer
 
+
+<iframe src="../../sims/cladding-rainscreen-water-path-explorer/main.html" width="100%" height="697px" scrolling="no"></iframe>
+[Run Cladding Rainscreen Water Path Explorer Fullscreen](../../sims/cladding-rainscreen-water-path-explorer/main.html)
+
 <details markdown="1">
 <summary>Cladding Rainscreen Water Path Explorer</summary>
 Type: microsim
@@ -158,6 +162,10 @@ If the barrier were installed *under* the head flashing, water running down the 
 
 #### Diagram: Window Flashing Sequence Explorer
 
+
+<iframe src="../../sims/window-flashing-sequence-explorer/main.html" width="100%" height="482px" scrolling="no"></iframe>
+[Run Window Flashing Sequence Explorer Fullscreen](../../sims/window-flashing-sequence-explorer/main.html)
+
 <details markdown="1">
 <summary>Window Flashing Sequence Explorer</summary>
 Type: microsim
@@ -199,6 +207,10 @@ Here \( \Delta L \) is the change in length, \( \alpha \) is the coefficient of 
 **Worked example: a joint beside a metal panel.** An aluminum panel is 10 ft (120 in) long, and its surface temperature ranges from -20°F on a winter night to 140°F on a sunny summer day (illustrative), so \( \Delta T = 160 \)°F. Aluminum has \( \alpha \approx 13 \times 10^{-6} \) per °F, so \( \Delta L = 13 \times 10^{-6} \times 120 \times 160 = 0.25 \) in. If the joint takes all this movement and the sealant is rated for plus or minus 25 percent, the joint must be at least \( 0.25 / (2 \times 0.25) = 0.5 \) in wide, with a sealant depth of about 1/4 in. A sealant rated for plus or minus 50 percent needs only \( 0.25 / (2 \times 0.5) = 0.25 \) in. A designer who draws a 1/8 in joint, as is often seen on drawings, has specified a joint that will tear on the first cold night.
 
 #### Diagram: Sealant Joint Movement Calculator
+
+
+<iframe src="../../sims/sealant-joint-movement-calculator/main.html" width="100%" height="688px" scrolling="no"></iframe>
+[Run Sealant Joint Movement Calculator Fullscreen](../../sims/sealant-joint-movement-calculator/main.html)
 
 <details markdown="1">
 <summary>Sealant Joint Movement Calculator</summary>
@@ -273,6 +285,10 @@ The **solar heat gain coefficient** (SHGC) is the fraction of the sun's energy s
 
 #### Diagram: Window Performance Explorer
 
+
+<iframe src="../../sims/window-glazing-surface-temperature-explorer/main.html" width="100%" height="532px" scrolling="no"></iframe>
+[Run Window Performance Explorer Fullscreen](../../sims/window-glazing-surface-temperature-explorer/main.html)
+
 <details markdown="1">
 <summary>Window Performance Explorer</summary>
 Type: microsim
@@ -328,6 +344,10 @@ A **blower door test** is a diagnostic that measures how leaky an enclosure is. 
 **Worked example: testing Riverbend.** The building volume is about 108,000 ft³ (an illustrative figure from Chapter 11). If the fan must move 5,400 cfm to hold 50 Pa, the result is \( 5{,}400 \times 60 / 108{,}000 = 3.0 \) ACH50. The 50 Pa pressure is much higher than the pressure from ordinary wind and stack effect, so the natural leakage rate is much lower, commonly estimated by dividing ACH50 by 15 to 20. At a divisor of 20, the natural rate is about 0.15 air changes per hour, which matches the tight-building case in Chapter 11's air control example. Residential energy codes in cold climates commonly require a result of about 3 ACH50 or less, but the specific requirement for any project comes from the adopted energy code.
 
 #### Diagram: Air Sealing and Blower Door Explorer
+
+
+<iframe src="../../sims/air-sealing-blower-door-explorer/main.html" width="100%" height="682px" scrolling="no"></iframe>
+[Run Air Sealing and Blower Door Explorer Fullscreen](../../sims/air-sealing-blower-door-explorer/main.html)
 
 <details markdown="1">
 <summary>Air Sealing and Blower Door Explorer</summary>

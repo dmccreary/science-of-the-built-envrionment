@@ -134,6 +134,10 @@ The reason for the phase structure is the relationship between decisions and the
 
 #### Diagram: Project Phases and the Cost of Change
 
+
+<iframe src="../../sims/project-phases-cost-of-change/main.html" width="100%" height="702px" scrolling="no"></iframe>
+[Run Project Phases and the Cost of Change Fullscreen](../../sims/project-phases-cost-of-change/main.html)
+
 <details markdown="1">
 <summary>Project Phases and the Cost of Change</summary>
 Type: chart
@@ -277,6 +281,10 @@ The table below summarizes the four methods that the preceding sections defined.
 
 #### Diagram: Delivery Method Explorer
 
+
+<iframe src="../../sims/delivery-method-explorer/main.html" width="100%" height="552px" scrolling="no"></iframe>
+[Run Delivery Method Explorer Fullscreen](../../sims/delivery-method-explorer/main.html)
+
 <details markdown="1">
 <summary>Delivery Method Explorer</summary>
 Type: microsim
@@ -341,6 +349,10 @@ The paths that RFIs, submittals, and change orders take among the project partic
 
 #### Diagram: Project Team Contracts and Communication Map
 
+
+<iframe src="../../sims/project-team-communication-map/main.html" width="100%" height="702px" scrolling="no"></iframe>
+[Run Project Team Contracts and Communication Map Fullscreen](../../sims/project-team-communication-map/main.html)
+
 <details markdown="1">
 <summary>Project Team Contracts and Communication Map</summary>
 Type: graph-model
@@ -387,6 +399,10 @@ The **critical path** is the longest chain of dependent activities from the star
 The activity H cannot start until both G and F are finished, so it starts at day 24, the later of day 24 and day 15. The critical path is A, B, C, D, E, G, H, a total of 27 days. The truss order has 9 days of float, so a delivery delay of up to 9 days has no effect on completion. A delay of 10 days would push H's start to day 25, and the order would become critical. This is why a planner watches long-lead procurement carefully.
 
 #### Diagram: Critical Path Explorer
+
+
+<iframe src="../../sims/critical-path-explorer/main.html" width="100%" height="552px" scrolling="no"></iframe>
+[Run Critical Path Explorer Fullscreen](../../sims/critical-path-explorer/main.html)
 
 <details markdown="1">
 <summary>Critical Path Explorer</summary>

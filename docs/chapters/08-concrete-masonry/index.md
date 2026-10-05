@@ -91,6 +91,10 @@ or 113 kips. In tension, at about 10 percent of that strength, the same concrete
 
 #### Diagram: Concrete Composition and Strength Gain Explorer
 
+
+<iframe src="../../sims/concrete-composition-strength-gain-explorer/main.html" width="100%" height="742px" scrolling="no"></iframe>
+[Run Concrete Composition and Strength Gain Explorer Fullscreen](../../sims/concrete-composition-strength-gain-explorer/main.html)
+
 <details markdown="1">
 <summary>Concrete Composition and Strength Gain Explorer</summary>
 Type: chart
@@ -189,6 +193,10 @@ The aggregate volume is \( 27.00 - 2.87 - 4.07 - 1.62 = 18.44 \) ft³, which is 
 
 #### Diagram: Water-Cement Ratio Explorer
 
+
+<iframe src="../../sims/water-cement-ratio-explorer/main.html" width="100%" height="637px" scrolling="no"></iframe>
+[Run Water-Cement Ratio Explorer Fullscreen](../../sims/water-cement-ratio-explorer/main.html)
+
 <details markdown="1">
 <summary>Water-Cement Ratio Explorer</summary>
 Type: microsim
@@ -243,6 +251,10 @@ Consider a simply supported beam. As Chapter 6 explained, the top is in compress
 where \( \phi = 0.9 \) is a strength reduction factor. From the bar table, two #7 bars give 1.20 in², which is adequate. The tension force in the steel at the factored moment is about \( 960 / 15.75 = 61 \) kips. This back-of-the-envelope calculation is the idea behind the engineer's design, which follows ACI 318 and checks shear, deflection, and crack control as well.
 
 #### Diagram: Reinforced Concrete Beam Behavior Explorer
+
+
+<iframe src="../../sims/reinforced-concrete-beam-behavior-explorer/main.html" width="100%" height="672px" scrolling="no"></iframe>
+[Run Reinforced Concrete Beam Behavior Explorer Fullscreen](../../sims/reinforced-concrete-beam-behavior-explorer/main.html)
 
 <details markdown="1">
 <summary>Reinforced Concrete Beam Behavior Explorer</summary>
@@ -388,6 +400,10 @@ Unreinforced masonry is brittle and weak against sideways forces, so reinforced 
 **Stone masonry** is masonry built of natural stone, which may be rough rubble laid in irregular courses or accurately cut *dimension stone* laid in regular courses. Historic buildings used very thick stone walls that carried load by weight alone. Modern buildings use stone mainly as a thin veneer anchored to a backup wall. Common building stones include granite, limestone, and sandstone, and Minnesota has quarried limestone and granite for buildings for generations. Stone weighs roughly 150 to 170 pcf, so veneer anchorage must be designed for the weight, and the stone must be chosen for its resistance to freezing when wet.
 
 #### Diagram: Masonry Wall Assembly Explorer
+
+
+<iframe src="../../sims/masonry-wall-assembly-explorer/main.html" width="100%" height="697px" scrolling="no"></iframe>
+[Run Masonry Wall Assembly Explorer Fullscreen](../../sims/masonry-wall-assembly-explorer/main.html)
 
 <details markdown="1">
 <summary>Masonry Wall Assembly Explorer</summary>
