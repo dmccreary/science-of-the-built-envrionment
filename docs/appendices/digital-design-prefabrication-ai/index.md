@@ -174,3 +174,5 @@ None of these tools alters what a building must do: support its loads, control h
 - BIM and clash detection move problem discovery from the field to the model, where fixes cost less.
 - Prefabrication shifts work into the factory and makes connections between components the critical detail.
 - AI and robotics change how work is done; understanding loads, control layers, and codes is what lets a person judge their output.
+
+[See Annotated References](./references.md)

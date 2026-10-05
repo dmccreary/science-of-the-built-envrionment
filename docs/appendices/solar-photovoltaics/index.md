@@ -178,3 +178,5 @@ Challenges, in this order:
 
 [^1]: pv magazine. *Global average solar LCOE stood at $0.044/kWh in 2023, says IRENA.* <https://www.pv-magazine.com/2024/09/27/global-average-solar-lcoe-stood-at-0-044-kwh-in-2023-says-irena/>
 [^2]: GreenLancer. *Federal Solar Tax Credit 2026: What Ended, What Remains.* <https://www.greenlancer.com/post/solar-energy-tax-credit-2025> (check the current Internal Revenue Code and IRS guidance before relying on any credit).
+
+[See Annotated References](./references.md)

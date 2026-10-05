@@ -274,3 +274,5 @@ Reused from this book's own MicroSims (Chapter 14), which already teach the same
 
 [^1]: Northeast Energy Efficiency Partnerships. *Cold Climate Air-Source Heat Pump Specification.* <https://neep.org/sites/default/files/resources/NEEP%20cold%20climate%20Air-Source%20Heat%20Pump%20Specification.pdf>
 [^2]: U.S. Environmental Protection Agency. *Frequent Questions on the Phasedown of Hydrofluorocarbons.* <https://www.epa.gov/hfcs/frequent-questions-phasedown-hydrofluorocarbons>
+
+[See Annotated References](./references.md)

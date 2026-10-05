@@ -167,3 +167,5 @@ Feedback when wrong: "Supply = outdoor + effectiveness x (indoor - outdoor). Loa
 ## References
 
 [^1]: Wikipedia contributors. *Heat recovery ventilation.* <https://en.wikipedia.org/wiki/Heat_recovery_ventilation> (a starting point; check manufacturer test data and certified product directories for specific products).
+
+[See Annotated References](./references.md)

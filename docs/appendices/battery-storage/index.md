@@ -177,3 +177,5 @@ Challenges, in this order (battery 13.5 kWh, inverter 5 kW unless stated):
 ## References
 
 [^1]: pv magazine. *Global lithium-ion battery pack prices fall to $108/kWh, says BNEF.* <https://www.pv-magazine.com/2025/12/09/global-lithium-ion-battery-pack-prices-fall-to-108-kwh-says-bnef/>
+
+[See Annotated References](./references.md)

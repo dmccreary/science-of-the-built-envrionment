@@ -204,3 +204,5 @@ Cement is the largest source of concrete's carbon, so the main strategies reduce
 ## References
 
 [^1]: WoodWorks. *Tall Wood Buildings in the 2021 IBC.* <https://www.woodworks.org/resources/tall-wood-buildings-in-the-2021-ibc-up-to-18-stories-of-mass-timber/>
+
+[See Annotated References](./references.md)

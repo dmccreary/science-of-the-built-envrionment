@@ -241,3 +241,5 @@ Occupancy sensors, cameras, and connected equipment collect information about pe
 - Sensors measure; the building still obeys mass and energy balance, so you need to interpret the data.
 - Steady-state carbon dioxide control follows from a simple balance: at 1,000 ppm, about 18 cfm of outdoor air per person.
 - Sensors, protocols, analytics, and AI tools are changing quickly; the need to calibrate, place, and protect them is not.
+
+[See Annotated References](./references.md)

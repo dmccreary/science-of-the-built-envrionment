@@ -191,3 +191,5 @@ Codes change their numbers, but the questions behind them do not. How much heat 
 ## References
 
 [^1]: Minnesota Office of the Revisor of Statutes. *Minnesota Statutes 2024, section 326B.106, subdivision 4.* <https://www.revisor.mn.gov/statutes/2024/cite/326B.106/subd/326B.106.4>
+
+[See Annotated References](./references.md)

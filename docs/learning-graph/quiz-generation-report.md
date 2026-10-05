@@ -93,3 +93,24 @@ The quality score is a heuristic computed from format and link checks (20), conc
 - Quizzes: `docs/chapters/<chapter>/quiz.md` (21 files)
 - Per-chapter metadata: `docs/learning-graph/quizzes/<chapter>-quiz-metadata.json`
 - Quiz bank: `docs/learning-graph/quiz-bank.json`
+
+## Appendix Quizzes (added 2026-10-05)
+
+Ten-question quizzes were generated for each of the nine appendices (A through I), replacing the scaffold stubs. Unlike the chapter quizzes, these use the skill default of 10 questions per appendix instead of one question per concept, so the larger appendices (for example F, with 13 concepts) test the highest-impact concepts and do not cover every concept.
+
+| Appendix | Questions | Answer balance (A/B/C/D) |
+|----------|-----------|--------------------------|
+| A: Heat Pumps and Building Electrification | 10 | 2/3/2/3 |
+| B: Heat Recovery Ventilation and Modern Heat Exchangers | 10 | 3/2/3/2 |
+| C: Solar Photovoltaics | 10 | 2/3/2/3 |
+| D: Battery Storage and Grid-Interactive Buildings | 10 | 3/2/3/2 |
+| E: Geothermal Heating and Earth-Coupled Air | 10 | 2/2/3/3 |
+| F: Smart Sensors and Building Automation | 10 | 3/2/3/2 |
+| G: Mass Timber and Low-Carbon Materials | 10 | 3/2/3/2 |
+| H: Energy Codes and Building Performance Standards | 10 | 2/3/2/3 |
+| I: Digital Design, Prefabrication, Robotics, and AI | 10 | 3/2/2/3 |
+
+- **Total:** 90 questions. Explanations run 55 to 78 words, and every question has a `Concept Tested` label and a `See` link to a heading that exists in the appendix (checked by script).
+- **Source material:** Questions draw on the main text and worked examples of each appendix, not on the collapsed MicroSim specification blocks.
+- **Not done:** Per-appendix metadata JSON files and `quiz-bank.json` were not updated, and the Bloom's distribution was not tallied question by question. About 20 of the 90 questions ask for a calculation; the rest are recall, comprehension, and scenario questions.
+- **Review needed:** The numeric answers were computed by hand while writing. The author should re-check a sample, especially Appendix B questions 3, 4, and 6, Appendix E questions 3 and 5, and Appendix F question 3.

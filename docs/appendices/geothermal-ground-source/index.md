@@ -288,3 +288,5 @@ In a heating-dominated climate like Minnesota, a ground loop removes more heat f
 [^1]: U.S. Department of Energy. *Geothermal Heat Pumps.* <https://www.energy.gov/hgeo/geothermal/geothermal-heat-pumps>
 
 [^2]: NOAA National Centers for Environmental Information. *U.S. Climate Normals 1991-2020: Monthly Normals, Minneapolis-St. Paul International Airport (station USW00014922).* <https://www.ncei.noaa.gov/access/us-climate-normals/>
+
+[See Annotated References](./references.md)
