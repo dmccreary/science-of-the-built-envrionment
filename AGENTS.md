@@ -57,7 +57,9 @@ new features, and update the status table there when an idea moves forward.
 Skills specific to this book (and to sister trade books) live in `skills/`,
 not in the global skills folder. They are for building/trades content only.
 Currently: `skills/layered-assembly-infographic` (assembly cross-sections with
-callouts, layer toggles, and flows).
+callouts, layer toggles, and flows) and `skills/range-explorer` (a chart of
+options with ranges and a marker that shows which qualify). They share
+scaffolding in `skills/_shared/simkit.py`, which is not a skill.
 
 ## Build and serve rules
 

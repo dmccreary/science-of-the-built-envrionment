@@ -36,7 +36,11 @@ Keeping the same four parts means authors learn one habit:
 
 Build it after this skill has been used on several real assemblies, so we know what actually generalizes instead of guessing.
 
-## Shared pieces worth extracting later
+## Shared pieces (extracted)
+
+A second skill now exists, `skills/range-explorer`, and the common scaffolding lives in `skills/_shared/simkit.py`: reading `const NAME = {...};` specs, writing `main.html`, `metadata.json` and `index.md` from the `chapter` and `lesson` blocks, the "What Ages in This Sim" section, and the engine-drift check. Each skill keeps its own data format, engine, and validator.
+
+## Shared pieces still worth extracting later
 
 If a second skill is built, these belong in a shared place rather than copied:
 

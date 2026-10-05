@@ -10,30 +10,24 @@ Subcommands
 Standard library only. Exit status is 1 when validation fails, so it can gate a build step.
 """
 import argparse
-import datetime
 import json
 import re
-import shutil
 import sys
 from pathlib import Path
 
 SKILL_DIR = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(SKILL_DIR.parent / "_shared"))
+import simkit  # noqa: E402  (shared scaffolding: spec reading, lesson/metadata files, sync, reporting)
 ENGINE_SRC = SKILL_DIR / "assets" / "layered-assembly-engine.js"
 ENGINE_NAME = "layered-assembly-engine.js"
-REPO_ROOT = SKILL_DIR.parent.parent
-SITE_BASE = "https://dmccreary.github.io/science-of-the-built-envrionment/sims"
+REPO_ROOT = simkit.REPO_ROOT
 
 # Keep in step with the engine's layout constants
 ROW, INFO_HEIGHT, DEFAULT_DRAW_HEIGHT = 34, 120, 400
 
 
 def load_spec(path):
-    text = Path(path).read_text(encoding="utf-8")
-    m = re.search(r"const\s+ASSEMBLY\s*=\s*", text)
-    if not m:
-        raise ValueError("no 'const ASSEMBLY = {...};' found in " + str(path))
-    obj, _ = json.JSONDecoder().raw_decode(text[m.end():])
-    return obj, text
+    return simkit.load_const(path, "ASSEMBLY")
 
 
 def engine_materials():
@@ -42,13 +36,12 @@ def engine_materials():
     return set(re.findall(r"^\s{2}(\w+):\s*\{", block.group(1), re.M)) if block else set()
 
 
-def engine_version(path):
-    m = re.search(r"ENGINE_VERSION:\s*([\d.]+)", Path(path).read_text(encoding="utf-8"))
-    return m.group(1) if m else None
+engine_version = simkit.engine_version
 
 
 def canvas_height(spec):
-    rows = 2 + 1 + 1 + (1 if spec.get("conditions") else 0)
+    quiz_row = 1 if spec.get("quiz") is not False else 0
+    rows = 2 + 1 + 1 + quiz_row + (1 if spec.get("conditions") else 0)
     return spec.get("drawHeight", DEFAULT_DRAW_HEIGHT) + INFO_HEIGHT + ROW * rows + 6
 
 
@@ -135,6 +128,26 @@ def validate(spec, need_lesson=False):
         if fid not in stopped:
             W("flow '%s' is never stopped or slowed by any layer, so breaking layers will not change it" % fid)
 
+    csi_re = re.compile(r"^\d{2} \d{2} \d{2}( .+)?$")
+    for i, L in enumerate(layers, 1):
+        c = L.get("csi")
+        if c is None:
+            continue
+        if not csi_re.match(c):
+            E('layer %d (%s): csi "%s" must look like "07 26 00 Vapor Retarders" (six digits in pairs, then the section title)' % (i, L.get("id", "?"), c))
+        elif " " not in c.strip()[8:].strip() and len(c.strip()) == 8:
+            W('layer %d (%s): csi "%s" has no section title; add it so readers can look it up' % (i, L.get("id", "?"), c))
+    if layers and not any(L.get("csi") for L in layers):
+        W("no layer has a 'csi' MasterFormat section (next-steps idea 5); add one where a spec section exists")
+
+    if spec.get("quiz") not in (None, True, False):
+        E("quiz must be true or false (it defaults to true; false hides the Quiz me control)")
+    whys = [L.get("why") for L in layers if L.get("why")]
+    if len(set(whys)) != len(whys):
+        W("two layers share the same 'why' text, which makes the quiz question ambiguous")
+
+    simkit.validate_currency(spec, errs, warns)
+
     cond = spec.get("conditions")
     if cond:
         for key in ("tempA", "tempB"):
@@ -149,23 +162,11 @@ def validate(spec, need_lesson=False):
         W("layers have R-values but there is no 'conditions' block, so the temperature profile is switched off")
 
     if need_lesson:
-        les = spec.get("lesson") or {}
-        for key in ("objective", "bloom", "usage", "activities", "assessment", "concepts"):
-            if not les.get(key):
-                E("lesson.%s is required to generate index.md and metadata.json" % key)
-        ch = spec.get("chapter") or {}
-        for key in ("number", "title", "dir"):
-            if ch.get(key) in (None, ""):
-                E("chapter.%s is required to generate metadata.json" % key)
+        simkit.validate_lesson(spec, errs)
     return errs, warns
 
 
-def report(errs, warns):
-    for w in warns:
-        print("  warning: " + w)
-    for e in errs:
-        print("  ERROR:   " + e)
-    print("%d error(s), %d warning(s)" % (len(errs), len(warns)))
+report = simkit.report
 
 
 def cmd_validate(args):
@@ -184,182 +185,52 @@ def cmd_height(args):
     return 0
 
 
-MAIN_HTML = """<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="schema" content="https://dmccreary.github.io/intelligent-textbooks/ns/microsim/v1">
-    <title>{title} MicroSim using P5.js 2.3.2</title>
-    <script src="https://cdn.jsdelivr.net/npm/p5@2.3.2/lib/p5.js"></script>
-    <style>
-        body {{
-            margin: 0px;
-            padding: 0px;
-            font-family: Arial, Helvetica, sans-serif;
-        }}
-    </style>
-    <script src="{sim_id}.js"></script>
-    <script src="{engine}"></script>
-</head>
-<body>
-    <main></main>
-    <br/>
-    <a href=".">Back to {title} Lesson Plan</a>
-</body>
-</html>
-"""
+def csi_sections(spec):
+    """Unique MasterFormat sections used by the layers, in layer order."""
+    seen, out = set(), []
+    for L in spec.get("layers", []):
+        c = L.get("csi")
+        if c and c not in seen:
+            seen.add(c)
+            out.append(c)
+    return out
 
 
-def md_list(items, numbered=False):
-    return "\n".join(("%d. %s" % (i, t)) if numbered else ("- " + t) for i, t in enumerate(items, 1))
+QUIZ_STEP = ("Tick Quiz me to test yourself. A question appears under the drawing, the layer names are hidden, "
+             "and you click the layer that answers it. Your score builds as you go; press Next question to continue.")
+
+
+def csi_md(spec):
+    rows = [(i, L) for i, L in enumerate(spec["layers"], 1) if L.get("csi")]
+    if not rows:
+        return ""
+    lines = ["## MasterFormat Context", "",
+             "Each layer is tied to the specification section a builder would look it up under "
+             "(CSI MasterFormat; section numbers are from memory and should be checked against the current edition).", "",
+             "| # | Layer | MasterFormat section |", "|---|-------|----------------------|"]
+    lines += ["| %d | %s | %s |" % (i, L["name"], L["csi"]) for i, L in rows]
+    return "\n".join(lines) + "\n\n"
 
 
 def cmd_new(args):
     spec_path = Path(args.spec)
-    spec, text = load_spec(spec_path)
+    spec, _ = load_spec(spec_path)
     errs, warns = validate(spec, need_lesson=True)
     print("validate %s" % spec_path)
     report(errs, warns)
     if errs:
         return 1
-    if spec["id"] != args.sim_id:
-        print("ERROR: spec id '%s' does not match sim id '%s'" % (spec["id"], args.sim_id))
-        return 1
-
-    out = Path(args.out) if args.out else REPO_ROOT / "docs" / "sims" / args.sim_id
-    if out.exists() and any(out.iterdir()) and not args.force:
-        print("ERROR: %s already exists and is not empty (use --force to overwrite)" % out)
-        return 1
-    out.mkdir(parents=True, exist_ok=True)
-
-    height = canvas_height(spec)
-    frame = height + 2
-    les, ch = spec["lesson"], spec["chapter"]
-    title = spec["title"]
-    sim_id = args.sim_id
-
-    shutil.copyfile(spec_path, out / (sim_id + ".js"))
-    shutil.copyfile(ENGINE_SRC, out / ENGINE_NAME)
-    (out / "main.html").write_text(MAIN_HTML.format(title=title, sim_id=sim_id, engine=ENGINE_NAME), encoding="utf-8")
-
-    meta = {
-        "title": title,
-        "description": les["objective"],
-        "creator": "The Science of the Built Environment",
-        "author": args.author,
-        "date": datetime.date.today().isoformat(),
-        "subject": ["The Science of the Built Environment"],
-        "type": "Interactive Simulation",
-        "format": "text/html",
-        "language": "en",
-        "rights": "CC BY-NC-SA 4.0",
-        "identifier": sim_id,
-        "library": "p5.js",
-        "generator": "layered-assembly-infographic engine " + (engine_version(ENGINE_SRC) or "?"),
-        "bloomLevel": les["bloom"],
-        "bloomVerb": les.get("bloomVerb", ""),
-        "completion_status": "built",
-        "chapter_number": ch["number"],
-        "chapter_title": ch["title"],
-        "chapter_dir": ch["dir"],
-        "chapter_rel_dir": "chapters/" + ch["dir"],
-        "canvasHeight": height,
-        "educational": {
-            "educationalLevel": "Undergraduate, Adult learners",
-            "learningResourceType": "simulation",
-            "bloomLevel": les["bloom"].split(", "),
-            "concepts": les["concepts"],
-            "prerequisites": les.get("prerequisites", []),
-        },
-        "pedagogical": {
-            "learningObjective": les["objective"],
-            "recommendedUsage": les["usage"],
-            "activities": les["activities"],
-            "assessment": les["assessment"],
-        },
-    }
-    (out / "metadata.json").write_text(json.dumps(meta, indent=2, ensure_ascii=False), encoding="utf-8")
-
-    refs = les.get("references") or []
-    ref_md = "- [Chapter %s: %s](../../chapters/%s/index.md)\n" % (ch["number"], ch["title"], ch["dir"])
-    ref_md += "\n".join("- [%s](%s)" % (r["title"], r["url"]) for r in refs)
-    desc = les.get("description") or les["objective"]
-    index = f"""---
-title: "{title}"
-description: "{desc}"
-status: built
-library: p5.js
-bloom_level: {les["bloom"]}
----
-
-# {title}
-
-<iframe src="main.html" width="100%" height="{frame}" scrolling="no"></iframe>
-
-[Run the {title} MicroSim Fullscreen](main.html){{ .md-button .md-button--primary }}
-
-Place the following line in your website to include this MicroSim in your course.
-
-```html
-<iframe src="{SITE_BASE}/{sim_id}/main.html" width="100%" height="{frame}" scrolling="no"></iframe>
-```
-
-## Description
-
-{desc}
-
-## How to Use
-
-{md_list(les["usage"], numbered=True)}
-
-## Lesson Plan
-
-**Learning objective:** {les["objective"]}
-
-**Suggested activities**
-
-{md_list(les["activities"])}
-
-**Assessment**
-
-{md_list(les["assessment"])}
-
-## References
-
-{ref_md}
-"""
-    (out / "index.md").write_text(index, encoding="utf-8")
-
-    print("\ncreated %s (canvas height %d, iframe height %d)" % (out, height, frame))
-    print("status is 'built' - never set 'approved'; only the author does that.")
-    print("\nNext steps:")
-    print("  1. Add this line to the MicroSims block of mkdocs.yml nav:")
-    print('       - "%s": sims/%s/index.md' % (title, sim_id))
-    print("  2. Open %s/main.html in a browser and exercise every control." % out)
-    print("  3. Capture a screenshot named %s.png in the sim folder (microsim-utils), then add an image: line to index.md." % sim_id)
-    print("  4. Run `mkdocs build --strict` from the repo root.")
-    return 0
+    usage_extra = [QUIZ_STEP] if spec.get("quiz") is not False else []
+    return simkit.scaffold(
+        spec, spec_path, args.sim_id, args.out, ENGINE_SRC, ENGINE_NAME, "layered-assembly-infographic",
+        canvas_height(spec), usage_extra=usage_extra, sections_md=csi_md(spec),
+        meta_extra={"csi_sections": csi_sections(spec)},
+        frontmatter_extra="csi: %s\n" % json.dumps(csi_sections(spec)),
+        author=args.author, force=args.force)
 
 
 def cmd_sync(args):
-    sims = Path(args.sims_dir) if args.sims_dir else REPO_ROOT / "docs" / "sims"
-    src = ENGINE_SRC.read_text(encoding="utf-8")
-    sv = engine_version(ENGINE_SRC)
-    print("skill engine version %s" % sv)
-    drift = 0
-    for p in sorted(sims.glob("*/" + ENGINE_NAME)):
-        same = p.read_text(encoding="utf-8") == src
-        ver = engine_version(p)
-        print("  %-60s %s%s" % (p.parent.name, "up to date" if same else "DRIFTED", "" if same else " (has %s)" % ver))
-        if not same:
-            drift += 1
-            if args.apply:
-                shutil.copyfile(ENGINE_SRC, p)
-                print("    refreshed")
-    if not list(sims.glob("*/" + ENGINE_NAME)):
-        print("  no sims use the engine yet")
-    return 1 if drift and not args.apply else 0
+    return simkit.sync_engines(ENGINE_SRC, ENGINE_NAME, args.sims_dir, args.apply)
 
 
 def main():

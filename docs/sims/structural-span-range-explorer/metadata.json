@@ -1,0 +1,81 @@
+{
+  "title": "Structural span ranges",
+  "description": "Select the framing systems that can span a given distance, and explain why a longer span usually means a deeper, costlier, or more specialized system.",
+  "creator": "The Science of the Built Environment",
+  "author": "Dan McCreary",
+  "date": "2026-10-05",
+  "subject": [
+    "The Science of the Built Environment"
+  ],
+  "type": "Interactive Simulation",
+  "format": "text/html",
+  "language": "en",
+  "rights": "CC BY-NC-SA 4.0",
+  "identifier": "structural-span-range-explorer",
+  "library": "p5.js",
+  "generator": "range-explorer engine 1.0.0",
+  "bloomLevel": "Understand, Apply",
+  "bloomVerb": "select, explain",
+  "completion_status": "built",
+  "chapter_number": 7,
+  "chapter_title": "Wood and Steel Framing",
+  "chapter_dir": "07-wood-steel-framing",
+  "chapter_rel_dir": "chapters/07-wood-steel-framing",
+  "canvasHeight": 630,
+  "currency": {
+    "asOf": "2026-10",
+    "timeless": [
+      "Deflection grows with the fourth power of the span, so doubling a span needs far more depth or stiffness.",
+      "Longer spans trade simple, cheap members for deeper, engineered, or prefabricated ones."
+    ],
+    "ages": [
+      {
+        "item": "Every span range on the chart",
+        "basis": "Illustrative round numbers from general design references; the chapters do not give them",
+        "check": "Use the manufacturer's span tables or an engineer's calculation for a real project"
+      },
+      {
+        "item": "Which systems exist as stock products",
+        "basis": "Common products at the time of writing",
+        "check": "Confirm availability and depth limits with local suppliers"
+      }
+    ]
+  },
+  "educational": {
+    "educationalLevel": "Undergraduate, Adult learners",
+    "learningResourceType": "simulation",
+    "bloomLevel": [
+      "Understand",
+      "Apply"
+    ],
+    "concepts": [
+      "Joists",
+      "Beams and girders",
+      "Trusses",
+      "Engineered wood",
+      "Span"
+    ],
+    "prerequisites": [
+      "Chapter 6 loads and load paths"
+    ]
+  },
+  "pedagogical": {
+    "learningObjective": "Select the framing systems that can span a given distance, and explain why a longer span usually means a deeper, costlier, or more specialized system.",
+    "recommendedUsage": [
+      "Move the slider, or drag the red marker in the chart, to a span you care about. The headline counts how many systems reach it.",
+      "Look at the dark bars first. A system in its typical range is an ordinary choice; one in the light part of its bar is possible but unusual and usually costs more.",
+      "Click a system's name to read what it is, why you would choose it, and what to watch out for.",
+      "Untick Wood, Steel, or Concrete to compare one material at a time, and change Sort to rank the systems by how far they reach.",
+      "Drag the red marker, or use the slider under the chart, to set your own span. Rows that reach it stay dark; rows that do not fade out. Click a row's name for what it is, why to choose it, and what to watch out for."
+    ],
+    "activities": [
+      "Predict and test (10 min): before using the chart, list which systems you think can carry the 40 ft Riverbend girder, then check.",
+      "Compare (10 min): find the span at which wood framing stops being typical and steel takes over. Explain what changes for the building at that point.",
+      "Apply (10 min): choose a floor system for a 28 ft clear span with ducts running through it and justify the choice."
+    ],
+    "assessment": [
+      "Name three systems that can span 40 ft and say which are typical at that span.",
+      "Explain in two sentences why a sawn lumber joist cannot be the answer for a 30 ft span."
+    ]
+  }
+}

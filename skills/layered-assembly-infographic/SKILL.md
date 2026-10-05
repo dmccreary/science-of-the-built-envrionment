@@ -49,6 +49,7 @@ Copy `assets/example-spec.js` (a wall) or `assets/example-spec-roof.js` (a verti
 
 - `layers`: listed from side A to side B. Each has `id`, short `name` (16 characters or fewer, it becomes the callout), `full` name, `t` (thickness in **inches**), `material` (a hatch key), and three complete sentences: `what`, `why`, `risk`. Add `r` (R-value) if the assembly has a thermal story, `stops` and `slows` (flow ids), `sensitive: true` for a layer that must stay above the dew point, and `effects` for custom "what now happens" text when the layer is removed or punctured.
 - `flows`: what moves through this assembly (rain, air, vapor, heat, fire, sound). Choose only the flows the chapter teaches; 2 to 4 is typical. `from` says which side the flow starts on.
+- `csi` on each layer that has a specification section (next-steps idea 5), and a `currency` block saying what is timeless and what ages (idea 8). Both are recommended; the validator warns when they are missing. Take MasterFormat numbers from `references/csi-masterformat.md`, and say in the report that the numbers are from memory and need checking.
 - `conditions`: include it only when you want the temperature profile (needs `r` on the layers).
 - `chapter` and `lesson`: needed to generate `index.md` and `metadata.json`. Write the lesson text as a teacher would: a Bloom-level objective, usage steps, a predict-then-test activity, and assessment questions.
 
@@ -74,7 +75,7 @@ This writes the whole folder into `docs/sims/<sim-id>/` with status `built`, cop
 
 ### 5. Verify in a browser
 
-Open the sim from a local static server (do not start `mkdocs serve`; the author runs that) and exercise every control: click each layer, untick every layer box in both modes (Remove the layer, then Punch a hole), move Explode, toggle each flow, Temperature, Line art, Legend (on by default; untick to hide), the unit selector, and Reset. Check that:
+Open the sim from a local static server (do not start `mkdocs serve`; the author runs that) and exercise every control: click each layer, untick every layer box in both modes (Remove the layer, then Punch a hole), move Explode, toggle each flow, Temperature, Line art, Legend (on by default; untick to hide), the unit selector, Quiz me (answer one right and one wrong), and Reset. Check that:
 
 - no callout overlaps another or runs off the canvas, and the leader lines do not cross labels;
 - the status line under the title tells the truth for the intact assembly (for example, rain stopped at the weather-resistive barrier, not "reaches inside");
@@ -102,6 +103,14 @@ Report plainly: what was built, the checks that passed, anything skipped or stil
 - The engine's "hole" mode removes about 18 percent of one layer's cross dimension at the center. It shows that a hole defeats a barrier; it does not model a specific failure.
 - Do not copy drawings, captions, or wording from copyrighted construction texts. The engine draws original hatch patterns; keep the spec's sentences in your own words.
 
+## Quiz mode, MasterFormat tags, and currency notes
+
+Three features come from the book's `next-steps.md` list and need no extra files:
+
+- **Quiz me (idea 10).** Every sim can quiz the student on its own drawing: layer names are hidden, a question is generated from the `what`, `why`, and `stops` text, and the student clicks the answer. See `references/drawing-conventions.md`. Write each layer's `what` and `why` so they point to that layer alone, because they are the clues.
+- **MasterFormat tags (idea 5).** Each layer's `csi` ties it to the specification section a builder would look it up under. The info panel shows it, the lesson page lists it, and `metadata.json` carries it for a future filter on the MicroSims page.
+- **What ages (idea 8).** The `currency` block separates timeless physics from code- and product-dependent values, with an as-of date. It becomes a table on the lesson page.
+
 ## Authoring tips that save rework
 
 - **Merge thin layers** that students do not reason about separately (primer, tape, fasteners) into the layer they belong to. More than 8 to 10 layers crowds the callouts; 12 is the hard limit.
@@ -119,5 +128,6 @@ The engine follows the repo's p5.js rules: `updateCanvasSize()` is the first sta
 - `references/spec-schema.md` - every field of the `ASSEMBLY` object, with defaults and limits.
 - `references/drawing-conventions.md` - the hatch legend, color rule, label rules, and print mode.
 - `references/trade-extensions.md` - how electrical, HVAC, and plumbing relate to this skill and what to build next.
+- `references/csi-masterformat.md` - the MasterFormat sections in use and how to choose one.
 - `references/integration-checklist.md` - the project rules (nav, status, strict build) in one place.
 - `assets/example-spec.js`, `assets/example-spec-roof.js` - complete working specs.

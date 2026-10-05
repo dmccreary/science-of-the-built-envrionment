@@ -25,6 +25,8 @@ The spec is one JavaScript constant, `const ASSEMBLY = {...};`, whose value is *
 | `drawHeight` | no | Height of the drawing area in px (default 400). Raise to 440 or more for vertical stacks with many layers. |
 | `stackSize` | no | Cross dimension of the stack in px (default 130 horizontal, 260 vertical). |
 | `units` | no | `"IP"` (default) or `"SI"`: the starting unit system. Students can toggle. |
+| `quiz` | no | The **Quiz me** control is on by default. Set `false` to remove it (and its control row). |
+| `currency` | recommended | What is timeless and what ages in this sim; see "`currency`" below. The validator warns if it is missing. |
 | `legend` | no | The hatch legend is **on by default** and students can untick the Legend checkbox. Set `false` only to start with it hidden. |
 
 ## `conditions` (optional)
@@ -66,6 +68,7 @@ Listed from side A to side B. Two to twelve layers.
 | `why` | yes | One sentence: why it is there. This is the book's added value. |
 | `risk` | yes | One sentence: the consequence if it fails or is missing. |
 | `materials` | no | Typical materials, shown at the bottom of the info panel. |
+| `csi` | recommended | CSI MasterFormat section as `"07 26 00 Vapor Retarders"` (six digits in pairs, then the section title). Shown in the info panel and written to `index.md` and `metadata.json`. Omit it for layers with no spec section (an air gap). See `csi-masterformat.md`. |
 | `tag` | no | Overrides the gray second callout line. Default is generated: `stops: <flow names>`. |
 | `r` | no | R-value (hr-ft2-F/Btu) for the temperature profile. Omit for layers with negligible resistance. |
 | `rMissing` | no | R-value that remains when the layer is removed (an empty stud cavity still has about R-1). Default 0. |
@@ -88,6 +91,20 @@ Every layer has a checkbox under the drawing. It is **ticked while the layer is 
 - a **punctured** layer ("Punch a hole") lets through only dots passing the hole, near the middle of the layer's cross dimension.
 
 The status line under the title summarizes the same logic: "stopped at 3 WRB", "slowed at 6 Stud cavity; some reaches outside", "only through the hole", or "reaches inside".
+
+## `currency`
+
+Separates what is timeless from what ages, so readers and future editors know what to check. The scaffold turns it into a "What Ages in This Sim" section on the lesson page, and the sim shows "Values are illustrative, as of <asOf>" when no layer is selected.
+
+```json
+"currency": {
+  "asOf": "2026-10",
+  "timeless": ["Heat flows from warm to cold in proportion to R-value."],
+  "ages": [ { "item": "R-values of the foam", "basis": "Chapter 3 approximate values", "check": "Minimum R-value in the adopted energy code" } ]
+}
+```
+
+`asOf` is a year or year-month. `timeless` and `ages` must not be empty. Every `ages` entry needs `item`, `basis` (where the value came from), and `check` (what to verify, against what). Do not put an invented code citation in `basis`; say "illustrative" instead.
 
 ## `chapter` and `lesson`
 
@@ -119,4 +136,4 @@ Needed by `assembly_tool.py new` (use `validate --for-new` to check). They feed 
 | Flows | 0 to 5 | One options row. |
 | Layer `name` | 16 characters | Callout width. |
 | `what`, `why`, `risk` | about 170 characters | Info panel width. |
-| Canvas height | `drawHeight + 120 + 34 x rows + 6`, rows = 4 (5 with `conditions`) | The tool computes it and sets the iframe height. |
+| Canvas height | `drawHeight + 120 + 34 x rows + 6`, rows = 5 (+1 with `conditions`, -1 with `quiz: false`) | The tool computes it and sets the iframe height. |

@@ -40,16 +40,16 @@ intelligent-textbook skills, so they do not belong in the global skills folder.
 
 | # | Idea | Status | Depends on |
 |---|------|--------|------------|
-| 1 | Layered-assembly infographic skill (callouts, layer toggles, flows) | **In progress**: skill drafted at `skills/layered-assembly-infographic` | 6, 7 (built in) |
+| 1 | Layered-assembly infographic skill (callouts, layer toggles, flows) | **Built** (engine 1.4.2): `skills/layered-assembly-infographic`, used by 5 test sims awaiting your review | 6, 7 (built in) |
 | 2 | Draw the flow, not just the object (color rule) | Built into idea 1 as a design rule | 1 |
-| 3 | Clickable exploded building as the table of contents | Idea | 1, 6 |
-| 4 | Turn tables and charts into controls (span chart, exposure sliders, soil sort) | Idea | none |
-| 5 | CSI MasterFormat tags on concepts, glossary, and sims | Idea | none |
+| 3 | Clickable exploded building as the table of contents | **Built**: inline SVG at the top of `docs/chapters/index.md`, list kept below; regenerate with `scripts/chapter_toc_svg.py` | 1, 6 |
+| 4 | Turn tables and charts into controls (span chart, exposure sliders, soil sort) | **Partly built**: new `range-explorer` skill with a structural-span pilot (illustrative ranges, awaiting your review). The soil sort already exists as `uscs-soil-classifier`. More charts and exposure sliders are not started | none |
+| 5 | CSI MasterFormat tags on concepts, glossary, and sims | **Partly built**: `csi` per layer in the skill (info panel, lesson page, `metadata.json`). Concept and glossary tags and the MicroSims filter are still open | none |
 | 6 | Shared hatch and symbol legend, plus a print-friendly line-art mode | Built into idea 1 (hatch set v1) | none |
 | 7 | IP/SI unit toggle in sims | Built into idea 1 | none |
-| 8 | Date-stamp code and product content that ages | Idea | 5 |
+| 8 | Date-stamp code and product content that ages | **Partly built**: `currency` block in the skill ("What Ages in This Sim" table, as-of note). Chapter prose is still open | 5 |
 | 9 | Pull sustainability (operational vs. embodied carbon) into chapters 1-2 | Idea | none |
-| 10 | "Read the drawing" quiz items (label the layer, drag the label) | Idea | 1 |
+| 10 | "Read the drawing" quiz items (label the layer, drag the label) | **Partly built**: interactive **Quiz me** mode in every layered-assembly sim, generated from the layer data. Items for the chapter `quiz.md` files are not generated yet | 1 |
 | 11 | A "run" skill for linear systems (electrical, plumbing, HVAC) | Idea | 1, 6 |
 
 ## Idea details
@@ -89,6 +89,8 @@ exploded layer linking to its chapter. It follows the same orientation idea as
 the opening drawing of a classic construction text.
 
 ### 4. Turn tables and charts into controls
+
+**Status:** the `range-explorer` skill (`skills/range-explorer`) turns a list of options with ranges into a chart with a movable marker. The pilot is `structural-span-range-explorer` (chapter 7). The book has no span table, so its ranges are illustrative values I supplied; they are on the review list below. Candidates for the next charts are in `skills/range-explorer/references/trade-applications.md`.
 
 - A structural span-range chart becomes an interactive chart: enter a span and load, see which systems qualify.
 - Exposure and dimension tables become sliders.
@@ -148,6 +150,15 @@ shares the legend, callout style, and unit toggle with idea 1. We should
 build it after idea 1 has been used on several assemblies, so we know what
 actually generalizes.
 
+## Review at the end
+
+Items I deferred or wrote from memory, collected here so you can review them together. Nothing here blocks the work.
+
+- **MasterFormat section numbers and titles** on every layer (`csi` fields in the five layered-assembly sims). Checked against nothing yet; `skills/layered-assembly-infographic/references/csi-masterformat.md` lists them. Decide the edition (2004 or 2018) the book will cite, then verify each one.
+- **Structural span ranges** in `structural-span-range-explorer` (thirteen systems, possible and typical ranges). Illustrative; the chapters do not give them. Replace with values from a span reference you trust, or keep them labeled illustrative.
+- **"What ages" notes** in all six sims (`currency` blocks). They say what to check, but I have not checked any of it against the codes.
+- **Engineering claims in the layered-assembly sims** raised during testing: the one-hour partition label (two layers per side), the vapor retarder order under slab foam, and the rainscreen title.
+
 ## How we work through this list
 
 1. Pick one idea.
@@ -158,3 +169,5 @@ actually generalizes.
 ## Change log
 
 - 2026-10-04: First version of this page, created from the review of Ching's book. Started idea 1 as a skill.
+- 2026-10-05: Added ideas 5, 8 and 10 to the layered-assembly skill (engine 1.4.x) and built idea 3 (exploded-building table of contents).
+- 2026-10-05: Started idea 4: new `range-explorer` skill and structural-span pilot; moved shared scaffolding into `skills/_shared/simkit.py`. MasterFormat verification deferred to the review list. Ideas 9 and 11 are not started.
