@@ -71,6 +71,7 @@ Then follow `references/integration-checklist.md`: add the nav line, open the si
 - A bar that runs past the right edge of the axis ends in an arrow.
 - Click a row's name for what / why / watch out, with the range shown in the current units.
 - Group checkboxes, three sort orders, an IP/SI toggle, and Reset.
+- The spec title centered at the top in a large bold font, over the book's standard `aliceblue` MicroSim background (spec field `background`). The info panel and controls are white.
 
 ## Honesty and limits
 

@@ -27,6 +27,7 @@ The spec is one JavaScript constant, `const ASSEMBLY = {...};`, whose value is *
 | `units` | no | `"IP"` (default) or `"SI"`: the starting unit system. Students can toggle. |
 | `quiz` | no | The **Quiz me** control is on by default. Set `false` to remove it (and its control row). |
 | `currency` | recommended | What is timeless and what ages in this sim; see "`currency`" below. The validator warns if it is missing. |
+| `showTitle` | no | Set `false` only when the page draws its own centered title above the canvas (the CLT sim does, because a prediction panel sits above the drawing). The 44 px title band is then removed. Default `true`. |
 | `background` | no | CSS color for the title band and drawing area. Default `"aliceblue"`, the book-wide MicroSim standard; the info panel and controls below stay white. Change it only when a sim needs a different tint. |
 | `legend` | no | The hatch legend is **on by default** and students can untick the Legend checkbox. Set `false` only to start with it hidden. |
 

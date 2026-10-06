@@ -1,5 +1,5 @@
 // Layered Assembly Engine - draws a cross-section stack of building layers from the ASSEMBLY data object
-// ENGINE_VERSION: 1.6.0
+// ENGINE_VERSION: 1.7.0
 // Shared by every sim made with the layered-assembly-infographic skill. Do not edit a sim's copy by hand;
 // edit skills/layered-assembly-infographic/assets/layered-assembly-engine.js and run `assembly_tool.py sync`.
 //
@@ -7,10 +7,10 @@
 // Design rule: the base drawing is black-and-white line art with a fixed hatch legend; color is used only
 // for the invisible flows (heat, air, water, vapor) that the drawing is there to explain.
 
-const ENGINE_VERSION = '1.6.0';
+const ENGINE_VERSION = '1.7.0';
 
 // ---- Layout constants (the scaffold tool uses the same arithmetic to size the iframe) ----
-const TITLE_HEIGHT = 44;   // centered title band at the top of the canvas (above the drawing)
+let TITLE_HEIGHT = 44;     // centered title band at the top of the canvas (above the drawing); 0 when the spec sets showTitle:false
 const TITLE_SIZE = 26;     // title font size in px; shrinks to fit narrow canvases, never below TITLE_MIN
 const TITLE_MIN = 16;
 const ROW = 34;            // height of one control row
@@ -80,6 +80,7 @@ function setup() {
   }
   isH = (A.direction || 'horizontal') === 'horizontal';
   drawHeight = A.drawHeight || 400;
+  if (A.showTitle === false) TITLE_HEIGHT = 0;   // the page supplies its own title above the canvas
   const hasCond = !!A.conditions;
   controlHeight = ROW * (2 + 1 + 1 + (quizEnabled() ? 1 : 0) + (hasCond ? 1 : 0)) + 6;
   canvasHeight = TITLE_HEIGHT + drawHeight + INFO_HEIGHT + controlHeight;
@@ -784,6 +785,7 @@ function drawLegend() {
 // ---- Title band: the infographic's name, centered above the drawing in a large bold font ----
 function drawTitle() {
   noStroke(); fill(bgColor()); rect(0, 0, canvasWidth, TITLE_HEIGHT + drawHeight);   // aliceblue behind the title band and the drawing
+  if (TITLE_HEIGHT === 0) return;   // page supplies its own title
   fill(INK); textFont('Arial'); textStyle(BOLD); textAlign(CENTER, CENTER);
   let sz = TITLE_SIZE;
   textSize(sz);

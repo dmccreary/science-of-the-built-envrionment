@@ -1,6 +1,11 @@
 ---
 title: "Cold-climate exterior wall"
 description: "Students identify the layers of a cold-climate wall, see which job each layer does, and break layers to predict what happens to rain, air, vapor, and heat."
+image: /sims/example-cold-climate-wall/example-cold-climate-wall.png
+og:image: /sims/example-cold-climate-wall/example-cold-climate-wall.png
+twitter:image: /sims/example-cold-climate-wall/example-cold-climate-wall.png
+social:
+   cards: false
 status: built
 library: p5.js
 bloom_level: Remember, Understand

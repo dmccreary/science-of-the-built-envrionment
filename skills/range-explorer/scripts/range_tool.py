@@ -22,7 +22,7 @@ ENGINE_SRC = SKILL_DIR / "assets" / "range-explorer-engine.js"
 ENGINE_NAME = "range-explorer-engine.js"
 
 # Keep in step with the engine's layout constants
-ROW, INFO_HEIGHT, ROWH, HEADER, FOOT = 34, 120, 26, 64, 34
+ROW, INFO_HEIGHT, ROWH, HEADER, FOOT, TITLE_HEIGHT = 34, 120, 26, 64, 34, 44
 
 
 def load_spec(path):
@@ -30,7 +30,7 @@ def load_spec(path):
 
 
 def canvas_height(spec):
-    return HEADER + len(spec.get("items", [])) * ROWH + FOOT + INFO_HEIGHT + 2 * ROW + 6
+    return TITLE_HEIGHT + HEADER + len(spec.get("items", [])) * ROWH + FOOT + INFO_HEIGHT + 2 * ROW + 6
 
 
 def is_num(x):

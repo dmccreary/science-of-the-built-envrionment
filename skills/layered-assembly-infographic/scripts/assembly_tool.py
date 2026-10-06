@@ -42,7 +42,7 @@ engine_version = simkit.engine_version
 def canvas_height(spec):
     quiz_row = 1 if spec.get("quiz") is not False else 0
     rows = 2 + 1 + 1 + quiz_row + (1 if spec.get("conditions") else 0)
-    return TITLE_HEIGHT + spec.get("drawHeight", DEFAULT_DRAW_HEIGHT) + INFO_HEIGHT + ROW * rows + 6
+    return (0 if spec.get("showTitle") is False else TITLE_HEIGHT) + spec.get("drawHeight", DEFAULT_DRAW_HEIGHT) + INFO_HEIGHT + ROW * rows + 6
 
 
 def validate(spec, need_lesson=False):

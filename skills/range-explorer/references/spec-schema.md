@@ -8,8 +8,9 @@ The spec is one JavaScript constant, `const RANGES = {...};`, whose value is **s
 |---|---|---|
 | `schema` | yes | Always `"range-explorer/1"`. |
 | `id` | yes | Kebab-case; must equal the sim folder name. |
-| `title` | yes | Two to four words. |
-| `caption` | recommended | One or two short sentences shown under the title before a row is selected. Keep it to about 150 characters so it fits two lines at 640 px. Say that values are illustrative when they are. |
+| `title` | yes | Two to four words. Drawn centered in a large bold font (26 px, shrinking to fit) in a title band across the top of the canvas. |
+| `background` | no | CSS color for the title band and chart area. Default `"aliceblue"`, the book-wide MicroSim standard; the info panel and controls below stay white. |
+| `caption` | recommended | One or two short sentences shown in the info panel before a row is selected. Keep it to about 150 characters so it fits two lines at 640 px. Say that values are illustrative when they are. |
 | `axis` | yes | See below. |
 | `groups` | yes | 1 to 5 families; see below. |
 | `items` | yes | 2 to 16 options; see below. |
@@ -58,4 +59,4 @@ Sentences are complete, end with a period, and stay under about 170 characters.
 | Items | 2 to 16 | Rows are 26 px each and the canvas height grows with them. |
 | Groups | 1 to 5 | They are checkboxes on one row. |
 | Marks | up to 4 | Labels stagger under the chart. |
-| Canvas height | `64 + 26 x items + 34 + 120 + 2 x 34 + 6` | The tool computes it and sets the iframe height. |
+| Canvas height | `44 (title band) + 64 + 26 x items + 34 + 120 + 2 x 34 + 6` | The tool computes it and sets the iframe height. |

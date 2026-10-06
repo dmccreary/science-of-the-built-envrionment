@@ -1,6 +1,11 @@
 ---
 title: "Fire-Rated Partition Explorer"
 description: "Students read a one-hour fire-rated partition layer by layer, see which layers stop flame, slow heat, and damp sound, and remove layers to predict what fails first."
+image: /sims/fire-rated-partition-layer-explorer/fire-rated-partition-layer-explorer.png
+og:image: /sims/fire-rated-partition-layer-explorer/fire-rated-partition-layer-explorer.png
+twitter:image: /sims/fire-rated-partition-layer-explorer/fire-rated-partition-layer-explorer.png
+social:
+   cards: false
 status: built
 library: p5.js
 bloom_level: Understand, Analyze

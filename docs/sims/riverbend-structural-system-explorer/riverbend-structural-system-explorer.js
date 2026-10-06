@@ -185,7 +185,7 @@ function draw() {
   fill('black');
   textAlign(CENTER, TOP);
   textSize(24);
-  text('Riverbend Structural System Explorer', narrow ? canvasWidth / 2 : areaW / 2 + 10, 6);
+  text('Riverbend Structural System Explorer', canvasWidth / 2, 6);   // centered across the whole canvas; the side panel starts below it
   if (narrow) { textSize(14); } else { textSize(14); }
 
   drawGhosts();

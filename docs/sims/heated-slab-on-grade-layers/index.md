@@ -1,6 +1,11 @@
 ---
 title: "Heated slab on grade"
 description: "Students identify the layers under and in a heated slab on grade and predict how ground water, water vapor, and heat move when the gravel, vapor retarder, or foam is left out."
+image: /sims/heated-slab-on-grade-layers/heated-slab-on-grade-layers.png
+og:image: /sims/heated-slab-on-grade-layers/heated-slab-on-grade-layers.png
+twitter:image: /sims/heated-slab-on-grade-layers/heated-slab-on-grade-layers.png
+social:
+   cards: false
 status: built
 library: p5.js
 bloom_level: Remember, Understand

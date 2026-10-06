@@ -1,6 +1,11 @@
 ---
 title: "Structural span ranges"
 description: "Students set a span and see which framing systems can reach it, which are in their typical range, and which are possible but unusual."
+image: /sims/structural-span-range-explorer/structural-span-range-explorer.png
+og:image: /sims/structural-span-range-explorer/structural-span-range-explorer.png
+twitter:image: /sims/structural-span-range-explorer/structural-span-range-explorer.png
+social:
+   cards: false
 status: built
 library: p5.js
 bloom_level: Understand, Apply
@@ -8,14 +13,14 @@ bloom_level: Understand, Apply
 
 # Structural span ranges
 
-<iframe src="main.html" width="100%" height="632" scrolling="no"></iframe>
+<iframe src="main.html" width="100%" height="676" scrolling="no"></iframe>
 
 [Run the Structural span ranges MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 Place the following line in your website to include this MicroSim in your course.
 
 ```html
-<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/structural-span-range-explorer/main.html" width="100%" height="632" scrolling="no"></iframe>
+<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/structural-span-range-explorer/main.html" width="100%" height="676" scrolling="no"></iframe>
 ```
 
 ## Description

@@ -13,14 +13,14 @@ bloom_level: Understand, Apply
 
 # Concrete Composition and Strength Gain Explorer
 
-<iframe src="main.html" width="100%" height="742" scrolling="no"></iframe>
+<iframe src="main.html" width="100%" height="778" scrolling="no"></iframe>
 
 [Run the Concrete Composition and Strength Gain Explorer MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 Place the following line in your website to include this MicroSim in your course.
 
 ```html
-<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/concrete-composition-strength-gain-explorer/main.html" width="100%" height="742" scrolling="no"></iframe>
+<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/concrete-composition-strength-gain-explorer/main.html" width="100%" height="778" scrolling="no"></iframe>
 ```
 
 ## Description

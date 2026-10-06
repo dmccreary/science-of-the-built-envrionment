@@ -89,7 +89,7 @@ Wood is durable when it stays dry. As Chapter 21 explains, wood that stays above
 
 #### Diagram: CLT Warm Roof Assembly Explorer
 
-<iframe src="../../sims/clt-warm-roof-assembly-explorer/main.html" width="100%" height="890px" scrolling="no"></iframe>
+<iframe src="../../sims/clt-warm-roof-assembly-explorer/main.html" width="100%" height="930px" scrolling="no"></iframe>
 
 [Run the CLT Warm Roof Assembly Explorer MicroSim fullscreen](../../sims/clt-warm-roof-assembly-explorer/main.html){ .md-button }
 

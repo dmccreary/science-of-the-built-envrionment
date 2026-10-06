@@ -1,6 +1,11 @@
 ---
 title: "Low-slope warm roof"
 description: "Students identify the layers of a low-slope warm roof and predict what happens to rain, air, vapor, and heat when a layer fails."
+image: /sims/example-low-slope-warm-roof/example-low-slope-warm-roof.png
+og:image: /sims/example-low-slope-warm-roof/example-low-slope-warm-roof.png
+twitter:image: /sims/example-low-slope-warm-roof/example-low-slope-warm-roof.png
+social:
+   cards: false
 status: built
 library: p5.js
 bloom_level: Remember, Understand

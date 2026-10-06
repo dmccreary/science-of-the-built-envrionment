@@ -92,7 +92,7 @@ or 113 kips. In tension, at about 10 percent of that strength, the same concrete
 #### Diagram: Concrete Composition and Strength Gain Explorer
 
 
-<iframe src="../../sims/concrete-composition-strength-gain-explorer/main.html" width="100%" height="742px" scrolling="no"></iframe>
+<iframe src="../../sims/concrete-composition-strength-gain-explorer/main.html" width="100%" height="778px" scrolling="no"></iframe>
 [Run Concrete Composition and Strength Gain Explorer Fullscreen](../../sims/concrete-composition-strength-gain-explorer/main.html)
 
 <details markdown="1">

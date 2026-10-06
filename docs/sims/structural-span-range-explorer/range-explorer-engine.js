@@ -1,13 +1,16 @@
 // Range Explorer Engine - a chart of ranges (spans, sizes, capacities) with a value you can move to see what qualifies
-// ENGINE_VERSION: 1.0.0
+// ENGINE_VERSION: 1.1.0
 // Shared by every sim made with the range-explorer skill. Do not edit a sim's copy by hand;
 // edit skills/range-explorer/assets/range-explorer-engine.js and run `range_tool.py sync --apply`.
 //
 // Expects a global `RANGES` (schema "range-explorer/1") defined in a file loaded BEFORE this one.
 // Teaching idea: a static range chart answers "what is typical?". Moving a value answers "what works for MY number?".
 
-const ENGINE_VERSION = '1.0.0';
+const ENGINE_VERSION = '1.1.0';
 
+const TITLE_HEIGHT = 44;   // centered title band at the top of the canvas (above the chart)
+const TITLE_SIZE = 26;     // title font size in px; shrinks to fit narrow canvases, never below TITLE_MIN
+const TITLE_MIN = 16;
 const ROW = 34;            // height of one control row
 const INFO_HEIGHT = 120;   // detail panel under the chart
 const ROWH = 26;           // height of one chart row
@@ -15,6 +18,7 @@ const HEADER = 64;         // readout and axis labels above the rows
 const FOOT = 34;           // reference-mark labels under the rows
 const margin = 16;
 const INK = '#222222';
+const DEFAULT_BG = 'aliceblue';   // book-wide MicroSim standard: aliceblue chart area, white control area; override with RANGES.background
 
 let canvasWidth = 400, containerWidth = 400;
 let chartHeight = 0, canvasHeight = 0;
@@ -43,7 +47,7 @@ function setup() {
     return;
   }
   chartHeight = HEADER + R.items.length * ROWH + FOOT;
-  canvasHeight = chartHeight + INFO_HEIGHT + 2 * ROW + 6;
+  canvasHeight = TITLE_HEIGHT + chartHeight + INFO_HEIGHT + 2 * ROW + 6;
   console.log('CANVAS_HEIGHT ' + canvasHeight + ' (engine ' + ENGINE_VERSION + ')');
 
   const canvas = createCanvas(containerWidth, canvasHeight);
@@ -91,7 +95,7 @@ function resetAll() {
 
 // ---- Controls: two rows under the info panel ----
 function positionControls() {
-  const top = chartHeight + INFO_HEIGHT;
+  const top = TITLE_HEIGHT + chartHeight + INFO_HEIGHT;
   const y0 = top + 6, y1 = top + ROW + 6;
   valueSlider.position(margin + 130, y0 + 2);
   valueSlider.size(max(80, canvasWidth - margin - 130 - 150 - margin));
@@ -104,6 +108,7 @@ function positionControls() {
 }
 
 // ---- Helpers ----
+function bgColor() { return (R && R.background) || DEFAULT_BG; }
 function useSI() { return !!unitSel && unitSel.value() === 'SI'; }
 function groupOf(item) { return R.groups.find(g => g.id === item.group) || R.groups[0]; }
 function groupVisible(gid) { const i = R.groups.findIndex(g => g.id === gid); return i < 0 ? true : groupBoxes[i].checked(); }
@@ -163,7 +168,7 @@ function drawRow(it, k) {
   const on = contains(it);
   const fade = on ? 255 : 80;
   const col = color(g.color);
-  if (k % 2 === 0) { noStroke(); fill(248); rect(margin - 4, y, canvasWidth - 2 * margin + 8, ROWH); }
+  if (k % 2 === 0) { noStroke(); fill(255, 255, 255, 150); rect(margin - 4, y, canvasWidth - 2 * margin + 8, ROWH); }
   if (it.id === selectedId || it.id === hoveredId) { noFill(); stroke('#e65100'); strokeWeight(it.id === selectedId ? 2 : 1); rect(margin - 4, y + 1, canvasWidth - 2 * margin + 8, ROWH - 2, 3); }
   // label
   noStroke(); fill(red(col), green(col), blue(col), fade); circle(margin + 4, cy, 9);
@@ -218,9 +223,9 @@ function drawReadout(rows) {
 }
 
 function drawInfo(rows) {
-  const y0 = chartHeight, wInfo = canvasWidth - 2 * margin;
-  noStroke(); fill(250); rect(0, y0, canvasWidth, INFO_HEIGHT);
-  stroke(200); strokeWeight(1); line(0, y0, canvasWidth, y0);
+  const y0 = TITLE_HEIGHT + chartHeight, wInfo = canvasWidth - 2 * margin;
+  noStroke(); fill(255); rect(0, y0, canvasWidth, INFO_HEIGHT);
+  stroke('silver'); strokeWeight(1); line(0, y0, canvasWidth, y0);
   noStroke(); textAlign(LEFT, TOP);
   const it = R.items.find(i => i.id === selectedId);
   if (it) {
@@ -239,32 +244,47 @@ function drawInfo(rows) {
       yy += textWidth(k + v) > wInfo - 10 ? 28 : 16;
     });
   } else {
-    textStyle(BOLD); textSize(13); fill(INK);
-    text(R.title, margin, y0 + 6);
     textStyle(NORMAL); textSize(12); fill(70);
-    text(R.caption || 'Move the slider or drag the red marker. Click a row to see what it is and what to watch out for.', margin, y0 + 24, wInfo, 44);
+    text(R.caption || 'Move the slider or drag the red marker. Click a row to see what it is and what to watch out for.', margin, y0 + 8, wInfo, 44);
     const ok = rows.filter(contains).map(r => r.name);
     textSize(11); fill(50);
-    text(ok.length ? 'Reaches ' + fmt(value()) + ': ' + ok.join(', ') + '.' : 'Nothing in this chart reaches ' + fmt(value()) + '.', margin, y0 + 70, wInfo, 46);
+    text(ok.length ? 'Reaches ' + fmt(value()) + ': ' + ok.join(', ') + '.' : 'Nothing in this chart reaches ' + fmt(value()) + '.', margin, y0 + 56, wInfo, 56);
   }
+}
+
+// ---- Title band: the chart's name, centered above it in a large bold font ----
+function drawTitle() {
+  noStroke(); fill(bgColor()); rect(0, 0, canvasWidth, TITLE_HEIGHT + chartHeight);   // aliceblue behind the title band and the chart
+  fill(INK); textFont('Arial'); textStyle(BOLD); textAlign(CENTER, CENTER);
+  let sz = TITLE_SIZE;
+  textSize(sz);
+  while (sz > TITLE_MIN && textWidth(R.title) > canvasWidth - 2 * margin) { sz--; textSize(sz); }
+  text(R.title, canvasWidth / 2, TITLE_HEIGHT / 2 + 1);
+  stroke('silver'); strokeWeight(1); line(margin, TITLE_HEIGHT - 1, canvasWidth - margin, TITLE_HEIGHT - 1);
+  noStroke(); textStyle(NORMAL);
 }
 
 function draw() {
   if (specError) { background(255); fill(180, 0, 0); textSize(14); text(specError, 12, 40); return; }
   background(255);
+  drawTitle();
   rowsNow = visibleRows();
   const n = rowsNow.length;
-  // hover
+  // hover (my = mouse position in chart-area coordinates, below the title band)
+  const my = mouseY - TITLE_HEIGHT;
   hoveredId = null;
-  if (mouseY >= HEADER && mouseY < HEADER + n * ROWH && mouseX > 0 && mouseX < canvasWidth) hoveredId = rowsNow[floor((mouseY - HEADER) / ROWH)].id;
+  if (my >= HEADER && my < HEADER + n * ROWH && mouseX > 0 && mouseX < canvasWidth) hoveredId = rowsNow[floor((my - HEADER) / ROWH)].id;
+  push();
+  translate(0, TITLE_HEIGHT);   // the chart is laid out from y = 0 below the title band
   drawAxis(n);
   rowsNow.forEach(drawRow);
   drawMarks(n);
   drawMarker(n);
   drawReadout(rowsNow);
+  pop();
   drawInfo(rowsNow);
   // control captions (the controls themselves are p5 DOM elements)
-  const top = chartHeight + INFO_HEIGHT;
+  const top = TITLE_HEIGHT + chartHeight + INFO_HEIGHT;
   noStroke(); fill(70); textSize(13); textStyle(BOLD); textAlign(LEFT, CENTER);
   text(R.axis.label + ': ' + fmt(value()), margin, top + 6 + 12);
   // hover tooltip
@@ -273,7 +293,7 @@ function draw() {
     const t = it.name + ': ' + fmt(it.range[0], false) + ' to ' + fmt(it.range[1]) + (it.typical ? ' (typical ' + fmt(it.typical[0], false) + ' to ' + fmt(it.typical[1]) + ')' : '');
     textSize(11); textStyle(NORMAL);
     const tw = textWidth(t) + 12;
-    const tx = constrain(mouseX + 12, 4, canvasWidth - tw - 4), ty = constrain(mouseY + 14, 4, chartHeight - 22);
+    const tx = constrain(mouseX + 12, 4, canvasWidth - tw - 4), ty = constrain(mouseY + 14, TITLE_HEIGHT + 4, TITLE_HEIGHT + chartHeight - 22);
     fill(255, 255, 220); stroke(INK); strokeWeight(1); rect(tx, ty, tw, 20, 3);
     noStroke(); fill(INK); textAlign(LEFT, CENTER); text(t, tx + 6, ty + 10);
   }
@@ -282,12 +302,13 @@ function draw() {
 // ---- Mouse: click a label to select; click or drag in the plot to move the marker ----
 function mousePressed() {
   if (specError) return;
-  if (mouseX < 0 || mouseX > canvasWidth || mouseY < 0 || mouseY >= chartHeight) return;
+  const my = mouseY - TITLE_HEIGHT;
+  if (mouseX < 0 || mouseX > canvasWidth || my < 0 || my >= chartHeight) return;
   if (mouseX < plotLeft() - 6) {
     if (hoveredId) selectedId = (selectedId === hoveredId) ? null : hoveredId;
     return;
   }
-  if (mouseX >= plotLeft() - 6 && mouseY >= HEADER - 18 && mouseY < chartHeight) {
+  if (mouseX >= plotLeft() - 6 && my >= HEADER - 18 && my < chartHeight) {
     dragging = true;
     valueSlider.value(vOf(mouseX));
   }

@@ -1,6 +1,11 @@
 ---
 title: "Brick veneer rainscreen wall"
 description: "Students trace wind-driven rain and air leakage through four layers of a brick veneer rainscreen wall, then break each layer to predict which one lets water or air reach the sheathing."
+image: /sims/brick-veneer-rainscreen-layer-explorer/brick-veneer-rainscreen-layer-explorer.png
+og:image: /sims/brick-veneer-rainscreen-layer-explorer/brick-veneer-rainscreen-layer-explorer.png
+twitter:image: /sims/brick-veneer-rainscreen-layer-explorer/brick-veneer-rainscreen-layer-explorer.png
+social:
+   cards: false
 status: built
 library: p5.js
 bloom_level: Understand, Analyze

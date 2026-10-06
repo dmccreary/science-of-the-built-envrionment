@@ -10,6 +10,7 @@
         * { box-sizing: border-box; }
         body { margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif; font-size: 14px; color: black; background: white; }
         main { width: 100%; border: 1px solid silver; background: white; }
+        h1 { margin: 0; padding: 5px 10px; font-size: 20px; text-align: center; background: aliceblue; border-bottom: 1px solid silver; }
         #charts { display: flex; flex-wrap: wrap; background: aliceblue; border-bottom: 1px solid silver; }
         #pieWrap { position: relative; flex: 1 1 280px; height: 390px; padding: 4px 6px; }
         #lineWrap { position: relative; flex: 2 1 380px; height: 390px; padding: 4px 6px; }
@@ -44,6 +45,7 @@
 </head>
 <body>
     <main>
+        <h1>Concrete Composition and Strength Gain Explorer</h1>
         <div id="charts">
             <div id="pieWrap"><canvas id="pieChart" role="img" aria-label="Doughnut chart of the volumes of aggregates, cement, water, and air in one cubic yard of concrete"></canvas></div>
             <div id="lineWrap"><canvas id="lineChart" role="img" aria-label="Strength gain curves of concrete from 0 to 28 days for three curing conditions"></canvas></div>
