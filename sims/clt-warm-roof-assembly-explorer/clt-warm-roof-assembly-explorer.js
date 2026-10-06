@@ -13,6 +13,7 @@ const ASSEMBLY = {
   "caption": "Which layer protects the timber from which threat? Click a layer to read its job. Values are illustrative and the temperatures are a steady-state teaching model.",
   "drawHeight": 330,
   "quiz": false,
+  "showTitle": false,
   "units": "IP",
   "chapter": { "number": 13, "title": "Roof Assemblies", "dir": "13-roof-assemblies" },
   "lesson": {

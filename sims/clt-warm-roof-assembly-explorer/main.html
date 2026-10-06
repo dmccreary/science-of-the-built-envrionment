@@ -13,6 +13,7 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         /* prediction panel above the drawing (the drawing and its p5 controls live inside <main>) */
+        h1 { margin: 0; padding: 5px 10px; font-size: 26px; text-align: center; background: aliceblue; border: 1px solid silver; border-bottom: none; }
         #predict { padding: 6px 10px; border: 1px solid silver; border-bottom: none; background: aliceblue; font-size: 14px; line-height: 1.25; }
         #predict .head { font-weight: bold; margin: 0 0 4px; }
         #predict .opts { display: grid; grid-template-columns: 1fr 1fr; gap: 4px 8px; margin: 4px 0; }
@@ -33,6 +34,7 @@
     <script src="clt-predict.js"></script>
 </head>
 <body>
+    <h1>CLT warm roof</h1>
     <div id="predict">
         <p class="head" id="pHead"></p>
         <div class="opts" id="pOpts" role="radiogroup" aria-label="Consequence if this layer is removed"></div>
