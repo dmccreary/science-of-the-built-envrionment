@@ -136,7 +136,7 @@ The MicroSim below draws a low-slope warm roof from the sky down to the room. Na
 
 #### Diagram: Low-Slope Warm Roof
 
-<iframe src="../../sims/example-low-slope-warm-roof/main.html" width="100%" height="704px" scrolling="no"></iframe>
+<iframe src="../../sims/example-low-slope-warm-roof/main.html" width="100%" height="782px" scrolling="no"></iframe>
 
 [Run the Low-Slope Warm Roof MicroSim fullscreen](../../sims/example-low-slope-warm-roof/main.html){ .md-button }
 

@@ -6,6 +6,7 @@ These conventions are what make every assembly in the book read the same way. Th
 
 **Line art is the object; color is the invisible flow.**
 
+- The title band and drawing area sit on an `aliceblue` background (the book-wide MicroSim standard, set by the spec's `background`); the info panel and controls are white. Line art mode switches the drawing background to white so it prints cleanly.
 - Layers are drawn as black line work on white (or a pale fill). The Line art checkbox removes the fills and turns the flow dots into black rings, so the diagram prints and photocopies cleanly and works for color-blind readers.
 - Saturated color is reserved for the moving flow dots. Use these colors for the same flows in every sim, poster, and chart:
 

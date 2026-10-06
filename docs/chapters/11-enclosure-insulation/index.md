@@ -202,7 +202,7 @@ The next MicroSim draws a simpler cold-climate wall as a stack of eight layers. 
 
 #### Diagram: Cold-Climate Exterior Wall
 
-<iframe src="../../sims/example-cold-climate-wall/main.html" width="100%" height="698px" scrolling="no"></iframe>
+<iframe src="../../sims/example-cold-climate-wall/main.html" width="100%" height="776px" scrolling="no"></iframe>
 
 [Run the Cold-Climate Exterior Wall MicroSim fullscreen](../../sims/example-cold-climate-wall/main.html){ .md-button }
 

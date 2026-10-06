@@ -10,7 +10,8 @@ const ASSEMBLY = {
   "sideA": "Outside",
   "sideB": "Framed wall",
   "caption": "Read the wall from outside (left) to the framed wall (right); the framing, insulation, and interior finish are left out. Dots are schematic and show which layer stops each flow, not how fast it moves. Click a layer, then break it and predict where the rain and the wind-driven air end up.",
-  "drawHeight": 400,
+  "drawHeight": 350,
+  "stackSize": 110,
   "chapter": {
     "number": 12,
     "title": "Cladding, Windows, Doors, and Air Sealing",

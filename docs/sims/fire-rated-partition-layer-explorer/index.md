@@ -9,14 +9,14 @@ csi: ["09 21 16 Gypsum Board Assemblies", "09 22 16 Non-Structural Metal Framing
 
 # Fire-Rated Partition Explorer
 
-<iframe src="main.html" width="100%" height="698" scrolling="no"></iframe>
+<iframe src="main.html" width="100%" height="742" scrolling="no"></iframe>
 
 [Run the Fire-Rated Partition Explorer MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 Place the following line in your website to include this MicroSim in your course.
 
 ```html
-<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/fire-rated-partition-layer-explorer/main.html" width="100%" height="698" scrolling="no"></iframe>
+<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/fire-rated-partition-layer-explorer/main.html" width="100%" height="742" scrolling="no"></iframe>
 ```
 
 ## Description

@@ -9,14 +9,14 @@ csi: ["04 20 00 Unit Masonry", "07 25 00 Weather Barriers", "06 16 00 Sheathing"
 
 # Brick veneer rainscreen wall
 
-<iframe src="main.html" width="100%" height="698" scrolling="no"></iframe>
+<iframe src="main.html" width="100%" height="692" scrolling="no"></iframe>
 
 [Run the Brick veneer rainscreen wall MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 Place the following line in your website to include this MicroSim in your course.
 
 ```html
-<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/brick-veneer-rainscreen-layer-explorer/main.html" width="100%" height="698" scrolling="no"></iframe>
+<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/brick-veneer-rainscreen-layer-explorer/main.html" width="100%" height="692" scrolling="no"></iframe>
 ```
 
 ## Description

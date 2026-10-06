@@ -11,7 +11,7 @@ This skill turns a short data file describing a stack of building layers into a 
 
 Classic construction texts such as Ching's *Building Construction Illustrated* teach assemblies with clean black-and-white section drawings and short leader-line labels. That is a strong model, and it has one gap: a static page shows the object but not the invisible flows (heat, air, water, vapor) that explain why each layer is there. This skill keeps the clarity and adds the explanation. Four rules follow from that, and the engine enforces the first three:
 
-1. **Line art is the object; color is the flow.** Layers are black-and-white hatched drawings (color fills are a soft option, and a Line art checkbox removes them). Saturated color appears only on the moving dots that stand for heat, air, water, and vapor.
+1. **Line art is the object; color is the flow.** Layers are black-and-white hatched drawings (color fills are a soft option, and a Line art checkbox removes them). Saturated color appears only on the moving dots that stand for heat, air, water, and vapor. The title band and drawing sit on the book's standard `aliceblue` MicroSim background (spec field `background`, default `aliceblue`); the info panel and controls are white, and Line art mode switches the drawing to white for printing.
 2. **Every layer has two levels of explanation.** The callout says *what it is* (a short noun phrase). The detail panel says *what it is, why it is there, and what happens if it fails*. The "why" is where the book adds value.
 3. **Predict, then test.** Students remove or puncture a layer and watch which flows now get through. The lesson plan should ask for a prediction first.
 4. **Content comes from the chapter, not from memory.** The numbers (R-values, thicknesses) are illustrative values that must match the chapter the sim belongs to. See "Facts and honesty" below.
@@ -78,7 +78,8 @@ This writes the whole folder into `docs/sims/<sim-id>/` with status `built`, cop
 Open the sim from a local static server (do not start `mkdocs serve`; the author runs that) and exercise every control: click each layer, untick every layer box in both modes (Remove the layer, then Punch a hole), move Explode, toggle each flow, Temperature, Line art, Legend (on by default; untick to hide), the unit selector, Quiz me (answer one right and one wrong), and Reset. Check that:
 
 - no callout overlaps another or runs off the canvas, and the leader lines do not cross labels;
-- the status line under the title tells the truth for the intact assembly (for example, rain stopped at the weather-resistive barrier, not "reaches inside");
+- the title is centered at the top, fully visible, and not cut off at 640 px;
+- the status line in the info panel tells the truth for the intact assembly (for example, rain stopped at the weather-resistive barrier, not "reaches inside");
 - the console has no errors.
 
 Fix the spec (shorter names, a different direction, fewer layers) before touching the engine. If the engine itself has a defect, fix it in `assets/layered-assembly-engine.js`, bump `ENGINE_VERSION`, and run `assembly_tool.py sync --apply` so every sim gets the fix. Say so in your report.

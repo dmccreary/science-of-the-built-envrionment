@@ -9,14 +9,14 @@ csi: ["03 30 00 Cast-in-Place Concrete", "07 21 00 Thermal Insulation", "07 26 0
 
 # Heated slab on grade
 
-<iframe src="main.html" width="100%" height="792" scrolling="no"></iframe>
+<iframe src="main.html" width="100%" height="836" scrolling="no"></iframe>
 
 [Run the Heated slab on grade MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 Place the following line in your website to include this MicroSim in your course.
 
 ```html
-<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/heated-slab-on-grade-layers/main.html" width="100%" height="792" scrolling="no"></iframe>
+<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/heated-slab-on-grade-layers/main.html" width="100%" height="836" scrolling="no"></iframe>
 ```
 
 ## Description

@@ -9,14 +9,14 @@ csi: ["07 53 00 Elastomeric Membrane Roofing", "07 22 00 Roof and Deck Insulatio
 
 # Low-slope warm roof
 
-<iframe src="main.html" width="100%" height="738" scrolling="no"></iframe>
+<iframe src="main.html" width="100%" height="782" scrolling="no"></iframe>
 
 [Run the Low-slope warm roof MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 Place the following line in your website to include this MicroSim in your course.
 
 ```html
-<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/example-low-slope-warm-roof/main.html" width="100%" height="738" scrolling="no"></iframe>
+<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/example-low-slope-warm-roof/main.html" width="100%" height="782" scrolling="no"></iframe>
 ```
 
 ## Description

@@ -122,7 +122,7 @@ Brick is a rain *screen*, not a rain *barrier*. Wind-driven rain soaks through t
 
 #### Diagram: Brick Veneer Rainscreen Wall
 
-<iframe src="../../sims/brick-veneer-rainscreen-layer-explorer/main.html" width="100%" height="664px" scrolling="no"></iframe>
+<iframe src="../../sims/brick-veneer-rainscreen-layer-explorer/main.html" width="100%" height="692px" scrolling="no"></iframe>
 
 [Run the Brick Veneer Rainscreen Wall MicroSim fullscreen](../../sims/brick-veneer-rainscreen-layer-explorer/main.html){ .md-button }
 

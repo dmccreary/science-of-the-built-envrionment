@@ -18,15 +18,16 @@ The spec is one JavaScript constant, `const ASSEMBLY = {...};`, whose value is *
 | `schema` | yes | Always `"layered-assembly/1"`. |
 | `kind` | yes | `"stack"`. Other kinds are rejected with a pointer to next-steps idea 11. |
 | `id` | yes | Kebab-case; must equal the sim folder name. |
-| `title` | yes | Shown in the page title and info panel. Two to four words works best. |
+| `title` | yes | Drawn centered in a large bold font (26 px, shrinking to fit) in a title band across the top of the canvas, and used as the page title. Two to four words works best; a name wider than the canvas shrinks down to 16 px. |
 | `direction` | no | `"horizontal"` (default; left to right, walls) or `"vertical"` (top to bottom, roofs and slabs). |
 | `sideA`, `sideB` | yes | Names of the two faces. Layers are listed from A to B. Example: `"Outside"`, `"Inside"`. |
-| `caption` | no | One or two sentences shown under the title before a layer is selected. Say what to do and note any teaching-model limits. |
+| `caption` | no | One or two sentences shown in the info panel before a layer is selected. Say what to do and note any teaching-model limits. |
 | `drawHeight` | no | Height of the drawing area in px (default 400). Raise to 440 or more for vertical stacks with many layers. |
 | `stackSize` | no | Cross dimension of the stack in px (default 130 horizontal, 260 vertical). |
 | `units` | no | `"IP"` (default) or `"SI"`: the starting unit system. Students can toggle. |
 | `quiz` | no | The **Quiz me** control is on by default. Set `false` to remove it (and its control row). |
 | `currency` | recommended | What is timeless and what ages in this sim; see "`currency`" below. The validator warns if it is missing. |
+| `background` | no | CSS color for the title band and drawing area. Default `"aliceblue"`, the book-wide MicroSim standard; the info panel and controls below stay white. Change it only when a sim needs a different tint. |
 | `legend` | no | The hatch legend is **on by default** and students can untick the Legend checkbox. Set `false` only to start with it hidden. |
 
 ## `conditions` (optional)
@@ -90,7 +91,7 @@ Every layer has a checkbox under the drawing. It is **ticked while the layer is 
 - a **removed** layer ("Remove the layer") lets everything through;
 - a **punctured** layer ("Punch a hole") lets through only dots passing the hole, near the middle of the layer's cross dimension.
 
-The status line under the title summarizes the same logic: "stopped at 3 WRB", "slowed at 6 Stud cavity; some reaches outside", "only through the hole", or "reaches inside".
+The status line in the info panel summarizes the same logic: "stopped at 3 WRB", "slowed at 6 Stud cavity; some reaches outside", "only through the hole", or "reaches inside".
 
 ## `currency`
 
@@ -136,4 +137,4 @@ Needed by `assembly_tool.py new` (use `validate --for-new` to check). They feed 
 | Flows | 0 to 5 | One options row. |
 | Layer `name` | 16 characters | Callout width. |
 | `what`, `why`, `risk` | about 170 characters | Info panel width. |
-| Canvas height | `drawHeight + 120 + 34 x rows + 6`, rows = 5 (+1 with `conditions`, -1 with `quiz: false`) | The tool computes it and sets the iframe height. |
+| Canvas height | `44 (title band) + drawHeight + 120 + 34 x rows + 6`, rows = 5 (+1 with `conditions`, -1 with `quiz: false`) | The tool computes it and sets the iframe height. |

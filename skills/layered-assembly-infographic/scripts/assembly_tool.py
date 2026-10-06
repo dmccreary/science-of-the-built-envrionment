@@ -23,7 +23,7 @@ ENGINE_NAME = "layered-assembly-engine.js"
 REPO_ROOT = simkit.REPO_ROOT
 
 # Keep in step with the engine's layout constants
-ROW, INFO_HEIGHT, DEFAULT_DRAW_HEIGHT = 34, 120, 400
+ROW, INFO_HEIGHT, TITLE_HEIGHT, DEFAULT_DRAW_HEIGHT = 34, 120, 44, 400
 
 
 def load_spec(path):
@@ -42,7 +42,7 @@ engine_version = simkit.engine_version
 def canvas_height(spec):
     quiz_row = 1 if spec.get("quiz") is not False else 0
     rows = 2 + 1 + 1 + quiz_row + (1 if spec.get("conditions") else 0)
-    return spec.get("drawHeight", DEFAULT_DRAW_HEIGHT) + INFO_HEIGHT + ROW * rows + 6
+    return TITLE_HEIGHT + spec.get("drawHeight", DEFAULT_DRAW_HEIGHT) + INFO_HEIGHT + ROW * rows + 6
 
 
 def validate(spec, need_lesson=False):
@@ -63,6 +63,9 @@ def validate(spec, need_lesson=False):
             E("missing top-level field: " + key)
     if not re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*", spec.get("id", "x")):
         E("id must be kebab-case (lowercase letters, digits, hyphens)")
+
+    if "background" in spec and not (isinstance(spec["background"], str) and spec["background"].strip()):
+        E('background must be a CSS color string such as "aliceblue"')
 
     flows = spec.get("flows", [])
     flow_ids = []

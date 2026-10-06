@@ -9,14 +9,14 @@ csi: ["07 46 00 Siding", "07 25 00 Weather Barriers", "07 21 00 Thermal Insulati
 
 # Cold-climate exterior wall
 
-<iframe src="main.html" width="100%" height="732" scrolling="no"></iframe>
+<iframe src="main.html" width="100%" height="776" scrolling="no"></iframe>
 
 [Run the Cold-climate exterior wall MicroSim Fullscreen](main.html){ .md-button .md-button--primary }
 
 Place the following line in your website to include this MicroSim in your course.
 
 ```html
-<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/example-cold-climate-wall/main.html" width="100%" height="732" scrolling="no"></iframe>
+<iframe src="https://dmccreary.github.io/science-of-the-built-envrionment/sims/example-cold-climate-wall/main.html" width="100%" height="776" scrolling="no"></iframe>
 ```
 
 ## Description

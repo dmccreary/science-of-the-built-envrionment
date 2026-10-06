@@ -207,7 +207,7 @@ The MicroSim below shows a one-hour fire-rated partition as a stack of five laye
 
 #### Diagram: Fire-Rated Partition Explorer
 
-<iframe src="../../sims/fire-rated-partition-layer-explorer/main.html" width="100%" height="664px" scrolling="no"></iframe>
+<iframe src="../../sims/fire-rated-partition-layer-explorer/main.html" width="100%" height="742px" scrolling="no"></iframe>
 
 [Run the Fire-Rated Partition Explorer MicroSim fullscreen](../../sims/fire-rated-partition-layer-explorer/main.html){ .md-button }
 

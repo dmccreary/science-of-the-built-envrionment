@@ -1,5 +1,5 @@
 // Layered Assembly Engine - draws a cross-section stack of building layers from the ASSEMBLY data object
-// ENGINE_VERSION: 1.4.2
+// ENGINE_VERSION: 1.6.0
 // Shared by every sim made with the layered-assembly-infographic skill. Do not edit a sim's copy by hand;
 // edit skills/layered-assembly-infographic/assets/layered-assembly-engine.js and run `assembly_tool.py sync`.
 //
@@ -7,9 +7,12 @@
 // Design rule: the base drawing is black-and-white line art with a fixed hatch legend; color is used only
 // for the invisible flows (heat, air, water, vapor) that the drawing is there to explain.
 
-const ENGINE_VERSION = '1.4.2';
+const ENGINE_VERSION = '1.6.0';
 
 // ---- Layout constants (the scaffold tool uses the same arithmetic to size the iframe) ----
+const TITLE_HEIGHT = 44;   // centered title band at the top of the canvas (above the drawing)
+const TITLE_SIZE = 26;     // title font size in px; shrinks to fit narrow canvases, never below TITLE_MIN
+const TITLE_MIN = 16;
 const ROW = 34;            // height of one control row
 const INFO_HEIGHT = 120;   // detail panel under the drawing
 let drawHeight = 400;      // drawing area; overridden by ASSEMBLY.drawHeight
@@ -42,6 +45,7 @@ const MATERIALS = {
   finish:   { fill: '#a8a8a8', label: 'Finish', solid: true }
 };
 const INK = '#222222';
+const DEFAULT_BG = 'aliceblue';   // book-wide MicroSim standard: aliceblue drawing area, white control area; override with ASSEMBLY.background
 
 // ---- State ----
 let A;                      // alias for ASSEMBLY
@@ -78,7 +82,7 @@ function setup() {
   drawHeight = A.drawHeight || 400;
   const hasCond = !!A.conditions;
   controlHeight = ROW * (2 + 1 + 1 + (quizEnabled() ? 1 : 0) + (hasCond ? 1 : 0)) + 6;
-  canvasHeight = drawHeight + INFO_HEIGHT + controlHeight;
+  canvasHeight = TITLE_HEIGHT + drawHeight + INFO_HEIGHT + controlHeight;
   console.log('CANVAS_HEIGHT ' + canvasHeight + ' (engine ' + ENGINE_VERSION + ')');
 
   const canvas = createCanvas(containerWidth, canvasHeight);
@@ -152,7 +156,7 @@ function resetAll() {
 
 // ---- Control layout: rows below the info panel ----
 function positionControls() {
-  const top = drawHeight + INFO_HEIGHT;
+  const top = TITLE_HEIGHT + drawHeight + INFO_HEIGHT;
   const n = A.layers.length;
   const perRow = Math.ceil(n / 2);
   const colW = (canvasWidth - 2 * margin) / perRow;
@@ -235,7 +239,7 @@ function syncQuiz() {
   });
 }
 function drawQuizInfo() {
-  const y0 = drawHeight, wInfo = canvasWidth - 2 * margin;
+  const y0 = TITLE_HEIGHT + drawHeight, wInfo = canvasWidth - 2 * margin;
   noStroke(); textAlign(LEFT, TOP);
   textStyle(BOLD); textSize(13); fill(INK);
   text('Quiz: read the drawing', margin, y0 + 6);
@@ -258,6 +262,7 @@ function failMode() { return failSel.value(); }
 function isBroken(i) { return !breakBoxes[i].checked(); }   // an unticked box means the layer is removed or punctured
 function stateOf(i) { return isBroken(i) ? failMode() : 'intact'; }
 function lineArt() { return lineArtBox.checked(); }
+function bgColor() { return lineArtBox && lineArt() ? 255 : ((A && A.background) || DEFAULT_BG); }   // Line art mode goes white so it prints cleanly
 function legendDefault() { return !A || A.legend !== false; }   // on unless the spec says "legend": false
 function useSI() { return unitSel.value() === 'SI'; }
 function explode() { return explodeSlider.value() / 100; }
@@ -544,7 +549,7 @@ function drawLayer(i, hot) {
   if (st === 'hole') {
     const hw = (isH ? h : w) * 0.18;
     const a0 = isH ? y + h / 2 - hw / 2 : x + w / 2 - hw / 2;
-    fill(255); noStroke();
+    fill(bgColor()); noStroke();   // the notch shows the drawing background, so it reads as a gap
     if (isH) rect(x - 1, a0, w + 2, hw); else rect(a0, y - 1, hw, h + 2);
     stroke(INK); strokeWeight(1);
     if (isH) { line(x, a0, x + w, a0); line(x, a0 + hw, x + w, a0 + hw); }
@@ -700,9 +705,9 @@ function flowStatus() {
 }
 
 function drawInfo() {
-  const y0 = drawHeight;
-  noStroke(); fill(250); rect(0, y0, canvasWidth, INFO_HEIGHT);
-  stroke(200); strokeWeight(1); line(0, y0, canvasWidth, y0);
+  const y0 = TITLE_HEIGHT + drawHeight;
+  noStroke(); fill(255); rect(0, y0, canvasWidth, INFO_HEIGHT);
+  stroke('silver'); strokeWeight(1); line(0, y0, canvasWidth, y0);
   noStroke(); textAlign(LEFT, TOP);
   const wInfo = canvasWidth - 2 * margin;
   if (quizOn()) { drawQuizInfo(); return; }
@@ -733,13 +738,11 @@ function drawInfo() {
     if (L.csi) foot.push('MasterFormat ' + L.csi);
     if (foot.length) { fill(110); textSize(11); textStyle(NORMAL); text(foot.join('   |   '), margin, y0 + INFO_HEIGHT - 18); }
   } else {
-    textStyle(BOLD); textSize(13); fill(INK);
-    text(A.title, margin, y0 + 6, wInfo, 18);
     textStyle(NORMAL); textSize(12); fill(70);
-    text((A.caption || 'Click a layer or its label to see what it is and why it is there.'), margin, y0 + 24, wInfo, 32);
+    text((A.caption || 'Click a layer or its label to see what it is and why it is there.'), margin, y0 + 8, wInfo, 32);
     // flow results
     const st = flowStatus();
-    let xx = margin, yy = y0 + 62;
+    let xx = margin, yy = y0 + 48;
     textSize(11);
     st.forEach(s => {
       const t = s.name + ': ' + s.msg;
@@ -778,25 +781,42 @@ function drawLegend() {
   });
 }
 
+// ---- Title band: the infographic's name, centered above the drawing in a large bold font ----
+function drawTitle() {
+  noStroke(); fill(bgColor()); rect(0, 0, canvasWidth, TITLE_HEIGHT + drawHeight);   // aliceblue behind the title band and the drawing
+  fill(INK); textFont('Arial'); textStyle(BOLD); textAlign(CENTER, CENTER);
+  let sz = TITLE_SIZE;
+  textSize(sz);
+  while (sz > TITLE_MIN && textWidth(A.title) > canvasWidth - 2 * margin) { sz--; textSize(sz); }
+  text(A.title, canvasWidth / 2, TITLE_HEIGHT / 2 + 1);
+  stroke('silver'); strokeWeight(1); line(margin, TITLE_HEIGHT - 1, canvasWidth - margin, TITLE_HEIGHT - 1);
+  noStroke(); textStyle(NORMAL);
+}
+
 function draw() {
   if (specError) { background(255); fill(180, 0, 0); textSize(14); text(specError, 12, 40); return; }
   background(255);
   computeLayout();
   syncQuiz();
+  drawTitle();
   hovered = -1;
+  const my = mouseY - TITLE_HEIGHT;   // mouse position in drawing-area coordinates
   layerRects.forEach((r, i) => {
     const p = px(r.a0, r.c0), q = px(r.a1, r.c1);
-    if (mouseX >= min(p.x, q.x) && mouseX <= max(p.x, q.x) && mouseY >= min(p.y, q.y) && mouseY <= max(p.y, q.y) && mouseY < drawHeight) hovered = i;
+    if (mouseX >= min(p.x, q.x) && mouseX <= max(p.x, q.x) && my >= min(p.y, q.y) && my <= max(p.y, q.y) && my >= 0 && my < drawHeight) hovered = i;
   });
-  labelBoxes.forEach(b => { if (mouseX >= b.x && mouseX <= b.x + b.w && mouseY >= b.y && mouseY <= b.y + b.h) hovered = b.i; });
+  labelBoxes.forEach(b => { if (mouseX >= b.x && mouseX <= b.x + b.w && my >= b.y && my <= b.y + b.h) hovered = b.i; });
+  push();
+  translate(0, TITLE_HEIGHT);   // everything in the drawing area is laid out from y = 0 below the title band
   A.layers.forEach((L, i) => drawLayer(i, i === hovered));
   if (profileBox && profileBox.checked()) drawProfile();
   drawFlows();
   drawCallouts();
   if (legendBox.checked() && !quizHidesNames()) drawLegend();   // material names would give the answers away
+  pop();
   drawInfo();
   // control-row captions (the controls themselves are p5 DOM elements)
-  const top = drawHeight + INFO_HEIGHT;
+  const top = TITLE_HEIGHT + drawHeight + INFO_HEIGHT;
   noStroke(); fill(70); textSize(12); textStyle(NORMAL); textAlign(LEFT, CENTER);
   text('Unticked layer:', margin, top + 2 * ROW + 6 + 12);
   text('Explode', 262, top + 2 * ROW + 6 + 12);
@@ -805,11 +825,11 @@ function draw() {
     text(shortSide(A.sideA) + ' ' + fmtTemp(tempSlider.value()) + '  ·  ' + shortSide(A.sideB).toLowerCase() + ' ' + fmtTemp(A.conditions.tempB), 150, top + tempRowIndex() * ROW + 6 + 12);
   }
   // hover tooltip (hidden while a quiz question is open, because it names the layer)
-  if (hovered >= 0 && mouseY < drawHeight && !quizHidesNames()) {
+  if (hovered >= 0 && my >= 0 && my < drawHeight && !quizHidesNames()) {
     const L = A.layers[hovered];
     const t = L.name + (L.r !== undefined ? '  ·  ' + fmtR(L.r) : '') + '  ·  ' + fmtThickness(L.t);
     textSize(11); const tw = textWidth(t) + 12;
-    const tx = constrain(mouseX + 12, 4, canvasWidth - tw - 4), ty = constrain(mouseY + 14, 4, drawHeight - 22);
+    const tx = constrain(mouseX + 12, 4, canvasWidth - tw - 4), ty = constrain(mouseY + 14, TITLE_HEIGHT + 4, TITLE_HEIGHT + drawHeight - 22);
     fill(255, 255, 220); stroke(INK); strokeWeight(1); rect(tx, ty, tw, 20, 3);
     noStroke(); fill(INK); textAlign(LEFT, CENTER); text(t, tx + 6, ty + 10);
   }
@@ -817,7 +837,7 @@ function draw() {
 
 function mousePressed() {
   if (specError) return;
-  if (mouseX < 0 || mouseX > canvasWidth || mouseY < 0 || mouseY >= drawHeight) return;
+  if (mouseX < 0 || mouseX > canvasWidth || mouseY < TITLE_HEIGHT || mouseY >= TITLE_HEIGHT + drawHeight) return;
   if (quizOn()) { if (hovered >= 0) quizAnswer(hovered); return; }
   selected = hovered >= 0 ? hovered : -1;
 }

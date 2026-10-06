@@ -190,7 +190,7 @@ A **heated slab on grade** adds two more layers to this section. A sheet of rigi
 
 #### Diagram: Heated Slab on Grade
 
-<iframe src="../../sims/heated-slab-on-grade-layers/main.html" width="100%" height="758px" scrolling="no"></iframe>
+<iframe src="../../sims/heated-slab-on-grade-layers/main.html" width="100%" height="836px" scrolling="no"></iframe>
 
 [Run the Heated Slab on Grade MicroSim fullscreen](../../sims/heated-slab-on-grade-layers/main.html){ .md-button }
 
