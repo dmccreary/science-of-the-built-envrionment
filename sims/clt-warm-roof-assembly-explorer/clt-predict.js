@@ -1,5 +1,5 @@
 // CLT Warm Roof Assembly Explorer - prediction panel
-// CANVAS_HEIGHT: 905
+// CANVAS_HEIGHT: 888 (prediction panel + 670 px engine canvas, with the engine quiz turned off)
 // Bloom Level 2 (Understand): infer what follows when each layer of a CLT warm roof is removed.
 //
 // The drawing, the layer checkboxes, the flows and the temperature profile come from the shared
